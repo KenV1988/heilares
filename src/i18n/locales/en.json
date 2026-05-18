@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Home",
+    "panels": "Solar panels",
+    "workforce": "Workforce rental",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Request quote"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "requestQuote": "Request a quote",
+    "contactUs": "Get in touch",
+    "viewProject": "View project",
+    "viewAll": "View all",
+    "send": "Send",
+    "sending": "Sending...",
+    "loading": "Loading..."
+  },
+  "hero": {
+    "badge": "SOLAR ENERGY SPECIALISTS",
+    "title": "End-to-end solar energy solutions",
+    "subtitle": "Turnkey solar panel installation — rooftop, ground-mount and asymmetric solar parks across Estonia and Europe.",
+    "primaryCta": "Request a quote",
+    "secondaryCta": "Learn more"
+  },
+  "stats": {
+    "title": "Measurable experience",
+    "mw": "MW installed capacity",
+    "projects": "Completed projects",
+    "countries": "Countries in Europe",
+    "years": "Years in the field"
+  },
+  "services": {
+    "title": "Solar panel solutions",
+    "subtitle": "Three core installation types — all delivered turnkey.",
+    "tracker": {
+      "title": "Tracker park",
+      "desc": "Sun-tracking systems for maximum yield on large-scale solar fields."
+    },
+    "ground": {
+      "title": "Ground-mount park",
+      "desc": "Utility-scale ground-mounted solar parks. Full design and installation."
+    },
+    "roof": {
+      "title": "Rooftop park",
+      "desc": "Rooftop installations for industrial halls, warehouses and commercial buildings across Europe."
+    }
+  },
+  "workforce": {
+    "title": "Workforce rental",
+    "subtitle": "Experienced installation crews available for industrial and solar partners.",
+    "shipbuilding": {
+      "title": "Shipbuilding",
+      "desc": "Certified crews for shipbuilding projects across Northern Europe."
+    },
+    "factories": {
+      "title": "Factories",
+      "desc": "Industrial installation teams for factory environments — fast mobilization, high output."
+    },
+    "cta": "Discuss workforce rental"
+  },
+  "process": {
+    "title": "How we work",
+    "subtitle": "Simple and transparent — from first meeting to grid connection.",
+    "step1": { "title": "Consultation", "desc": "We map your needs, site and energy potential." },
+    "step2": { "title": "Engineering", "desc": "We design the technical solution and a precise quote." },
+    "step3": { "title": "Installation", "desc": "We deliver the mounting, panels and DC works with the inverter." },
+    "step4": { "title": "Handover", "desc": "We test, connect to the grid and hand over the site ready to run." }
+  },
+  "why": {
+    "title": "Why Heilares",
+    "subtitle": "A recognized partner for large-scale solar projects across Europe.",
+    "items": {
+      "scale": { "title": "Megawatt-scale experience", "desc": "Hundreds of MW installed in Estonia, Latvia and elsewhere in Europe." },
+      "turnkey": { "title": "Turnkey delivery", "desc": "One partner for the whole process — mounting, panels, DC, handover." },
+      "speed": { "title": "Fast mobilization", "desc": "Own crews and seasoned project managers ready to start." },
+      "quality": { "title": "Tier-1 components", "desc": "We work only with top-grade panels and inverters." }
+    }
+  },
+  "projectsSection": {
+    "title": "Selected projects",
+    "subtitle": "A selection of recent large-scale solar projects.",
+    "filter": {
+      "all": "All",
+      "tracker_park": "Tracker park",
+      "maapark": "Ground-mount",
+      "katusepark": "Rooftop"
+    },
+    "capacity": "Capacity",
+    "year": "Completed",
+    "location": "Location",
+    "details": {
+      "panels": "Panels",
+      "inverter": "Inverter",
+      "mounting": "Mounting system",
+      "duration": "Duration"
+    },
+    "back": "Back to projects"
+  },
+  "cta": {
+    "title": "Ready to start your solar project?",
+    "subtitle": "Request a free quote — we reply within 24 hours.",
+    "button": "Request a quote"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Let's talk about your project. We respond as soon as possible.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "projectType": "Project type",
+      "message": "Message",
+      "submit": "Send inquiry",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "you@company.com",
+      "phonePlaceholder": "+372 ...",
+      "companyPlaceholder": "Company name",
+      "messagePlaceholder": "Tell us about your project — location, size, timeline...",
+      "selectType": "Select type",
+      "types": {
+        "tracker_park": "Tracker park",
+        "maapark": "Ground-mount",
+        "katusepark": "Rooftop",
+        "workforce": "Workforce rental",
+        "other": "Other"
+      }
+    },
+    "errors": {
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "emailInvalid": "Invalid email address",
+      "messageRequired": "Please describe your project"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "hours": "Hours",
+      "hoursValue": "Mon–Fri 09:00–18:00",
+      "locationValue": "Estonia & Europe"
+    }
+  },
+  "footer": {
+    "tagline": "Solar energy specialists from Estonia, across Europe.",
+    "nav": "Pages",
+    "services": "Services",
+    "contactCol": "Contact",
+    "rights": "All rights reserved",
+    "social": "Social"
+  },
+  "quote": {
+    "title": "Request a quote",
+    "subtitle": "Fill in the form and we'll send a tailored quote within 24h.",
+    "close": "Close"
+  },
+  "seo": {
+    "home": {
+      "title": "Heilares OÜ — Solar energy specialists in Estonia and Europe",
+      "description": "Turnkey solar panel installation — rooftop, ground-mount and tracker parks. We operate in Estonia and across Europe."
+    },
+    "panels": {
+      "title": "Solar panels — Tracker, ground and rooftop parks | Heilares",
+      "description": "Three core solar installation types for B2B clients. Tier-1 components, experienced crews, megawatt scale."
+    },
+    "workforce": {
+      "title": "Workforce rental — Shipbuilding and factories | Heilares",
+      "description": "Experienced installation crews for hire. Shipbuilding and industrial sites across Europe."
+    },
+    "projects": {
+      "title": "Projects — Solar parks in Estonia and Europe | Heilares",
+      "description": "Large-scale solar projects — Risti, Stelpe, Kirikmäe, Lielvarde and more."
+    },
+    "contact": {
+      "title": "Contact — Heilares OÜ",
+      "description": "Reach the Heilares team. info@heilares.ee · +372 5693 0296."
+    }
+  }
+}

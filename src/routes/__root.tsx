@@ -78,6 +78,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Võtmed kätte päikesepaneelide paigaldus Eestis ja üle Euroopa. Tracker park, maapark, katusepark.",
       },
+      { property: "og:title", content: "Heilares OÜ — Päikeseenergia spetsialistid" },
+      { name: "twitter:title", content: "Heilares OÜ — Päikeseenergia spetsialistid" },
+      { name: "description", content: "Heilares Shine Static is a multilingual B2B marketing website for solar panel installation services." },
+      { property: "og:description", content: "Heilares Shine Static is a multilingual B2B marketing website for solar panel installation services." },
+      { name: "twitter:description", content: "Heilares Shine Static is a multilingual B2B marketing website for solar panel installation services." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5bf2977e-f6c0-475e-b447-208e59daba8c/id-preview-52d59b63--8c6c6adb-526e-4402-8f67-5f7940764851.lovable.app-1779080521850.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5bf2977e-f6c0-475e-b447-208e59daba8c/id-preview-52d59b63--8c6c6adb-526e-4402-8f67-5f7940764851.lovable.app-1779080521850.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Avaleht",
+    "panels": "Päikesepaneelid",
+    "workforce": "Tööjõu rent",
+    "projects": "Tehtud tööd",
+    "contact": "Kontakt",
+    "cta": "Küsi pakkumist"
+  },
+  "common": {
+    "learnMore": "Loe lähemalt",
+    "requestQuote": "Küsi pakkumist",
+    "contactUs": "Võta ühendust",
+    "viewProject": "Vaata projekti",
+    "viewAll": "Vaata kõiki",
+    "send": "Saada",
+    "sending": "Saadan...",
+    "loading": "Laen..."
+  },
+  "hero": {
+    "badge": "PÄIKESEENERGIA SPETSIALISTID",
+    "title": "Terviklikud päikeseenergia lahendused",
+    "subtitle": "Võtmed kätte päikesepaneelide paigaldus — katusejaamad, maajaamad ja asümmeetrilised päikesepargid Eestis ja üle Euroopa.",
+    "primaryCta": "Küsi pakkumist",
+    "secondaryCta": "Loe lähemalt"
+  },
+  "stats": {
+    "title": "Mõõdetav kogemus",
+    "mw": "MW paigaldatud võimsust",
+    "projects": "Lõpetatud projekti",
+    "countries": "Riiki Euroopas",
+    "years": "Aastat valdkonnas"
+  },
+  "services": {
+    "title": "Päikesepaneelide lahendused",
+    "subtitle": "Kolm peamist paigaldustüüpi — kõik võtmed kätte teenusena.",
+    "tracker": {
+      "title": "Tracker park",
+      "desc": "Päikest jälgivad süsteemid maksimaalse energiatootlikkuse jaoks suurtel päikesepõldudel."
+    },
+    "ground": {
+      "title": "Maapark",
+      "desc": "Maapealsed päikesepargid kommerts- ja tööstuslikus mastaabis. Kogu projekteerimine ja paigaldus."
+    },
+    "roof": {
+      "title": "Katusepark",
+      "desc": "Katusepaigaldused tööstushoonetele, lattudele ja ärihoonetele kogu Euroopas."
+    }
+  },
+  "workforce": {
+    "title": "Tööjõu rent",
+    "subtitle": "Kogenud paigaldusbrigaadid laenamiseks tööstustele ja päikeseenergia partneritele.",
+    "shipbuilding": {
+      "title": "Laevaehitus",
+      "desc": "Sertifitseeritud brigaadid laevaehituse projektide jaoks Põhja-Euroopas."
+    },
+    "factories": {
+      "title": "Tehased",
+      "desc": "Tööstusliku paigalduse meeskonnad tehasekeskkondades — kiire mobiliseerimine, kõrge tootlikkus."
+    },
+    "cta": "Räägi tööjõu rendist"
+  },
+  "process": {
+    "title": "Kuidas me töötame",
+    "subtitle": "Lihtne ja läbipaistev — alates esimesest kohtumisest kuni võrku ühendamiseni.",
+    "step1": { "title": "Konsultatsioon", "desc": "Kaardistame teie vajadused, asukoha ja energiapotentsiaali." },
+    "step2": { "title": "Projekteerimine", "desc": "Koostame tehnilise lahenduse ja täpse pakkumise." },
+    "step3": { "title": "Paigaldus", "desc": "Teostame raami, paneelide ja DC-tööd koos inverteriga." },
+    "step4": { "title": "Üleandmine", "desc": "Testime, ühendame võrku ja anname objekti kasutusvalmis üle." }
+  },
+  "why": {
+    "title": "Miks Heilares",
+    "subtitle": "Üle Euroopa tunnustatud partner suuremahuliste päikeseprojektide elluviimisel.",
+    "items": {
+      "scale": { "title": "Megavatt-skaala kogemus", "desc": "Sadu MW paigaldatud Eestis, Lätis ja mujal Euroopas." },
+      "turnkey": { "title": "Võtmed kätte teenus", "desc": "Üks partner kogu protsessile — raam, paneelid, DC, üleandmine." },
+      "speed": { "title": "Kiire mobiliseerimine", "desc": "Omad brigaadid ja kogenud projektijuhid valmis startima." },
+      "quality": { "title": "Tier-1 komponendid", "desc": "Töötame ainult tipptasemel paneelide ja inverteritega." }
+    }
+  },
+  "projectsSection": {
+    "title": "Tehtud tööd",
+    "subtitle": "Valik viimaseid suuremahulisi päikeseenergia projekte.",
+    "filter": {
+      "all": "Kõik",
+      "tracker_park": "Tracker park",
+      "maapark": "Maapark",
+      "katusepark": "Katusepark"
+    },
+    "capacity": "Võimsus",
+    "year": "Valmimine",
+    "location": "Asukoht",
+    "details": {
+      "panels": "Paneelid",
+      "inverter": "Inverter",
+      "mounting": "Kandekonstruktsioon",
+      "duration": "Teostusaeg"
+    },
+    "back": "Tagasi projektidele"
+  },
+  "cta": {
+    "title": "Valmis alustama oma päikeseprojekti?",
+    "subtitle": "Küsi tasuta pakkumist — vastame 24 tunni jooksul.",
+    "button": "Küsi pakkumist"
+  },
+  "contact": {
+    "title": "Võta meiega ühendust",
+    "subtitle": "Räägime sinu projektist. Vastame esimesel võimalusel.",
+    "form": {
+      "name": "Nimi",
+      "email": "E-post",
+      "phone": "Telefon",
+      "company": "Ettevõte",
+      "projectType": "Projekti tüüp",
+      "message": "Sõnum",
+      "submit": "Saada päring",
+      "namePlaceholder": "Sinu nimi",
+      "emailPlaceholder": "sina@ettevote.ee",
+      "phonePlaceholder": "+372 ...",
+      "companyPlaceholder": "Ettevõtte nimi",
+      "messagePlaceholder": "Räägi oma projektist — asukoht, suurus, ajakava...",
+      "selectType": "Vali tüüp",
+      "types": {
+        "tracker_park": "Tracker park",
+        "maapark": "Maapark",
+        "katusepark": "Katusepark",
+        "workforce": "Tööjõu rent",
+        "other": "Muu"
+      }
+    },
+    "errors": {
+      "nameRequired": "Palun sisesta nimi",
+      "emailRequired": "Palun sisesta e-post",
+      "emailInvalid": "Vigane e-posti aadress",
+      "messageRequired": "Palun kirjelda projekti"
+    },
+    "info": {
+      "email": "E-post",
+      "phone": "Telefon",
+      "location": "Asukoht",
+      "hours": "Tööajad",
+      "hoursValue": "E–R 09:00–18:00",
+      "locationValue": "Eesti & Euroopa"
+    }
+  },
+  "footer": {
+    "tagline": "Päikeseenergia spetsialistid Eestist üle Euroopa.",
+    "nav": "Lehed",
+    "services": "Teenused",
+    "contactCol": "Kontakt",
+    "rights": "Kõik õigused kaitstud",
+    "social": "Sotsiaalmeedia"
+  },
+  "quote": {
+    "title": "Küsi pakkumist",
+    "subtitle": "Täida vorm ja saadame personaalse pakkumise 24h jooksul.",
+    "close": "Sulge"
+  },
+  "seo": {
+    "home": {
+      "title": "Heilares OÜ — Päikeseenergia spetsialistid Eestis ja Euroopas",
+      "description": "Võtmed kätte päikesepaneelide paigaldus — katusepargid, maapargid ja tracker park. Tegutseme Eestis ja üle Euroopa."
+    },
+    "panels": {
+      "title": "Päikesepaneelid — Tracker, Maa- ja Katusepark | Heilares",
+      "description": "Kolm peamist päikesepaigalduse tüüpi B2B klientidele. Tier-1 komponendid, kogenud brigaadid, megavatt-skaala."
+    },
+    "workforce": {
+      "title": "Tööjõu rent — Laevaehitus ja tehased | Heilares",
+      "description": "Kogenud paigaldusbrigaadid laenamiseks. Laevaehitus ja tööstuslikud objektid kogu Euroopas."
+    },
+    "projects": {
+      "title": "Tehtud tööd — Päikesepargid Eestis ja Euroopas | Heilares",
+      "description": "Suurmahulised päikeseenergia projektid — Risti, Stelpe, Kirikmäe, Lielvarde jt."
+    },
+    "contact": {
+      "title": "Kontakt — Heilares OÜ",
+      "description": "Võta ühendust Heilares meeskonnaga. info@heilares.ee · +372 5693 0296."
+    }
+  }
+}

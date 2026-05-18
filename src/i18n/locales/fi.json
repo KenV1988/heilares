@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "panels": "Aurinkopaneelit",
+    "workforce": "Työvoiman vuokraus",
+    "projects": "Toteutetut projektit",
+    "contact": "Yhteystiedot",
+    "cta": "Pyydä tarjous"
+  },
+  "common": {
+    "learnMore": "Lue lisää",
+    "requestQuote": "Pyydä tarjous",
+    "contactUs": "Ota yhteyttä",
+    "viewProject": "Katso projekti",
+    "viewAll": "Katso kaikki",
+    "send": "Lähetä",
+    "sending": "Lähetetään...",
+    "loading": "Ladataan..."
+  },
+  "hero": {
+    "badge": "AURINKOENERGIAN ASIANTUNTIJAT",
+    "title": "Kokonaisvaltaiset aurinkoenergiaratkaisut",
+    "subtitle": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maa-asennukset ja epäsymmetriset aurinkopuistot Virossa ja koko Euroopassa.",
+    "primaryCta": "Pyydä tarjous",
+    "secondaryCta": "Lue lisää"
+  },
+  "stats": {
+    "title": "Mitattavaa kokemusta",
+    "mw": "MW asennettua tehoa",
+    "projects": "Valmistunutta projektia",
+    "countries": "Maata Euroopassa",
+    "years": "Vuotta alalla"
+  },
+  "services": {
+    "title": "Aurinkopaneeliratkaisut",
+    "subtitle": "Kolme pääasennustyyppiä — kaikki avaimet käteen -toimituksena.",
+    "tracker": {
+      "title": "Tracker-puisto",
+      "desc": "Aurinkoa seuraavat järjestelmät maksimaaliseen tuottoon suurissa aurinkopuistoissa."
+    },
+    "ground": {
+      "title": "Maa-asennettu puisto",
+      "desc": "Maahan asennetut suurikokoiset aurinkopuistot. Täysi suunnittelu ja asennus."
+    },
+    "roof": {
+      "title": "Kattopuisto",
+      "desc": "Kattoasennukset teollisuushalleihin, varastoihin ja liikekiinteistöihin ympäri Eurooppaa."
+    }
+  },
+  "workforce": {
+    "title": "Työvoiman vuokraus",
+    "subtitle": "Kokeneita asennusryhmiä teollisuuden ja aurinkoenergiakumppaneiden käyttöön.",
+    "shipbuilding": {
+      "title": "Laivanrakennus",
+      "desc": "Sertifioidut työryhmät laivanrakennusprojekteihin Pohjois-Euroopassa."
+    },
+    "factories": {
+      "title": "Tehtaat",
+      "desc": "Teollisten asennusten tiimit tehdasympäristöihin — nopea liikkeellelähtö, korkea tuotto."
+    },
+    "cta": "Keskustele työvoiman vuokrauksesta"
+  },
+  "process": {
+    "title": "Näin työskentelemme",
+    "subtitle": "Yksinkertaista ja läpinäkyvää — ensitapaamisesta verkkoonkytkentään.",
+    "step1": { "title": "Konsultointi", "desc": "Kartoitamme tarpeenne, sijainnin ja energiapotentiaalin." },
+    "step2": { "title": "Suunnittelu", "desc": "Laadimme teknisen ratkaisun ja tarkan tarjouksen." },
+    "step3": { "title": "Asennus", "desc": "Toteutamme rakenteen, paneelien ja DC-työt invertterin kanssa." },
+    "step4": { "title": "Luovutus", "desc": "Testaamme, kytkemme verkkoon ja luovutamme kohteen käyttövalmiina." }
+  },
+  "why": {
+    "title": "Miksi Heilares",
+    "subtitle": "Tunnustettu kumppani suurten aurinkoenergiaprojektien toteuttamiseen Euroopassa.",
+    "items": {
+      "scale": { "title": "Megawattiluokan kokemus", "desc": "Satoja megawatteja asennettua tehoa Virossa, Latviassa ja muualla Euroopassa." },
+      "turnkey": { "title": "Avaimet käteen -toimitus", "desc": "Yksi kumppani koko prosessille — rakenne, paneelit, DC, luovutus." },
+      "speed": { "title": "Nopea käynnistys", "desc": "Omat työryhmät ja kokeneet projektipäälliköt valmiina aloittamaan." },
+      "quality": { "title": "Tier-1-komponentit", "desc": "Käytämme vain huippuluokan paneeleja ja inverttereitä." }
+    }
+  },
+  "projectsSection": {
+    "title": "Valitut projektit",
+    "subtitle": "Valikoima viimeaikaisia suuria aurinkoenergiaprojekteja.",
+    "filter": {
+      "all": "Kaikki",
+      "tracker_park": "Tracker-puisto",
+      "maapark": "Maa-asennus",
+      "katusepark": "Kattopuisto"
+    },
+    "capacity": "Teho",
+    "year": "Valmistunut",
+    "location": "Sijainti",
+    "details": {
+      "panels": "Paneelit",
+      "inverter": "Invertteri",
+      "mounting": "Kiinnitysjärjestelmä",
+      "duration": "Kesto"
+    },
+    "back": "Takaisin projekteihin"
+  },
+  "cta": {
+    "title": "Valmis aloittamaan aurinkoenergiaprojektisi?",
+    "subtitle": "Pyydä ilmainen tarjous — vastaamme 24 tunnin kuluessa.",
+    "button": "Pyydä tarjous"
+  },
+  "contact": {
+    "title": "Ota meihin yhteyttä",
+    "subtitle": "Keskustellaan projektistasi. Vastaamme mahdollisimman pian.",
+    "form": {
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "phone": "Puhelin",
+      "company": "Yritys",
+      "projectType": "Projektin tyyppi",
+      "message": "Viesti",
+      "submit": "Lähetä tiedustelu",
+      "namePlaceholder": "Nimesi",
+      "emailPlaceholder": "sina@yritys.fi",
+      "phonePlaceholder": "+358 ...",
+      "companyPlaceholder": "Yrityksen nimi",
+      "messagePlaceholder": "Kerro projektistasi — sijainti, koko, aikataulu...",
+      "selectType": "Valitse tyyppi",
+      "types": {
+        "tracker_park": "Tracker-puisto",
+        "maapark": "Maa-asennus",
+        "katusepark": "Kattopuisto",
+        "workforce": "Työvoiman vuokraus",
+        "other": "Muu"
+      }
+    },
+    "errors": {
+      "nameRequired": "Anna nimesi",
+      "emailRequired": "Anna sähköpostisi",
+      "emailInvalid": "Virheellinen sähköpostiosoite",
+      "messageRequired": "Kuvaile projektisi"
+    },
+    "info": {
+      "email": "Sähköposti",
+      "phone": "Puhelin",
+      "location": "Sijainti",
+      "hours": "Aukioloajat",
+      "hoursValue": "Ma–Pe 09:00–18:00",
+      "locationValue": "Viro & Eurooppa"
+    }
+  },
+  "footer": {
+    "tagline": "Aurinkoenergian asiantuntijat Virosta, ympäri Eurooppaa.",
+    "nav": "Sivut",
+    "services": "Palvelut",
+    "contactCol": "Yhteystiedot",
+    "rights": "Kaikki oikeudet pidätetään",
+    "social": "Sosiaalinen media"
+  },
+  "quote": {
+    "title": "Pyydä tarjous",
+    "subtitle": "Täytä lomake ja lähetämme räätälöidyn tarjouksen 24 tunnin sisällä.",
+    "close": "Sulje"
+  },
+  "seo": {
+    "home": {
+      "title": "Heilares OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
+      "description": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja tracker-puistot. Toimimme Virossa ja koko Euroopassa."
+    },
+    "panels": {
+      "title": "Aurinkopaneelit — Tracker, maa- ja kattopuistot | Heilares",
+      "description": "Kolme pääasennustyyppiä B2B-asiakkaille. Tier-1-komponentit, kokeneet työryhmät, megawattiluokka."
+    },
+    "workforce": {
+      "title": "Työvoiman vuokraus — Laivanrakennus ja tehtaat | Heilares",
+      "description": "Kokeneita asennusryhmiä vuokrattavissa. Laivanrakennus ja teolliset kohteet ympäri Eurooppaa."
+    },
+    "projects": {
+      "title": "Projektit — Aurinkopuistot Virossa ja Euroopassa | Heilares",
+      "description": "Suurikokoiset aurinkoenergiaprojektit — Risti, Stelpe, Kirikmäe, Lielvarde ja muut."
+    },
+    "contact": {
+      "title": "Yhteystiedot — Heilares OÜ",
+      "description": "Ota yhteyttä Heilares-tiimiin. info@heilares.ee · +372 5693 0296."
+    }
+  }
+}

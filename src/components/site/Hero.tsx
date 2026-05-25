@@ -28,38 +28,19 @@ export function Hero() {
       </div>
 
       <div className="container-x relative z-10 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
+        <div>
           <SectionBadge>{t("hero.badge")}</SectionBadge>
-        </motion.div>
+        </div>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.05 }}
-          className="mx-auto mt-6 max-w-4xl text-balance text-[40px] font-bold leading-[1.02] tracking-tight text-white md:text-[72px] lg:text-[80px]"
-        >
+        <h1 className="mx-auto mt-6 max-w-4xl text-balance text-[40px] font-bold leading-[1.02] tracking-tight text-white md:text-[72px] lg:text-[80px]">
           {t("hero.title")}
-        </motion.h1>
+        </h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.12 }}
-          className="mx-auto mt-6 max-w-2xl text-balance text-base leading-relaxed text-white/70 md:text-lg"
-        >
+        <p className="mx-auto mt-6 max-w-2xl text-balance text-base leading-relaxed text-white/70 md:text-lg">
           {t("hero.subtitle")}
-        </motion.p>
+        </p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row"
-        >
+        <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <button
             onClick={() => setOpen(true)}
             className="group inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-7 py-3.5 text-sm font-semibold text-[#0a0f0d] transition hover:bg-[var(--brand-hover)]"
@@ -73,7 +54,7 @@ export function Hero() {
           >
             {t("hero.secondaryCta")}
           </a>
-        </motion.div>
+        </div>
       </div>
 
       <QuoteModal open={open} onOpenChange={setOpen} />

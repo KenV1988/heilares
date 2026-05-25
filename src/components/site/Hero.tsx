@@ -54,7 +54,7 @@ export function Hero() {
           >
             {t("hero.secondaryCta")}
           </a>
-        </motion.div>
+        </div>
       </div>
 
       <QuoteModal open={open} onOpenChange={setOpen} />

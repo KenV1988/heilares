@@ -13,10 +13,13 @@ export function Hero() {
     <section className="relative overflow-hidden pt-32 pb-24 md:pt-44 md:pb-32">
       {/* background image */}
       <div className="absolute inset-0 -z-10">
-        <img
-          src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2400&q=80"
-          alt=""
-          className="h-full w-full object-cover opacity-45"
+        <video
+          src="/hero-video.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="h-full w-full object-cover opacity-50"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--bg-base)]/70 via-[var(--bg-base)]/85 to-[var(--bg-base)]" />
         <div className="absolute inset-0 bg-grid opacity-40" />

@@ -6,6 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { getSupportedLang } from "@/i18n";
 
 const LANGS = [
   { code: "et", label: "EST", name: "Eesti" },
@@ -15,7 +16,8 @@ const LANGS = [
 
 export function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const current = LANGS.find((l) => l.code === i18n.language.slice(0, 2)) ?? LANGS[0];
+  const currentLang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
+  const current = LANGS.find((l) => l.code === currentLang) ?? LANGS[0];
 
   return (
     <DropdownMenu>

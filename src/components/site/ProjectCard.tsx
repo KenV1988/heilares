@@ -2,10 +2,11 @@ import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { formatCapacity, type Project } from "@/data/projects";
+import { getSupportedLang } from "@/i18n";
 
 export function ProjectCard({ project }: { project: Project }) {
   const { t, i18n } = useTranslation();
-  const lang = (i18n.language.slice(0, 2) as "et" | "en" | "fi") || "et";
+  const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   return (
     <Link
       to="/tehtud-tood/$slug"

@@ -9,6 +9,11 @@ export type Lang = (typeof SUPPORTED_LANGS)[number];
 
 const STORAGE_KEY = "heilares.lang";
 
+export function getSupportedLang(language?: string): Lang {
+  const lang = language?.slice(0, 2).toLowerCase();
+  return SUPPORTED_LANGS.includes(lang as Lang) ? (lang as Lang) : "et";
+}
+
 function detectInitialLang(): Lang {
   if (typeof window === "undefined") return "et";
   try {

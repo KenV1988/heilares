@@ -5,6 +5,7 @@ import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { projects, formatCapacity } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
+import { getSupportedLang } from "@/i18n";
 
 export const Route = createFileRoute("/tehtud-tood/$slug")({
   component: ProjectDetail,
@@ -18,7 +19,7 @@ export const Route = createFileRoute("/tehtud-tood/$slug")({
 function ProjectDetail() {
   const { project } = Route.useLoaderData();
   const { t, i18n } = useTranslation();
-  const lang = (i18n.language.slice(0, 2) as "et" | "en" | "fi") || "et";
+  const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
 
   return (
     <SiteLayout>

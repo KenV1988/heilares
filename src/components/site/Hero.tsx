@@ -11,22 +11,23 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden pt-32 pb-24 md:pt-44 md:pb-32">
-      {/* background image */}
-      <div className="absolute inset-0 -z-10">
+      {/* background video */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <video
           src="/hero-video.mp4"
           autoPlay
           muted
           loop
           playsInline
-          className="h-full w-full object-cover opacity-50"
+          preload="auto"
+          className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[var(--bg-base)]/70 via-[var(--bg-base)]/85 to-[var(--bg-base)]" />
-        <div className="absolute inset-0 bg-grid opacity-40" />
-        <div className="absolute inset-x-0 top-0 h-[600px] radial-glow" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--bg-base)]/40 via-[var(--bg-base)]/60 to-[var(--bg-base)]" />
+        <div className="absolute inset-0 bg-grid opacity-20" />
+        <div className="absolute inset-x-0 top-0 h-[600px] radial-glow opacity-60" />
       </div>
 
-      <div className="container-x relative text-center">
+      <div className="container-x relative z-10 text-center">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}

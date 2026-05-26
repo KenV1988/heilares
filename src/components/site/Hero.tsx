@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useState, useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionBadge } from "./Section";
@@ -8,18 +7,31 @@ import { QuoteModal } from "./QuoteModal";
 export function Hero() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    v.muted = true;
+    const tryPlay = () => v.play().catch(() => {});
+    tryPlay();
+    v.addEventListener("loadeddata", tryPlay);
+    return () => v.removeEventListener("loadeddata", tryPlay);
+  }, []);
 
   return (
     <section className="relative overflow-hidden pt-32 pb-24 md:pt-44 md:pb-32">
       {/* background video */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <video
+          ref={videoRef}
           src="/hero-video.mp4"
           autoPlay
           muted
           loop
           playsInline
           preload="auto"
+          disablePictureInPicture
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--bg-base)]/40 via-[var(--bg-base)]/60 to-[var(--bg-base)]" />

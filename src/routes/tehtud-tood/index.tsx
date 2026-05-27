@@ -7,9 +7,21 @@ import { SectionBadge } from "@/components/site/Section";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { projects, type ProjectCategory } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
+import i18n from "@/i18n";
 
 export const Route = createFileRoute("/tehtud-tood/")({
   component: ProjectsPage,
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.projects.title") },
+      { name: "description", content: i18n.t("seo.projects.description") },
+      { property: "og:title", content: i18n.t("seo.projects.title") },
+      { property: "og:description", content: i18n.t("seo.projects.description") },
+    ],
+    links: [
+      { rel: "canonical", href: "https://heilares.ainiki.ee/tehtud-tood" },
+    ],
+  }),
 });
 
 const FILTERS: (ProjectCategory | "all")[] = ["all", "tracker_park", "maapark", "katusepark"];

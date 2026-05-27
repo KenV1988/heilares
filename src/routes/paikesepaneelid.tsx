@@ -7,9 +7,21 @@ import { ParkTypes } from "@/components/site/ParkTypes";
 import { Process } from "@/components/site/Process";
 import { Why } from "@/components/site/Why";
 import { CTA } from "@/components/site/CTA";
+import i18n from "@/i18n";
 
 export const Route = createFileRoute("/paikesepaneelid")({
   component: PanelsPage,
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.panels.title") },
+      { name: "description", content: i18n.t("seo.panels.description") },
+      { property: "og:title", content: i18n.t("seo.panels.title") },
+      { property: "og:description", content: i18n.t("seo.panels.description") },
+    ],
+    links: [
+      { rel: "canonical", href: "https://heilares.ainiki.ee/paikesepaneelid" },
+    ],
+  }),
 });
 
 function PanelsPage() {

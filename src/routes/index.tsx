@@ -15,9 +15,21 @@ import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/site/Section";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
+import i18n from "@/i18n";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.home.title") },
+      { name: "description", content: i18n.t("seo.home.description") },
+      { property: "og:title", content: i18n.t("seo.home.title") },
+      { property: "og:description", content: i18n.t("seo.home.description") },
+    ],
+    links: [
+      { rel: "canonical", href: "https://heilares.ainiki.ee/" },
+    ],
+  }),
 });
 
 function Index() {

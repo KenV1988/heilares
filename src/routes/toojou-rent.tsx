@@ -13,9 +13,21 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
+import i18n from "@/i18n";
 
 export const Route = createFileRoute("/toojou-rent")({
   component: WorkforcePage,
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.workforce.title") },
+      { name: "description", content: i18n.t("seo.workforce.description") },
+      { property: "og:title", content: i18n.t("seo.workforce.title") },
+      { property: "og:description", content: i18n.t("seo.workforce.description") },
+    ],
+    links: [
+      { rel: "canonical", href: "https://heilares.ainiki.ee/toojou-rent" },
+    ],
+  }),
 });
 
 const WHY_ICONS = [

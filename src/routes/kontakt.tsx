@@ -6,9 +6,21 @@ import { Seo } from "@/components/site/Seo";
 import { SectionBadge } from "@/components/site/Section";
 import { ContactForm } from "@/components/site/ContactForm";
 import { company } from "@/data/company";
+import i18n from "@/i18n";
 
 export const Route = createFileRoute("/kontakt")({
   component: ContactPage,
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.contact.title") },
+      { name: "description", content: i18n.t("seo.contact.description") },
+      { property: "og:title", content: i18n.t("seo.contact.title") },
+      { property: "og:description", content: i18n.t("seo.contact.description") },
+    ],
+    links: [
+      { rel: "canonical", href: "https://heilares.ainiki.ee/kontakt" },
+    ],
+  }),
 });
 
 function ContactPage() {

@@ -7,9 +7,21 @@ import { SectionBadge } from "@/components/site/Section";
 import { CTA } from "@/components/site/CTA";
 import { blogPosts } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
+import i18n from "@/i18n";
 
 export const Route = createFileRoute("/blogi/")({
   component: BlogIndex,
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.blog.title") },
+      { name: "description", content: i18n.t("seo.blog.description") },
+      { property: "og:title", content: i18n.t("seo.blog.title") },
+      { property: "og:description", content: i18n.t("seo.blog.description") },
+    ],
+    links: [
+      { rel: "canonical", href: "https://heilares.ainiki.ee/blogi" },
+    ],
+  }),
 });
 
 function BlogIndex() {

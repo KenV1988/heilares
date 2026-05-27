@@ -21,6 +21,14 @@ export const Route = createFileRoute("/blogi/$slug")({
     return { post };
   },
   head: ({ loaderData }) => {
+    if (!loaderData) {
+      return {
+        meta: [
+          { title: "Blogi | Heilares" },
+          { name: "description", content: "Heilarese päikeseenergia blogi arendajatele ja tööstustele." },
+        ],
+      };
+    }
     const c = loaderData.post.content.et;
     return {
       meta: [

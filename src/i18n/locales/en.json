@@ -98,6 +98,38 @@
     },
     "back": "Back to projects"
   },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know about Heilares solar projects.",
+    "items": {
+      "turnkey": {
+        "question": "What does turnkey solar park construction mean?",
+        "lead": "Heilares takes full responsibility for the entire solar park construction from design to grid connection.",
+        "answer": "Heilares takes responsibility for the entire process — design, procurement of materials, mounting structure and panel installation, DC works, inverter connection, and site handover with grid connection. The client gets one partner for the entire project."
+      },
+      "size": {
+        "question": "How large are the solar parks Heilares builds?",
+        "lead": "Heilares has installed over 400 MW of solar capacity across Europe.",
+        "answer": "We have installed over 400 MW of capacity, including the 244 MW Risti solar park in Estonia and the 72.5 MW Stelpe park in Latvia. We build projects ranging from a few hundred kW to hundreds of MW."
+      },
+      "countries": {
+        "question": "In which countries does Heilares operate?",
+        "lead": "Heilares operates in Estonia, Latvia and across Europe.",
+        "answer": "We operate in Estonia, Latvia and across Europe. Our crews are ready for rapid mobilization across Europe."
+      },
+      "types": {
+        "question": "What types of solar parks do you build?",
+        "lead": "Heilares builds ground-mount, rooftop and tracker solar parks.",
+        "answer": "We build three main types — ground-mount parks, rooftop parks for industrial buildings, and tracker parks (sun-tracking systems)."
+      },
+      "quoteSpeed": {
+        "question": "How quickly can I get a quote?",
+        "lead": "Heilares responds to quote requests within 24 hours.",
+        "answer": "We respond to inquiries within 24 hours."
+      }
+    }
+  },
   "cta": {
     "title": "Ready to start your solar project?",
     "subtitle": "Request a free quote — we reply within 24 hours.",

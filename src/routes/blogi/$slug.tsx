@@ -4,7 +4,7 @@ import { ArrowLeft, Clock } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { CTA } from "@/components/site/CTA";
-import { getBlogPost } from "@/data/blog";
+import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import {
   Accordion,
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/blogi/$slug")({
 });
 
 function BlogPostPage() {
-  const { post } = Route.useLoaderData();
+  const { post } = Route.useLoaderData() as { post: BlogPost };
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const c = post.content[lang];

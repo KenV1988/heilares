@@ -1,4 +1,10 @@
 import type { Lang } from "@/i18n";
+import epcPartnerCover from "@/assets/blog/epc-partner.jpg";
+import parkTypesCover from "@/assets/blog/park-types.jpg";
+import turnkeyCover from "@/assets/blog/turnkey.jpg";
+import timelineCover from "@/assets/blog/timeline.jpg";
+import tier1Cover from "@/assets/blog/tier1.jpg";
+import maintenanceCover from "@/assets/blog/maintenance.jpg";
 
 export interface BlogSection {
   heading: string;
@@ -26,9 +32,6 @@ export interface BlogPost {
   cover: string;
   content: Record<Lang, BlogPostContent>;
 }
-
-const img = (id: string) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=80`;
 
 // ─────────────────────────────────────────────────────────────────────────
 // 1. EPC partner

@@ -6,6 +6,7 @@ import { Stats } from "@/components/site/Stats";
 import { Services } from "@/components/site/Services";
 import { Process } from "@/components/site/Process";
 import { Why } from "@/components/site/Why";
+import { FAQ } from "@/components/site/FAQ";
 import { CTA } from "@/components/site/CTA";
 import { projects } from "@/data/projects";
 import { ProjectCard } from "@/components/site/ProjectCard";
@@ -47,6 +48,7 @@ function Index() {
         </div>
       </section>
 
+      <FAQ />
       <CTA />
     </SiteLayout>
   );

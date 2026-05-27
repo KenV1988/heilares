@@ -48,6 +48,24 @@
       "desc": "Rooftop installations for industrial halls, warehouses and commercial buildings across Europe."
     }
   },
+  "workforceSection": {
+    "eyebrow": "WORKFORCE RENTAL",
+    "title": "Hire experienced installation crews",
+    "subtitle": "Heilares provides experienced and certified installation crews for hire to industries, shipbuilding and solar energy partners across Europe.",
+    "solar": {
+      "title": "Solar installation crews",
+      "desc": "Rental teams for solar park construction, suitable for subcontracting to other EPC companies."
+    },
+    "shipbuilding": {
+      "title": "Shipbuilding",
+      "desc": "Certified crews for shipbuilding projects across Europe."
+    },
+    "factories": {
+      "title": "Factories",
+      "desc": "Industrial installation teams for factory environments, fast mobilization and high productivity."
+    },
+    "cta": "Learn more about workforce rental"
+  },
   "workforcePage": {
     "hero": {
       "title": "Workforce rental",

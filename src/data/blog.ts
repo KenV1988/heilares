@@ -1,4 +1,10 @@
 import type { Lang } from "@/i18n";
+import epcPartnerCover from "@/assets/blog/epc-partner.jpg";
+import parkTypesCover from "@/assets/blog/park-types.jpg";
+import turnkeyCover from "@/assets/blog/turnkey.jpg";
+import timelineCover from "@/assets/blog/timeline.jpg";
+import tier1Cover from "@/assets/blog/tier1.jpg";
+import maintenanceCover from "@/assets/blog/maintenance.jpg";
 
 export interface BlogSection {
   heading: string;
@@ -27,9 +33,6 @@ export interface BlogPost {
   content: Record<Lang, BlogPostContent>;
 }
 
-const img = (id: string) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=80`;
-
 // ─────────────────────────────────────────────────────────────────────────
 // 1. EPC partner
 // ─────────────────────────────────────────────────────────────────────────
@@ -37,7 +40,7 @@ const epcPartner: BlogPost = {
   slug: "kuidas-valida-paikesepargi-epc-partnerit",
   date: "2026-04-15",
   readMinutes: 6,
-  cover: img("photo-1509391366360-2e959784a276"),
+  cover: epcPartnerCover,
   content: {
     et: {
       title: "Kuidas valida päikesepargi EPC-partnerit?",
@@ -211,7 +214,7 @@ const parkTypes: BlogPost = {
   slug: "maapark-katusepark-tracker-park-vordlus",
   date: "2026-04-08",
   readMinutes: 7,
-  cover: img("photo-1466611653911-95081537e5b7"),
+  cover: parkTypesCover,
   content: {
     et: {
       title: "Maapark, katusepark või tracker-park — milline sobib teie projektile?",
@@ -379,7 +382,7 @@ const turnkey: BlogPost = {
   slug: "votmed-katte-paikesepargi-ehitus",
   date: "2026-03-30",
   readMinutes: 5,
-  cover: img("photo-1497435334941-8c899ee9e8e9"),
+  cover: turnkeyCover,
   content: {
     et: {
       title: "Mis on võtmed-kätte päikesepargi ehitus ja mida see hõlmab?",
@@ -532,7 +535,7 @@ const timeline: BlogPost = {
   slug: "kui-kaua-votab-paikesepargi-ehitus",
   date: "2026-03-22",
   readMinutes: 5,
-  cover: img("photo-1559302504-64aae6ca6b6d"),
+  cover: timelineCover,
   content: {
     et: {
       title: "Kui kaua võtab suuremahulise päikesepargi ehitus aega?",
@@ -667,7 +670,7 @@ const tier1: BlogPost = {
   slug: "mis-on-tier-1-paikesepaneel",
   date: "2026-03-15",
   readMinutes: 5,
-  cover: img("photo-1611365892117-bce8a45f1f4e"),
+  cover: tier1Cover,
   content: {
     et: {
       title: "Mida tähendab Tier-1 päikesepaneel ja miks see on oluline?",
@@ -814,7 +817,7 @@ const maintenance: BlogPost = {
   slug: "paikesepargi-hooldus",
   date: "2026-03-08",
   readMinutes: 6,
-  cover: img("photo-1605980776566-0486c3ac7617"),
+  cover: maintenanceCover,
   content: {
     et: {
       title: "Päikesepargi hooldus — mida arendaja peaks teadma?",

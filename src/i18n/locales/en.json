@@ -321,6 +321,15 @@
     "subtitle": "Fill in the form and we'll send a tailored quote within 24h.",
     "close": "Close"
   },
+  "blog": {
+    "eyebrow": "BLOG",
+    "title": "Solar energy knowledge base",
+    "subtitle": "Fact-based articles for developers and industrial clients on planning, building and maintaining solar parks.",
+    "readMore": "Read more",
+    "back": "Back to blog",
+    "minutes": "min read",
+    "faqHeading": "Frequently asked questions"
+  },
   "seo": {
     "home": {
       "title": "Heilares OÜ — Solar energy specialists in Estonia and Europe",
@@ -341,6 +350,10 @@
     "contact": {
       "title": "Contact — Heilares OÜ",
       "description": "Reach the Heilares team. info@heilares.ee · +372 5693 0296."
+    },
+    "blog": {
+      "title": "Blog — Solar energy knowledge base | Heilares",
+      "description": "B2B-focused articles on solar park EPC, turnkey construction, Tier-1 panels and O&M."
     }
   }
 }

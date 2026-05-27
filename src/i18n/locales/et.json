@@ -350,28 +350,28 @@
   },
   "seo": {
     "home": {
-      "title": "Heilares OÜ — Päikeseenergia spetsialistid Eestis ja Euroopas",
-      "description": "Võtmed kätte päikesepaneelide paigaldus — katusepargid, maapargid ja tracker park. Tegutseme Eestis ja üle Euroopa."
+      "title": "Päikesepargi ehitus võtmed kätte | Heilares OÜ",
+      "description": "Heilares ehitab võtmed-kätte päikeseparke — maa-, katuse- ja tracker-jaamu Eestis ja Euroopas. 400+ MW kogemust. Pakume ka paigaldusbrigaadide renti. Küsi pakkumist."
     },
     "panels": {
-      "title": "Päikesepaneelid — Tracker, Maa- ja Katusepark | Heilares",
-      "description": "Kolm peamist päikesepaigalduse tüüpi B2B klientidele. Tier-1 komponendid, kogenud brigaadid, megavatt-skaala."
+      "title": "Maapark, katusepark ja tracker-park | Heilares",
+      "description": "Heilares projekteerib ja ehitab maaparke, katuseparke ja tracker-parke tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
     },
     "workforce": {
-      "title": "Tööjõu rent — Laevaehitus ja tehased | Heilares",
-      "description": "Kogenud paigaldusbrigaadid laenamiseks. Laevaehitus ja tööstuslikud objektid kogu Euroopas."
+      "title": "Paigaldusbrigaadi rent | Heilares",
+      "description": "Rendi kogenud ja sertifitseeritud paigaldusbrigaade päikeseenergiale, laevaehitusele ja tööstusele kogu Euroopas. Kiire mobiliseerimine."
     },
     "projects": {
-      "title": "Tehtud tööd — Päikesepargid Eestis ja Euroopas | Heilares",
-      "description": "Suurmahulised päikeseenergia projektid — Risti, Stelpe, Kirikmäe, Lielvarde jt."
+      "title": "Tehtud tööd — päikesepargid Eestis ja Euroopas | Heilares",
+      "description": "Vaata Heilarese suuremahulisi päikeseparke — Risti 244 MW, Stelpe 72,5 MW, Kirikmäe 76 MW ja teised projektid."
     },
     "contact": {
-      "title": "Kontakt — Heilares OÜ",
-      "description": "Võta ühendust Heilares meeskonnaga. info@heilares.ee · +372 5693 0296."
+      "title": "Kontakt | Heilares OÜ",
+      "description": "Võta ühendust Heilaresega — päikesepargi ehitus ja tööjõu rent Eestis ja Euroopas. info@heilares.ee, +372 5693 0296."
     },
     "blog": {
-      "title": "Blogi — Päikeseenergia teadmusbaas | Heilares",
-      "description": "B2B-suunaga artiklid päikeseparkide EPC-st, võtmed-kätte ehitusest, Tier-1 paneelidest ja O&M-st."
+      "title": "Päikeseenergia blogi arendajatele | Heilares",
+      "description": "Nõuanded ja teadmised päikeseparkide ehitusest, EPC-teenusest ja tööjõu rendist. Heilarese blogi."
     }
   }
 }

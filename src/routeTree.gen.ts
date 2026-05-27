@@ -14,7 +14,9 @@ import { Route as PaikesepaneelidRouteImport } from './routes/paikesepaneelid'
 import { Route as KontaktRouteImport } from './routes/kontakt'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TehtudToodIndexRouteImport } from './routes/tehtud-tood/index'
+import { Route as BlogiIndexRouteImport } from './routes/blogi/index'
 import { Route as TehtudToodSlugRouteImport } from './routes/tehtud-tood/$slug'
+import { Route as BlogiSlugRouteImport } from './routes/blogi/$slug'
 
 const ToojouRentRoute = ToojouRentRouteImport.update({
   id: '/toojou-rent',
@@ -41,9 +43,19 @@ const TehtudToodIndexRoute = TehtudToodIndexRouteImport.update({
   path: '/tehtud-tood/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogiIndexRoute = BlogiIndexRouteImport.update({
+  id: '/blogi/',
+  path: '/blogi/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TehtudToodSlugRoute = TehtudToodSlugRouteImport.update({
   id: '/tehtud-tood/$slug',
   path: '/tehtud-tood/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogiSlugRoute = BlogiSlugRouteImport.update({
+  id: '/blogi/$slug',
+  path: '/blogi/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -52,7 +64,9 @@ export interface FileRoutesByFullPath {
   '/kontakt': typeof KontaktRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
   '/toojou-rent': typeof ToojouRentRoute
+  '/blogi/$slug': typeof BlogiSlugRoute
   '/tehtud-tood/$slug': typeof TehtudToodSlugRoute
+  '/blogi/': typeof BlogiIndexRoute
   '/tehtud-tood/': typeof TehtudToodIndexRoute
 }
 export interface FileRoutesByTo {
@@ -60,7 +74,9 @@ export interface FileRoutesByTo {
   '/kontakt': typeof KontaktRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
   '/toojou-rent': typeof ToojouRentRoute
+  '/blogi/$slug': typeof BlogiSlugRoute
   '/tehtud-tood/$slug': typeof TehtudToodSlugRoute
+  '/blogi': typeof BlogiIndexRoute
   '/tehtud-tood': typeof TehtudToodIndexRoute
 }
 export interface FileRoutesById {
@@ -69,7 +85,9 @@ export interface FileRoutesById {
   '/kontakt': typeof KontaktRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
   '/toojou-rent': typeof ToojouRentRoute
+  '/blogi/$slug': typeof BlogiSlugRoute
   '/tehtud-tood/$slug': typeof TehtudToodSlugRoute
+  '/blogi/': typeof BlogiIndexRoute
   '/tehtud-tood/': typeof TehtudToodIndexRoute
 }
 export interface FileRouteTypes {
@@ -79,7 +97,9 @@ export interface FileRouteTypes {
     | '/kontakt'
     | '/paikesepaneelid'
     | '/toojou-rent'
+    | '/blogi/$slug'
     | '/tehtud-tood/$slug'
+    | '/blogi/'
     | '/tehtud-tood/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -87,7 +107,9 @@ export interface FileRouteTypes {
     | '/kontakt'
     | '/paikesepaneelid'
     | '/toojou-rent'
+    | '/blogi/$slug'
     | '/tehtud-tood/$slug'
+    | '/blogi'
     | '/tehtud-tood'
   id:
     | '__root__'
@@ -95,7 +117,9 @@ export interface FileRouteTypes {
     | '/kontakt'
     | '/paikesepaneelid'
     | '/toojou-rent'
+    | '/blogi/$slug'
     | '/tehtud-tood/$slug'
+    | '/blogi/'
     | '/tehtud-tood/'
   fileRoutesById: FileRoutesById
 }
@@ -104,7 +128,9 @@ export interface RootRouteChildren {
   KontaktRoute: typeof KontaktRoute
   PaikesepaneelidRoute: typeof PaikesepaneelidRoute
   ToojouRentRoute: typeof ToojouRentRoute
+  BlogiSlugRoute: typeof BlogiSlugRoute
   TehtudToodSlugRoute: typeof TehtudToodSlugRoute
+  BlogiIndexRoute: typeof BlogiIndexRoute
   TehtudToodIndexRoute: typeof TehtudToodIndexRoute
 }
 
@@ -145,11 +171,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TehtudToodIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blogi/': {
+      id: '/blogi/'
+      path: '/blogi'
+      fullPath: '/blogi/'
+      preLoaderRoute: typeof BlogiIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/tehtud-tood/$slug': {
       id: '/tehtud-tood/$slug'
       path: '/tehtud-tood/$slug'
       fullPath: '/tehtud-tood/$slug'
       preLoaderRoute: typeof TehtudToodSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blogi/$slug': {
+      id: '/blogi/$slug'
+      path: '/blogi/$slug'
+      fullPath: '/blogi/$slug'
+      preLoaderRoute: typeof BlogiSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -160,7 +200,9 @@ const rootRouteChildren: RootRouteChildren = {
   KontaktRoute: KontaktRoute,
   PaikesepaneelidRoute: PaikesepaneelidRoute,
   ToojouRentRoute: ToojouRentRoute,
+  BlogiSlugRoute: BlogiSlugRoute,
   TehtudToodSlugRoute: TehtudToodSlugRoute,
+  BlogiIndexRoute: BlogiIndexRoute,
   TehtudToodIndexRoute: TehtudToodIndexRoute,
 }
 export const routeTree = rootRouteImport

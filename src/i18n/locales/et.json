@@ -48,6 +48,24 @@
       "desc": "Katusepaigaldused tööstushoonetele, lattudele ja ärihoonetele kogu Euroopas."
     }
   },
+  "workforceSection": {
+    "eyebrow": "TÖÖJÕU RENT",
+    "title": "Rendi kogenud paigaldusbrigaade",
+    "subtitle": "Heilares pakub kogenud ja sertifitseeritud paigaldusbrigaade rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Euroopas.",
+    "solar": {
+      "title": "Päikeseenergia paigaldusbrigaadid",
+      "desc": "Renditavad meeskonnad päikeseparkide ehituseks, sobivad alltöövõtuks teistele EPC-ettevõtetele."
+    },
+    "shipbuilding": {
+      "title": "Laevaehitus",
+      "desc": "Sertifitseeritud brigaadid laevaehituse projektide jaoks kogu Euroopas."
+    },
+    "factories": {
+      "title": "Tehased",
+      "desc": "Tööstusliku paigalduse meeskonnad tehasekeskkondadesse, kiire mobiliseerimine ja kõrge tootlikkus."
+    },
+    "cta": "Loe tööjõu rendist lähemalt"
+  },
   "workforcePage": {
     "hero": {
       "title": "Tööjõu rent",

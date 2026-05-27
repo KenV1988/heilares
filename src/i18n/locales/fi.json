@@ -48,6 +48,24 @@
       "desc": "Kattoasennukset teollisuushalleihin, varastoihin ja liikekiinteistöihin ympäri Eurooppaa."
     }
   },
+  "workforceSection": {
+    "eyebrow": "TYÖVOIMAN VUOKRAUS",
+    "title": "Vuokraa kokeneita asennusryhmiä",
+    "subtitle": "Heilares tarjoaa kokeneita ja sertifioituja asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Euroopassa.",
+    "solar": {
+      "title": "Aurinkoenergian asennusryhmät",
+      "desc": "Vuokra-asennusryhmät aurinkopuistojen rakentamiseen, sopivat alihankintana muille EPC-yrityksille."
+    },
+    "shipbuilding": {
+      "title": "Laivanrakennus",
+      "desc": "Sertifioidut ryhmät laivanrakennusprojekteihin ympäri Eurooppaa."
+    },
+    "factories": {
+      "title": "Tehtaat",
+      "desc": "Teollisuusasennusryhmät tehdasympäristöihin, nopea liikkeellelähtö ja korkea tuottavuus."
+    },
+    "cta": "Lue lisää työvoiman vuokrauksesta"
+  },
   "workforcePage": {
     "hero": {
       "title": "Työvoiman vuokraus",

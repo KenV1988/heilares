@@ -20,6 +20,29 @@ export const Route = createFileRoute("/blogi/$slug")({
     if (!post) throw notFound();
     return { post };
   },
+  head: ({ loaderData }) => {
+    if (!loaderData) {
+      return {
+        meta: [
+          { title: "Blogi | Heilares" },
+          { name: "description", content: "Heilarese päikeseenergia blogi arendajatele ja tööstustele." },
+        ],
+      };
+    }
+    const c = loaderData.post.content.et;
+    return {
+      meta: [
+        { title: `${c.title} | Heilares` },
+        { name: "description", content: c.summary },
+        { property: "og:title", content: `${c.title} | Heilares` },
+        { property: "og:description", content: c.summary },
+        { property: "og:type", content: "article" },
+      ],
+      links: [
+        { rel: "canonical", href: `https://heilares.ainiki.ee/blogi/${loaderData.post.slug}` },
+      ],
+    };
+  },
 });
 
 function BlogPostPage() {

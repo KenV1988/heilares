@@ -4,6 +4,7 @@
     "panels": "Päikesepaneelid",
     "workforce": "Tööjõu rent",
     "projects": "Tehtud tööd",
+    "blog": "Blogi",
     "contact": "Kontakt",
     "cta": "Küsi pakkumist"
   },
@@ -320,6 +321,15 @@
     "subtitle": "Täida vorm ja saadame personaalse pakkumise 24h jooksul.",
     "close": "Sulge"
   },
+  "blog": {
+    "eyebrow": "BLOGI",
+    "title": "Päikeseenergia teadmusbaas",
+    "subtitle": "Faktipõhised artiklid arendajatele ja tööstustele päikeseparkide planeerimise, ehituse ja hoolduse kohta.",
+    "readMore": "Loe edasi",
+    "back": "Tagasi blogisse",
+    "minutes": "min lugemist",
+    "faqHeading": "Korduma kippuvad küsimused"
+  },
   "seo": {
     "home": {
       "title": "Heilares OÜ — Päikeseenergia spetsialistid Eestis ja Euroopas",
@@ -340,6 +350,10 @@
     "contact": {
       "title": "Kontakt — Heilares OÜ",
       "description": "Võta ühendust Heilares meeskonnaga. info@heilares.ee · +372 5693 0296."
+    },
+    "blog": {
+      "title": "Blogi — Päikeseenergia teadmusbaas | Heilares",
+      "description": "B2B-suunaga artiklid päikeseparkide EPC-st, võtmed-kätte ehitusest, Tier-1 paneelidest ja O&M-st."
     }
   }
 }

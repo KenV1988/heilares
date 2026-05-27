@@ -4,6 +4,7 @@
     "panels": "Aurinkopaneelit",
     "workforce": "Työvoiman vuokraus",
     "projects": "Toteutetut projektit",
+    "blog": "Blogi",
     "contact": "Yhteystiedot",
     "cta": "Pyydä tarjous"
   },
@@ -320,6 +321,15 @@
     "subtitle": "Täytä lomake ja lähetämme räätälöidyn tarjouksen 24 tunnin sisällä.",
     "close": "Sulje"
   },
+  "blog": {
+    "eyebrow": "BLOGI",
+    "title": "Aurinkoenergian tietopankki",
+    "subtitle": "Faktoihin perustuvia artikkeleita kehittäjille ja teollisuusasiakkaille aurinkopuistojen suunnittelusta, rakentamisesta ja huollosta.",
+    "readMore": "Lue lisää",
+    "back": "Takaisin blogiin",
+    "minutes": "min lukuaika",
+    "faqHeading": "Usein kysytyt kysymykset"
+  },
   "seo": {
     "home": {
       "title": "Heilares OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
@@ -340,6 +350,10 @@
     "contact": {
       "title": "Yhteystiedot — Heilares OÜ",
       "description": "Ota yhteyttä Heilares-tiimiin. info@heilares.ee · +372 5693 0296."
+    },
+    "blog": {
+      "title": "Blogi — Aurinkoenergian tietopankki | Heilares",
+      "description": "B2B-suuntautuneita artikkeleita aurinkopuistojen EPC:stä, avaimet käteen -rakentamisesta, Tier-1-paneeleista ja O&M:stä."
     }
   }
 }

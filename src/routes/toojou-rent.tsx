@@ -1,23 +1,34 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { Anchor, Factory, ArrowRight } from "lucide-react";
+import { ArrowRight, Zap, Shield, Gauge, Settings } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { SectionBadge } from "@/components/site/Section";
 import { QuoteModal } from "@/components/site/QuoteModal";
+import { WorkforceTypes } from "@/components/site/WorkforceTypes";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@/components/ui/accordion";
 
 export const Route = createFileRoute("/toojou-rent")({
   component: WorkforcePage,
 });
 
+const WHY_ICONS = [
+  { key: "mobilization", Icon: Zap },
+  { key: "certified", Icon: Shield },
+  { key: "scale", Icon: Gauge },
+  { key: "flexible", Icon: Settings },
+] as const;
+
 function WorkforcePage() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
-  const items = [
-    { key: "shipbuilding", Icon: Anchor },
-    { key: "factories", Icon: Factory },
-  ] as const;
+  const faqKeys = ["q1", "q2"] as const;
 
   return (
     <SiteLayout>
@@ -28,40 +39,102 @@ function WorkforcePage() {
         <div className="container-x text-center">
           <SectionBadge>{t("hero.badge")}</SectionBadge>
           <h1 className="mx-auto mt-5 max-w-3xl text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
-            {t("workforce.title")}
+            {t("workforcePage.hero.title")}
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-base text-white/70 md:text-lg">
-            {t("workforce.subtitle")}
+          <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg">
+            {t("workforcePage.hero.subtitle")}
           </p>
         </div>
       </section>
 
+      <WorkforceTypes />
+
+      {/* Why Heilares */}
       <section className="container-x py-16 md:py-24">
-        <div className="grid gap-5 md:grid-cols-2">
-          {items.map(({ key, Icon }) => (
+        <div className="text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+            {t("workforceWhy.eyebrow")}
+          </p>
+          <h2 className="mx-auto mt-4 max-w-2xl text-balance text-[32px] font-bold leading-[1.05] tracking-tight text-white md:text-[48px]">
+            {t("workforceWhy.title")}
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-white/65 md:text-lg">
+            {t("workforceWhy.subtitle")}
+          </p>
+        </div>
+        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-2 lg:grid-cols-4">
+          {WHY_ICONS.map(({ key, Icon }) => (
             <div
               key={key}
-              className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-8 md:p-10"
+              className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 md:p-8"
             >
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
                 <Icon className="h-6 w-6" />
               </div>
-              <h3 className="mt-5 text-2xl font-bold text-white">
-                {t(`workforce.${key}.title`)}
+              <h3 className="mt-5 text-xl font-bold text-white">
+                {t(`workforceWhy.items.${key}.title`)}
               </h3>
-              <p className="mt-3 text-white/65">{t(`workforce.${key}.desc`)}</p>
+              <p className="mt-3 text-sm leading-relaxed text-white/65 md:text-base">
+                {t(`workforceWhy.items.${key}.desc`)}
+              </p>
             </div>
           ))}
         </div>
+      </section>
 
-        <div className="mt-12 text-center">
+      {/* CTA */}
+      <section className="container-x py-16 md:py-24">
+        <div className="relative overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--bg-card)] px-6 py-16 text-center md:py-24">
+          <div className="absolute inset-0 -z-10 radial-glow opacity-40" />
+          <h2 className="mx-auto max-w-2xl text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">
+            {t("workforcePage.cta.title")}
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-base text-white/65 md:text-lg">
+            {t("workforcePage.cta.subtitle")}
+          </p>
           <button
             onClick={() => setOpen(true)}
-            className="group inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-7 py-3.5 text-sm font-semibold text-[#0a0f0d] transition hover:bg-[var(--brand-hover)]"
+            className="group mt-8 inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-7 py-3.5 text-sm font-semibold text-[#0a0f0d] transition hover:bg-[var(--brand-hover)]"
           >
-            {t("workforce.cta")}
+            {t("workforcePage.cta.button")}
             <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
           </button>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="container-x py-16 md:py-24">
+        <div className="text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+            {t("workforceFAQ.eyebrow")}
+          </p>
+          <h2 className="mx-auto mt-4 max-w-2xl text-balance text-[32px] font-bold leading-[1.05] tracking-tight text-white md:text-[48px]">
+            {t("workforceFAQ.title")}
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-white/65 md:text-lg">
+            {t("workforceFAQ.subtitle")}
+          </p>
+        </div>
+        <div className="mx-auto mt-12 max-w-3xl md:mt-16">
+          <Accordion type="single" collapsible className="space-y-4">
+            {faqKeys.map((key) => (
+              <AccordionItem
+                key={key}
+                value={key}
+                className="overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] px-6 data-[state=open]:border-[var(--ring)]"
+              >
+                <AccordionTrigger className="py-5 text-left text-base font-semibold text-white hover:no-underline md:text-lg [&[data-state=open]>svg]:text-[var(--brand)]">
+                  {t(`workforceFAQ.items.${key}.question`)}
+                </AccordionTrigger>
+                <AccordionContent className="pb-6 text-sm leading-relaxed text-white/70 md:text-base">
+                  <span className="mb-2 block font-semibold text-[var(--brand)]">
+                    {t(`workforceFAQ.items.${key}.lead`)}
+                  </span>
+                  {t(`workforceFAQ.items.${key}.answer`)}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </section>
 

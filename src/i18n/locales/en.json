@@ -47,18 +47,99 @@
       "desc": "Rooftop installations for industrial halls, warehouses and commercial buildings across Europe."
     }
   },
-  "workforce": {
-    "title": "Workforce rental",
-    "subtitle": "Experienced installation crews available for industrial and solar partners.",
+  "workforcePage": {
+    "hero": {
+      "title": "Workforce rental",
+      "subtitle": "Heilares provides experienced and certified installation crews for hire to industries, shipbuilding and solar energy partners across Northern Europe."
+    },
+    "solar": {
+      "eyebrow": "Solar energy",
+      "title": "Solar installation crews",
+      "lead": "Heilares rental installation crews specialize in solar park construction and are available for subcontracting to other EPC companies across Northern Europe.",
+      "paragraphs": [
+        "Our crews consist of experienced project managers and certified installers who have participated in the construction of solar parks scaling hundreds of megawatts in Estonia and Latvia. Crews can be quickly mobilized to sites across Europe, ensuring that subcontractor work does not stall due to lack of manpower.",
+        "Rental teams perform framework assembly, panel installation, DC cabling and inverter connection. Each crew works according to the client's safety requirements and project schedule. This allows EPC companies to optimize their resource utilization and take on larger projects without increasing fixed costs.",
+        "A flexible rental model allows crews to be hired for short-term deadline work as well as longer projects. All our installers undergo regular safety training and hold the necessary certifications for working on industrial solar sites."
+      ],
+      "faq": {
+        "question": "Are rental crews suitable for subcontracting to other EPC companies?",
+        "lead": "Yes, Heilares rental crews are designed primarily for subcontracting and partnership-based work.",
+        "answer": "Our crews regularly work under subcontract agreements for large EPC companies. We follow the client's safety requirements, quality standards and project schedule — so the partner can focus on project management while we handle the installation."
+      }
+    },
     "shipbuilding": {
+      "eyebrow": "Shipbuilding",
       "title": "Shipbuilding",
-      "desc": "Certified crews for shipbuilding projects across Northern Europe."
+      "lead": "Heilares provides certified installation crews for shipbuilding projects in Northern Europe, including Finland and Estonia.",
+      "paragraphs": [
+        "Our shipbuilding teams are experienced in industrial installations and metal structure assembly. Crews are ready to mobilize to shipyard sites where fast and high-quality work is required.",
+        "We offer both short-term and long-term rental solutions suitable for covering peak season work as well as for permanent partnership. Our project managers ensure that work meets all shipbuilding safety and quality standards."
+      ],
+      "faq": {
+        "question": "In which countries can shipbuilding crews be hired?",
+        "lead": "Heilares shipbuilding crews are available in Northern Europe, including Finland and Estonia.",
+        "answer": "We mobilize crews to shipyard sites in Finland, Estonia and other Northern European countries. Experience with shipbuilding projects ensures that our teams understand the shipyard industry's specific requirements and safety standards."
+      }
     },
     "factories": {
+      "eyebrow": "Factories",
       "title": "Factories",
-      "desc": "Industrial installation teams for factory environments — fast mobilization, high output."
+      "lead": "Heilares industrial installation teams are designed for factory environments where rapid mobilization and high productivity are required.",
+      "paragraphs": [
+        "We install and assemble industrial equipment, metal structures and production lines inside factories and industrial buildings. Our crews are accustomed to working in active production rooms where minimal downtime and maximum efficiency are required.",
+        "We provide rental teams that can quickly adapt to different factory requirements and work processes. This allows companies to scale their production capacity without increasing permanent capacity."
+      ],
+      "faq": {
+        "question": "Can factory rental crews quickly adapt to different production lines?",
+        "lead": "Yes, Heilares factory crews are adaptable and can quickly integrate into different factory work processes.",
+        "answer": "Our teams are experienced in industrial installations and can quickly learn the specifics of new equipment and work processes. Project managers coordinate with the client to ensure smooth integration with existing production routines."
+      }
     },
-    "cta": "Discuss workforce rental"
+    "cta": {
+      "title": "Need an experienced installation crew?",
+      "subtitle": "Get in touch and we will arrange workforce rental details within 24 hours.",
+      "button": "Discuss workforce rental"
+    }
+  },
+  "workforceWhy": {
+    "eyebrow": "WHY HEILARES",
+    "title": "Why rent a crew from Heilares?",
+    "subtitle": "Heilares is a trusted partner in workforce rental — experienced teams, flexible solutions and megawatt-scale project experience.",
+    "items": {
+      "mobilization": {
+        "title": "Fast mobilization",
+        "desc": "Own crews and experienced project managers ready to start at short notice across Europe."
+      },
+      "certified": {
+        "title": "Certified teams",
+        "desc": "All installers undergo regular safety training and hold the necessary certifications."
+      },
+      "scale": {
+        "title": "Megawatt-scale experience",
+        "desc": "Crews have participated in the construction of solar parks scaling hundreds of megawatts."
+      },
+      "flexible": {
+        "title": "Flexible capacity scaling",
+        "desc": "Order both small teams for short-term work and large crews for long projects."
+      }
+    }
+  },
+  "workforceFAQ": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions about workforce rental",
+    "subtitle": "Everything you need to know about hiring Heilares installation crews.",
+    "items": {
+      "q1": {
+        "question": "How quickly can a crew be mobilized to site?",
+        "lead": "Heilares can mobilize a crew to site within 48–72 hours of order confirmation.",
+        "answer": "Exact timing depends on the site location and crew size. For projects within Europe, mobilization is usually faster. All necessary tools and equipment are included with the team."
+      },
+      "q2": {
+        "question": "Are rental crews suitable for subcontracting to other companies?",
+        "lead": "Yes, Heilares rental crews are designed primarily for subcontracting to EPC companies and industrial partners.",
+        "answer": "Our crews work under subcontract agreements, following the client's safety requirements and quality standards. This allows partners to scale their capacity without increasing fixed costs."
+      }
+    }
   },
   "process": {
     "title": "How we work",

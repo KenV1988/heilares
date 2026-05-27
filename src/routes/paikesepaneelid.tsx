@@ -2,8 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
-import { SectionHeader, SectionBadge } from "@/components/site/Section";
-import { Services } from "@/components/site/Services";
+import { SectionBadge } from "@/components/site/Section";
+import { ParkTypes } from "@/components/site/ParkTypes";
 import { Process } from "@/components/site/Process";
 import { Why } from "@/components/site/Why";
 import { CTA } from "@/components/site/CTA";
@@ -22,14 +22,14 @@ function PanelsPage() {
         <div className="container-x text-center">
           <SectionBadge>{t("hero.badge")}</SectionBadge>
           <h1 className="mx-auto mt-5 max-w-3xl text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
-            {t("services.title")}
+            {t("panelsPage.hero.title")}
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-base text-white/70 md:text-lg">
-            {t("services.subtitle")}
+            {t("panelsPage.hero.subtitle")}
           </p>
         </div>
       </section>
-      <Services />
+      <ParkTypes />
       <Process />
       <Why />
       <CTA />

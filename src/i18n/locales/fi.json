@@ -98,6 +98,57 @@
     },
     "back": "Takaisin projekteihin"
   },
+  "panelsPage": {
+    "hero": {
+      "title": "Aurinkopaneelipalvelut",
+      "subtitle": "Avaimet käteen -maa-, katto- ja tracker-aurinkopuistot B2B-asiakkaille Virossa, Latviassa ja koko Euroopassa."
+    },
+    "ground": {
+      "eyebrow": "Maa-asennukset",
+      "title": "Maapuisto",
+      "lead": "Maapuisto on maahan asennettava aurinkopuisto, jonka Heilares suunnittelee ja asentaa avaimet käteen -periaatteella kaupallisessa ja teollisessa mittakaavassa.",
+      "paragraphs": [
+        "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. Heilares hoitaa koko prosessin — geologiset tutkimukset, suunnittelun, perustukset, kiinnitysrakenteet, paneelien ja invertterien asennuksen sekä verkkoonkytkennän.",
+        "Rakennamme maapuistoja muutamasta megawatista satoihin megawatteihin. Heilares-tiimin asentama suurin maapuisto on 244 MW Ristin aurinkopuisto Virossa. Käytämme vain Tier-1-tason paneeleita ja invertterivalmistajia varmistaaksemme pitkäaikaisen tuoton ja luotettavuuden.",
+        "Maapuiston vahvuudet ovat helppo huolto, korkea tuotto ja joustava skaalautuvuus. Jokainen projekti suunnitellaan kohteen säteilyn, maaston ja verkkoliitynnän mukaan."
+      ],
+      "faq": {
+        "question": "Kuinka paljon maata maapuisto tarvitsee?",
+        "lead": "1 MW maapuisto vaatii keskimäärin 1–1,5 hehtaaria maata.",
+        "answer": "Tarkka maantarve riippuu paneelityypistä, kallistuskulmasta ja rivivälistä. Heilares arvioi maan soveltuvuuden ilmaisen alkukonsultaation aikana."
+      }
+    },
+    "roof": {
+      "eyebrow": "Kattoasennukset",
+      "title": "Kattopuisto",
+      "lead": "Kattopuisto on aurinkopaneeliasennus teollisuusrakennusten, varastojen ja liikekiinteistöjen katoille, jonka Heilares toteuttaa kaikille kattotyypeille.",
+      "paragraphs": [
+        "Kattopuistot sopivat sekä tasakattoihin että harjakattoihin — trapetsipelti, sandwich-paneeli, bitumi ja kalvokatot. Jokainen projekti alkaa rakenteellisella arvioinnilla, jotta voidaan varmistaa, että katto kantaa turvallisesti paneelien ja kiinnitysrakenteiden lisäkuorman.",
+        "Heilares-työryhmät työskentelevät niin, että asiakkaan tuotanto häiriintyy mahdollisimman vähän. Suunnittelemme työt tuotantoaikataulun mukaisesti, käytämme turvallisia nostolaitteita ja organisoimme asennuslogistiikan niin, että varastojen ja tehtaiden toiminta jatkuu.",
+        "Kattopuisto pienentää merkittävästi yrityksen sähkökustannuksia ja hiilijalanjälkeä hyödyntäen muuten käyttämättömän pinnan. Suuremmissa teollisuusrakennuksissa kattopuiston teho voi yltää useisiin megawatteihin."
+      ],
+      "faq": {
+        "question": "Sopiiko kattoni aurinkopaneelien asennukseen?",
+        "lead": "Useimmat teollisuuskatot soveltuvat aurinkopaneeleille, jos rakenne kestää 15–25 kg/m² lisäkuorman.",
+        "answer": "Heilares arvioi jokaisen katon erikseen — katteen tyyppi, ikä, kantava rakenne ja varjostavat esteet. Tarjous sisältää aina kantavuusarvion."
+      }
+    },
+    "tracker": {
+      "eyebrow": "Aurinkoa seuraavat järjestelmät",
+      "title": "Tracker-puisto",
+      "lead": "Tracker-puisto on yksiakselinen aurinkoa seuraava aurinkopuisto, joka tuottaa jopa 25% enemmän energiaa verrattuna kiinteäkulmaisiin paneeleihin.",
+      "paragraphs": [
+        "Tracker-järjestelmät kääntävät paneeleita päivän aikana idästä länteen seuraten auringon liikettä. Tämä pitää paneelit optimaalisessa kulmassa säteilyyn nähden aamusta iltaan ja nostaa merkittävästi vuosittaista energiatuottoa verrattuna perinteisiin kiinteisiin maapuistoihin.",
+        "Tracker-puistot sopivat erinomaisesti suurille avoimille maa-alueille, joilla on vakaa maaperä ja riittävästi tilaa rivien välisten varjojen välttämiseksi. Heilares on rakentanut tracker-puistoja sekä Virossa että Latviassa, mukaan lukien 72,5 MW Stelpe tracker-puisto.",
+        "Suurempi tuotto tarkoittaa nopeampaa takaisinmaksua ja parempaa tuotantojakaumaa päivän aikana, mikä on erityisen arvokasta sähkön spot-hintojen huippuaikoina."
+      ],
+      "faq": {
+        "question": "Kuinka paljon enemmän energiaa tracker-puisto tuottaa kiinteään maapuistoon verrattuna?",
+        "lead": "Tracker-puistot tuottavat keskimäärin 15–25% enemmän energiaa kuin samankokoiset kiinteät maapuistot.",
+        "answer": "Tarkka nousu riippuu sijainnista, leveysasteesta ja paikallisesta säästä. Pohjois-Euroopan oloissa tyypillinen nousu on noin 20%."
+      }
+    }
+  },
   "faq": {
     "eyebrow": "UKK",
     "title": "Usein kysytyt kysymykset",

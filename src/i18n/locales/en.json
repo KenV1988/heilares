@@ -98,6 +98,57 @@
     },
     "back": "Back to projects"
   },
+  "panelsPage": {
+    "hero": {
+      "title": "Solar panel services",
+      "subtitle": "Turnkey ground-mount, rooftop and tracker solar parks for B2B clients in Estonia, Latvia and across Europe."
+    },
+    "ground": {
+      "eyebrow": "Ground-mount solutions",
+      "title": "Ground-mount park",
+      "lead": "A ground-mount park is a land-based solar park that Heilares designs and installs on a turnkey basis at commercial and industrial scale.",
+      "paragraphs": [
+        "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. Heilares handles the entire process — geological surveys, design, foundations, mounting structures, panel and inverter installation, and grid connection.",
+        "We build ground-mount parks ranging from a few MW to hundreds of MW. The largest ground-mount park installed by the Heilares team is the 244 MW Risti solar park in Estonia. We only use Tier-1 panel and inverter manufacturers to guarantee long-term yield and reliability.",
+        "The strengths of a ground-mount park are easy maintenance, high yield and flexible scalability. Every project is engineered for the specific site irradiation, terrain and grid connection options."
+      ],
+      "faq": {
+        "question": "How much land is required for a ground-mount park?",
+        "lead": "1 MW of ground-mount capacity typically requires 1–1.5 hectares of land.",
+        "answer": "Exact land requirement depends on panel type, tilt angle and row spacing. Heilares assesses land suitability during a free initial consultation."
+      }
+    },
+    "roof": {
+      "eyebrow": "Rooftop installations",
+      "title": "Rooftop park",
+      "lead": "A rooftop park is a solar installation on industrial buildings, warehouses and commercial properties that Heilares delivers on all roof types.",
+      "paragraphs": [
+        "Rooftop parks suit both flat and pitched roofs — trapezoidal sheet, sandwich panel, bitumen and membrane roofs. Every project starts with a structural assessment to confirm the roof can safely carry the additional weight of panels and mounting structures.",
+        "Heilares crews work to minimise disruption to the client's operations. We schedule around your production calendar, use safe lifting equipment and plan installation logistics so warehouse and factory operations keep running.",
+        "A rooftop park significantly reduces a company's electricity costs and CO2 footprint by using otherwise unused surface. On larger industrial buildings, rooftop capacity can reach several megawatts."
+      ],
+      "faq": {
+        "question": "Is my roof suitable for solar panels?",
+        "lead": "Most industrial roofs are suitable for solar panels if the structure can carry an additional load of 15–25 kg/m².",
+        "answer": "Heilares evaluates each roof individually — covering type, age, structural capacity and shading obstacles. Every quote includes a load-bearing assessment."
+      }
+    },
+    "tracker": {
+      "eyebrow": "Sun-tracking systems",
+      "title": "Tracker park",
+      "lead": "A tracker park is a single-axis sun-tracking solar park that delivers up to 25% higher energy yield compared to fixed-tilt panels.",
+      "paragraphs": [
+        "Tracker systems rotate the panels east to west during the day, following the sun. This keeps the panels at the optimal angle to solar irradiation from morning to evening and significantly increases annual energy yield compared to classic fixed ground-mount parks.",
+        "Tracker parks are ideal for large open land areas with stable soil and enough space to avoid shading between rows. Heilares has built tracker parks in both Estonia and Latvia, including the 72.5 MW Stelpe tracker park.",
+        "Higher yield means faster payback and a better production profile across the day, which is especially valuable during peak electricity spot prices."
+      ],
+      "faq": {
+        "question": "How much more energy does a tracker park produce vs a fixed ground-mount?",
+        "lead": "Tracker parks generate on average 15–25% more energy than equally sized fixed ground-mount parks.",
+        "answer": "The exact uplift depends on location, latitude and local weather. In Northern European conditions a typical gain is around 20%."
+      }
+    }
+  },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Frequently asked questions",

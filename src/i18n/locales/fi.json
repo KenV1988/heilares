@@ -98,6 +98,38 @@
     },
     "back": "Takaisin projekteihin"
   },
+  "faq": {
+    "eyebrow": "UKK",
+    "title": "Usein kysytyt kysymykset",
+    "subtitle": "Kaikki, mitä sinun tarvitsee tietää Heilaresin aurinkoenergiaprojekteista.",
+    "items": {
+      "turnkey": {
+        "question": "Mitä tarkoittaa avaimet käteen -aurinkopuiston rakentaminen?",
+        "lead": "Heilares ottaa vastuun koko aurinkopuiston rakentamisesta suunnittelusta verkkoonkytkentään asti.",
+        "answer": "Heilares ottaa vastuun koko prosessista — suunnittelu, materiaalien hankinta, rakenteen ja paneelien asennus, DC-työt, invertterin kytkentä sekä kohteen luovutus ja verkkoonkytkentä. Asiakas saa yhden kumppanin koko projektille."
+      },
+      "size": {
+        "question": "Kuinka suuria aurinkopuistoja Heilares rakentaa?",
+        "lead": "Heilares on asentanut yli 400 MW aurinkoenergiakapasiteettia Euroopassa.",
+        "answer": "Olemme asentaneet yli 400 MW tehoa, mukaan lukien 244 MW Ristin aurinkopuisto Virossa ja 72,5 MW Stelpen puisto Latviassa. Rakennamme projekteja muutamasta sadasta kW:sta satoihin megawatteihin."
+      },
+      "countries": {
+        "question": "Missä maissa Heilares toimii?",
+        "lead": "Heilares toimii Virossa, Latviassa ja koko Euroopassa.",
+        "answer": "Toimimme Virossa, Latviassa ja koko Euroopassa. Työryhmämme ovat valmiita nopeaan liikkeellelähtöön ympäri Eurooppaa."
+      },
+      "types": {
+        "question": "Minkä tyyppisiä aurinkopuistoja rakennatte?",
+        "lead": "Heilares rakentaa maa-, katto- ja tracker-aurinkopuistoja.",
+        "answer": "Rakennamme kolmea päätyyppiä — maapuistoja, kattopuistoja teollisuusrakennuksille ja tracker-puistoja (aurinkoa seuraavia järjestelmiä)."
+      },
+      "quoteSpeed": {
+        "question": "Kuinka nopeasti saan tarjouksen?",
+        "lead": "Heilares vastaa tarjouspyyntöihin 24 tunnin kuluessa.",
+        "answer": "Vastaamme tiedusteluihin 24 tunnin kuluessa."
+      }
+    }
+  },
   "cta": {
     "title": "Valmis aloittamaan aurinkoenergiaprojektisi?",
     "subtitle": "Pyydä ilmainen tarjous — vastaamme 24 tunnin kuluessa.",

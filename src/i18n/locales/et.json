@@ -98,6 +98,38 @@
     },
     "back": "Tagasi projektidele"
   },
+  "faq": {
+    "eyebrow": "KKK",
+    "title": "Korduma kippuvad küsimused",
+    "subtitle": "Kõik, mida peaksid teadma Heilaresi päikeseprojektide kohta.",
+    "items": {
+      "turnkey": {
+        "question": "Mida tähendab võtmed-kätte päikesepargi ehitus?",
+        "lead": "Heilares võtab vastutuse kogu päikesepargi ehituse eest alates projekteerimisest kuni võrku ühendamiseni.",
+        "answer": "Heilares võtab vastutuse kogu protsessi eest — projekteerimine, materjalide hankimine, raami ja paneelide paigaldus, DC-tööd, inverterite ühendus ning objekti üleandmine ja võrku ühendamine. Klient saab ühe partneri kogu projektile."
+      },
+      "size": {
+        "question": "Kui suuri päikeseparke Heilares ehitab?",
+        "lead": "Heilares on paigaldanud üle 400 MW päikesepaneelide võimsust Euroopas.",
+        "answer": "Oleme paigaldanud üle 400 MW võimsust, sealhulgas 244 MW Risti päikesepark Eestis ja 72,5 MW Stelpe park Lätis. Ehitame nii mõnesaja kW kui ka sadade MW suuruseid projekte."
+      },
+      "countries": {
+        "question": "Millistes riikides Heilares tegutseb?",
+        "lead": "Heilares tegutseb Eestis, Lätis ja üle kogu Euroopa.",
+        "answer": "Tegutseme Eestis, Lätis ja üle kogu Euroopa. Meie brigaadid on valmis kiireks mobiliseerimiseks üle Euroopa."
+      },
+      "types": {
+        "question": "Milliseid päikesepargi tüüpe te ehitate?",
+        "lead": "Heilares ehitab maaparke, katuseparke ja tracker-parke.",
+        "answer": "Ehitame kolme peamist tüüpi — maaparke, katuseparke tööstushoonetele ja tracker-parke (päikest jälgivad süsteemid)."
+      },
+      "quoteSpeed": {
+        "question": "Kui kiiresti saan pakkumise?",
+        "lead": "Heilares vastab pakkumispäringutele 24 tunni jooksul.",
+        "answer": "Vastame päringutele 24 tunni jooksul."
+      }
+    }
+  },
   "cta": {
     "title": "Valmis alustama oma päikeseprojekti?",
     "subtitle": "Küsi tasuta pakkumist — vastame 24 tunni jooksul.",

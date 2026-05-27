@@ -98,6 +98,57 @@
     },
     "back": "Tagasi projektidele"
   },
+  "panelsPage": {
+    "hero": {
+      "title": "Päikesepaneelide teenused",
+      "subtitle": "Võtmed kätte maapargid, katusepargid ja tracker-pargid B2B klientidele Eestis, Lätis ja üle Euroopa."
+    },
+    "ground": {
+      "eyebrow": "Maapealsed lahendused",
+      "title": "Maapark",
+      "lead": "Maapark on maapealne päikesepark, mille Heilares projekteerib ja paigaldab võtmed kätte põhimõttel kommerts- ja tööstusmastaabis.",
+      "paragraphs": [
+        "Maapargid sobivad ideaalselt põllumaale, kasutusest väljas olevatele aladele ja tööstusmaale, kus on piisavalt avatud pinda paneelide paigaldamiseks optimaalse nurga all. Heilares teostab kogu protsessi — geoloogilised uuringud, projekteerimine, vundamentide rajamine, kandekonstruktsioonide paigaldus, paneelide ja inverterite paigaldus ning võrku ühendamine.",
+        "Ehitame nii mõne MW suuruseid maaparke kui ka sadade megavattide suuruseid suurprojekte. Suurim Heilares meeskonna paigaldatud maapark on 244 MW Risti päikesepark Eestis. Kasutame ainult Tier-1 päikesepaneele ja inverterite tootjaid, et tagada pikaajaline tootlikkus ja töökindlus.",
+        "Maapargi eelis on lihtne hooldus, suur tootlikkus ja paindlik mastaapsus. Iga maapark projekteeritakse vastavalt asukoha päikesekiirgusele, maastikule ja võrguühenduse võimalustele."
+      ],
+      "faq": {
+        "question": "Kui suurt maad on vaja maapargi rajamiseks?",
+        "lead": "1 MW maapark vajab keskmiselt 1–1,5 hektarit maad.",
+        "answer": "Täpne maavajadus sõltub paneelide tüübist, paigaldusnurgast ja ridade vahekaugusest. Heilares hindab maa sobivust tasuta esmase konsultatsiooni käigus."
+      }
+    },
+    "roof": {
+      "eyebrow": "Katusepaigaldus",
+      "title": "Katusepark",
+      "lead": "Katusepark on päikesepaneelide paigaldus tööstushoonete, ladude ja ärihoonete katustele, mille Heilares teostab kõikidele katusetüüpidele.",
+      "paragraphs": [
+        "Katusepargid sobivad nii lameda kui ka kaldkatusega hoonetele — trapetsplekk, sandwich-paneel, bituumen ja membraankatused. Iga projekt algab kandekonstruktsiooni hindamisega, et tagada katuse turvaline koormamine paneelide ja kandekonstruktsiooni täiendava raskusega.",
+        "Heilares brigaadid töötavad nii, et kliendi tootmistegevus jätkub minimaalse häirega. Planeerime tööd vastavalt kliendi graafikule, kasutame turvalisi tõstemehhanisme ja korraldame paigalduse loogistika nii, et ladude ja tehaste igapäevatöö ei katkeks.",
+        "Katusepark vähendab oluliselt ettevõtte elektrikulusid ja CO2 jalajälge, kasutades muidu kasutamata pinda. Suurematel tööstushoonetel võib katusepargi võimsus ulatuda mitme megavattini."
+      ],
+      "faq": {
+        "question": "Kas minu katus sobib päikesepaneelide paigaldamiseks?",
+        "lead": "Enamik tööstuskatuseid sobib päikesepaneelide paigaldamiseks, kui kandekonstruktsioon talub lisakoormust 15–25 kg/m².",
+        "answer": "Heilares hindab iga katust eraldi — kontrollime katte tüüpi, vanust, kandekonstruktsiooni ja varju tekitavaid takistusi. Pakkumine sisaldab alati kandevõime hinnangut."
+      }
+    },
+    "tracker": {
+      "eyebrow": "Päikest jälgivad süsteemid",
+      "title": "Tracker-park",
+      "lead": "Tracker-park on päikest jälgiv ühe-teljeline (single-axis) päikesepark, mis annab kuni 25% suurema energiatootlikkuse võrreldes fikseeritud paneelidega.",
+      "paragraphs": [
+        "Tracker-süsteemid pööravad päikesepaneele päeva jooksul ida-läänesuunaliselt, jälgides päikese liikumist. See tagab paneelide optimaalse nurga päikesekiirguse suhtes hommikust õhtuni ning tõstab oluliselt aastast energiatootlikkust võrreldes klassikaliste fikseeritud maaparkidega.",
+        "Tracker-pargid sobivad ideaalselt suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. Heilares on paigaldanud tracker-parke nii Eestis kui Lätis, sealhulgas 72,5 MW Stelpe tracker-pargi.",
+        "Suurem tootlikkus tähendab kiiremat investeeringu tasuvust ja paremat tootmise jaotust päeva jooksul, mis on eriti väärtuslik elektri spot-hindade tippaegadel."
+      ],
+      "faq": {
+        "question": "Kui palju suurem on tracker-pargi tootlikkus võrreldes fikseeritud maapargiga?",
+        "lead": "Tracker-pargid annavad keskmiselt 15–25% rohkem energiat kui samasuurused fikseeritud maapargid.",
+        "answer": "Täpne kasv sõltub asukohast, laiuskraadist ja kohalikest ilmastikutingimustest. Põhja-Euroopa tingimustes on tüüpiline kasv 20% kandis."
+      }
+    }
+  },
   "faq": {
     "eyebrow": "KKK",
     "title": "Korduma kippuvad küsimused",

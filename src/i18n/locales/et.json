@@ -47,18 +47,99 @@
       "desc": "Katusepaigaldused tööstushoonetele, lattudele ja ärihoonetele kogu Euroopas."
     }
   },
-  "workforce": {
-    "title": "Tööjõu rent",
-    "subtitle": "Kogenud paigaldusbrigaadid laenamiseks tööstustele ja päikeseenergia partneritele.",
+  "workforcePage": {
+    "hero": {
+      "title": "Tööjõu rent",
+      "subtitle": "Heilares pakub kogenud ja sertifitseeritud paigaldusbrigaade rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Põhja-Euroopas."
+    },
+    "solar": {
+      "eyebrow": "Päikeseenergia",
+      "title": "Päikeseenergia paigaldusbrigaadid",
+      "lead": "Heilarese renditavad paigaldusbrigaadid on spetsialiseerunud päikeseparkide ehitusele ja sobivad alltöövõtuks teistele EPC-ettevõtetele kogu Põhja-Euroopas.",
+      "paragraphs": [
+        "Meie brigaadid koosnevad kogenud projektijuhtidest ja sertifitseeritud paigaldajatest, kes on osalenud sadade megavattide suuruste päikeseparkide ehituses Eestis ja Lätis. Brigaade saab kiirelt mobiliseerida objektidele üle Euroopa, tagades, et allhanketööd ei seisku ajapuuduse tõttu.",
+        "Rendimeeskonnad teostavad raamistiku montaaži, paneelide paigalduse, DC-kabeldust ja inverterite ühenduse. Iga meeskond töötab vastavalt kliendi ohutusnõuetele ja projektigraafikule. See võimaldab EPC-ettevõtetel optimeerida oma ressursside kasutamist ja võtta vastu suuremaid projekte ilma püsikulu suurendamata.",
+        "Paindlik rendimudel võimaldab brigaade tellida nii lühiajaliseks tähtajaliseks tööks kui ka pikemateks projektideks. Kõik meie paigaldajad läbivad regulaarsed ohutuskoolitused ja omavad vajalikke sertifikaate tööstuslikel päikeseobjektidel töötamiseks."
+      ],
+      "faq": {
+        "question": "Kas rendibrigaadid sobivad alltöövõtuks teistele EPC-ettevõtetele?",
+        "lead": "Jah, Heilarese rendibrigaadid on mõeldud eelkõige alltöövõtuks ja partnerluslepingute alusel töötamiseks.",
+        "answer": "Meie brigaadid töötavad regulaarselt allhankelepingute alusel suurte EPC-ettevõtete jaoks. Järgime kliendi ohutusnõudeid, kvaliteedistandardeid ja projektigraafikut — nii et partner saab keskenduda projekti juhtimisele, samal ajal kui meie hoolitseme paigalduse eest."
+      }
+    },
     "shipbuilding": {
+      "eyebrow": "Laevaehitus",
       "title": "Laevaehitus",
-      "desc": "Sertifitseeritud brigaadid laevaehituse projektide jaoks Põhja-Euroopas."
+      "lead": "Heilares pakub sertifitseeritud paigaldusbrigaade laevaehituse projektide jaoks Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
+      "paragraphs": [
+        "Meie laevaehituse meeskonnad on kogenud tööstuslike paigalduste ja metallikonstruktsioonide montaaži vallas. Brigaadid on valmis mobiliseeruma laevatehaste objektidele, kus nõutakse kiiret ja kvaliteetset tööd.",
+        "Pakume nii lühiajalisi kui pikaajalisi rendilahendusi, mis sobivad nii tipphooajaliste tööde ajutiseks katmiseks kui ka püsivaks partnerluseks. Meie projektijuhid tagavad, et töö vastab kõigile laevaehituse ohutus- ja kvaliteedistandarditele."
+      ],
+      "faq": {
+        "question": "Millistes riikides laevaehituse brigaade saab tellida?",
+        "lead": "Heilarese laevaehituse brigaadid on saadaval Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
+        "answer": "Mobiliseerime brigaade laevatehaste objektidele Soomes, Eestis ja teistes Põhja-Euroopa riikides. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad telakka tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
+      }
     },
     "factories": {
+      "eyebrow": "Tehased",
       "title": "Tehased",
-      "desc": "Tööstusliku paigalduse meeskonnad tehasekeskkondades — kiire mobiliseerimine, kõrge tootlikkus."
+      "lead": "Heilarese tööstusliku paigalduse meeskonnad on mõeldud tehasekeskkondadesse, kus on vaja kiiret mobiliseerimist ja kõrget tootlikkust.",
+      "paragraphs": [
+        "Paigaldame ja monteerime tööstuslikke seadmeid, metallikonstruktsioone ja tootmisliine tehaste ja tööstushoonete sees. Meie brigaadid on harjunud töötama aktiivsetes tootmisruumides, kus on vaja minimaalset seisakut ja maksimaalset efektiivsust.",
+        "Pakume rendimeeskondi, kes saavad kiiresti ümber orienteeruda erinevate tehaste nõuetele ja tööprotsessidele. See võimaldab ettevõtetel skaleerida oma tootmisvõimsust ilma püsivõimsuse suurendamata."
+      ],
+      "faq": {
+        "question": "Kas tehaste rendibrigaadid saavad kiirelt ümber orienteeruda erinevatele tootmisliinidele?",
+        "lead": "Jah, Heilarese tehasebrigaadid on kohanemisvõimelised ja suudavad kiiresti integreeruda erinevate tehaste tööprotsessidesse.",
+        "answer": "Meie meeskonnad on kogenud tööstuslike paigalduste vallas ja suudavad kiiresti omandada uute seadmete ja tööprotsesside spetsiifika. Projektijuhid koordineerivad kliendiga, et tagada sujuv liitumine olemasolevate tootmisrutiinidega."
+      }
     },
-    "cta": "Räägi tööjõu rendist"
+    "cta": {
+      "title": "Vajad kogenud paigaldusbrigaadi?",
+      "subtitle": "Võta meiega ühendust ja lepime kokku tööjõu rendi detailid 24 tunni jooksul.",
+      "button": "Räägi tööjõu rendist"
+    }
+  },
+  "workforceWhy": {
+    "eyebrow": "MIKS HEILARES",
+    "title": "Miks rentida brigaadi Heilaresest?",
+    "subtitle": "Heilares on usaldusväärne partner tööjõurendi vallas — kogenud meeskonnad, paindlikud lahendused ja megavatt-skaala projektikogemus.",
+    "items": {
+      "mobilization": {
+        "title": "Kiire mobiliseerimine",
+        "desc": "Omad brigaadid ja kogenud projektijuhid valmis startima lühikese etteteatamisega üle Euroopa."
+      },
+      "certified": {
+        "title": "Sertifitseeritud meeskonnad",
+        "desc": "Kõik paigaldajad läbivad regulaarsed ohutuskoolitused ja omavad vajalikke sertifikaate."
+      },
+      "scale": {
+        "title": "Megavatt-skaala kogemus",
+        "desc": "Brigaadid on osalenud sadade megavattide suuruste päikeseparkide ehituses."
+      },
+      "flexible": {
+        "title": "Paindlik mahuga kohanemine",
+        "desc": "Tellida saab nii väikesed meeskonnad lühiajalisteks töödeks kui ka suured brigaadid pikkadeks projektideks."
+      }
+    }
+  },
+  "workforceFAQ": {
+    "eyebrow": "KKK",
+    "title": "Korduma kippuvad küsimused tööjõu rendi kohta",
+    "subtitle": "Kõik, mida peaksid teadma Heilarese paigaldusbrigaadide rendist.",
+    "items": {
+      "q1": {
+        "question": "Kui kiiresti saab brigaadi objektile mobiliseerida?",
+        "lead": "Heilares suudab brigaadi mobiliseerida objektile 48–72 tunni jooksul tellimuse kinnitamisest.",
+        "answer": "Täpne aeg sõltub objekti asukohast ja brigaadi suurusest. Euroopa siseste projektide puhul on mobiliseerimine tavaliselt kiirem. Kõik vajalikud tööriistad ja seadmed kaasame meeskonnaga."
+      },
+      "q2": {
+        "question": "Kas rendibrigaadid sobivad alltöövõtuks teistele ettevõtetele?",
+        "lead": "Jah, Heilarese rendibrigaadid on mõeldud eelkõige alltöövõtuks EPC-ettevõtetele ja tööstuslikele partneritele.",
+        "answer": "Meie brigaadid töötavad allhankelepingute alusel, järgides kliendi ohutusnõudeid ja kvaliteedistandardeid. See võimaldab partneritel skaleerida oma võimsust ilma püsikulusid suurendamata."
+      }
+    }
   },
   "process": {
     "title": "Kuidas me töötame",

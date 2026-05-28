@@ -58,7 +58,8 @@ function ProjectDetail() {
           <div className="overflow-hidden rounded-3xl border border-[var(--border)]">
             <img
               src={project.coverImage}
-              alt={project.title[lang]}
+              alt={project.coverAlt}
+              loading="lazy"
               className="aspect-[16/9] w-full object-cover"
             />
           </div>

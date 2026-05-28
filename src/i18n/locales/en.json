@@ -27,9 +27,8 @@
   },
   "stats": {
     "title": "Measurable experience",
-    "mw": "MW installed capacity",
-    "projects": "Completed projects",
-    "countries": "Countries in Europe",
+    "mw": "MW on installations",
+    "response": "Quote response",
     "years": "Years in the field"
   },
   "services": {
@@ -172,7 +171,7 @@
     "title": "Why Heilares",
     "subtitle": "A recognized partner for large-scale solar projects across Europe.",
     "items": {
-      "scale": { "title": "Megawatt-scale experience", "desc": "Hundreds of MW installed in Estonia, Latvia and elsewhere in Europe." },
+      "scale": { "title": "Megawatt-scale experience", "desc": "Hundreds of MW of solar park installations participated in across Estonia and Latvia." },
       "turnkey": { "title": "Turnkey delivery", "desc": "One partner for the whole process — mounting, panels, DC, handover." },
       "speed": { "title": "Fast mobilization", "desc": "Own crews and seasoned project managers ready to start." },
       "quality": { "title": "Tier-1 components", "desc": "We work only with top-grade panels and inverters." }
@@ -261,13 +260,13 @@
       },
       "size": {
         "question": "How large are the solar parks Heilares builds?",
-        "lead": "Heilares has installed over 400 MW of solar capacity across Europe.",
-        "answer": "We have installed over 400 MW of capacity, including the 244 MW Risti solar park in Estonia and the 72.5 MW Stelpe park in Latvia. We build projects ranging from a few hundred kW to hundreds of MW."
+        "lead": "Heilares has participated in solar park installations totalling over 400 MW across Europe.",
+        "answer": "We have participated in solar park installations totalling over 400 MW, including the 244 MW Risti solar park in Estonia and the 72.5 MW Stelpe park in Latvia. We build projects ranging from a few hundred kW to hundreds of MW."
       },
       "countries": {
         "question": "In which countries does Heilares operate?",
-        "lead": "Heilares operates in Estonia, Latvia and across Europe.",
-        "answer": "We operate in Estonia, Latvia and across Europe. Our crews are ready for rapid mobilization across Europe."
+        "lead": "Heilares operates in Estonia and Latvia and is expanding to Finland and other European countries.",
+        "answer": "We operate in Estonia and Latvia and are expanding to Finland and other European countries. Our crews are ready for rapid mobilization across Europe."
       },
       "types": {
         "question": "What types of solar parks do you build?",

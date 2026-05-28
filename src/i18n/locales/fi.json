@@ -27,9 +27,8 @@
   },
   "stats": {
     "title": "Mitattavaa kokemusta",
-    "mw": "MW asennettua tehoa",
-    "projects": "Valmistunutta projektia",
-    "countries": "Maata Euroopassa",
+    "mw": "Osallistuttu asennuksiin",
+    "response": "Tarjousvastaus",
     "years": "Vuotta alalla"
   },
   "services": {
@@ -172,7 +171,7 @@
     "title": "Miksi Heilares",
     "subtitle": "Tunnustettu kumppani suurten aurinkoenergiaprojektien toteuttamiseen Euroopassa.",
     "items": {
-      "scale": { "title": "Megawattiluokan kokemus", "desc": "Satoja megawatteja asennettua tehoa Virossa, Latviassa ja muualla Euroopassa." },
+      "scale": { "title": "Megawattiluokan kokemus", "desc": "Satoja megawatteja aurinkopuistoasennuksista osallistuttu Virossa ja Latviassa." },
       "turnkey": { "title": "Avaimet käteen -toimitus", "desc": "Yksi kumppani koko prosessille — rakenne, paneelit, DC, luovutus." },
       "speed": { "title": "Nopea käynnistys", "desc": "Omat työryhmät ja kokeneet projektipäälliköt valmiina aloittamaan." },
       "quality": { "title": "Tier-1-komponentit", "desc": "Käytämme vain huippuluokan paneeleja ja inverttereitä." }
@@ -261,13 +260,13 @@
       },
       "size": {
         "question": "Kuinka suuria aurinkopuistoja Heilares rakentaa?",
-        "lead": "Heilares on asentanut yli 400 MW aurinkoenergiakapasiteettia Euroopassa.",
-        "answer": "Olemme asentaneet yli 400 MW tehoa, mukaan lukien 244 MW Ristin aurinkopuisto Virossa ja 72,5 MW Stelpen puisto Latviassa. Rakennamme projekteja muutamasta sadasta kW:sta satoihin megawatteihin."
+        "lead": "Heilares on osallistunut yli 400 MW aurinkopuistoasennuksiin Euroopassa.",
+        "answer": "Olemme osallistuneet yli 400 MW aurinkopuistoasennuksiin, mukaan lukien 244 MW Ristin aurinkopuisto Virossa ja 72,5 MW Stelpen puisto Latviassa. Rakennamme projekteja muutamasta sadasta kW:sta satoihin megawatteihin."
       },
       "countries": {
         "question": "Missä maissa Heilares toimii?",
-        "lead": "Heilares toimii Virossa, Latviassa ja koko Euroopassa.",
-        "answer": "Toimimme Virossa, Latviassa ja koko Euroopassa. Työryhmämme ovat valmiita nopeaan liikkeellelähtöön ympäri Eurooppaa."
+        "lead": "Heilares toimii Virossa ja Latviassa ja laajenee lähiaikoina Suomeen ja muihin Euroopan maihin.",
+        "answer": "Toimimme Virossa ja Latviassa ja laajenemme lähiaikoina Suomeen ja muihin Euroopan maihin. Työryhmämme ovat valmiita nopeaan liikkeellelähtöön ympäri Eurooppaa."
       },
       "types": {
         "question": "Minkä tyyppisiä aurinkopuistoja rakennatte?",

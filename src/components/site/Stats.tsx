@@ -4,13 +4,12 @@ export function Stats() {
   const { t } = useTranslation();
   const items = [
     { value: "400+", label: t("stats.mw") },
-    { value: "50+", label: t("stats.projects") },
-    { value: "6", label: t("stats.countries") },
-    { value: "10+", label: t("stats.years") },
+    { value: "5+", label: t("stats.years") },
+    { value: "24h", label: t("stats.response") },
   ];
   return (
     <section className="container-x py-12 md:py-16">
-      <div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)] md:grid-cols-4">
+      <div className="grid grid-cols-3 gap-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)]">
         {items.map((it) => (
           <div
             key={it.label}

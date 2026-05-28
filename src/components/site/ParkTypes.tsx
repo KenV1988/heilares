@@ -5,8 +5,16 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
+import trackerImg from "@/assets/services/tracker-park-1.jpg";
 
 const KEYS = ["ground", "roof", "tracker"] as const;
+
+const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string; alt: string }>> = {
+  tracker: {
+    src: trackerImg,
+    alt: "Päikest jälgiv tracker-park selge taeva all, pikad paneeliread rohelisel väljal",
+  },
+};
 
 export function ParkTypes() {
   const { t } = useTranslation();
@@ -18,6 +26,7 @@ export function ParkTypes() {
           const paragraphs = t(`panelsPage.${key}.paragraphs`, {
             returnObjects: true,
           }) as string[];
+          const image = IMAGES[key];
 
           return (
             <article key={key} className="scroll-mt-28" id={key}>
@@ -31,6 +40,16 @@ export function ParkTypes() {
                 <p className="mt-6 border-l-2 border-[var(--brand)] pl-4 text-base font-medium text-white/90 md:text-lg">
                   {t(`panelsPage.${key}.lead`)}
                 </p>
+                {image && (
+                  <div className="mt-8 overflow-hidden rounded-2xl border border-[var(--border)]">
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      loading="lazy"
+                      className="aspect-[16/9] w-full object-cover"
+                    />
+                  </div>
+                )}
                 <div className="mt-6 space-y-4 text-white/70 md:text-lg">
                   {paragraphs.map((p, i) => (
                     <p key={i}>{p}</p>

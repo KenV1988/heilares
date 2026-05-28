@@ -16,7 +16,7 @@ export function ProjectCard({ project }: { project: Project }) {
       <div className="relative aspect-[4/3] overflow-hidden bg-[var(--bg-card)]">
         <img
           src={project.coverImage}
-          alt={project.title[lang]}
+          alt={project.coverAlt}
           loading="lazy"
           className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />

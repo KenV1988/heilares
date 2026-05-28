@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 export function Stats() {
   const { t } = useTranslation();
   const items = [
-    { value: "400+", label: t("stats.mw") },
+    { value: "400+MW", label: t("stats.mw") },
     { value: "5+", label: t("stats.years") },
     { value: "24h", label: t("stats.response") },
   ];

@@ -26,6 +26,7 @@ export function ParkTypes() {
           const paragraphs = t(`panelsPage.${key}.paragraphs`, {
             returnObjects: true,
           }) as string[];
+          const image = IMAGES[key];
 
           return (
             <article key={key} className="scroll-mt-28" id={key}>

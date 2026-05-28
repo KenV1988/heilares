@@ -5,8 +5,16 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
+import trackerImg from "@/assets/services/tracker-park-1.jpg";
 
 const KEYS = ["ground", "roof", "tracker"] as const;
+
+const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string; alt: string }>> = {
+  tracker: {
+    src: trackerImg,
+    alt: "Päikest jälgiv tracker-park selge taeva all, pikad paneeliread rohelisel väljal",
+  },
+};
 
 export function ParkTypes() {
   const { t } = useTranslation();

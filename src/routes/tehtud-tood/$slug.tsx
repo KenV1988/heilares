@@ -69,11 +69,11 @@ function ProjectDetail() {
           <div className="grid gap-10 md:grid-cols-3">
             <div className="md:col-span-2">
               <div className="grid gap-3 sm:grid-cols-2">
-                {project.gallery.map((src: string, idx: number) => (
+                {project.gallery.map((img, idx: number) => (
                   <img
                     key={idx}
-                    src={src}
-                    alt={`${project.title[lang]} ${idx + 1}`}
+                    src={img.src}
+                    alt={img.alt}
                     loading="lazy"
                     className="aspect-[4/3] w-full rounded-2xl border border-[var(--border)] object-cover"
                   />

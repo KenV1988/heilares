@@ -27,9 +27,8 @@
   },
   "stats": {
     "title": "Mõõdetav kogemus",
-    "mw": "MW paigaldatud võimsust",
-    "projects": "Lõpetatud projekti",
-    "countries": "Riiki Euroopas",
+    "mw": "Osaletud paigaldustel",
+    "response": "Pakkumise vastus",
     "years": "Aastat valdkonnas"
   },
   "services": {
@@ -172,7 +171,7 @@
     "title": "Miks Heilares",
     "subtitle": "Üle Euroopa tunnustatud partner suuremahuliste päikeseprojektide elluviimisel.",
     "items": {
-      "scale": { "title": "Megavatt-skaala kogemus", "desc": "Sadu MW paigaldatud Eestis, Lätis ja mujal Euroopas." },
+      "scale": { "title": "Megavatt-skaala kogemus", "desc": "Sadu MW päikeseparkide paigaldustel osaletud Eestis ja Lätis." },
       "turnkey": { "title": "Võtmed kätte teenus", "desc": "Üks partner kogu protsessile — raam, paneelid, DC, üleandmine." },
       "speed": { "title": "Kiire mobiliseerimine", "desc": "Omad brigaadid ja kogenud projektijuhid valmis startima." },
       "quality": { "title": "Tier-1 komponendid", "desc": "Töötame ainult tipptasemel paneelide ja inverteritega." }
@@ -261,13 +260,13 @@
       },
       "size": {
         "question": "Kui suuri päikeseparke Heilares ehitab?",
-        "lead": "Heilares on paigaldanud üle 400 MW päikesepaneelide võimsust Euroopas.",
-        "answer": "Oleme paigaldanud üle 400 MW võimsust, sealhulgas 244 MW Risti päikesepark Eestis ja 72,5 MW Stelpe park Lätis. Ehitame nii mõnesaja kW kui ka sadade MW suuruseid projekte."
+        "lead": "Heilares on osalenud üle 400 MW päikeseparkide paigaldustel Euroopas.",
+        "answer": "Oleme osalenud üle 400 MW päikeseparkide paigaldustel, sealhulgas 244 MW Risti päikesepark Eestis ja 72,5 MW Stelpe park Lätis. Ehitame nii mõnesaja kW kui ka sadade MW suuruseid projekte."
       },
       "countries": {
         "question": "Millistes riikides Heilares tegutseb?",
-        "lead": "Heilares tegutseb Eestis, Lätis ja üle kogu Euroopa.",
-        "answer": "Tegutseme Eestis, Lätis ja üle kogu Euroopa. Meie brigaadid on valmis kiireks mobiliseerimiseks üle Euroopa."
+        "lead": "Heilares tegutseb Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse.",
+        "answer": "Tegutseme Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse. Meie brigaadid on valmis kiireks mobiliseerimiseks üle Euroopa."
       },
       "types": {
         "question": "Milliseid päikesepargi tüüpe te ehitate?",

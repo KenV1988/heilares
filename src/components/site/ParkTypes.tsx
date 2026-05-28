@@ -40,6 +40,16 @@ export function ParkTypes() {
                 <p className="mt-6 border-l-2 border-[var(--brand)] pl-4 text-base font-medium text-white/90 md:text-lg">
                   {t(`panelsPage.${key}.lead`)}
                 </p>
+                {image && (
+                  <div className="mt-8 overflow-hidden rounded-2xl border border-[var(--border)]">
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      loading="lazy"
+                      className="aspect-[16/9] w-full object-cover"
+                    />
+                  </div>
+                )}
                 <div className="mt-6 space-y-4 text-white/70 md:text-lg">
                   {paragraphs.map((p, i) => (
                     <p key={i}>{p}</p>

@@ -221,7 +221,7 @@ const parkTypes: BlogPost = {
       summary:
         "Kolm peamist päikesepargi tüüpi B2B kontekstis — millised on iga tüübi tugevused, kulustruktuur ja kuhu need sobivad kõige paremini.",
       lead:
-        "Maaparkide, katuseparkide ja Solar Solar Tracker Park vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
+        "Maaparkide, katuseparkide ja Solar Tracker Park vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
       sections: [
         {
           heading: "Maapark — suurim mastaabivõime",
@@ -241,7 +241,7 @@ const parkTypes: BlogPost = {
           heading: "Solar Tracker Park — maksimaalne tootlikkus pinnaühiku kohta",
           paragraphs: [
             "Solar Tracker Park kasutab ühe-teljelisi (single-axis) jälgijaid, mis pööravad paneele ida-läänesuunaliselt päeva jooksul. Tootlikkus on 15–25% suurem kui sama suure fikseeritud maapargi puhul, mis kompenseerib kõrgemat CAPEX-i ja hoolduskulusid.",
-            "Solar Tracker Park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. HeilAres on paigaldanud Lätis 72,5 MW Stelpe Solar Solar Tracker Park.",
+            "Solar Tracker Park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. HeilAres on paigaldanud Lätis 72,5 MW Stelpe Solar Tracker Park.",
           ],
         },
         {
@@ -264,7 +264,7 @@ const parkTypes: BlogPost = {
           lead:
             "Katuseparkidel on tüüpiliselt lühim tasuvusaeg, kuna omatarbeline energia asendab võrgust ostmist täishinnaga.",
           answer:
-            "Maa- ja Solar Solar Tracker Park tasuvus sõltub müügihinnast (PPA või spot), mis on tavaliselt madalam kui jaehind.",
+            "Maa- ja Solar Tracker Park tasuvus sõltub müügihinnast (PPA või spot), mis on tavaliselt madalam kui jaehind.",
         },
       ],
     },
@@ -402,7 +402,7 @@ const turnkey: BlogPost = {
           heading: "Miks arendajad eelistavad võtmed-kätte mudelit?",
           paragraphs: [
             "Esimene põhjus on selge vastutus. Kui midagi läheb valesti — paneelide tootlikkus on madalam kui projekteeritud, kaabel rikkis, inverter ei käivitu — on üks partner, kes peab probleemi lahendama. Multi-contractor projektides kulub vastutuse selgitamisele sageli kuid.",
-            "Teine põhjus on graafiku usaldusväärsus. EPC-partner haldab sisemiselt komponentide saabumist, brigaadide mobiliseerimist ja töötsükleid, mis vähendab kalleid seisakuid. Suurte projektide puhul võib üks nädal viivitust tähendada kümneid tuhandeid eurosid kaotatud tulu.",
+            "Teine põhjus on graafiku usaldusväärsus. EPC-partner haldab sisemiselt komponentide saabumist, meeskondade mobiliseerimist ja töötsükleid, mis vähendab kalleid seisakuid. Suurte projektide puhul võib üks nädal viivitust tähendada kümneid tuhandeid eurosid kaotatud tulu.",
             "Kolmas põhjus on hinnakindlus. Võtmed-kätte leping on tavaliselt fikseeritud hinnaga (lump-sum), mille raames EPC kannab tarneahela ja täitmise riski. Arendaja teab ette täpset CAPEX-i.",
           ],
         },
@@ -549,7 +549,7 @@ const timeline: BlogPost = {
           paragraphs: [
             "Detailne projekteerimine ja loamenetlus võtab tavaliselt 2–4 kuud. See sisaldab geoloogilist uurimist, võrguühenduse projekti, ehitusprojekti koostamist ja vajalike lubade saamist. Suurtel objektidel võib loamenetlus pikeneda kohaliku omavalitsuse menetlustähtaegade tõttu.",
             "Komponentide hankimine kestab 2–6 kuud sõltuvalt globaalsest tarneolukorrast. Paneelid ja inverterid tulevad sageli Aasiast ja Euroopast paralleelselt. Tarneajad on viimastel aastatel olnud volatiilsemad kui varem.",
-            "Füüsiline ehitus 10 MW pargi puhul kestab 2–4 kuud — vundamendid, kandekonstruktsioonid, paneelid, DC-kaabeldus, inverterite paigaldus ja substation-i ühendus. 100 MW pargi puhul võib aktiivne paigaldusperiood ulatuda 6–8 kuuni, sageli paralleelsete brigaadidega.",
+            "Füüsiline ehitus 10 MW pargi puhul kestab 2–4 kuud — vundamendid, kandekonstruktsioonid, paneelid, DC-kaabeldus, inverterite paigaldus ja substation-i ühendus. 100 MW pargi puhul võib aktiivne paigaldusperiood ulatuda 6–8 kuuni, sageli paralleelsete meeskondadega.",
             "Testimine, võrku ühendamine ja kasutuselevõtt võtab 2–6 nädalat sõltuvalt võrgu operaatori graafikust.",
           ],
         },
@@ -838,7 +838,7 @@ const maintenance: BlogPost = {
           heading: "Mis mõjutab hoolduskulu?",
           paragraphs: [
             "O&M aastane kulu on tüüpiliselt 8–15 €/kW paigaldatud võimsuse kohta, sõltudes pargi suurusest, asukohast ja teenuse tasemest. Suuremad pargid saavad mastaabiefekti — 100 MW pargi €/kW kulu on madalam kui 1 MW pargi puhul.",
-            "Asukoht mõjutab puhastamise sagedust (tolm, lumi, linnusõnnik), kandekonstruktsioonide korrosiooniriski (rannikualad) ja meeskonna reageerimisaega. Solar Solar Tracker Park vajavad mehaaniliste osade hooldust, mida fikseeritud pargid ei vaja.",
+            "Asukoht mõjutab puhastamise sagedust (tolm, lumi, linnusõnnik), kandekonstruktsioonide korrosiooniriski (rannikualad) ja meeskonna reageerimisaega. Solar Tracker Park vajavad mehaaniliste osade hooldust, mida fikseeritud pargid ei vaja.",
           ],
         },
         {

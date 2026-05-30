@@ -21,7 +21,7 @@
   "hero": {
     "badge": "ROHEENERGIA SPETSIALISTID",
     "title": "Terviklikud roheenergia lahendused",
-    "subtitle": "Võtmed kätte päikesepaneelide paigaldus — maa-, katuse- ja Solar Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud paigaldusmeeskonnade renti.",
+    "subtitle": "Võtmed kätte päikesepaneelide paigaldus — maa-, katuse- ja Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud paigaldusmeeskonnade renti.",
     "primaryCta": "Küsi pakkumist",
     "secondaryCta": "Loe lähemalt"
   },
@@ -121,7 +121,7 @@
   },
   "workforceWhy": {
     "eyebrow": "MIKS HEILARES",
-    "title": "Miks rentida meeskonna Heilaresest?",
+    "title": "Miks rentida meeskonna HeilAresest?",
     "subtitle": "HeilAres on usaldusväärne partner tööjõurendi vallas — kogenud meeskonnad, paindlikud lahendused ja megavatt-skaala projektikogemus.",
     "items": {
       "mobilization": {
@@ -200,7 +200,7 @@
   "panelsPage": {
     "hero": {
       "title": "Päikesepaneelide teenused",
-      "subtitle": "Võtmed kätte maapargid, katusepargid ja Solar Solar Tracker Park B2B klientidele Eestis, Lätis ja üle Euroopa."
+      "subtitle": "Võtmed kätte maapargid, katusepargid ja Solar Tracker Park B2B klientidele Eestis, Lätis ja üle Euroopa."
     },
     "ground": {
       "eyebrow": "Maapealsed lahendused",
@@ -238,12 +238,12 @@
       "lead": "Solar Tracker Park on päikest jälgiv ühe-teljeline (single-axis) päikesepark, mis annab kuni 25% suurema energiatootlikkuse võrreldes fikseeritud paneelidega.",
       "paragraphs": [
         "Solar Tracker süsteemid pööravad päikesepaneele päeva jooksul ida-läänesuunaliselt, jälgides päikese liikumist. See tagab paneelide optimaalse nurga päikesekiirguse suhtes hommikust õhtuni ning tõstab oluliselt aastast energiatootlikkust võrreldes klassikaliste fikseeritud maaparkidega.",
-        "Solar Solar Tracker Park sobivad ideaalselt suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. HeilAres on paigaldanud tracker-parke nii Eestis kui Lätis, sealhulgas 72,5 MW Stelpe Solar Solar Tracker Park.",
+        "Solar Tracker Park sobivad ideaalselt suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. HeilAres on paigaldanud Solar Tracker Park nii Eestis kui Lätis, sealhulgas 72,5 MW Stelpe Solar Tracker Park.",
         "Suurem tootlikkus tähendab kiiremat investeeringu tasuvust ja paremat tootmise jaotust päeva jooksul, mis on eriti väärtuslik elektri spot-hindade tippaegadel."
       ],
       "faq": {
-        "question": "Kui palju suurem on Solar Solar Tracker Park tootlikkus võrreldes fikseeritud maapargiga?",
-        "lead": "Solar Solar Tracker Park annavad keskmiselt 15–25% rohkem energiat kui samasuurused fikseeritud maapargid.",
+        "question": "Kui palju suurem on Solar Tracker Park tootlikkus võrreldes fikseeritud maapargiga?",
+        "lead": "Solar Tracker Park annavad keskmiselt 15–25% rohkem energiat kui samasuurused fikseeritud maapargid.",
         "answer": "Täpne kasv sõltub asukohast, laiuskraadist ja kohalikest ilmastikutingimustest. Põhja-Euroopa tingimustes on tüüpiline kasv 20% kandis."
       }
     }
@@ -270,8 +270,8 @@
       },
       "types": {
         "question": "Milliseid päikesepargi tüüpe te ehitate?",
-        "lead": "HeilAres ehitab maaparke, katuseparke ja tracker-parke.",
-        "answer": "Ehitame kolme peamist tüüpi — maaparke, katuseparke tööstushoonetele ja tracker-parke (päikest jälgivad süsteemid)."
+        "lead": "HeilAres ehitab maaparke, katuseparke ja Solar Tracker Park.",
+        "answer": "Ehitame kolme peamist tüüpi — maaparke, katuseparke tööstushoonetele ja Solar Tracker Park (päikest jälgivad süsteemid)."
       },
       "quoteSpeed": {
         "question": "Kui kiiresti saan pakkumise?",
@@ -354,7 +354,7 @@
     },
     "panels": {
       "title": "Maapark, katusepark ja Solar Tracker Park | HeilAres",
-      "description": "HeilAres projekteerib ja ehitab maaparke, katuseparke ja tracker-parke tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
+      "description": "HeilAres projekteerib ja ehitab maaparke, katuseparke ja Solar Tracker Park tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
     },
     "workforce": {
       "title": "Paigaldusmeeskondi rent | HeilAres",

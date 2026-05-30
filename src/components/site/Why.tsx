@@ -1,5 +1,5 @@
 import { Award, Layers, Clock, Cpu } from "lucide-react";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { SectionBadge } from "./Section";
 import { Reveal } from "./Reveal";
 
@@ -25,12 +25,7 @@ export function Why() {
           <div className="md:sticky md:top-32">
             <SectionBadge>{t("why.title")}</SectionBadge>
             <h2 className="font-display mt-5 text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
-              <Trans
-                i18nKey="why.title"
-                defaults={t("why.title")}
-              >
-                Miks <span className="text-gradient">HeilAres</span>
-              </Trans>
+              {renderWhyTitle(t("why.title"))}
             </h2>
             <p className="mt-6 max-w-md text-[16px] leading-[1.65] text-white/70 md:text-[18px]">
               {t("why.subtitle")}

@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ToojouRentRouteImport } from './routes/toojou-rent'
+import { Route as PaikesepargidRouteImport } from './routes/paikesepargid'
 import { Route as PaikesepaneelidRouteImport } from './routes/paikesepaneelid'
 import { Route as KontaktRouteImport } from './routes/kontakt'
 import { Route as IndexRouteImport } from './routes/index'
@@ -21,6 +22,11 @@ import { Route as BlogiSlugRouteImport } from './routes/blogi/$slug'
 const ToojouRentRoute = ToojouRentRouteImport.update({
   id: '/toojou-rent',
   path: '/toojou-rent',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PaikesepargidRoute = PaikesepargidRouteImport.update({
+  id: '/paikesepargid',
+  path: '/paikesepargid',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PaikesepaneelidRoute = PaikesepaneelidRouteImport.update({
@@ -63,6 +69,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/kontakt': typeof KontaktRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
+  '/paikesepargid': typeof PaikesepargidRoute
   '/toojou-rent': typeof ToojouRentRoute
   '/blogi/$slug': typeof BlogiSlugRoute
   '/tehtud-tood/$slug': typeof TehtudToodSlugRoute
@@ -73,6 +80,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/kontakt': typeof KontaktRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
+  '/paikesepargid': typeof PaikesepargidRoute
   '/toojou-rent': typeof ToojouRentRoute
   '/blogi/$slug': typeof BlogiSlugRoute
   '/tehtud-tood/$slug': typeof TehtudToodSlugRoute
@@ -84,6 +92,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/kontakt': typeof KontaktRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
+  '/paikesepargid': typeof PaikesepargidRoute
   '/toojou-rent': typeof ToojouRentRoute
   '/blogi/$slug': typeof BlogiSlugRoute
   '/tehtud-tood/$slug': typeof TehtudToodSlugRoute
@@ -96,6 +105,7 @@ export interface FileRouteTypes {
     | '/'
     | '/kontakt'
     | '/paikesepaneelid'
+    | '/paikesepargid'
     | '/toojou-rent'
     | '/blogi/$slug'
     | '/tehtud-tood/$slug'
@@ -106,6 +116,7 @@ export interface FileRouteTypes {
     | '/'
     | '/kontakt'
     | '/paikesepaneelid'
+    | '/paikesepargid'
     | '/toojou-rent'
     | '/blogi/$slug'
     | '/tehtud-tood/$slug'
@@ -116,6 +127,7 @@ export interface FileRouteTypes {
     | '/'
     | '/kontakt'
     | '/paikesepaneelid'
+    | '/paikesepargid'
     | '/toojou-rent'
     | '/blogi/$slug'
     | '/tehtud-tood/$slug'
@@ -127,6 +139,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   KontaktRoute: typeof KontaktRoute
   PaikesepaneelidRoute: typeof PaikesepaneelidRoute
+  PaikesepargidRoute: typeof PaikesepargidRoute
   ToojouRentRoute: typeof ToojouRentRoute
   BlogiSlugRoute: typeof BlogiSlugRoute
   TehtudToodSlugRoute: typeof TehtudToodSlugRoute
@@ -141,6 +154,13 @@ declare module '@tanstack/react-router' {
       path: '/toojou-rent'
       fullPath: '/toojou-rent'
       preLoaderRoute: typeof ToojouRentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/paikesepargid': {
+      id: '/paikesepargid'
+      path: '/paikesepargid'
+      fullPath: '/paikesepargid'
+      preLoaderRoute: typeof PaikesepargidRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/paikesepaneelid': {
@@ -199,6 +219,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   KontaktRoute: KontaktRoute,
   PaikesepaneelidRoute: PaikesepaneelidRoute,
+  PaikesepargidRoute: PaikesepargidRoute,
   ToojouRentRoute: ToojouRentRoute,
   BlogiSlugRoute: BlogiSlugRoute,
   TehtudToodSlugRoute: TehtudToodSlugRoute,
@@ -208,3 +229,13 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}

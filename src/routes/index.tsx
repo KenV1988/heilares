@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { Hero } from "@/components/site/Hero";
-import { Stats } from "@/components/site/Stats";
 import { Services } from "@/components/site/Services";
 import { WorkforceSection } from "@/components/site/WorkforceSection";
 import { Process } from "@/components/site/Process";
@@ -38,7 +37,6 @@ function Index() {
     <SiteLayout>
       <Seo titleKey="seo.home.title" descriptionKey="seo.home.description" />
       <Hero />
-      <Stats />
       <Services />
       <WorkforceSection />
       <Process />

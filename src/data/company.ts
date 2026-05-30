@@ -1,9 +1,28 @@
+export type CompanyContact = {
+  name: string;
+  area: string;
+  phone: string;
+  phoneHref: string;
+};
+
 export const company = {
   name: "HeilAres OÜ",
   tagline: "ROHEENERGIA SPETSIALISTID",
   email: "info@heilares.ee",
-  phone: "+372 5693 0296",
-  phoneHref: "tel:+3725693296",
+  contacts: [
+    {
+      name: "Kristjan Lepik",
+      area: "Tööjõu rent",
+      phone: "+372 5594 2216",
+      phoneHref: "tel:+37255942216",
+    },
+    {
+      name: "Lauri Sal-al-Saller",
+      area: "Roheenergia",
+      phone: "+372 505 9917",
+      phoneHref: "tel:+3725059917",
+    },
+  ] as CompanyContact[],
   locationKey: "contact.info.locationValue",
   hoursKey: "contact.info.hoursValue",
   social: {

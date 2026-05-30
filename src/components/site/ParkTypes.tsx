@@ -6,6 +6,7 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import trackerImg from "@/assets/services/tracker-park-1.jpg";
+import maaparkImg from "@/assets/services/service-maapark.jpg";
 
 const KEYS = ["ground", "roof", "tracker"] as const;
 
@@ -13,6 +14,10 @@ const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string; alt: string }
   tracker: {
     src: trackerImg,
     alt: "Päikest jälgiv Solar Tracker Park selge taeva all, pikad paneeliread rohelisel väljal",
+  },
+  ground: {
+    src: maaparkImg,
+    alt: "Maapark põllul aerofotol, pikad paneeliread silmapiirini ulatuvas päikesepargis",
   },
 };
 

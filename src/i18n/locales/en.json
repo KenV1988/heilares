@@ -21,7 +21,7 @@
   "hero": {
     "badge": "SOLAR ENERGY SPECIALISTS",
     "title": "End-to-end solar energy solutions",
-    "subtitle": "Turnkey solar panel installation — ground-mount, rooftop and tracker parks across Estonia and Europe. We also offer experienced installation crew rental.",
+    "subtitle": "Turnkey solar panel installation — ground-mount, rooftop and Solar Tracker Parks across Estonia and Europe. We also offer experienced installation crew rental.",
     "primaryCta": "Request a quote",
     "secondaryCta": "Learn more"
   },
@@ -35,7 +35,7 @@
     "title": "Solar panel solutions",
     "subtitle": "Three core installation types — all delivered turnkey.",
     "tracker": {
-      "title": "Tracker park",
+      "title": "Solar Tracker Park",
       "desc": "Sun-tracking systems for maximum yield on large-scale solar fields."
     },
     "ground": {
@@ -50,7 +50,7 @@
   "workforceSection": {
     "eyebrow": "WORKFORCE RENTAL",
     "title": "Hire experienced installation crews",
-    "subtitle": "Heilares provides experienced and certified installation crews for hire to industries, shipbuilding and solar energy partners across Europe.",
+    "subtitle": "HeilAres provides experienced and certified installation crews for hire to industries, shipbuilding and solar energy partners across Europe.",
     "solar": {
       "title": "Solar installation crews",
       "desc": "Rental teams for solar park construction, suitable for subcontracting to other EPC companies."
@@ -68,12 +68,12 @@
   "workforcePage": {
     "hero": {
       "title": "Workforce rental",
-      "subtitle": "Heilares provides experienced and certified installation crews for hire to industries, shipbuilding and solar energy partners across Northern Europe."
+      "subtitle": "HeilAres provides experienced and certified installation crews for hire to industries, shipbuilding and solar energy partners across Northern Europe."
     },
     "solar": {
       "eyebrow": "Solar energy",
       "title": "Solar installation crews",
-      "lead": "Heilares rental installation crews specialize in solar park construction and are available for subcontracting to other EPC companies across Northern Europe.",
+      "lead": "HeilAres rental installation crews specialize in solar park construction and are available for subcontracting to other EPC companies across Northern Europe.",
       "paragraphs": [
         "Our crews consist of experienced project managers and certified installers who have participated in the construction of solar parks scaling hundreds of megawatts in Estonia and Latvia. Crews can be quickly mobilized to sites across Europe, ensuring that subcontractor work does not stall due to lack of manpower.",
         "Rental teams perform framework assembly, panel installation, DC cabling and inverter connection. Each crew works according to the client's safety requirements and project schedule. This allows EPC companies to optimize their resource utilization and take on larger projects without increasing fixed costs.",
@@ -81,35 +81,35 @@
       ],
       "faq": {
         "question": "Are rental crews suitable for subcontracting to other EPC companies?",
-        "lead": "Yes, Heilares rental crews are designed primarily for subcontracting and partnership-based work.",
+        "lead": "Yes, HeilAres rental crews are designed primarily for subcontracting and partnership-based work.",
         "answer": "Our crews regularly work under subcontract agreements for large EPC companies. We follow the client's safety requirements, quality standards and project schedule — so the partner can focus on project management while we handle the installation."
       }
     },
     "shipbuilding": {
       "eyebrow": "Shipbuilding",
       "title": "Shipbuilding",
-      "lead": "Heilares provides certified installation crews for shipbuilding projects in Northern Europe, including Finland and Estonia.",
+      "lead": "HeilAres provides certified installation crews for shipbuilding projects in Northern Europe, including Finland and Estonia.",
       "paragraphs": [
         "Our shipbuilding teams are experienced in industrial installations and metal structure assembly. Crews are ready to mobilize to shipyard sites where fast and high-quality work is required.",
         "We offer both short-term and long-term rental solutions suitable for covering peak season work as well as for permanent partnership. Our project managers ensure that work meets all shipbuilding safety and quality standards."
       ],
       "faq": {
         "question": "In which countries can shipbuilding crews be hired?",
-        "lead": "Heilares shipbuilding crews are available in Northern Europe, including Finland and Estonia.",
+        "lead": "HeilAres shipbuilding crews are available in Northern Europe, including Finland and Estonia.",
         "answer": "We mobilize crews to shipyard sites in Finland, Estonia and other Northern European countries. Experience with shipbuilding projects ensures that our teams understand the shipyard industry's specific requirements and safety standards."
       }
     },
     "factories": {
       "eyebrow": "Factories",
       "title": "Factories",
-      "lead": "Heilares industrial installation teams are designed for factory environments where rapid mobilization and high productivity are required.",
+      "lead": "HeilAres industrial installation teams are designed for factory environments where rapid mobilization and high productivity are required.",
       "paragraphs": [
         "We install and assemble industrial equipment, metal structures and production lines inside factories and industrial buildings. Our crews are accustomed to working in active production rooms where minimal downtime and maximum efficiency are required.",
         "We provide rental teams that can quickly adapt to different factory requirements and work processes. This allows companies to scale their production capacity without increasing permanent capacity."
       ],
       "faq": {
         "question": "Can factory rental crews quickly adapt to different production lines?",
-        "lead": "Yes, Heilares factory crews are adaptable and can quickly integrate into different factory work processes.",
+        "lead": "Yes, HeilAres factory crews are adaptable and can quickly integrate into different factory work processes.",
         "answer": "Our teams are experienced in industrial installations and can quickly learn the specifics of new equipment and work processes. Project managers coordinate with the client to ensure smooth integration with existing production routines."
       }
     },
@@ -121,8 +121,8 @@
   },
   "workforceWhy": {
     "eyebrow": "WHY HEILARES",
-    "title": "Why rent a crew from Heilares?",
-    "subtitle": "Heilares is a trusted partner in workforce rental — experienced teams, flexible solutions and megawatt-scale project experience.",
+    "title": "Why rent a crew from HeilAres?",
+    "subtitle": "HeilAres is a trusted partner in workforce rental — experienced teams, flexible solutions and megawatt-scale project experience.",
     "items": {
       "mobilization": {
         "title": "Fast mobilization",
@@ -145,16 +145,16 @@
   "workforceFAQ": {
     "eyebrow": "FAQ",
     "title": "Frequently asked questions about workforce rental",
-    "subtitle": "Everything you need to know about hiring Heilares installation crews.",
+    "subtitle": "Everything you need to know about hiring HeilAres installation crews.",
     "items": {
       "q1": {
         "question": "How quickly can a crew be mobilized to site?",
-        "lead": "Heilares can mobilize a crew to site within 48–72 hours of order confirmation.",
+        "lead": "HeilAres can mobilize a crew to site within 48–72 hours of order confirmation.",
         "answer": "Exact timing depends on the site location and crew size. For projects within Europe, mobilization is usually faster. All necessary tools and equipment are included with the team."
       },
       "q2": {
         "question": "Are rental crews suitable for subcontracting to other companies?",
-        "lead": "Yes, Heilares rental crews are designed primarily for subcontracting to EPC companies and industrial partners.",
+        "lead": "Yes, HeilAres rental crews are designed primarily for subcontracting to EPC companies and industrial partners.",
         "answer": "Our crews work under subcontract agreements, following the client's safety requirements and quality standards. This allows partners to scale their capacity without increasing fixed costs."
       }
     }
@@ -168,7 +168,7 @@
     "step4": { "title": "Handover", "desc": "We test, connect to the grid and hand over the site ready to run." }
   },
   "why": {
-    "title": "Why Heilares",
+    "title": "Why HeilAres",
     "subtitle": "A recognized partner for large-scale solar projects across Europe.",
     "items": {
       "scale": { "title": "Megawatt-scale experience", "desc": "Hundreds of MW of solar park installations participated in across Estonia and Latvia." },
@@ -182,7 +182,7 @@
     "subtitle": "A selection of recent large-scale solar projects.",
     "filter": {
       "all": "All",
-      "tracker_park": "Tracker park",
+      "tracker_park": "Solar Tracker Park",
       "maapark": "Ground-mount",
       "katusepark": "Rooftop"
     },
@@ -205,45 +205,45 @@
     "ground": {
       "eyebrow": "Ground-mount solutions",
       "title": "Ground-mount park",
-      "lead": "A ground-mount park is a land-based solar park that Heilares designs and installs on a turnkey basis at commercial and industrial scale.",
+      "lead": "A ground-mount park is a land-based solar park that HeilAres designs and installs on a turnkey basis at commercial and industrial scale.",
       "paragraphs": [
-        "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. Heilares handles the entire process — geological surveys, design, foundations, mounting structures, panel and inverter installation, and grid connection.",
-        "We build ground-mount parks ranging from a few MW to hundreds of MW. The largest ground-mount park installed by the Heilares team is the 244 MW Risti solar park in Estonia. We only use Tier-1 panel and inverter manufacturers to guarantee long-term yield and reliability.",
+        "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. HeilAres handles the entire process — geological surveys, design, foundations, mounting structures, panel and inverter installation, and grid connection.",
+        "We build ground-mount parks ranging from a few MW to hundreds of MW. The largest ground-mount park installed by the HeilAres team is the 244 MW Risti solar park in Estonia. We only use Tier-1 panel and inverter manufacturers to guarantee long-term yield and reliability.",
         "The strengths of a ground-mount park are easy maintenance, high yield and flexible scalability. Every project is engineered for the specific site irradiation, terrain and grid connection options."
       ],
       "faq": {
         "question": "How much land is required for a ground-mount park?",
         "lead": "1 MW of ground-mount capacity typically requires 1–1.5 hectares of land.",
-        "answer": "Exact land requirement depends on panel type, tilt angle and row spacing. Heilares assesses land suitability during a free initial consultation."
+        "answer": "Exact land requirement depends on panel type, tilt angle and row spacing. HeilAres assesses land suitability during a free initial consultation."
       }
     },
     "roof": {
       "eyebrow": "Rooftop installations",
       "title": "Rooftop park",
-      "lead": "A rooftop park is a solar installation on industrial buildings, warehouses and commercial properties that Heilares delivers on all roof types.",
+      "lead": "A rooftop park is a solar installation on industrial buildings, warehouses and commercial properties that HeilAres delivers on all roof types.",
       "paragraphs": [
         "Rooftop parks suit both flat and pitched roofs — trapezoidal sheet, sandwich panel, bitumen and membrane roofs. Every project starts with a structural assessment to confirm the roof can safely carry the additional weight of panels and mounting structures.",
-        "Heilares crews work to minimise disruption to the client's operations. We schedule around your production calendar, use safe lifting equipment and plan installation logistics so warehouse and factory operations keep running.",
+        "HeilAres crews work to minimise disruption to the client's operations. We schedule around your production calendar, use safe lifting equipment and plan installation logistics so warehouse and factory operations keep running.",
         "A rooftop park significantly reduces a company's electricity costs and CO2 footprint by using otherwise unused surface. On larger industrial buildings, rooftop capacity can reach several megawatts."
       ],
       "faq": {
         "question": "Is my roof suitable for solar panels?",
         "lead": "Most industrial roofs are suitable for solar panels if the structure can carry an additional load of 15–25 kg/m².",
-        "answer": "Heilares evaluates each roof individually — covering type, age, structural capacity and shading obstacles. Every quote includes a load-bearing assessment."
+        "answer": "HeilAres evaluates each roof individually — covering type, age, structural capacity and shading obstacles. Every quote includes a load-bearing assessment."
       }
     },
     "tracker": {
       "eyebrow": "Sun-tracking systems",
-      "title": "Tracker park",
-      "lead": "A tracker park is a single-axis sun-tracking solar park that delivers up to 25% higher energy yield compared to fixed-tilt panels.",
+      "title": "Solar Tracker Park",
+      "lead": "A Solar Tracker Park is a single-axis sun-tracking solar park that delivers up to 25% higher energy yield compared to fixed-tilt panels.",
       "paragraphs": [
-        "Tracker systems rotate the panels east to west during the day, following the sun. This keeps the panels at the optimal angle to solar irradiation from morning to evening and significantly increases annual energy yield compared to classic fixed ground-mount parks.",
-        "Tracker parks are ideal for large open land areas with stable soil and enough space to avoid shading between rows. Heilares has built tracker parks in both Estonia and Latvia, including the 72.5 MW Stelpe tracker park.",
+        "Solar Tracker Park systems rotate the panels east to west during the day, following the sun. This keeps the panels at the optimal angle to solar irradiation from morning to evening and significantly increases annual energy yield compared to classic fixed ground-mount parks.",
+        "Solar Tracker Parks are ideal for large open land areas with stable soil and enough space to avoid shading between rows. HeilAres has built Solar Tracker Parks in both Estonia and Latvia, including the 72.5 MW Stelpe Solar Tracker Park.",
         "Higher yield means faster payback and a better production profile across the day, which is especially valuable during peak electricity spot prices."
       ],
       "faq": {
-        "question": "How much more energy does a tracker park produce vs a fixed ground-mount?",
-        "lead": "Tracker parks generate on average 15–25% more energy than equally sized fixed ground-mount parks.",
+        "question": "How much more energy does a Solar Tracker Park produce vs a fixed ground-mount?",
+        "lead": "Solar Tracker Parks generate on average 15–25% more energy than equally sized fixed ground-mount parks.",
         "answer": "The exact uplift depends on location, latitude and local weather. In Northern European conditions a typical gain is around 20%."
       }
     }
@@ -251,31 +251,31 @@
   "faq": {
     "eyebrow": "FAQ",
     "title": "Frequently asked questions",
-    "subtitle": "Everything you need to know about Heilares solar projects.",
+    "subtitle": "Everything you need to know about HeilAres solar projects.",
     "items": {
       "turnkey": {
         "question": "What does turnkey solar park construction mean?",
-        "lead": "Heilares takes full responsibility for the entire solar park construction from design to grid connection.",
-        "answer": "Heilares takes responsibility for the entire process — design, procurement of materials, mounting structure and panel installation, DC works, inverter connection, and site handover with grid connection. The client gets one partner for the entire project."
+        "lead": "HeilAres takes full responsibility for the entire solar park construction from design to grid connection.",
+        "answer": "HeilAres takes responsibility for the entire process — design, procurement of materials, mounting structure and panel installation, DC works, inverter connection, and site handover with grid connection. The client gets one partner for the entire project."
       },
       "size": {
-        "question": "How large are the solar parks Heilares builds?",
-        "lead": "Heilares has participated in solar park installations totalling over 400 MW across Europe.",
+        "question": "How large are the solar parks HeilAres builds?",
+        "lead": "HeilAres has participated in solar park installations totalling over 400 MW across Europe.",
         "answer": "We have participated in solar park installations totalling over 400 MW, including the 244 MW Risti solar park in Estonia and the 72.5 MW Stelpe park in Latvia. We build projects ranging from a few hundred kW to hundreds of MW."
       },
       "countries": {
-        "question": "In which countries does Heilares operate?",
-        "lead": "Heilares operates in Estonia and Latvia and is expanding to Finland and other European countries.",
+        "question": "In which countries does HeilAres operate?",
+        "lead": "HeilAres operates in Estonia and Latvia and is expanding to Finland and other European countries.",
         "answer": "We operate in Estonia and Latvia and are expanding to Finland and other European countries. Our crews are ready for rapid mobilization across Europe."
       },
       "types": {
         "question": "What types of solar parks do you build?",
-        "lead": "Heilares builds ground-mount, rooftop and tracker solar parks.",
-        "answer": "We build three main types — ground-mount parks, rooftop parks for industrial buildings, and tracker parks (sun-tracking systems)."
+        "lead": "HeilAres builds ground-mount, rooftop and tracker solar parks.",
+        "answer": "We build three main types — ground-mount parks, rooftop parks for industrial buildings, and Solar Tracker Parks (sun-tracking systems)."
       },
       "quoteSpeed": {
         "question": "How quickly can I get a quote?",
-        "lead": "Heilares responds to quote requests within 24 hours.",
+        "lead": "HeilAres responds to quote requests within 24 hours.",
         "answer": "We respond to inquiries within 24 hours."
       }
     }
@@ -303,7 +303,7 @@
       "messagePlaceholder": "Tell us about your project — location, size, timeline...",
       "selectType": "Select type",
       "types": {
-        "tracker_park": "Tracker park",
+        "tracker_park": "Solar Tracker Park",
         "maapark": "Ground-mount",
         "katusepark": "Rooftop",
         "workforce": "Workforce rental",
@@ -349,27 +349,27 @@
   },
   "seo": {
     "home": {
-      "title": "Heilares OÜ — Solar energy specialists in Estonia and Europe",
-      "description": "Turnkey solar panel installation — rooftop, ground-mount and tracker parks. We operate in Estonia and across Europe."
+      "title": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
+      "description": "Turnkey solar panel installation — rooftop, ground-mount and Solar Tracker Parks. We operate in Estonia and across Europe."
     },
     "panels": {
-      "title": "Solar panels — Tracker, ground and rooftop parks | Heilares",
+      "title": "Solar panels — Tracker, ground and rooftop parks | HeilAres",
       "description": "Three core solar installation types for B2B clients. Tier-1 components, experienced crews, megawatt scale."
     },
     "workforce": {
-      "title": "Workforce rental — Shipbuilding and factories | Heilares",
+      "title": "Workforce rental — Shipbuilding and factories | HeilAres",
       "description": "Experienced installation crews for hire. Shipbuilding and industrial sites across Europe."
     },
     "projects": {
-      "title": "Projects — Solar parks in Estonia and Europe | Heilares",
+      "title": "Projects — Solar parks in Estonia and Europe | HeilAres",
       "description": "Large-scale solar projects — Risti, Stelpe, Kirikmäe, Lielvarde and more."
     },
     "contact": {
-      "title": "Contact — Heilares OÜ",
-      "description": "Reach the Heilares team. info@heilares.ee · +372 5693 0296."
+      "title": "Contact — HeilAres OÜ",
+      "description": "Reach the HeilAres team. info@heilares.ee · +372 5693 0296."
     },
     "blog": {
-      "title": "Blog — Solar energy knowledge base | Heilares",
+      "title": "Blog — Solar energy knowledge base | HeilAres",
       "description": "B2B-focused articles on solar park EPC, turnkey construction, Tier-1 panels and O&M."
     }
   }

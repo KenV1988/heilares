@@ -21,7 +21,7 @@
   "hero": {
     "badge": "AURINKOENERGIAN ASIANTUNTIJAT",
     "title": "Kokonaisvaltaiset aurinkoenergiaratkaisut",
-    "subtitle": "Avaimet käteen -aurinkopaneeliasennukset — maa-, katto- ja tracker-puistot Virossa ja koko Euroopassa. Tarjoamme myös kokeneiden asennusryhmien vuokrausta.",
+    "subtitle": "Avaimet käteen -aurinkopaneeliasennukset — maa-, katto- ja Solar Tracker Park Virossa ja koko Euroopassa. Tarjoamme myös kokeneiden asennusryhmien vuokrausta.",
     "primaryCta": "Pyydä tarjous",
     "secondaryCta": "Lue lisää"
   },
@@ -35,7 +35,7 @@
     "title": "Aurinkopaneeliratkaisut",
     "subtitle": "Kolme pääasennustyyppiä — kaikki avaimet käteen -toimituksena.",
     "tracker": {
-      "title": "Tracker-puisto",
+      "title": "Solar Tracker Park",
       "desc": "Aurinkoa seuraavat järjestelmät maksimaaliseen tuottoon suurissa aurinkopuistoissa."
     },
     "ground": {
@@ -50,7 +50,7 @@
   "workforceSection": {
     "eyebrow": "TYÖVOIMAN VUOKRAUS",
     "title": "Vuokraa kokeneita asennusryhmiä",
-    "subtitle": "Heilares tarjoaa kokeneita ja sertifioituja asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Euroopassa.",
+    "subtitle": "HeilAres tarjoaa kokeneita ja sertifioituja asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Euroopassa.",
     "solar": {
       "title": "Aurinkoenergian asennusryhmät",
       "desc": "Vuokra-asennusryhmät aurinkopuistojen rakentamiseen, sopivat alihankintana muille EPC-yrityksille."
@@ -68,12 +68,12 @@
   "workforcePage": {
     "hero": {
       "title": "Työvoiman vuokraus",
-      "subtitle": "Heilares tarjoaa kokeneita ja sertifioituja asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Pohjois-Euroopassa."
+      "subtitle": "HeilAres tarjoaa kokeneita ja sertifioituja asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Pohjois-Euroopassa."
     },
     "solar": {
       "eyebrow": "Aurinkoenergia",
       "title": "Aurinkoenergian asennusryhmät",
-      "lead": "Heilaresin vuokra-asennusryhmät ovat erikoistuneet aurinkopuistojen rakentamiseen ja ovat käytettävissä alihankintana muille EPC-yrityksille koko Pohjois-Euroopassa.",
+      "lead": "HeilAresin vuokra-asennusryhmät ovat erikoistuneet aurinkopuistojen rakentamiseen ja ovat käytettävissä alihankintana muille EPC-yrityksille koko Pohjois-Euroopassa.",
       "paragraphs": [
         "Ryhmämme koostuvat kokeneista projektipäälliköistä ja sertifioiduista asentajista, jotka ovat osallistuneet satojen megawattien kokoisten aurinkopuistojen rakentamiseen Virossa ja Latviassa. Ryhmät voidaan mobilisoida nopeasti kohteisiin ympäri Eurooppaa, jotta alihankintatyö ei pysähdy työvoimapulan vuoksi.",
         "Vuokra-asennusryhmät suorittavat rungon kokoamisen, paneelien asennuksen, DC-kaapeloinnin ja invertterin kytkemisen. Jokainen ryhmä työskentelee asiakkaan turvallisuusvaatimusten ja projektiaikataulun mukaisesti. Tämä mahdollistaa EPC-yrityksille resurssien optimaalisen hyödyntämisen ja suurempien projektien ottamisen ilman kiinteiden kustannusten kasvattamista.",
@@ -81,35 +81,35 @@
       ],
       "faq": {
         "question": "Sopivatko vuokraryhmät alihankintana muille EPC-yrityksille?",
-        "lead": "Kyllä, Heilaresin vuokra-asennusryhmät on suunniteltu ensisijaisesti alihankintaan ja kumppanuuspohjaiseen työskentelyyn.",
+        "lead": "Kyllä, HeilAresin vuokra-asennusryhmät on suunniteltu ensisijaisesti alihankintaan ja kumppanuuspohjaiseen työskentelyyn.",
         "answer": "Ryhmämme työskentelevät säännöllisesti alihankintasopimusten perusteella suurille EPC-yrityksille. Noudatamme asiakkaan turvallisuusvaatimuksia, laatustandardeja ja projektiaikataulua — jotta kumppani voi keskittyä projektin johtamiseen, kun me hoidamme asennuksen."
       }
     },
     "shipbuilding": {
       "eyebrow": "Laivanrakennus",
       "title": "Laivanrakennus",
-      "lead": "Heilares tarjoaa sertifioituja asennusryhmiä laivanrakennusprojekteihin Pohjois-Euroopassa, mukaan lukien Suomi ja Viro.",
+      "lead": "HeilAres tarjoaa sertifioituja asennusryhmiä laivanrakennusprojekteihin Pohjois-Euroopassa, mukaan lukien Suomi ja Viro.",
       "paragraphs": [
         "Laivanrakennusryhmämme ovat kokeneita teollisuusasennuksissa ja metallirakenteiden kokoamisessa. Ryhmät ovat valmiita mobilisoitumaan telakkakohteisiin, joissa vaaditaan nopeaa ja laadukasta työtä.",
         "Tarjoamme sekä lyhyt- että pitkäaikaisia vuokrausratkaisuja, jotka sopivat huippusesonkityön kattamiseen sekä pysyvään kumppanuuteen. Projektipäällikkömme varmistavat, että työ vastaa kaikkia laivanrakennuksen turvallisuus- ja laatustandardeja."
       ],
       "faq": {
         "question": "Missä maissa laivanrakennuksen ryhmiä voi tilata?",
-        "lead": "Heilaresin laivanrakennusryhmät ovat käytettävissä Pohjois-Euroopassa, mukaan lukien Suomi ja Viro.",
+        "lead": "HeilAresin laivanrakennusryhmät ovat käytettävissä Pohjois-Euroopassa, mukaan lukien Suomi ja Viro.",
         "answer": "Mobilisoimme ryhmiä telakkakohteisiin Suomessa, Virossa ja muissa Pohjois-Euroopan maissa. Kokemus laivanrakennusprojekteista varmistaa, että tiimimme ymmärtävät telakkateollisuuden erityisvaatimukset ja turvallisuusstandardit."
       }
     },
     "factories": {
       "eyebrow": "Tehtaat",
       "title": "Tehtaat",
-      "lead": "Heilaresin teollisuusasennusryhmät on suunniteltu tehdasympäristöihin, joissa vaaditaan nopeaa liikkeellelähtöä ja korkeaa tuottavuutta.",
+      "lead": "HeilAresin teollisuusasennusryhmät on suunniteltu tehdasympäristöihin, joissa vaaditaan nopeaa liikkeellelähtöä ja korkeaa tuottavuutta.",
       "paragraphs": [
         "Asennamme ja kokoamme teollisuuslaitteita, metallirakenteita ja tuotantolinjoja tehtaiden ja teollisuushallien sisään. Ryhmämme ovat tottuneet työskentelemään aktiivisissa tuotantotiloissa, joissa tarvitaan minimaalista seisokkia ja maksimaalista tehokkuutta.",
         "Tarjoamme vuokraryhmiä, jotka pystyvät nopeasti sopeutumaan eri tehtaiden vaatimuksiin ja työprosesseihin. Tämä mahdollistaa yrityksille tuotantokapasiteetin skaalaamisen ilman pysyvän kapasiteetin lisäämistä."
       ],
       "faq": {
         "question": "Pystyvätkö tehtaiden vuokraryhmät sopeutumaan nopeasti eri tuotantolinjoihin?",
-        "lead": "Kyllä, Heilaresin tehdasryhmät ovat sopeutuvaisia ja pystyvät integroitumaan nopeasti eri tehtaiden työprosesseihin.",
+        "lead": "Kyllä, HeilAresin tehdasryhmät ovat sopeutuvaisia ja pystyvät integroitumaan nopeasti eri tehtaiden työprosesseihin.",
         "answer": "Tiimimme ovat kokeneita teollisuusasennuksissa ja pystyvät nopeasti omaksumaan uusien laitteiden ja työprosessien erityispiirteet. Projektinjohtajamme koordinoivat asiakkaan kanssa, jotta integroituminen olemassa oleviin tuotantorutiineihin sujuu."
       }
     },
@@ -121,8 +121,8 @@
   },
   "workforceWhy": {
     "eyebrow": "MIKSI HEILARES",
-    "title": "Miksi vuokrata ryhmä Heilaresilta?",
-    "subtitle": "Heilares on luotettava kumppani työvoiman vuokrauksessa — kokeneet tiimit, joustavat ratkaisut ja megawattiluokan projektikokemus.",
+    "title": "Miksi vuokrata ryhmä HeilAresilta?",
+    "subtitle": "HeilAres on luotettava kumppani työvoiman vuokrauksessa — kokeneet tiimit, joustavat ratkaisut ja megawattiluokan projektikokemus.",
     "items": {
       "mobilization": {
         "title": "Nopea liikkeellelähtö",
@@ -145,16 +145,16 @@
   "workforceFAQ": {
     "eyebrow": "UKK",
     "title": "Usein kysytyt kysymykset työvoiman vuokrauksesta",
-    "subtitle": "Kaikki, mitä sinun tulee tietää Heilaresin asennusryhmien vuokraamisesta.",
+    "subtitle": "Kaikki, mitä sinun tulee tietää HeilAresin asennusryhmien vuokraamisesta.",
     "items": {
       "q1": {
         "question": "Kuinka nopeasti ryhmä voidaan mobilisoida kohteeseen?",
-        "lead": "Heilares pystyy mobilisoimaan ryhmän kohteeseen 48–72 tunnin kuluessa tilauksen vahvistamisesta.",
+        "lead": "HeilAres pystyy mobilisoimaan ryhmän kohteeseen 48–72 tunnin kuluessa tilauksen vahvistamisesta.",
         "answer": "Tarkka ajoitus riippuu kohteen sijainnista ja ryhmän koosta. Euroopan sisäisissä projekteissa mobilisointi on yleensä nopeampaa. Kaikki tarvittavat työkalut ja laitteet sisältyvät tiimiin."
       },
       "q2": {
         "question": "Sopivatko vuokraryhmät alihankintana muille yrityksille?",
-        "lead": "Kyllä, Heilaresin vuokra-asennusryhmät on suunniteltu ensisijaisesti alihankinnaksi EPC-yrityksille ja teollisuuskumppaneille.",
+        "lead": "Kyllä, HeilAresin vuokra-asennusryhmät on suunniteltu ensisijaisesti alihankinnaksi EPC-yrityksille ja teollisuuskumppaneille.",
         "answer": "Ryhmämme työskentelevät alihankintasopimusten perusteella noudattaen asiakkaan turvallisuusvaatimuksia ja laatustandardeja. Tämä mahdollistaa kumppaneille kapasiteetin skaalaamisen ilman kiinteiden kustannusten kasvattamista."
       }
     }
@@ -168,7 +168,7 @@
     "step4": { "title": "Luovutus", "desc": "Testaamme, kytkemme verkkoon ja luovutamme kohteen käyttövalmiina." }
   },
   "why": {
-    "title": "Miksi Heilares",
+    "title": "Miksi HeilAres",
     "subtitle": "Tunnustettu kumppani suurten aurinkoenergiaprojektien toteuttamiseen Euroopassa.",
     "items": {
       "scale": { "title": "Megawattiluokan kokemus", "desc": "Satoja megawatteja aurinkopuistoasennuksista osallistuttu Virossa ja Latviassa." },
@@ -182,7 +182,7 @@
     "subtitle": "Valikoima viimeaikaisia suuria aurinkoenergiaprojekteja.",
     "filter": {
       "all": "Kaikki",
-      "tracker_park": "Tracker-puisto",
+      "tracker_park": "Solar Tracker Park",
       "maapark": "Maa-asennus",
       "katusepark": "Kattopuisto"
     },
@@ -205,45 +205,45 @@
     "ground": {
       "eyebrow": "Maa-asennukset",
       "title": "Maapuisto",
-      "lead": "Maapuisto on maahan asennettava aurinkopuisto, jonka Heilares suunnittelee ja asentaa avaimet käteen -periaatteella kaupallisessa ja teollisessa mittakaavassa.",
+      "lead": "Maapuisto on maahan asennettava aurinkopuisto, jonka HeilAres suunnittelee ja asentaa avaimet käteen -periaatteella kaupallisessa ja teollisessa mittakaavassa.",
       "paragraphs": [
-        "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. Heilares hoitaa koko prosessin — geologiset tutkimukset, suunnittelun, perustukset, kiinnitysrakenteet, paneelien ja invertterien asennuksen sekä verkkoonkytkennän.",
-        "Rakennamme maapuistoja muutamasta megawatista satoihin megawatteihin. Heilares-tiimin asentama suurin maapuisto on 244 MW Ristin aurinkopuisto Virossa. Käytämme vain Tier-1-tason paneeleita ja invertterivalmistajia varmistaaksemme pitkäaikaisen tuoton ja luotettavuuden.",
+        "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. HeilAres hoitaa koko prosessin — geologiset tutkimukset, suunnittelun, perustukset, kiinnitysrakenteet, paneelien ja invertterien asennuksen sekä verkkoonkytkennän.",
+        "Rakennamme maapuistoja muutamasta megawatista satoihin megawatteihin. HeilAres-tiimin asentama suurin maapuisto on 244 MW Ristin aurinkopuisto Virossa. Käytämme vain Tier-1-tason paneeleita ja invertterivalmistajia varmistaaksemme pitkäaikaisen tuoton ja luotettavuuden.",
         "Maapuiston vahvuudet ovat helppo huolto, korkea tuotto ja joustava skaalautuvuus. Jokainen projekti suunnitellaan kohteen säteilyn, maaston ja verkkoliitynnän mukaan."
       ],
       "faq": {
         "question": "Kuinka paljon maata maapuisto tarvitsee?",
         "lead": "1 MW maapuisto vaatii keskimäärin 1–1,5 hehtaaria maata.",
-        "answer": "Tarkka maantarve riippuu paneelityypistä, kallistuskulmasta ja rivivälistä. Heilares arvioi maan soveltuvuuden ilmaisen alkukonsultaation aikana."
+        "answer": "Tarkka maantarve riippuu paneelityypistä, kallistuskulmasta ja rivivälistä. HeilAres arvioi maan soveltuvuuden ilmaisen alkukonsultaation aikana."
       }
     },
     "roof": {
       "eyebrow": "Kattoasennukset",
       "title": "Kattopuisto",
-      "lead": "Kattopuisto on aurinkopaneeliasennus teollisuusrakennusten, varastojen ja liikekiinteistöjen katoille, jonka Heilares toteuttaa kaikille kattotyypeille.",
+      "lead": "Kattopuisto on aurinkopaneeliasennus teollisuusrakennusten, varastojen ja liikekiinteistöjen katoille, jonka HeilAres toteuttaa kaikille kattotyypeille.",
       "paragraphs": [
         "Kattopuistot sopivat sekä tasakattoihin että harjakattoihin — trapetsipelti, sandwich-paneeli, bitumi ja kalvokatot. Jokainen projekti alkaa rakenteellisella arvioinnilla, jotta voidaan varmistaa, että katto kantaa turvallisesti paneelien ja kiinnitysrakenteiden lisäkuorman.",
-        "Heilares-työryhmät työskentelevät niin, että asiakkaan tuotanto häiriintyy mahdollisimman vähän. Suunnittelemme työt tuotantoaikataulun mukaisesti, käytämme turvallisia nostolaitteita ja organisoimme asennuslogistiikan niin, että varastojen ja tehtaiden toiminta jatkuu.",
+        "HeilAres-työryhmät työskentelevät niin, että asiakkaan tuotanto häiriintyy mahdollisimman vähän. Suunnittelemme työt tuotantoaikataulun mukaisesti, käytämme turvallisia nostolaitteita ja organisoimme asennuslogistiikan niin, että varastojen ja tehtaiden toiminta jatkuu.",
         "Kattopuisto pienentää merkittävästi yrityksen sähkökustannuksia ja hiilijalanjälkeä hyödyntäen muuten käyttämättömän pinnan. Suuremmissa teollisuusrakennuksissa kattopuiston teho voi yltää useisiin megawatteihin."
       ],
       "faq": {
         "question": "Sopiiko kattoni aurinkopaneelien asennukseen?",
         "lead": "Useimmat teollisuuskatot soveltuvat aurinkopaneeleille, jos rakenne kestää 15–25 kg/m² lisäkuorman.",
-        "answer": "Heilares arvioi jokaisen katon erikseen — katteen tyyppi, ikä, kantava rakenne ja varjostavat esteet. Tarjous sisältää aina kantavuusarvion."
+        "answer": "HeilAres arvioi jokaisen katon erikseen — katteen tyyppi, ikä, kantava rakenne ja varjostavat esteet. Tarjous sisältää aina kantavuusarvion."
       }
     },
     "tracker": {
       "eyebrow": "Aurinkoa seuraavat järjestelmät",
-      "title": "Tracker-puisto",
-      "lead": "Tracker-puisto on yksiakselinen aurinkoa seuraava aurinkopuisto, joka tuottaa jopa 25% enemmän energiaa verrattuna kiinteäkulmaisiin paneeleihin.",
+      "title": "Solar Tracker Park",
+      "lead": "Solar Tracker Park on yksiakselinen aurinkoa seuraava aurinkopuisto, joka tuottaa jopa 25% enemmän energiaa verrattuna kiinteäkulmaisiin paneeleihin.",
       "paragraphs": [
         "Tracker-järjestelmät kääntävät paneeleita päivän aikana idästä länteen seuraten auringon liikettä. Tämä pitää paneelit optimaalisessa kulmassa säteilyyn nähden aamusta iltaan ja nostaa merkittävästi vuosittaista energiatuottoa verrattuna perinteisiin kiinteisiin maapuistoihin.",
-        "Tracker-puistot sopivat erinomaisesti suurille avoimille maa-alueille, joilla on vakaa maaperä ja riittävästi tilaa rivien välisten varjojen välttämiseksi. Heilares on rakentanut tracker-puistoja sekä Virossa että Latviassa, mukaan lukien 72,5 MW Stelpe tracker-puisto.",
+        "Solar Tracker Park sopivat erinomaisesti suurille avoimille maa-alueille, joilla on vakaa maaperä ja riittävästi tilaa rivien välisten varjojen välttämiseksi. HeilAres on rakentanut Solar Tracker Park sekä Virossa että Latviassa, mukaan lukien 72,5 MW Stelpe Solar Tracker Park.",
         "Suurempi tuotto tarkoittaa nopeampaa takaisinmaksua ja parempaa tuotantojakaumaa päivän aikana, mikä on erityisen arvokasta sähkön spot-hintojen huippuaikoina."
       ],
       "faq": {
-        "question": "Kuinka paljon enemmän energiaa tracker-puisto tuottaa kiinteään maapuistoon verrattuna?",
-        "lead": "Tracker-puistot tuottavat keskimäärin 15–25% enemmän energiaa kuin samankokoiset kiinteät maapuistot.",
+        "question": "Kuinka paljon enemmän energiaa Solar Tracker Park tuottaa kiinteään maapuistoon verrattuna?",
+        "lead": "Solar Tracker Park tuottavat keskimäärin 15–25% enemmän energiaa kuin samankokoiset kiinteät maapuistot.",
         "answer": "Tarkka nousu riippuu sijainnista, leveysasteesta ja paikallisesta säästä. Pohjois-Euroopan oloissa tyypillinen nousu on noin 20%."
       }
     }
@@ -251,31 +251,31 @@
   "faq": {
     "eyebrow": "UKK",
     "title": "Usein kysytyt kysymykset",
-    "subtitle": "Kaikki, mitä sinun tarvitsee tietää Heilaresin aurinkoenergiaprojekteista.",
+    "subtitle": "Kaikki, mitä sinun tarvitsee tietää HeilAresin aurinkoenergiaprojekteista.",
     "items": {
       "turnkey": {
         "question": "Mitä tarkoittaa avaimet käteen -aurinkopuiston rakentaminen?",
-        "lead": "Heilares ottaa vastuun koko aurinkopuiston rakentamisesta suunnittelusta verkkoonkytkentään asti.",
-        "answer": "Heilares ottaa vastuun koko prosessista — suunnittelu, materiaalien hankinta, rakenteen ja paneelien asennus, DC-työt, invertterin kytkentä sekä kohteen luovutus ja verkkoonkytkentä. Asiakas saa yhden kumppanin koko projektille."
+        "lead": "HeilAres ottaa vastuun koko aurinkopuiston rakentamisesta suunnittelusta verkkoonkytkentään asti.",
+        "answer": "HeilAres ottaa vastuun koko prosessista — suunnittelu, materiaalien hankinta, rakenteen ja paneelien asennus, DC-työt, invertterin kytkentä sekä kohteen luovutus ja verkkoonkytkentä. Asiakas saa yhden kumppanin koko projektille."
       },
       "size": {
-        "question": "Kuinka suuria aurinkopuistoja Heilares rakentaa?",
-        "lead": "Heilares on osallistunut yli 400 MW aurinkopuistoasennuksiin Euroopassa.",
+        "question": "Kuinka suuria aurinkopuistoja HeilAres rakentaa?",
+        "lead": "HeilAres on osallistunut yli 400 MW aurinkopuistoasennuksiin Euroopassa.",
         "answer": "Olemme osallistuneet yli 400 MW aurinkopuistoasennuksiin, mukaan lukien 244 MW Ristin aurinkopuisto Virossa ja 72,5 MW Stelpen puisto Latviassa. Rakennamme projekteja muutamasta sadasta kW:sta satoihin megawatteihin."
       },
       "countries": {
-        "question": "Missä maissa Heilares toimii?",
-        "lead": "Heilares toimii Virossa ja Latviassa ja laajenee lähiaikoina Suomeen ja muihin Euroopan maihin.",
+        "question": "Missä maissa HeilAres toimii?",
+        "lead": "HeilAres toimii Virossa ja Latviassa ja laajenee lähiaikoina Suomeen ja muihin Euroopan maihin.",
         "answer": "Toimimme Virossa ja Latviassa ja laajenemme lähiaikoina Suomeen ja muihin Euroopan maihin. Työryhmämme ovat valmiita nopeaan liikkeellelähtöön ympäri Eurooppaa."
       },
       "types": {
         "question": "Minkä tyyppisiä aurinkopuistoja rakennatte?",
-        "lead": "Heilares rakentaa maa-, katto- ja tracker-aurinkopuistoja.",
-        "answer": "Rakennamme kolmea päätyyppiä — maapuistoja, kattopuistoja teollisuusrakennuksille ja tracker-puistoja (aurinkoa seuraavia järjestelmiä)."
+        "lead": "HeilAres rakentaa maa-, katto- ja tracker-aurinkopuistoja.",
+        "answer": "Rakennamme kolmea päätyyppiä — maapuistoja, kattopuistoja teollisuusrakennuksille ja Solar Tracker Park (aurinkoa seuraavia järjestelmiä)."
       },
       "quoteSpeed": {
         "question": "Kuinka nopeasti saan tarjouksen?",
-        "lead": "Heilares vastaa tarjouspyyntöihin 24 tunnin kuluessa.",
+        "lead": "HeilAres vastaa tarjouspyyntöihin 24 tunnin kuluessa.",
         "answer": "Vastaamme tiedusteluihin 24 tunnin kuluessa."
       }
     }
@@ -303,7 +303,7 @@
       "messagePlaceholder": "Kerro projektistasi — sijainti, koko, aikataulu...",
       "selectType": "Valitse tyyppi",
       "types": {
-        "tracker_park": "Tracker-puisto",
+        "tracker_park": "Solar Tracker Park",
         "maapark": "Maa-asennus",
         "katusepark": "Kattopuisto",
         "workforce": "Työvoiman vuokraus",
@@ -349,27 +349,27 @@
   },
   "seo": {
     "home": {
-      "title": "Heilares OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
-      "description": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja tracker-puistot. Toimimme Virossa ja koko Euroopassa."
+      "title": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
+      "description": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja Solar Tracker Park. Toimimme Virossa ja koko Euroopassa."
     },
     "panels": {
-      "title": "Aurinkopaneelit — Tracker, maa- ja kattopuistot | Heilares",
+      "title": "Aurinkopaneelit — Tracker, maa- ja kattopuistot | HeilAres",
       "description": "Kolme pääasennustyyppiä B2B-asiakkaille. Tier-1-komponentit, kokeneet työryhmät, megawattiluokka."
     },
     "workforce": {
-      "title": "Työvoiman vuokraus — Laivanrakennus ja tehtaat | Heilares",
+      "title": "Työvoiman vuokraus — Laivanrakennus ja tehtaat | HeilAres",
       "description": "Kokeneita asennusryhmiä vuokrattavissa. Laivanrakennus ja teolliset kohteet ympäri Eurooppaa."
     },
     "projects": {
-      "title": "Projektit — Aurinkopuistot Virossa ja Euroopassa | Heilares",
+      "title": "Projektit — Aurinkopuistot Virossa ja Euroopassa | HeilAres",
       "description": "Suurikokoiset aurinkoenergiaprojektit — Risti, Stelpe, Kirikmäe, Lielvarde ja muut."
     },
     "contact": {
-      "title": "Yhteystiedot — Heilares OÜ",
-      "description": "Ota yhteyttä Heilares-tiimiin. info@heilares.ee · +372 5693 0296."
+      "title": "Yhteystiedot — HeilAres OÜ",
+      "description": "Ota yhteyttä HeilAres-tiimiin. info@heilares.ee · +372 5693 0296."
     },
     "blog": {
-      "title": "Blogi — Aurinkoenergian tietopankki | Heilares",
+      "title": "Blogi — Aurinkoenergian tietopankki | HeilAres",
       "description": "B2B-suuntautuneita artikkeleita aurinkopuistojen EPC:stä, avaimet käteen -rakentamisesta, Tier-1-paneeleista ja O&M:stä."
     }
   }

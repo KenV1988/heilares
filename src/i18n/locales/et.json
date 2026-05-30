@@ -19,9 +19,9 @@
     "loading": "Laen..."
   },
   "hero": {
-    "badge": "PÄIKESEENERGIA SPETSIALISTID",
-    "title": "Terviklikud päikeseenergia lahendused",
-    "subtitle": "Võtmed kätte päikesepaneelide paigaldus — maa-, katuse- ja tracker-pargid Eestis ja üle Euroopa. Lisaks pakume kogenud paigaldusbrigaadide renti.",
+    "badge": "ROHEENERGIA SPETSIALISTID",
+    "title": "Terviklikud roheenergia lahendused",
+    "subtitle": "Võtmed kätte päikesepaneelide paigaldus — maa-, katuse- ja Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud paigaldusmeeskonnade renti.",
     "primaryCta": "Küsi pakkumist",
     "secondaryCta": "Loe lähemalt"
   },
@@ -35,7 +35,7 @@
     "title": "Päikesepaneelide lahendused",
     "subtitle": "Kolm peamist paigaldustüüpi — kõik võtmed kätte teenusena.",
     "tracker": {
-      "title": "Tracker park",
+      "title": "Solar Tracker Park",
       "desc": "Päikest jälgivad süsteemid maksimaalse energiatootlikkuse jaoks suurtel päikesepõldudel."
     },
     "ground": {
@@ -49,15 +49,15 @@
   },
   "workforceSection": {
     "eyebrow": "TÖÖJÕU RENT",
-    "title": "Rendi kogenud paigaldusbrigaade",
-    "subtitle": "Heilares pakub kogenud ja sertifitseeritud paigaldusbrigaade rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Euroopas.",
+    "title": "Rendi kogenud paigaldusmeeskondi",
+    "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Euroopas.",
     "solar": {
-      "title": "Päikeseenergia paigaldusbrigaadid",
+      "title": "Päikeseenergia paigaldusmeeskonnad",
       "desc": "Renditavad meeskonnad päikeseparkide ehituseks, sobivad alltöövõtuks teistele EPC-ettevõtetele."
     },
     "shipbuilding": {
       "title": "Laevaehitus",
-      "desc": "Sertifitseeritud brigaadid laevaehituse projektide jaoks kogu Euroopas."
+      "desc": "Kvalifitseeritud meeskonnad laevaehituse projektide jaoks kogu Euroopas."
     },
     "factories": {
       "title": "Tehased",
@@ -68,94 +68,94 @@
   "workforcePage": {
     "hero": {
       "title": "Tööjõu rent",
-      "subtitle": "Heilares pakub kogenud ja sertifitseeritud paigaldusbrigaade rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Põhja-Euroopas."
+      "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Põhja-Euroopas."
     },
     "solar": {
       "eyebrow": "Päikeseenergia",
-      "title": "Päikeseenergia paigaldusbrigaadid",
-      "lead": "Heilarese renditavad paigaldusbrigaadid on spetsialiseerunud päikeseparkide ehitusele ja sobivad alltöövõtuks teistele EPC-ettevõtetele kogu Põhja-Euroopas.",
+      "title": "Päikeseenergia paigaldusmeeskonnad",
+      "lead": "HeilArese renditavad paigaldusmeeskonnad on spetsialiseerunud päikeseparkide ehitusele ja sobivad alltöövõtuks teistele EPC-ettevõtetele kogu Põhja-Euroopas.",
       "paragraphs": [
-        "Meie brigaadid koosnevad kogenud projektijuhtidest ja sertifitseeritud paigaldajatest, kes on osalenud sadade megavattide suuruste päikeseparkide ehituses Eestis ja Lätis. Brigaade saab kiirelt mobiliseerida objektidele üle Euroopa, tagades, et allhanketööd ei seisku ajapuuduse tõttu.",
+        "Meie meeskonnad koosnevad kogenud projektijuhtidest ja kvalifitseeritud paigaldajatest, kes on osalenud sadade megavattide suuruste päikeseparkide ehituses Eestis ja Lätis. Brigaade saab kiirelt mobiliseerida objektidele üle Euroopa, tagades, et allhanketööd ei seisku ajapuuduse tõttu.",
         "Rendimeeskonnad teostavad raamistiku montaaži, paneelide paigalduse, DC-kabeldust ja inverterite ühenduse. Iga meeskond töötab vastavalt kliendi ohutusnõuetele ja projektigraafikule. See võimaldab EPC-ettevõtetel optimeerida oma ressursside kasutamist ja võtta vastu suuremaid projekte ilma püsikulu suurendamata.",
-        "Paindlik rendimudel võimaldab brigaade tellida nii lühiajaliseks tähtajaliseks tööks kui ka pikemateks projektideks. Kõik meie paigaldajad läbivad regulaarsed ohutuskoolitused ja omavad vajalikke sertifikaate tööstuslikel päikeseobjektidel töötamiseks."
+        "Paindlik rendimudel võimaldab meeskondi tellida nii lühiajaliseks tähtajaliseks tööks kui ka pikemateks projektideks. Kõik meie paigaldajad läbivad regulaarsed ohutuskoolitused ja omavad vajalikke sertifikaate tööstuslikel päikeseobjektidel töötamiseks."
       ],
       "faq": {
-        "question": "Kas rendibrigaadid sobivad alltöövõtuks teistele EPC-ettevõtetele?",
-        "lead": "Jah, Heilarese rendibrigaadid on mõeldud eelkõige alltöövõtuks ja partnerluslepingute alusel töötamiseks.",
-        "answer": "Meie brigaadid töötavad regulaarselt allhankelepingute alusel suurte EPC-ettevõtete jaoks. Järgime kliendi ohutusnõudeid, kvaliteedistandardeid ja projektigraafikut — nii et partner saab keskenduda projekti juhtimisele, samal ajal kui meie hoolitseme paigalduse eest."
+        "question": "Kas rendimeeskonnad sobivad alltöövõtuks teistele EPC-ettevõtetele?",
+        "lead": "Jah, HeilArese rendimeeskonnad on mõeldud eelkõige alltöövõtuks ja partnerluslepingute alusel töötamiseks.",
+        "answer": "Meie meeskonnad töötavad regulaarselt allhankelepingute alusel suurte EPC-ettevõtete jaoks. Järgime kliendi ohutusnõudeid, kvaliteedistandardeid ja projektigraafikut — nii et partner saab keskenduda projekti juhtimisele, samal ajal kui meie hoolitseme paigalduse eest."
       }
     },
     "shipbuilding": {
       "eyebrow": "Laevaehitus",
       "title": "Laevaehitus",
-      "lead": "Heilares pakub sertifitseeritud paigaldusbrigaade laevaehituse projektide jaoks Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
+      "lead": "HeilAres pakub kvalifitseeritud paigaldusmeeskondi laevaehituse projektide jaoks Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
       "paragraphs": [
-        "Meie laevaehituse meeskonnad on kogenud tööstuslike paigalduste ja metallikonstruktsioonide montaaži vallas. Brigaadid on valmis mobiliseeruma laevatehaste objektidele, kus nõutakse kiiret ja kvaliteetset tööd.",
+        "Meie laevaehituse meeskonnad on kogenud tööstuslike paigalduste ja metallikonstruktsioonide montaaži vallas. Meeskonnad on valmis mobiliseeruma laevatehaste objektidele, kus nõutakse kiiret ja kvaliteetset tööd.",
         "Pakume nii lühiajalisi kui pikaajalisi rendilahendusi, mis sobivad nii tipphooajaliste tööde ajutiseks katmiseks kui ka püsivaks partnerluseks. Meie projektijuhid tagavad, et töö vastab kõigile laevaehituse ohutus- ja kvaliteedistandarditele."
       ],
       "faq": {
-        "question": "Millistes riikides laevaehituse brigaade saab tellida?",
-        "lead": "Heilarese laevaehituse brigaadid on saadaval Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
-        "answer": "Mobiliseerime brigaade laevatehaste objektidele Soomes, Eestis ja teistes Põhja-Euroopa riikides. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad telakka tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
+        "question": "Millistes riikides laevaehituse meeskondi saab tellida?",
+        "lead": "HeilArese laevaehituse meeskonnad on saadaval Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
+        "answer": "Mobiliseerime meeskondi laevatehaste objektidele Soomes, Eestis ja teistes Põhja-Euroopa riikides. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad telakka tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
       }
     },
     "factories": {
       "eyebrow": "Tehased",
       "title": "Tehased",
-      "lead": "Heilarese tööstusliku paigalduse meeskonnad on mõeldud tehasekeskkondadesse, kus on vaja kiiret mobiliseerimist ja kõrget tootlikkust.",
+      "lead": "HeilArese tööstusliku paigalduse meeskonnad on mõeldud tehasekeskkondadesse, kus on vaja kiiret mobiliseerimist ja kõrget tootlikkust.",
       "paragraphs": [
-        "Paigaldame ja monteerime tööstuslikke seadmeid, metallikonstruktsioone ja tootmisliine tehaste ja tööstushoonete sees. Meie brigaadid on harjunud töötama aktiivsetes tootmisruumides, kus on vaja minimaalset seisakut ja maksimaalset efektiivsust.",
+        "Paigaldame ja monteerime tööstuslikke seadmeid, metallikonstruktsioone ja tootmisliine tehaste ja tööstushoonete sees. Meie meeskonnad on harjunud töötama aktiivsetes tootmisruumides, kus on vaja minimaalset seisakut ja maksimaalset efektiivsust.",
         "Pakume rendimeeskondi, kes saavad kiiresti ümber orienteeruda erinevate tehaste nõuetele ja tööprotsessidele. See võimaldab ettevõtetel skaleerida oma tootmisvõimsust ilma püsivõimsuse suurendamata."
       ],
       "faq": {
-        "question": "Kas tehaste rendibrigaadid saavad kiirelt ümber orienteeruda erinevatele tootmisliinidele?",
-        "lead": "Jah, Heilarese tehasebrigaadid on kohanemisvõimelised ja suudavad kiiresti integreeruda erinevate tehaste tööprotsessidesse.",
+        "question": "Kas tehaste rendimeeskonnad saavad kiirelt ümber orienteeruda erinevatele tootmisliinidele?",
+        "lead": "Jah, HeilArese tehasemeeskonnad on kohanemisvõimelised ja suudavad kiiresti integreeruda erinevate tehaste tööprotsessidesse.",
         "answer": "Meie meeskonnad on kogenud tööstuslike paigalduste vallas ja suudavad kiiresti omandada uute seadmete ja tööprotsesside spetsiifika. Projektijuhid koordineerivad kliendiga, et tagada sujuv liitumine olemasolevate tootmisrutiinidega."
       }
     },
     "cta": {
-      "title": "Vajad kogenud paigaldusbrigaadi?",
+      "title": "Vajad kogenud paigaldusmeeskonna?",
       "subtitle": "Võta meiega ühendust ja lepime kokku tööjõu rendi detailid 24 tunni jooksul.",
       "button": "Räägi tööjõu rendist"
     }
   },
   "workforceWhy": {
     "eyebrow": "MIKS HEILARES",
-    "title": "Miks rentida brigaadi Heilaresest?",
-    "subtitle": "Heilares on usaldusväärne partner tööjõurendi vallas — kogenud meeskonnad, paindlikud lahendused ja megavatt-skaala projektikogemus.",
+    "title": "Miks rentida meeskonna HeilAresest?",
+    "subtitle": "HeilAres on usaldusväärne partner tööjõurendi vallas — kogenud meeskonnad, paindlikud lahendused ja megavatt-skaala projektikogemus.",
     "items": {
       "mobilization": {
         "title": "Kiire mobiliseerimine",
-        "desc": "Omad brigaadid ja kogenud projektijuhid valmis startima lühikese etteteatamisega üle Euroopa."
+        "desc": "Omad meeskonnad ja kogenud projektijuhid valmis startima lühikese etteteatamisega üle Euroopa."
       },
       "certified": {
-        "title": "Sertifitseeritud meeskonnad",
+        "title": "Kvalifitseeritud meeskonnad",
         "desc": "Kõik paigaldajad läbivad regulaarsed ohutuskoolitused ja omavad vajalikke sertifikaate."
       },
       "scale": {
         "title": "Megavatt-skaala kogemus",
-        "desc": "Brigaadid on osalenud sadade megavattide suuruste päikeseparkide ehituses."
+        "desc": "Meeskonnad on osalenud sadade megavattide suuruste päikeseparkide ehituses."
       },
       "flexible": {
         "title": "Paindlik mahuga kohanemine",
-        "desc": "Tellida saab nii väikesed meeskonnad lühiajalisteks töödeks kui ka suured brigaadid pikkadeks projektideks."
+        "desc": "Tellida saab nii väikesed meeskonnad lühiajalisteks töödeks kui ka suured meeskonnad pikkadeks projektideks."
       }
     }
   },
   "workforceFAQ": {
     "eyebrow": "KKK",
     "title": "Korduma kippuvad küsimused tööjõu rendi kohta",
-    "subtitle": "Kõik, mida peaksid teadma Heilarese paigaldusbrigaadide rendist.",
+    "subtitle": "Kõik, mida peaksid teadma HeilArese paigaldusmeeskonnade rendist.",
     "items": {
       "q1": {
-        "question": "Kui kiiresti saab brigaadi objektile mobiliseerida?",
-        "lead": "Heilares suudab brigaadi mobiliseerida objektile 48–72 tunni jooksul tellimuse kinnitamisest.",
-        "answer": "Täpne aeg sõltub objekti asukohast ja brigaadi suurusest. Euroopa siseste projektide puhul on mobiliseerimine tavaliselt kiirem. Kõik vajalikud tööriistad ja seadmed kaasame meeskonnaga."
+        "question": "Kui kiiresti saab meeskonna objektile mobiliseerida?",
+        "lead": "HeilAres suudab meeskonna mobiliseerida objektile 48–72 tunni jooksul tellimuse kinnitamisest.",
+        "answer": "Täpne aeg sõltub objekti asukohast ja meeskonna suurusest. Euroopa siseste projektide puhul on mobiliseerimine tavaliselt kiirem. Kõik vajalikud tööriistad ja seadmed kaasame meeskonnaga."
       },
       "q2": {
-        "question": "Kas rendibrigaadid sobivad alltöövõtuks teistele ettevõtetele?",
-        "lead": "Jah, Heilarese rendibrigaadid on mõeldud eelkõige alltöövõtuks EPC-ettevõtetele ja tööstuslikele partneritele.",
-        "answer": "Meie brigaadid töötavad allhankelepingute alusel, järgides kliendi ohutusnõudeid ja kvaliteedistandardeid. See võimaldab partneritel skaleerida oma võimsust ilma püsikulusid suurendamata."
+        "question": "Kas rendimeeskonnad sobivad alltöövõtuks teistele ettevõtetele?",
+        "lead": "Jah, HeilArese rendimeeskonnad on mõeldud eelkõige alltöövõtuks EPC-ettevõtetele ja tööstuslikele partneritele.",
+        "answer": "Meie meeskonnad töötavad allhankelepingute alusel, järgides kliendi ohutusnõudeid ja kvaliteedistandardeid. See võimaldab partneritel skaleerida oma võimsust ilma püsikulusid suurendamata."
       }
     }
   },
@@ -168,12 +168,12 @@
     "step4": { "title": "Üleandmine", "desc": "Testime, ühendame võrku ja anname objekti kasutusvalmis üle." }
   },
   "why": {
-    "title": "Miks Heilares",
-    "subtitle": "Üle Euroopa tunnustatud partner suuremahuliste päikeseprojektide elluviimisel.",
+    "title": "Miks HeilAres",
+    "subtitle": "Tunnustatud partner Baltikumis ja Põhjamaades suuremahuliste päikeseprojektide elluviimisel.",
     "items": {
       "scale": { "title": "Megavatt-skaala kogemus", "desc": "Sadu MW päikeseparkide paigaldustel osaletud Eestis ja Lätis." },
       "turnkey": { "title": "Võtmed kätte teenus", "desc": "Üks partner kogu protsessile — raam, paneelid, DC, üleandmine." },
-      "speed": { "title": "Kiire mobiliseerimine", "desc": "Omad brigaadid ja kogenud projektijuhid valmis startima." },
+      "speed": { "title": "Kiire mobiliseerimine", "desc": "Omad meeskonnad ja kogenud projektijuhid valmis startima." },
       "quality": { "title": "Tier-1 komponendid", "desc": "Töötame ainult tipptasemel paneelide ja inverteritega." }
     }
   },
@@ -182,7 +182,7 @@
     "subtitle": "Valik viimaseid suuremahulisi päikeseenergia projekte.",
     "filter": {
       "all": "Kõik",
-      "tracker_park": "Tracker park",
+      "tracker_park": "Solar Tracker Park",
       "maapark": "Maapark",
       "katusepark": "Katusepark"
     },
@@ -200,50 +200,50 @@
   "panelsPage": {
     "hero": {
       "title": "Päikesepaneelide teenused",
-      "subtitle": "Võtmed kätte maapargid, katusepargid ja tracker-pargid B2B klientidele Eestis, Lätis ja üle Euroopa."
+      "subtitle": "Võtmed kätte maapargid, katusepargid ja Solar Tracker Park B2B klientidele Eestis, Lätis ja üle Euroopa."
     },
     "ground": {
       "eyebrow": "Maapealsed lahendused",
       "title": "Maapark",
-      "lead": "Maapark on maapealne päikesepark, mille Heilares projekteerib ja paigaldab võtmed kätte põhimõttel kommerts- ja tööstusmastaabis.",
+      "lead": "Maapark on maapealne päikesepark, mille HeilAres projekteerib ja paigaldab võtmed kätte põhimõttel kommerts- ja tööstusmastaabis.",
       "paragraphs": [
-        "Maapargid sobivad ideaalselt põllumaale, kasutusest väljas olevatele aladele ja tööstusmaale, kus on piisavalt avatud pinda paneelide paigaldamiseks optimaalse nurga all. Heilares teostab kogu protsessi — geoloogilised uuringud, projekteerimine, vundamentide rajamine, kandekonstruktsioonide paigaldus, paneelide ja inverterite paigaldus ning võrku ühendamine.",
-        "Ehitame nii mõne MW suuruseid maaparke kui ka sadade megavattide suuruseid suurprojekte. Suurim Heilares meeskonna paigaldatud maapark on 244 MW Risti päikesepark Eestis. Kasutame ainult Tier-1 päikesepaneele ja inverterite tootjaid, et tagada pikaajaline tootlikkus ja töökindlus.",
+        "Maapargid sobivad ideaalselt põllumaale, kasutusest väljas olevatele aladele ja tööstusmaale, kus on piisavalt avatud pinda paneelide paigaldamiseks optimaalse nurga all. HeilAres teostab kogu protsessi — geoloogilised uuringud, projekteerimine, vundamentide rajamine, kandekonstruktsioonide paigaldus, paneelide ja inverterite paigaldus ning võrku ühendamine.",
+        "Ehitame nii mõne MW suuruseid maaparke kui ka sadade megavattide suuruseid suurprojekte. Suurim HeilAres meeskonna paigaldatud maapark on 244 MW Risti päikesepark Eestis. Kasutame ainult Tier-1 päikesepaneele ja inverterite tootjaid, et tagada pikaajaline tootlikkus ja töökindlus.",
         "Maapargi eelis on lihtne hooldus, suur tootlikkus ja paindlik mastaapsus. Iga maapark projekteeritakse vastavalt asukoha päikesekiirgusele, maastikule ja võrguühenduse võimalustele."
       ],
       "faq": {
         "question": "Kui suurt maad on vaja maapargi rajamiseks?",
         "lead": "1 MW maapark vajab keskmiselt 1–1,5 hektarit maad.",
-        "answer": "Täpne maavajadus sõltub paneelide tüübist, paigaldusnurgast ja ridade vahekaugusest. Heilares hindab maa sobivust tasuta esmase konsultatsiooni käigus."
+        "answer": "Täpne maavajadus sõltub paneelide tüübist, paigaldusnurgast ja ridade vahekaugusest. HeilAres hindab maa sobivust tasuta esmase konsultatsiooni käigus."
       }
     },
     "roof": {
       "eyebrow": "Katusepaigaldus",
       "title": "Katusepark",
-      "lead": "Katusepark on päikesepaneelide paigaldus tööstushoonete, ladude ja ärihoonete katustele, mille Heilares teostab kõikidele katusetüüpidele.",
+      "lead": "Katusepark on päikesepaneelide paigaldus tööstushoonete, ladude ja ärihoonete katustele, mille HeilAres teostab kõikidele katusetüüpidele.",
       "paragraphs": [
         "Katusepargid sobivad nii lameda kui ka kaldkatusega hoonetele — trapetsplekk, sandwich-paneel, bituumen ja membraankatused. Iga projekt algab kandekonstruktsiooni hindamisega, et tagada katuse turvaline koormamine paneelide ja kandekonstruktsiooni täiendava raskusega.",
-        "Heilares brigaadid töötavad nii, et kliendi tootmistegevus jätkub minimaalse häirega. Planeerime tööd vastavalt kliendi graafikule, kasutame turvalisi tõstemehhanisme ja korraldame paigalduse loogistika nii, et ladude ja tehaste igapäevatöö ei katkeks.",
+        "HeilAres meeskonnad töötavad nii, et kliendi tootmistegevus jätkub minimaalse häirega. Planeerime tööd vastavalt kliendi graafikule, kasutame turvalisi tõstemehhanisme ja korraldame paigalduse loogistika nii, et ladude ja tehaste igapäevatöö ei katkeks.",
         "Katusepark vähendab oluliselt ettevõtte elektrikulusid ja CO2 jalajälge, kasutades muidu kasutamata pinda. Suurematel tööstushoonetel võib katusepargi võimsus ulatuda mitme megavattini."
       ],
       "faq": {
         "question": "Kas minu katus sobib päikesepaneelide paigaldamiseks?",
         "lead": "Enamik tööstuskatuseid sobib päikesepaneelide paigaldamiseks, kui kandekonstruktsioon talub lisakoormust 15–25 kg/m².",
-        "answer": "Heilares hindab iga katust eraldi — kontrollime katte tüüpi, vanust, kandekonstruktsiooni ja varju tekitavaid takistusi. Pakkumine sisaldab alati kandevõime hinnangut."
+        "answer": "HeilAres hindab iga katust eraldi — kontrollime katte tüüpi, vanust, kandekonstruktsiooni ja varju tekitavaid takistusi. Pakkumine sisaldab alati kandevõime hinnangut."
       }
     },
     "tracker": {
       "eyebrow": "Päikest jälgivad süsteemid",
-      "title": "Tracker-park",
-      "lead": "Tracker-park on päikest jälgiv ühe-teljeline (single-axis) päikesepark, mis annab kuni 25% suurema energiatootlikkuse võrreldes fikseeritud paneelidega.",
+      "title": "Solar Tracker Park",
+      "lead": "Solar Tracker Park on päikest jälgiv ühe-teljeline (single-axis) päikesepark, mis annab kuni 25% suurema energiatootlikkuse võrreldes fikseeritud paneelidega.",
       "paragraphs": [
-        "Tracker-süsteemid pööravad päikesepaneele päeva jooksul ida-läänesuunaliselt, jälgides päikese liikumist. See tagab paneelide optimaalse nurga päikesekiirguse suhtes hommikust õhtuni ning tõstab oluliselt aastast energiatootlikkust võrreldes klassikaliste fikseeritud maaparkidega.",
-        "Tracker-pargid sobivad ideaalselt suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. Heilares on paigaldanud tracker-parke nii Eestis kui Lätis, sealhulgas 72,5 MW Stelpe tracker-pargi.",
+        "Solar Tracker süsteemid pööravad päikesepaneele päeva jooksul ida-läänesuunaliselt, jälgides päikese liikumist. See tagab paneelide optimaalse nurga päikesekiirguse suhtes hommikust õhtuni ning tõstab oluliselt aastast energiatootlikkust võrreldes klassikaliste fikseeritud maaparkidega.",
+        "Solar Tracker Park sobivad ideaalselt suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. HeilAres on paigaldanud Solar Tracker Park nii Eestis kui Lätis, sealhulgas 72,5 MW Stelpe Solar Tracker Park.",
         "Suurem tootlikkus tähendab kiiremat investeeringu tasuvust ja paremat tootmise jaotust päeva jooksul, mis on eriti väärtuslik elektri spot-hindade tippaegadel."
       ],
       "faq": {
-        "question": "Kui palju suurem on tracker-pargi tootlikkus võrreldes fikseeritud maapargiga?",
-        "lead": "Tracker-pargid annavad keskmiselt 15–25% rohkem energiat kui samasuurused fikseeritud maapargid.",
+        "question": "Kui palju suurem on Solar Tracker Park tootlikkus võrreldes fikseeritud maapargiga?",
+        "lead": "Solar Tracker Park annavad keskmiselt 15–25% rohkem energiat kui samasuurused fikseeritud maapargid.",
         "answer": "Täpne kasv sõltub asukohast, laiuskraadist ja kohalikest ilmastikutingimustest. Põhja-Euroopa tingimustes on tüüpiline kasv 20% kandis."
       }
     }
@@ -251,31 +251,31 @@
   "faq": {
     "eyebrow": "KKK",
     "title": "Korduma kippuvad küsimused",
-    "subtitle": "Kõik, mida peaksid teadma Heilaresi päikeseprojektide kohta.",
+    "subtitle": "Kõik, mida peaksid teadma HeilAresi päikeseprojektide kohta.",
     "items": {
       "turnkey": {
         "question": "Mida tähendab võtmed-kätte päikesepargi ehitus?",
-        "lead": "Heilares võtab vastutuse kogu päikesepargi ehituse eest alates projekteerimisest kuni võrku ühendamiseni.",
-        "answer": "Heilares võtab vastutuse kogu protsessi eest — projekteerimine, materjalide hankimine, raami ja paneelide paigaldus, DC-tööd, inverterite ühendus ning objekti üleandmine ja võrku ühendamine. Klient saab ühe partneri kogu projektile."
+        "lead": "HeilAres võtab vastutuse kogu päikesepargi ehituse eest alates projekteerimisest kuni võrku ühendamiseni.",
+        "answer": "HeilAres võtab vastutuse kogu protsessi eest — projekteerimine, materjalide hankimine, raami ja paneelide paigaldus, DC-tööd, inverterite ühendus ning objekti üleandmine ja võrku ühendamine. Klient saab ühe partneri kogu projektile."
       },
       "size": {
-        "question": "Kui suuri päikeseparke Heilares ehitab?",
-        "lead": "Heilares on osalenud üle 400 MW päikeseparkide paigaldustel Euroopas.",
+        "question": "Kui suuri päikeseparke HeilAres ehitab?",
+        "lead": "HeilAres on osalenud üle 400 MW päikeseparkide paigaldustel Euroopas.",
         "answer": "Oleme osalenud üle 400 MW päikeseparkide paigaldustel, sealhulgas 244 MW Risti päikesepark Eestis ja 72,5 MW Stelpe park Lätis. Ehitame nii mõnesaja kW kui ka sadade MW suuruseid projekte."
       },
       "countries": {
-        "question": "Millistes riikides Heilares tegutseb?",
-        "lead": "Heilares tegutseb Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse.",
-        "answer": "Tegutseme Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse. Meie brigaadid on valmis kiireks mobiliseerimiseks üle Euroopa."
+        "question": "Millistes riikides HeilAres tegutseb?",
+        "lead": "HeilAres tegutseb Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse.",
+        "answer": "Tegutseme Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse. Meie meeskonnad on valmis kiireks mobiliseerimiseks üle Euroopa."
       },
       "types": {
         "question": "Milliseid päikesepargi tüüpe te ehitate?",
-        "lead": "Heilares ehitab maaparke, katuseparke ja tracker-parke.",
-        "answer": "Ehitame kolme peamist tüüpi — maaparke, katuseparke tööstushoonetele ja tracker-parke (päikest jälgivad süsteemid)."
+        "lead": "HeilAres ehitab maaparke, katuseparke ja Solar Tracker Park.",
+        "answer": "Ehitame kolme peamist tüüpi — maaparke, katuseparke tööstushoonetele ja Solar Tracker Park (päikest jälgivad süsteemid)."
       },
       "quoteSpeed": {
         "question": "Kui kiiresti saan pakkumise?",
-        "lead": "Heilares vastab pakkumispäringutele 24 tunni jooksul.",
+        "lead": "HeilAres vastab pakkumispäringutele 24 tunni jooksul.",
         "answer": "Vastame päringutele 24 tunni jooksul."
       }
     }
@@ -303,7 +303,7 @@
       "messagePlaceholder": "Räägi oma projektist — asukoht, suurus, ajakava...",
       "selectType": "Vali tüüp",
       "types": {
-        "tracker_park": "Tracker park",
+        "tracker_park": "Solar Tracker Park",
         "maapark": "Maapark",
         "katusepark": "Katusepark",
         "workforce": "Tööjõu rent",
@@ -326,7 +326,7 @@
     }
   },
   "footer": {
-    "tagline": "Päikeseenergia spetsialistid Eestist üle Euroopa.",
+    "tagline": "Roheenergia spetsialistid Baltikumis ja Põhjamaades.",
     "nav": "Lehed",
     "services": "Teenused",
     "contactCol": "Kontakt",
@@ -349,28 +349,28 @@
   },
   "seo": {
     "home": {
-      "title": "Päikesepargi ehitus võtmed kätte | Heilares OÜ",
-      "description": "Heilares ehitab võtmed-kätte päikeseparke — maa-, katuse- ja tracker-jaamu Eestis ja Euroopas. 400+ MW kogemust. Pakume ka paigaldusbrigaadide renti. Küsi pakkumist."
+      "title": "Päikesepargi ehitus võtmed kätte | HeilAres OÜ",
+      "description": "HeilAres ehitab võtmed-kätte päikeseparke — maa-, katuse- ja tracker-jaamu Eestis ja Euroopas. 400+ MW kogemust. Pakume ka paigaldusmeeskonnade renti. Küsi pakkumist."
     },
     "panels": {
-      "title": "Maapark, katusepark ja tracker-park | Heilares",
-      "description": "Heilares projekteerib ja ehitab maaparke, katuseparke ja tracker-parke tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
+      "title": "Maapark, katusepark ja Solar Tracker Park | HeilAres",
+      "description": "HeilAres projekteerib ja ehitab maaparke, katuseparke ja Solar Tracker Park tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
     },
     "workforce": {
-      "title": "Paigaldusbrigaadi rent | Heilares",
-      "description": "Rendi kogenud ja sertifitseeritud paigaldusbrigaade päikeseenergiale, laevaehitusele ja tööstusele kogu Euroopas. Kiire mobiliseerimine."
+      "title": "Paigaldusmeeskondi rent | HeilAres",
+      "description": "Rendi kogenud ja kvalifitseeritud paigaldusmeeskondi päikeseenergiale, laevaehitusele ja tööstusele kogu Euroopas. Kiire mobiliseerimine."
     },
     "projects": {
-      "title": "Tehtud tööd — päikesepargid Eestis ja Euroopas | Heilares",
-      "description": "Vaata Heilarese suuremahulisi päikeseparke — Risti 244 MW, Stelpe 72,5 MW, Kirikmäe 76 MW ja teised projektid."
+      "title": "Tehtud tööd — päikesepargid Eestis ja Euroopas | HeilAres",
+      "description": "Vaata HeilArese suuremahulisi päikeseparke — Risti 244 MW, Stelpe 72,5 MW, Kirikmäe 76 MW ja teised projektid."
     },
     "contact": {
-      "title": "Kontakt | Heilares OÜ",
-      "description": "Võta ühendust Heilaresega — päikesepargi ehitus ja tööjõu rent Eestis ja Euroopas. info@heilares.ee, +372 5693 0296."
+      "title": "Kontakt | HeilAres OÜ",
+      "description": "Võta ühendust HeilAresega — päikesepargi ehitus ja tööjõu rent Eestis ja Euroopas. info@heilares.ee, +372 5693 0296."
     },
     "blog": {
-      "title": "Päikeseenergia blogi arendajatele | Heilares",
-      "description": "Nõuanded ja teadmised päikeseparkide ehitusest, EPC-teenusest ja tööjõu rendist. Heilarese blogi."
+      "title": "Päikeseenergia blogi arendajatele | HeilAres",
+      "description": "Nõuanded ja teadmised päikeseparkide ehitusest, EPC-teenusest ja tööjõu rendist. HeilArese blogi."
     }
   }
 }

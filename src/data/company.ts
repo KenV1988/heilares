@@ -1,6 +1,6 @@
 export const company = {
-  name: "Heilares OÜ",
-  tagline: "PÄIKESEENERGIA SPETSIALISTID",
+  name: "HeilAres OÜ",
+  tagline: "ROHEENERGIA SPETSIALISTID",
   email: "info@heilares.ee",
   phone: "+372 5693 0296",
   phoneHref: "tel:+3725693296",

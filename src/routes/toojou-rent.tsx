@@ -61,7 +61,7 @@ function WorkforcePage() {
 
       <WorkforceTypes />
 
-      {/* Why Heilares */}
+      {/* Why HeilAres */}
       <section className="container-x py-16 md:py-24">
         <div className="text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">

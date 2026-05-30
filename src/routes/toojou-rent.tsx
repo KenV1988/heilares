@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { ArrowRight, Zap, Shield, Gauge, Settings } from "lucide-react";
+import { ArrowRight, Zap, Shield, Gauge, Settings, Ship } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { SectionBadge } from "@/components/site/Section";
@@ -93,6 +93,39 @@ function WorkforcePage() {
           ))}
         </div>
       </section>
+
+      {/* Past projects — shipyards */}
+      <section className="container-x py-16 md:py-24">
+        <div className="text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+            {t("workforceProjects.eyebrow")}
+          </p>
+          <h2 className="mx-auto mt-4 max-w-2xl text-balance text-[32px] font-bold leading-[1.05] tracking-tight text-white md:text-[48px]">
+            {t("workforceProjects.title")}
+          </h2>
+          <p className="mx-auto mt-4 max-w-3xl text-base leading-relaxed text-white/65 md:text-lg">
+            {t("workforceProjects.lead")}
+          </p>
+        </div>
+        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-2 lg:grid-cols-3">
+          {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item) => (
+            <div
+              key={item.name}
+              className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 transition hover:border-[var(--ring)] md:p-7"
+            >
+              <div className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+                <Ship className="h-6 w-6" />
+              </div>
+              <h3 className="mt-5 text-lg font-bold text-white">{item.name}</h3>
+              <div className="mt-1 text-sm text-white/55">{item.country}</div>
+            </div>
+          ))}
+        </div>
+        <p className="mx-auto mt-12 max-w-3xl text-center text-base leading-relaxed text-white/70 md:text-lg">
+          {t("workforceProjects.specialties")}
+        </p>
+      </section>
+
 
       {/* CTA */}
       <section className="container-x py-16 md:py-24">

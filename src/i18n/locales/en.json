@@ -68,14 +68,14 @@
   "workforcePage": {
     "hero": {
       "title": "Workforce rental",
-      "subtitle": "HeilAres provides experienced and certified installation crews for hire to industries, shipbuilding and solar energy partners across Northern Europe."
+      "subtitle": "HeilAres provides experienced and qualified installation crews for hire to industries, shipbuilding and solar energy partners across Europe and Scandinavia."
     },
     "solar": {
       "eyebrow": "Solar energy",
       "title": "Solar installation crews",
-      "lead": "HeilAres rental installation crews specialize in solar park construction and are available for subcontracting to other EPC companies across Northern Europe.",
+      "lead": "HeilAres rental installation crews specialize in solar park construction and are available for subcontracting to other EPC companies across Europe and Scandinavia.",
       "paragraphs": [
-        "Our crews consist of experienced project managers and certified installers who have participated in the construction of solar parks scaling hundreds of megawatts in Estonia and Latvia. Crews can be quickly mobilized to sites across Europe, ensuring that subcontractor work does not stall due to lack of manpower.",
+        "Our crews consist of experienced project managers and qualified installers who have participated in the construction of solar parks scaling hundreds of megawatts in Estonia and Latvia. Crews can be quickly mobilized to sites across Europe, ensuring that subcontractor work does not stall due to lack of manpower.",
         "Rental teams perform framework assembly, panel installation, DC cabling and inverter connection. Each crew works according to the client's safety requirements and project schedule. This allows EPC companies to optimize their resource utilization and take on larger projects without increasing fixed costs.",
         "A flexible rental model allows crews to be hired for short-term deadline work as well as longer projects. All our installers undergo regular safety training and hold the necessary certifications for working on industrial solar sites."
       ],
@@ -88,15 +88,15 @@
     "shipbuilding": {
       "eyebrow": "Shipbuilding",
       "title": "Shipbuilding",
-      "lead": "HeilAres provides certified installation crews for shipbuilding projects in Northern Europe, including Finland and Estonia.",
+      "lead": "HeilAres provides qualified installation crews for shipbuilding projects in Europe and Scandinavia, including Finland and Estonia.",
       "paragraphs": [
-        "Our shipbuilding teams are experienced in industrial installations and metal structure assembly. Crews are ready to mobilize to shipyard sites where fast and high-quality work is required.",
+        "Our shipbuilding teams bring together experienced specialists from multiple trades and are ready to mobilize to shipyard sites where fast and high-quality work is required.",
         "We offer both short-term and long-term rental solutions suitable for covering peak season work as well as for permanent partnership. Our project managers ensure that work meets all shipbuilding safety and quality standards."
       ],
       "faq": {
         "question": "In which countries can shipbuilding crews be hired?",
-        "lead": "HeilAres shipbuilding crews are available in Northern Europe, including Finland and Estonia.",
-        "answer": "We mobilize crews to shipyard sites in Finland, Estonia and other Northern European countries. Experience with shipbuilding projects ensures that our teams understand the shipyard industry's specific requirements and safety standards."
+        "lead": "HeilAres shipbuilding crews are available in Europe and Scandinavia, including Finland and Estonia.",
+        "answer": "We mobilize crews to shipyard sites in Finland, Estonia and other European and Scandinavian countries. Experience with shipbuilding projects ensures that our teams understand the shipyard industry's specific requirements and safety standards."
       }
     },
     "factories": {
@@ -119,6 +119,38 @@
       "button": "Discuss workforce rental"
     }
   },
+  "workforceProjects": {
+    "eyebrow": "PAST PROJECTS",
+    "title": "Past projects",
+    "lead": "We have brought the experience of our qualified crews to leading European shipyards in Finland, Spain, France and Germany.",
+    "specialties": "Our shipbuilding teams bring together experienced specialists from multiple trades: interior installers, 135/136 and 141 welders, ventilation installers, pipefitters, painters and electricians. This allows us to cover the full scope of installation work from a single partner.",
+    "items": [
+      {
+        "name": "Meyer Turku",
+        "country": "Finland"
+      },
+      {
+        "name": "Rauma Marine Constructions",
+        "country": "Finland"
+      },
+      {
+        "name": "Cádiz shipyard",
+        "country": "Spain"
+      },
+      {
+        "name": "Saint-Nazaire shipyard",
+        "country": "France"
+      },
+      {
+        "name": "Bremen shipyard",
+        "country": "Germany"
+      },
+      {
+        "name": "Wismar shipyard",
+        "country": "Germany"
+      }
+    ]
+  },
   "workforceWhy": {
     "eyebrow": "WHY HEILARES",
     "title": "Why rent a crew from HeilAres?",
@@ -129,7 +161,7 @@
         "desc": "Own crews and experienced project managers ready to start at short notice across Europe."
       },
       "certified": {
-        "title": "Certified teams",
+        "title": "Qualified teams",
         "desc": "All installers undergo regular safety training and hold the necessary certifications."
       },
       "scale": {
@@ -162,18 +194,39 @@
   "process": {
     "title": "How we work",
     "subtitle": "Simple and transparent — from first meeting to completed installation.",
-    "step1": { "title": "Consultation", "desc": "We map your needs, site and energy potential." },
-    "step2": { "title": "Engineering", "desc": "We design the technical solution and a precise quote." },
-    "step3": { "title": "Installation", "desc": "We deliver the mounting, panels and DC works with the inverter." }
+    "step1": {
+      "title": "Consultation",
+      "desc": "We map your needs, site and energy potential."
+    },
+    "step2": {
+      "title": "Engineering",
+      "desc": "We design the technical solution and a precise quote."
+    },
+    "step3": {
+      "title": "Installation",
+      "desc": "We deliver the mounting, panels and DC works with the inverter."
+    }
   },
   "why": {
     "title": "Why HeilAres",
     "subtitle": "A recognized partner for large-scale solar projects across Europe.",
     "items": {
-      "scale": { "title": "Megawatt-scale experience", "desc": "Hundreds of MW of solar park installations participated in across Estonia and Latvia." },
-      "turnkey": { "title": "Turnkey delivery", "desc": "One partner for the whole installation — mounting, panels, DC and inverters." },
-      "speed": { "title": "Fast mobilization", "desc": "Own crews and seasoned project managers ready to start." },
-      "quality": { "title": "Tier-1 components", "desc": "We work only with top-grade panels and inverters." }
+      "scale": {
+        "title": "Megawatt-scale experience",
+        "desc": "Hundreds of MW of solar park installations participated in across Estonia and Latvia."
+      },
+      "turnkey": {
+        "title": "Turnkey delivery",
+        "desc": "One partner for the whole installation — mounting, panels, DC and inverters."
+      },
+      "speed": {
+        "title": "Fast mobilization",
+        "desc": "Own crews and seasoned project managers ready to start."
+      },
+      "quality": {
+        "title": "Tier-1 components",
+        "desc": "We work only with top-grade panels and inverters."
+      }
     }
   },
   "projectsSection": {

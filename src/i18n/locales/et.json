@@ -68,14 +68,14 @@
   "workforcePage": {
     "hero": {
       "title": "Tööjõu rent",
-      "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Põhja-Euroopas."
+      "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Euroopas ja Skandinaavias."
     },
     "solar": {
       "eyebrow": "Päikeseenergia",
       "title": "Päikeseenergia paigaldusmeeskonnad",
-      "lead": "HeilArese renditavad paigaldusmeeskonnad on spetsialiseerunud päikeseparkide ehitusele ja sobivad alltöövõtuks teistele EPC-ettevõtetele kogu Põhja-Euroopas.",
+      "lead": "HeilArese renditavad paigaldusmeeskonnad on spetsialiseerunud päikeseparkide ehitusele ja sobivad alltöövõtuks teistele EPC-ettevõtetele kogu Euroopas ja Skandinaavias.",
       "paragraphs": [
-        "Meie meeskonnad koosnevad kogenud projektijuhtidest ja kvalifitseeritud paigaldajatest, kes on osalenud sadade megavattide suuruste päikeseparkide ehituses Eestis ja Lätis. Brigaade saab kiirelt mobiliseerida objektidele üle Euroopa, tagades, et allhanketööd ei seisku ajapuuduse tõttu.",
+        "Meie meeskonnad koosnevad kogenud projektijuhtidest ja kvalifitseeritud paigaldajatest, kes on osalenud sadade megavattide suuruste päikeseparkide ehituses Eestis ja Lätis. Meeskondi saab kiirelt mobiliseerida objektidele üle Euroopa, tagades, et allhanketööd ei seisku ajapuuduse tõttu.",
         "Rendimeeskonnad teostavad raamistiku montaaži, paneelide paigalduse, DC-kabeldust ja inverterite ühenduse. Iga meeskond töötab vastavalt kliendi ohutusnõuetele ja projektigraafikule. See võimaldab EPC-ettevõtetel optimeerida oma ressursside kasutamist ja võtta vastu suuremaid projekte ilma püsikulu suurendamata.",
         "Paindlik rendimudel võimaldab meeskondi tellida nii lühiajaliseks tähtajaliseks tööks kui ka pikemateks projektideks. Kõik meie paigaldajad läbivad regulaarsed ohutuskoolitused ja omavad vajalikke sertifikaate tööstuslikel päikeseobjektidel töötamiseks."
       ],
@@ -88,15 +88,15 @@
     "shipbuilding": {
       "eyebrow": "Laevaehitus",
       "title": "Laevaehitus",
-      "lead": "HeilAres pakub kvalifitseeritud paigaldusmeeskondi laevaehituse projektide jaoks Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
+      "lead": "HeilAres pakub kvalifitseeritud paigaldusmeeskondi laevaehituse projektide jaoks Euroopas ja Skandinaavias, sealhulgas Soomes ja Eestis.",
       "paragraphs": [
-        "Meie laevaehituse meeskonnad on kogenud tööstuslike paigalduste ja metallikonstruktsioonide montaaži vallas. Meeskonnad on valmis mobiliseeruma laevatehaste objektidele, kus nõutakse kiiret ja kvaliteetset tööd.",
+        "Meie laevaehituse meeskonnad koondavad mitme valdkonna kogenud spetsialiste ja on valmis mobiliseeruma laevatehaste objektidele, kus nõutakse kiiret ja kvaliteetset tööd.",
         "Pakume nii lühiajalisi kui pikaajalisi rendilahendusi, mis sobivad nii tipphooajaliste tööde ajutiseks katmiseks kui ka püsivaks partnerluseks. Meie projektijuhid tagavad, et töö vastab kõigile laevaehituse ohutus- ja kvaliteedistandarditele."
       ],
       "faq": {
         "question": "Millistes riikides laevaehituse meeskondi saab tellida?",
-        "lead": "HeilArese laevaehituse meeskonnad on saadaval Põhja-Euroopas, sealhulgas Soomes ja Eestis.",
-        "answer": "Mobiliseerime meeskondi laevatehaste objektidele Soomes, Eestis ja teistes Põhja-Euroopa riikides. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad telakka tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
+        "lead": "HeilArese laevaehituse meeskonnad on saadaval Euroopas ja Skandinaavias, sealhulgas Soomes ja Eestis.",
+        "answer": "Mobiliseerime meeskondi laevatehaste objektidele Soomes, Eestis ja teistes Euroopa ja Skandinaavia riikides. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad laevaehituse tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
       }
     },
     "factories": {
@@ -118,6 +118,38 @@
       "subtitle": "Võta meiega ühendust ja lepime kokku tööjõu rendi detailid 24 tunni jooksul.",
       "button": "Räägi tööjõu rendist"
     }
+  },
+  "workforceProjects": {
+    "eyebrow": "TEHTUD TÖÖD",
+    "title": "Tehtud tööd",
+    "lead": "Oleme andnud oma kvalifitseeritud meeskondade kogemuse Euroopa juhtivatele laevatehastele Soomes, Hispaanias, Prantsusmaal ja Saksamaal.",
+    "specialties": "Meie laevaehituse meeskonnad koondavad mitme valdkonna kogenud spetsialiste: interjööri paigaldajad, 135/136 ja 141 keevitajad, ventilatsiooni paigaldajad, torumehed, maalrid ning elektrikud. See võimaldab meil katta kogu paigaldustöö ulatuse ühe partneri pealt.",
+    "items": [
+      {
+        "name": "Meyer Turku",
+        "country": "Soome"
+      },
+      {
+        "name": "Rauma Marine Constructions",
+        "country": "Soome"
+      },
+      {
+        "name": "Cádizi laevatehas",
+        "country": "Hispaania"
+      },
+      {
+        "name": "Saint-Nazaire'i laevatehas",
+        "country": "Prantsusmaa"
+      },
+      {
+        "name": "Bremeni laevatehas",
+        "country": "Saksamaa"
+      },
+      {
+        "name": "Wismari laevatehas",
+        "country": "Saksamaa"
+      }
+    ]
   },
   "workforceWhy": {
     "eyebrow": "MIKS HEILARES",
@@ -162,18 +194,39 @@
   "process": {
     "title": "Kuidas me töötame",
     "subtitle": "Lihtne ja läbipaistev — alates esimesest kohtumisest kuni paigalduse lõpuni.",
-    "step1": { "title": "Konsultatsioon", "desc": "Kaardistame teie vajadused, asukoha ja energiapotentsiaali." },
-    "step2": { "title": "Projekteerimine", "desc": "Koostame tehnilise lahenduse ja täpse pakkumise." },
-    "step3": { "title": "Paigaldus", "desc": "Teostame raami, paneelide ja DC-tööd koos inverteriga." }
+    "step1": {
+      "title": "Konsultatsioon",
+      "desc": "Kaardistame teie vajadused, asukoha ja energiapotentsiaali."
+    },
+    "step2": {
+      "title": "Projekteerimine",
+      "desc": "Koostame tehnilise lahenduse ja täpse pakkumise."
+    },
+    "step3": {
+      "title": "Paigaldus",
+      "desc": "Teostame raami, paneelide ja DC-tööd koos inverteriga."
+    }
   },
   "why": {
     "title": "Miks HeilAres",
     "subtitle": "Tunnustatud partner Baltikumis ja Põhjamaades suuremahuliste päikeseprojektide elluviimisel.",
     "items": {
-      "scale": { "title": "Megavatt-skaala kogemus", "desc": "Sadu MW päikeseparkide paigaldustel osaletud Eestis ja Lätis." },
-      "turnkey": { "title": "Võtmed kätte teenus", "desc": "Üks partner kogu protsessile — raam, paneelid, DC ja inverterid." },
-      "speed": { "title": "Kiire mobiliseerimine", "desc": "Omad meeskonnad ja kogenud projektijuhid valmis startima." },
-      "quality": { "title": "Tier-1 komponendid", "desc": "Töötame ainult tipptasemel paneelide ja inverteritega." }
+      "scale": {
+        "title": "Megavatt-skaala kogemus",
+        "desc": "Sadu MW päikeseparkide paigaldustel osaletud Eestis ja Lätis."
+      },
+      "turnkey": {
+        "title": "Võtmed kätte teenus",
+        "desc": "Üks partner kogu protsessile — raam, paneelid, DC ja inverterid."
+      },
+      "speed": {
+        "title": "Kiire mobiliseerimine",
+        "desc": "Omad meeskonnad ja kogenud projektijuhid valmis startima."
+      },
+      "quality": {
+        "title": "Tier-1 komponendid",
+        "desc": "Töötame ainult tipptasemel paneelide ja inverteritega."
+      }
     }
   },
   "projectsSection": {

@@ -32,9 +32,15 @@ export function ProjectCard({ project }: { project: Project }) {
         <h3 className="mt-2 text-lg font-bold text-white">{project.title[lang]}</h3>
         <div className="mt-4 flex items-center justify-between border-t border-[var(--border)] pt-4">
           <div>
-            <div className="text-lg font-bold text-[var(--brand)]">
-              {formatCapacity(project.capacityKw, lang)}
-            </div>
+            {project.capacityKw ? (
+              <div className="text-lg font-bold text-[var(--brand)]">
+                {formatCapacity(project.capacityKw, lang)}
+              </div>
+            ) : (
+              <div className="text-lg font-bold text-[var(--brand)]">
+                {t(`projectsSection.filter.${project.category}`)}
+              </div>
+            )}
             <div className="text-xs text-white/50">{project.yearCompleted}</div>
           </div>
           <ArrowUpRight className="h-5 w-5 text-white/40 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[var(--brand)]" />

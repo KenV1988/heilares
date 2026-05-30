@@ -47,8 +47,10 @@ function ProjectDetail() {
             </p>
           </div>
 
-          <div className="mt-10 grid gap-4 sm:grid-cols-3">
-            <Stat Icon={Gauge} label={t("projectsSection.capacity")} value={formatCapacity(project.capacityKw, lang)} />
+          <div className={`mt-10 grid gap-4 ${project.capacityKw ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}>
+            {project.capacityKw ? (
+              <Stat Icon={Gauge} label={t("projectsSection.capacity")} value={formatCapacity(project.capacityKw, lang)} />
+            ) : null}
             <Stat Icon={MapPin} label={t("projectsSection.location")} value={project.location} />
             <Stat Icon={Calendar} label={t("projectsSection.year")} value={String(project.yearCompleted)} />
           </div>

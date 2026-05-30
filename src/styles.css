@@ -6,6 +6,7 @@
 
 @theme inline {
   --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Outfit", "Jura", system-ui, sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -34,44 +35,54 @@
   --color-bg-base: var(--bg-base);
   --color-bg-elevated: var(--bg-elevated);
   --color-bg-card: var(--bg-card);
+  --color-bg-accent: var(--bg-accent);
   --color-brand: var(--brand);
   --color-brand-hover: var(--brand-hover);
+  --color-brand-glow: var(--brand-glow);
+  --color-gold: var(--gold);
   --color-text-secondary: var(--text-secondary);
   --color-text-muted: var(--text-muted);
 }
 
 :root {
-  --radius: 0.75rem;
+  --radius: 0.875rem;
 
-  /* HeilAres brand tokens */
-  --bg-base: #0a0f0d;
-  --bg-elevated: #0f1614;
-  --bg-card: #131c19;
-  --brand: #7CFFB0;
-  --brand-hover: #6AECA0;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --text-muted: #6B7872;
+  /* HeilAres surface tokens — layered depth */
+  --bg-base: #0A0F0D;
+  --bg-elevated: #10160F;
+  --bg-card: #131C19;
+  --bg-accent: #1A2419;
 
-  /* Map to semantic tokens (dark by default) */
+  /* Brand accents */
+  --brand: #3FBE74;
+  --brand-hover: #4BD081;
+  --brand-glow: #7CE06A;
+  --gold: #F4B83C;
+
+  /* Text */
+  --text-primary: #EAF6EA;
+  --text-secondary: #7E8B83;
+  --text-muted: #5C6A60;
+
   --background: var(--bg-base);
-  --foreground: #FFFFFF;
+  --foreground: var(--text-primary);
   --card: var(--bg-card);
-  --card-foreground: #FFFFFF;
+  --card-foreground: var(--text-primary);
   --popover: var(--bg-elevated);
-  --popover-foreground: #FFFFFF;
+  --popover-foreground: var(--text-primary);
   --primary: var(--brand);
-  --primary-foreground: #0a0f0d;
+  --primary-foreground: #06120A;
   --secondary: var(--bg-elevated);
-  --secondary-foreground: #FFFFFF;
+  --secondary-foreground: var(--text-primary);
   --muted: var(--bg-elevated);
   --muted-foreground: var(--text-secondary);
-  --accent: var(--bg-elevated);
-  --accent-foreground: #FFFFFF;
+  --accent: var(--bg-accent);
+  --accent-foreground: var(--text-primary);
   --destructive: oklch(0.65 0.22 25);
   --destructive-foreground: #FFFFFF;
-  --border: rgba(124, 255, 176, 0.12);
-  --input: rgba(124, 255, 176, 0.18);
-  --ring: rgba(124, 255, 176, 0.4);
+  --border: rgba(63, 190, 116, 0.14);
+  --input: rgba(63, 190, 116, 0.20);
+  --ring: rgba(124, 224, 106, 0.55);
 }
 
 @layer base {
@@ -81,36 +92,122 @@
 
   html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: "Inter", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
 
+  @media (min-width: 768px) {
+    body { font-size: 17px; line-height: 1.6; }
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display), "Outfit", system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
   ::selection {
-    background: rgba(124, 255, 176, 0.3);
+    background: rgba(63, 190, 116, 0.35);
     color: #fff;
+  }
+
+  /* Visible focus ring for keyboard nav */
+  :focus-visible {
+    outline: 2px solid var(--brand-glow);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 
 @layer utilities {
   .container-x {
-    @apply mx-auto w-full max-w-[1280px] px-6 md:px-10;
+    @apply mx-auto w-full max-w-[1280px];
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .text-balance {
-    text-wrap: balance;
+  @media (min-width: 768px) {
+    .container-x { padding-left: 40px; padding-right: 40px; }
   }
+
+  .text-balance { text-wrap: balance; }
+
+  .font-display { font-family: var(--font-display), system-ui, sans-serif; }
+
+  /* Gradient text — green to gold, use sparingly */
+  .text-gradient {
+    background: linear-gradient(110deg, var(--brand) 0%, var(--brand-glow) 45%, var(--gold) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Hairline accent — used at section starts */
+  .hairline {
+    display: inline-block;
+    width: 56px;
+    height: 1px;
+    background: rgba(63, 190, 116, 0.45);
+  }
+
   .bg-grid {
     background-image:
-      linear-gradient(rgba(124, 255, 176, 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(124, 255, 176, 0.04) 1px, transparent 1px);
-    background-size: 56px 56px;
+      linear-gradient(rgba(63, 190, 116, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(63, 190, 116, 0.05) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, #000 30%, transparent 80%);
   }
   .radial-glow {
-    background: radial-gradient(60% 50% at 50% 0%, rgba(124, 255, 176, 0.18) 0%, transparent 70%);
+    background: radial-gradient(60% 50% at 50% 0%, rgba(63, 190, 116, 0.22) 0%, transparent 70%);
+  }
+
+  /* Reveal-on-scroll */
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 600ms cubic-bezier(0.2, 0.8, 0.2, 1),
+                transform 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    will-change: opacity, transform;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Card hover lift + glow */
+  .card-lift {
+    transition: transform 240ms ease-out, box-shadow 240ms ease-out, border-color 240ms ease-out;
+  }
+  .card-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 24px rgba(127, 224, 106, 0.18);
+    border-color: rgba(63, 190, 116, 0.45);
+  }
+
+  .dotted-line {
+    background-image: linear-gradient(90deg, rgba(63, 190, 116, 0.45) 50%, transparent 50%);
+    background-size: 8px 1px;
+    background-repeat: repeat-x;
+  }
+  .dotted-line-v {
+    background-image: linear-gradient(0deg, rgba(63, 190, 116, 0.45) 50%, transparent 50%);
+    background-size: 1px 8px;
+    background-repeat: repeat-y;
   }
 }

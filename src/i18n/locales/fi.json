@@ -68,14 +68,14 @@
   "workforcePage": {
     "hero": {
       "title": "Työvoiman vuokraus",
-      "subtitle": "HeilAres tarjoaa kokeneita ja sertifioituja asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Pohjois-Euroopassa."
+      "subtitle": "HeilAres tarjoaa kokeneita ja päteviä asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Euroopassa ja Skandinaviassa."
     },
     "solar": {
       "eyebrow": "Aurinkoenergia",
       "title": "Aurinkoenergian asennusryhmät",
-      "lead": "HeilAresin vuokra-asennusryhmät ovat erikoistuneet aurinkopuistojen rakentamiseen ja ovat käytettävissä alihankintana muille EPC-yrityksille koko Pohjois-Euroopassa.",
+      "lead": "HeilAresin vuokra-asennusryhmät ovat erikoistuneet aurinkopuistojen rakentamiseen ja ovat käytettävissä alihankintana muille EPC-yrityksille koko Euroopassa ja Skandinaviassa.",
       "paragraphs": [
-        "Ryhmämme koostuvat kokeneista projektipäälliköistä ja sertifioiduista asentajista, jotka ovat osallistuneet satojen megawattien kokoisten aurinkopuistojen rakentamiseen Virossa ja Latviassa. Ryhmät voidaan mobilisoida nopeasti kohteisiin ympäri Eurooppaa, jotta alihankintatyö ei pysähdy työvoimapulan vuoksi.",
+        "Ryhmämme koostuvat kokeneista projektipäälliköistä ja pätevistä asentajista, jotka ovat osallistuneet satojen megawattien kokoisten aurinkopuistojen rakentamiseen Virossa ja Latviassa. Ryhmät voidaan mobilisoida nopeasti kohteisiin ympäri Eurooppaa, jotta alihankintatyö ei pysähdy työvoimapulan vuoksi.",
         "Vuokra-asennusryhmät suorittavat rungon kokoamisen, paneelien asennuksen, DC-kaapeloinnin ja invertterin kytkemisen. Jokainen ryhmä työskentelee asiakkaan turvallisuusvaatimusten ja projektiaikataulun mukaisesti. Tämä mahdollistaa EPC-yrityksille resurssien optimaalisen hyödyntämisen ja suurempien projektien ottamisen ilman kiinteiden kustannusten kasvattamista.",
         "Joustava vuokrausmalli mahdollistaa ryhmien palkkaamisen lyhytaikaiseen määräaikaistyöhön sekä pidempiin projekteihin. Kaikki asentajamme käyvät säännöllistä turvallisuuskoulutusta ja hallussaan tarvittavat sertifikaatit teollisuuden aurinkokohteissa työskentelyyn."
       ],
@@ -88,15 +88,15 @@
     "shipbuilding": {
       "eyebrow": "Laivanrakennus",
       "title": "Laivanrakennus",
-      "lead": "HeilAres tarjoaa sertifioituja asennusryhmiä laivanrakennusprojekteihin Pohjois-Euroopassa, mukaan lukien Suomi ja Viro.",
+      "lead": "HeilAres tarjoaa päteviä asennusryhmiä laivanrakennusprojekteihin Euroopassa ja Skandinaviassa, mukaan lukien Suomi ja Viro.",
       "paragraphs": [
-        "Laivanrakennusryhmämme ovat kokeneita teollisuusasennuksissa ja metallirakenteiden kokoamisessa. Ryhmät ovat valmiita mobilisoitumaan telakkakohteisiin, joissa vaaditaan nopeaa ja laadukasta työtä.",
+        "Laivanrakennustiimimme kokoavat yhteen monen alan kokeneet asiantuntijat ja ovat valmiita mobilisoitumaan telakkakohteisiin, joissa vaaditaan nopeaa ja laadukasta työtä.",
         "Tarjoamme sekä lyhyt- että pitkäaikaisia vuokrausratkaisuja, jotka sopivat huippusesonkityön kattamiseen sekä pysyvään kumppanuuteen. Projektipäällikkömme varmistavat, että työ vastaa kaikkia laivanrakennuksen turvallisuus- ja laatustandardeja."
       ],
       "faq": {
         "question": "Missä maissa laivanrakennuksen ryhmiä voi tilata?",
-        "lead": "HeilAresin laivanrakennusryhmät ovat käytettävissä Pohjois-Euroopassa, mukaan lukien Suomi ja Viro.",
-        "answer": "Mobilisoimme ryhmiä telakkakohteisiin Suomessa, Virossa ja muissa Pohjois-Euroopan maissa. Kokemus laivanrakennusprojekteista varmistaa, että tiimimme ymmärtävät telakkateollisuuden erityisvaatimukset ja turvallisuusstandardit."
+        "lead": "HeilAresin laivanrakennusryhmät ovat käytettävissä Euroopassa ja Skandinaviassa, mukaan lukien Suomi ja Viro.",
+        "answer": "Mobilisoimme ryhmiä telakkakohteisiin Suomessa, Virossa ja muissa Euroopan ja Skandinavian maissa. Kokemus laivanrakennusprojekteista varmistaa, että tiimimme ymmärtävät laivanrakennusteollisuuden erityisvaatimukset ja turvallisuusstandardit."
       }
     },
     "factories": {
@@ -119,6 +119,38 @@
       "button": "Keskustele työvoiman vuokrauksesta"
     }
   },
+  "workforceProjects": {
+    "eyebrow": "TOTEUTETUT PROJEKTIT",
+    "title": "Toteutetut projektit",
+    "lead": "Olemme tuoneet pätevien tiimiemme kokemuksen Euroopan johtaville telakoille Suomessa, Espanjassa, Ranskassa ja Saksassa.",
+    "specialties": "Laivanrakennustiimimme kokoavat yhteen monen alan kokeneet asiantuntijat: sisustusasentajat, 135/136- ja 141-hitsaajat, ilmanvaihtoasentajat, putkimiehet, maalarit ja sähköasentajat. Tämä mahdollistaa koko asennustyön kattamisen yhdeltä kumppanilta.",
+    "items": [
+      {
+        "name": "Meyer Turku",
+        "country": "Suomi"
+      },
+      {
+        "name": "Rauma Marine Constructions",
+        "country": "Suomi"
+      },
+      {
+        "name": "Cádizin telakka",
+        "country": "Espanja"
+      },
+      {
+        "name": "Saint-Nazairen telakka",
+        "country": "Ranska"
+      },
+      {
+        "name": "Bremenin telakka",
+        "country": "Saksa"
+      },
+      {
+        "name": "Wismarin telakka",
+        "country": "Saksa"
+      }
+    ]
+  },
   "workforceWhy": {
     "eyebrow": "MIKSI HEILARES",
     "title": "Miksi vuokrata ryhmä HeilAresilta?",
@@ -129,7 +161,7 @@
         "desc": "Omat asennusryhmät ja kokeneet projektipäälliköt valmiina aloittamaan lyhyellä varoitusajalla ympäri Eurooppaa."
       },
       "certified": {
-        "title": "Sertifioidut tiimit",
+        "title": "Pätevät tiimit",
         "desc": "Kaikki asentajat käyvät säännöllistä turvallisuuskoulutusta ja hallussaan tarvittavat sertifikaatit."
       },
       "scale": {
@@ -162,18 +194,39 @@
   "process": {
     "title": "Näin työskentelemme",
     "subtitle": "Yksinkertaista ja läpinäkyvää — ensitapaamisesta asennuksen valmistumiseen.",
-    "step1": { "title": "Konsultointi", "desc": "Kartoitamme tarpeenne, sijainnin ja energiapotentiaalin." },
-    "step2": { "title": "Suunnittelu", "desc": "Laadimme teknisen ratkaisun ja tarkan tarjouksen." },
-    "step3": { "title": "Asennus", "desc": "Toteutamme rakenteen, paneelien ja DC-työt invertterin kanssa." }
+    "step1": {
+      "title": "Konsultointi",
+      "desc": "Kartoitamme tarpeenne, sijainnin ja energiapotentiaalin."
+    },
+    "step2": {
+      "title": "Suunnittelu",
+      "desc": "Laadimme teknisen ratkaisun ja tarkan tarjouksen."
+    },
+    "step3": {
+      "title": "Asennus",
+      "desc": "Toteutamme rakenteen, paneelien ja DC-työt invertterin kanssa."
+    }
   },
   "why": {
     "title": "Miksi HeilAres",
     "subtitle": "Tunnustettu kumppani suurten aurinkoenergiaprojektien toteuttamiseen Euroopassa.",
     "items": {
-      "scale": { "title": "Megawattiluokan kokemus", "desc": "Satoja megawatteja aurinkopuistoasennuksista osallistuttu Virossa ja Latviassa." },
-      "turnkey": { "title": "Avaimet käteen -toimitus", "desc": "Yksi kumppani koko prosessille — rakenne, paneelit, DC, luovutus." },
-      "speed": { "title": "Nopea käynnistys", "desc": "Omat työryhmät ja kokeneet projektipäälliköt valmiina aloittamaan." },
-      "quality": { "title": "Tier-1-komponentit", "desc": "Käytämme vain huippuluokan paneeleja ja inverttereitä." }
+      "scale": {
+        "title": "Megawattiluokan kokemus",
+        "desc": "Satoja megawatteja aurinkopuistoasennuksista osallistuttu Virossa ja Latviassa."
+      },
+      "turnkey": {
+        "title": "Avaimet käteen -toimitus",
+        "desc": "Yksi kumppani koko prosessille — rakenne, paneelit, DC, luovutus."
+      },
+      "speed": {
+        "title": "Nopea käynnistys",
+        "desc": "Omat työryhmät ja kokeneet projektipäälliköt valmiina aloittamaan."
+      },
+      "quality": {
+        "title": "Tier-1-komponentit",
+        "desc": "Käytämme vain huippuluokan paneeleja ja inverttereitä."
+      }
     }
   },
   "projectsSection": {

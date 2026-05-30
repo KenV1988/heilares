@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
-import trackerImg from "@/assets/services/Solar Tracker Park-1.jpg";
+import trackerImg from "@/assets/services/tracker-park-1.jpg";
 
 const KEYS = ["ground", "roof", "tracker"] as const;
 

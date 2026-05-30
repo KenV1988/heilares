@@ -24,17 +24,17 @@ export const Route = createFileRoute("/blogi/$slug")({
     if (!loaderData) {
       return {
         meta: [
-          { title: "Blogi | Heilares" },
-          { name: "description", content: "Heilarese päikeseenergia blogi arendajatele ja tööstustele." },
+          { title: "Blogi | HeilAres" },
+          { name: "description", content: "HeilArese päikeseenergia blogi arendajatele ja tööstustele." },
         ],
       };
     }
     const c = loaderData.post.content.et;
     return {
       meta: [
-        { title: `${c.title} | Heilares` },
+        { title: `${c.title} | HeilAres` },
         { name: "description", content: c.summary },
-        { property: "og:title", content: `${c.title} | Heilares` },
+        { property: "og:title", content: `${c.title} | HeilAres` },
         { property: "og:description", content: c.summary },
         { property: "og:type", content: "article" },
       ],

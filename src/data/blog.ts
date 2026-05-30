@@ -59,9 +59,9 @@ const epcPartner: BlogPost = {
         {
           heading: "Millised kriteeriumid loevad?",
           paragraphs: [
-            "Esmane kriteerium on referentside maht megavattides. EPC-partner, kes on paigaldanud sadu MW, mõistab täismahus projektide spetsiifikat — alates substation-ühenduse projekteerimisest kuni DC-kaablite hoolduseni. Heilares on paigaldanud üle 400 MW Eestis, Lätis ja Euroopas.",
+            "Esmane kriteerium on referentside maht megavattides. EPC-partner, kes on paigaldanud sadu MW, mõistab täismahus projektide spetsiifikat — alates substation-ühenduse projekteerimisest kuni DC-kaablite hoolduseni. HeilAres on paigaldanud üle 400 MW Eestis, Lätis ja Euroopas.",
             "Teine kriteerium on komponentide tarneahel. Tugevad EPC-partnerid on otselepingulistes suhetes Tier-1 paneelide ja inverterite tootjatega — see tähendab paremaid hindu, garantii usaldusväärsust ja stabiilset tarnegraafikut. Küsi konkreetseid tarnijaid ja garantiitingimusi.",
-            "Kolmas kriteerium on oma paigaldusbrigaadid. EPC, kes tellib kogu paigalduse alltöövõtjatelt, kaotab kontrolli kvaliteedi ja graafiku üle. Heilarese kõik brigaadid on majasisesed, mis tagab ühtse kvaliteedistandardi kõikidel objektidel.",
+            "Kolmas kriteerium on oma paigaldusmeeskonnad. EPC, kes tellib kogu paigalduse alltöövõtjatelt, kaotab kontrolli kvaliteedi ja graafiku üle. HeilArese kõik meeskonnad on majasisesed, mis tagab ühtse kvaliteedistandardi kõikidel objektidel.",
           ],
         },
         {
@@ -92,7 +92,7 @@ const epcPartner: BlogPost = {
           lead:
             "Kohalik EPC-partner, kellel on rahvusvaheline kogemus, on tavaliselt parim valik, kuna kombineerib kohaliku regulatiivse kogemuse ja skaalavõime.",
           answer:
-            "Heilares kombineerib Eesti ja Läti kohaliku tugeva tegevuse Euroopa-üleste projektivõimekustega.",
+            "HeilAres kombineerib Eesti ja Läti kohaliku tugeva tegevuse Euroopa-üleste projektivõimekustega.",
         },
       ],
     },
@@ -113,9 +113,9 @@ const epcPartner: BlogPost = {
         {
           heading: "Which criteria matter?",
           paragraphs: [
-            "The first criterion is portfolio volume in megawatts. An EPC partner that has installed hundreds of MW understands the specifics of full-scale projects — from substation interconnection design to long-term DC cable maintenance. Heilares has installed over 400 MW in Estonia, Latvia and Europe.",
+            "The first criterion is portfolio volume in megawatts. An EPC partner that has installed hundreds of MW understands the specifics of full-scale projects — from substation interconnection design to long-term DC cable maintenance. HeilAres has installed over 400 MW in Estonia, Latvia and Europe.",
             "The second criterion is supply chain. Strong EPC partners have direct contractual relationships with Tier-1 panel and inverter manufacturers — meaning better prices, reliable warranties and stable delivery schedules. Ask for specific suppliers and warranty terms.",
-            "The third criterion is in-house installation crews. An EPC that subcontracts all installation loses control of quality and schedule. All of Heilares' crews are in-house, ensuring a single quality standard across every site.",
+            "The third criterion is in-house installation crews. An EPC that subcontracts all installation loses control of quality and schedule. All of HeilAres' crews are in-house, ensuring a single quality standard across every site.",
           ],
         },
         {
@@ -146,7 +146,7 @@ const epcPartner: BlogPost = {
           lead:
             "A local EPC partner with international experience is usually the best choice as it combines local regulatory know-how with scalability.",
           answer:
-            "Heilares combines a strong local presence in Estonia and Latvia with pan-European project capabilities.",
+            "HeilAres combines a strong local presence in Estonia and Latvia with pan-European project capabilities.",
         },
       ],
     },
@@ -167,7 +167,7 @@ const epcPartner: BlogPost = {
         {
           heading: "Mitkä kriteerit ratkaisevat?",
           paragraphs: [
-            "Ensimmäinen kriteeri on portfolion megawattimäärä. EPC, joka on asentanut satoja MW, ymmärtää täysimittaisten projektien erityispiirteet — sähköaseman liitynnästä DC-kaapeleiden huoltoon. Heilares on asentanut yli 400 MW Virossa, Latviassa ja Euroopassa.",
+            "Ensimmäinen kriteeri on portfolion megawattimäärä. EPC, joka on asentanut satoja MW, ymmärtää täysimittaisten projektien erityispiirteet — sähköaseman liitynnästä DC-kaapeleiden huoltoon. HeilAres on asentanut yli 400 MW Virossa, Latviassa ja Euroopassa.",
             "Toinen kriteeri on toimitusketju. Vahvoilla EPC-kumppaneilla on suorat sopimukset Tier-1-paneelien ja -invertterien valmistajien kanssa — mikä tarkoittaa parempia hintoja, luotettavia takuita ja vakaita toimitusaikatauluja.",
             "Kolmas kriteeri on omat asennusryhmät. EPC, joka ulkoistaa kaiken asennuksen, menettää laadun ja aikataulun hallinnan. Kaikki Heilareksen asennusryhmät ovat talon sisäisiä, mikä takaa yhtenäisen laatustandardin kaikilla työmailla.",
           ],
@@ -200,7 +200,7 @@ const epcPartner: BlogPost = {
           lead:
             "Paikallinen EPC-kumppani, jolla on kansainvälistä kokemusta, on yleensä paras valinta.",
           answer:
-            "Heilares yhdistää vahvan paikallisen läsnäolon Virossa ja Latviassa pan-eurooppalaisiin projektikykyihin.",
+            "HeilAres yhdistää vahvan paikallisen läsnäolon Virossa ja Latviassa pan-eurooppalaisiin projektikykyihin.",
         },
       ],
     },
@@ -211,17 +211,17 @@ const epcPartner: BlogPost = {
 // 2. Park type comparison
 // ─────────────────────────────────────────────────────────────────────────
 const parkTypes: BlogPost = {
-  slug: "maapark-katusepark-tracker-park-vordlus",
+  slug: "maapark-katusepark-Solar Tracker Park-vordlus",
   date: "2026-04-08",
   readMinutes: 7,
   cover: parkTypesCover,
   content: {
     et: {
-      title: "Maapark, katusepark või tracker-park — milline sobib teie projektile?",
+      title: "Maapark, katusepark või Solar Tracker Park — milline sobib teie projektile?",
       summary:
         "Kolm peamist päikesepargi tüüpi B2B kontekstis — millised on iga tüübi tugevused, kulustruktuur ja kuhu need sobivad kõige paremini.",
       lead:
-        "Maaparkide, katuseparkide ja tracker-parkide vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
+        "Maaparkide, katuseparkide ja Solar Solar Tracker Park vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
       sections: [
         {
           heading: "Maapark — suurim mastaabivõime",
@@ -238,33 +238,33 @@ const parkTypes: BlogPost = {
           ],
         },
         {
-          heading: "Tracker-park — maksimaalne tootlikkus pinnaühiku kohta",
+          heading: "Solar Tracker Park — maksimaalne tootlikkus pinnaühiku kohta",
           paragraphs: [
-            "Tracker-park kasutab ühe-teljelisi (single-axis) jälgijaid, mis pööravad paneele ida-läänesuunaliselt päeva jooksul. Tootlikkus on 15–25% suurem kui sama suure fikseeritud maapargi puhul, mis kompenseerib kõrgemat CAPEX-i ja hoolduskulusid.",
-            "Tracker-park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. Heilares on paigaldanud Lätis 72,5 MW Stelpe tracker-pargi.",
+            "Solar Tracker Park kasutab ühe-teljelisi (single-axis) jälgijaid, mis pööravad paneele ida-läänesuunaliselt päeva jooksul. Tootlikkus on 15–25% suurem kui sama suure fikseeritud maapargi puhul, mis kompenseerib kõrgemat CAPEX-i ja hoolduskulusid.",
+            "Solar Tracker Park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. HeilAres on paigaldanud Lätis 72,5 MW Stelpe Solar Solar Tracker Park.",
           ],
         },
         {
           heading: "Kuidas valida õige tüüp?",
           paragraphs: [
-            "Esimene küsimus: kas on saadaval suur avatud maa-ala? Kui jah ja võrguühendus võimaldab, on tracker-park kõige produktiivsem. Kui maa on piiratud või kalli, on katusepark loogiline. Maapark sobib siis, kui CAPEX on prioriteet ja maa-ala on saadaval mõõdukate kuludega.",
+            "Esimene küsimus: kas on saadaval suur avatud maa-ala? Kui jah ja võrguühendus võimaldab, on Solar Tracker Park kõige produktiivsem. Kui maa on piiratud või kalli, on katusepark loogiline. Maapark sobib siis, kui CAPEX on prioriteet ja maa-ala on saadaval mõõdukate kuludega.",
           ],
         },
       ],
       faqs: [
         {
-          question: "Kas tracker-park on alati parem kui fikseeritud maapark?",
+          question: "Kas Solar Tracker Park on alati parem kui fikseeritud maapark?",
           lead:
-            "Tracker-park annab keskmiselt 15–25% rohkem energiat, kuid CAPEX ja OPEX on kõrgemad, seega tasuvus sõltub asukohast ja elektrihinnast.",
+            "Solar Tracker Park annab keskmiselt 15–25% rohkem energiat, kuid CAPEX ja OPEX on kõrgemad, seega tasuvus sõltub asukohast ja elektrihinnast.",
           answer:
-            "Põhja-Euroopa tingimustes on tracker-park sageli mõistlik valik suurte maa-alade jaoks, kus võrguühendus võimaldab täisvõimsust kasutada.",
+            "Põhja-Euroopa tingimustes on Solar Tracker Park sageli mõistlik valik suurte maa-alade jaoks, kus võrguühendus võimaldab täisvõimsust kasutada.",
         },
         {
           question: "Millise tüübi tasuvusaeg on lühim?",
           lead:
             "Katuseparkidel on tüüpiliselt lühim tasuvusaeg, kuna omatarbeline energia asendab võrgust ostmist täishinnaga.",
           answer:
-            "Maa- ja tracker-parkide tasuvus sõltub müügihinnast (PPA või spot), mis on tavaliselt madalam kui jaehind.",
+            "Maa- ja Solar Solar Tracker Park tasuvus sõltub müügihinnast (PPA või spot), mis on tavaliselt madalam kui jaehind.",
         },
       ],
     },
@@ -273,7 +273,7 @@ const parkTypes: BlogPost = {
       summary:
         "The three main solar park types in a B2B context — strengths, cost structure and best use cases for each.",
       lead:
-        "Choosing between ground-mount, rooftop and tracker parks depends primarily on land availability, grid connection capacity and expected yield, not just investment size.",
+        "Choosing between ground-mount, rooftop and Solar Tracker Parks depends primarily on land availability, grid connection capacity and expected yield, not just investment size.",
       sections: [
         {
           heading: "Ground-mount — maximum scalability",
@@ -290,9 +290,9 @@ const parkTypes: BlogPost = {
           ],
         },
         {
-          heading: "Tracker park — maximum yield per area",
+          heading: "Solar Tracker Park — maximum yield per area",
           paragraphs: [
-            "Tracker parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. Heilares has installed the 72.5 MW Stelpe tracker park in Latvia.",
+            "Solar Tracker Parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. HeilAres has installed the 72.5 MW Stelpe Solar Tracker Park in Latvia.",
             "Trackers suit large, flat sites where grid capacity does not limit output.",
           ],
         },
@@ -305,7 +305,7 @@ const parkTypes: BlogPost = {
       ],
       faqs: [
         {
-          question: "Is a tracker park always better than fixed-tilt ground-mount?",
+          question: "Is a Solar Tracker Park always better than fixed-tilt ground-mount?",
           lead:
             "Trackers produce 15–25% more energy on average, but CAPEX and OPEX are higher, so payback depends on location and electricity price.",
           answer:
@@ -344,7 +344,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Seurantapuisto — maksimituotto pinta-alaa kohti",
           paragraphs: [
-            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. Heilares on asentanut 72,5 MW Stelpe-seurantapuiston Latviassa.",
+            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. HeilAres on asentanut 72,5 MW Stelpe-seurantapuiston Latviassa.",
             "Sopii erityisesti suurille, tasaisille alueille.",
           ],
         },
@@ -423,11 +423,11 @@ const turnkey: BlogPost = {
             "Tootlikkuse garantii (performance guarantee) saab kokku leppida eraldi, eriti suuremate projektide puhul.",
         },
         {
-          question: "Kas Heilares pakub võtmed-kätte teenust väljaspool Eestit?",
+          question: "Kas HeilAres pakub võtmed-kätte teenust väljaspool Eestit?",
           lead:
-            "Jah, Heilares pakub võtmed-kätte EPC teenust kogu Euroopas.",
+            "Jah, HeilAres pakub võtmed-kätte EPC teenust kogu Euroopas.",
           answer:
-            "Brigaadid on kiirelt mobiliseeritavad Lätti, Soome ja teistesse Euroopa riikidesse.",
+            "Meeskonnad on kiirelt mobiliseeritavad Lätti, Soome ja teistesse Euroopa riikidesse.",
         },
       ],
     },
@@ -470,9 +470,9 @@ const turnkey: BlogPost = {
             "A performance guarantee can be negotiated separately, especially for larger projects.",
         },
         {
-          question: "Does Heilares offer turnkey outside Estonia?",
+          question: "Does HeilAres offer turnkey outside Estonia?",
           lead:
-            "Yes, Heilares delivers turnkey EPC services across Europe.",
+            "Yes, HeilAres delivers turnkey EPC services across Europe.",
           answer:
             "Crews can be rapidly mobilised to Latvia, Finland and other European countries.",
         },
@@ -517,9 +517,9 @@ const turnkey: BlogPost = {
             "Tuottotakuu voidaan neuvotella erikseen.",
         },
         {
-          question: "Tarjoaako Heilares avaimet käteen -palvelua Viron ulkopuolella?",
+          question: "Tarjoaako HeilAres avaimet käteen -palvelua Viron ulkopuolella?",
           lead:
-            "Kyllä, Heilares toimittaa EPC-palveluita koko Euroopassa.",
+            "Kyllä, HeilAres toimittaa EPC-palveluita koko Euroopassa.",
           answer:
             "Ryhmät voidaan mobilisoida nopeasti Latviaan, Suomeen ja muihin maihin.",
         },
@@ -567,12 +567,12 @@ const timeline: BlogPost = {
           lead:
             "100 MW päikesepargi ehitus võtab tavaliselt 9–14 kuud alates lepingust kuni võrku ühendamiseni.",
           answer:
-            "Heilarese suurim paigaldatud objekt on 244 MW Risti päikesepark Eestis, kus mitmed brigaadid töötasid paralleelselt.",
+            "HeilArese suurim paigaldatud objekt on 244 MW Risti päikesepark Eestis, kus mitmed meeskonnad töötasid paralleelselt.",
         },
         {
           question: "Kas talvel saab päikesepargi ehitusega jätkata?",
           lead:
-            "Jah, Heilares jätkab paigaldustöödega ka talvel, eriti vundamentide ja kandekonstruktsioonide osas.",
+            "Jah, HeilAres jätkab paigaldustöödega ka talvel, eriti vundamentide ja kandekonstruktsioonide osas.",
           answer:
             "Paneelide ja DC-tööde puhul on temperatuuri- ja niiskusepiirangud, mida arvestatakse graafikus.",
         },
@@ -608,12 +608,12 @@ const timeline: BlogPost = {
           lead:
             "A 100 MW solar park typically takes 9–14 months from contract to grid connection.",
           answer:
-            "Heilares' largest installed site is the 244 MW Risti park in Estonia, where multiple crews worked in parallel.",
+            "HeilAres' largest installed site is the 244 MW Risti park in Estonia, where multiple crews worked in parallel.",
         },
         {
           question: "Can construction continue through winter?",
           lead:
-            "Yes, Heilares continues installation work through winter, especially foundations and mounting structures.",
+            "Yes, HeilAres continues installation work through winter, especially foundations and mounting structures.",
           answer:
             "Panels and DC work have temperature and humidity limits factored into the schedule.",
         },
@@ -654,7 +654,7 @@ const timeline: BlogPost = {
         {
           question: "Voiko rakentaminen jatkua talvella?",
           lead:
-            "Kyllä, Heilares jatkaa asennustöitä talvella, erityisesti perustusten ja rakenteiden osalta.",
+            "Kyllä, HeilAres jatkaa asennustöitä talvella, erityisesti perustusten ja rakenteiden osalta.",
           answer:
             "Paneeli- ja DC-töille on lämpötila- ja kosteusrajoja, jotka huomioidaan aikataulussa.",
         },
@@ -690,7 +690,7 @@ const tier1: BlogPost = {
           heading: "Miks arendaja peaks Tier-1 nõudma?",
           paragraphs: [
             "Pangad ja investorid nõuavad sageli Tier-1 paneele projekti rahastamise eeltingimusena, kuna nad ei taha rahastada projekti, kus paneelide tootja võib enne garantii lõppu turult lahkuda. See on otseselt seotud projekti võimega saada pikaajalist võlafinantseeringut.",
-            "Tehniliselt on Tier-1 tootjate paneelidel tüüpiliselt madalam degradatsioon (kuni 0,4% aastas), parem temperatuuri-koefitsient ja tugevam mehaaniline raamistik. Heilares töötab ainult kontrollitud Tier-1 tarnijatega, et tagada arendaja vara väärtus 25+ aasta jooksul.",
+            "Tehniliselt on Tier-1 tootjate paneelidel tüüpiliselt madalam degradatsioon (kuni 0,4% aastas), parem temperatuuri-koefitsient ja tugevam mehaaniline raamistik. HeilAres töötab ainult kontrollitud Tier-1 tarnijatega, et tagada arendaja vara väärtus 25+ aasta jooksul.",
           ],
         },
         {
@@ -704,9 +704,9 @@ const tier1: BlogPost = {
         {
           question: "Kuidas kontrollida, kas tootja on Tier-1?",
           lead:
-            "BloombergNEF avaldab kvartaalse Tier-1 list'i, mida saab kontrollida tootja Bloomberg'i raportist või Heilares tellitud pakkumistest.",
+            "BloombergNEF avaldab kvartaalse Tier-1 list'i, mida saab kontrollida tootja Bloomberg'i raportist või HeilAres tellitud pakkumistest.",
           answer:
-            "Heilares lisab igale pakkumisele konkreetsete tootjate Tier-1 staatuse pakkumise hetkel.",
+            "HeilAres lisab igale pakkumisele konkreetsete tootjate Tier-1 staatuse pakkumise hetkel.",
         },
         {
           question: "Kas Tier-1 paneelid on alati kallimad?",
@@ -735,7 +735,7 @@ const tier1: BlogPost = {
           heading: "Why should a developer require Tier-1?",
           paragraphs: [
             "Banks and investors frequently require Tier-1 panels as a prerequisite for project financing, because they do not want to fund a project where the panel manufacturer may exit the market before warranty expires.",
-            "Technically, Tier-1 manufacturer panels typically have lower degradation (down to 0.4% per year), better temperature coefficients and stronger mechanical frames. Heilares only works with verified Tier-1 suppliers to protect long-term asset value.",
+            "Technically, Tier-1 manufacturer panels typically have lower degradation (down to 0.4% per year), better temperature coefficients and stronger mechanical frames. HeilAres only works with verified Tier-1 suppliers to protect long-term asset value.",
           ],
         },
         {
@@ -749,9 +749,9 @@ const tier1: BlogPost = {
         {
           question: "How can I verify a manufacturer is Tier-1?",
           lead:
-            "BloombergNEF publishes a quarterly Tier-1 list that can be cross-checked with the manufacturer's Bloomberg report or with bids issued by Heilares.",
+            "BloombergNEF publishes a quarterly Tier-1 list that can be cross-checked with the manufacturer's Bloomberg report or with bids issued by HeilAres.",
           answer:
-            "Heilares includes manufacturer Tier-1 status at bid time on every offer.",
+            "HeilAres includes manufacturer Tier-1 status at bid time on every offer.",
         },
         {
           question: "Are Tier-1 panels always more expensive?",
@@ -780,7 +780,7 @@ const tier1: BlogPost = {
           heading: "Miksi kehittäjän pitäisi vaatia Tier-1?",
           paragraphs: [
             "Pankit ja sijoittajat vaativat usein Tier-1-paneeleita rahoituksen ehtona.",
-            "Teknisesti Tier-1-paneeleilla on tyypillisesti pienempi degradaatio (jopa 0,4% vuodessa). Heilares käyttää vain varmennettuja Tier-1-toimittajia.",
+            "Teknisesti Tier-1-paneeleilla on tyypillisesti pienempi degradaatio (jopa 0,4% vuodessa). HeilAres käyttää vain varmennettuja Tier-1-toimittajia.",
           ],
         },
         {
@@ -796,7 +796,7 @@ const tier1: BlogPost = {
           lead:
             "BloombergNEF julkaisee neljännesvuosittain Tier-1-listan.",
           answer:
-            "Heilares ilmoittaa valmistajan Tier-1-statuksen jokaisessa tarjouksessa.",
+            "HeilAres ilmoittaa valmistajan Tier-1-statuksen jokaisessa tarjouksessa.",
         },
         {
           question: "Ovatko Tier-1-paneelit aina kalliimpia?",
@@ -838,7 +838,7 @@ const maintenance: BlogPost = {
           heading: "Mis mõjutab hoolduskulu?",
           paragraphs: [
             "O&M aastane kulu on tüüpiliselt 8–15 €/kW paigaldatud võimsuse kohta, sõltudes pargi suurusest, asukohast ja teenuse tasemest. Suuremad pargid saavad mastaabiefekti — 100 MW pargi €/kW kulu on madalam kui 1 MW pargi puhul.",
-            "Asukoht mõjutab puhastamise sagedust (tolm, lumi, linnusõnnik), kandekonstruktsioonide korrosiooniriski (rannikualad) ja brigaadi reageerimisaega. Tracker-pargid vajavad mehaaniliste osade hooldust, mida fikseeritud pargid ei vaja.",
+            "Asukoht mõjutab puhastamise sagedust (tolm, lumi, linnusõnnik), kandekonstruktsioonide korrosiooniriski (rannikualad) ja meeskonna reageerimisaega. Solar Solar Tracker Park vajavad mehaaniliste osade hooldust, mida fikseeritud pargid ei vaja.",
           ],
         },
         {
@@ -861,7 +861,7 @@ const maintenance: BlogPost = {
           lead:
             "Sama EPC-partneri valimine O&M-iks lihtsustab garantiivastutust ja annab kiirema reageerimise kogu projekti elutsükli jooksul.",
           answer:
-            "Heilares pakub jätkuvat O&M-teenust kõikidele oma ehitatud projektidele Eestis, Lätis ja teistes Euroopa riikides.",
+            "HeilAres pakub jätkuvat O&M-teenust kõikidele oma ehitatud projektidele Eestis, Lätis ja teistes Euroopa riikides.",
         },
       ],
     },
@@ -884,7 +884,7 @@ const maintenance: BlogPost = {
           heading: "What drives maintenance cost?",
           paragraphs: [
             "Annual O&M cost is typically €8–15 per kW of installed capacity, depending on size, location and service level. Larger parks benefit from scale — €/kW cost for 100 MW is lower than for 1 MW.",
-            "Location affects cleaning frequency (dust, snow, bird droppings), corrosion risk (coastal areas) and crew response time. Tracker parks need mechanical maintenance that fixed parks do not.",
+            "Location affects cleaning frequency (dust, snow, bird droppings), corrosion risk (coastal areas) and crew response time. Solar Tracker Parks need mechanical maintenance that fixed parks do not.",
           ],
         },
         {
@@ -907,7 +907,7 @@ const maintenance: BlogPost = {
           lead:
             "Choosing the same partner for EPC and O&M simplifies warranty accountability and gives faster response throughout the project lifecycle.",
           answer:
-            "Heilares offers ongoing O&M for all projects it has built in Estonia, Latvia and Europe.",
+            "HeilAres offers ongoing O&M for all projects it has built in Estonia, Latvia and Europe.",
         },
       ],
     },
@@ -953,7 +953,7 @@ const maintenance: BlogPost = {
           lead:
             "Saman kumppanin valinta EPC:hen ja O&M:ään yksinkertaistaa takuuvastuuta.",
           answer:
-            "Heilares tarjoaa jatkuvaa O&M-palvelua kaikille rakentamilleen kohteille.",
+            "HeilAres tarjoaa jatkuvaa O&M-palvelua kaikille rakentamilleen kohteille.",
         },
       ],
     },

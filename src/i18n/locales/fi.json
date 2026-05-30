@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Etusivu",
-    "panels": "Aurinkopaneelit",
+    "panels": "Aurinkopuistot",
     "workforce": "Työvoiman vuokraus",
     "projects": "Toteutetut projektit",
     "blog": "Blogi",
@@ -161,11 +161,10 @@
   },
   "process": {
     "title": "Näin työskentelemme",
-    "subtitle": "Yksinkertaista ja läpinäkyvää — ensitapaamisesta verkkoonkytkentään.",
+    "subtitle": "Yksinkertaista ja läpinäkyvää — ensitapaamisesta asennuksen valmistumiseen.",
     "step1": { "title": "Konsultointi", "desc": "Kartoitamme tarpeenne, sijainnin ja energiapotentiaalin." },
     "step2": { "title": "Suunnittelu", "desc": "Laadimme teknisen ratkaisun ja tarkan tarjouksen." },
-    "step3": { "title": "Asennus", "desc": "Toteutamme rakenteen, paneelien ja DC-työt invertterin kanssa." },
-    "step4": { "title": "Luovutus", "desc": "Testaamme, kytkemme verkkoon ja luovutamme kohteen käyttövalmiina." }
+    "step3": { "title": "Asennus", "desc": "Toteutamme rakenteen, paneelien ja DC-työt invertterin kanssa." }
   },
   "why": {
     "title": "Miksi HeilAres",
@@ -207,14 +206,14 @@
       "title": "Maapuisto",
       "lead": "Maapuisto on maahan asennettava aurinkopuisto, jonka HeilAres suunnittelee ja asentaa avaimet käteen -periaatteella kaupallisessa ja teollisessa mittakaavassa.",
       "paragraphs": [
-        "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. HeilAres hoitaa koko prosessin — geologiset tutkimukset, suunnittelun, perustukset, kiinnitysrakenteet, paneelien ja invertterien asennuksen sekä verkkoonkytkennän.",
-        "Rakennamme maapuistoja muutamasta megawatista satoihin megawatteihin. HeilAres-tiimin asentama suurin maapuisto on 244 MW Ristin aurinkopuisto Virossa. Käytämme vain Tier-1-tason paneeleita ja invertterivalmistajia varmistaaksemme pitkäaikaisen tuoton ja luotettavuuden.",
-        "Maapuiston vahvuudet ovat helppo huolto, korkea tuotto ja joustava skaalautuvuus. Jokainen projekti suunnitellaan kohteen säteilyn, maaston ja verkkoliitynnän mukaan."
+        "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. HeilAres hoitaa asennustyöt — perustukset, kiinnitysrakenteet sekä paneelien ja invertterien asennuksen.",
+        "Toteutamme asennuksia muutamasta megawatista satoihin megawatteihin. HeilAres-tiimin asentama suurin maapuisto on 244 MW Ristin aurinkopuisto Virossa. Työskentelemme vain Tier-1-tason paneeli- ja invertterivalmistajien kanssa varmistaaksemme pitkäaikaisen tuoton ja luotettavuuden.",
+        "Maapuiston vahvuudet ovat helppo huolto, korkea tuotto ja joustava skaalautuvuus."
       ],
       "faq": {
         "question": "Kuinka paljon maata maapuisto tarvitsee?",
         "lead": "1 MW maapuisto vaatii keskimäärin 1–1,5 hehtaaria maata.",
-        "answer": "Tarkka maantarve riippuu paneelityypistä, kallistuskulmasta ja rivivälistä. HeilAres arvioi maan soveltuvuuden ilmaisen alkukonsultaation aikana."
+        "answer": "Tarkka maantarve riippuu paneelityypistä, kallistuskulmasta ja rivivälistä."
       }
     },
     "roof": {
@@ -254,9 +253,9 @@
     "subtitle": "Kaikki, mitä sinun tarvitsee tietää HeilAresin aurinkoenergiaprojekteista.",
     "items": {
       "turnkey": {
-        "question": "Mitä tarkoittaa avaimet käteen -aurinkopuiston rakentaminen?",
-        "lead": "HeilAres ottaa vastuun koko aurinkopuiston rakentamisesta suunnittelusta verkkoonkytkentään asti.",
-        "answer": "HeilAres ottaa vastuun koko prosessista — suunnittelu, materiaalien hankinta, rakenteen ja paneelien asennus, DC-työt, invertterin kytkentä sekä kohteen luovutus ja verkkoonkytkentä. Asiakas saa yhden kumppanin koko projektille."
+        "question": "Mitä tarkoittaa avaimet käteen -aurinkopuiston asennus?",
+        "lead": "HeilAres ottaa vastuun koko asennuksesta — kiinnitysrakenteista invertterin kytkentään.",
+        "answer": "HeilAres ottaa vastuun asennustyöstä — kiinnitysrakenteiden ja paneelien asennus, DC-työt ja invertterin kytkentä. Asiakas saa yhden kumppanin koko asennukselle."
       },
       "size": {
         "question": "Kuinka suuria aurinkopuistoja HeilAres rakentaa?",
@@ -366,7 +365,7 @@
     },
     "contact": {
       "title": "Yhteystiedot — HeilAres OÜ",
-      "description": "Ota yhteyttä HeilAres-tiimiin. info@heilares.ee · +372 5693 0296."
+      "description": "Ota yhteyttä HeilAres-tiimiin. info@heilares.ee."
     },
     "blog": {
       "title": "Blogi — Aurinkoenergian tietopankki | HeilAres",

@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Avaleht",
-    "panels": "Päikesepaneelid",
+    "panels": "Päikesepargid",
     "workforce": "Tööjõu rent",
     "projects": "Tehtud tööd",
     "blog": "Blogi",
@@ -161,18 +161,17 @@
   },
   "process": {
     "title": "Kuidas me töötame",
-    "subtitle": "Lihtne ja läbipaistev — alates esimesest kohtumisest kuni võrku ühendamiseni.",
+    "subtitle": "Lihtne ja läbipaistev — alates esimesest kohtumisest kuni paigalduse lõpuni.",
     "step1": { "title": "Konsultatsioon", "desc": "Kaardistame teie vajadused, asukoha ja energiapotentsiaali." },
     "step2": { "title": "Projekteerimine", "desc": "Koostame tehnilise lahenduse ja täpse pakkumise." },
-    "step3": { "title": "Paigaldus", "desc": "Teostame raami, paneelide ja DC-tööd koos inverteriga." },
-    "step4": { "title": "Üleandmine", "desc": "Testime, ühendame võrku ja anname objekti kasutusvalmis üle." }
+    "step3": { "title": "Paigaldus", "desc": "Teostame raami, paneelide ja DC-tööd koos inverteriga." }
   },
   "why": {
     "title": "Miks HeilAres",
     "subtitle": "Tunnustatud partner Baltikumis ja Põhjamaades suuremahuliste päikeseprojektide elluviimisel.",
     "items": {
       "scale": { "title": "Megavatt-skaala kogemus", "desc": "Sadu MW päikeseparkide paigaldustel osaletud Eestis ja Lätis." },
-      "turnkey": { "title": "Võtmed kätte teenus", "desc": "Üks partner kogu protsessile — raam, paneelid, DC, üleandmine." },
+      "turnkey": { "title": "Võtmed kätte teenus", "desc": "Üks partner kogu protsessile — raam, paneelid, DC ja inverterid." },
       "speed": { "title": "Kiire mobiliseerimine", "desc": "Omad meeskonnad ja kogenud projektijuhid valmis startima." },
       "quality": { "title": "Tier-1 komponendid", "desc": "Töötame ainult tipptasemel paneelide ja inverteritega." }
     }
@@ -207,14 +206,14 @@
       "title": "Maapark",
       "lead": "Maapark on maapealne päikesepark, mille HeilAres projekteerib ja paigaldab võtmed kätte põhimõttel kommerts- ja tööstusmastaabis.",
       "paragraphs": [
-        "Maapargid sobivad ideaalselt põllumaale, kasutusest väljas olevatele aladele ja tööstusmaale, kus on piisavalt avatud pinda paneelide paigaldamiseks optimaalse nurga all. HeilAres teostab kogu protsessi — geoloogilised uuringud, projekteerimine, vundamentide rajamine, kandekonstruktsioonide paigaldus, paneelide ja inverterite paigaldus ning võrku ühendamine.",
-        "Ehitame nii mõne MW suuruseid maaparke kui ka sadade megavattide suuruseid suurprojekte. Suurim HeilAres meeskonna paigaldatud maapark on 244 MW Risti päikesepark Eestis. Kasutame ainult Tier-1 päikesepaneele ja inverterite tootjaid, et tagada pikaajaline tootlikkus ja töökindlus.",
-        "Maapargi eelis on lihtne hooldus, suur tootlikkus ja paindlik mastaapsus. Iga maapark projekteeritakse vastavalt asukoha päikesekiirgusele, maastikule ja võrguühenduse võimalustele."
+        "Maapargid sobivad ideaalselt põllumaale, kasutusest väljas olevatele aladele ja tööstusmaale, kus on piisavalt avatud pinda paneelide paigaldamiseks optimaalse nurga all. HeilAres teostab paigaldustööd — vundamentide rajamine, kandekonstruktsioonide paigaldus ning paneelide ja inverterite paigaldus.",
+        "Osaleme nii mõne MW suuruste maaparkide kui ka sadade megavattide suuruste suurprojektide paigaldustel. Suurim HeilAres meeskonna osalusel paigaldatud maapark on 244 MW Risti päikesepark Eestis. Töötame ainult Tier-1 päikesepaneelide ja inverterite tootjatega, et tagada pikaajaline tootlikkus ja töökindlus.",
+        "Maapargi eelis on lihtne hooldus, suur tootlikkus ja paindlik mastaapsus."
       ],
       "faq": {
         "question": "Kui suurt maad on vaja maapargi rajamiseks?",
         "lead": "1 MW maapark vajab keskmiselt 1–1,5 hektarit maad.",
-        "answer": "Täpne maavajadus sõltub paneelide tüübist, paigaldusnurgast ja ridade vahekaugusest. HeilAres hindab maa sobivust tasuta esmase konsultatsiooni käigus."
+        "answer": "Täpne maavajadus sõltub paneelide tüübist, paigaldusnurgast ja ridade vahekaugusest."
       }
     },
     "roof": {
@@ -254,9 +253,9 @@
     "subtitle": "Kõik, mida peaksid teadma HeilAresi päikeseprojektide kohta.",
     "items": {
       "turnkey": {
-        "question": "Mida tähendab võtmed-kätte päikesepargi ehitus?",
-        "lead": "HeilAres võtab vastutuse kogu päikesepargi ehituse eest alates projekteerimisest kuni võrku ühendamiseni.",
-        "answer": "HeilAres võtab vastutuse kogu protsessi eest — projekteerimine, materjalide hankimine, raami ja paneelide paigaldus, DC-tööd, inverterite ühendus ning objekti üleandmine ja võrku ühendamine. Klient saab ühe partneri kogu projektile."
+        "question": "Mida tähendab võtmed-kätte päikesepargi paigaldus?",
+        "lead": "HeilAres võtab vastutuse kogu paigalduse eest — raami montaažist kuni inverterite ühenduseni.",
+        "answer": "HeilAres osaleb suuremahuliste päikeseparkide paigaldustel EPC-partnerite ja arendajate alltöövõtjana — raami ja paneelide paigaldus, DC-tööd ning inverterite ühendus. Klient saab ühe partneri kogu paigaldusele."
       },
       "size": {
         "question": "Kui suuri päikeseparke HeilAres ehitab?",
@@ -366,7 +365,7 @@
     },
     "contact": {
       "title": "Kontakt | HeilAres OÜ",
-      "description": "Võta ühendust HeilAresega — päikesepargi ehitus ja tööjõu rent Eestis ja Euroopas. info@heilares.ee, +372 5693 0296."
+      "description": "Võta ühendust HeilAresega — päikeseparkide paigaldus ja tööjõu rent Baltikumis ja Põhjamaades. info@heilares.ee."
     },
     "blog": {
       "title": "Päikeseenergia blogi arendajatele | HeilAres",

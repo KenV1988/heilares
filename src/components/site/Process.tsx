@@ -3,11 +3,11 @@ import { SectionHeader } from "./Section";
 
 export function Process() {
   const { t } = useTranslation();
-  const steps = ["step1", "step2", "step3", "step4"] as const;
+  const steps = ["step1", "step2", "step3"] as const;
   return (
     <section className="container-x py-20 md:py-28">
       <SectionHeader title={t("process.title")} subtitle={t("process.subtitle")} />
-      <ol className="mt-12 grid gap-5 md:grid-cols-4 md:mt-16">
+      <ol className="mt-12 grid gap-5 md:grid-cols-3 md:mt-16">
         {steps.map((s, i) => (
           <li
             key={s}

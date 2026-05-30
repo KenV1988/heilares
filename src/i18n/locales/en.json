@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "panels": "Solar panels",
+    "panels": "Solar parks",
     "workforce": "Workforce rental",
     "projects": "Projects",
     "blog": "Blog",
@@ -161,18 +161,17 @@
   },
   "process": {
     "title": "How we work",
-    "subtitle": "Simple and transparent — from first meeting to grid connection.",
+    "subtitle": "Simple and transparent — from first meeting to completed installation.",
     "step1": { "title": "Consultation", "desc": "We map your needs, site and energy potential." },
     "step2": { "title": "Engineering", "desc": "We design the technical solution and a precise quote." },
-    "step3": { "title": "Installation", "desc": "We deliver the mounting, panels and DC works with the inverter." },
-    "step4": { "title": "Handover", "desc": "We test, connect to the grid and hand over the site ready to run." }
+    "step3": { "title": "Installation", "desc": "We deliver the mounting, panels and DC works with the inverter." }
   },
   "why": {
     "title": "Why HeilAres",
     "subtitle": "A recognized partner for large-scale solar projects across Europe.",
     "items": {
       "scale": { "title": "Megawatt-scale experience", "desc": "Hundreds of MW of solar park installations participated in across Estonia and Latvia." },
-      "turnkey": { "title": "Turnkey delivery", "desc": "One partner for the whole process — mounting, panels, DC, handover." },
+      "turnkey": { "title": "Turnkey delivery", "desc": "One partner for the whole installation — mounting, panels, DC and inverters." },
       "speed": { "title": "Fast mobilization", "desc": "Own crews and seasoned project managers ready to start." },
       "quality": { "title": "Tier-1 components", "desc": "We work only with top-grade panels and inverters." }
     }
@@ -207,14 +206,14 @@
       "title": "Ground-mount park",
       "lead": "A ground-mount park is a land-based solar park that HeilAres designs and installs on a turnkey basis at commercial and industrial scale.",
       "paragraphs": [
-        "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. HeilAres handles the entire process — geological surveys, design, foundations, mounting structures, panel and inverter installation, and grid connection.",
-        "We build ground-mount parks ranging from a few MW to hundreds of MW. The largest ground-mount park installed by the HeilAres team is the 244 MW Risti solar park in Estonia. We only use Tier-1 panel and inverter manufacturers to guarantee long-term yield and reliability.",
-        "The strengths of a ground-mount park are easy maintenance, high yield and flexible scalability. Every project is engineered for the specific site irradiation, terrain and grid connection options."
+        "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. HeilAres handles the installation — foundations, mounting structures, and panel and inverter installation.",
+        "We deliver installations from a few MW up to hundreds of MW. The largest ground-mount park installed by the HeilAres team is the 244 MW Risti solar park in Estonia. We only work with Tier-1 panel and inverter manufacturers to guarantee long-term yield and reliability.",
+        "The strengths of a ground-mount park are easy maintenance, high yield and flexible scalability."
       ],
       "faq": {
         "question": "How much land is required for a ground-mount park?",
         "lead": "1 MW of ground-mount capacity typically requires 1–1.5 hectares of land.",
-        "answer": "Exact land requirement depends on panel type, tilt angle and row spacing. HeilAres assesses land suitability during a free initial consultation."
+        "answer": "Exact land requirement depends on panel type, tilt angle and row spacing."
       }
     },
     "roof": {
@@ -254,9 +253,9 @@
     "subtitle": "Everything you need to know about HeilAres solar projects.",
     "items": {
       "turnkey": {
-        "question": "What does turnkey solar park construction mean?",
-        "lead": "HeilAres takes full responsibility for the entire solar park construction from design to grid connection.",
-        "answer": "HeilAres takes responsibility for the entire process — design, procurement of materials, mounting structure and panel installation, DC works, inverter connection, and site handover with grid connection. The client gets one partner for the entire project."
+        "question": "What does turnkey solar park installation mean?",
+        "lead": "HeilAres takes full responsibility for the installation — from mounting structures to inverter connection.",
+        "answer": "HeilAres takes responsibility for the installation work — mounting structure and panel installation, DC works and inverter connection. The client gets one partner for the whole installation."
       },
       "size": {
         "question": "How large are the solar parks HeilAres builds?",
@@ -366,7 +365,7 @@
     },
     "contact": {
       "title": "Contact — HeilAres OÜ",
-      "description": "Reach the HeilAres team. info@heilares.ee · +372 5693 0296."
+      "description": "Reach the HeilAres team. info@heilares.ee."
     },
     "blog": {
       "title": "Blog — Solar energy knowledge base | HeilAres",

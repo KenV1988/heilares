@@ -55,19 +55,25 @@ export function Footer() {
             <h4 className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
               {t("footer.contactCol")}
             </h4>
-            <ul className="mt-4 space-y-3 text-sm text-white/75">
+            <ul className="mt-4 space-y-4 text-sm text-white/75">
               <li className="flex items-start gap-2.5">
                 <Mail className="mt-0.5 h-4 w-4 text-[var(--brand)]" />
                 <a href={`mailto:${company.email}`} className="hover:text-[var(--brand)]">
                   {company.email}
                 </a>
               </li>
-              <li className="flex items-start gap-2.5">
-                <Phone className="mt-0.5 h-4 w-4 text-[var(--brand)]" />
-                <a href={company.phoneHref} className="hover:text-[var(--brand)]">
-                  {company.phone}
-                </a>
-              </li>
+              {company.contacts.map((c) => (
+                <li key={c.phoneHref} className="flex items-start gap-2.5">
+                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
+                  <div>
+                    <div className="font-medium text-white">{c.name}</div>
+                    <div className="text-xs text-white/55">{c.area}</div>
+                    <a href={c.phoneHref} className="mt-0.5 inline-block hover:text-[var(--brand)]">
+                      {c.phone}
+                    </a>
+                  </div>
+                </li>
+              ))}
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 text-[var(--brand)]" />
                 <span>{t("contact.info.locationValue")}</span>
@@ -84,7 +90,7 @@ export function Footer() {
           <p>
             © {year} {company.name}. {t("footer.rights")}.
           </p>
-          <p className="font-mono tracking-wider">info@heilares.ee</p>
+          <p className="font-mono tracking-wider">{company.email}</p>
         </div>
       </div>
     </footer>

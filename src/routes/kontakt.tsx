@@ -26,9 +26,8 @@ export const Route = createFileRoute("/kontakt")({
 function ContactPage() {
   const { t } = useTranslation();
 
-  const info = [
+  const meta = [
     { Icon: Mail, label: t("contact.info.email"), value: company.email, href: `mailto:${company.email}` },
-    { Icon: Phone, label: t("contact.info.phone"), value: company.phone, href: company.phoneHref },
     { Icon: MapPin, label: t("contact.info.location"), value: t("contact.info.locationValue") },
     { Icon: Clock, label: t("contact.info.hours"), value: t("contact.info.hoursValue") },
   ];
@@ -50,10 +49,35 @@ function ContactPage() {
         </div>
       </section>
 
-      <section className="container-x py-16 md:py-24">
+      <section className="container-x pt-4 pb-2">
+        <div className="grid gap-5 md:grid-cols-2">
+          {company.contacts.map((c) => (
+            <a
+              key={c.phoneHref}
+              href={c.phoneHref}
+              className="group flex items-start gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 transition hover:border-[var(--ring)]"
+            >
+              <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
+                <Phone className="h-5 w-5" />
+              </div>
+              <div className="min-w-0">
+                <div className="text-lg font-semibold text-white">{c.name}</div>
+                <div className="mt-0.5 text-xs uppercase tracking-wider text-[var(--brand)]">
+                  {c.area}
+                </div>
+                <div className="mt-2 font-mono text-base text-white/85 group-hover:text-[var(--brand)]">
+                  {c.phone}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="container-x py-12 md:py-16">
         <div className="grid gap-10 md:grid-cols-[1fr_1.2fr] md:gap-14">
           <div className="space-y-3">
-            {info.map(({ Icon, label, value, href }) => {
+            {meta.map(({ Icon, label, value, href }) => {
               const inner = (
                 <div className="flex items-start gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-5 transition hover:border-[var(--ring)]">
                   <div className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">

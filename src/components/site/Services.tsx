@@ -18,7 +18,7 @@ export function Services() {
         {items.map(({ key, Icon }) => (
           <Link
             key={key}
-            to="/paikesepaneelid"
+            to="/paikesepargid"
             className="group relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-8 transition hover:border-[var(--ring)]"
           >
             <div className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">

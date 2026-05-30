@@ -151,10 +151,8 @@ function WorkforcePage() {
           {t("workforceProjects.specialties")}
         </p>
       </section>
-        <p className="mx-auto mt-12 max-w-3xl text-center text-base leading-relaxed text-white/70 md:text-lg">
-          {t("workforceProjects.specialties")}
-        </p>
-      </section>
+
+
 
 
       {/* CTA */}

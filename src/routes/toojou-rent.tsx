@@ -14,6 +14,14 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import i18n from "@/i18n";
+import shipyard4 from "@/assets/projects/shipyard-4.jpg";
+
+const SHIPYARD_IMAGES: Record<string, { src: string; alt: string }> = {
+  "Saint-Nazaire'i laevatehas": {
+    src: shipyard4,
+    alt: "Saint-Nazaire'i laevatehas Prantsusmaal — hiiglaslik punane kraan ja kruiisilaeva kere ehituses",
+  },
+};
 
 export const Route = createFileRoute("/toojou-rent")({
   component: WorkforcePage,
@@ -108,19 +116,41 @@ function WorkforcePage() {
           </p>
         </div>
         <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-2 lg:grid-cols-3">
-          {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item) => (
-            <div
-              key={item.name}
-              className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 transition hover:border-[var(--ring)] md:p-7"
-            >
-              <div className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
-                <Ship className="h-6 w-6" />
+          {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item) => {
+            const img = SHIPYARD_IMAGES[item.name];
+            return (
+              <div
+                key={item.name}
+                className="group overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] transition hover:border-[var(--ring)]"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">
+                  {img ? (
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      loading="lazy"
+                      width={1280}
+                      height={800}
+                      className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 grid place-items-center bg-gradient-to-br from-[#131C19] to-[#0A0F0D] text-[var(--brand-glow)]/70">
+                      <Ship className="h-16 w-16" strokeWidth={1.3} />
+                    </div>
+                  )}
+                </div>
+                <div className="p-6 md:p-7">
+                  <h3 className="text-lg font-bold text-white">{item.name}</h3>
+                  <div className="mt-1 text-sm text-white/55">{item.country}</div>
+                </div>
               </div>
-              <h3 className="mt-5 text-lg font-bold text-white">{item.name}</h3>
-              <div className="mt-1 text-sm text-white/55">{item.country}</div>
-            </div>
-          ))}
+            );
+          })}
         </div>
+        <p className="mx-auto mt-12 max-w-3xl text-center text-base leading-relaxed text-white/70 md:text-lg">
+          {t("workforceProjects.specialties")}
+        </p>
+      </section>
         <p className="mx-auto mt-12 max-w-3xl text-center text-base leading-relaxed text-white/70 md:text-lg">
           {t("workforceProjects.specialties")}
         </p>

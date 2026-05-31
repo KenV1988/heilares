@@ -5,16 +5,11 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
-import meeskondImg from "@/assets/services/service-meeskond.jpg";
 import laevaehitusImg from "@/assets/services/service-laevaehitus.jpg";
 
-const KEYS = ["solar", "shipbuilding", "factories"] as const;
+const KEYS = ["shipbuilding", "factories"] as const;
 
 const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string; alt: string }>> = {
-  solar: {
-    src: meeskondImg,
-    alt: "Päikeseenergia paigaldusmeeskonna kollane kiiver puidust kaubaaluste peal — pargi ehitusplats",
-  },
   shipbuilding: {
     src: laevaehitusImg,
     alt: "Laevaehituse sadam hämaras, suured laevad kuivdokis ja kraanad — laevaehituse keskkond",

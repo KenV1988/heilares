@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowUpRight, Zap, Ship, Factory } from "lucide-react";
+import { ArrowUpRight, Ship, Factory } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "./Section";
@@ -7,8 +7,7 @@ import { Reveal } from "./Reveal";
 
 export function WorkforceSection() {
   const { t } = useTranslation();
-  const items: { key: "solar" | "shipbuilding" | "factories"; Icon: LucideIcon }[] = [
-    { key: "solar", Icon: Zap },
+  const items: { key: "shipbuilding" | "factories"; Icon: LucideIcon }[] = [
     { key: "shipbuilding", Icon: Ship },
     { key: "factories", Icon: Factory },
   ];
@@ -24,7 +23,7 @@ export function WorkforceSection() {
           title={t("workforceSection.title")}
           subtitle={t("workforceSection.subtitle")}
         />
-        <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-3">
+        <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2">
           {items.map(({ key, Icon }, i) => (
             <Reveal key={key} delay={i * 90}>
               <Link

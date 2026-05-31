@@ -32,7 +32,7 @@
     "years": "Aastat valdkonnas"
   },
   "services": {
-    "title": "Päikesepaneelide lahendused",
+    "title": "Päikeseparkide lahendused",
     "subtitle": "Kolm peamist paigaldustüüpi — kõik võtmed kätte teenusena.",
     "tracker": {
       "title": "Solar Tracker Park",
@@ -50,7 +50,7 @@
   "workforceSection": {
     "eyebrow": "TÖÖJÕU RENT",
     "title": "Rendi kogenud paigaldusmeeskondi",
-    "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Euroopas.",
+    "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile laevaehitusele ja tehastele Euroopas ja Skandinaavias.",
     "solar": {
       "title": "Päikeseenergia paigaldusmeeskonnad",
       "desc": "Renditavad meeskonnad päikeseparkide ehituseks, sobivad alltöövõtuks teistele EPC-ettevõtetele."
@@ -68,7 +68,7 @@
   "workforcePage": {
     "hero": {
       "title": "Tööjõu rent",
-      "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile tööstustele, laevaehitusele ja päikeseenergia partneritele kogu Euroopas ja Skandinaavias."
+      "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile laevaehitusele ja tehastele Euroopas ja Skandinaavias."
     },
     "solar": {
       "eyebrow": "Päikeseenergia",
@@ -166,7 +166,7 @@
       },
       "scale": {
         "title": "Megavatt-skaala kogemus",
-        "desc": "Meeskonnad on osalenud sadade megavattide suuruste päikeseparkide ehituses."
+        "desc": "Mitmekülgne kogemus suuremahulistes laevaehituse ja tööstuse projektides."
       },
       "flexible": {
         "title": "Paindlik mahuga kohanemine",
@@ -402,7 +402,9 @@
   "seo": {
     "home": {
       "title": "Päikesepargi ehitus võtmed kätte | HeilAres OÜ",
-      "description": "HeilAres ehitab võtmed-kätte päikeseparke — maa-, katuse- ja tracker-jaamu Eestis ja Euroopas. 400+ MW kogemust. Pakume ka paigaldusmeeskonnade renti. Küsi pakkumist."
+      "description": "HeilAres ehitab võtmed-kätte päikeseparke — maa-, katuseparke ja Solar Tracker Park Eestis, Lätis ja üle Euroopa. 400+ MW kogemust. Pakume ka paigaldusmeeskondade renti. Küsi pakkumist.",
+      "twitterTitle": "HeilAres OÜ — Roheenergia spetsialistid",
+      "twitterDescription": "Võtmed kätte päikeseparkide paigaldus Eestis, Lätis ja üle Euroopa. Solar Tracker Park, maapark, katusepark."
     },
     "panels": {
       "title": "Maapark, katusepark ja Solar Tracker Park | HeilAres",
@@ -410,7 +412,7 @@
     },
     "workforce": {
       "title": "Paigaldusmeeskondi rent | HeilAres",
-      "description": "Rendi kogenud ja kvalifitseeritud paigaldusmeeskondi päikeseenergiale, laevaehitusele ja tööstusele kogu Euroopas. Kiire mobiliseerimine."
+      "description": "Rendi kogenud ja kvalifitseeritud paigaldusmeeskondi laevaehitusele ja tehastele Euroopas ja Skandinaavias. Kiire mobiliseerimine."
     },
     "projects": {
       "title": "Tehtud tööd — päikesepargid Eestis ja Euroopas | HeilAres",

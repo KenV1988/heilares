@@ -29,7 +29,7 @@ export function PageHero({
 }: Props) {
   return (
     <section
-      className={`relative overflow-hidden ${
+      className={`relative flex flex-col overflow-hidden ${
         compact ? "min-h-[280px] pt-36 pb-12" : "min-h-[420px] pt-36 pb-12 md:min-h-[520px] md:pt-44"
       }`}
     >
@@ -65,7 +65,7 @@ export function PageHero({
         </div>
       )}
 
-      <div className="container-x relative z-10 flex h-full flex-col">
+      <div className="container-x relative z-10 flex flex-1 flex-col">
         <div className="text-center">
           {badge && <SectionBadge>{badge}</SectionBadge>}
           <h1 className="mx-auto mt-5 max-w-3xl text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">

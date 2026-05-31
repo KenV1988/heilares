@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs><linearGradient id="gemf" gradientUnits="userSpaceOnUse" x1="300.0" y1="552.0" x2="300.0" y2="48.0"><stop offset="0%" stop-color="#EAD49A"/><stop offset="50%" stop-color="#D6B26A"/><stop offset="100%" stop-color="#9E7E3E"/></linearGradient></defs><path d="M300.0,48.0 L552.0,300.0 L300.0,552.0 L48.0,300.0 Z" fill="none" stroke="url(#gemf)" stroke-width="5.54" stroke-linejoin="miter"/>
-      <path d="M300.0,83.3 L516.7,300.0 L300.0,516.7 L83.3,300.0 Z" fill="none" stroke="url(#gemf)" stroke-width="2.52" stroke-linejoin="miter" opacity="0.55"/>
-      <rect x="229.44" y="201.72" width="21.42" height="196.56" fill="url(#gemf)"/>
-      <rect x="349.14" y="201.72" width="21.42" height="196.56" fill="url(#gemf)"/>
-      <rect x="229.44" y="289.29" width="141.12" height="21.42" fill="url(#gemf)"/>
-      <rect x="221.88" y="201.72" width="36.54" height="9.83" fill="url(#gemf)"/>
-      <rect x="221.88" y="388.45" width="36.54" height="9.83" fill="url(#gemf)"/>
-      <rect x="341.58" y="201.72" width="36.54" height="9.83" fill="url(#gemf)"/>
-      <rect x="341.58" y="388.45" width="36.54" height="9.83" fill="url(#gemf)"/>
-      <line x1="199.20" y1="298.93" x2="400.80" y2="298.93" stroke="url(#gemf)" stroke-width="1.51" opacity="0.85"/>
-      <line x1="300.00" y1="58.08" x2="300.00" y2="69.42" stroke="url(#gemf)" stroke-width="3.02" opacity="0.7"/>
-      <line x1="300.00" y1="530.58" x2="300.00" y2="541.92" stroke="url(#gemf)" stroke-width="3.02" opacity="0.7"/>
-      <line x1="58.08" y1="300.00" x2="69.42" y2="300.00" stroke="url(#gemf)" stroke-width="3.02" opacity="0.7"/>
-      <line x1="530.58" y1="300.00" x2="541.92" y2="300.00" stroke="url(#gemf)" stroke-width="3.02" opacity="0.7"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs><linearGradient id="gem" gradientUnits="userSpaceOnUse" x1="300.0" y1="534.0" x2="300.0" y2="66.0"><stop offset="0%" stop-color="#EAD49A"/><stop offset="50%" stop-color="#D6B26A"/><stop offset="100%" stop-color="#9E7E3E"/></linearGradient></defs><path d="M300.0,66.0 L534.0,300.0 L300.0,534.0 L66.0,300.0 Z" fill="none" stroke="url(#gem)" stroke-width="5.15" stroke-linejoin="miter"/>
+      <path d="M300.0,98.8 L501.2,300.0 L300.0,501.2 L98.8,300.0 Z" fill="none" stroke="url(#gem)" stroke-width="2.34" stroke-linejoin="miter" opacity="0.55"/>
+      <rect x="234.48" y="208.74" width="19.89" height="182.52" fill="url(#gem)"/>
+      <rect x="345.63" y="208.74" width="19.89" height="182.52" fill="url(#gem)"/>
+      <rect x="234.48" y="290.06" width="131.04" height="19.89" fill="url(#gem)"/>
+      <rect x="227.46" y="208.74" width="33.93" height="9.13" fill="url(#gem)"/>
+      <rect x="227.46" y="382.13" width="33.93" height="9.13" fill="url(#gem)"/>
+      <rect x="338.61" y="208.74" width="33.93" height="9.13" fill="url(#gem)"/>
+      <rect x="338.61" y="382.13" width="33.93" height="9.13" fill="url(#gem)"/>
+      <line x1="206.40" y1="299.01" x2="393.60" y2="299.01" stroke="url(#gem)" stroke-width="1.40" opacity="0.85"/>
+      <line x1="300.00" y1="75.36" x2="300.00" y2="85.89" stroke="url(#gem)" stroke-width="2.81" opacity="0.7"/>
+      <line x1="300.00" y1="514.11" x2="300.00" y2="524.64" stroke="url(#gem)" stroke-width="2.81" opacity="0.7"/>
+      <line x1="75.36" y1="300.00" x2="85.89" y2="300.00" stroke="url(#gem)" stroke-width="2.81" opacity="0.7"/>
+      <line x1="514.11" y1="300.00" x2="524.64" y2="300.00" stroke="url(#gem)" stroke-width="2.81" opacity="0.7"/></svg>

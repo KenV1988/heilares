@@ -392,12 +392,19 @@
   },
   "blog": {
     "eyebrow": "BLOGI",
-    "title": "Päikeseenergia teadmusbaas",
-    "subtitle": "Faktipõhised artiklid arendajatele ja tööstustele päikeseparkide planeerimise, ehituse ja hoolduse kohta.",
+    "title": "Päikeseenergia artiklid",
+    "subtitle": "Faktipõhised artiklid päikeseparkide arendajatele, tööstustele ja roheenergia partneritele.",
     "readMore": "Loe edasi",
     "back": "Tagasi blogisse",
     "minutes": "min lugemist",
-    "faqHeading": "Korduma kippuvad küsimused"
+    "faqHeading": "Korduma kippuvad küsimused",
+    "filters": {
+      "all": "Kõik",
+      "epc": "EPC ja partnerid",
+      "park_types": "Pargitüübid",
+      "components": "Komponendid",
+      "maintenance": "Hooldus"
+    }
   },
   "seo": {
     "home": {

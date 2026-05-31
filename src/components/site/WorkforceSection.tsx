@@ -23,7 +23,7 @@ export function WorkforceSection() {
           title={t("workforceSection.title")}
           subtitle={t("workforceSection.subtitle")}
         />
-        <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-3">
+        <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2">
           {items.map(({ key, Icon }, i) => (
             <Reveal key={key} delay={i * 90}>
               <Link

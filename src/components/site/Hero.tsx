@@ -102,11 +102,11 @@ function HeroStats() {
     <div className="mt-14 grid grid-cols-3 gap-3 md:mt-20 md:gap-8">
       <Stat label={t("stats.mw")}>
         <span ref={mw}>0</span>
-        <span className="text-[var(--brand)]">+</span> MW
+        <span className="text-[var(--gold-light)]">+</span> MW
       </Stat>
       <Stat label={t("stats.years")}>
         <span ref={yrs}>0</span>
-        <span className="text-[var(--brand)]">+</span>
+        <span className="text-[var(--gold-light)]">+</span>
       </Stat>
       <Stat label={t("stats.response")}>
         <span ref={hrs}>0</span>h
@@ -118,7 +118,7 @@ function HeroStats() {
 function Stat({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div className="text-center">
-      <div className="font-display text-[28px] font-bold leading-none tracking-tight text-white md:text-[56px]">
+      <div className="font-display text-[28px] font-bold leading-none tracking-tight text-[var(--gold)] md:text-[56px]">
         {children}
       </div>
       <div className="mt-2 text-[10px] font-semibold uppercase leading-tight tracking-[0.16em] text-white/55 md:mt-3 md:text-[12px]">

@@ -26,7 +26,7 @@ export function FAQ() {
               value={key}
               className="overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] px-6 data-[state=open]:border-[var(--ring)]"
             >
-              <AccordionTrigger className="py-5 text-left text-base font-semibold text-white hover:no-underline md:text-lg [&[data-state=open]>svg]:text-[var(--brand)]">
+              <AccordionTrigger className="py-5 text-left text-base font-semibold text-white hover:no-underline md:text-lg [&>svg]:text-[var(--gold)] [&[data-state=open]>svg]:text-[var(--gold-light)]">
                 {t(`faq.items.${key}.question`)}
               </AccordionTrigger>
               <AccordionContent className="pb-6 text-sm leading-relaxed text-white/70 md:text-base">

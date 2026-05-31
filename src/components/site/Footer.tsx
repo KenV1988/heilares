@@ -16,7 +16,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t border-[var(--border)] bg-[var(--bg-elevated)]">
+    <footer className="border-t border-[var(--gold)]/20 bg-[var(--bg-elevated)]">
       <div className="container-x py-16 md:py-20">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-2">
@@ -86,7 +86,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-[var(--border)] pt-6 text-xs text-white/45 md:flex-row md:items-center">
+        <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-[var(--gold)]/20 pt-6 text-xs text-white/45 md:flex-row md:items-center">
           <p>
             © {year} {company.name}. {t("footer.rights")}.
           </p>

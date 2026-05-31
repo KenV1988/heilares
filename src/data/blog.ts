@@ -25,8 +25,11 @@ export interface BlogPostContent {
   faqs: BlogFAQ[];
 }
 
+export type BlogCategory = "epc" | "park_types" | "components" | "maintenance";
+
 export interface BlogPost {
   slug: string;
+  category: BlogCategory;
   date: string; // ISO
   readMinutes: number;
   cover: string;
@@ -38,6 +41,7 @@ export interface BlogPost {
 // ─────────────────────────────────────────────────────────────────────────
 const epcPartner: BlogPost = {
   slug: "kuidas-valida-paikesepargi-epc-partnerit",
+  category: "epc",
   date: "2026-04-15",
   readMinutes: 6,
   cover: epcPartnerCover,
@@ -211,7 +215,8 @@ const epcPartner: BlogPost = {
 // 2. Park type comparison
 // ─────────────────────────────────────────────────────────────────────────
 const parkTypes: BlogPost = {
-  slug: "maapark-katusepark-Solar Tracker Park-vordlus",
+  slug: "maapark-katusepark-tracker-vordlus",
+  category: "park_types",
   date: "2026-04-08",
   readMinutes: 7,
   cover: parkTypesCover,
@@ -380,6 +385,7 @@ const parkTypes: BlogPost = {
 // ─────────────────────────────────────────────────────────────────────────
 const turnkey: BlogPost = {
   slug: "votmed-katte-paikesepargi-ehitus",
+  category: "epc",
   date: "2026-03-30",
   readMinutes: 5,
   cover: turnkeyCover,
@@ -533,6 +539,7 @@ const turnkey: BlogPost = {
 // ─────────────────────────────────────────────────────────────────────────
 const timeline: BlogPost = {
   slug: "kui-kaua-votab-paikesepargi-ehitus",
+  category: "epc",
   date: "2026-03-22",
   readMinutes: 5,
   cover: timelineCover,
@@ -668,6 +675,7 @@ const timeline: BlogPost = {
 // ─────────────────────────────────────────────────────────────────────────
 const tier1: BlogPost = {
   slug: "mis-on-tier-1-paikesepaneel",
+  category: "components",
   date: "2026-03-15",
   readMinutes: 5,
   cover: tier1Cover,
@@ -815,6 +823,7 @@ const tier1: BlogPost = {
 // ─────────────────────────────────────────────────────────────────────────
 const maintenance: BlogPost = {
   slug: "paikesepargi-hooldus",
+  category: "maintenance",
   date: "2026-03-08",
   readMinutes: 6,
   cover: maintenanceCover,

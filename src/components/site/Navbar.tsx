@@ -47,19 +47,19 @@ export function Navbar() {
             : "bg-[rgba(10,15,13,0.35)] [backdrop-filter:blur(8px)] [-webkit-backdrop-filter:blur(8px)]"
         }`}
       >
-        <div className="container-x flex h-20 items-center justify-between md:h-[88px]">
-          <div className="flex-1 md:flex-none">
+        <div className="container-x flex h-20 items-center justify-between md:h-[104px]">
+          <div className="flex-1 md:flex-none md:pr-6">
             <Logo />
           </div>
 
-          <nav className="hidden flex-1 items-center justify-center gap-1 md:flex">
+          <nav className="hidden flex-1 items-center justify-center gap-1 md:flex md:pl-6">
             {NAV_LINKS.map((link) => {
               const active = isActive(link.to);
               return (
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`relative px-3.5 py-2 text-[14px] font-medium transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
+                  className={`relative px-3 py-2 text-[14px] font-medium tracking-[0.02em] transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
                     active ? "text-white" : "text-white/70 hover:text-white"
                   }`}
                 >

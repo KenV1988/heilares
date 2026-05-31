@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowUpRight, Zap, Ship, Factory } from "lucide-react";
+import { ArrowUpRight, Ship, Factory } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "./Section";
@@ -7,8 +7,7 @@ import { Reveal } from "./Reveal";
 
 export function WorkforceSection() {
   const { t } = useTranslation();
-  const items: { key: "solar" | "shipbuilding" | "factories"; Icon: LucideIcon }[] = [
-    { key: "solar", Icon: Zap },
+  const items: { key: "shipbuilding" | "factories"; Icon: LucideIcon }[] = [
     { key: "shipbuilding", Icon: Ship },
     { key: "factories", Icon: Factory },
   ];

@@ -1,13 +1,15 @@
+import { useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowRight, Clock } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
-import { SectionBadge } from "@/components/site/Section";
+import { PageHero } from "@/components/site/PageHero";
 import { CTA } from "@/components/site/CTA";
-import { blogPosts } from "@/data/blog";
+import { blogPosts, type BlogCategory } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import i18n from "@/i18n";
+import heroBg from "@/assets/services/tracker-park-1.jpg";
 
 export const Route = createFileRoute("/blogi/")({
   component: BlogIndex,
@@ -24,35 +26,65 @@ export const Route = createFileRoute("/blogi/")({
   }),
 });
 
+const ALL_FILTERS: (BlogCategory | "all")[] = [
+  "all",
+  "epc",
+  "park_types",
+  "components",
+  "maintenance",
+];
+
 function BlogIndex() {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
+  const [filter, setFilter] = useState<(typeof ALL_FILTERS)[number]>("all");
+
+  const availableFilters = useMemo(() => {
+    const present = new Set(blogPosts.map((p) => p.category));
+    return ALL_FILTERS.filter((f) => f === "all" || present.has(f));
+  }, []);
+
+  const visible = useMemo(
+    () => (filter === "all" ? blogPosts : blogPosts.filter((p) => p.category === filter)),
+    [filter],
+  );
 
   return (
     <SiteLayout>
       <Seo titleKey="seo.blog.title" descriptionKey="seo.blog.description" />
 
-      <section className="relative pt-36 pb-8 md:pt-44">
-        <div className="absolute inset-x-0 top-0 h-[500px] radial-glow -z-10" />
-        <div className="container-x text-center">
-          <SectionBadge>{t("blog.eyebrow")}</SectionBadge>
-          <h1 className="mx-auto mt-5 max-w-3xl text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
-            {t("blog.title")}
-          </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-base text-white/70 md:text-lg">
-            {t("blog.subtitle")}
-          </p>
-        </div>
-      </section>
+      <PageHero
+        badge={t("blog.eyebrow")}
+        title={t("blog.title")}
+        subtitle={t("blog.subtitle")}
+        backgroundImage={heroBg}
+        backgroundAlt="Solar Tracker Park päikest jälgivate paneeliridadega"
+      />
 
       <section className="container-x py-12 md:py-16">
+        <div className="mb-8 flex flex-wrap justify-center gap-2">
+          {availableFilters.map((f) => (
+            <button
+              key={f}
+              onClick={() => setFilter(f)}
+              className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
+                filter === f
+                  ? "border-[var(--brand)] bg-[var(--brand)] text-[#0a0f0d]"
+                  : "border-[var(--border)] text-white/70 hover:border-[var(--ring)] hover:text-white"
+              }`}
+            >
+              {t(`blog.filters.${f}`)}
+            </button>
+          ))}
+        </div>
+
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post) => {
+          {visible.map((post) => {
             const c = post.content[lang];
             return (
               <article
                 key={post.slug}
-                className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] transition hover:border-[var(--ring)]"
+                className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] transition duration-200 ease-out hover:-translate-y-1 hover:border-[rgba(214,178,106,0.35)] hover:shadow-[0_4px_20px_rgba(214,178,106,0.12)]"
               >
                 <div className="overflow-hidden">
                   <img

@@ -18,31 +18,35 @@ export function Footer() {
   const goldBorder = { borderColor: "rgba(214,178,106,0.30)" };
   const goldDivider = { borderColor: "rgba(214,178,106,0.18)" };
 
+  const directions = [
+    { label: "Roheenergia", to: "/paikesepargid" as const, accent: false },
+    { label: "Tööjõu rent", to: "/toojou-rent" as const, accent: false },
+    { label: "Tehtud tööd", to: "/tehtud-tood" as const, accent: false },
+    { label: "Küsi pakkumist", to: "/kontakt" as const, accent: true },
+  ];
+
+  const Diamond = () => (
+    <span
+      aria-hidden
+      className="mt-6 inline-block h-2 w-2 rotate-45"
+      style={{ background: "rgba(214,178,106,0.25)" }}
+    />
+  );
+
   return (
     <footer className="bg-[var(--bg-elevated)]" style={{ borderTop: "1px solid rgba(214,178,106,0.2)" }}>
-      <div className="container-x py-16 md:py-20">
-        <div className="grid gap-12 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
+      <div className="container-x pt-16 pb-6 md:pt-20 md:pb-6">
+        <div className="grid gap-12 md:grid-cols-[1.3fr_1fr_1.2fr_1fr]">
           {/* Brand column */}
           <div className="flex flex-col">
             <Logo size="footer" />
             <p className="mt-8 max-w-sm text-sm leading-relaxed text-white/65">
               {t("footer.tagline")}
             </p>
-            <div className="mt-6 flex gap-2.5">
-              {socials.map(({ Icon, href, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  aria-label={label}
-                  className="group grid h-8 w-8 place-items-center rounded-full border bg-transparent transition hover:[border-color:rgba(214,178,106,0.6)]"
-                  style={goldBorder}
-                >
-                  <Icon className="h-4 w-4 text-[var(--gold)] transition group-hover:text-[var(--gold-light)]" />
-                </a>
-              ))}
-            </div>
+            <Diamond />
           </div>
 
+          {/* Nav */}
           <div className="md:pt-[24px]">
             <h4 className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
               {t("footer.nav")}
@@ -58,7 +62,8 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="md:col-span-2 md:pt-[24px]">
+          {/* Contact */}
+          <div className="md:pt-[24px]">
             <h4 className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
               {t("footer.contactCol")}
             </h4>
@@ -91,15 +96,61 @@ export function Footer() {
               </li>
             </ul>
           </div>
+
+          {/* Suunad */}
+          <div className="md:pt-[24px]">
+            <h4 className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
+              Suunad
+            </h4>
+            <ul className="mt-4 space-y-2.5 text-sm">
+              {directions.map((d) => (
+                <li key={d.to + d.label}>
+                  <Link
+                    to={d.to}
+                    className={
+                      d.accent
+                        ? "font-semibold text-[#D6B26A] transition hover:text-[var(--gold-light)]"
+                        : "text-white/75 transition hover:text-[var(--brand)]"
+                    }
+                  >
+                    {d.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Diamond />
+          </div>
         </div>
 
         <div
-          className="mt-14 flex flex-col items-start justify-between gap-3 border-t pt-6 text-xs text-white/45 md:flex-row md:items-center"
+          className="mt-12 grid grid-cols-1 items-center gap-3 border-t pt-5 text-xs text-white/45 md:grid-cols-3"
           style={goldDivider}
         >
-          <p>
+          <div className="flex gap-2.5 md:justify-start justify-center">
+            {socials.map(({ Icon, href, label }) => (
+              <a
+                key={label}
+                href={href}
+                aria-label={label}
+                className="group grid h-8 w-8 place-items-center rounded-full border bg-transparent transition hover:[border-color:rgba(214,178,106,0.6)]"
+                style={goldBorder}
+              >
+                <Icon className="h-4 w-4 text-[var(--gold)] transition group-hover:text-[var(--gold-light)]" />
+              </a>
+            ))}
+          </div>
+          <p className="text-center">
             © {year} {company.name}. {t("footer.rights")}.
           </p>
+          <div className="md:text-right text-center">
+            <a
+              href="/"
+              className="transition hover:opacity-100"
+              style={{ color: "rgba(214,178,106,0.6)" }}
+            >
+              heilares.ee
+            </a>
+          </div>
         </div>
       </div>
     </footer>

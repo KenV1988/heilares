@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { ArrowRight, Zap, Shield, Gauge, Settings, Ship } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
-import { SectionBadge } from "@/components/site/Section";
+import { PageHero } from "@/components/site/PageHero";
 import { QuoteModal } from "@/components/site/QuoteModal";
 import { WorkforceTypes } from "@/components/site/WorkforceTypes";
 import {
@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/accordion";
 import i18n from "@/i18n";
 import shipyard4 from "@/assets/projects/shipyard-4.jpg";
+import heroBg from "@/assets/services/service-laevaehitus.jpg";
 
 const SHIPYARD_IMAGES: Record<string, { src: string; alt: string }> = {
   "Saint-Nazaire'i laevatehas": {
@@ -54,18 +55,18 @@ function WorkforcePage() {
     <SiteLayout>
       <Seo titleKey="seo.workforce.title" descriptionKey="seo.workforce.description" />
 
-      <section className="relative pt-36 pb-12 md:pt-44">
-        <div className="absolute inset-x-0 top-0 h-[500px] radial-glow -z-10" />
-        <div className="container-x text-center">
-          <SectionBadge>{t("hero.badge")}</SectionBadge>
-          <h1 className="mx-auto mt-5 max-w-3xl text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
-            {t("workforcePage.hero.title")}
-          </h1>
-          <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg">
-            {t("workforcePage.hero.subtitle")}
-          </p>
-        </div>
-      </section>
+      <PageHero
+        badge={t("hero.badge")}
+        title={t("workforcePage.hero.title")}
+        subtitle={t("workforcePage.hero.subtitle")}
+        backgroundImage={heroBg}
+        backgroundAlt="Laevaehituse sadam — laevad kuivdokis ja kraanad"
+        stats={[
+          { value: "6", label: "Laevatehast" },
+          { value: "4", label: "Riiki" },
+          { value: "24h", label: "Mobiliseerimine" },
+        ]}
+      />
 
       <WorkforceTypes />
 

@@ -57,7 +57,10 @@
   --brand: #3FBE74;
   --brand-hover: #4BD081;
   --brand-glow: #7CE06A;
-  --gold: #F4B83C;
+  /* Gold — secondary accent (logo, numbers, hairlines) */
+  --gold: #D6B26A;
+  --gold-light: #EAD49A;
+  --gold-dark: #9E7E3E;
 
   /* Text */
   --text-primary: #EAF6EA;
@@ -150,20 +153,20 @@
 
   .font-display { font-family: var(--font-display), system-ui, sans-serif; }
 
-  /* Gradient text — green to gold, use sparingly */
+  /* Gradient text — gold accent for title words */
   .text-gradient {
-    background: linear-gradient(110deg, var(--brand) 0%, var(--brand-glow) 45%, var(--gold) 100%);
+    background: linear-gradient(110deg, var(--gold-light) 0%, var(--gold) 50%, var(--gold-dark) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
-  /* Hairline accent — used at section starts */
+  /* Hairline accent — gold, used at section starts */
   .hairline {
     display: inline-block;
     width: 56px;
     height: 1px;
-    background: rgba(63, 190, 116, 0.45);
+    background: rgba(214, 178, 106, 0.4);
   }
 
   .bg-grid {

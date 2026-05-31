@@ -47,7 +47,7 @@ export function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <div className="container-x flex h-16 items-center justify-between md:h-[72px]">
+        <div className="container-x flex h-20 items-center justify-between md:h-[88px]">
           <div className="flex-1 md:flex-none">
             <Logo />
           </div>

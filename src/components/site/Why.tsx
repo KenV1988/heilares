@@ -37,7 +37,7 @@ export function Why() {
           {items.map(({ key, Icon }, i) => (
             <Reveal as="li" key={key} delay={i * 80}>
               <div className="flex gap-5 bg-[var(--bg-elevated)] p-7 transition hover:bg-[var(--bg-card)] md:p-8">
-                <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl border border-[var(--brand)]/30 bg-[var(--brand)]/10 text-[var(--brand-glow)]">
+                <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl border border-[var(--gold)]/30 bg-[var(--gold)]/10 text-[var(--gold-light)]">
                   <Icon className="h-5 w-5" strokeWidth={1.8} />
                 </div>
                 <div>

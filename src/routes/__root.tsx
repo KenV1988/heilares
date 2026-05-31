@@ -82,13 +82,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "HeilAres OÜ — Roheenergia spetsialistid" },
       { property: "og:description", content: "Võtmed kätte päikesepaneelide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark." },
       { name: "twitter:description", content: "Võtmed kätte päikesepaneelide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5bf2977e-f6c0-475e-b447-208e59daba8c/id-preview-52d59b63--8c6c6adb-526e-4402-8f67-5f7940764851.lovable.app-1779080521850.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5bf2977e-f6c0-475e-b447-208e59daba8c/id-preview-52d59b63--8c6c6adb-526e-4402-8f67-5f7940764851.lovable.app-1779080521850.png" },
+      { property: "og:image", content: "https://heilares.ainiki.ee/og-image.png" },
+      { name: "twitter:image", content: "https://heilares.ainiki.ee/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32.png" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

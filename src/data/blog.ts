@@ -173,7 +173,7 @@ const epcPartner: BlogPost = {
           paragraphs: [
             "Ensimmäinen kriteeri on portfolion megawattimäärä. EPC, joka on asentanut satoja MW, ymmärtää täysimittaisten projektien erityispiirteet — sähköaseman liitynnästä DC-kaapeleiden huoltoon. HeilAres on asentanut yli 400 MW Virossa, Latviassa ja Euroopassa.",
             "Toinen kriteeri on toimitusketju. Vahvoilla EPC-kumppaneilla on suorat sopimukset Tier-1-paneelien ja -invertterien valmistajien kanssa — mikä tarkoittaa parempia hintoja, luotettavia takuita ja vakaita toimitusaikatauluja.",
-            "Kolmas kriteeri on omat asennusryhmät. EPC, joka ulkoistaa kaiken asennuksen, menettää laadun ja aikataulun hallinnan. Kaikki Heilareksen asennusryhmät ovat talon sisäisiä, mikä takaa yhtenäisen laatustandardin kaikilla työmailla.",
+            "Kolmas kriteeri on omat asennusryhmät. EPC, joka ulkoistaa kaiken asennuksen, menettää laadun ja aikataulun hallinnan. Kaikki HeilAreksen asennusryhmät ovat talon sisäisiä, mikä takaa yhtenäisen laatustandardin kaikilla työmailla.",
           ],
         },
         {
@@ -395,12 +395,12 @@ const turnkey: BlogPost = {
       summary:
         "Detailne ülevaade võtmed-kätte EPC-mudelist — kõik tööetapid, vastutusalad ja mida arendaja saab ühelt partnerilt.",
       lead:
-        "Võtmed-kätte päikesepargi ehitus tähendab, et üks EPC-partner vastutab kogu protsessi eest projekteerimisest kuni võrku ühendamise ja kasutusvalmis üleandmiseni.",
+        "Võtmed-kätte päikesepargi ehitus tähendab, et üks EPC-partner vastutab kogu paigaldusprotsessi eest — alates projekteerimisest kuni paigaldustööde lõpuni.",
       sections: [
         {
           heading: "Mida võtmed-kätte hõlmab?",
           paragraphs: [
-            "Võtmed-kätte mudel hõlmab esmast asukoha analüüsi ja energiamodelleerimist (yield assessment), tehnilist projekteerimist, ehituslubade taotlemist, kõigi komponentide hankimist (paneelid, inverterid, kandekonstruktsioonid, kaablid, transformaatorid), vundamentide ja kandekonstruktsioonide paigaldust, paneelide paigaldust, DC- ja AC-kaabeldust, inverterite ja substation-i ühendust, testimist ning lõplikku üleandmist arendajale.",
+            "Võtmed-kätte mudel hõlmab esmast asukoha analüüsi ja energiamodelleerimist (yield assessment), tehnilist projekteerimist, ehituslubade taotlemist, kõigi komponentide hankimist (paneelid, inverterid, kandekonstruktsioonid, kaablid, transformaatorid), vundamentide ja kandekonstruktsioonide paigaldust, paneelide paigaldust, DC- ja AC-kaabeldust, inverterite paigaldust ning paigaldustööde lõpuni viimist.",
             "Erinevalt multi-contractor mudelist, kus arendaja tellib iga etapi eraldi alltöövõtjalt, on võtmed-kätte EPC-l üks lepinguline vastutus kogu objekti tootmisvalmiduse ees.",
           ],
         },
@@ -422,7 +422,7 @@ const turnkey: BlogPost = {
             "Suurte projektide puhul kompenseerib EPC mahuallahindlus tarnijate juures sageli täiendava marginaali.",
         },
         {
-          question: "Kas EPC võtab vastutuse tootmise eest peale üleandmist?",
+          question: "Kas EPC võtab vastutuse tootmise eest peale paigaldustööde lõppu?",
           lead:
             "EPC garanteerib ehituskvaliteedi (workmanship warranty) tavaliselt 2–5 aastat, samas kui komponentide garantii tuleb otse Tier-1 tootjatelt.",
           answer:
@@ -549,7 +549,7 @@ const timeline: BlogPost = {
       summary:
         "Realistlik ajakava suuremahulise päikesepargi ehitusele — etapid, kestus ja peamised viivituste põhjused.",
       lead:
-        "Suuremahulise päikesepargi (10 MW ja suurem) ehitusaeg on tüüpiliselt 6–12 kuud alates lepingu sõlmimisest kuni võrku ühendamiseni, sõltudes peamiselt komponentide tarneajast ja loamenetlusest.",
+        "Suuremahulise päikesepargi (10 MW ja suurem) ehitusaeg on tüüpiliselt 6–12 kuud alates lepingu sõlmimisest kuni paigaldustööde lõpuni, sõltudes peamiselt komponentide tarneajast ja loamenetlusest.",
       sections: [
         {
           heading: "Etapid ja nende tüüpiline kestus",
@@ -557,14 +557,14 @@ const timeline: BlogPost = {
             "Detailne projekteerimine ja loamenetlus võtab tavaliselt 2–4 kuud. See sisaldab geoloogilist uurimist, võrguühenduse projekti, ehitusprojekti koostamist ja vajalike lubade saamist. Suurtel objektidel võib loamenetlus pikeneda kohaliku omavalitsuse menetlustähtaegade tõttu.",
             "Komponentide hankimine kestab 2–6 kuud sõltuvalt globaalsest tarneolukorrast. Paneelid ja inverterid tulevad sageli Aasiast ja Euroopast paralleelselt. Tarneajad on viimastel aastatel olnud volatiilsemad kui varem.",
             "Füüsiline ehitus 10 MW pargi puhul kestab 2–4 kuud — vundamendid, kandekonstruktsioonid, paneelid, DC-kaabeldus, inverterite paigaldus ja substation-i ühendus. 100 MW pargi puhul võib aktiivne paigaldusperiood ulatuda 6–8 kuuni, sageli paralleelsete meeskondadega.",
-            "Testimine, võrku ühendamine ja kasutuselevõtt võtab 2–6 nädalat sõltuvalt võrgu operaatori graafikust.",
+            "Paigalduse järgne testimine ja sisemine kontroll võtab tüüpiliselt 2–6 nädalat, sõltuvalt projekti suurusest ja keerukusest.",
           ],
         },
         {
           heading: "Peamised viivituste põhjused",
           paragraphs: [
             "Komponentide tarne viivitused on viimastel aastatel olnud kõige sagedasem põhjus. Tugev EPC-partner haldab varustusriski läbi mitme tarnija ja varuvarude.",
-            "Loamenetluse pikenemine, halb ilm pikaajaliselt ja võrguliitumise graafiku libisemine on järgmised peamised riskid. Realistlik ajakava ja kommunikatsioon kohaliku võrguoperaatoriga vähendab neid riske oluliselt.",
+            "Loamenetluse pikenemine ja halb ilm pikaajaliselt on järgmised peamised riskid. Realistlik ajakava ja varuvarude hoidmine vähendavad neid riske oluliselt.",
           ],
         },
       ],
@@ -572,7 +572,7 @@ const timeline: BlogPost = {
         {
           question: "Kui kaua võtab 100 MW päikesepargi ehitus?",
           lead:
-            "100 MW päikesepargi ehitus võtab tavaliselt 9–14 kuud alates lepingust kuni võrku ühendamiseni.",
+            "100 MW päikesepargi ehitus võtab tavaliselt 9–14 kuud alates lepingust kuni paigaldustööde lõpuni.",
           answer:
             "HeilArese suurim paigaldatud objekt on 244 MW Risti päikesepark Eestis, kus mitmed meeskonnad töötasid paralleelselt.",
         },
@@ -656,7 +656,7 @@ const timeline: BlogPost = {
           lead:
             "100 MW aurinkopuisto kestää tyypillisesti 9–14 kuukautta sopimuksesta verkkoliityntään.",
           answer:
-            "Heilareksen suurin kohde on 244 MW Risti-puisto Virossa.",
+            "HeilAreksen suurin kohde on 244 MW Risti-puisto Virossa.",
         },
         {
           question: "Voiko rakentaminen jatkua talvella?",

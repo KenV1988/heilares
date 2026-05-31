@@ -161,12 +161,9 @@
     color: transparent;
   }
 
-  /* Hairline accent — gold, used at section starts */
+  /* Hairline accent removed — eyebrow badges now stand alone */
   .hairline {
-    display: inline-block;
-    width: 56px;
-    height: 1px;
-    background: rgba(214, 178, 106, 0.4);
+    display: none;
   }
 
   .bg-grid {

@@ -21,7 +21,7 @@
   "hero": {
     "badge": "ROHEENERGIA SPETSIALISTID",
     "title": "Terviklikud <accent>roheenergia</accent> lahendused",
-    "subtitle": "Võtmed kätte päikesepaneelide paigaldus — maa-, katuse- ja Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud paigaldusmeeskonnade renti.",
+    "subtitle": "Võtmed kätte päikeseparkide paigaldus — maa-, katuse- ja Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud paigaldusmeeskonnade renti.",
     "primaryCta": "Küsi pakkumist",
     "secondaryCta": "Loe lähemalt"
   },
@@ -251,7 +251,7 @@
   },
   "panelsPage": {
     "hero": {
-      "title": "Päikesepaneelide teenused",
+      "title": "Päikeseparkide teenused",
       "subtitle": "Võtmed kätte maapargid, katusepargid ja Solar Tracker Park B2B klientidele Eestis, Lätis ja üle Euroopa."
     },
     "ground": {
@@ -272,7 +272,7 @@
     "roof": {
       "eyebrow": "Katusepaigaldus",
       "title": "Katusepark",
-      "lead": "Katusepark on päikesepaneelide paigaldus tööstushoonete, ladude ja ärihoonete katustele, mille HeilAres teostab kõikidele katusetüüpidele.",
+      "lead": "Katusepark on päikeseparkide paigaldus tööstushoonete, ladude ja ärihoonete katustele, mille HeilAres teostab kõikidele katusetüüpidele.",
       "paragraphs": [
         "Katusepargid sobivad nii lameda kui ka kaldkatusega hoonetele — trapetsplekk, sandwich-paneel, bituumen ja membraankatused. Iga projekt algab kandekonstruktsiooni hindamisega, et tagada katuse turvaline koormamine paneelide ja kandekonstruktsiooni täiendava raskusega.",
         "HeilAres meeskonnad töötavad nii, et kliendi tootmistegevus jätkub minimaalse häirega. Planeerime tööd vastavalt kliendi graafikule, kasutame turvalisi tõstemehhanisme ja korraldame paigalduse loogistika nii, et ladude ja tehaste igapäevatöö ei katkeks.",

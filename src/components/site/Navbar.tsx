@@ -41,10 +41,10 @@ export function Navbar() {
   return (
     <>
       <header
-        className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+        className={`fixed inset-x-0 top-0 z-50 transition-all duration-[240ms] ease-out ${
           scrolled
-            ? "border-b border-[var(--border)] bg-[rgba(10,15,13,0.78)] backdrop-blur-xl"
-            : "bg-transparent"
+            ? "border-b border-[var(--border)] bg-[rgba(10,15,13,0.78)] [backdrop-filter:blur(14px)] [-webkit-backdrop-filter:blur(14px)]"
+            : "bg-[rgba(10,15,13,0.35)] [backdrop-filter:blur(8px)] [-webkit-backdrop-filter:blur(8px)]"
         }`}
       >
         <div className="container-x flex h-20 items-center justify-between md:h-[88px]">
@@ -59,7 +59,7 @@ export function Navbar() {
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`relative px-3.5 py-2 text-[14px] font-medium transition-colors ${
+                  className={`relative px-3.5 py-2 text-[14px] font-medium transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
                     active ? "text-white" : "text-white/70 hover:text-white"
                   }`}
                 >

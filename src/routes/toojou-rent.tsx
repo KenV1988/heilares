@@ -104,7 +104,7 @@ function WorkforcePage() {
       </section>
 
       {/* Past projects — shipyards */}
-      <section className="container-x py-16 md:py-24">
+      <section id="tehtud-tood" className="container-x scroll-mt-28 py-16 md:py-24">
         <div className="text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
             {t("workforceProjects.eyebrow")}

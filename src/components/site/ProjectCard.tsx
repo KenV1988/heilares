@@ -23,7 +23,7 @@ export function ProjectCard({ project }: { project: Project }) {
           className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-        <div className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-black/65 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--brand-glow)] backdrop-blur">
+        <div className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-black/65 px-3 py-1 text-[12px] font-semibold tracking-[0.02em] text-[var(--brand-glow)] backdrop-blur">
           {t(`projectsSection.filter.${project.category}`)}
         </div>
       </div>

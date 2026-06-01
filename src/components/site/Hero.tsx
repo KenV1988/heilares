@@ -47,15 +47,7 @@ export function Hero() {
       </div>
 
       <div className="container-x relative z-10">
-        {/* Hairline + badge — left aligned for editorial feel */}
-        <div className="flex items-center justify-center gap-3">
-          <span className="hairline" aria-hidden />
-          <span className="text-[13px] font-semibold uppercase tracking-[0.18em] text-[var(--brand)]">
-            {t("hero.badge")}
-          </span>
-        </div>
-
-        <h1 className="font-display mx-auto mt-7 max-w-5xl text-balance text-center text-[48px] font-bold leading-[1.05] tracking-[-0.025em] text-white md:text-[88px] lg:text-[104px]">
+        <h1 className="font-display mx-auto max-w-5xl text-balance text-center text-[48px] font-bold leading-[1.05] tracking-[-0.025em] text-white md:text-[88px] lg:text-[104px]">
           <Trans
             i18nKey="hero.title"
             components={{ accent: <span className="text-gradient" /> }}
@@ -82,9 +74,6 @@ export function Hero() {
             {t("hero.secondaryCta")}
           </a>
         </div>
-
-        {/* Inline stats — 3 columns on every breakpoint */}
-        <HeroStats />
       </div>
 
       <QuoteModal open={open} onOpenChange={setOpen} />

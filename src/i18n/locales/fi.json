@@ -115,7 +115,7 @@
     },
     "cta": {
       "title": "Tarvitsetko kokeneen asennusryhmän?",
-      "subtitle": "Ota yhteyttä ja sovimme työvoiman vuokrauksen yksityiskohdat 24 tunnin kuluessa.",
+      "subtitle": "Ota yhteyttä ja sovimme työvoiman vuokrauksen yksityiskohdat nopeasti.",
       "button": "Keskustele työvoiman vuokrauksesta"
     }
   },
@@ -181,7 +181,7 @@
     "items": {
       "q1": {
         "question": "Kuinka nopeasti ryhmä voidaan mobilisoida kohteeseen?",
-        "lead": "HeilAres pystyy mobilisoimaan ryhmän kohteeseen 48–72 tunnin kuluessa tilauksen vahvistamisesta.",
+        "lead": "HeilAres tarjoaa nopean liikkeellelähdön — ryhmät ovat valmiita aloittamaan lyhyellä varoitusajalla.",
         "answer": "Tarkka ajoitus riippuu kohteen sijainnista ja ryhmän koosta. Euroopan sisäisissä projekteissa mobilisointi on yleensä nopeampaa. Kaikki tarvittavat työkalut ja laitteet sisältyvät tiimiin."
       },
       "q2": {
@@ -392,12 +392,19 @@
   },
   "blog": {
     "eyebrow": "BLOGI",
-    "title": "Aurinkoenergian tietopankki",
-    "subtitle": "Faktoihin perustuvia artikkeleita kehittäjille ja teollisuusasiakkaille aurinkopuistojen suunnittelusta, rakentamisesta ja huollosta.",
+    "title": "Aurinkoenergian artikkelit",
+    "subtitle": "Faktoihin perustuvia artikkeleita aurinkopuistojen kehittäjille, teollisuusasiakkaille ja vihreän energian kumppaneille.",
     "readMore": "Lue lisää",
     "back": "Takaisin blogiin",
     "minutes": "min lukuaika",
-    "faqHeading": "Usein kysytyt kysymykset"
+    "faqHeading": "Usein kysytyt kysymykset",
+    "filters": {
+      "all": "Kaikki",
+      "epc": "EPC ja kumppanit",
+      "park_types": "Puistotyypit",
+      "components": "Komponentit",
+      "maintenance": "Huolto"
+    }
   },
   "seo": {
     "home": {

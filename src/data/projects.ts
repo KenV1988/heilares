@@ -6,6 +6,7 @@ import kirikmae1 from "@/assets/projects/kirikmae-1.jpg";
 import stelpe1 from "@/assets/projects/stelpe-1.jpg";
 import stelpe2 from "@/assets/projects/stelpe-2.jpg";
 import stelpe3 from "@/assets/projects/stelpe-3.jpg";
+import lielvarde1 from "@/assets/projects/lielvarde-paikesepark-1.jpg";
 
 export type ProjectCategory = "tracker_park" | "maapark" | "katusepark";
 
@@ -127,10 +128,10 @@ export const projects: Project[] = [
     category: "tracker_park",
     location: "Lielvarde, Läti",
     yearCompleted: 2025,
-    coverImage: groundPlaceholder,
-    coverAlt: "Lielvarde Solar Tracker Park Lätis — päikest jälgivad paneeliread avatud maastikul",
+    coverImage: lielvarde1,
+    coverAlt: "Lielvarde päikesepark Lätis, sinise taeva all maapealsed päikesepaneelid metsa ääres",
     gallery: [
-      { src: groundPlaceholder, alt: "Lielvarde Solar Tracker Park Lätis — päikest jälgivad paneeliread avatud maastikul" },
+      { src: lielvarde1, alt: "Lielvarde päikesepark Lätis, sinise taeva all maapealsed päikesepaneelid metsa ääres" },
     ],
     title: { et: "Lielvarde päikesepark", en: "Lielvarde solar park", fi: "Lielvarden aurinkopuisto" },
     description: sharedDesc,

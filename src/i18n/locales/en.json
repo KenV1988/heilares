@@ -115,7 +115,7 @@
     },
     "cta": {
       "title": "Need an experienced installation crew?",
-      "subtitle": "Get in touch and we will arrange workforce rental details within 24 hours.",
+      "subtitle": "Get in touch and we will arrange the workforce rental details quickly.",
       "button": "Discuss workforce rental"
     }
   },
@@ -181,7 +181,7 @@
     "items": {
       "q1": {
         "question": "How quickly can a crew be mobilized to site?",
-        "lead": "HeilAres can mobilize a crew to site within 48–72 hours of order confirmation.",
+        "lead": "HeilAres provides fast mobilization — crews are ready to start at short notice.",
         "answer": "Exact timing depends on the site location and crew size. For projects within Europe, mobilization is usually faster. All necessary tools and equipment are included with the team."
       },
       "q2": {
@@ -392,12 +392,19 @@
   },
   "blog": {
     "eyebrow": "BLOG",
-    "title": "Solar energy knowledge base",
-    "subtitle": "Fact-based articles for developers and industrial clients on planning, building and maintaining solar parks.",
+    "title": "Solar energy articles",
+    "subtitle": "Fact-based articles for solar park developers, industrial clients and green energy partners.",
     "readMore": "Read more",
     "back": "Back to blog",
     "minutes": "min read",
-    "faqHeading": "Frequently asked questions"
+    "faqHeading": "Frequently asked questions",
+    "filters": {
+      "all": "All",
+      "epc": "EPC and partners",
+      "park_types": "Park types",
+      "components": "Components",
+      "maintenance": "Maintenance"
+    }
   },
   "seo": {
     "home": {

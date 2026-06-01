@@ -115,7 +115,7 @@
     },
     "cta": {
       "title": "Vajad kogenud paigaldusmeeskonna?",
-      "subtitle": "Võta meiega ühendust ja lepime kokku tööjõu rendi detailid 24 tunni jooksul.",
+      "subtitle": "Võta meiega ühendust ja lepime kokku tööjõu rendi detailid kiiresti.",
       "button": "Räägi tööjõu rendist"
     }
   },
@@ -181,7 +181,7 @@
     "items": {
       "q1": {
         "question": "Kui kiiresti saab meeskonna objektile mobiliseerida?",
-        "lead": "HeilAres suudab meeskonna mobiliseerida objektile 48–72 tunni jooksul tellimuse kinnitamisest.",
+        "lead": "HeilAres tagab kiire mobiliseerimise — meeskonnad on valmis startima lühikese etteteatamisega.",
         "answer": "Täpne aeg sõltub objekti asukohast ja meeskonna suurusest. Euroopa siseste projektide puhul on mobiliseerimine tavaliselt kiirem. Kõik vajalikud tööriistad ja seadmed kaasame meeskonnaga."
       },
       "q2": {

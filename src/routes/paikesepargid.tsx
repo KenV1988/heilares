@@ -31,16 +31,10 @@ function PanelsPage() {
     <SiteLayout>
       <Seo titleKey="seo.panels.title" descriptionKey="seo.panels.description" />
       <PageHero
-        badge={t("hero.badge")}
         title={t("panelsPage.hero.title")}
         subtitle={t("panelsPage.hero.subtitle")}
         backgroundImage={heroBg}
         backgroundAlt="Maapealne päikesepark — paneeliread silmapiirini"
-        stats={[
-          { value: "400+ MW", label: "Osaletud paigaldustel" },
-          { value: "3", label: "Pargitüüpi" },
-          { value: "Tier-1", label: "Komponendid" },
-        ]}
       />
       <ParkTypes />
       <Process />

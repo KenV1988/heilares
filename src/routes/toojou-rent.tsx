@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { ArrowRight, Zap, Shield, Gauge, Settings, Ship } from "lucide-react";
+import { ArrowRight, Zap, Shield, Settings, Ship } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
@@ -42,7 +42,6 @@ export const Route = createFileRoute("/toojou-rent")({
 const WHY_ICONS = [
   { key: "mobilization", Icon: Zap },
   { key: "certified", Icon: Shield },
-  { key: "scale", Icon: Gauge },
   { key: "flexible", Icon: Settings },
 ] as const;
 
@@ -56,16 +55,10 @@ function WorkforcePage() {
       <Seo titleKey="seo.workforce.title" descriptionKey="seo.workforce.description" />
 
       <PageHero
-        badge={t("hero.badge")}
         title={t("workforcePage.hero.title")}
         subtitle={t("workforcePage.hero.subtitle")}
         backgroundImage={heroBg}
         backgroundAlt="Laevaehituse sadam — laevad kuivdokis ja kraanad"
-        stats={[
-          { value: "6", label: "Laevatehast" },
-          { value: "4", label: "Riiki" },
-          { value: "24h", label: "Mobiliseerimine" },
-        ]}
       />
 
       <WorkforceTypes />
@@ -83,7 +76,7 @@ function WorkforcePage() {
             {t("workforceWhy.subtitle")}
           </p>
         </div>
-        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-3">
           {WHY_ICONS.map(({ key, Icon }) => (
             <div
               key={key}

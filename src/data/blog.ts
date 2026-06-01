@@ -408,7 +408,7 @@ const turnkey: BlogPost = {
           heading: "Miks arendajad eelistavad võtmed-kätte mudelit?",
           paragraphs: [
             "Esimene põhjus on selge vastutus. Kui midagi läheb valesti — paneelide tootlikkus on madalam kui projekteeritud, kaabel rikkis, inverter ei käivitu — on üks partner, kes peab probleemi lahendama. Multi-contractor projektides kulub vastutuse selgitamisele sageli kuid.",
-            "Teine põhjus on graafiku usaldusväärsus. EPC-partner haldab sisemiselt komponentide saabumist, meeskondade mobiliseerimist ja töötsükleid, mis vähendab kalleid seisakuid. Suurte projektide puhul võib üks nädal viivitust tähendada kümneid tuhandeid eurosid kaotatud tulu.",
+            "Teine põhjus on graafiku usaldusväärsus. EPC-partner haldab sisemiselt komponentide saabumist, meeskondade tööle asumist ja töötsükleid, mis vähendab kalleid seisakuid. Suurte projektide puhul võib üks nädal viivitust tähendada kümneid tuhandeid eurosid kaotatud tulu.",
             "Kolmas põhjus on hinnakindlus. Võtmed-kätte leping on tavaliselt fikseeritud hinnaga (lump-sum), mille raames EPC kannab tarneahela ja täitmise riski. Arendaja teab ette täpset CAPEX-i.",
           ],
         },
@@ -433,7 +433,7 @@ const turnkey: BlogPost = {
           lead:
             "Jah, HeilAres pakub võtmed-kätte EPC teenust kogu Euroopas.",
           answer:
-            "Meeskonnad on kiirelt mobiliseeritavad Lätti, Soome ja teistesse Euroopa riikidesse.",
+            "Meeskonnad on valmis kiirelt asuma tööle üle Euroopa.",
         },
       ],
     },
@@ -455,7 +455,7 @@ const turnkey: BlogPost = {
           heading: "Why developers prefer turnkey?",
           paragraphs: [
             "First reason: clear accountability. If something goes wrong — panel output below model, faulty cable, inverter not starting — there is one partner to fix it. In multi-contractor projects, clarifying liability often takes months.",
-            "Second reason: schedule reliability. The EPC partner internally manages component delivery, crew mobilisation and work cycles, reducing expensive downtime. For large projects, one week of delay can mean tens of thousands of euros of lost revenue.",
+            "Second reason: schedule reliability. The EPC partner internally manages component delivery, crew deployment and work cycles, reducing expensive downtime. For large projects, one week of delay can mean tens of thousands of euros of lost revenue.",
             "Third reason: price certainty. Turnkey contracts are typically lump-sum, with the EPC carrying the supply chain and execution risk. The developer knows the exact CAPEX upfront.",
           ],
         },
@@ -480,7 +480,7 @@ const turnkey: BlogPost = {
           lead:
             "Yes, HeilAres delivers turnkey EPC services across Europe.",
           answer:
-            "Crews can be rapidly mobilised to Latvia, Finland and other European countries.",
+            "Crews can start work quickly across Europe.",
         },
       ],
     },
@@ -527,7 +527,7 @@ const turnkey: BlogPost = {
           lead:
             "Kyllä, HeilAres toimittaa EPC-palveluita koko Euroopassa.",
           answer:
-            "Ryhmät voidaan mobilisoida nopeasti Latviaan, Suomeen ja muihin maihin.",
+            "Ryhmät voivat aloittaa työt nopeasti ympäri Eurooppaa.",
         },
       ],
     },

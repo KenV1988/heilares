@@ -30,7 +30,7 @@ export function PageHero({
   return (
     <section
       className={`relative flex flex-col overflow-hidden ${
-        compact ? "min-h-[280px] pt-36 pb-12" : "min-h-[420px] pt-36 pb-12 md:min-h-[520px] md:pt-44"
+        compact ? "min-h-[280px] pt-36 pb-12" : "min-h-[420px] pt-36 pb-12 md:min-h-[520px] md:pt-44 md:pb-16"
       }`}
     >
       {backgroundImage && (
@@ -65,14 +65,14 @@ export function PageHero({
         </div>
       )}
 
-      <div className="container-x relative z-10 flex flex-1 flex-col">
-        <div className="text-center">
+      <div className="container-x relative z-10 flex flex-1 flex-col items-center justify-center">
+        <div className="w-full text-center">
           {badge && <SectionBadge>{badge}</SectionBadge>}
-          <h1 className="mx-auto mt-5 max-w-3xl text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
+          <h1 className="mx-auto mt-5 max-w-3xl text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px] min-h-[2.1em]">
             {title}
           </h1>
           {subtitle && (
-            <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg">
+            <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg min-h-[3.5rem] md:min-h-[4rem]">
               {subtitle}
             </p>
           )}

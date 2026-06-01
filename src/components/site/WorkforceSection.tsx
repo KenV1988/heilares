@@ -23,9 +23,9 @@ export function WorkforceSection() {
           title={t("workforceSection.title")}
           subtitle={t("workforceSection.subtitle")}
         />
-        <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2">
+        <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2 md:items-stretch">
           {items.map(({ key, Icon }, i) => (
-            <Reveal key={key} delay={i * 90}>
+            <Reveal key={key} delay={i * 90} className="h-full">
               <Link
                 to="/toojou-rent"
                 className="card-lift group relative flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-base)]"

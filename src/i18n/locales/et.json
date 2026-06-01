@@ -21,7 +21,7 @@
   "hero": {
     "badge": "ROHEENERGIA SPETSIALISTID",
     "title": "Terviklikud <accent>roheenergia</accent> lahendused",
-    "subtitle": "Võtmed kätte päikeseparkide paigaldus — maa-, katuse- ja Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud paigaldusmeeskonnade renti.",
+    "subtitle": "Võtmed kätte päikeseparkide paigaldus — maa-, katuse- ja Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud tööjõu renti.",
     "primaryCta": "Küsi pakkumist",
     "secondaryCta": "Loe lähemalt"
   },
@@ -49,8 +49,8 @@
   },
   "workforceSection": {
     "eyebrow": "TÖÖJÕU RENT",
-    "title": "Rendi kogenud paigaldusmeeskondi",
-    "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile laevaehitusele ja tehastele Euroopas ja Skandinaavias.",
+    "title": "Rendi kogenud tööjõudu",
+    "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud tööjõudu rendiks laevaehitusele ja tehastele Euroopas ja Skandinaavias.",
     "solar": {
       "title": "Päikeseenergia paigaldusmeeskonnad",
       "desc": "Renditavad meeskonnad päikeseparkide ehituseks, sobivad alltöövõtuks teistele EPC-ettevõtetele."
@@ -61,14 +61,14 @@
     },
     "factories": {
       "title": "Tehased",
-      "desc": "Tööstusliku paigalduse meeskonnad tehasekeskkondadesse, kiire mobiliseerimine ja kõrge tootlikkus."
+      "desc": "Tööstusliku paigalduse meeskonnad tehasekeskkondadesse, kiire alustamine ja kõrge tootlikkus."
     },
     "cta": "Loe tööjõu rendist lähemalt"
   },
   "workforcePage": {
     "hero": {
       "title": "Tööjõu rent",
-      "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud paigaldusmeeskondi rendile laevaehitusele ja tehastele Euroopas ja Skandinaavias."
+      "subtitle": "HeilAres pakub kogenud ja kvalifitseeritud tööjõudu rendiks laevaehitusele ja tehastele Euroopas ja Skandinaavias."
     },
     "solar": {
       "eyebrow": "Päikeseenergia",
@@ -88,21 +88,21 @@
     "shipbuilding": {
       "eyebrow": "Laevaehitus",
       "title": "Laevaehitus",
-      "lead": "HeilAres pakub kvalifitseeritud paigaldusmeeskondi laevaehituse projektide jaoks Euroopas ja Skandinaavias, sealhulgas Soomes ja Eestis.",
+      "lead": "HeilAres pakub kvalifitseeritud tööjõudu laevaehituse projektide jaoks Euroopas ja Skandinaavias.",
       "paragraphs": [
-        "Meie laevaehituse meeskonnad koondavad mitme valdkonna kogenud spetsialiste ja on valmis mobiliseeruma laevatehaste objektidele, kus nõutakse kiiret ja kvaliteetset tööd.",
+        "Meie laevaehituse meeskonnad koondavad mitme valdkonna kogenud spetsialiste ja on valmis asuma tööle laevatehaste objektidel, kus nõutakse kiiret ja kvaliteetset tööd.",
         "Pakume nii lühiajalisi kui pikaajalisi rendilahendusi, mis sobivad nii tipphooajaliste tööde ajutiseks katmiseks kui ka püsivaks partnerluseks. Meie projektijuhid tagavad, et töö vastab kõigile laevaehituse ohutus- ja kvaliteedistandarditele."
       ],
       "faq": {
         "question": "Millistes riikides laevaehituse meeskondi saab tellida?",
-        "lead": "HeilArese laevaehituse meeskonnad on saadaval Euroopas ja Skandinaavias, sealhulgas Soomes ja Eestis.",
-        "answer": "Mobiliseerime meeskondi laevatehaste objektidele Soomes, Eestis ja teistes Euroopa ja Skandinaavia riikides. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad laevaehituse tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
+        "lead": "HeilArese laevaehituse meeskonnad on saadaval Euroopas ja Skandinaavias.",
+        "answer": "Asume tööle laevatehaste objektidel üle Euroopa ja Skandinaavias. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad laevaehituse tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
       }
     },
     "factories": {
       "eyebrow": "Tehased",
       "title": "Tehased",
-      "lead": "HeilArese tööstusliku paigalduse meeskonnad on mõeldud tehasekeskkondadesse, kus on vaja kiiret mobiliseerimist ja kõrget tootlikkust.",
+      "lead": "HeilArese tööstusliku paigalduse meeskonnad on mõeldud tehasekeskkondadesse, kus on vaja tööle asumist lühikese etteteatamisega ja kõrget tootlikkust.",
       "paragraphs": [
         "Paigaldame ja monteerime tööstuslikke seadmeid, metallikonstruktsioone ja tootmisliine tehaste ja tööstushoonete sees. Meie meeskonnad on harjunud töötama aktiivsetes tootmisruumides, kus on vaja minimaalset seisakut ja maksimaalset efektiivsust.",
         "Pakume rendimeeskondi, kes saavad kiiresti ümber orienteeruda erinevate tehaste nõuetele ja tööprotsessidele. See võimaldab ettevõtetel skaleerida oma tootmisvõimsust ilma püsivõimsuse suurendamata."
@@ -114,7 +114,7 @@
       }
     },
     "cta": {
-      "title": "Vajad kogenud paigaldusmeeskonna?",
+      "title": "Vajad kogenud tööjõudu?",
       "subtitle": "Võta meiega ühendust ja lepime kokku tööjõu rendi detailid kiiresti.",
       "button": "Räägi tööjõu rendist"
     }
@@ -154,18 +154,18 @@
   "workforceWhy": {
     "eyebrow": "MIKS HEILARES",
     "title": "Miks rentida meeskonna HeilAresest?",
-    "subtitle": "HeilAres on usaldusväärne partner tööjõurendi vallas — kogenud meeskonnad, paindlikud lahendused ja megavatt-skaala projektikogemus.",
+    "subtitle": "HeilAres on usaldusväärne partner tööjõurendi vallas — kogenud meeskonnad, paindlikud lahendused ja mitmekülgne projektikogemus.",
     "items": {
       "mobilization": {
-        "title": "Kiire mobiliseerimine",
-        "desc": "Omad meeskonnad ja kogenud projektijuhid valmis startima lühikese etteteatamisega üle Euroopa."
+        "title": "Kiire alustamine",
+        "desc": "Omad meeskonnad ja kogenud projektijuhid valmis asuma tööle lühikese etteteatamisega üle Euroopa."
       },
       "certified": {
         "title": "Kvalifitseeritud meeskonnad",
         "desc": "Kõik paigaldajad läbivad regulaarsed ohutuskoolitused ja omavad vajalikke sertifikaate."
       },
       "scale": {
-        "title": "Megavatt-skaala kogemus",
+        "title": "Mitmekülgne projektikogemus",
         "desc": "Mitmekülgne kogemus suuremahulistes laevaehituse ja tööstuse projektides."
       },
       "flexible": {
@@ -177,16 +177,16 @@
   "workforceFAQ": {
     "eyebrow": "KKK",
     "title": "Korduma kippuvad küsimused tööjõu rendi kohta",
-    "subtitle": "Kõik, mida peaksid teadma HeilArese paigaldusmeeskonnade rendist.",
+    "subtitle": "Kõik, mida peaksid teadma HeilArese tööjõu rendist.",
     "items": {
       "q1": {
-        "question": "Kui kiiresti saab meeskonna objektile mobiliseerida?",
-        "lead": "HeilAres tagab kiire mobiliseerimise — meeskonnad on valmis startima lühikese etteteatamisega.",
-        "answer": "Täpne aeg sõltub objekti asukohast ja meeskonna suurusest. Euroopa siseste projektide puhul on mobiliseerimine tavaliselt kiirem. Kõik vajalikud tööriistad ja seadmed kaasame meeskonnaga."
+        "question": "Kui kiiresti saab meeskonna objektile saata?",
+        "lead": "HeilAres tagab kiire alustamise — meeskonnad on valmis asuma tööle lühikese etteteatamisega.",
+        "answer": "Täpne aeg sõltub objekti asukohast ja meeskonna suurusest. Euroopa siseste projektide puhul on tööle asumine tavaliselt kiirem. Kõik vajalikud tööriistad ja seadmed kaasame meeskonnaga."
       },
       "q2": {
         "question": "Kas rendimeeskonnad sobivad alltöövõtuks teistele ettevõtetele?",
-        "lead": "Jah, HeilArese rendimeeskonnad on mõeldud eelkõige alltöövõtuks EPC-ettevõtetele ja tööstuslikele partneritele.",
+        "lead": "Jah, HeilArese rendimeeskonnad on mõeldud eelkõige alltöövõtuks ettevõtetele ja tööstuslikele partneritele.",
         "answer": "Meie meeskonnad töötavad allhankelepingute alusel, järgides kliendi ohutusnõudeid ja kvaliteedistandardeid. See võimaldab partneritel skaleerida oma võimsust ilma püsikulusid suurendamata."
       }
     }
@@ -220,8 +220,8 @@
         "desc": "Üks partner kogu protsessile — raam, paneelid, DC ja inverterid."
       },
       "speed": {
-        "title": "Kiire mobiliseerimine",
-        "desc": "Omad meeskonnad ja kogenud projektijuhid valmis startima."
+        "title": "Kiire alustamine",
+        "desc": "Omad meeskonnad ja kogenud projektijuhid valmis asuma tööle."
       },
       "quality": {
         "title": "Tier-1 komponendid",
@@ -318,7 +318,7 @@
       "countries": {
         "question": "Millistes riikides HeilAres tegutseb?",
         "lead": "HeilAres tegutseb Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse.",
-        "answer": "Tegutseme Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse. Meie meeskonnad on valmis kiireks mobiliseerimiseks üle Euroopa."
+        "answer": "Tegutseme Eestis ja Lätis ning laieneb lähiajal Soome ja teistesse Euroopa riikidesse. Meie meeskonnad on valmis kiireks tööle asumiseks üle Euroopa."
       },
       "types": {
         "question": "Milliseid päikesepargi tüüpe te ehitate?",
@@ -333,8 +333,8 @@
     }
   },
   "cta": {
-    "title": "Valmis alustama oma päikeseprojekti?",
-    "subtitle": "Küsi tasuta pakkumist — vastame 24 tunni jooksul.",
+    "title": "Valmis alustama oma projekti?",
+    "subtitle": "Küsi pakkumist — vastame 24 tunni jooksul.",
     "button": "Küsi pakkumist"
   },
   "contact": {
@@ -409,7 +409,7 @@
   "seo": {
     "home": {
       "title": "Päikesepargi ehitus võtmed kätte | HeilAres OÜ",
-      "description": "HeilAres ehitab võtmed-kätte päikeseparke — maa-, katuseparke ja Solar Tracker Park Eestis, Lätis ja üle Euroopa. 400+ MW kogemust. Pakume ka paigaldusmeeskondade renti. Küsi pakkumist.",
+      "description": "HeilAres ehitab võtmed-kätte päikeseparke — maa-, katuseparke ja Solar Tracker Park Eestis, Lätis ja üle Euroopa. 400+ MW kogemust. Pakume ka tööjõu renti. Küsi pakkumist.",
       "twitterTitle": "HeilAres OÜ — Roheenergia spetsialistid",
       "twitterDescription": "Võtmed kätte päikeseparkide paigaldus Eestis, Lätis ja üle Euroopa. Solar Tracker Park, maapark, katusepark."
     },
@@ -418,8 +418,8 @@
       "description": "HeilAres projekteerib ja ehitab maaparke, katuseparke ja Solar Tracker Park tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
     },
     "workforce": {
-      "title": "Paigaldusmeeskondi rent | HeilAres",
-      "description": "Rendi kogenud ja kvalifitseeritud paigaldusmeeskondi laevaehitusele ja tehastele Euroopas ja Skandinaavias. Kiire mobiliseerimine."
+      "title": "Tööjõu rent | HeilAres",
+      "description": "Rendi kogenud ja kvalifitseeritud tööjõudu laevaehitusele ja tehastele Euroopas ja Skandinaavias. Kiire alustamine."
     },
     "projects": {
       "title": "Tehtud tööd — päikesepargid Eestis ja Euroopas | HeilAres",

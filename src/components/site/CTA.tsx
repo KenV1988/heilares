@@ -12,10 +12,10 @@ export function CTA() {
         <div className="absolute inset-x-0 -top-32 h-64 radial-glow" />
         <div className="relative grid items-center gap-8 md:grid-cols-[1fr_auto]">
           <div>
-            <h3 className="text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">
+            <h3 className="text-3xl font-bold tracking-tight text-white md:text-4xl min-h-[2.5rem] md:min-h-[2.75rem]">
               {t("cta.title")}
             </h3>
-            <p className="mt-3 max-w-xl text-white/65">{t("cta.subtitle")}</p>
+            <p className="mt-3 max-w-xl text-white/65 min-h-[3rem]">{t("cta.subtitle")}</p>
           </div>
           <button
             onClick={() => setOpen(true)}

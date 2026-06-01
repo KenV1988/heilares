@@ -21,7 +21,7 @@
   "hero": {
     "badge": "AURINKOENERGIAN ASIANTUNTIJAT",
     "title": "Kokonaisvaltaiset <accent>aurinkoenergia</accent>ratkaisut",
-    "subtitle": "Avaimet käteen -aurinkopaneeliasennukset — maa-, katto- ja Solar Tracker Park Virossa ja koko Euroopassa. Tarjoamme myös kokeneiden asennusryhmien vuokrausta.",
+    "subtitle": "Avaimet käteen -aurinkopaneeliasennukset — maa-, katto- ja Solar Tracker Park Virossa ja koko Euroopassa. Tarjoamme myös työvoiman vuokrausta.",
     "primaryCta": "Pyydä tarjous",
     "secondaryCta": "Lue lisää"
   },
@@ -49,8 +49,8 @@
   },
   "workforceSection": {
     "eyebrow": "TYÖVOIMAN VUOKRAUS",
-    "title": "Vuokraa kokeneita asennusryhmiä",
-    "subtitle": "HeilAres tarjoaa kokeneita ja sertifioituja asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Euroopassa.",
+    "title": "Vuokraa kokeneita työntekijöitä",
+    "subtitle": "HeilAres tarjoaa kokeneita ja sertifioituja työntekijöitä vuokralle laivanrakennus- ja tehdasprojekteihin Euroopassa ja Skandinaviassa.",
     "solar": {
       "title": "Aurinkoenergian asennusryhmät",
       "desc": "Vuokra-asennusryhmät aurinkopuistojen rakentamiseen, sopivat alihankintana muille EPC-yrityksille."
@@ -61,14 +61,14 @@
     },
     "factories": {
       "title": "Tehtaat",
-      "desc": "Teollisuusasennusryhmät tehdasympäristöihin, nopea liikkeellelähtö ja korkea tuottavuus."
+      "desc": "Teollisuusasennusryhmät tehdasympäristöihin, nopea aloitus ja korkea tuottavuus."
     },
     "cta": "Lue lisää työvoiman vuokrauksesta"
   },
   "workforcePage": {
     "hero": {
       "title": "Työvoiman vuokraus",
-      "subtitle": "HeilAres tarjoaa kokeneita ja päteviä asennusryhmiä vuokralle teollisuudelle, laivanrakennukselle ja aurinkoenergiakumppaneille koko Euroopassa ja Skandinaviassa."
+      "subtitle": "HeilAres tarjoaa kokeneita ja päteviä työntekijöitä vuokralle laivanrakennus- ja tehdasprojekteihin Euroopassa ja Skandinaviassa."
     },
     "solar": {
       "eyebrow": "Aurinkoenergia",
@@ -88,21 +88,21 @@
     "shipbuilding": {
       "eyebrow": "Laivanrakennus",
       "title": "Laivanrakennus",
-      "lead": "HeilAres tarjoaa päteviä asennusryhmiä laivanrakennusprojekteihin Euroopassa ja Skandinaviassa, mukaan lukien Suomi ja Viro.",
+      "lead": "HeilAres tarjoaa päteviä työntekijöitä laivanrakennusprojekteihin Euroopassa ja Skandinaviassa.",
       "paragraphs": [
-        "Laivanrakennustiimimme kokoavat yhteen monen alan kokeneet asiantuntijat ja ovat valmiita mobilisoitumaan telakkakohteisiin, joissa vaaditaan nopeaa ja laadukasta työtä.",
+        "Laivanrakennustiimimme kokoavat yhteen monen alan kokeneet asiantuntijat ja ovat valmiita aloittamaan työt telakkakohteilla, joissa vaaditaan nopeaa ja laadukasta työtä.",
         "Tarjoamme sekä lyhyt- että pitkäaikaisia vuokrausratkaisuja, jotka sopivat huippusesonkityön kattamiseen sekä pysyvään kumppanuuteen. Projektipäällikkömme varmistavat, että työ vastaa kaikkia laivanrakennuksen turvallisuus- ja laatustandardeja."
       ],
       "faq": {
         "question": "Missä maissa laivanrakennuksen ryhmiä voi tilata?",
-        "lead": "HeilAresin laivanrakennusryhmät ovat käytettävissä Euroopassa ja Skandinaviassa, mukaan lukien Suomi ja Viro.",
-        "answer": "Mobilisoimme ryhmiä telakkakohteisiin Suomessa, Virossa ja muissa Euroopan ja Skandinavian maissa. Kokemus laivanrakennusprojekteista varmistaa, että tiimimme ymmärtävät laivanrakennusteollisuuden erityisvaatimukset ja turvallisuusstandardit."
+        "lead": "HeilAresin laivanrakennusryhmät ovat käytettävissä Euroopassa ja Skandinaviassa.",
+        "answer": "Aloitamme työt telakkakohteilla ympäri Eurooppaa ja Skandinaviaa. Kokemus laivanrakennusprojekteista varmistaa, että tiimimme ymmärtävät laivanrakennusteollisuuden erityisvaatimukset ja turvallisuusstandardit."
       }
     },
     "factories": {
       "eyebrow": "Tehtaat",
       "title": "Tehtaat",
-      "lead": "HeilAresin teollisuusasennusryhmät on suunniteltu tehdasympäristöihin, joissa vaaditaan nopeaa liikkeellelähtöä ja korkeaa tuottavuutta.",
+      "lead": "HeilAresin teollisuusasennusryhmät on suunniteltu tehdasympäristöihin, joissa vaaditaan työhön aloittamista lyhyellä varoitusajalla ja korkeaa tuottavuutta.",
       "paragraphs": [
         "Asennamme ja kokoamme teollisuuslaitteita, metallirakenteita ja tuotantolinjoja tehtaiden ja teollisuushallien sisään. Ryhmämme ovat tottuneet työskentelemään aktiivisissa tuotantotiloissa, joissa tarvitaan minimaalista seisokkia ja maksimaalista tehokkuutta.",
         "Tarjoamme vuokraryhmiä, jotka pystyvät nopeasti sopeutumaan eri tehtaiden vaatimuksiin ja työprosesseihin. Tämä mahdollistaa yrityksille tuotantokapasiteetin skaalaamisen ilman pysyvän kapasiteetin lisäämistä."
@@ -114,7 +114,7 @@
       }
     },
     "cta": {
-      "title": "Tarvitsetko kokeneen asennusryhmän?",
+      "title": "Tarvitsetko kokeneita työntekijöitä?",
       "subtitle": "Ota yhteyttä ja sovimme työvoiman vuokrauksen yksityiskohdat nopeasti.",
       "button": "Keskustele työvoiman vuokrauksesta"
     }
@@ -154,19 +154,19 @@
   "workforceWhy": {
     "eyebrow": "MIKSI HEILARES",
     "title": "Miksi vuokrata ryhmä HeilAresilta?",
-    "subtitle": "HeilAres on luotettava kumppani työvoiman vuokrauksessa — kokeneet tiimit, joustavat ratkaisut ja megawattiluokan projektikokemus.",
+    "subtitle": "HeilAres on luotettava kumppani työvoiman vuokrauksessa — kokeneet tiimit, joustavat ratkaisut ja monipuolinen projektikokemus.",
     "items": {
       "mobilization": {
-        "title": "Nopea liikkeellelähtö",
-        "desc": "Omat asennusryhmät ja kokeneet projektipäälliköt valmiina aloittamaan lyhyellä varoitusajalla ympäri Eurooppaa."
+        "title": "Nopea aloitus",
+        "desc": "Omat asennusryhmät ja kokeneet projektipäälliköt valmiina aloittamaan työt lyhyellä varoitusajalla ympäri Eurooppaa."
       },
       "certified": {
         "title": "Pätevät tiimit",
         "desc": "Kaikki asentajat käyvät säännöllistä turvallisuuskoulutusta ja hallussaan tarvittavat sertifikaatit."
       },
       "scale": {
-        "title": "Megawattiluokan kokemus",
-        "desc": "Asennusryhmät ovat osallistuneet satojen megawattien kokoisten aurinkopuistojen rakentamiseen."
+        "title": "Monipuolinen projektikokemus",
+        "desc": "Laaja kokemus suurista laivanrakennus- ja teollisuusprojekteista."
       },
       "flexible": {
         "title": "Joustava kapasiteetin skaalaus",
@@ -177,16 +177,16 @@
   "workforceFAQ": {
     "eyebrow": "UKK",
     "title": "Usein kysytyt kysymykset työvoiman vuokrauksesta",
-    "subtitle": "Kaikki, mitä sinun tulee tietää HeilAresin asennusryhmien vuokraamisesta.",
+    "subtitle": "Kaikki, mitä sinun tulee tietää HeilAresin työvoiman vuokrauksesta.",
     "items": {
       "q1": {
-        "question": "Kuinka nopeasti ryhmä voidaan mobilisoida kohteeseen?",
-        "lead": "HeilAres tarjoaa nopean liikkeellelähdön — ryhmät ovat valmiita aloittamaan lyhyellä varoitusajalla.",
-        "answer": "Tarkka ajoitus riippuu kohteen sijainnista ja ryhmän koosta. Euroopan sisäisissä projekteissa mobilisointi on yleensä nopeampaa. Kaikki tarvittavat työkalut ja laitteet sisältyvät tiimiin."
+        "question": "Kuinka nopeasti ryhmä voidaan saada kohteeseen?",
+        "lead": "HeilAres tarjoaa nopean aloituksen — ryhmät ovat valmiita aloittamaan työt lyhyellä varoitusajalla.",
+        "answer": "Tarkka ajoitus riippuu kohteen sijainnista ja ryhmän koosta. Euroopan sisäisissä projekteissa työhön aloittaminen on yleensä nopeampaa. Kaikki tarvittavat työkalut ja laitteet sisältyvät tiimiin."
       },
       "q2": {
         "question": "Sopivatko vuokraryhmät alihankintana muille yrityksille?",
-        "lead": "Kyllä, HeilAresin vuokra-asennusryhmät on suunniteltu ensisijaisesti alihankinnaksi EPC-yrityksille ja teollisuuskumppaneille.",
+        "lead": "Kyllä, HeilAresin vuokra-asennusryhmät on suunniteltu ensisijaisesti alihankinnaksi yrityksille ja teollisuuskumppaneille.",
         "answer": "Ryhmämme työskentelevät alihankintasopimusten perusteella noudattaen asiakkaan turvallisuusvaatimuksia ja laatustandardeja. Tämä mahdollistaa kumppaneille kapasiteetin skaalaamisen ilman kiinteiden kustannusten kasvattamista."
       }
     }
@@ -220,8 +220,8 @@
         "desc": "Yksi kumppani koko prosessille — rakenne, paneelit, DC, luovutus."
       },
       "speed": {
-        "title": "Nopea käynnistys",
-        "desc": "Omat työryhmät ja kokeneet projektipäälliköt valmiina aloittamaan."
+        "title": "Nopea aloitus",
+        "desc": "Omat työryhmät ja kokeneet projektipäälliköt valmiina aloittamaan työt."
       },
       "quality": {
         "title": "Tier-1-komponentit",
@@ -318,7 +318,7 @@
       "countries": {
         "question": "Missä maissa HeilAres toimii?",
         "lead": "HeilAres toimii Virossa ja Latviassa ja laajenee lähiaikoina Suomeen ja muihin Euroopan maihin.",
-        "answer": "Toimimme Virossa ja Latviassa ja laajenemme lähiaikoina Suomeen ja muihin Euroopan maihin. Työryhmämme ovat valmiita nopeaan liikkeellelähtöön ympäri Eurooppaa."
+        "answer": "Toimimme Virossa ja Latviassa ja laajenemme lähiaikoina Suomeen ja muihin Euroopan maihin. Työryhmämme ovat valmiita nopeaan työhön aloittamiseen ympäri Eurooppaa."
       },
       "types": {
         "question": "Minkä tyyppisiä aurinkopuistoja rakennatte?",
@@ -333,8 +333,8 @@
     }
   },
   "cta": {
-    "title": "Valmis aloittamaan aurinkoenergiaprojektisi?",
-    "subtitle": "Pyydä ilmainen tarjous — vastaamme 24 tunnin kuluessa.",
+    "title": "Valmis aloittamaan projektisi?",
+    "subtitle": "Pyydä tarjous — vastaamme 24 tunnin kuluessa.",
     "button": "Pyydä tarjous"
   },
   "contact": {
@@ -417,7 +417,7 @@
     },
     "workforce": {
       "title": "Työvoiman vuokraus — Laivanrakennus ja tehtaat | HeilAres",
-      "description": "Kokeneita asennusryhmiä vuokrattavissa. Laivanrakennus ja teolliset kohteet ympäri Eurooppaa."
+      "description": "Kokeneita työntekijöitä vuokralle. Laivanrakennus- ja teollisuuskohteet ympäri Eurooppaa ja Skandinaviaa. Nopea aloitus."
     },
     "projects": {
       "title": "Projektit — Aurinkopuistot Virossa ja Euroopassa | HeilAres",

@@ -20,7 +20,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden pt-28 pb-16 md:pt-40 md:pb-24">
+    <section className="relative flex min-h-screen flex-col overflow-hidden md:min-h-[720px]">
       {/* background video */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <video
@@ -46,8 +46,8 @@ export function Hero() {
         <div className="absolute inset-x-0 top-0 h-[600px] radial-glow opacity-70" />
       </div>
 
-      <div className="container-x relative z-10">
-        <h1 className="font-display mx-auto max-w-5xl text-balance text-center text-[48px] font-bold leading-[1.05] tracking-[-0.025em] text-white md:text-[88px] lg:text-[104px]">
+      <div className="container-x relative z-10 flex flex-1 flex-col items-center justify-center pt-28 pb-16 md:pt-40 md:pb-24">
+        <h1 className="font-display mx-auto max-w-5xl text-center text-[48px] font-bold leading-[1.05] tracking-[-0.025em] text-white md:text-[88px] lg:text-[104px] min-h-[2.1em]">
           <Trans
             i18nKey="hero.title"
             components={{ accent: <span className="text-gradient" /> }}
@@ -55,11 +55,11 @@ export function Hero() {
           />
         </h1>
 
-        <p className="mx-auto mt-7 max-w-2xl text-balance text-center text-[16px] leading-[1.6] text-white/70 md:text-[18px]">
+        <p className="mx-auto mt-7 max-w-2xl text-center text-[16px] leading-[1.6] text-white/70 md:text-[18px] min-h-[4.8rem] md:min-h-[5.4rem]">
           {t("hero.subtitle")}
         </p>
 
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <div className="mt-10 flex min-h-14 flex-col items-center justify-center gap-4 sm:flex-row">
           <button
             onClick={() => setOpen(true)}
             className="group inline-flex h-14 items-center gap-2 rounded-full bg-[var(--brand)] px-8 text-[15px] font-semibold text-[#06120A] transition hover:bg-[var(--brand-hover)]"

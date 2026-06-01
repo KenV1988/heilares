@@ -76,11 +76,11 @@ function WorkforcePage() {
             {t("workforceWhy.subtitle")}
           </p>
         </div>
-        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-3">
+        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-3 md:items-stretch">
           {WHY_ICONS.map(({ key, Icon }) => (
             <div
               key={key}
-              className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 md:p-8"
+              className="flex h-full flex-col rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 md:p-8"
             >
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)]">
                 <Icon className="h-6 w-6" />
@@ -88,7 +88,7 @@ function WorkforcePage() {
               <h3 className="mt-5 text-xl font-bold text-white">
                 {t(`workforceWhy.items.${key}.title`)}
               </h3>
-              <p className="mt-3 text-sm leading-relaxed text-white/65 md:text-base">
+              <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65 md:text-base">
                 {t(`workforceWhy.items.${key}.desc`)}
               </p>
             </div>

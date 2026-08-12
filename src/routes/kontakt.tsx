@@ -47,8 +47,14 @@ const CONTACT_EMAILS: Record<string, string> = {
   "Lauri Sal-al-Saller": "lauri@heilares.ee",
 };
 
+const HEILARES_LAT = "59.3142143";
+const HEILARES_LNG = "24.5706397";
+const MIN_ZOOM = 4;
+const MAX_ZOOM = 17;
+
 function ContactPage() {
   const { t } = useTranslation();
+  const [zoom, setZoom] = useState(6);
 
   return (
     <SiteLayout>

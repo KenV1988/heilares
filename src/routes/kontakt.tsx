@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { useState } from "react";
+import { Mail, Phone, MapPin, Clock, Plus, Minus } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
@@ -46,8 +47,14 @@ const CONTACT_EMAILS: Record<string, string> = {
   "Lauri Sal-al-Saller": "lauri@heilares.ee",
 };
 
+const HEILARES_LAT = "59.3142143";
+const HEILARES_LNG = "24.5706397";
+const MIN_ZOOM = 4;
+const MAX_ZOOM = 17;
+
 function ContactPage() {
   const { t } = useTranslation();
+  const [zoom, setZoom] = useState(6);
 
   return (
     <SiteLayout>
@@ -142,8 +149,9 @@ function ContactPage() {
           style={{ borderColor: "rgba(214,178,106,0.18)" }}
         >
           <iframe
+            key={zoom}
             title="HeilAres asukoht Google Mapsil"
-            src="https://maps.google.com/maps?q=59.3142143,24.5706397&t=&z=6&ie=UTF8&iwloc=B&output=embed"
+            src={`https://maps.google.com/maps?q=${HEILARES_LAT},${HEILARES_LNG}&t=&z=${zoom}&ie=UTF8&iwloc=B&output=embed`}
             width="100%"
             height="420"
             style={{ border: 0, display: "block", pointerEvents: "none" }}
@@ -151,18 +159,48 @@ function ContactPage() {
             referrerPolicy="no-referrer-when-downgrade"
             tabIndex={-1}
           />
+
+          {/* Zoom controls */}
+          <div className="absolute right-4 top-4 z-10 flex flex-col gap-2">
+            <button
+              type="button"
+              onClick={() => setZoom((z) => Math.min(MAX_ZOOM, z + 1))}
+              disabled={zoom >= MAX_ZOOM}
+              aria-label="Suumi lähemale"
+              className="grid h-11 w-11 place-items-center rounded-xl border text-[var(--brand-glow)] shadow-lg backdrop-blur transition enabled:hover:brightness-125 disabled:opacity-30"
+              style={{
+                background: "rgba(10,15,13,0.78)",
+                borderColor: "rgba(214,178,106,0.22)",
+              }}
+            >
+              <Plus className="h-5 w-5" />
+            </button>
+            <button
+              type="button"
+              onClick={() => setZoom((z) => Math.max(MIN_ZOOM, z - 1))}
+              disabled={zoom <= MIN_ZOOM}
+              aria-label="Suumi kaugemale"
+              className="grid h-11 w-11 place-items-center rounded-xl border text-[var(--brand-glow)] shadow-lg backdrop-blur transition enabled:hover:brightness-125 disabled:opacity-30"
+              style={{
+                background: "rgba(10,15,13,0.78)",
+                borderColor: "rgba(214,178,106,0.22)",
+              }}
+            >
+              <Minus className="h-5 w-5" />
+            </button>
+          </div>
+
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination=59.3142143%2C24.5706397"
+            href={`https://www.google.com/maps/dir/?api=1&destination=${HEILARES_LAT}%2C${HEILARES_LNG}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="absolute bottom-4 right-4 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-[#06120C] shadow-lg transition hover:brightness-110"
+            className="absolute bottom-4 right-4 z-10 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-[#06120C] shadow-lg transition hover:brightness-110"
             style={{ background: "var(--brand-glow)" }}
           >
             <MapPin className="h-4 w-4" />
             Juhised HeilAresesse
           </a>
         </div>
-
       </section>
 
       <section className="container-x pb-12 md:pb-16">

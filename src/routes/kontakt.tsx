@@ -152,7 +152,7 @@ function ContactPage() {
             tabIndex={-1}
           />
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination=59.3142143%2C24.5706397&destination_place_id=ChIJHc3Nxn"
+            href="https://www.google.com/maps/dir/?api=1&destination=59.3142143%2C24.5706397"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-[#06120C] shadow-lg transition hover:brightness-110"

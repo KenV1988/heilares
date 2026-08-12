@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "sdk_version": "0.26.2",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "heilares",
+      "version": "0.1.0",
+      "title": "Heilares"
+    },
+    "tools": [
+      {
+        "name": "get_company_info",
+        "title": "Get company info",
+        "description": "Get HeilAres OÜ public company details: name, tagline, email and contact persons with their area of responsibility and phone number.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_projects",
+        "title": "List solar park projects",
+        "description": "List HeilAres reference projects (solar tracker parks, ground-mounted and rooftop parks) with location, capacity, park type and completion year.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "lang": {
+              "default": "et",
+              "description": "Language for titles and descriptions.",
+              "type": "string",
+              "enum": [
+                "et",
+                "en",
+                "fi"
+              ]
+            },
+            "category": {
+              "description": "Optional park type filter.",
+              "type": "string",
+              "enum": [
+                "tracker_park",
+                "maapark",
+                "katusepark"
+              ]
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_project",
+        "title": "Get project details",
+        "description": "Get full public details of one HeilAres reference project by slug: description, panels, inverter, mounting system and completion time.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "slug": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Project slug, e.g. from list_projects."
+            },
+            "lang": {
+              "default": "et",
+              "description": "Language for the title and description.",
+              "type": "string",
+              "enum": [
+                "et",
+                "en",
+                "fi"
+              ]
+            }
+          },
+          "required": [
+            "slug"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_blog_posts",
+        "title": "List blog articles",
+        "description": "List HeilAres solar-energy knowledge base articles with slug, title, summary, category, date and reading time.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "lang": {
+              "default": "et",
+              "description": "Language of the article metadata.",
+              "type": "string",
+              "enum": [
+                "et",
+                "en",
+                "fi"
+              ]
+            },
+            "category": {
+              "description": "Optional category filter.",
+              "type": "string",
+              "enum": [
+                "epc",
+                "park_types",
+                "components",
+                "maintenance"
+              ]
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_blog_post",
+        "title": "Get blog article",
+        "description": "Get the full text of one HeilAres blog article by slug, including all sections and FAQ entries.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "slug": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Article slug, e.g. from list_blog_posts."
+            },
+            "lang": {
+              "default": "et",
+              "description": "Language of the article.",
+              "type": "string",
+              "enum": [
+                "et",
+                "en",
+                "fi"
+              ]
+            }
+          },
+          "required": [
+            "slug"
+          ]
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}

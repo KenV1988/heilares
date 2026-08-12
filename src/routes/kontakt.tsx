@@ -131,7 +131,30 @@ function ContactPage() {
         </div>
       </section>
 
+      {/* Location map */}
       <section className="container-x py-12 md:py-16">
+        <div className="mb-6 flex items-center gap-3">
+          <MapPin className="h-5 w-5 text-[var(--brand-glow)]" />
+          <h2 className="text-2xl font-semibold text-white">{t("contact.info.location")}</h2>
+        </div>
+        <div
+          className="overflow-hidden rounded-2xl border"
+          style={{ borderColor: "rgba(214,178,106,0.18)" }}
+        >
+          <iframe
+            title="HeilAres asukoht Google Mapsil"
+            src="https://maps.google.com/maps?q=HeilAres&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="420"
+            style={{ border: 0, display: "block" }}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+        </div>
+      </section>
+
+      <section className="container-x pb-12 md:pb-16">
         <div className={`${PANEL} p-7 md:p-10`} style={PANEL_STYLE}>
           <ContactForm />
         </div>

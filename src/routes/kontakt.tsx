@@ -138,20 +138,31 @@ function ContactPage() {
           <h2 className="text-2xl font-semibold text-white">{t("contact.info.location")}</h2>
         </div>
         <div
-          className="overflow-hidden rounded-2xl border"
+          className="relative overflow-hidden rounded-2xl border"
           style={{ borderColor: "rgba(214,178,106,0.18)" }}
         >
           <iframe
             title="HeilAres asukoht Google Mapsil"
-            src="https://maps.google.com/maps?q=HeilAres&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=59.3142143,24.5706397&t=&z=6&ie=UTF8&iwloc=B&output=embed"
             width="100%"
             height="420"
-            style={{ border: 0, display: "block" }}
+            style={{ border: 0, display: "block", pointerEvents: "none" }}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            allowFullScreen
+            tabIndex={-1}
           />
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=59.3142143%2C24.5706397&destination_place_id=ChIJHc3Nxn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-4 right-4 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-[#06120C] shadow-lg transition hover:brightness-110"
+            style={{ background: "var(--brand-glow)" }}
+          >
+            <MapPin className="h-4 w-4" />
+            Juhised HeilAresesse
+          </a>
         </div>
+
       </section>
 
       <section className="container-x pb-12 md:pb-16">

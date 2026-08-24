@@ -14,11 +14,13 @@ import {
   Gauge,
   Building2,
   PlugZap,
+  Layers,
+  Award,
 } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
-import { SectionHeader } from "@/components/site/Section";
+import { SectionHeader, SectionBadge } from "@/components/site/Section";
 import { Reveal } from "@/components/site/Reveal";
 import { QuoteModal } from "@/components/site/QuoteModal";
 import { ElectricalFAQ } from "@/components/site/ElectricalFAQ";
@@ -53,6 +55,8 @@ const SERVICE_ICONS = [
   Building2,
   PlugZap,
 ] as const;
+
+const WHY_ICONS = [Layers, BadgeCheck, Award, Cpu, Building2] as const;
 
 interface ServiceItem {
   title: string;
@@ -282,29 +286,42 @@ function ElectricalPage() {
       </section>
 
       {/* Why */}
-      <section className="container-x py-20 md:py-28">
-        <div className="grid gap-12 md:grid-cols-2 md:gap-20">
+      <section className="relative overflow-hidden py-20 md:py-28">
+        <div className="absolute inset-0 -z-10 bg-[var(--bg-accent)]" />
+        <div className="absolute inset-0 -z-10 bg-grid opacity-30" />
+        <div className="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-[var(--brand)]/30 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gradient-to-r from-transparent via-[var(--brand)]/30 to-transparent" />
+        <div className="container-x grid gap-12 md:grid-cols-2 md:gap-20">
           <Reveal>
             <div className="md:sticky md:top-32">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
-                {t("electricalPage.why.eyebrow")}
-              </p>
-              <h2 className="font-display mt-5 text-balance text-[36px] font-bold leading-[1.05] tracking-tight text-white md:text-[56px]">
-                {t("electricalPage.why.title")}
+              <SectionBadge>{t("electricalPage.why.eyebrow")}</SectionBadge>
+              <h2 className="font-display mt-5 text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
+                {renderWhyTitle(t("electricalPage.why.title"))}
               </h2>
+              <p className="mt-6 max-w-md text-[16px] leading-[1.65] text-white/70 md:text-[18px]">
+                {t("electricalPage.why.subtitle")}
+              </p>
             </div>
           </Reveal>
           <ul className="space-y-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)]">
-            {whyItems.map((item, i) => (
-              <Reveal as="li" key={item.title} delay={i * 70}>
-                <div className="bg-[var(--bg-elevated)] p-7 transition hover:bg-[var(--bg-card)] md:p-8">
-                  <h3 className="font-display text-[20px] font-bold leading-tight text-white">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 text-[15px] leading-[1.6] text-white/65">{item.desc}</p>
-                </div>
-              </Reveal>
-            ))}
+            {whyItems.map((item, i) => {
+              const Icon = WHY_ICONS[i % WHY_ICONS.length];
+              return (
+                <Reveal as="li" key={item.title} delay={i * 80}>
+                  <div className="flex gap-5 bg-[var(--bg-elevated)] p-7 transition hover:bg-[var(--bg-card)] md:p-8">
+                    <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl border border-[var(--gold)]/30 bg-[var(--gold)]/10 text-[var(--gold-light)]">
+                      <Icon className="h-5 w-5" strokeWidth={1.8} />
+                    </div>
+                    <div>
+                      <h3 className="font-display text-[20px] font-bold leading-tight text-white">
+                        {item.title}
+                      </h3>
+                      <p className="mt-2 text-[15px] leading-[1.6] text-white/65">{item.desc}</p>
+                    </div>
+                  </div>
+                </Reveal>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -363,5 +380,19 @@ function ElectricalPage() {
 
       <QuoteModal open={open} onOpenChange={setOpen} />
     </SiteLayout>
+  );
+}
+
+/** Render "Miks HeilAres?" with the brand word in gradient. */
+function renderWhyTitle(title: string) {
+  const match = title.match(/^(.*?)(HeilAres)(.*)$/i);
+  if (!match) return title;
+  const [, before, brand, after] = match;
+  return (
+    <>
+      {before}
+      <span className="text-gradient">{brand}</span>
+      {after}
+    </>
   );
 }

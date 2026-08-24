@@ -512,7 +512,58 @@
       "subtitle": "Send us the key details of your project and we will review how we can help.",
       "button": "Request a quote"
     },
-    "heroAlt": "Electricians connecting solar park inverters and distribution switchboards next to cable trays"
+    "heroAlt": "Electricians connecting solar park inverters and distribution switchboards next to cable trays",
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you need to know about HeilAres electrical works.",
+      "items": {
+        "scope": {
+          "question": "What electrical works does HeilAres carry out?",
+          "answer": "We carry out electrical installation, cabling, switchboards, inverters and energy system works in solar parks, industrial and commercial buildings, and other large-scale facilities."
+        },
+        "existing": {
+          "question": "Does HeilAres carry out electrical works on existing facilities?",
+          "answer": "Yes. We handle both the construction of new electrical installations and the upgrading, expanding and adapting of existing electrical systems."
+        },
+        "solar": {
+          "question": "Do you carry out electrical works for solar parks?",
+          "answer": "Yes. For solar parks, we carry out DC and AC cabling, inverter connection, cable routing and electrical distribution system installation according to project needs."
+        },
+        "switchboards": {
+          "question": "Do you also work with electrical switchboards?",
+          "answer": "Yes. We carry out installation, connection, upgrade and expansion works related to electrical distribution and switchboards."
+        },
+        "industrial": {
+          "question": "Do you carry out electrical works in industrial and commercial buildings?",
+          "answer": "Yes. We provide electrical works for industrial, warehouse, commercial and other large-scale facilities."
+        },
+        "planning": {
+          "question": "Can you also help with electrical system planning?",
+          "answer": "Yes. We can assess the facility's electrical needs and help design a solution that allows future additions such as solar energy, battery storage, EV chargers or other high-power electrical consumers."
+        },
+        "ev": {
+          "question": "Do you carry out electrical works for EV chargers?",
+          "answer": "Yes. We carry out charger power supply, cabling and switchboard works, as well as charging infrastructure preparation."
+        },
+        "registration": {
+          "question": "Does HeilAres have the required registration for electrical works?",
+          "answer": "Yes. HeilAres holds electrical works MTR registration TEL005181 and Level 6 competence."
+        },
+        "regions": {
+          "question": "In which regions does HeilAres carry out electrical works?",
+          "answer": "We carry out projects in Estonia and, depending on the nature of the project, also in other parts of Europe."
+        },
+        "ordering": {
+          "question": "How does ordering electrical works work?",
+          "answer": "We start by mapping the project and requirements. We then assess the scope of works, prepare a technical solution and quote, and agree on the execution."
+        },
+        "quote": {
+          "question": "How can I get a quote for electrical works?",
+          "answer": "Send us the key details of the project or facility and, if possible, the project, drawings or existing system information. We can then assess the scope and prepare a quote."
+        }
+      }
+    }
   },
   "faq": {
     "eyebrow": "FAQ",

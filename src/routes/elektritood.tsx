@@ -21,6 +21,7 @@ import { PageHero } from "@/components/site/PageHero";
 import { SectionHeader } from "@/components/site/Section";
 import { Reveal } from "@/components/site/Reveal";
 import { QuoteModal } from "@/components/site/QuoteModal";
+import { ElectricalFAQ } from "@/components/site/ElectricalFAQ";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { projects } from "@/data/projects";
 import i18n from "@/i18n";
@@ -356,6 +357,8 @@ function ElectricalPage() {
           </div>
         </div>
       </section>
+
+      <ElectricalFAQ />
 
       <QuoteModal open={open} onOpenChange={setOpen} />
     </SiteLayout>

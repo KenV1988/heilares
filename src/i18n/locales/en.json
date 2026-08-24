@@ -393,7 +393,8 @@
     "dirGreen": "Green energy",
     "dirWorkforce": "Workforce rental",
     "dirWorks": "Completed works",
-    "dirQuote": "Request a quote"
+    "dirQuote": "Request a quote",
+    "mtr": "Electrical works MTR: TEL005181"
   },
   "quote": {
     "title": "Request a quote",

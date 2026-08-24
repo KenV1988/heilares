@@ -393,7 +393,8 @@
     "dirGreen": "Vihreä energia",
     "dirWorkforce": "Työvoiman vuokraus",
     "dirWorks": "Tehdyt työt",
-    "dirQuote": "Pyydä tarjous"
+    "dirQuote": "Pyydä tarjous",
+    "mtr": "Sähkötyöjen MTR: TEL005181"
   },
   "quote": {
     "title": "Pyydä tarjous",

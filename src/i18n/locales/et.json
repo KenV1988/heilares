@@ -393,7 +393,8 @@
     "dirGreen": "Roheenergia",
     "dirWorkforce": "Tööjõu rent",
     "dirWorks": "Tehtud tööd",
-    "dirQuote": "Küsi pakkumist"
+    "dirQuote": "Küsi pakkumist",
+    "mtr": "Elektritööde MTR: TEL005181"
   },
   "quote": {
     "title": "Küsi pakkumist",

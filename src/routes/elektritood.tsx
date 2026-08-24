@@ -336,6 +336,8 @@ function ElectricalPage() {
         </div>
       </section>
 
+      <ElectricalFAQ />
+
       {/* CTA */}
       <section className="container-x py-20 md:py-28">
         <div className="relative overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--bg-card)] p-10 md:p-16">
@@ -358,7 +360,6 @@ function ElectricalPage() {
         </div>
       </section>
 
-      <ElectricalFAQ />
 
       <QuoteModal open={open} onOpenChange={setOpen} />
     </SiteLayout>

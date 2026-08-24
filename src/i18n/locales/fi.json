@@ -675,7 +675,8 @@
       "epc": "EPC ja kumppanit",
       "park_types": "Puistotyypit",
       "components": "Komponentit",
-      "maintenance": "Huolto"
+      "maintenance": "Huolto",
+      "electrical": "Sähkötöitä"
     }
   },
   "seo": {

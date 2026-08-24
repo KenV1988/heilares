@@ -101,7 +101,7 @@ export function Footer() {
           {/* Suunad */}
           <div className="md:pt-[24px]">
             <h4 className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
-              Suunad
+              {t("footer.directions")}
             </h4>
             <ul className="mt-4 space-y-2.5 text-sm">
               {directions.map((d) => (

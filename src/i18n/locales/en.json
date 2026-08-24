@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "panels": "Solar parks",
+    "electrical": "Electrical works",
     "workforce": "Workforce rental",
     "projects": "Projects",
     "blog": "Blog",
@@ -305,6 +306,189 @@
       }
     }
   },
+  "electricalPage": {
+    "hero": {
+      "title": "Electrical works for solar energy and industrial projects",
+      "subtitle": "Professional electrical installations, cabling, switchboards, inverter connections and electrical systems in Estonia and across Europe.",
+      "cta": "Request a quote",
+      "ctaSecondary": "See our projects",
+      "badgeRegistry": "Electrical works MTR registration TEL005181",
+      "badgeLevel": "Competence level 6"
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "Electrical services",
+      "subtitle": "Electrical installations and systems for solar parks, industry, commercial buildings and large construction projects.",
+      "items": [
+        {
+          "title": "Solar park electrical works",
+          "list": [
+            "DC cabling",
+            "AC cabling",
+            "inverter connections",
+            "cable routes",
+            "distribution switchboards",
+            "equipment connections",
+            "electrical installations"
+          ]
+        },
+        {
+          "title": "Switchboards and distribution systems",
+          "list": [
+            "distribution switchboards",
+            "main switchboards",
+            "sub-distribution boards",
+            "system expansion",
+            "upgrading existing switchboards"
+          ]
+        },
+        {
+          "title": "Cabling",
+          "list": [
+            "high-current cabling",
+            "low-current cabling",
+            "cable routes",
+            "cabling for buildings and industrial sites",
+            "solar park cabling"
+          ]
+        },
+        {
+          "title": "Inverters and energy systems",
+          "list": [
+            "inverter installation",
+            "electrical connection of inverters",
+            "AC/DC connections for solar systems",
+            "electrical connections for battery storage",
+            "energy infrastructure expansion"
+          ]
+        },
+        {
+          "title": "Earthing and lightning protection",
+          "list": [
+            "earthing systems",
+            "equipotential bonding",
+            "lightning protection systems",
+            "electrical safety solutions"
+          ]
+        },
+        {
+          "title": "Inspection and measurement",
+          "list": [
+            "measurement of electrical installations",
+            "system inspection",
+            "fault detection",
+            "assessment of existing electrical systems",
+            "preparing documentation according to project needs"
+          ]
+        },
+        {
+          "title": "Commercial and industrial electrical works",
+          "list": [
+            "new electrical installations",
+            "upgrading existing systems",
+            "electrical works in production facilities",
+            "electrical works in commercial premises",
+            "connecting high-power consumers"
+          ]
+        },
+        {
+          "title": "EV charging electrical solutions",
+          "list": [
+            "power supply for EV chargers",
+            "cabling",
+            "switchboard solutions",
+            "electrical works related to load management",
+            "preparing charging infrastructure"
+          ]
+        }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Competence and registration",
+      "title": "Qualified electrical works",
+      "lead": "HeilAres carries out electrical works based on the relevant competence and registration.",
+      "registry": {
+        "label": "MTR registration",
+        "value": "TEL005181",
+        "note": "Electrical works registration in the Estonian register of economic activities (MTR)."
+      },
+      "competence": {
+        "label": "Competence",
+        "value": "Level 6",
+        "note": "Electrical works are carried out by a team with the relevant competence."
+      }
+    },
+    "future": {
+      "eyebrow": "Future-ready",
+      "title": "An electrical solution ready for tomorrow",
+      "p1": "When designing and building an electrical system it pays to account for the future energy needs of the building or site. Solar panels, battery storage, EV chargers, larger production equipment and other consumers may later require significant rework of the existing system.",
+      "p2": "HeilAres helps plan the electrical solution so that the system can be expanded in the future.",
+      "todayLabel": "Today",
+      "todayValue": "Electrical system",
+      "tomorrowLabel": "Tomorrow",
+      "tomorrowValue": "Solar energy + battery storage + EV charging + larger consumers"
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "How we work",
+      "steps": [
+        {
+          "title": "Consultation",
+          "desc": "We map the site, the existing electrical system and the project needs."
+        },
+        {
+          "title": "Technical solution",
+          "desc": "We prepare a suitable electrical solution and define the scope of works."
+        },
+        {
+          "title": "Installation",
+          "desc": "We carry out the electrical works according to the project and site requirements."
+        },
+        {
+          "title": "Inspection and handover",
+          "desc": "We inspect the completed work and hand over the system according to the project needs."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why HeilAres",
+      "title": "Why HeilAres?",
+      "items": [
+        {
+          "title": "Large-scale project experience",
+          "desc": "HeilAres has taken part in delivering large-scale solar energy projects in Estonia and the Baltics."
+        },
+        {
+          "title": "Qualified electrical works",
+          "desc": "Our electrical works are backed by the company's MTR registration TEL005181 and level 6 competence."
+        },
+        {
+          "title": "Turnkey approach",
+          "desc": "Electrical works can be combined with the whole solar park or energy solution project."
+        },
+        {
+          "title": "Experienced teams",
+          "desc": "Professional installation teams and project-based work organisation."
+        },
+        {
+          "title": "Estonia and Europe",
+          "desc": "We can deliver projects in Estonia and other European countries."
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Projects",
+      "title": "Projects we have taken part in",
+      "lead": "HeilAres has participated in delivering the following large-scale solar energy projects. The exact scope of works varies by project.",
+      "link": "View all projects"
+    },
+    "cta": {
+      "title": "Need an electrical solution for your project?",
+      "subtitle": "Send us the key details of your project and we will review how we can help.",
+      "button": "Request a quote"
+    },
+    "heroAlt": "Electricians connecting solar park inverters and distribution switchboards next to cable trays"
+  },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Frequently asked questions",
@@ -425,6 +609,10 @@
     "panels": {
       "title": "Solar panels — Tracker, ground and rooftop parks | HeilAres",
       "description": "Three core solar installation types for B2B clients. Tier-1 components, experienced crews, megawatt scale."
+    },
+    "electrical": {
+      "title": "Electrical works and installations | HeilAres",
+      "description": "Professional electrical works for solar parks, industrial and commercial projects. Cabling, switchboards, inverters, electrical installations and energy solutions. MTR TEL005181, level 6."
     },
     "workforce": {
       "title": "Workforce rental — Shipbuilding and factories | HeilAres",

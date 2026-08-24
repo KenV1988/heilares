@@ -2,6 +2,7 @@
   "nav": {
     "home": "Avaleht",
     "panels": "Päikesepargid",
+    "electrical": "Elektritööd",
     "workforce": "Tööjõu rent",
     "projects": "Tehtud tööd",
     "blog": "Blogi",
@@ -305,6 +306,189 @@
       }
     }
   },
+  "electricalPage": {
+    "hero": {
+      "title": "Elektritööd päikeseenergia ja tööstusprojektidele",
+      "subtitle": "Professionaalsed elektripaigaldised, kaabeldus, elektrikilbid, inverterite ühendused ja elektrisüsteemide rajamine Eestis ja Euroopas.",
+      "cta": "Küsi pakkumist",
+      "ctaSecondary": "Vaata meie projekte",
+      "badgeRegistry": "Elektritööde MTR registreering TEL005181",
+      "badgeLevel": "Pädevus tase 6"
+    },
+    "services": {
+      "eyebrow": "Teenused",
+      "title": "Elektritööde teenused",
+      "subtitle": "Elektripaigaldised ja elektrisüsteemid päikeseparkidele, tööstusele, ärihoonetele ja suurematele ehitusprojektidele.",
+      "items": [
+        {
+          "title": "Päikeseparkide elektritööd",
+          "list": [
+            "DC-kaabeldus",
+            "AC-kaabeldus",
+            "inverterite ühendamine",
+            "kaablitrassid",
+            "elektrijaotuskilbid",
+            "seadmete ühendamine",
+            "elektripaigaldiste rajamine"
+          ]
+        },
+        {
+          "title": "Elektrikilbid ja jaotussüsteemid",
+          "list": [
+            "elektrijaotuskilbid",
+            "peakilbid",
+            "alajaotuskilbid",
+            "süsteemide laiendamine",
+            "olemasolevate kilpide uuendamine"
+          ]
+        },
+        {
+          "title": "Kaabeldus",
+          "list": [
+            "tugevvoolukaabeldus",
+            "nõrkvoolukaabeldus",
+            "kaablitrassid",
+            "hoonete ja tööstusobjektide kaabeldus",
+            "päikeseparkide kaabeldus"
+          ]
+        },
+        {
+          "title": "Inverterid ja energiasüsteemid",
+          "list": [
+            "inverterite paigaldus",
+            "inverterite elektriline ühendamine",
+            "päikeseenergia süsteemide AC/DC ühendused",
+            "akusalvestite elektrilised ühendused",
+            "energiataristu laiendamine"
+          ]
+        },
+        {
+          "title": "Maandus ja piksekaitse",
+          "list": [
+            "maandussüsteemid",
+            "potentsiaaliühtlustus",
+            "piksekaitsesüsteemid",
+            "elektriohutuse lahendused"
+          ]
+        },
+        {
+          "title": "Elektrisüsteemide kontroll ja mõõdistamine",
+          "list": [
+            "elektripaigaldiste mõõdistamine",
+            "süsteemide kontroll",
+            "rikete tuvastamine",
+            "olemasolevate elektrisüsteemide hindamine",
+            "dokumentatsiooni ettevalmistamine vastavalt projekti vajadustele"
+          ]
+        },
+        {
+          "title": "Äri- ja tööstushoonete elektritööd",
+          "list": [
+            "uute elektripaigaldiste rajamine",
+            "olemasolevate süsteemide uuendamine",
+            "tootmishoonete elektritööd",
+            "äripindade elektritööd",
+            "suure võimsusega elektritarbijate ühendamine"
+          ]
+        },
+        {
+          "title": "EV-laadimise elektrilahendused",
+          "list": [
+            "elektriautode laadijate toide",
+            "kaabeldus",
+            "elektrikilbi lahendused",
+            "koormuse juhtimisega seotud elektritööd",
+            "laadimistaristu ettevalmistus"
+          ]
+        }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Pädevus ja registreering",
+      "title": "Kvalifitseeritud elektritööd",
+      "lead": "HeilAres teostab elektritöid vastava pädevuse ja registreeringu alusel.",
+      "registry": {
+        "label": "MTR registreering",
+        "value": "TEL005181",
+        "note": "Elektritööde majandustegevuse registreering MTR-is."
+      },
+      "competence": {
+        "label": "Pädevus",
+        "value": "Tase 6",
+        "note": "Elektritöid teostab vastava pädevusega meeskond."
+      }
+    },
+    "future": {
+      "eyebrow": "Tulevikukindel lahendus",
+      "title": "Elektrilahendus, mis on valmis ka homseks",
+      "p1": "Elektrisüsteemi projekteerimisel ja rajamisel tasub arvestada hoone või objekti tulevaste energiavajadustega. Päikesepaneelid, akusalvestid, elektriautode laadijad, suuremad tootmisseadmed ja muud elektritarbijad võivad hiljem vajada olemasoleva süsteemi olulist ümbertegemist.",
+      "p2": "HeilAres aitab elektrilahenduse planeerida nii, et süsteemi oleks võimalik tulevikus laiendada.",
+      "todayLabel": "Täna",
+      "todayValue": "Elektrisüsteem",
+      "tomorrowLabel": "Homme",
+      "tomorrowValue": "Päikeseenergia + akusalvesti + EV-laadimine + suuremad elektritarbijad"
+    },
+    "process": {
+      "eyebrow": "Kuidas me töötame",
+      "title": "Kuidas me töötame",
+      "steps": [
+        {
+          "title": "Konsultatsioon",
+          "desc": "Kaardistame objekti, olemasoleva elektrisüsteemi ja projekti vajadused."
+        },
+        {
+          "title": "Tehniline lahendus",
+          "desc": "Koostame sobiva elektrilise lahenduse ja määrame tööde mahu."
+        },
+        {
+          "title": "Paigaldus",
+          "desc": "Teostame elektritööd vastavalt projektile ja objekti nõuetele."
+        },
+        {
+          "title": "Kontroll ja üleandmine",
+          "desc": "Kontrollime tehtud tööd ning viime süsteemi üle vastavalt projekti vajadustele."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Miks HeilAres",
+      "title": "Miks HeilAres?",
+      "items": [
+        {
+          "title": "Suuremahuliste projektide kogemus",
+          "desc": "HeilAres on osalenud suuremahuliste päikeseenergia projektide elluviimisel Eestis ja Baltikumis."
+        },
+        {
+          "title": "Kvalifitseeritud elektritööd",
+          "desc": "Elektritöid toetavad ettevõtte MTR registreering TEL005181 ja tase 6 pädevus."
+        },
+        {
+          "title": "Võtmed kätte lähenemine",
+          "desc": "Elektritööd saab siduda kogu päikesepargi või energialahenduse projektiga."
+        },
+        {
+          "title": "Kogenud meeskonnad",
+          "desc": "Professionaalsed paigaldusmeeskonnad ja projektipõhine töökorraldus."
+        },
+        {
+          "title": "Eesti ja Euroopa",
+          "desc": "Võimalus teostada projekte Eestis ja teistes Euroopa riikides."
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Tehtud tööd",
+      "title": "Projektid, milles oleme osalenud",
+      "lead": "HeilAres on osalenud järgnevate suuremahuliste päikeseenergia projektide elluviimisel. Tööde täpne maht on projektiti erinev.",
+      "link": "Vaata kõiki projekte"
+    },
+    "cta": {
+      "title": "Vajate elektrilahendust oma projektile?",
+      "subtitle": "Saada meile projekti põhiandmed ning vaatame üle, kuidas saame aidata.",
+      "button": "Küsi pakkumist"
+    },
+    "heroAlt": "Elektrikud ühendavad päikesepargi invertereid ja elektrijaotuskilpe kaablitrasside juures"
+  },
   "faq": {
     "eyebrow": "KKK",
     "title": "Korduma kippuvad küsimused",
@@ -427,6 +611,10 @@
     "panels": {
       "title": "Maapark, katusepark ja Solar Tracker Park | HeilAres",
       "description": "HeilAres projekteerib ja ehitab maaparke, katuseparke ja Solar Tracker Park tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
+    },
+    "electrical": {
+      "title": "Elektritööd ja elektripaigaldised | HeilAres",
+      "description": "Professionaalsed elektritööd päikeseparkidele, tööstus- ja äriprojektidele. Kaabeldus, elektrikilbid, inverterid, elektripaigaldised ja energialahendused. MTR TEL005181, tase 6."
     },
     "workforce": {
       "title": "Tööjõu rent | HeilAres",

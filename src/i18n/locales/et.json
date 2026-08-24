@@ -512,7 +512,58 @@
       "subtitle": "Saada meile projekti põhiandmed ning vaatame üle, kuidas saame aidata.",
       "button": "Küsi pakkumist"
     },
-    "heroAlt": "Elektrikud ühendavad päikesepargi invertereid ja elektrijaotuskilpe kaablitrasside juures"
+    "heroAlt": "Elektrikud ühendavad päikesepargi invertereid ja elektrijaotuskilpe kaablitrasside juures",
+    "faq": {
+      "eyebrow": "KKK",
+      "title": "Korduma kippuvad küsimused",
+      "subtitle": "Kõik, mida peaksid teadma HeilAresi elektritööde kohta.",
+      "items": {
+        "scope": {
+          "question": "Milliseid elektritöid HeilAres teostab?",
+          "answer": "Teostame elektripaigaldiste, kaabelduse, elektrikilpide, inverterite ja energiasüsteemidega seotud töid päikeseparkides, tööstus- ja ärihoonetes ning muudel suurematel objektidel."
+        },
+        "existing": {
+          "question": "Kas HeilAres teostab elektritöid ka olemasolevatel objektidel?",
+          "answer": "Jah. Tegeleme nii uute elektripaigaldiste rajamise kui ka olemasolevate elektrisüsteemide uuendamise, laiendamise ja kohandamisega."
+        },
+        "solar": {
+          "question": "Kas teostate päikeseparkide elektritöid?",
+          "answer": "Jah. Päikeseparkide puhul teostame muu hulgas DC- ja AC-kaabeldust, inverterite ühendamist, kaablitrasside ning elektrijaotussüsteemide rajamist vastavalt projekti vajadustele."
+        },
+        "switchboards": {
+          "question": "Kas tegelete ka elektrikilpidega?",
+          "answer": "Jah. Teostame elektrijaotus- ja elektrikilpidega seotud paigaldus-, ühendus-, uuendus- ja laiendustöid."
+        },
+        "industrial": {
+          "question": "Kas teostate elektritöid tööstus- ja ärihoonetes?",
+          "answer": "Jah. Pakume elektritöid tööstus-, lao-, äri- ja muudel suurematel objektidel."
+        },
+        "planning": {
+          "question": "Kas saate aidata ka elektrisüsteemi planeerimisega?",
+          "answer": "Jah. Saame hinnata objekti elektrivajadusi ja aidata kavandada lahendust, mille puhul on võimalik tulevikus lisada näiteks päikeseenergia, akusalvesti, elektriautode laadijad või muud suure võimsusega elektritarbijad."
+        },
+        "ev": {
+          "question": "Kas teostate elektriautode laadijate elektritöid?",
+          "answer": "Jah. Teostame laadijate toite, kaabelduse ja elektrikilpidega seotud elektritöid ning laadimistaristu ettevalmistust."
+        },
+        "registration": {
+          "question": "Kas HeilAresel on elektritööde tegemiseks vajalik registreering?",
+          "answer": "Jah. HeilAresel on elektritööde MTR registreering TEL005181 ning tase 6 pädevus."
+        },
+        "regions": {
+          "question": "Millistes piirkondades HeilAres elektritöid teostab?",
+          "answer": "Teostame projekte Eestis ning vastavalt projekti iseloomule ka mujal Euroopas."
+        },
+        "ordering": {
+          "question": "Kuidas elektritööde tellimine toimub?",
+          "answer": "Alustame projekti ja vajaduste kaardistamisest. Seejärel hindame tööde mahtu, koostame tehnilise lahenduse ja pakkumise ning lepime kokku tööde teostamise."
+        },
+        "quote": {
+          "question": "Kuidas saada elektritöödele pakkumist?",
+          "answer": "Saatke meile projekti või objekti põhiandmed ning võimalusel projekt, joonised või olemasoleva süsteemi info. Seejärel saame hinnata tööde mahtu ja koostada pakkumise."
+        }
+      }
+    }
   },
   "faq": {
     "eyebrow": "KKK",

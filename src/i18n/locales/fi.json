@@ -512,7 +512,58 @@
       "subtitle": "Lähetä meille projektin perustiedot, niin katsomme miten voimme auttaa.",
       "button": "Pyydä tarjous"
     },
-    "heroAlt": "Sähköasentajat kytkevät aurinkopuiston inverttereitä ja sähkökeskuksia kaapelihyllyjen äärellä"
+    "heroAlt": "Sähköasentajat kytkevät aurinkopuiston inverttereitä ja sähkökeskuksia kaapelihyllyjen äärellä",
+    "faq": {
+      "eyebrow": "UKK",
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Kaikki, mitä sinun tarvitsee tietää HeilAresin sähkötöistä.",
+      "items": {
+        "scope": {
+          "question": "Millaisia sähkötöitä HeilAres tekee?",
+          "answer": "Teemme sähköasennuksia, kaapelointeja, sähkökeskuksia, inverttereitä ja energiajärjestelmiin liittyviä töitä aurinkopuistoissa, teollisuus- ja liiketiloissa sekä muilla suurilla kohteilla."
+        },
+        "existing": {
+          "question": "Tekeekö HeilAres sähkötöitä myös olemassa olevilla kohteilla?",
+          "answer": "Kyllä. Teemme sekä uusien sähköasennusten rakentamista että olemassa olevien sähköjärjestelmien päivitystä, laajentamista ja mukauttamista."
+        },
+        "solar": {
+          "question": "Tekeekö teette sähkötöitä aurinkopuistoille?",
+          "answer": "Kyllä. Aurinkopuistojen osalta teemme muun muassa DC- ja AC-kaapelointia, invertterien kytkentää, kaapelireittien ja sähköjakojärjestelmien rakentamista projektin tarpeiden mukaisesti."
+        },
+        "switchboards": {
+          "question": "Tekeekö teette myös sähkökeskuksia?",
+          "answer": "Kyllä. Teemme sähköjako- ja sähkökeskuksiin liittyviä asennus-, kytkentä-, päivitys- ja laajennustöitä."
+        },
+        "industrial": {
+          "question": "Tekeekö teette sähkötöitä teollisuus- ja liiketiloissa?",
+          "answer": "Kyllä. Tarjoamme sähkötöitä teollisuus-, varasto-, liike- ja muilla suurilla kohteilla."
+        },
+        "planning": {
+          "question": "Voitteko auttaa myös sähköjärjestelmän suunnittelussa?",
+          "answer": "Kyllä. Voimme arvioida kohteen sähkötarpeita ja auttaa suunnittelemaan ratkaisun, jonka pohjalta on mahdollista lisätä tulevaisuudessa esimerkiksi aurinkoenergiaa, akkuvarastoa, sähköautojen latauslaitteita tai muita suuritehoisia sähkönkuluttajia."
+        },
+        "ev": {
+          "question": "Tekeekö teette sähköautojen latauslaitteiden sähkötöitä?",
+          "answer": "Kyllä. Teemme latauslaitteiden syöttöön, kaapelointiin ja sähkökeskuksiin liittyviä sähkötöitä sekä latausinfrastruktuurin valmistelua."
+        },
+        "registration": {
+          "question": "Onko HeilAresilla sähkötöiden tekemiseen vaadittava rekisteröinti?",
+          "answer": "Kyllä. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181 ja taso 6 pätevyys."
+        },
+        "regions": {
+          "question": "Millä alueilla HeilAres tekee sähkötöitä?",
+          "answer": "Teemme projekteja Virossa ja projektin luonteesta riippuen myös muualla Euroopassa."
+        },
+        "ordering": {
+          "question": "Miten sähkötöiden tilaus toimii?",
+          "answer": "Aloitamme projektin ja tarpeiden kartoittamisesta. Tämän jälkeen arvioimme töiden laajuuden, laadimme teknisen ratkaisun ja tarjouksen sekä sovimme töiden toteutuksesta."
+        },
+        "quote": {
+          "question": "Miten saada sähkötöille tarjous?",
+          "answer": "Lähetä meille projektin tai kohteen perustiedot ja mahdollisuuksien mukaan projekti, piirustukset tai olemassa olevan järjestelmän tiedot. Tämän jälkeen voimme arvioida töiden laajuuden ja laatia tarjouksen."
+        }
+      }
+    }
   },
   "faq": {
     "eyebrow": "UKK",

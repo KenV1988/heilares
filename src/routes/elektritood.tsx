@@ -56,6 +56,8 @@ const SERVICE_ICONS = [
   PlugZap,
 ] as const;
 
+const WHY_ICONS = [Layers, BadgeCheck, Award, Cpu, Building2] as const;
+
 interface ServiceItem {
   title: string;
   list: string[];

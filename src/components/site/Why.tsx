@@ -48,6 +48,11 @@ export function Why() {
                   <p className="mt-2 text-[15px] leading-[1.6] text-white/65">
                     {t(`why.items.${key}.desc`)}
                   </p>
+                  {key === "competence" && (
+                    <span className="mt-3 inline-flex items-center rounded-md border border-[var(--gold)]/30 bg-[var(--gold)]/10 px-3 py-1.5 font-mono text-[13px] font-semibold tracking-wide text-[var(--gold-light)]">
+                      {t("why.items.competence.mtr")}
+                    </span>
+                  )}
                 </div>
               </div>
             </Reveal>

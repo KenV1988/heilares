@@ -80,7 +80,7 @@ export function Footer() {
                   <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
                   <div>
                     <div className="font-medium text-white">{c.name}</div>
-                    <div className="text-xs text-white/55">{c.area}</div>
+                    <div className="text-xs text-white/55">{t(c.areaKey)}</div>
                     <a href={c.phoneHref} className="mt-0.5 inline-block hover:text-[var(--brand)]">
                       {c.phone}
                     </a>

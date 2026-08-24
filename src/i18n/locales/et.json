@@ -554,7 +554,8 @@
           "title": "Eesti ja Euroopa",
           "desc": "Võimalus teostada projekte Eestis ja teistes Euroopa riikides."
         }
-      ]
+      ],
+      "subtitle": "HeilAres teeb elektritöid, mida toetab MTR pädevus ja aastatepikkune kogemus suurtes projektides."
     },
     "projects": {
       "eyebrow": "Tehtud tööd",

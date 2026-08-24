@@ -44,6 +44,11 @@ if (!i18n.isInitialized) {
     interpolation: { escapeValue: false },
     react: { useSuspense: false },
   });
+} else {
+  // Ensure resources are up-to-date after HMR in dev (prevents missing-key hydration mismatch)
+  i18n.addResourceBundle("et", "translation", et, true, true);
+  i18n.addResourceBundle("en", "translation", en, true, true);
+  i18n.addResourceBundle("fi", "translation", fi, true, true);
 
   if (typeof window !== "undefined") {
     i18n.on("languageChanged", (lng) => {

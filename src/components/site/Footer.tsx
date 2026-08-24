@@ -130,7 +130,8 @@ export function Footer() {
           className="mt-12 grid grid-cols-1 items-center gap-3 border-t pt-5 text-xs text-white/45 md:grid-cols-3"
           style={goldDivider}
         >
-          <div className="flex gap-2.5 md:justify-start justify-center">
+          {/* Social icons hidden until real profile links are available */}
+          <div className="hidden gap-2.5 md:justify-start justify-center">
             {socials.map(({ Icon, href, label }) => (
               <a
                 key={label}

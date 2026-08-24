@@ -329,6 +329,61 @@
         "lead": "Solar Tracker Park annavad keskmiselt 15–25% rohkem energiat kui samasuurused fikseeritud maapargid.",
         "answer": "Täpne kasv sõltub asukohast, laiuskraadist ja kohalikest ilmastikutingimustest. Põhja-Euroopa tingimustes on tüüpiline kasv 20% kandis."
       }
+    },
+    "faq": {
+      "eyebrow": "KKK",
+      "title": "Korduma kippuvad küsimused",
+      "subtitle": "Kõik, mida peaksid teadma HeilAresi päikeseparkide kohta.",
+      "items": {
+        "types": {
+          "question": "Millist tüüpi päikeseparke HeilAres paigaldab?",
+          "answer": "Paigaldame maapealseid päikeseparke, tööstus- ja ärihoonete katuseparke ning ühe-teljelisi Solar Tracker Park lahendusi. Töötame nii Eestis kui ka rahvusvahelistel projektidel."
+        },
+        "capacity": {
+          "question": "Kui suure võimsusega päikeseparke HeilAres paigaldab?",
+          "answer": "Teostame nii mõne megavati suuruseid projekte kui ka suuremahulisi, sadade megavattide suuruseid päikeseparke. Meie meeskonnad on osalenud näiteks 76 MW Kirikmäe, 72,5 MW Stelpe ja 244 MW Risti Solar Tracker Park projektidel."
+        },
+        "turnkey": {
+          "question": "Kas HeilAres pakub päikesepargi paigaldust võtmed kätte lahendusena?",
+          "answer": "Jah. Sõltuvalt projektist hõlmab teenus konstruktsioonide, päikesepaneelide, DC-kaabelduse ja inverteritega seotud paigaldustöid. Projekti täpne töömaht määratakse vastavalt projektile ja kokkuleppele."
+        },
+        "roof": {
+          "question": "Kas HeilAres paigaldab päikeseparke ka katustele?",
+          "answer": "Jah. Paigaldame päikeseparke tööstus-, lao- ja ärihoonete katustele. Enne paigaldust tuleb hinnata katuse konstruktsiooni ja sobivust päikesepaneelide paigaldamiseks."
+        },
+        "tracker": {
+          "question": "Mis on Solar Tracker Park ja millal seda kasutada?",
+          "answer": "Solar Tracker Park kasutab ühe-teljelisi jälgimissüsteeme, mis muudavad paneelide asendit vastavalt päikese liikumisele. Lahendus sobib eelkõige suurtele avatud maa-aladele, kus on piisavalt ruumi jälgimissüsteemide kasutamiseks."
+        },
+        "land": {
+          "question": "Kui palju maad on päikesepargi jaoks vaja?",
+          "answer": "Vajalik maa-ala sõltub planeeritavast võimsusest, paneelide tehnoloogiast, konstruktsioonist, maa kujust, ridade paigutusest ja muudest projektitingimustest. Täpne vajadus selgub projekti kavandamise käigus."
+        },
+        "suitability": {
+          "question": "Kas HeilAres aitab hinnata, kas minu maa või katus sobib päikesepargiks?",
+          "answer": "Jah. Projekti alustamisel hindame objekti tingimusi, olemasolevat taristut ja planeeritava lahenduse tehnilisi vajadusi."
+        },
+        "components": {
+          "question": "Milliseid päikesepaneele ja invertereid kasutate?",
+          "answer": "HeilAres töötab Tier-1 tootjatega ning valitavad komponendid sõltuvad konkreetse projekti tehnilistest ja majanduslikest nõuetest."
+        },
+        "electrical": {
+          "question": "Kas HeilAres teostab ka elektritöid?",
+          "answer": "Jah. Elektritöödega seotud lahendused võivad hõlmata muu hulgas DC- ja AC-kaabeldust ning inverterite ühendamist. HeilAresel on elektritööde MTR registreering TEL005181 ja tase 6 pädevus."
+        },
+        "countries": {
+          "question": "Millistes riikides HeilAres päikeseparke paigaldab?",
+          "answer": "HeilAres tegutseb Eestis, Lätis ja vastavalt projektile ka mujal Euroopas."
+        },
+        "quote": {
+          "question": "Kui kiiresti saan päikesepargi projektile pakkumise?",
+          "answer": "Saada meile objekti asukoht, planeeritav võimsus ja olemasolev projektiinfo. Seejärel saame hinnata tööde mahtu ja koostada pakkumise."
+        },
+        "start": {
+          "question": "Kuidas alustada päikesepargi projektiga?",
+          "answer": "Kõige lihtsam on saata meile projekti põhiandmed. Kaardistame vajadused, hindame objekti ja paneme kokku sobiva tehnilise lahenduse ning pakkumise."
+        }
+      }
     }
   },
   "electricalPage": {

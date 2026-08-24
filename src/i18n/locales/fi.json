@@ -329,6 +329,61 @@
         "lead": "Solar Tracker Park tuottavat keskimäärin 15–25% enemmän energiaa kuin samankokoiset kiinteät maapuistot.",
         "answer": "Tarkka nousu riippuu sijainnista, leveysasteesta ja paikallisesta säästä. Pohjois-Euroopan oloissa tyypillinen nousu on noin 20%."
       }
+    },
+    "faq": {
+      "eyebrow": "UKK",
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Kaikki, mitä sinun tarvitsee tietää HeilAresin aurinkopuistoista.",
+      "items": {
+        "types": {
+          "question": "Minkä tyyppisiä aurinkopuistoja HeilAres asentaa?",
+          "answer": "Asennamme maahan asennettavia aurinkopuistoja, teollisuus- ja liikerakennusten kattopuistoja sekä yksiakselisia Solar Tracker Park -ratkaisuja. Työskentelemme sekä Virossa että kansainvälisissä projekteissa."
+        },
+        "capacity": {
+          "question": "Kuinka suuria aurinkopuistoja HeilAres asentaa?",
+          "answer": "Toteutamme projekteja muutamasta megawatista suuren mittakaavan, satojen megavattien aurinkopuistoihin. Tiimimme ovat osallistuneet esimerkiksi 76 MW Kirikmäen, 72,5 MW Stelpen ja 244 MW Ristin Solar Tracker Park -projekteihin."
+        },
+        "turnkey": {
+          "question": "Tarjoaako HeilAres aurinkopuiston asennuksen avaimet käten -ratkaisuna?",
+          "answer": "Kyllä. Projektista riippuen palvelu kattaa rakenteiden, paneelien, DC-kaapeloinnin ja inverttereiden asennustyöt. Työn tarkka laajuus määritetään projektin ja sopimuksen mukaan."
+        },
+        "roof": {
+          "question": "Asentaako HeilAres aurinkopuistoja myös katoille?",
+          "answer": "Kyllä. Asennamme aurinkopuistoja teollisuus-, varasto- ja liikerakennusten katoille. Ennen asennusta on arvioitava katon rakenne ja sopivuus aurinkopaneelien asennukseen."
+        },
+        "tracker": {
+          "question": "Mikä on Solar Tracker Park ja milloin sitä kannattaa käyttää?",
+          "answer": "Solar Tracker Park käyttää yksiakselisia seurantajärjestelmiä, jotka muuttavat paneelien asentoa auringon liikkeen mukaan. Ratkaisu sopii erityisesti suurille avoimille alueille, joissa on riittävästi tilaa seurantajärjestelmien käyttöön."
+        },
+        "land": {
+          "question": "Kuinka paljon maata aurinkopuisto tarvitsee?",
+          "answer": "Tarvittava maa-ala riippuu suunnitellusta tehosta, paneeliteknologiasta, rakenteesta, maan muodosta, rivien asettelusta ja muista projektiolosuhteista. Tarkka tarve selviää projektin suunnittelun yhteydessä."
+        },
+        "suitability": {
+          "question": "Auttaako HeilAres arvioimaan, sopivatko maani tai kattoni aurinkopuistoon?",
+          "answer": "Kyllä. Projektin alussa arvioimme kohteen olosuhteet, olemassa olevan infrastruktuurin ja suunnitellun ratkaisun tekniset tarpeet."
+        },
+        "components": {
+          "question": "Mitä aurinkopaneeleja ja inverttereitä käytätte?",
+          "answer": "HeilAres työskentelee Tier-1-valmistajien kanssa, ja valitut komponentit riippuvat kunkin projektin teknisistä ja taloudellisista vaatimuksista."
+        },
+        "electrical": {
+          "question": "Tekeekö HeilAres myös sähkötyöt?",
+          "answer": "Kyllä. Sähkötyöihin liittyvät ratkaisut voivat kattaa muun muassa DC- ja AC-kaapeloinnin sekä inverttereiden kytkennän. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181 ja tason 6 pätevyys."
+        },
+        "countries": {
+          "question": "Missä maissa HeilAres asentaa aurinkopuistoja?",
+          "answer": "HeilAres toimii Virossa, Latviassa ja projektin mukaan myös muualla Euroopassa."
+        },
+        "quote": {
+          "question": "Kuinka nopeasti saan aurinkopuistoprojektille tarjouksen?",
+          "answer": "Lähetä meille kohteen sijainti, suunniteltu teho ja olemassa oleva projektitieto. Sen jälkeen voimme arvioida työmäärän ja laatia tarjouksen."
+        },
+        "start": {
+          "question": "Miten aloitan aurinkopuistoprojektin?",
+          "answer": "Helpointa on lähettää meille projektin perustiedot. Kartoitamme tarpeet, arvioimme kohteen ja laadimme sopivan teknisen ratkaisun ja tarjouksen."
+        }
+      }
     }
   },
   "electricalPage": {

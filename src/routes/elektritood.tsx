@@ -358,6 +358,8 @@ function ElectricalPage() {
         </div>
       </section>
 
+      <ElectricalFAQ />
+
       <QuoteModal open={open} onOpenChange={setOpen} />
     </SiteLayout>
   );

@@ -1170,7 +1170,7 @@ const electricalWorks: BlogPost = {
   },
 };
 
-export const blogPosts: BlogPost[] = [
+const allPosts: BlogPost[] = [
   workforceFactory,
   workforceShipbuilding,
   epcPartner,
@@ -1181,6 +1181,10 @@ export const blogPosts: BlogPost[] = [
   maintenance,
   electricalWorks,
 ];
+
+export const blogPosts: BlogPost[] = [...allPosts].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+);
 
 export function getBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);

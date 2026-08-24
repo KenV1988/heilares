@@ -110,6 +110,9 @@ function BlogIndex() {
                       {post.readMinutes} {t("blog.minutes")}
                     </span>
                   </div>
+                  <span className="mt-3 inline-flex w-fit rounded-full border border-[rgba(214,178,106,0.35)] bg-[rgba(214,178,106,0.08)] px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-[var(--gold)]">
+                    {t(`blog.filters.${post.category}`)}
+                  </span>
                   <h2 className="mt-3 text-xl font-bold text-white">{c.title}</h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">
                     {c.summary}

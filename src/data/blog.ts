@@ -6,6 +6,7 @@ import timelineCover from "@/assets/blog/timeline.jpg";
 import tier1Cover from "@/assets/blog/tier1.jpg";
 import maintenanceCover from "@/assets/blog/maintenance.jpg";
 import electricalCover from "@/assets/blog/electrical-works.jpg";
+import { workforceFactory, workforceShipbuilding } from "./blog-workforce";
 
 export interface BlogSection {
   heading: string;
@@ -26,7 +27,13 @@ export interface BlogPostContent {
   faqs: BlogFAQ[];
 }
 
-export type BlogCategory = "epc" | "park_types" | "components" | "maintenance" | "electrical";
+export type BlogCategory =
+  | "epc"
+  | "park_types"
+  | "components"
+  | "maintenance"
+  | "electrical"
+  | "workforce";
 
 export interface BlogPost {
   slug: string;
@@ -1164,6 +1171,8 @@ const electricalWorks: BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  workforceFactory,
+  workforceShipbuilding,
   epcPartner,
   parkTypes,
   turnkey,

@@ -676,8 +676,10 @@
       "park_types": "Park types",
       "components": "Components",
       "maintenance": "Maintenance",
-      "electrical": "Electrical works"
-    }
+      "electrical": "Electrical works",
+      "workforce": "Workforce rental"
+    },
+    "category": "Category"
   },
   "seo": {
     "home": {

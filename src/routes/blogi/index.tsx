@@ -33,6 +33,7 @@ const ALL_FILTERS: (BlogCategory | "all")[] = [
   "components",
   "maintenance",
   "electrical",
+  "workforce",
 ];
 
 function BlogIndex() {

@@ -676,8 +676,10 @@
       "park_types": "Puistotyypit",
       "components": "Komponentit",
       "maintenance": "Huolto",
-      "electrical": "Sähkötöitä"
-    }
+      "electrical": "Sähkötöitä",
+      "workforce": "Työvoiman vuokraus"
+    },
+    "category": "Kategoria"
   },
   "seo": {
     "home": {

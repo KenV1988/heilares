@@ -382,3 +382,17 @@ function ElectricalPage() {
     </SiteLayout>
   );
 }
+
+/** Render "Miks HeilAres?" with the brand word in gradient. */
+function renderWhyTitle(title: string) {
+  const match = title.match(/^(.*?)(HeilAres)(.*)$/i);
+  if (!match) return title;
+  const [, before, brand, after] = match;
+  return (
+    <>
+      {before}
+      <span className="text-gradient">{brand}</span>
+      {after}
+    </>
+  );
+}

@@ -7,6 +7,7 @@ import stelpe1 from "@/assets/projects/stelpe-1.jpg";
 import stelpe2 from "@/assets/projects/stelpe-2.jpg";
 import stelpe3 from "@/assets/projects/stelpe-3.jpg";
 import lielvarde1 from "@/assets/projects/lielvarde-paikesepark-1.jpg";
+import bls1 from "@/assets/projects/bls-1.webp.asset.json";
 
 export type ProjectCategory = "tracker_park" | "maapark" | "katusepark";
 
@@ -37,10 +38,6 @@ const sharedDesc = {
   en: "We delivered the mounting structure, panel installation and DC works together with the inverter.",
   fi: "Toteutimme rakenteen asennuksen, paneelien asennuksen sekä DC-työt invertterin kanssa.",
 };
-
-// Placeholder for projects without dedicated photos yet
-const groundPlaceholder = "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1600&q=80";
-const roofPlaceholder = "https://images.unsplash.com/photo-1611365892117-bce8a45f1f4e?auto=format&fit=crop&w=1600&q=80";
 
 export const projects: Project[] = [
   {
@@ -107,10 +104,10 @@ export const projects: Project[] = [
     category: "katusepark",
     location: "Eesti",
     yearCompleted: 2023,
-    coverImage: roofPlaceholder,
-    coverAlt: "BLS katusepark Eestis — päikesepaneelid tööstushoone katusel",
+    coverImage: bls1.url,
+    coverAlt: "BLS Baltic Logistic Solutions logistikakeskuse fassaad Tallinnas, katusele paigaldatud päikesepargi objekt",
     gallery: [
-      { src: roofPlaceholder, alt: "BLS katusepark Eestis — päikesepaneelid tööstushoone katusel" },
+      { src: bls1.url, alt: "BLS Baltic Logistic Solutions logistikakeskuse fassaad Tallinnas, katusele paigaldatud päikesepargi objekt" },
     ],
     title: {
       et: "BLS päikesepark",

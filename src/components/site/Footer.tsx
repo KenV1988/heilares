@@ -19,11 +19,12 @@ export function Footer() {
   const goldDivider = { borderColor: "rgba(214,178,106,0.18)" };
 
   const directions = [
-    { label: "Roheenergia", to: "/paikesepargid" as const, accent: false },
-    { label: "Tööjõu rent", to: "/toojou-rent" as const, accent: false },
-    { label: "Tehtud tööd", to: "/tehtud-tood" as const, accent: false },
-    { label: "Küsi pakkumist", to: "/kontakt" as const, accent: true },
+    { label: t("footer.dirGreen"), to: "/paikesepargid" as const, accent: false },
+    { label: t("footer.dirWorkforce"), to: "/toojou-rent" as const, accent: false },
+    { label: t("footer.dirWorks"), to: "/tehtud-tood" as const, accent: false },
+    { label: t("footer.dirQuote"), to: "/kontakt" as const, accent: true },
   ];
+
 
   const Diamond = () => (
     <span
@@ -79,7 +80,7 @@ export function Footer() {
                   <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
                   <div>
                     <div className="font-medium text-white">{c.name}</div>
-                    <div className="text-xs text-white/55">{c.area}</div>
+                    <div className="text-xs text-white/55">{t(c.areaKey)}</div>
                     <a href={c.phoneHref} className="mt-0.5 inline-block hover:text-[var(--brand)]">
                       {c.phone}
                     </a>
@@ -100,7 +101,7 @@ export function Footer() {
           {/* Suunad */}
           <div className="md:pt-[24px]">
             <h4 className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
-              Suunad
+              {t("footer.directions")}
             </h4>
             <ul className="mt-4 space-y-2.5 text-sm">
               {directions.map((d) => (

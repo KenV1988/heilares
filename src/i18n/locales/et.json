@@ -383,7 +383,12 @@
     "services": "Teenused",
     "contactCol": "Kontakt",
     "rights": "Kõik õigused kaitstud",
-    "social": "Sotsiaalmeedia"
+    "social": "Sotsiaalmeedia",
+    "directions": "Suunad",
+    "dirGreen": "Roheenergia",
+    "dirWorkforce": "Tööjõu rent",
+    "dirWorks": "Tehtud tööd",
+    "dirQuote": "Küsi pakkumist"
   },
   "quote": {
     "title": "Küsi pakkumist",
@@ -433,5 +438,9 @@
       "title": "Päikeseenergia blogi arendajatele | HeilAres",
       "description": "Nõuanded ja teadmised päikeseparkide ehitusest, EPC-teenusest ja tööjõu rendist. HeilArese blogi."
     }
+  },
+  "roles": {
+    "workforce": "Tööjõu rent",
+    "greenEnergy": "Roheenergia"
   }
 }

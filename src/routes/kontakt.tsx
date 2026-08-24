@@ -82,7 +82,7 @@ function ContactPage() {
                   <div className="min-w-0">
                     <div className="text-lg font-semibold text-white">{c.name}</div>
                     <div className="mt-0.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--brand)]">
-                      {c.area}
+                      {t(c.areaKey)}
                     </div>
                     <a
                       href={c.phoneHref}

@@ -66,6 +66,31 @@
     },
     "cta": "Learn more about workforce rental"
   },
+  "electricalSection": {
+    "eyebrow": "ELECTRICAL WORKS",
+    "title": "Electrical works for solar parks and industry",
+    "subtitle": "Professional electrical installations, cabling, switchboards and inverter connections for solar parks, industry and commercial buildings.",
+    "badge": "MTR TEL005181 · Competence level 6",
+    "items": {
+      "solar": {
+        "title": "Solar park electrical works",
+        "desc": "DC/AC cabling, inverter connections and distribution switchboards in large-scale solar parks."
+      },
+      "switchboards": {
+        "title": "Switchboards and distribution systems",
+        "desc": "Main switchboards, sub-distribution boards and expansion or upgrading of existing systems."
+      },
+      "cabling": {
+        "title": "Cabling",
+        "desc": "High- and low-current cabling, cable routes and solar park cabling."
+      },
+      "inverters": {
+        "title": "Inverters and energy systems",
+        "desc": "Inverter installation and connection, AC/DC solutions and electrical connections for battery storage."
+      }
+    },
+    "cta": "Learn more about electrical works"
+  },
   "workforcePage": {
     "hero": {
       "title": "Workforce rental",

@@ -19,11 +19,12 @@ export function Footer() {
   const goldDivider = { borderColor: "rgba(214,178,106,0.18)" };
 
   const directions = [
-    { label: "Roheenergia", to: "/paikesepargid" as const, accent: false },
-    { label: "Tööjõu rent", to: "/toojou-rent" as const, accent: false },
-    { label: "Tehtud tööd", to: "/tehtud-tood" as const, accent: false },
-    { label: "Küsi pakkumist", to: "/kontakt" as const, accent: true },
+    { label: t("footer.dirGreen"), to: "/paikesepargid" as const, accent: false },
+    { label: t("footer.dirWorkforce"), to: "/toojou-rent" as const, accent: false },
+    { label: t("footer.dirWorks"), to: "/tehtud-tood" as const, accent: false },
+    { label: t("footer.dirQuote"), to: "/kontakt" as const, accent: true },
   ];
+
 
   const Diamond = () => (
     <span

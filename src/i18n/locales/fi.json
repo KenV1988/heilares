@@ -66,6 +66,31 @@
     },
     "cta": "Lue lisää työvoiman vuokrauksesta"
   },
+  "electricalSection": {
+    "eyebrow": "SÄHKÖTYÖT",
+    "title": "Sähkötyöt aurinkopuistoille ja teollisuudelle",
+    "subtitle": "Ammattimaiset sähköasennukset, kaapelointi, sähkökeskukset ja inverttereiden kytkennät aurinkopuistoille, teollisuudelle ja liikekiinteistöille.",
+    "badge": "MTR TEL005181 · Pätevyys taso 6",
+    "items": {
+      "solar": {
+        "title": "Aurinkopuistojen sähkötyöt",
+        "desc": "DC/AC-kaapelointi, inverttereiden kytkentä ja sähkönjakokeskukset suurissa aurinkopuistoissa."
+      },
+      "switchboards": {
+        "title": "Sähkökeskukset ja jakelujärjestelmät",
+        "desc": "Pääkeskukset, alakeskukset ja olemassa olevien järjestelmien laajentaminen ja uusiminen."
+      },
+      "cabling": {
+        "title": "Kaapelointi",
+        "desc": "Vahva- ja heikkovirtakaapelointi, kaapelireitit ja aurinkopuistojen kaapelointi."
+      },
+      "inverters": {
+        "title": "Invertterit ja energiajärjestelmät",
+        "desc": "Inverttereiden asennus ja kytkentä, AC/DC-ratkaisut ja akkuvarastojen sähkökytkennät."
+      }
+    },
+    "cta": "Lue lisää sähkötöistä"
+  },
   "workforcePage": {
     "hero": {
       "title": "Työvoiman vuokraus",

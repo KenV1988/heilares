@@ -66,6 +66,31 @@
     },
     "cta": "Loe tööjõu rendist lähemalt"
   },
+  "electricalSection": {
+    "eyebrow": "ELEKTRITÖÖD",
+    "title": "Elektritööd päikeseparkidele ja tööstusele",
+    "subtitle": "Professionaalsed elektripaigaldised, kaabeldus, elektrikilbid ja inverterite ühendused päikeseparkidele, tööstusele ja ärihoonetele.",
+    "badge": "MTR TEL005181 · Pädevus tase 6",
+    "items": {
+      "solar": {
+        "title": "Päikeseparkide elektritööd",
+        "desc": "DC/AC-kaabeldus, inverterite ühendamine ja elektrijaotuskilbid suuremahulistes päikeseparkides."
+      },
+      "switchboards": {
+        "title": "Elektrikilbid ja jaotussüsteemid",
+        "desc": "Peakilbid, alajaotuskilbid ja olemasolevate süsteemide laiendamine ning uuendamine."
+      },
+      "cabling": {
+        "title": "Kaabeldus",
+        "desc": "Tugev- ja nõrkvoolukaabeldus, kaablitrassid ning päikeseparkide kaabeldus."
+      },
+      "inverters": {
+        "title": "Inverterid ja energiasüsteemid",
+        "desc": "Inverterite paigaldus ja ühendamine, AC/DC-lahendused ning akusalvestite elektrilised ühendused."
+      }
+    },
+    "cta": "Loe elektritöödest lähemalt"
+  },
   "workforcePage": {
     "hero": {
       "title": "Tööjõu rent",

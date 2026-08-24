@@ -383,7 +383,12 @@
     "services": "Palvelut",
     "contactCol": "Yhteystiedot",
     "rights": "Kaikki oikeudet pidätetään",
-    "social": "Sosiaalinen media"
+    "social": "Sosiaalinen media",
+    "directions": "Osa-alueet",
+    "dirGreen": "Vihreä energia",
+    "dirWorkforce": "Työvoiman vuokraus",
+    "dirWorks": "Tehdyt työt",
+    "dirQuote": "Pyydä tarjous"
   },
   "quote": {
     "title": "Pyydä tarjous",
@@ -431,5 +436,9 @@
       "title": "Blogi — Aurinkoenergian tietopankki | HeilAres",
       "description": "B2B-suuntautuneita artikkeleita aurinkopuistojen EPC:stä, avaimet käteen -rakentamisesta, Tier-1-paneeleista ja O&M:stä."
     }
+  },
+  "roles": {
+    "workforce": "Työvoiman vuokraus",
+    "greenEnergy": "Vihreä energia"
   }
 }

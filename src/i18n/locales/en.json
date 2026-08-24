@@ -383,7 +383,12 @@
     "services": "Services",
     "contactCol": "Contact",
     "rights": "All rights reserved",
-    "social": "Social"
+    "social": "Social",
+    "directions": "Focus areas",
+    "dirGreen": "Green energy",
+    "dirWorkforce": "Workforce rental",
+    "dirWorks": "Completed works",
+    "dirQuote": "Request a quote"
   },
   "quote": {
     "title": "Request a quote",
@@ -431,5 +436,9 @@
       "title": "Blog — Solar energy knowledge base | HeilAres",
       "description": "B2B-focused articles on solar park EPC, turnkey construction, Tier-1 panels and O&M."
     }
+  },
+  "roles": {
+    "workforce": "Workforce rental",
+    "greenEnergy": "Green energy"
   }
 }

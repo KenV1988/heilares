@@ -14,6 +14,8 @@ import {
   Gauge,
   Building2,
   PlugZap,
+  Layers,
+  Award,
 } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";

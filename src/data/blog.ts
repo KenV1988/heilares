@@ -5,6 +5,7 @@ import turnkeyCover from "@/assets/blog/turnkey.jpg";
 import timelineCover from "@/assets/blog/timeline.jpg";
 import tier1Cover from "@/assets/blog/tier1.jpg";
 import maintenanceCover from "@/assets/blog/maintenance.jpg";
+import electricalCover from "@/assets/blog/electrical-works.jpg";
 
 export interface BlogSection {
   heading: string;
@@ -25,7 +26,7 @@ export interface BlogPostContent {
   faqs: BlogFAQ[];
 }
 
-export type BlogCategory = "epc" | "park_types" | "components" | "maintenance";
+export type BlogCategory = "epc" | "park_types" | "components" | "maintenance" | "electrical";
 
 export interface BlogPost {
   slug: string;
@@ -969,6 +970,199 @@ const maintenance: BlogPost = {
   },
 };
 
+// ─────────────────────────────────────────────────────────────────────────
+// 7. Electrical works
+// ─────────────────────────────────────────────────────────────────────────
+const electricalWorks: BlogPost = {
+  slug: "elektritood-paikeseparkides-ja-toostuses",
+  category: "electrical",
+  date: "2026-08-24",
+  readMinutes: 7,
+  cover: electricalCover,
+  content: {
+    et: {
+      title: "Elektritööd päikeseparkides ja tööstuses — mida peab teadma",
+      summary:
+        "Praktiline ülevaade elektritööde ulatusest päikeseparkides ja tööstusobjektidel: MTR-pädevus, kesk- ja madalpinge, komisoneerimine ja lepingu tingimused.",
+      lead:
+        "Elektritööd on päikesepargi ja tööstusobjekti südameks — mitte ainult paneelide ja inverterite ühendamine, vaid kogu kesk- ja madalpinge infrastruktuuri projekteerimine, ehitus, testimine ja komisoneerimine vastavalt kehtivatele standarditele.",
+      sections: [
+        {
+          heading: "Miks elektritööd määravad projekti kvaliteedi?",
+          paragraphs: [
+            "Päikesepargi tootlikkus ja ohutus sõltuvad otseselt elektritööde kvaliteedist. Halbade ühenduste, alamõõdetud kaablite või vigase kaitseloogika tõttu tekivad kaod, rikked ja ohutusohud, mis võivad maksta korda mitu korda rohkem kui kvaliteetne esmane lahendus.",
+            "Tööstusobjektidel lisandub katkestusteta toite ja protsessiautomaatika nõue — elektritööd peavad arvestama olemasoleva jaotusvõrgu, varutoite ja juhtimissüsteemidega. Vigane liitumine võib peatada tootmise või kahjustada seadmeid.",
+          ],
+        },
+        {
+          heading: "Millist pädevust elektritööd eeldavad?",
+          paragraphs: [
+            "Eestis peab elektritöid tegema vastava pädevuse ja MTR-registreeringuga meeskond. HeilAresi elektritöid teostab MTR-registreeringuga (TEL005181, Tase 6) meeskond, mis lubab tegutseda kuni 35 kV keskpingel ja täismahus madalpingel.",
+            "Tase 6 pädevus tähendab, et meeskond vastutab nii projekteerimuse, paigalduse kui ka komisoneerimise eest ning annab dokumenteeritud garantsii oma tööle. See on eriti oluline investeerijatele ja kindlustusandjatele, kes nõuavad tõendatud pädevust.",
+          ],
+        },
+        {
+          heading: "Millised tööd kuuluvad päikesepargi elektriosasse?",
+          paragraphs: [
+            "DC-poolel: paneelide omavaheline ühendamine, stringikaablite viimine komutatsioonini, ühendus inverterisse ja DC-kaitse. AC-poolel: inverterite väljundite komutatsioon, trafoki ühendus, keskpinge liitumine ja kaitserelief.",
+            "Lisaks tuleb ehitada juhtimis- ja monitooringusüsteem (SCADA), mis annab operaatorile reaalajas ülevaate tootmisest, riketest ja hooldusvajadustest. Ilma selleta ei saa päikesepargist täisväärtuslikku vara.",
+          ],
+        },
+        {
+          heading: "Kuidas vormistada elektritööde leping?",
+          paragraphs: [
+            "Lepingus peavad olema kirjas ulatus (DC, AC, keskpinge, monitooring), vastavad standardid (EVS-HD, IEC), testimiskavand ja vastuvõtuprotokoll. Nõudke dokumenteeritud kasutus- ja hooldusjuhendit ning esialgset mõõteprotokolli.",
+            "HeilAres annab kõikjal elektritöödele kirjaliku garantsii ja tagab hoolduse kogu vara elutsükli jooksul — see tagab, et rikete korral pole vaja otsida uut partnerit.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Mis on MTR-registreering ja miks see on oluline?",
+          lead:
+            "MTR (Majandustegevuse Register) on Eesti registreering, mis tõendab ettevõtte õigust teostada elektritöid vastaval pingetasemel.",
+          answer:
+            "HeilAresi MTR-registreering on TEL005181, Tase 6, mis lubab elektritöid kuni 35 kV keskpingel ja kogu madalpingel — see katab kõik päikesepargi ja enamiku tööstusobjektide vajadusi.",
+        },
+        {
+          question: "Kas elektritööd saab tellida eraldi, ilma EPC-ta?",
+          lead:
+            "Jah — HeilAres pakub elektritöid ka eraldiseisva teenusena, kui klient on ise ehituse või paneelide paigalduse organiseerinud.",
+          answer:
+            "Eraldi tellimisel hindame olemasoleva paigalduse üle, teostame puuduva elektriosa ja komisoneerime süsteemi vastavalt standarditele.",
+        },
+        {
+          question: "Kui kiiresti saab elektritööd tellida?",
+          lead:
+            "Pakkumise vastus on tavaliselt 24 tunni jooksul ja väiksemate objektide puhul saab meeskonna objektile mõne päevaga.",
+          answer:
+            "Suurte päikeseparkide ja tööstusobjektide puhul koostame graafiku koos kliendiga, arvestades võrguühenduse ja komponentide saadavust.",
+        },
+      ],
+    },
+    en: {
+      title: "Electrical works in solar parks and industry — what you need to know",
+      summary:
+        "A practical overview of the scope of electrical works in solar parks and industrial sites: MTR competence, medium and low voltage, commissioning and contract terms.",
+      lead:
+        "Electrical works are the heart of a solar park or industrial facility — not just connecting panels and inverters, but engineering, building, testing and commissioning the entire medium- and low-voltage infrastructure to applicable standards.",
+      sections: [
+        {
+          heading: "Why do electrical works determine project quality?",
+          paragraphs: [
+            "A solar park's yield and safety depend directly on the quality of its electrical works. Poor connections, undersized cables or faulty protection logic create losses, failures and safety hazards that can cost several times more to fix than a quality initial solution.",
+            "On industrial sites there is the additional requirement of uninterrupted power and process automation — electrical works must integrate with the existing distribution grid, backup power and control systems. A faulty interconnection can halt production or damage equipment.",
+          ],
+        },
+        {
+          heading: "What competence do electrical works require?",
+          paragraphs: [
+            "In Estonia, electrical works must be carried out by a team with the relevant competence and MTR registration. HeilAres' electrical works are performed by a team with MTR registration (TEL005181, Level 6), which authorises work up to 35 kV medium voltage and full low voltage.",
+            "Level 6 competence means the team is responsible for design, installation and commissioning, and provides a documented warranty for its work. This matters especially to investors and insurers who require proven competence.",
+          ],
+        },
+        {
+          heading: "Which works belong to the electrical scope of a solar park?",
+          paragraphs: [
+            "On the DC side: interconnecting panels, routing string cables to the combiner, connecting to the inverter and DC protection. On the AC side: inverter output combiner, transformer connection, medium-voltage interconnection and protection relaying.",
+            "Additionally, a control and monitoring system (SCADA) must be built, giving the operator a real-time view of production, faults and maintenance needs. Without it, a solar park is not a fully valuable asset.",
+          ],
+        },
+        {
+          heading: "How to formalise the electrical works contract?",
+          paragraphs: [
+            "The contract must specify the scope (DC, AC, medium voltage, monitoring), the applicable standards (EVS-HD, IEC), the test plan and the acceptance protocol. Demand a documented operation and maintenance manual and an initial measurement protocol.",
+            "HeilAres provides a written warranty for all electrical works and ensures maintenance throughout the asset lifecycle — so that in case of a fault there is no need to find a new partner.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "What is MTR registration and why does it matter?",
+          lead:
+            "MTR (Economic Activities Register) is the Estonian registration that certifies a company's right to perform electrical works at the relevant voltage level.",
+          answer:
+            "HeilAres' MTR registration is TEL005181, Level 6, which authorises electrical works up to 35 kV medium voltage and full low voltage — covering all solar park and most industrial site needs.",
+        },
+        {
+          question: "Can electrical works be ordered separately, without EPC?",
+          lead:
+            "Yes — HeilAres offers electrical works as a standalone service when the client has organised construction or panel installation themselves.",
+          answer:
+            "When ordered separately, we review the existing installation, complete the missing electrical part and commission the system to standards.",
+        },
+        {
+          question: "How quickly can electrical works be ordered?",
+          lead:
+            "A quote is typically returned within 24 hours and for smaller sites the team can be on-site within a few days.",
+          answer:
+            "For large solar parks and industrial sites, we build a schedule together with the client, accounting for grid connection and component availability.",
+        },
+      ],
+    },
+    fi: {
+      title: "Sähkötöitä aurinkopuistoissa ja teollisuudessa — mitä on tiedettävä",
+      summary:
+        "Käytännön katsaus sähkötöiden laajuuteen aurinkopuistoissa ja teollisuuskohteissa: MTR-pätevyys, keski- ja pienjännite, käyttöönotto ja sopimusehdot.",
+      lead:
+        "Sähkötöitä ovat aurinkopuiston tai teollisuuskohteen sydän — ei vain paneelien ja invertterien liittämistä, vaan koko keski- ja pienjänniteinfrastruktuurin suunnittelu, rakentaminen, testaus ja käyttöönotto vaatimusten mukaisesti.",
+      sections: [
+        {
+          heading: "Miksi sähkötöitä määrittävät projektin laadun?",
+          paragraphs: [
+            "Aurinkopuiston tuotto ja turvallisuus riippuvat suoraan sähkötöiden laadusta. Huonot liitokset, alimitatut kaapelit tai virheellinen suojauslogiikka aiheuttavat tappioita, vikoja ja turvallisuusriskejä, joiden korjaaminen voi maksaa moninkertaisesti laadukkaaseen alkuperäiseen ratkaisuun verrattuna.",
+            "Teollisuuskohteissa lisätään keskeytymättömän virransyötön ja prosessiautomaation vaatimus — sähkötöiden on integroiduttava olemassa olevaan jakeluverkkoon, varavirtaan ja ohjausjärjestelmiin. Virheellinen liityntä voi pysäyttää tuotannon tai vahingoittaa laitteita.",
+          ],
+        },
+        {
+          heading: "Mitä pätevyyttä sähkötöitä edellyttävät?",
+          paragraphs: [
+            "Virossa sähkötöitä on tehtävä relevantin pätevyyden ja MTR-rekisteröinnin omaavalla tiimillä. HeilAreksen sähkötöitä tekee MTR-rekisteröity (TEL005181, Taso 6) tiimi, joka on valtuutettu työskentelemään jopa 35 kV keski- ja koko pienjännitteellä.",
+            "Taso 6 -pätevyys tarkoittaa, että tiimi vastaa suunnittelusta, asennuksesta ja käyttöönotosta ja antaa dokumentoidun takuun työlleen. Tämä on erityisen tärkeää sijoittajille ja vakuuttajille, jotka vaativat todistettua pätevyyttä.",
+          ],
+        },
+        {
+          heading: "Mitkä työt kuuluvat aurinkopuiston sähköosaan?",
+          paragraphs: [
+            "DC-puolella: paneelien yhdistäminen, merkkaapelien vieminen kommutaattorille, liittäminen invertteriin ja DC-suojaus. AC-puolella: invertterien lähtöjen kommutaatio, muuntajan liityntä, keskipaineen liityntä ja suojareleet.",
+            "Lisäksi rakennetaan ohjaus- ja valvontajärjestelmä (SCADA), joka antaa operaattorille reaaliaikaisen näkymän tuotantoon, vikoihin ja huoltotarpeisiin. Ilman sitä aurinkopuisto ei ole täysiarvoinen omaisuus.",
+          ],
+        },
+        {
+          heading: "Miten sähkötöiden sopimus muodostetaan?",
+          paragraphs: [
+            "Sopimuksessa on määriteltävä laajuus (DC, AC, keskipaine, valvonta), sovellettavat standardit (EVS-HD, IEC), testaussuunnitelma ja vastaanottopöytäkirja. Vaadi dokumentoitu käyttö- ja huolto-ohje sekä alkuperäinen mittauspöytäkirja.",
+            "HeilAres antaa kaikille sähkötöille kirjallisen takuun ja varaa huollon koko omaisuuden elinkaaren ajalle — jotta vikatilanteessa ei tarvitse etsiä uutta kumppania.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Mitä MTR-rekisteröinti on ja miksi se on tärkeää?",
+          lead:
+            "MTR (elinkeinorekisteri) on Viron rekisteröinti, joka todistaa yrityksen oikeuden suorittaa sähkötöitä kyseisellä jännitetasolla.",
+          answer:
+            "HeilAreksen MTR-rekisteröinti on TEL005181, Taso 6, joka valtuuttaa sähkötöitä jopa 35 kV keski- ja koko pienjännitteellä — kattaa kaikki aurinkopuiston ja useimmat teollisuuskohteiden tarpeet.",
+        },
+        {
+          question: "Voiko sähkötöitä tilata erillisenä, ilman EPC:tä?",
+          lead:
+            "Kyllä — HeilAres tarjoaa sähkötöitä erillisenä palveluna, kun asiakas on itse järjestänyt rakentamisen tai paneelien asennuksen.",
+          answer:
+            "Erillisessä tilauksessa arvioimme olemassa olevan asennuksen, täydennämme puuttuvan sähköosan ja otamme järjestelmän käyttöön vaatimusten mukaisesti.",
+        },
+        {
+          question: "Kuinka nopeasti sähkötöitä voi tilata?",
+          lead:
+            "Tarjous annetaan yleensä 24 tunnin kuluessa ja pienempiin kohteisiin tiimi pääsee muutamassa päivässä.",
+          answer:
+            "Suurten aurinkopuistojen ja teollisuuskohteiden osalta rakennamme aikataulun yhdessä asiakkaan kanssa, ottaen huomioon verkkoliitynnän ja komponenttien saatavuuden.",
+        },
+      ],
+    },
+  },
+};
+
 export const blogPosts: BlogPost[] = [
   epcPartner,
   parkTypes,
@@ -976,6 +1170,7 @@ export const blogPosts: BlogPost[] = [
   timeline,
   tier1,
   maintenance,
+  electricalWorks,
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

@@ -675,7 +675,8 @@
       "epc": "EPC ja partnerid",
       "park_types": "Pargitüübid",
       "components": "Komponendid",
-      "maintenance": "Hooldus"
+      "maintenance": "Hooldus",
+      "electrical": "Elektritööd"
     }
   },
   "seo": {

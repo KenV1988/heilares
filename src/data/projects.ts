@@ -39,10 +39,6 @@ const sharedDesc = {
   fi: "Toteutimme rakenteen asennuksen, paneelien asennuksen sekä DC-työt invertterin kanssa.",
 };
 
-// Placeholder for projects without dedicated photos yet
-const groundPlaceholder = "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1600&q=80";
-const roofPlaceholder = "https://images.unsplash.com/photo-1611365892117-bce8a45f1f4e?auto=format&fit=crop&w=1600&q=80";
-
 export const projects: Project[] = [
   {
     slug: "risti-eesti",

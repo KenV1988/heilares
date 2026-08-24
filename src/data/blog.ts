@@ -6,6 +6,7 @@ import timelineCover from "@/assets/blog/timeline.jpg";
 import tier1Cover from "@/assets/blog/tier1.jpg";
 import maintenanceCover from "@/assets/blog/maintenance.jpg";
 import electricalCover from "@/assets/blog/electrical-works.jpg";
+import { workforceFactory, workforceShipbuilding } from "./blog-workforce";
 
 export interface BlogSection {
   heading: string;
@@ -26,7 +27,13 @@ export interface BlogPostContent {
   faqs: BlogFAQ[];
 }
 
-export type BlogCategory = "epc" | "park_types" | "components" | "maintenance" | "electrical";
+export type BlogCategory =
+  | "epc"
+  | "park_types"
+  | "components"
+  | "maintenance"
+  | "electrical"
+  | "workforce";
 
 export interface BlogPost {
   slug: string;
@@ -1163,7 +1170,9 @@ const electricalWorks: BlogPost = {
   },
 };
 
-export const blogPosts: BlogPost[] = [
+const allPosts: BlogPost[] = [
+  workforceFactory,
+  workforceShipbuilding,
   epcPartner,
   parkTypes,
   turnkey,
@@ -1172,6 +1181,10 @@ export const blogPosts: BlogPost[] = [
   maintenance,
   electricalWorks,
 ];
+
+export const blogPosts: BlogPost[] = [...allPosts].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+);
 
 export function getBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);

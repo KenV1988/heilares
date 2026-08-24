@@ -676,8 +676,10 @@
       "park_types": "Pargitüübid",
       "components": "Komponendid",
       "maintenance": "Hooldus",
-      "electrical": "Elektritööd"
-    }
+      "electrical": "Elektritööd",
+      "workforce": "Tööjõu rent"
+    },
+    "category": "Kategooria"
   },
   "seo": {
     "home": {

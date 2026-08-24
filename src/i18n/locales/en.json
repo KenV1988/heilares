@@ -226,6 +226,11 @@
       "quality": {
         "title": "Tier-1 components",
         "desc": "We work only with top-grade panels and inverters."
+      },
+      "competence": {
+        "title": "Recognized competence",
+        "desc": "Electrical work is carried out by a team with the relevant competence and MTR registration.",
+        "mtr": "MTR: TEL005181 · Level 6"
       }
     }
   },
@@ -388,7 +393,8 @@
     "dirGreen": "Green energy",
     "dirWorkforce": "Workforce rental",
     "dirWorks": "Completed works",
-    "dirQuote": "Request a quote"
+    "dirQuote": "Request a quote",
+    "mtr": "Electrical works MTR: TEL005181"
   },
   "quote": {
     "title": "Request a quote",

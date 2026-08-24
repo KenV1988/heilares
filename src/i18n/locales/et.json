@@ -226,6 +226,11 @@
       "quality": {
         "title": "Tier-1 komponendid",
         "desc": "Töötame ainult tipptasemel paneelide ja inverteritega."
+      },
+      "competence": {
+        "title": "Tunnustatud pädevus",
+        "desc": "Elektritöid teostab vastava pädevuse ja MTR registreeringuga meeskond.",
+        "mtr": "MTR: TEL005181 · Tase 6"
       }
     }
   },
@@ -388,7 +393,8 @@
     "dirGreen": "Roheenergia",
     "dirWorkforce": "Tööjõu rent",
     "dirWorks": "Tehtud tööd",
-    "dirQuote": "Küsi pakkumist"
+    "dirQuote": "Küsi pakkumist",
+    "mtr": "Elektritööde MTR: TEL005181"
   },
   "quote": {
     "title": "Küsi pakkumist",

@@ -226,6 +226,11 @@
       "quality": {
         "title": "Tier-1-komponentit",
         "desc": "Käytämme vain huippuluokan paneeleja ja inverttereitä."
+      },
+      "competence": {
+        "title": "Tunnustettu pätevyys",
+        "desc": "Sähkötyöt suorittaa tiimi, jolla on asianmukainen pätevyys ja MTR-rekisteröinti.",
+        "mtr": "MTR: TEL005181 · Taso 6"
       }
     }
   },
@@ -388,7 +393,8 @@
     "dirGreen": "Vihreä energia",
     "dirWorkforce": "Työvoiman vuokraus",
     "dirWorks": "Tehdyt työt",
-    "dirQuote": "Pyydä tarjous"
+    "dirQuote": "Pyydä tarjous",
+    "mtr": "Sähkötyöjen MTR: TEL005181"
   },
   "quote": {
     "title": "Pyydä tarjous",

@@ -44,6 +44,9 @@ export function Footer() {
             <p className="mt-8 max-w-sm text-sm leading-relaxed text-white/65">
               {t("footer.tagline")}
             </p>
+            <p className="mt-3 text-xs font-medium tracking-wide text-white/55">
+              {t("footer.mtr")}
+            </p>
             <Diamond />
           </div>
 

@@ -623,6 +623,7 @@
         "tracker_park": "Solar Tracker Park",
         "maapark": "Ground-mount",
         "katusepark": "Rooftop",
+        "electrical": "Electrical works",
         "workforce": "Workforce rental",
         "other": "Other"
       }

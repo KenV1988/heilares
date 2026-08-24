@@ -38,7 +38,7 @@ export function ContactForm({ compact = false, defaultType, onSubmitted }: Props
     onSubmitted?.();
   };
 
-  const types = ["tracker_park", "maapark", "katusepark", "workforce", "other"] as const;
+  const types = ["tracker_park", "maapark", "katusepark", "electrical", "workforce", "other"] as const;
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">

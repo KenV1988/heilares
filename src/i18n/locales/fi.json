@@ -623,6 +623,7 @@
         "tracker_park": "Solar Tracker Park",
         "maapark": "Maa-asennus",
         "katusepark": "Kattopuisto",
+        "electrical": "Sähkötöitä",
         "workforce": "Työvoiman vuokraus",
         "other": "Muu"
       }

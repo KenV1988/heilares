@@ -2,6 +2,7 @@
   "nav": {
     "home": "Etusivu",
     "panels": "Aurinkopuistot",
+    "electrical": "Sähkötyöt",
     "workforce": "Työvoiman vuokraus",
     "projects": "Toteutetut projektit",
     "blog": "Blogi",
@@ -305,6 +306,189 @@
       }
     }
   },
+  "electricalPage": {
+    "hero": {
+      "title": "Sähkötyöt aurinkoenergia- ja teollisuusprojekteihin",
+      "subtitle": "Ammattimaiset sähköasennukset, kaapelointi, sähkökeskukset, inverttereiden kytkennät ja sähköjärjestelmien rakentaminen Virossa ja Euroopassa.",
+      "cta": "Pyydä tarjous",
+      "ctaSecondary": "Katso projektimme",
+      "badgeRegistry": "Sähkötöiden MTR-rekisteröinti TEL005181",
+      "badgeLevel": "Pätevyys taso 6"
+    },
+    "services": {
+      "eyebrow": "Palvelut",
+      "title": "Sähkötyöpalvelut",
+      "subtitle": "Sähköasennukset ja -järjestelmät aurinkopuistoille, teollisuudelle, liikekiinteistöille ja suurille rakennusprojekteille.",
+      "items": [
+        {
+          "title": "Aurinkopuistojen sähkötyöt",
+          "list": [
+            "DC-kaapelointi",
+            "AC-kaapelointi",
+            "inverttereiden kytkentä",
+            "kaapelireitit",
+            "sähkönjakokeskukset",
+            "laitteiden kytkennät",
+            "sähköasennusten rakentaminen"
+          ]
+        },
+        {
+          "title": "Sähkökeskukset ja jakelujärjestelmät",
+          "list": [
+            "sähkönjakokeskukset",
+            "pääkeskukset",
+            "alakeskukset",
+            "järjestelmien laajentaminen",
+            "olemassa olevien keskusten uusiminen"
+          ]
+        },
+        {
+          "title": "Kaapelointi",
+          "list": [
+            "vahvavirtakaapelointi",
+            "heikkovirtakaapelointi",
+            "kaapelireitit",
+            "rakennusten ja teollisuuskohteiden kaapelointi",
+            "aurinkopuistojen kaapelointi"
+          ]
+        },
+        {
+          "title": "Invertterit ja energiajärjestelmät",
+          "list": [
+            "inverttereiden asennus",
+            "inverttereiden sähköinen kytkentä",
+            "aurinkojärjestelmien AC/DC-kytkennät",
+            "akkuvarastojen sähkökytkennät",
+            "energiainfrastruktuurin laajentaminen"
+          ]
+        },
+        {
+          "title": "Maadoitus ja ukkossuojaus",
+          "list": [
+            "maadoitusjärjestelmät",
+            "potentiaalintasaus",
+            "ukkossuojausjärjestelmät",
+            "sähköturvallisuusratkaisut"
+          ]
+        },
+        {
+          "title": "Sähköjärjestelmien tarkastus ja mittaus",
+          "list": [
+            "sähköasennusten mittaus",
+            "järjestelmien tarkastus",
+            "vikojen paikannus",
+            "olemassa olevien sähköjärjestelmien arviointi",
+            "dokumentaation valmistelu projektin tarpeiden mukaan"
+          ]
+        },
+        {
+          "title": "Liike- ja teollisuuskiinteistöjen sähkötyöt",
+          "list": [
+            "uusien sähköasennusten rakentaminen",
+            "olemassa olevien järjestelmien uusiminen",
+            "tuotantotilojen sähkötyöt",
+            "liiketilojen sähkötyöt",
+            "suuritehoisten kuluttajien liittäminen"
+          ]
+        },
+        {
+          "title": "Sähköautojen latauksen sähköratkaisut",
+          "list": [
+            "latauslaitteiden syöttö",
+            "kaapelointi",
+            "sähkökeskusratkaisut",
+            "kuormanhallintaan liittyvät sähkötyöt",
+            "latausinfrastruktuurin valmistelu"
+          ]
+        }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Pätevyys ja rekisteröinti",
+      "title": "Pätevät sähkötyöt",
+      "lead": "HeilAres tekee sähkötöitä asianmukaisen pätevyyden ja rekisteröinnin perusteella.",
+      "registry": {
+        "label": "MTR-rekisteröinti",
+        "value": "TEL005181",
+        "note": "Sähkötöiden elinkeinotoiminnan rekisteröinti MTR:ssä."
+      },
+      "competence": {
+        "label": "Pätevyys",
+        "value": "Taso 6",
+        "note": "Sähkötyöt tekee asianmukaisen pätevyyden omaava tiimi."
+      }
+    },
+    "future": {
+      "eyebrow": "Tulevaisuuden ratkaisu",
+      "title": "Sähköratkaisu, joka on valmis myös huomiseen",
+      "p1": "Sähköjärjestelmää suunniteltaessa ja rakennettaessa kannattaa huomioida kohteen tulevat energiatarpeet. Aurinkopaneelit, akkuvarastot, sähköautojen laturit, suuremmat tuotantolaitteet ja muut kuluttajat voivat myöhemmin vaatia järjestelmän merkittävää uusimista.",
+      "p2": "HeilAres auttaa suunnittelemaan sähköratkaisun niin, että järjestelmää voidaan tulevaisuudessa laajentaa.",
+      "todayLabel": "Tänään",
+      "todayValue": "Sähköjärjestelmä",
+      "tomorrowLabel": "Huomenna",
+      "tomorrowValue": "Aurinkoenergia + akkuvarasto + sähköautojen lataus + suuremmat kuluttajat"
+    },
+    "process": {
+      "eyebrow": "Näin työskentelemme",
+      "title": "Näin työskentelemme",
+      "steps": [
+        {
+          "title": "Konsultaatio",
+          "desc": "Kartoitamme kohteen, olemassa olevan sähköjärjestelmän ja projektin tarpeet."
+        },
+        {
+          "title": "Tekninen ratkaisu",
+          "desc": "Laadimme sopivan sähköratkaisun ja määritämme töiden laajuuden."
+        },
+        {
+          "title": "Asennus",
+          "desc": "Toteutamme sähkötyöt projektin ja kohteen vaatimusten mukaisesti."
+        },
+        {
+          "title": "Tarkastus ja luovutus",
+          "desc": "Tarkastamme tehdyn työn ja luovutamme järjestelmän projektin tarpeiden mukaisesti."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Miksi HeilAres",
+      "title": "Miksi HeilAres?",
+      "items": [
+        {
+          "title": "Kokemusta suurista projekteista",
+          "desc": "HeilAres on osallistunut suurten aurinkoenergiaprojektien toteutukseen Virossa ja Baltiassa."
+        },
+        {
+          "title": "Pätevät sähkötyöt",
+          "desc": "Sähkötöitä tukevat yrityksen MTR-rekisteröinti TEL005181 ja tason 6 pätevyys."
+        },
+        {
+          "title": "Avaimet käteen -lähestymistapa",
+          "desc": "Sähkötyöt voidaan yhdistää koko aurinkopuisto- tai energiaratkaisuprojektiin."
+        },
+        {
+          "title": "Kokeneet tiimit",
+          "desc": "Ammattimaiset asennustiimit ja projektikohtainen työn organisointi."
+        },
+        {
+          "title": "Viro ja Eurooppa",
+          "desc": "Voimme toteuttaa projekteja Virossa ja muissa Euroopan maissa."
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Tehdyt työt",
+      "title": "Projektit, joissa olemme olleet mukana",
+      "lead": "HeilAres on osallistunut seuraavien suurten aurinkoenergiaprojektien toteutukseen. Töiden tarkka laajuus vaihtelee projekteittain.",
+      "link": "Katso kaikki projektit"
+    },
+    "cta": {
+      "title": "Tarvitsetteko sähköratkaisun projektiinne?",
+      "subtitle": "Lähetä meille projektin perustiedot, niin katsomme miten voimme auttaa.",
+      "button": "Pyydä tarjous"
+    },
+    "heroAlt": "Sähköasentajat kytkevät aurinkopuiston inverttereitä ja sähkökeskuksia kaapelihyllyjen äärellä"
+  },
   "faq": {
     "eyebrow": "UKK",
     "title": "Usein kysytyt kysymykset",
@@ -425,6 +609,10 @@
     "panels": {
       "title": "Aurinkopaneelit — Tracker, maa- ja kattopuistot | HeilAres",
       "description": "Kolme pääasennustyyppiä B2B-asiakkaille. Tier-1-komponentit, kokeneet työryhmät, megawattiluokka."
+    },
+    "electrical": {
+      "title": "Sähkötyöt ja sähköasennukset | HeilAres",
+      "description": "Ammattimaiset sähkötyöt aurinkopuistoille sekä teollisuus- ja liikekiinteistöprojekteille. Kaapelointi, sähkökeskukset, invertterit ja energiaratkaisut. MTR TEL005181, taso 6."
     },
     "workforce": {
       "title": "Työvoiman vuokraus — Laivanrakennus ja tehtaat | HeilAres",

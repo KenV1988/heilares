@@ -14,6 +14,7 @@ import { Route as PaikesepargidRouteImport } from './routes/paikesepargid'
 import { Route as PaikesepaneelidRouteImport } from './routes/paikesepaneelid'
 import { Route as McpRouteImport } from './routes/mcp'
 import { Route as KontaktRouteImport } from './routes/kontakt'
+import { Route as ElektritoodRouteImport } from './routes/elektritood'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TehtudToodIndexRouteImport } from './routes/tehtud-tood/index'
 import { Route as BlogiIndexRouteImport } from './routes/blogi/index'
@@ -46,6 +47,11 @@ const McpRoute = McpRouteImport.update({
 const KontaktRoute = KontaktRouteImport.update({
   id: '/kontakt',
   path: '/kontakt',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ElektritoodRoute = ElektritoodRouteImport.update({
+  id: '/elektritood',
+  path: '/elektritood',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -94,6 +100,7 @@ const Char91DotmcpChar93InvokeToolToolRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/elektritood': typeof ElektritoodRoute
   '/kontakt': typeof KontaktRoute
   '/mcp': typeof McpRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
@@ -109,6 +116,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/elektritood': typeof ElektritoodRoute
   '/kontakt': typeof KontaktRoute
   '/mcp': typeof McpRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
@@ -125,6 +133,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/elektritood': typeof ElektritoodRoute
   '/kontakt': typeof KontaktRoute
   '/mcp': typeof McpRoute
   '/paikesepaneelid': typeof PaikesepaneelidRoute
@@ -142,6 +151,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/elektritood'
     | '/kontakt'
     | '/mcp'
     | '/paikesepaneelid'
@@ -157,6 +167,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/elektritood'
     | '/kontakt'
     | '/mcp'
     | '/paikesepaneelid'
@@ -172,6 +183,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/elektritood'
     | '/kontakt'
     | '/mcp'
     | '/paikesepaneelid'
@@ -188,6 +200,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ElektritoodRoute: typeof ElektritoodRoute
   KontaktRoute: typeof KontaktRoute
   McpRoute: typeof McpRoute
   PaikesepaneelidRoute: typeof PaikesepaneelidRoute
@@ -237,6 +250,13 @@ declare module '@tanstack/react-router' {
       path: '/kontakt'
       fullPath: '/kontakt'
       preLoaderRoute: typeof KontaktRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/elektritood': {
+      id: '/elektritood'
+      path: '/elektritood'
+      fullPath: '/elektritood'
+      preLoaderRoute: typeof ElektritoodRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -300,6 +320,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ElektritoodRoute: ElektritoodRoute,
   KontaktRoute: KontaktRoute,
   McpRoute: McpRoute,
   PaikesepaneelidRoute: PaikesepaneelidRoute,

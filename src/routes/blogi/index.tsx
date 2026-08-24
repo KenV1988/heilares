@@ -32,6 +32,7 @@ const ALL_FILTERS: (BlogCategory | "all")[] = [
   "park_types",
   "components",
   "maintenance",
+  "electrical",
 ];
 
 function BlogIndex() {

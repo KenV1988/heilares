@@ -1,4 +1,4 @@
-import { Award, Layers, Clock, Cpu } from "lucide-react";
+import { Award, Layers, Clock, Cpu, BadgeCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionBadge } from "./Section";
 import { Reveal } from "./Reveal";
@@ -10,6 +10,7 @@ export function Why() {
     { key: "turnkey", Icon: Award },
     { key: "speed", Icon: Clock },
     { key: "quality", Icon: Cpu },
+    { key: "competence", Icon: BadgeCheck },
   ] as const;
 
   return (

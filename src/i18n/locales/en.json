@@ -329,6 +329,61 @@
         "lead": "Solar Tracker Parks generate on average 15–25% more energy than equally sized fixed ground-mount parks.",
         "answer": "The exact uplift depends on location, latitude and local weather. In Northern European conditions a typical gain is around 20%."
       }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you need to know about HeilAres solar parks.",
+      "items": {
+        "types": {
+          "question": "What types of solar parks does HeilAres install?",
+          "answer": "We install ground-mount solar parks, rooftop parks for industrial and commercial buildings, and single-axis Solar Tracker Park solutions. We work both in Estonia and on international projects."
+        },
+        "capacity": {
+          "question": "How large are the solar parks HeilAres installs?",
+          "answer": "We deliver projects from a few megawatts up to large-scale, hundreds-of-megawatts solar parks. Our crews have participated in projects such as the 76 MW Kirikmäe, 72.5 MW Stelpe and 244 MW Risti Solar Tracker Park."
+        },
+        "turnkey": {
+          "question": "Does HeilAres offer solar park installation as a turnkey solution?",
+          "answer": "Yes. Depending on the project, the service covers installation of structures, panels, DC cabling and inverters. The exact scope of works is defined per project and agreement."
+        },
+        "roof": {
+          "question": "Does HeilAres install solar parks on roofs too?",
+          "answer": "Yes. We install solar parks on industrial, warehouse and commercial building roofs. Before installation, the roof structure and suitability for solar panel installation must be assessed."
+        },
+        "tracker": {
+          "question": "What is a Solar Tracker Park and when should it be used?",
+          "answer": "A Solar Tracker Park uses single-axis tracking systems that adjust panel position according to the sun's movement. The solution is best suited to large open areas with enough space for tracking systems."
+        },
+        "land": {
+          "question": "How much land is needed for a solar park?",
+          "answer": "The required land area depends on planned capacity, panel technology, structure, land shape, row layout and other project conditions. The exact requirement becomes clear during project planning."
+        },
+        "suitability": {
+          "question": "Does HeilAres help assess whether my land or roof is suitable for a solar park?",
+          "answer": "Yes. When starting a project we assess the site's conditions, existing infrastructure and the technical requirements of the planned solution."
+        },
+        "components": {
+          "question": "What solar panels and inverters do you use?",
+          "answer": "HeilAres works with Tier-1 manufacturers, and the selected components depend on the specific technical and economic requirements of each project."
+        },
+        "electrical": {
+          "question": "Does HeilAres also carry out electrical works?",
+          "answer": "Yes. Electrical-related solutions may include DC and AC cabling and inverter connection. HeilAres holds electrical works MTR registration TEL005181 and level 6 competence."
+        },
+        "countries": {
+          "question": "In which countries does HeilAres install solar parks?",
+          "answer": "HeilAres operates in Estonia, Latvia and, depending on the project, elsewhere in Europe."
+        },
+        "quote": {
+          "question": "How quickly can I get a quote for a solar park project?",
+          "answer": "Send us the site location, planned capacity and any existing project information. We can then assess the scope of works and prepare a quote."
+        },
+        "start": {
+          "question": "How do I start a solar park project?",
+          "answer": "The simplest way is to send us the project's key data. We map the needs, assess the site and put together a suitable technical solution and quote."
+        }
+      }
     }
   },
   "electricalPage": {

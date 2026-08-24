@@ -6,6 +6,7 @@ import { PageHero } from "@/components/site/PageHero";
 import { ParkTypes } from "@/components/site/ParkTypes";
 import { Process } from "@/components/site/Process";
 import { Why } from "@/components/site/Why";
+import { ParksFAQ } from "@/components/site/ParksFAQ";
 import { CTA } from "@/components/site/CTA";
 import i18n from "@/i18n";
 import heroBg from "@/assets/services/service-maapark.jpg";
@@ -39,6 +40,7 @@ function PanelsPage() {
       <ParkTypes />
       <Process />
       <Why />
+      <ParksFAQ />
       <CTA />
     </SiteLayout>
   );

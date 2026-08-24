@@ -49,16 +49,16 @@ if (!i18n.isInitialized) {
   i18n.addResourceBundle("et", "translation", et, true, true);
   i18n.addResourceBundle("en", "translation", en, true, true);
   i18n.addResourceBundle("fi", "translation", fi, true, true);
+}
 
-  if (typeof window !== "undefined") {
-    i18n.on("languageChanged", (lng) => {
-      try {
-        window.localStorage.setItem(STORAGE_KEY, lng);
-      } catch {
-        // ignore
-      }
-    });
-  }
+if (typeof window !== "undefined") {
+  i18n.on("languageChanged", (lng) => {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, lng);
+    } catch {
+      // ignore
+    }
+  });
 }
 
 export default i18n;

@@ -286,14 +286,14 @@ function ElectricalPage() {
       </section>
 
       {/* Why */}
-      <section className="relative overflow-hidden py-20 md:py-28">
+      <section className="relative py-20 md:py-28">
         <div className="absolute inset-0 -z-10 bg-[var(--bg-accent)]" />
         <div className="absolute inset-0 -z-10 bg-grid opacity-30" />
         <div className="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-[var(--brand)]/30 to-transparent" />
         <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gradient-to-r from-transparent via-[var(--brand)]/30 to-transparent" />
-        <div className="container-x grid gap-12 md:grid-cols-2 md:gap-20">
-          <Reveal>
-            <div className="md:sticky md:top-32">
+        <div className="container-x grid items-start gap-12 md:grid-cols-2 md:gap-20">
+          <Reveal className="md:sticky md:top-32">
+            <div>
               <SectionBadge>{t("electricalPage.why.eyebrow")}</SectionBadge>
               <h2 className="font-display mt-5 text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
                 {renderWhyTitle(t("electricalPage.why.title"))}

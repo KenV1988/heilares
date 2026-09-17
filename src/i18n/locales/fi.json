@@ -70,7 +70,7 @@
     "eyebrow": "SÄHKÖTYÖT",
     "title": "Sähkötyöt aurinkopuistoille ja teollisuudelle",
     "subtitle": "Ammattimaiset sähköasennukset, kaapelointi, sähkökeskukset ja inverttereiden kytkennät aurinkopuistoille, teollisuudelle ja liikekiinteistöille.",
-    "badge": "MTR TEL005181 · Pätevyys taso 6",
+    "badge": "MTR TEL005181",
     "items": {
       "solar": {
         "title": "Aurinkopuistojen sähkötyöt",
@@ -256,7 +256,7 @@
       "competence": {
         "title": "Tunnustettu pätevyys",
         "desc": "Sähkötyöt suorittaa tiimi, jolla on asianmukainen pätevyys ja MTR-rekisteröinti.",
-        "mtr": "MTR: TEL005181 · Taso 6"
+        "mtr": "MTR: TEL005181"
       }
     }
   },
@@ -369,7 +369,7 @@
         },
         "electrical": {
           "question": "Tekeekö HeilAres myös sähkötyöt?",
-          "answer": "Kyllä. Sähkötyöihin liittyvät ratkaisut voivat kattaa muun muassa DC- ja AC-kaapeloinnin sekä inverttereiden kytkennän. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181 ja tason 6 pätevyys."
+          "answer": "Kyllä. Sähkötyöihin liittyvät ratkaisut voivat kattaa muun muassa DC- ja AC-kaapeloinnin sekä inverttereiden kytkennän. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181."
         },
         "countries": {
           "question": "Missä maissa HeilAres asentaa aurinkopuistoja?",
@@ -540,7 +540,7 @@
         },
         {
           "title": "Pätevät sähkötyöt",
-          "desc": "Sähkötöitä tukevat yrityksen MTR-rekisteröinti TEL005181 ja tason 6 pätevyys."
+          "desc": "Sähkötöitä tukevat yrityksen MTR-rekisteröinti TEL005181."
         },
         {
           "title": "Avaimet käteen -lähestymistapa",
@@ -604,7 +604,7 @@
         },
         "registration": {
           "question": "Onko HeilAresilla sähkötöiden tekemiseen vaadittava rekisteröinti?",
-          "answer": "Kyllä. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181 ja taso 6 pätevyys."
+          "answer": "Kyllä. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181."
         },
         "regions": {
           "question": "Millä alueilla HeilAres tekee sähkötöitä?",
@@ -748,7 +748,7 @@
     },
     "electrical": {
       "title": "Sähkötyöt ja sähköasennukset | HeilAres",
-      "description": "Ammattimaiset sähkötyöt aurinkopuistoille sekä teollisuus- ja liikekiinteistöprojekteille. Kaapelointi, sähkökeskukset, invertterit ja energiaratkaisut. MTR TEL005181, taso 6."
+      "description": "Ammattimaiset sähkötyöt aurinkopuistoille sekä teollisuus- ja liikekiinteistöprojekteille. Kaapelointi, sähkökeskukset, invertterit ja energiaratkaisut. MTR TEL005181."
     },
     "workforce": {
       "title": "Työvoiman vuokraus — Laivanrakennus ja tehtaat | HeilAres",

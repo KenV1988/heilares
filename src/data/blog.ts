@@ -1004,8 +1004,7 @@ const electricalWorks: BlogPost = {
         {
           heading: "Millist pädevust elektritööd eeldavad?",
           paragraphs: [
-            "Eestis peab elektritöid tegema vastava pädevuse ja MTR-registreeringuga meeskond. HeilAresi elektritöid teostab MTR-registreeringuga (TEL005181, Tase 6) meeskond, mis lubab tegutseda kuni 35 kV keskpingel ja täismahus madalpingel.",
-            "Tase 6 pädevus tähendab, et meeskond vastutab nii projekteerimuse, paigalduse kui ka komisoneerimise eest ning annab dokumenteeritud garantsii oma tööle. See on eriti oluline investeerijatele ja kindlustusandjatele, kes nõuavad tõendatud pädevust.",
+            "Eestis peab elektritöid tegema vastava pädevuse ja MTR-registreeringuga meeskond. HeilAresi elektritöid teostab MTR-registreeringuga (TEL005181) meeskond, mis lubab tegutseda kuni 35 kV keskpingel ja täismahus madalpingel.",
           ],
         },
         {
@@ -1029,7 +1028,7 @@ const electricalWorks: BlogPost = {
           lead:
             "MTR (Majandustegevuse Register) on Eesti registreering, mis tõendab ettevõtte õigust teostada elektritöid vastaval pingetasemel.",
           answer:
-            "HeilAresi MTR-registreering on TEL005181, Tase 6, mis lubab elektritöid kuni 35 kV keskpingel ja kogu madalpingel — see katab kõik päikesepargi ja enamiku tööstusobjektide vajadusi.",
+            "HeilAresi MTR-registreering on TEL005181, mis lubab elektritöid kuni 35 kV keskpingel ja kogu madalpingel — see katab kõik päikesepargi ja enamiku tööstusobjektide vajadusi.",
         },
         {
           question: "Kas elektritööd saab tellida eraldi, ilma EPC-ta?",
@@ -1064,8 +1063,7 @@ const electricalWorks: BlogPost = {
         {
           heading: "What competence do electrical works require?",
           paragraphs: [
-            "In Estonia, electrical works must be carried out by a team with the relevant competence and MTR registration. HeilAres' electrical works are performed by a team with MTR registration (TEL005181, Level 6), which authorises work up to 35 kV medium voltage and full low voltage.",
-            "Level 6 competence means the team is responsible for design, installation and commissioning, and provides a documented warranty for its work. This matters especially to investors and insurers who require proven competence.",
+            "In Estonia, electrical works must be carried out by a team with the relevant competence and MTR registration. HeilAres' electrical works are performed by a team with MTR registration (TEL005181), which authorises work up to 35 kV medium voltage and full low voltage.",
           ],
         },
         {
@@ -1089,7 +1087,7 @@ const electricalWorks: BlogPost = {
           lead:
             "MTR (Economic Activities Register) is the Estonian registration that certifies a company's right to perform electrical works at the relevant voltage level.",
           answer:
-            "HeilAres' MTR registration is TEL005181, Level 6, which authorises electrical works up to 35 kV medium voltage and full low voltage — covering all solar park and most industrial site needs.",
+            "HeilAres' MTR registration is TEL005181, which authorises electrical works up to 35 kV medium voltage and full low voltage — covering all solar park and most industrial site needs.",
         },
         {
           question: "Can electrical works be ordered separately, without EPC?",
@@ -1124,8 +1122,7 @@ const electricalWorks: BlogPost = {
         {
           heading: "Mitä pätevyyttä sähkötöitä edellyttävät?",
           paragraphs: [
-            "Virossa sähkötöitä on tehtävä relevantin pätevyyden ja MTR-rekisteröinnin omaavalla tiimillä. HeilAreksen sähkötöitä tekee MTR-rekisteröity (TEL005181, Taso 6) tiimi, joka on valtuutettu työskentelemään jopa 35 kV keski- ja koko pienjännitteellä.",
-            "Taso 6 -pätevyys tarkoittaa, että tiimi vastaa suunnittelusta, asennuksesta ja käyttöönotosta ja antaa dokumentoidun takuun työlleen. Tämä on erityisen tärkeää sijoittajille ja vakuuttajille, jotka vaativat todistettua pätevyyttä.",
+            "Virossa sähkötöitä on tehtävä relevantin pätevyyden ja MTR-rekisteröinnin omaavalla tiimillä. HeilAreksen sähkötöitä tekee MTR-rekisteröity (TEL005181) tiimi, joka on valtuutettu työskentelemään jopa 35 kV keski- ja koko pienjännitteellä.",
           ],
         },
         {
@@ -1149,7 +1146,7 @@ const electricalWorks: BlogPost = {
           lead:
             "MTR (elinkeinorekisteri) on Viron rekisteröinti, joka todistaa yrityksen oikeuden suorittaa sähkötöitä kyseisellä jännitetasolla.",
           answer:
-            "HeilAreksen MTR-rekisteröinti on TEL005181, Taso 6, joka valtuuttaa sähkötöitä jopa 35 kV keski- ja koko pienjännitteellä — kattaa kaikki aurinkopuiston ja useimmat teollisuuskohteiden tarpeet.",
+            "HeilAreksen MTR-rekisteröinti on TEL005181, joka valtuuttaa sähkötöitä jopa 35 kV keski- ja koko pienjännitteellä — kattaa kaikki aurinkopuiston ja useimmat teollisuuskohteiden tarpeet.",
         },
         {
           question: "Voiko sähkötöitä tilata erillisenä, ilman EPC:tä?",

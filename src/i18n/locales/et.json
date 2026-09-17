@@ -70,7 +70,7 @@
     "eyebrow": "ELEKTRITÖÖD",
     "title": "Elektritööd päikeseparkidele ja tööstusele",
     "subtitle": "Professionaalsed elektripaigaldised, kaabeldus, elektrikilbid ja inverterite ühendused päikeseparkidele, tööstusele ja ärihoonetele.",
-    "badge": "MTR TEL005181 · Pädevus tase 6",
+    "badge": "MTR TEL005181",
     "items": {
       "solar": {
         "title": "Päikeseparkide elektritööd",
@@ -256,7 +256,7 @@
       "competence": {
         "title": "Tunnustatud pädevus",
         "desc": "Elektritöid teostab vastava pädevuse ja MTR registreeringuga meeskond.",
-        "mtr": "MTR: TEL005181 · Tase 6"
+        "mtr": "MTR: TEL005181"
       }
     }
   },
@@ -369,7 +369,7 @@
         },
         "electrical": {
           "question": "Kas HeilAres teostab ka elektritöid?",
-          "answer": "Jah. Elektritöödega seotud lahendused võivad hõlmata muu hulgas DC- ja AC-kaabeldust ning inverterite ühendamist. HeilAresel on elektritööde MTR registreering TEL005181 ja tase 6 pädevus."
+          "answer": "Jah. Elektritöödega seotud lahendused võivad hõlmata muu hulgas DC- ja AC-kaabeldust ning inverterite ühendamist. HeilAresel on elektritööde MTR registreering TEL005181."
         },
         "countries": {
           "question": "Millistes riikides HeilAres päikeseparke paigaldab?",
@@ -540,7 +540,7 @@
         },
         {
           "title": "Kvalifitseeritud elektritööd",
-          "desc": "Elektritöid toetavad ettevõtte MTR registreering TEL005181 ja tase 6 pädevus."
+          "desc": "Elektritöid toetavad ettevõtte MTR registreering TEL005181."
         },
         {
           "title": "Võtmed kätte lähenemine",
@@ -604,7 +604,7 @@
         },
         "registration": {
           "question": "Kas HeilAresel on elektritööde tegemiseks vajalik registreering?",
-          "answer": "Jah. HeilAresel on elektritööde MTR registreering TEL005181 ning tase 6 pädevus."
+          "answer": "Jah. HeilAresel on elektritööde MTR registreering TEL005181."
         },
         "regions": {
           "question": "Millistes piirkondades HeilAres elektritöid teostab?",
@@ -750,7 +750,7 @@
     },
     "electrical": {
       "title": "Elektritööd ja elektripaigaldised | HeilAres",
-      "description": "Professionaalsed elektritööd päikeseparkidele, tööstus- ja äriprojektidele. Kaabeldus, elektrikilbid, inverterid, elektripaigaldised ja energialahendused. MTR TEL005181, tase 6."
+      "description": "Professionaalsed elektritööd päikeseparkidele, tööstus- ja äriprojektidele. Kaabeldus, elektrikilbid, inverterid, elektripaigaldised ja energialahendused. MTR TEL005181."
     },
     "workforce": {
       "title": "Tööjõu rent | HeilAres",

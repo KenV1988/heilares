@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Linkedin, Mail, Phone, MapPin, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { NAV_LINKS } from "@/lib/nav";
@@ -10,8 +10,6 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   const socials = [
-    { Icon: Facebook, href: company.social.facebook, label: "Facebook" },
-    { Icon: Instagram, href: company.social.instagram, label: "Instagram" },
     { Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" },
   ];
 
@@ -130,12 +128,14 @@ export function Footer() {
           className="mt-12 grid grid-cols-1 items-center gap-3 border-t pt-5 text-xs text-white/45 md:grid-cols-3"
           style={goldDivider}
         >
-          {/* Social icons hidden until real profile links are available */}
-          <div className="hidden gap-2.5 md:justify-start justify-center">
+          {/* LinkedIn */}
+          <div className="flex gap-2.5 md:justify-start justify-center">
             {socials.map(({ Icon, href, label }) => (
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={label}
                 className="group grid h-8 w-8 place-items-center rounded-full border bg-transparent transition hover:[border-color:rgba(214,178,106,0.6)]"
                 style={goldBorder}

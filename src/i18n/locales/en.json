@@ -70,7 +70,7 @@
     "eyebrow": "ELECTRICAL WORKS",
     "title": "Electrical works for solar parks and industry",
     "subtitle": "Professional electrical installations, cabling, switchboards and inverter connections for solar parks, industry and commercial buildings.",
-    "badge": "MTR TEL005181 · Competence level 6",
+    "badge": "MTR TEL005181",
     "items": {
       "solar": {
         "title": "Solar park electrical works",
@@ -256,7 +256,7 @@
       "competence": {
         "title": "Recognized competence",
         "desc": "Electrical work is carried out by a team with the relevant competence and MTR registration.",
-        "mtr": "MTR: TEL005181 · Level 6"
+        "mtr": "MTR: TEL005181"
       }
     }
   },
@@ -369,7 +369,7 @@
         },
         "electrical": {
           "question": "Does HeilAres also carry out electrical works?",
-          "answer": "Yes. Electrical-related solutions may include DC and AC cabling and inverter connection. HeilAres holds electrical works MTR registration TEL005181 and level 6 competence."
+          "answer": "Yes. Electrical-related solutions may include DC and AC cabling and inverter connection. HeilAres holds electrical works MTR registration TEL005181."
         },
         "countries": {
           "question": "In which countries does HeilAres install solar parks?",
@@ -540,7 +540,7 @@
         },
         {
           "title": "Qualified electrical works",
-          "desc": "Our electrical works are backed by the company's MTR registration TEL005181 and level 6 competence."
+          "desc": "Our electrical works are backed by the company's MTR registration TEL005181."
         },
         {
           "title": "Turnkey approach",
@@ -604,7 +604,7 @@
         },
         "registration": {
           "question": "Does HeilAres have the required registration for electrical works?",
-          "answer": "Yes. HeilAres holds electrical works MTR registration TEL005181 and Level 6 competence."
+          "answer": "Yes. HeilAres holds electrical works MTR registration TEL005181."
         },
         "regions": {
           "question": "In which regions does HeilAres carry out electrical works?",
@@ -748,7 +748,7 @@
     },
     "electrical": {
       "title": "Electrical works and installations | HeilAres",
-      "description": "Professional electrical works for solar parks, industrial and commercial projects. Cabling, switchboards, inverters, electrical installations and energy solutions. MTR TEL005181, level 6."
+      "description": "Professional electrical works for solar parks, industrial and commercial projects. Cabling, switchboards, inverters, electrical installations and energy solutions. MTR TEL005181."
     },
     "workforce": {
       "title": "Workforce rental — Shipbuilding and factories | HeilAres",

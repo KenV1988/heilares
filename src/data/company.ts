@@ -31,6 +31,6 @@ export const company = {
   social: {
     facebook: "#",
     instagram: "#",
-    linkedin: "#",
+    linkedin: "https://ee.linkedin.com/company/heilares-o%C3%BC",
   },
 };

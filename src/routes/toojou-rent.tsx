@@ -14,15 +14,7 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import i18n from "@/i18n";
-import shipyard4 from "@/assets/projects/shipyard-4.jpg";
 import heroBg from "@/assets/services/service-laevaehitus.jpg";
-
-const SHIPYARD_IMAGES: Record<string, { src: string; alt: string }> = {
-  "Saint-Nazaire'i laevatehas": {
-    src: shipyard4,
-    alt: "Saint-Nazaire'i laevatehas Prantsusmaal — hiiglaslik punane kraan ja kruiisilaeva kere ehituses",
-  },
-};
 
 export const Route = createFileRoute("/toojou-rent")({
   component: WorkforcePage,

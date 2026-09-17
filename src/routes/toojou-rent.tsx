@@ -101,37 +101,24 @@ function WorkforcePage() {
             {t("workforceProjects.lead")}
           </p>
         </div>
-        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-2 lg:grid-cols-3">
-          {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item) => {
-            const img = SHIPYARD_IMAGES[item.name];
-            return (
-              <div
-                key={item.name}
-                className="group overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] transition hover:border-[var(--ring)]"
-              >
-                <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">
-                  {img ? (
-                    <img
-                      src={img.src}
-                      alt={img.alt}
-                      loading="lazy"
-                      width={1280}
-                      height={800}
-                      className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                    />
-                  ) : (
-                    <div className="absolute inset-0 grid place-items-center bg-gradient-to-br from-[#131C19] to-[#0A0F0D] text-[var(--brand-glow)]/70">
-                      <Ship className="h-16 w-16" strokeWidth={1.3} />
-                    </div>
-                  )}
-                </div>
-                <div className="p-6 md:p-7">
-                  <h3 className="text-lg font-bold text-white">{item.name}</h3>
-                  <div className="mt-1 text-sm text-white/55">{item.country}</div>
-                </div>
+        <div className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)] md:mt-16 md:grid-cols-2">
+          {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item, i) => (
+            <div
+              key={item.name}
+              className="group flex items-center gap-5 bg-[var(--bg-elevated)] p-6 transition hover:bg-[var(--bg-card)] md:p-7"
+            >
+              <span className="font-display w-9 text-[13px] font-semibold tracking-[0.18em] text-[var(--brand)]">
+                0{i + 1}
+              </span>
+              <div className="flex-1">
+                <div className="text-[12px] text-white/55">{item.country}</div>
+                <h3 className="font-display mt-0.5 text-[18px] font-bold leading-tight text-white">
+                  {item.name}
+                </h3>
               </div>
-            );
-          })}
+              <ArrowRight className="h-4 w-4 shrink-0 text-white/40 transition group-hover:translate-x-0.5 group-hover:text-[var(--brand)]" />
+            </div>
+          ))}
         </div>
         <p className="mx-auto mt-12 max-w-3xl text-center text-base leading-relaxed text-white/70 md:text-lg">
           {t("workforceProjects.specialties")}

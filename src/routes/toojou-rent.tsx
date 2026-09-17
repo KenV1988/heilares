@@ -105,7 +105,7 @@ function WorkforcePage() {
           {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item, i) => (
             <div
               key={item.name}
-              className="group flex items-center gap-5 bg-[var(--bg-elevated)] p-6 transition hover:bg-[var(--bg-card)] md:p-7"
+              className="flex items-center gap-5 bg-[var(--bg-elevated)] p-6 md:p-7"
             >
               <span className="font-display w-9 text-[13px] font-semibold tracking-[0.18em] text-[var(--brand)]">
                 0{i + 1}
@@ -116,7 +116,6 @@ function WorkforcePage() {
                   {item.name}
                 </h3>
               </div>
-              <ArrowRight className="h-4 w-4 shrink-0 text-white/40 transition group-hover:translate-x-0.5 group-hover:text-[var(--brand)]" />
             </div>
           ))}
         </div>

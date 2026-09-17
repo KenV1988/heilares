@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Linkedin, Mail, Phone, MapPin, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { NAV_LINKS } from "@/lib/nav";

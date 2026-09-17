@@ -121,15 +121,6 @@ function ElectricalPage() {
               <FileCheck2 className="h-3.5 w-3.5" strokeWidth={1.8} />
               {t("electricalPage.hero.badgeRegistry")}
             </span>
-            <span
-              aria-hidden
-              className="hidden h-1.5 w-1.5 rotate-45 sm:block"
-              style={{ background: "rgba(214,178,106,0.4)" }}
-            />
-            <span className="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/30 bg-[var(--gold)]/10 px-4 py-1.5 text-[12px] font-medium tracking-wide text-[var(--gold-light)]">
-              <BadgeCheck className="h-3.5 w-3.5" strokeWidth={1.8} />
-              {t("electricalPage.hero.badgeLevel")}
-            </span>
           </div>
         </div>
       </section>
@@ -185,8 +176,8 @@ function ElectricalPage() {
               subtitle={t("electricalPage.credentials.lead")}
             />
           </Reveal>
-          <div className="mx-auto mt-12 grid max-w-3xl gap-5 sm:grid-cols-2">
-            {(["registry", "competence"] as const).map((k, i) => (
+          <div className="mx-auto mt-12 grid max-w-md gap-5">
+            {(["registry"] as const).map((k, i) => (
               <Reveal key={k} delay={i * 90}>
                 <div className="h-full rounded-2xl border border-[var(--gold)]/25 bg-[var(--bg-elevated)] p-8 text-center">
                   <div className="text-[11px] font-semibold uppercase tracking-[0.2em] text-white/50">

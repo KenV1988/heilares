@@ -25,7 +25,7 @@
   "hero": {
     "badge": "AURINKOENERGIAN ASIANTUNTIJAT",
     "title": "Kokonaisvaltaiset <accent>aurinkoenergia</accent>ratkaisut",
-    "subtitle": "Avaimet käteen -aurinkopaneeliasennukset — maa-, katto- ja Solar Tracker Park Virossa ja koko Euroopassa. Tarjoamme myös työvoiman vuokrausta.",
+    "subtitle": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark Virossa ja koko Euroopassa. Tarjoamme myös työvoiman vuokrausta.",
     "primaryCta": "Pyydä tarjous",
     "secondaryCta": "Lue lisää"
   },
@@ -43,11 +43,11 @@
       "desc": "Aurinkoa seuraavat järjestelmät maksimaaliseen tuottoon suurissa aurinkopuistoissa."
     },
     "ground": {
-      "title": "Maa-asennettu puisto",
+      "title": "Maapark",
       "desc": "Maahan asennetut suurikokoiset aurinkopuistot. Täysi suunnittelu ja asennus."
     },
     "roof": {
-      "title": "Kattopuisto",
+      "title": "Katusepark",
       "desc": "Kattoasennukset teollisuushalleihin, varastoihin ja liikekiinteistöihin ympäri Eurooppaa."
     }
   },
@@ -288,11 +288,11 @@
   "panelsPage": {
     "hero": {
       "title": "Aurinkopaneelipalvelut",
-      "subtitle": "Avaimet käteen -maa-, katto- ja tracker-aurinkopuistot B2B-asiakkaille Virossa, Latviassa ja koko Euroopassa."
+      "subtitle": "Avaimet käteen -Solar Tracker Park, Maapark ja Katusepark B2B-asiakkaille Virossa, Latviassa ja koko Euroopassa."
     },
     "ground": {
       "eyebrow": "Maa-asennukset",
-      "title": "Maapuisto",
+      "title": "Maapark",
       "lead": "Maapuisto on maahan asennettava aurinkopuisto, jonka HeilAres suunnittelee ja asentaa avaimet käteen -periaatteella kaupallisessa ja teollisessa mittakaavassa.",
       "paragraphs": [
         "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. HeilAres hoitaa asennustyöt — perustukset, kiinnitysrakenteet sekä paneelien ja invertterien asennuksen.",
@@ -308,7 +308,7 @@
     },
     "roof": {
       "eyebrow": "Kattoasennukset",
-      "title": "Kattopuisto",
+      "title": "Katusepark",
       "lead": "Kattopuisto on aurinkopaneeliasennus teollisuusrakennusten, varastojen ja liikekiinteistöjen katoille, jonka HeilAres toteuttaa kaikille kattotyypeille.",
       "paragraphs": [
         "Kattopuistot sopivat sekä tasakattoihin että harjakattoihin — trapetsipelti, sandwich-paneeli, bitumi ja kalvokatot. Jokainen projekti alkaa rakenteellisella arvioinnilla, jotta voidaan varmistaa, että katto kantaa turvallisesti paneelien ja kiinnitysrakenteiden lisäkuorman.",
@@ -344,7 +344,7 @@
       "items": {
         "types": {
           "question": "Minkä tyyppisiä aurinkopuistoja HeilAres asentaa?",
-          "answer": "Asennamme maahan asennettavia aurinkopuistoja, teollisuus- ja liikerakennusten kattopuistoja sekä yksiakselisia Solar Tracker Park -ratkaisuja. Työskentelemme sekä Virossa että kansainvälisissä projekteissa."
+          "answer": "Asennamme yksiakselisia Solar Tracker Park -ratkaisuja, Maapark-ratkaisuja sekä teollisuus- ja liikerakennusten Katusepark-ratkaisuja. Työskentelemme sekä Virossa että kansainvälisissä projekteissa."
         },
         "capacity": {
           "question": "Kuinka suuria aurinkopuistoja HeilAres asentaa?",
@@ -644,8 +644,8 @@
       },
       "types": {
         "question": "Minkä tyyppisiä aurinkopuistoja rakennatte?",
-        "lead": "HeilAres rakentaa maa-, katto- ja tracker-aurinkopuistoja.",
-        "answer": "Rakennamme kolmea päätyyppiä — maapuistoja, kattopuistoja teollisuusrakennuksille ja Solar Tracker Park (aurinkoa seuraavia järjestelmiä)."
+        "lead": "HeilAres rakentaa Solar Tracker Park, Maapark ja Katusepark.",
+        "answer": "Rakennamme kolmea päätyyppiä — Solar Tracker Park (aurinkoa seuraavia järjestelmiä), Maapark ja Katusepark teollisuusrakennuksille."
       },
       "quoteSpeed": {
         "question": "Kuinka nopeasti saan tarjouksen?",
@@ -678,8 +678,8 @@
       "selectType": "Valitse tyyppi",
       "types": {
         "tracker_park": "Solar Tracker Park",
-        "maapark": "Maa-asennus",
-        "katusepark": "Kattopuisto",
+        "maapark": "Maapark",
+        "katusepark": "Katusepark",
         "electrical": "Sähkötöitä",
         "workforce": "Työvoiman vuokraus",
         "other": "Muu",
@@ -747,12 +747,12 @@
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
-      "description": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja Solar Tracker Park. Toimimme Virossa ja koko Euroopassa.",
+      "description": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark. Toimimme Virossa ja koko Euroopassa.",
       "twitterTitle": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
-      "twitterDescription": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja Solar Tracker Park. Toimimme Virossa ja koko Euroopassa."
+      "twitterDescription": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark. Toimimme Virossa ja koko Euroopassa."
     },
     "panels": {
-      "title": "Aurinkopaneelit — Tracker, maa- ja kattopuistot | HeilAres",
+      "title": "Solar Tracker Park, Maapark ja Katusepark | HeilAres",
       "description": "Kolme pääasennustyyppiä B2B-asiakkaille. Tier-1-komponentit, kokeneet työryhmät, megawattiluokka."
     },
     "electrical": {

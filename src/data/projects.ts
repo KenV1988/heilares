@@ -11,6 +11,12 @@ import bls1 from "@/assets/projects/bls-1.webp.asset.json";
 
 export type ProjectCategory = "tracker_park" | "maapark" | "katusepark";
 
+export const projectCategoryOrder: readonly ProjectCategory[] = [
+  "tracker_park",
+  "maapark",
+  "katusepark",
+];
+
 export interface GalleryImage {
   src: string;
   alt: LocalizedText;
@@ -332,6 +338,10 @@ export const projects: Project[] = [
     completionTime: { et: "2–4 kuud", en: "2–4 months", fi: "2–4 kuukautta", de: "2–4 Monate" },
   },
 ];
+
+export const projectsByCategory = projectCategoryOrder.flatMap((category) =>
+  projects.filter((project) => project.category === category),
+);
 
 export const formatCapacity = (kw: number, locale: string = "et") => {
   if (kw >= 1000) {

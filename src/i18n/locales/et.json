@@ -25,7 +25,7 @@
   "hero": {
     "badge": "ROHEENERGIA SPETSIALISTID",
     "title": "Terviklikud <accent>roheenergia</accent> lahendused",
-    "subtitle": "Võtmed kätte päikeseparkide paigaldus — maa-, katuse- ja Solar Tracker Park Eestis ja üle Euroopa. Lisaks pakume kogenud tööjõu renti.",
+    "subtitle": "Võtmed kätte päikeseparkide paigaldus — Solar Tracker Park, maapark ja katusepark Eestis ja üle Euroopa. Lisaks pakume kogenud tööjõu renti.",
     "primaryCta": "Küsi pakkumist",
     "secondaryCta": "Loe lähemalt"
   },
@@ -288,7 +288,7 @@
   "panelsPage": {
     "hero": {
       "title": "Päikeseparkide teenused",
-      "subtitle": "Võtmed kätte maapargid, katusepargid ja Solar Tracker Park B2B klientidele Eestis, Lätis ja üle Euroopa."
+      "subtitle": "Võtmed kätte Solar Tracker Park, maapargid ja katusepargid B2B klientidele Eestis, Lätis ja üle Euroopa."
     },
     "ground": {
       "eyebrow": "Maapealsed lahendused",
@@ -344,7 +344,7 @@
       "items": {
         "types": {
           "question": "Millist tüüpi päikeseparke HeilAres paigaldab?",
-          "answer": "Paigaldame maapealseid päikeseparke, tööstus- ja ärihoonete katuseparke ning ühe-teljelisi Solar Tracker Park lahendusi. Töötame nii Eestis kui ka rahvusvahelistel projektidel."
+          "answer": "Paigaldame ühe-teljelisi Solar Tracker Park lahendusi, maapealseid päikeseparke ning tööstus- ja ärihoonete katuseparke. Töötame nii Eestis kui ka rahvusvahelistel projektidel."
         },
         "capacity": {
           "question": "Kui suure võimsusega päikeseparke HeilAres paigaldab?",
@@ -644,8 +644,8 @@
       },
       "types": {
         "question": "Milliseid päikesepargi tüüpe te ehitate?",
-        "lead": "HeilAres ehitab maaparke, katuseparke ja Solar Tracker Park.",
-        "answer": "Ehitame kolme peamist tüüpi — maaparke, katuseparke tööstushoonetele ja Solar Tracker Park (päikest jälgivad süsteemid)."
+        "lead": "HeilAres ehitab Solar Tracker Park, maaparke ja katuseparke.",
+        "answer": "Ehitame kolme peamist tüüpi — Solar Tracker Park (päikest jälgivad süsteemid), maaparke ja katuseparke tööstushoonetele."
       },
       "quoteSpeed": {
         "question": "Kui kiiresti saan pakkumise?",
@@ -752,8 +752,8 @@
       "twitterDescription": "Võtmed kätte päikeseparkide paigaldus Eestis, Lätis ja üle Euroopa. Solar Tracker Park, maapark, katusepark."
     },
     "panels": {
-      "title": "Maapark, katusepark ja Solar Tracker Park | HeilAres",
-      "description": "HeilAres projekteerib ja ehitab maaparke, katuseparke ja Solar Tracker Park tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
+      "title": "Solar Tracker Park, maapark ja katusepark | HeilAres",
+      "description": "HeilAres projekteerib ja ehitab Solar Tracker Park, maaparke ja katuseparke tööstustele ja arendajatele kogu Euroopas. Võtmed kätte teenus."
     },
     "electrical": {
       "title": "Elektritööd ja elektripaigaldised | HeilAres",

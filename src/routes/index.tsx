@@ -10,7 +10,7 @@ import { Process } from "@/components/site/Process";
 import { Why } from "@/components/site/Why";
 import { FAQ } from "@/components/site/FAQ";
 import { CTA } from "@/components/site/CTA";
-import { projects } from "@/data/projects";
+import { projectsByCategory } from "@/data/projects";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/site/Section";
@@ -44,7 +44,7 @@ export function Index() {
           subtitle={t("projectsSection.subtitle")}
         />
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3 md:mt-16">
-          {projects.slice(0, 3).map((p) => (
+          {projectsByCategory.slice(0, 3).map((p) => (
             <ProjectCard key={p.slug} project={p} />
           ))}
         </div>

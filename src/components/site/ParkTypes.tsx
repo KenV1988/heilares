@@ -8,7 +8,7 @@ import {
 import trackerImg from "@/assets/services/tracker-park-1.jpg";
 import maaparkImg from "@/assets/services/service-maapark.jpg";
 
-const KEYS = ["ground", "roof", "tracker"] as const;
+const KEYS = ["tracker", "ground", "roof"] as const;
 
 const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string }>> = {
   tracker: {

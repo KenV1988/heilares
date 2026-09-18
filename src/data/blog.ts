@@ -204,6 +204,56 @@ const epcPartner: BlogPost = {
         },
       ],
     },
+    de: {
+      title: "Wie wählt man den richtigen EPC-Partner für einen Solarpark?",
+      summary:
+        "Ein praktischer Leitfaden für Entwickler und Industriekunden zur Auswahl eines EPC-Partners – welche Kriterien zählen und welche Fragen zu stellen sind.",
+      lead: "Ein EPC-Partner (Engineering, Procurement, Construction) für Solarparks ist das Unternehmen, das für die vollständige schlüsselfertige Errichtung eines Solarparks verantwortlich ist – von Planung über Beschaffung bis zum Bau.",
+      sections: [
+        {
+          heading: "Warum ist die Wahl des EPC-Partners entscheidend?",
+          paragraphs: [
+            "Die Leistung eines Solarparks über 25–30 Jahre hängt unmittelbar davon ab, wie gut er geplant und gebaut wurde. Der falsche EPC-Partner kann zu Minderertrag, häufigen Ausfällen, teurer Wartung und im schlimmsten Fall zum vollständigen Wertverlust der Anlage führen.",
+            "Für den Entwickler ist der EPC-Partner zugleich Finanz- und Terminpartner – Verzögerungen bedeuten Einnahmeausfälle, eine unzureichend spezifizierte Stückliste bedeutet Budgetüberschreitungen. Investoren und Banken bewerten das Projektrisiko häufig anhand des bisherigen Portfolios des EPC-Partners.",
+          ],
+        },
+        {
+          heading: "Welche Kriterien sind entscheidend?",
+          paragraphs: [
+            "Das erste Kriterium ist das Portfoliovolumen in Megawatt. Ein EPC-Partner, der hunderte MW installiert hat, versteht die Besonderheiten großmaßstäblicher Projekte – von der Planung des Umspannwerkanschlusses bis zur langfristigen Wartung der DC-Kabel. HeilAres hat über 400 MW in Estland, Lettland und Europa installiert.",
+            "Das zweite Kriterium ist die Lieferkette. Starke EPC-Partner unterhalten direkte Vertragsbeziehungen zu Tier-1-Herstellern von Modulen und Wechselrichtern – das bedeutet bessere Preise, zuverlässige Garantien und stabile Lieferzeiten. Fragen Sie nach konkreten Lieferanten und Garantiebedingungen.",
+            "Das dritte Kriterium sind eigene Montageteams. Ein EPC, der die gesamte Montage an Subunternehmer vergibt, verliert die Kontrolle über Qualität und Termine. Alle Teams von HeilAres sind inhouse, was einen einheitlichen Qualitätsstandard auf allen Baustellen sicherstellt.",
+          ],
+        },
+        {
+          heading: "Welche Fragen sollten bei der Angebotsbewertung gestellt werden?",
+          paragraphs: [
+            "Fragen Sie nach den dem Angebot zugrunde liegenden Annahmen – welche Module, Wechselrichter und Unterkonstruktionen einkalkuliert sind, welche Bodenverhältnisse angenommen werden und ob die Netzanschlusskosten enthalten sind. Angebote, die nur als €/W ohne Spezifikation angegeben werden, sind nicht vergleichbar.",
+            "Fragen Sie nach dem Projektzeitplan wochenweise und nach der Verantwortlichkeit bei Verzögerungen. Ein seriöser EPC-Partner nennt konkrete Meilensteine und Vertragsstrafen bei Verzug. Fragen Sie außerdem, wie wetterbedingte Stillstandsrisiken verteilt werden.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Wie unterscheidet sich ein EPC-Partner von einem gewöhnlichen Installateur?",
+          lead: "Ein EPC-Partner verantwortet den gesamten Projektzyklus – Planung, Beschaffung und Bau –, während ein gewöhnlicher Installateur nur die physische Montage durchführt.",
+          answer:
+            "Das EPC-Modell gibt dem Entwickler einen einzigen vertraglich verantwortlichen Partner für die gesamte Lieferkette, was das Projektmanagement vereinfacht und das Koordinationsrisiko verringert.",
+        },
+        {
+          question: "Wie groß sollte das Portfolio eines EPC-Partners sein?",
+          lead: "Für großmaßstäbliche Projekte ist es sinnvoll, einen EPC-Partner mit mindestens 100 MW installierter Leistung im Portfolio zu wählen.",
+          answer:
+            "Erfahrung im Megawatt-Maßstab zeigt, dass das Team reale Herausforderungen im Projektmanagement, bei der Netzanbindung und der Logistik gelöst hat.",
+        },
+        {
+          question: "Sollte man einen lokalen oder internationalen EPC-Partner wählen?",
+          lead: "Ein lokaler EPC-Partner mit internationaler Erfahrung ist meist die beste Wahl, da er lokale regulatorische Kenntnisse mit Skalierbarkeit verbindet.",
+          answer:
+            "HeilAres verbindet eine starke lokale Präsenz in Estland und Lettland mit europaweiten Projektkapazitäten.",
+        },
+      ],
+    },
   },
 };
 
@@ -363,6 +413,56 @@ const parkTypes: BlogPost = {
         },
       ],
     },
+    de: {
+      title: "Freiflächenanlage, Dachanlage oder Solar Tracker Park – was passt zu Ihrem Projekt?",
+      summary:
+        "Die drei wichtigsten Solarpark-Typen im B2B-Kontext – Stärken, Kostenstruktur und die besten Einsatzbereiche für jeden Typ.",
+      lead: "Die Wahl zwischen Freiflächenanlage, Dachanlage und Solar Tracker Park hängt in erster Linie von der verfügbaren Fläche, der Netzanschlusskapazität und dem erwarteten Ertrag ab, nicht nur von der Investitionshöhe.",
+      sections: [
+        {
+          heading: "Freiflächenanlage – maximale Skalierbarkeit",
+          paragraphs: [
+            "Eine Freiflächenanlage ist eine fest aufgeständerte Anlage, die sich für große gewerbliche und industrielle Projekte eignet. Eine typische 1-MW-Freiflächenanlage benötigt 1–1,5 Hektar offenes Land. Der CAPEX pro Watt ist üblicherweise der niedrigste der drei Typen.",
+            "Freiflächenanlagen werden von Entwicklern bevorzugt, die Zugang zu landwirtschaftlichen oder industriellen Flächen haben und ein großes Erzeugungsvolumen innerhalb eines festen Budgets benötigen. Die Wartung ist einfach, der Zugang gut und der Modulaustausch bei Ausfall schnell.",
+          ],
+        },
+        {
+          heading: "Dachanlage – Nutzung vorhandener Flächen ohne neuen Landverbrauch",
+          paragraphs: [
+            "Dachanlagen eignen sich für Eigentümer von Industriegebäuden, Lagerhallen, Fabriken und Verteilzentren, die ihre Stromkosten und ihren CO2-Fußabdruck senken möchten, ohne Grundfläche zu beanspruchen. Eine typische 1-MW-Dachanlage bedeckt etwa 6.000–8.000 m² Dachfläche.",
+            "Der Vorteil von Dachanlagen ist der direkte Eigenverbrauch vor Ort – die erzeugte Energie wird lokal verbraucht, was bei hohen Strompreisen eine besonders schnelle Amortisation ermöglicht. Voraussetzung ist, dass die Dachtragkonstruktion die zusätzliche Last aufnehmen kann.",
+          ],
+        },
+        {
+          heading: "Solar Tracker Park – maximaler Ertrag pro Flächeneinheit",
+          paragraphs: [
+            "Ein Solar Tracker Park nutzt einachsige Nachführsysteme, die die Module tagsüber von Ost nach West ausrichten. Der Ertrag liegt 15–25 % höher als bei einer gleich großen, fest aufgeständerten Anlage, was den höheren CAPEX und Wartungsaufwand ausgleicht. HeilAres war an der Installation des 72,5-MW-Solarparks Stelpe mit Bodenmontage in Lettland beteiligt.",
+            "Tracker-Anlagen eignen sich vor allem für große, ebene Flächen, bei denen die Netzkapazität die Erzeugung nicht limitiert.",
+          ],
+        },
+        {
+          heading: "Wie wählt man den richtigen Typ?",
+          paragraphs: [
+            "Erste Frage: Steht eine große offene Fläche zur Verfügung? Falls ja und der Netzanschluss es erlaubt, ist der Tracker am produktivsten. Ist die Fläche begrenzt oder teuer, ist eine Dachanlage logisch. Eine Freiflächenanlage passt, wenn CAPEX Priorität hat und die Fläche zu angemessenen Kosten verfügbar ist.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question:
+            "Ist ein Solar Tracker Park immer besser als eine fest aufgeständerte Freiflächenanlage?",
+          lead: "Tracker erzeugen im Schnitt 15–25 % mehr Energie, doch CAPEX und OPEX sind höher, sodass die Amortisation vom Standort und Strompreis abhängt.",
+          answer:
+            "Unter nordeuropäischen Bedingungen sind Tracker oft eine sinnvolle Wahl für große Flächen, bei denen der Netzanschluss die Spitzenleistung aufnehmen kann.",
+        },
+        {
+          question: "Welcher Typ hat die kürzeste Amortisationszeit?",
+          lead: "Dachanlagen haben typischerweise die kürzeste Amortisationszeit, da selbst verbrauchte Energie den Bezug zum Endkundenpreis aus dem Netz ersetzt.",
+          answer:
+            "Bei Freiflächen- und Tracker-Anlagen hängt die Amortisation vom Verkaufspreis (PPA oder Spotmarkt) ab, der in der Regel niedriger ist als der Endkundenpreis.",
+        },
+      ],
+    },
   },
 };
 
@@ -500,6 +600,49 @@ const turnkey: BlogPost = {
         },
       ],
     },
+    de: {
+      title: "Was bedeutet ein schlüsselfertiger Solarpark-Bau und was umfasst er?",
+      summary:
+        "Ein detaillierter Überblick über das schlüsselfertige EPC-Modell – alle Arbeitsphasen, Zuständigkeiten und was ein Entwickler von einem einzigen Partner erhält.",
+      lead: "Ein schlüsselfertiger Solarpark-Bau bedeutet, dass ein EPC-Partner für den gesamten Prozess verantwortlich ist – von der Planung bis zum Netzanschluss und der betriebsbereiten Übergabe.",
+      sections: [
+        {
+          heading: "Was umfasst schlüsselfertig?",
+          paragraphs: [
+            "Das schlüsselfertige Modell umfasst die anfängliche Standortanalyse und Ertragsberechnung (Yield Assessment), technische Planung, Genehmigungsanträge, die Beschaffung aller Komponenten (Module, Wechselrichter, Unterkonstruktionen, Kabel, Transformatoren), die Montage von Fundamenten und Unterkonstruktionen, die Modulmontage, DC- und AC-Verkabelung, die Anbindung der Wechselrichter und des Umspannwerks sowie Prüfung und finale Übergabe.",
+            "Anders als beim Multi-Contractor-Modell, bei dem der Entwickler jede Phase separat vergibt, trägt der schlüsselfertige EPC-Partner eine einzige vertragliche Verantwortung für die vollständige Inbetriebnahme der Anlage.",
+          ],
+        },
+        {
+          heading: "Warum bevorzugen Entwickler das schlüsselfertige Modell?",
+          paragraphs: [
+            "Erster Grund: klare Verantwortlichkeit. Wenn etwas schiefgeht – Modulleistung unter Planwert, defektes Kabel, Wechselrichter startet nicht – gibt es einen Partner, der das Problem lösen muss. Bei Multi-Contractor-Projekten dauert die Klärung der Haftung oft Monate.",
+            "Zweiter Grund: Terminzuverlässigkeit. Der EPC-Partner steuert intern Komponentenlieferungen, Personaleinsatz und Arbeitszyklen, wodurch teure Stillstände reduziert werden. Bei großen Projekten kann eine Woche Verzögerung zehntausende Euro Einnahmeausfall bedeuten.",
+            "Dritter Grund: Preissicherheit. Schlüsselfertige Verträge werden meist zum Festpreis (Lump-Sum) abgeschlossen, wobei der EPC das Lieferketten- und Ausführungsrisiko trägt. Der Entwickler kennt den genauen CAPEX im Voraus.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Ist das schlüsselfertige Modell immer teurer als die Eigenkoordination?",
+          lead: "Der schlüsselfertige CAPEX kann etwas höher liegen, doch die Gesamtkosten des Projekts (TCO) sind meist niedriger, dank geringerer Verzögerungskosten und besserer Beschaffung.",
+          answer:
+            "Bei großen Projekten gleichen die Mengenrabatte des EPC-Partners bei Lieferanten die zusätzliche Marge oft aus.",
+        },
+        {
+          question:
+            "Übernimmt der EPC-Partner die Verantwortung für die Produktion nach der Übergabe?",
+          lead: "Der EPC-Partner garantiert die Ausführungsqualität (Workmanship Warranty) meist für 2–5 Jahre, während Garantien auf Komponenten direkt von den Tier-1-Herstellern kommen.",
+          answer:
+            "Eine Leistungsgarantie (Performance Guarantee) kann separat vereinbart werden, insbesondere bei größeren Projekten.",
+        },
+        {
+          question: "Bietet HeilAres schlüsselfertige Leistungen außerhalb Estlands an?",
+          lead: "Ja, HeilAres liefert schlüsselfertige EPC-Leistungen in ganz Europa.",
+          answer: "Teams können schnell europaweit mit der Arbeit beginnen.",
+        },
+      ],
+    },
   },
 };
 
@@ -623,6 +766,44 @@ const timeline: BlogPost = {
           lead: "Kyllä, HeilAres jatkaa asennustöitä talvella, erityisesti perustusten ja rakenteiden osalta.",
           answer:
             "Paneeli- ja DC-töille on lämpötila- ja kosteusrajoja, jotka huomioidaan aikataulussa.",
+        },
+      ],
+    },
+    de: {
+      title: "Wie lange dauert der Bau eines großmaßstäblichen Solarparks?",
+      summary:
+        "Ein realistischer Zeitplan für den Bau großmaßstäblicher Solarparks – Phasen, Dauer und die wichtigsten Verzögerungsursachen.",
+      lead: "Der Bau eines großmaßstäblichen Solarparks (10 MW und mehr) dauert typischerweise 6–12 Monate von der Vertragsunterzeichnung bis zum Netzanschluss, abhängig vor allem von Lieferzeiten der Komponenten und dem Genehmigungsverfahren.",
+      sections: [
+        {
+          heading: "Phasen und ihre typische Dauer",
+          paragraphs: [
+            "Die detaillierte Planung und das Genehmigungsverfahren dauern in der Regel 2–4 Monate. Dazu gehören geotechnische Untersuchungen, die Planung des Netzanschlusses, die Erstellung der Bauunterlagen und die Einholung der erforderlichen Genehmigungen. Bei großen Standorten kann sich das Genehmigungsverfahren durch kommunale Fristen verlängern.",
+            "Die Beschaffung der Komponenten dauert je nach globaler Lieferlage 2–6 Monate. Module und Wechselrichter kommen oft parallel aus Asien und Europa. Die Lieferzeiten waren in den letzten Jahren volatiler als zuvor.",
+            "Der physische Bau eines 10-MW-Parks dauert 2–4 Monate – Fundamente, Unterkonstruktionen, Module, DC-Verkabelung, Wechselrichtermontage und Umspannwerkanschluss. Bei einem 100-MW-Park kann sich die aktive Montagephase auf 6–8 Monate erstrecken, oft mit parallel arbeitenden Teams.",
+            "Prüfung, Netzanschluss und Inbetriebnahme nach der Montage dauern typischerweise 2–6 Wochen, je nach Zeitplan des Netzbetreibers.",
+          ],
+        },
+        {
+          heading: "Wichtigste Verzögerungsursachen",
+          paragraphs: [
+            "Verzögerungen bei der Komponentenlieferung waren in den letzten Jahren die häufigste Ursache. Ein starker EPC-Partner steuert das Lieferrisiko durch mehrere Lieferanten und Lagerbestände.",
+            "Verlängerte Genehmigungsverfahren, anhaltend schlechtes Wetter und Verzögerungen bei der Netzanbindung sind die nächsten wesentlichen Risiken. Ein realistischer Zeitplan und eine klare Abstimmung mit dem lokalen Netzbetreiber verringern diese Risiken erheblich.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Wie lange dauert der Bau eines 100-MW-Solarparks?",
+          lead: "Der Bau eines 100-MW-Solarparks dauert üblicherweise 9–14 Monate vom Vertrag bis zum Netzanschluss.",
+          answer:
+            "Das größte von HeilAres realisierte Projekt ist der 244-MW-Solarpark Risti in Estland, bei dem mehrere Teams parallel gearbeitet haben.",
+        },
+        {
+          question: "Kann der Bau eines Solarparks im Winter fortgesetzt werden?",
+          lead: "Ja, HeilAres führt Montagearbeiten auch im Winter fort, insbesondere bei Fundamenten und Unterkonstruktionen.",
+          answer:
+            "Bei Modulen und DC-Arbeiten gibt es Temperatur- und Feuchtigkeitsgrenzen, die im Zeitplan berücksichtigt werden.",
         },
       ],
     },
@@ -758,6 +939,48 @@ const tier1: BlogPost = {
           lead: "Tier-1-paneelit ovat tyypillisesti 5–15% kalliimpia kuin Tier-2.",
           answer:
             "Pitkän aikavälin tuoton ja takuun luotettavuuden huomioiden Tier-1-paneeleilla on yleensä alhaisempi TCO.",
+        },
+      ],
+    },
+    de: {
+      title: "Was bedeutet ein Tier-1-Solarmodul und warum ist das wichtig?",
+      summary:
+        "Der Begriff Tier-1 im B2B-Kontext erklärt – wonach BloombergNEF Hersteller bewertet und warum das für Entwickler wichtig ist.",
+      lead: "Ein Tier-1-Solarmodul ist ein Modul, dessen Hersteller nach der Klassifizierung von BloombergNEF (BNEF) als bankfähig (bankable) gilt – das bedeutet, der Hersteller hat in erheblichem Umfang Module an nicht-rückgriffsfinanzierte Großprojekte geliefert.",
+      sections: [
+        {
+          heading: "Was misst Tier-1 tatsächlich?",
+          paragraphs: [
+            "Tier-1 ist keine technische Qualitätsklasse, sondern ein Indikator für finanzielle Stabilität. BloombergNEF bewertet Hersteller vierteljährlich danach, ob mindestens sechs unterschiedliche bankfinanzierte Solarparks in den letzten zwei Jahren Module dieses Herstellers verwendet haben. Dies zeigt, dass der Hersteller ein verlässlicher langfristiger Partner ist und seine Garantie über 25 Jahre voraussichtlich einlösbar ist.",
+            "Die Tier-1-Liste garantiert nicht, dass jedes einzelne Modul technisch das beste ist – sie zeigt die geschäftliche Stabilität des Herstellers, was für langfristige Garantien entscheidend ist.",
+          ],
+        },
+        {
+          heading: "Warum sollte ein Entwickler Tier-1 verlangen?",
+          paragraphs: [
+            "Banken und Investoren verlangen häufig Tier-1-Module als Voraussetzung für die Projektfinanzierung, da sie kein Projekt finanzieren möchten, bei dem der Modulhersteller vor Ablauf der Garantie vom Markt verschwinden könnte. Dies ist unmittelbar mit der Fähigkeit des Projekts verbunden, eine langfristige Fremdfinanzierung zu erhalten.",
+            "Technisch gesehen weisen Module von Tier-1-Herstellern typischerweise eine geringere Degradation (bis zu 0,4 % pro Jahr), einen besseren Temperaturkoeffizienten und einen stabileren mechanischen Rahmen auf. HeilAres arbeitet ausschließlich mit geprüften Tier-1-Lieferanten, um den Anlagenwert des Entwicklers über 25+ Jahre zu sichern.",
+          ],
+        },
+        {
+          heading: "Verbreitete Missverständnisse",
+          paragraphs: [
+            "Tier-1 ist kein Zertifikat – es ist eine regelmäßig aktualisierte Liste. Ein Tier-2- oder Tier-3-Modul muss technisch nicht schlechter sein, doch das finanzielle Risiko in Bezug auf die Garantie ist höher. Bei großen Projekten lohnt sich dieses Risiko nicht.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Wie überprüft man, ob ein Hersteller Tier-1 ist?",
+          lead: "BloombergNEF veröffentlicht vierteljährlich eine Tier-1-Liste, die anhand des Bloomberg-Berichts des Herstellers oder der von HeilAres eingeholten Angebote überprüft werden kann.",
+          answer:
+            "HeilAres vermerkt in jedem Angebot den zum Angebotszeitpunkt geltenden Tier-1-Status der jeweiligen Hersteller.",
+        },
+        {
+          question: "Sind Tier-1-Module immer teurer?",
+          lead: "Tier-1-Module sind typischerweise 5–15 % teurer als Tier-2, doch der Mehrpreis ergibt sich aus Produktionsumfang und Qualitätskontrolle.",
+          answer:
+            "Berücksichtigt man den langfristigen Ertrag und die Verlässlichkeit der Garantie, sind Tier-1-Module in der TCO-Betrachtung günstiger.",
         },
       ],
     },
@@ -898,6 +1121,49 @@ const maintenance: BlogPost = {
           question: "Kannattaako O&M tilata EPC-kumppanilta?",
           lead: "Saman kumppanin valinta EPC:hen ja O&M:ään yksinkertaistaa takuuvastuuta.",
           answer: "HeilAres tarjoaa jatkuvaa O&M-palvelua kaikille rakentamilleen kohteille.",
+        },
+      ],
+    },
+    de: {
+      title: "Wartung von Solarparks – was Entwickler wissen sollten",
+      summary:
+        "Ein praktischer Überblick über O&M (Operations and Maintenance) von Solarparks aus Entwicklersicht – was die Wartung umfasst und welche typischen Kostenauswirkungen bestehen.",
+      lead: "Das O&M (Operations and Maintenance) eines Solarparks umfasst sowohl vorbeugende als auch störungsbedingte Wartung sowie Monitoring, mit dem Ziel, den Ertrag des Parks über 25–30 Jahre möglichst nahe am geplanten Niveau zu halten.",
+      sections: [
+        {
+          heading: "Was umfasst die Wartung eines Solarparks?",
+          paragraphs: [
+            "Das tägliche Monitoring überwacht die Modulleistung, den Wechselrichterstatus, die Stromflüsse der Strings und die Werte der Umgebungssensoren. Ein typisches SCADA-System meldet Anomalien in Echtzeit und ermöglicht eine schnelle Reaktion.",
+            "Die vorbeugende Wartung umfasst visuelle Modulkontrollen, Thermografie-Inspektionen (zur Erkennung von Hot Spots), die Kontrolle der Unterkonstruktion auf Anzugsmoment und Korrosion sowie den Austausch von Wechselrichterfiltern. Sie erfolgt in der Regel 1–2 Mal jährlich.",
+            "Die korrektive Wartung wird im Störungsfall ausgelöst – defektes Modul, Wechselrichterfehler, Kabelschaden. Ein guter O&M-Partner garantiert eine Reaktionszeit, etwa 24 Stunden bei größeren Ausfällen.",
+          ],
+        },
+        {
+          heading: "Was beeinflusst die Wartungskosten?",
+          paragraphs: [
+            "Die jährlichen O&M-Kosten liegen typischerweise bei 8–15 €/kW installierter Leistung, abhängig von Parkgröße, Standort und Serviceniveau. Größere Parks profitieren von Skaleneffekten – die €/kW-Kosten eines 100-MW-Parks sind niedriger als bei einem 1-MW-Park.",
+            "Der Standort beeinflusst die Reinigungshäufigkeit (Staub, Schnee, Vogelkot), das Korrosionsrisiko der Unterkonstruktion (Küstengebiete) und die Reaktionszeit des Teams. Solar Tracker Parks benötigen mechanische Wartung, die fest aufgeständerte Parks nicht erfordern.",
+          ],
+        },
+        {
+          heading: "Was sollte im Vertrag geregelt werden?",
+          paragraphs: [
+            "Ein guter O&M-Vertrag enthält eine Leistungsgarantie (Performance Guarantee) – produziert der Park weniger als vereinbart, gleicht der O&M-Partner die Differenz aus. Hinzu kommen Reaktionszeiten bei Störungen, die Verfügbarkeit von Ersatzteilen und ein Zeitplan für regelmäßige Wartungseinsätze.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Wie viel kostet die jährliche Wartung eines 10-MW-Solarparks?",
+          lead: "Die typischen jährlichen O&M-Kosten für einen 10-MW-Solarpark liegen bei 80.000–150.000 €, abhängig von Serviceniveau und Standort.",
+          answer:
+            "Die genauen Kosten hängen davon ab, ob Reinigung, Ersatzteile und eine garantierte Reaktionszeit enthalten sind.",
+        },
+        {
+          question: "Sollte man O&M beim EPC-Partner beauftragen?",
+          lead: "Die Wahl desselben Partners für EPC und O&M vereinfacht die Garantieverantwortung und ermöglicht eine schnellere Reaktion über den gesamten Projektlebenszyklus.",
+          answer:
+            "HeilAres bietet fortlaufende O&M-Leistungen für alle von uns errichteten Projekte in Estland, Lettland und weiteren europäischen Ländern an.",
         },
       ],
     },
@@ -1076,6 +1342,61 @@ const electricalWorks: BlogPost = {
           lead: "Tarjous annetaan yleensä 24 tunnin kuluessa ja pienempiin kohteisiin tiimi pääsee muutamassa päivässä.",
           answer:
             "Suurten aurinkopuistojen ja teollisuuskohteiden osalta rakennamme aikataulun yhdessä asiakkaan kanssa, ottaen huomioon verkkoliitynnän ja komponenttien saatavuuden.",
+        },
+      ],
+    },
+    de: {
+      title: "Elektroarbeiten in Solarparks und der Industrie – was Sie wissen müssen",
+      summary:
+        "Ein praktischer Überblick über den Umfang von Elektroarbeiten in Solarparks und Industrieanlagen: MTR-Zulassung, Mittel- und Niederspannung, Inbetriebnahme und Vertragsbedingungen.",
+      lead: "Elektroarbeiten sind das Herzstück eines Solarparks oder einer Industrieanlage – nicht nur das Verbinden von Modulen und Wechselrichtern, sondern die Planung, der Bau, die Prüfung und die Inbetriebnahme der gesamten Mittel- und Niederspannungsinfrastruktur nach den geltenden Normen.",
+      sections: [
+        {
+          heading: "Warum bestimmen Elektroarbeiten die Projektqualität?",
+          paragraphs: [
+            "Ertrag und Sicherheit eines Solarparks hängen unmittelbar von der Qualität der Elektroarbeiten ab. Schlechte Verbindungen, unterdimensionierte Kabel oder fehlerhafte Schutzlogik verursachen Verluste, Störungen und Sicherheitsrisiken, deren Behebung ein Vielfaches einer von Anfang an hochwertigen Lösung kosten kann.",
+            "Bei Industrieanlagen kommt die Anforderung an unterbrechungsfreie Stromversorgung und Prozessautomatisierung hinzu – Elektroarbeiten müssen das bestehende Verteilnetz, die Notstromversorgung und die Leitsysteme berücksichtigen. Ein fehlerhafter Anschluss kann die Produktion stoppen oder Anlagen beschädigen.",
+          ],
+        },
+        {
+          heading: "Welche Qualifikation erfordern Elektroarbeiten?",
+          paragraphs: [
+            "In Estland dürfen Elektroarbeiten nur von einem Team mit entsprechender Qualifikation und Registrierung durchgeführt werden. HeilAres verfügt über die MTR-Registrierung für Elektroarbeiten TEL005181.",
+          ],
+        },
+        {
+          heading: "Welche Arbeiten gehören zum elektrischen Teil eines Solarparks?",
+          paragraphs: [
+            "Auf der DC-Seite: die Verbindung der Module untereinander, die Führung der Strangkabel zum Kombinator, der Anschluss an den Wechselrichter und der DC-Schutz. Auf der AC-Seite: die Zusammenschaltung der Wechselrichterausgänge, der Transformatoranschluss, der Mittelspannungsanschluss und die Schutzrelais.",
+            "Zusätzlich muss ein Steuerungs- und Überwachungssystem (SCADA) errichtet werden, das dem Betreiber in Echtzeit einen Überblick über Produktion, Störungen und Wartungsbedarf gibt. Ohne dieses System ist der Solarpark keine vollwertige Anlage.",
+          ],
+        },
+        {
+          heading: "Wie sollte der Vertrag für Elektroarbeiten gestaltet werden?",
+          paragraphs: [
+            "Der Vertrag muss den Umfang (DC, AC, Mittelspannung, Monitoring), die geltenden Normen (EVS-HD, IEC), den Prüfplan und das Abnahmeprotokoll festlegen. Verlangen Sie eine dokumentierte Betriebs- und Wartungsanleitung sowie ein anfängliches Messprotokoll.",
+            "Garantie-, Wartungs- und Reaktionszeitbedingungen werden im projektspezifischen Vertrag festgelegt.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Was ist die MTR-Registrierung und warum ist sie wichtig?",
+          lead: "MTR (Wirtschaftstätigkeitsregister) ist die estnische Registrierung, die das Recht eines Unternehmens bestätigt, Elektroarbeiten auf der jeweiligen Spannungsebene durchzuführen.",
+          answer:
+            "Die MTR-Registrierung von HeilAres für Elektroarbeiten lautet TEL005181. Der genaue Arbeitsumfang und die Projektanforderungen werden anhand der Ausgangsdaten vereinbart.",
+        },
+        {
+          question: "Können Elektroarbeiten separat, ohne EPC, beauftragt werden?",
+          lead: "Ja – HeilAres bietet Elektroarbeiten auch als eigenständige Dienstleistung an, wenn der Kunde den Bau oder die Modulmontage selbst organisiert hat.",
+          answer:
+            "Bei separater Beauftragung prüfen wir die vorhandene Installation, führen den fehlenden elektrischen Teil aus und nehmen das System normgerecht in Betrieb.",
+        },
+        {
+          question: "Wie schnell können Elektroarbeiten beauftragt werden?",
+          lead: "Ein Angebot wird in der Regel innerhalb von 24 Stunden erstellt, und bei kleineren Objekten kann das Team innerhalb weniger Tage vor Ort sein.",
+          answer:
+            "Bei großen Solarparks und Industrieanlagen erstellen wir gemeinsam mit dem Kunden einen Zeitplan unter Berücksichtigung von Netzanschluss und Komponentenverfügbarkeit.",
         },
       ],
     },

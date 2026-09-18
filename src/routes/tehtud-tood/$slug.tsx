@@ -6,6 +6,7 @@ import { Seo } from "@/components/site/Seo";
 import { projects, formatCapacity } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
+import { localizedContentHead } from "@/lib/locale-seo";
 
 export const Route = createFileRoute("/tehtud-tood/$slug")({
   component: ProjectDetail,
@@ -17,22 +18,21 @@ export const Route = createFileRoute("/tehtud-tood/$slug")({
   head: ({ loaderData }) => {
     if (!loaderData) return {};
     const project = loaderData.project;
-    const title = `${project.title.et} | HeilAres`;
-    return {
-      meta: [
-        { title },
-        { name: "description", content: project.description.et },
-        { property: "og:title", content: title },
-        { property: "og:description", content: project.description.et },
-        { property: "og:image", content: project.coverImage },
-      ],
-      links: [{ rel: "canonical", href: `https://heilares.ee/tehtud-tood/${project.slug}` }],
-    };
+    return localizedContentHead(
+      "et",
+      `/tehtud-tood/${project.slug}`,
+      project.title.et,
+      project.description.et,
+    );
   },
 });
 
 function ProjectDetail() {
   const { project } = Route.useLoaderData();
+  return <ProjectDetailView project={project} />;
+}
+
+export function ProjectDetailView({ project }: { project: (typeof projects)[number] }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
 

@@ -696,8 +696,6 @@
       "email": "E-post",
       "phone": "Telefon",
       "location": "Asukoht",
-      "hours": "Tööajad",
-      "hoursValue": "E–R 09:00–18:00",
       "locationValue": "Eesti & Euroopa"
     },
     "map": {
@@ -784,7 +782,8 @@
   },
   "roles": {
     "workforce": "Tööjõu rent",
-    "greenEnergy": "Roheenergia"
+    "greenEnergy": "Roheenergia",
+    "partnershipManager": "Partnership Manager"
   },
   "batterySection": {
     "eyebrow": "AKUPANGAD / BESS",

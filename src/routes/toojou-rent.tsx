@@ -14,19 +14,12 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-laevaehitus.jpg";
 
 export const Route = createFileRoute("/toojou-rent")({
   component: WorkforcePage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.workforce.title") },
-      { name: "description", content: i18n.t("seo.workforce.description") },
-      { property: "og:title", content: i18n.t("seo.workforce.title") },
-      { property: "og:description", content: i18n.t("seo.workforce.description") },
-    ],
-    links: [{ rel: "canonical", href: "https://heilares.ee/toojou-rent" }],
-  }),
+  head: () => localizedHead("et", "workforce", "/toojou-rent"),
 });
 
 const WHY_ICONS = [
@@ -35,7 +28,7 @@ const WHY_ICONS = [
   { key: "flexible", Icon: Settings },
 ] as const;
 
-function WorkforcePage() {
+export function WorkforcePage() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const faqKeys = ["q1", "q2"] as const;

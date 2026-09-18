@@ -68,13 +68,11 @@ export function PageHero({
       <div className="container-x relative z-10 flex flex-1 flex-col items-center justify-center">
         <div className="w-full text-center">
           {badge && <SectionBadge>{badge}</SectionBadge>}
-          <h1 className="mx-auto mt-5 max-w-3xl text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px] min-h-[2.1em]">
+          <h1 className="mx-auto mt-5 max-w-3xl text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
             {title}
           </h1>
           {subtitle && (
-            <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg min-h-[3.5rem] md:min-h-[4rem]">
-              {subtitle}
-            </p>
+            <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg">{subtitle}</p>
           )}
           {decorative === "diamonds" && (
             <div

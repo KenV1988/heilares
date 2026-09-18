@@ -1,12 +1,17 @@
 import { Link } from "@tanstack/react-router";
-import { Linkedin, Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Linkedin, Mail, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { NAV_LINKS } from "@/lib/nav";
 import { company } from "@/data/company";
+import { useLocation } from "@tanstack/react-router";
+import { localizePath, type Lang } from "@/i18n";
 
 export function Footer() {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
+  const localized = (to: string) => localizePath(to, currentLang);
   const year = new Date().getFullYear();
 
   const socials = [{ Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" }];
@@ -57,7 +62,10 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {NAV_LINKS.map((l) => (
                 <li key={l.to}>
-                  <Link to={l.to} className="text-white/75 transition hover:text-[var(--brand)]">
+                  <Link
+                    to={localized(l.to)}
+                    className="text-white/75 transition hover:text-[var(--brand)]"
+                  >
                     {t(l.key)}
                   </Link>
                 </li>
@@ -78,13 +86,16 @@ export function Footer() {
                 </a>
               </li>
               {company.contacts.map((c) => (
-                <li key={c.phoneHref} className="flex items-start gap-2.5">
-                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
+                <li key={c.email} className="flex items-start gap-2.5">
+                  <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
                   <div>
                     <div className="font-medium text-white">{c.name}</div>
                     <div className="text-xs text-white/55">{t(c.areaKey)}</div>
-                    <a href={c.phoneHref} className="mt-0.5 inline-block hover:text-[var(--brand)]">
-                      {c.phone}
+                    <a
+                      href={`mailto:${c.email}`}
+                      className="mt-0.5 inline-block break-all hover:text-[var(--brand)]"
+                    >
+                      {c.email}
                     </a>
                   </div>
                 </li>
@@ -92,10 +103,6 @@ export function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 text-[var(--brand)]" />
                 <span>{t("contact.info.locationValue")}</span>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <Clock className="mt-0.5 h-4 w-4 text-[var(--brand)]" />
-                <span>{t("contact.info.hoursValue")}</span>
               </li>
             </ul>
           </div>
@@ -109,7 +116,7 @@ export function Footer() {
               {directions.map((d) => (
                 <li key={d.to + d.label}>
                   <Link
-                    to={d.to}
+                    to={localized(d.to)}
                     className={
                       d.accent
                         ? "font-semibold text-[#D6B26A] transition hover:text-[var(--gold-light)]"
@@ -150,7 +157,7 @@ export function Footer() {
           </p>
           <div className="md:text-right text-center">
             <Link
-              to="/"
+              to={localized("/")}
               className="transition hover:opacity-100"
               style={{ color: "rgba(214,178,106,0.6)" }}
             >

@@ -6,6 +6,7 @@ import { Seo } from "@/components/site/Seo";
 import { CTA } from "@/components/site/CTA";
 import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
+import { localizedContentHead } from "@/lib/locale-seo";
 import {
   Accordion,
   AccordionItem,
@@ -33,21 +34,22 @@ export const Route = createFileRoute("/blogi/$slug")({
       };
     }
     const c = loaderData.post.content.et;
-    return {
-      meta: [
-        { title: `${c.title} | HeilAres` },
-        { name: "description", content: c.summary },
-        { property: "og:title", content: `${c.title} | HeilAres` },
-        { property: "og:description", content: c.summary },
-        { property: "og:type", content: "article" },
-      ],
-      links: [{ rel: "canonical", href: `https://heilares.ee/blogi/${loaderData.post.slug}` }],
-    };
+    return localizedContentHead(
+      "et",
+      `/blogi/${loaderData.post.slug}`,
+      c.title,
+      c.summary,
+      "article",
+    );
   },
 });
 
 function BlogPostPage() {
   const { post } = Route.useLoaderData() as { post: BlogPost };
+  return <BlogPostView post={post} />;
+}
+
+export function BlogPostView({ post }: { post: BlogPost }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const c = post.content[lang];

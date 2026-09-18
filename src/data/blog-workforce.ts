@@ -16,8 +16,7 @@ export const workforceShipbuilding: BlogPost = {
       title: "Tööjõu rent laevaehituses — kuidas mehitada laevatehase projekt",
       summary:
         "Kuidas laevatehased katavad tootmistippude tööjõuvajaduse renditud meeskondadega: kvalifikatsioon, dokumendid, logistika ja hinnamudel.",
-      lead:
-        "Laevaehitus töötab projektipõhises rütmis — plokkide koostamine, varustuse paigaldus ja lõppviimistlus nõuavad lühikese aja jooksul kordades rohkem käsi kui tehase põhikoosseis. Renditud meeskond katab selle tipu ilma püsikulu kasvatamata.",
+      lead: "Laevaehitus töötab projektipõhises rütmis — plokkide koostamine, varustuse paigaldus ja lõppviimistlus nõuavad lühikese aja jooksul kordades rohkem käsi kui tehase põhikoosseis. Renditud meeskond katab selle tipu ilma püsikulu kasvatamata.",
       sections: [
         {
           heading: "Millist tööjõudu laevatehased tegelikult vajavad?",
@@ -44,22 +43,19 @@ export const workforceShipbuilding: BlogPost = {
       faqs: [
         {
           question: "Kui kiiresti saab meeskonna objektile?",
-          lead:
-            "Standardsete rollide puhul liigub esimene meeskond objektile tavaliselt 1–3 nädalaga.",
+          lead: "Standardsete rollide puhul liigub esimene meeskond objektile tavaliselt 1–3 nädalaga.",
           answer:
             "Kiirus sõltub vajalikest sertifikaatidest, viisadest ja majutuse korraldusest — pakkumise vastuse anname 24 tunni jooksul.",
         },
         {
           question: "Kes vastutab tööohutuse eest?",
-          lead:
-            "Tööohutuse üldkorraldus jääb objekti valdajale, meeskonna väljaõppe ja isikukaitsevahendite eest vastutab HeilAres.",
+          lead: "Tööohutuse üldkorraldus jääb objekti valdajale, meeskonna väljaõppe ja isikukaitsevahendite eest vastutab HeilAres.",
           answer:
             "Iga töötaja läbib enne tööle asumist objekti sissejuhatava ohutusinstruktaaži ja kannab nõuetekohaseid kaitsevahendeid.",
         },
         {
           question: "Millistes riikides te tööjõudu pakute?",
-          lead:
-            "Teenindame laevatehaseid ja tööstusi Euroopas ja Skandinaavias.",
+          lead: "Teenindame laevatehaseid ja tööstusi Euroopas ja Skandinaavias.",
           answer:
             "Oleme mehitanud projekte muu hulgas Soomes, Saksamaal, Prantsusmaal ja Hispaanias.",
         },
@@ -69,8 +65,7 @@ export const workforceShipbuilding: BlogPost = {
       title: "Workforce rental in shipbuilding — how to staff a shipyard project",
       summary:
         "How shipyards cover peak labour demand with rented crews: qualifications, documents, logistics and the pricing model.",
-      lead:
-        "Shipbuilding runs in project cycles — block assembly, outfitting and final finishing require many times more hands over a short window than a yard's core staff can provide. A rented crew covers that peak without growing fixed costs.",
+      lead: "Shipbuilding runs in project cycles — block assembly, outfitting and final finishing require many times more hands over a short window than a yard's core staff can provide. A rented crew covers that peak without growing fixed costs.",
       sections: [
         {
           heading: "What labour do shipyards actually need?",
@@ -103,16 +98,14 @@ export const workforceShipbuilding: BlogPost = {
         },
         {
           question: "Who is responsible for occupational safety?",
-          lead:
-            "Overall site safety stays with the site operator; HeilAres is responsible for crew training and personal protective equipment.",
+          lead: "Overall site safety stays with the site operator; HeilAres is responsible for crew training and personal protective equipment.",
           answer:
             "Every worker completes the site induction before starting and wears compliant protective equipment.",
         },
         {
           question: "Which countries do you supply workforce to?",
           lead: "We serve shipyards and industry across Europe and Scandinavia.",
-          answer:
-            "We have staffed projects in Finland, Germany, France and Spain, among others.",
+          answer: "We have staffed projects in Finland, Germany, France and Spain, among others.",
         },
       ],
     },
@@ -120,8 +113,7 @@ export const workforceShipbuilding: BlogPost = {
       title: "Työvoiman vuokraus laivanrakennuksessa — näin miehität telakkaprojektin",
       summary:
         "Miten telakat kattavat huipputyövoimatarpeen vuokratiimeillä: pätevyydet, dokumentit, logistiikka ja hinnoittelumalli.",
-      lead:
-        "Laivanrakennus etenee projektisykleissä — lohkojen kokoonpano, varustelu ja viimeistely vaativat lyhyessä ajassa moninkertaisesti enemmän käsiä kuin telakan oma henkilöstö. Vuokratiimi kattaa huipun ilman kiinteiden kulujen kasvua.",
+      lead: "Laivanrakennus etenee projektisykleissä — lohkojen kokoonpano, varustelu ja viimeistely vaativat lyhyessä ajassa moninkertaisesti enemmän käsiä kuin telakan oma henkilöstö. Vuokratiimi kattaa huipun ilman kiinteiden kulujen kasvua.",
       sections: [
         {
           heading: "Millaista työvoimaa telakat todella tarvitsevat?",
@@ -154,8 +146,7 @@ export const workforceShipbuilding: BlogPost = {
         },
         {
           question: "Kuka vastaa työturvallisuudesta?",
-          lead:
-            "Työmaan yleinen turvallisuus on kohteen haltijalla, tiimin koulutuksesta ja suojaimista vastaa HeilAres.",
+          lead: "Työmaan yleinen turvallisuus on kohteen haltijalla, tiimin koulutuksesta ja suojaimista vastaa HeilAres.",
           answer:
             "Jokainen työntekijä käy työmaaperehdytyksen ennen aloitusta ja käyttää vaatimusten mukaisia suojaimia.",
         },
@@ -164,6 +155,55 @@ export const workforceShipbuilding: BlogPost = {
           lead: "Palvelemme telakoita ja teollisuutta Euroopassa ja Skandinaviassa.",
           answer:
             "Olemme miehittäneet projekteja muun muassa Suomessa, Saksassa, Ranskassa ja Espanjassa.",
+        },
+      ],
+    },
+    de: {
+      title: "Arbeitskräfteverleih im Schiffbau – so besetzen Sie ein Werftprojekt",
+      summary:
+        "Wie Werften Spitzenbedarf an Arbeitskräften mit angemieteten Teams decken: Qualifikationen, Dokumente, Logistik und Preismodell.",
+      lead: "Der Schiffbau läuft in Projektzyklen ab – Sektionsbau, Ausrüstung und Endmontage erfordern in kurzer Zeit ein Vielfaches der Hände, die die Stammbelegschaft einer Werft leisten kann. Ein angemietetes Team deckt diese Spitze ab, ohne die Fixkosten zu erhöhen.",
+      sections: [
+        {
+          heading: "Welche Arbeitskräfte benötigen Werften tatsächlich?",
+          paragraphs: [
+            "Am häufigsten gefragt sind Schweißer (MIG/MAG, WIG, 111), Schiffbauer, Rohrschlosser, Elektriker und Isolierer sowie Hilfskräfte für Materialtransport, Gerüstbau, Reinigung und Brandwache.",
+            "Bei jeder Rolle zählt die dokumentierte Qualifikation: gültige Schweißerprüfungen, Sicherheitsschulungen sowie Erlaubnisse für Höhenarbeit und Arbeiten in engen Räumen. HeilAres prüft diese vor dem Einsatz, damit Papierkram die Baustelle nie ausbremst.",
+          ],
+        },
+        {
+          heading: "Wie läuft die Personalbesetzung in der Praxis ab?",
+          paragraphs: [
+            "Wir beginnen mit der Bedarfsermittlung: Rollen, Anzahl, Schichtplan, Projektdauer und Standort. Daraus entsteht ein Einsatzplan mit Zeitplan, der Reise-, Unterkunfts- und Einarbeitungszeit berücksichtigt.",
+            "Die Teams reisen mit einem Vorarbeiter an, der die Arbeitsorganisation übernimmt und mit dem Produktionsleiter des Kunden kommuniziert. So bestellt die Werft ein Ergebnis, statt einzelne Personen zu führen.",
+          ],
+        },
+        {
+          heading: "Was ist bei der Budgetierung zu beachten?",
+          paragraphs: [
+            "Neben dem Stundensatz beeinflussen Reise- und Unterkunftskosten, Überstunden und Schichtzuschläge die Gesamtkosten. Ein transparentes Angebot weist diese als eigene Posten aus, damit der Vergleich mit anderen Anbietern fair bleibt.",
+            "Bei längeren Projekten empfiehlt sich ein Rotationsmodell – Teams wechseln in Zyklen, was die Produktivität stabil hält und Erschöpfung vorbeugt.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Wie schnell kann ein Team vor Ort sein?",
+          lead: "Bei Standardrollen ist das erste Team üblicherweise innerhalb von 1–3 Wochen vor Ort.",
+          answer:
+            "Die Geschwindigkeit hängt von erforderlichen Zertifikaten, Visa und der Unterkunftsorganisation ab – wir beantworten Angebotsanfragen innerhalb von 24 Stunden.",
+        },
+        {
+          question: "Wer ist für die Arbeitssicherheit verantwortlich?",
+          lead: "Die allgemeine Arbeitssicherheit auf der Baustelle verbleibt beim Betreiber; für die Schulung der Teams und die persönliche Schutzausrüstung ist HeilAres verantwortlich.",
+          answer:
+            "Jeder Mitarbeiter durchläuft vor Arbeitsbeginn eine Sicherheitseinweisung vor Ort und trägt vorschriftsmäßige Schutzausrüstung.",
+        },
+        {
+          question: "In welchen Ländern stellen Sie Arbeitskräfte bereit?",
+          lead: "Wir betreuen Werften und Industriebetriebe in Europa und Skandinavien.",
+          answer:
+            "Wir haben unter anderem Projekte in Finnland, Deutschland, Frankreich und Spanien besetzt.",
         },
       ],
     },
@@ -184,8 +224,7 @@ export const workforceFactory: BlogPost = {
       title: "Tööjõu rent tehastes — paindlik mehitus tootmistippudeks",
       summary:
         "Millal tasub tehasel kasutada renditud meeskonda, kuidas hoida kvaliteet ja tootlikkus ning millised on levinumad vead mehitamisel.",
-      lead:
-        "Tootmismahud kõiguvad, aga püsikoosseis mitte. Renditud meeskond annab tehasele võimaluse reageerida tellimuste tipule, seisakule või uue liini käivitamisele ilma pikaajalist tööjõukulu lukustamata.",
+      lead: "Tootmismahud kõiguvad, aga püsikoosseis mitte. Renditud meeskond annab tehasele võimaluse reageerida tellimuste tipule, seisakule või uue liini käivitamisele ilma pikaajalist tööjõukulu lukustamata.",
       sections: [
         {
           heading: "Millal tehas renditud tööjõudu vajab?",
@@ -218,8 +257,7 @@ export const workforceFactory: BlogPost = {
         },
         {
           question: "Kas meeskond tuleb oma tööriistadega?",
-          lead:
-            "Isikukaitsevahendid ja käsitööriistad tulevad meiega, suuremad seadmed lepitakse kokku eraldi.",
+          lead: "Isikukaitsevahendid ja käsitööriistad tulevad meiega, suuremad seadmed lepitakse kokku eraldi.",
           answer:
             "Tavaliselt kasutatakse objektil olevaid tootmisseadmeid; erisused fikseerime lepingus.",
         },
@@ -235,8 +273,7 @@ export const workforceFactory: BlogPost = {
       title: "Workforce rental in factories — flexible staffing for production peaks",
       summary:
         "When a factory should use a rented crew, how to protect quality and output, and the most common staffing mistakes.",
-      lead:
-        "Production volumes fluctuate; permanent headcount does not. A rented crew lets a factory respond to an order peak, a shutdown or a new line start-up without locking in long-term labour cost.",
+      lead: "Production volumes fluctuate; permanent headcount does not. A rented crew lets a factory respond to an order peak, a shutdown or a new line start-up without locking in long-term labour cost.",
       sections: [
         {
           heading: "When does a factory need rented labour?",
@@ -264,13 +301,14 @@ export const workforceFactory: BlogPost = {
         {
           question: "How small a crew can be rented?",
           lead: "We usually start from a crew of 3–5.",
-          answer: "For smaller needs we can supply individual specialists within an ongoing project.",
+          answer:
+            "For smaller needs we can supply individual specialists within an ongoing project.",
         },
         {
           question: "Does the crew bring its own tools?",
-          lead:
-            "Personal protective equipment and hand tools come with us; larger equipment is agreed separately.",
-          answer: "Site production equipment is normally used; exceptions are fixed in the contract.",
+          lead: "Personal protective equipment and hand tools come with us; larger equipment is agreed separately.",
+          answer:
+            "Site production equipment is normally used; exceptions are fixed in the contract.",
         },
         {
           question: "How is invoicing handled?",
@@ -284,8 +322,7 @@ export const workforceFactory: BlogPost = {
       title: "Työvoiman vuokraus tehtaissa — joustava miehitys tuotantohuippuihin",
       summary:
         "Milloin tehtaan kannattaa käyttää vuokratiimiä, miten laatu ja tuottavuus säilyvät ja mitkä ovat yleisimmät miehitysvirheet.",
-      lead:
-        "Tuotantomäärät vaihtelevat, vakituinen henkilöstö ei. Vuokratiimi antaa tehtaalle mahdollisuuden reagoida tilaushuippuun, seisokkiin tai uuden linjan käynnistykseen ilman pitkäaikaista työvoimakulua.",
+      lead: "Tuotantomäärät vaihtelevat, vakituinen henkilöstö ei. Vuokratiimi antaa tehtaalle mahdollisuuden reagoida tilaushuippuun, seisokkiin tai uuden linjan käynnistykseen ilman pitkäaikaista työvoimakulua.",
       sections: [
         {
           heading: "Milloin tehdas tarvitsee vuokratyövoimaa?",
@@ -313,7 +350,8 @@ export const workforceFactory: BlogPost = {
         {
           question: "Kuinka pienen tiimin voi vuokrata?",
           lead: "Aloitamme yleensä 3–5 hengen tiimistä.",
-          answer: "Pienempiin tarpeisiin voimme tarjota yksittäisiä ammattilaisia käynnissä olevan projektin puitteissa.",
+          answer:
+            "Pienempiin tarpeisiin voimme tarjota yksittäisiä ammattilaisia käynnissä olevan projektin puitteissa.",
         },
         {
           question: "Tuoko tiimi omat työkalut?",
@@ -323,8 +361,56 @@ export const workforceFactory: BlogPost = {
         {
           question: "Miten laskutus toimii?",
           lead: "Laskutamme tehtyjen tuntien mukaan hyväksytyn tuntikirjanpidon perusteella.",
+          answer: "Matka- ja majoituskulut sekä ylityöt näkyvät tarjouksessa omina riveinään.",
+        },
+      ],
+    },
+    de: {
+      title: "Arbeitskräfteverleih in Fabriken – flexible Personalbesetzung für Produktionsspitzen",
+      summary:
+        "Wann sich für eine Fabrik ein angemietetes Team lohnt, wie Qualität und Produktivität erhalten bleiben und welche die häufigsten Fehler bei der Personalbesetzung sind.",
+      lead: "Produktionsmengen schwanken, die Stammbelegschaft nicht. Ein angemietetes Team ermöglicht es einer Fabrik, auf eine Auftragsspitze, einen Stillstand oder den Anlauf einer neuen Linie zu reagieren, ohne langfristige Personalkosten festzuschreiben.",
+      sections: [
+        {
+          heading: "Wann benötigt eine Fabrik angemietete Arbeitskräfte?",
+          paragraphs: [
+            "Typische Situationen sind eine saisonale Auftragsspitze, der Anlauf einer neuen Produktionslinie, ein geplanter Stillstand mit Wartungsfenster sowie umfangreiche Metallbau- oder Montageprojekte, für die sich eine feste Belegschaft nicht lohnt.",
+            "Gleiches gilt beim Umzug oder der Erweiterung einer Fabrik: Der Abbau von Maschinen, der Transport, die Aufstellung und das Testen erfordern für kurze Zeit ein starkes zusätzliches Team.",
+          ],
+        },
+        {
+          heading: "Wie bleibt die Qualität mit einem angemieteten Team erhalten?",
+          paragraphs: [
+            "Qualität entsteht durch eine klare Leistungsbeschreibung und messbare Erwartungen – Termine, Mengen, Toleranzen und Abnahmekriterien. Je präziser die Vorgaben, desto schneller erreicht das Team die volle Produktivität.",
+            "Ein zweiter wichtiger Faktor ist Kontinuität: Dasselbe Team über das gesamte Projekt zu halten, ist günstiger als ständiger Austausch und erneute Einarbeitung. Der Vorarbeiter sorgt dafür, dass das Wissen im Team bleibt.",
+          ],
+        },
+        {
+          heading: "Häufige Fehler bei der Personalbesetzung",
+          paragraphs: [
+            "Der teuerste Fehler ist, Personal zu spät zu bestellen – ein hastig zusammengestelltes Team kostet mehr und die Qualifikation ist zufälliger. Ein weiterer Fehler ist, Unterkunft und Transport auf den letzten Moment zu verschieben, was den Zeitplan durcheinanderbringt.",
+            "Der dritte Fehler ist eine unklare Verantwortungsgrenze: Wer erteilt Arbeitsaufträge, wer kontrolliert die Qualität, wer ist für die Werkzeuge verantwortlich? Diese Absprachen müssen vor der Ankunft des Teams schriftlich festgehalten werden.",
+          ],
+        },
+      ],
+      faqs: [
+        {
+          question: "Wie klein kann ein angemietetes Team sein?",
+          lead: "Wir beginnen üblicherweise mit einer Brigade von 3–5 Personen.",
           answer:
-            "Matka- ja majoituskulut sekä ylityöt näkyvät tarjouksessa omina riveinään.",
+            "Für kleinere Bedarfe können wir einzelne Fachkräfte im Rahmen eines laufenden Projekts bereitstellen.",
+        },
+        {
+          question: "Bringt das Team eigenes Werkzeug mit?",
+          lead: "Persönliche Schutzausrüstung und Handwerkzeuge bringen wir mit; größere Geräte werden separat vereinbart.",
+          answer:
+            "In der Regel werden die vor Ort vorhandenen Produktionsanlagen genutzt; Ausnahmen halten wir im Vertrag fest.",
+        },
+        {
+          question: "Wie erfolgt die Abrechnung?",
+          lead: "Wir rechnen die geleisteten Stunden auf Basis eines bestätigten Arbeitszeitnachweises ab.",
+          answer:
+            "Reise- und Unterkunftskosten sowie Überstunden sind im Angebot als eigene Posten ausgewiesen, damit die Kosten transparent bleiben.",
         },
       ],
     },

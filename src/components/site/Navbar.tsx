@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "@tanstack/react-router";
-import { Menu, X, ArrowRight, Mail, Phone } from "lucide-react";
+import { Menu, X, ArrowRight, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { NAV_LINKS } from "@/lib/nav";
 import { company } from "@/data/company";
+import { localizePath, type Lang } from "@/i18n";
 
 export function Navbar() {
   const { t } = useTranslation();
@@ -36,7 +37,12 @@ export function Navbar() {
   }, [open]);
 
   const isActive = (to: string) =>
-    to === "/" ? pathname === "/" : pathname === to || pathname.startsWith(to + "/");
+    to === "/"
+      ? ["/", "/fi", "/en", "/de"].includes(pathname)
+      : pathname === to || pathname.endsWith(to) || pathname.includes(`${to}/`);
+
+  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
+  const localized = (to: string) => localizePath(to, currentLang);
 
   return (
     <>
@@ -58,7 +64,7 @@ export function Navbar() {
               return (
                 <Link
                   key={link.to}
-                  to={link.to}
+                  to={localized(link.to)}
                   className={`relative px-3 py-2 text-[14px] font-medium tracking-[0.02em] transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
                     active ? "text-white" : "text-white/70 hover:text-white"
                   }`}
@@ -75,7 +81,7 @@ export function Navbar() {
           <div className="hidden items-center gap-2.5 lg:flex">
             <LanguageSwitcher />
             <Link
-              to="/toojou-rent"
+              to={localized("/toojou-rent")}
               className="group inline-flex h-10 items-center gap-1.5 rounded-full bg-[var(--brand)] px-4 text-[13px] font-semibold text-[#06120A] transition hover:bg-[var(--brand-hover)]"
             >
               {t("nav.workforce")}
@@ -108,7 +114,7 @@ export function Navbar() {
                 return (
                   <li key={link.to}>
                     <Link
-                      to={link.to}
+                      to={localized(link.to)}
                       onClick={() => setOpen(false)}
                       className={`flex items-baseline gap-4 border-b border-white/5 py-4 ${
                         active ? "text-[var(--brand-glow)]" : "text-white"
@@ -129,7 +135,7 @@ export function Navbar() {
 
           <div className="container-x border-t border-white/10 bg-[#0A0F0D] py-6">
             <Link
-              to="/toojou-rent"
+              to={localized("/toojou-rent")}
               onClick={() => setOpen(false)}
               className="flex h-14 w-full items-center justify-center gap-2 rounded-full bg-[var(--brand)] text-[15px] font-semibold text-[#06120A]"
             >
@@ -145,15 +151,6 @@ export function Navbar() {
                 {company.email}
               </a>
               <LanguageSwitcher />
-            </div>
-            <div className="mt-3 flex flex-col gap-2 text-[13px] text-white/75">
-              {company.contacts.map((c) => (
-                <a key={c.phone} href={c.phoneHref} className="inline-flex items-center gap-2">
-                  <Phone className="h-4 w-4 text-[var(--brand)]" />
-                  <span className="font-medium text-white">{c.phone}</span>
-                  <span className="text-white/50">· {c.name}</span>
-                </a>
-              ))}
             </div>
           </div>
         </div>

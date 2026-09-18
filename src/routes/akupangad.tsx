@@ -29,6 +29,7 @@ import { QuoteModal } from "@/components/site/QuoteModal";
 import { BessFAQ } from "@/components/site/BessFAQ";
 import { Button } from "@/components/ui/button";
 import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-akupangad.jpg";
 
 const BENEFIT_ICONS = [BatteryCharging, ChartNoAxesCombined, Gauge, Sun, Cpu, Layers3] as const;
@@ -65,22 +66,15 @@ type Step = CopyItem;
 export const Route = createFileRoute("/akupangad")({
   component: BessPage,
   head: () => {
+    const seo = localizedHead("et", "bess", "/akupangad");
     const faq = FAQ_KEYS.map((key) => ({
       "@type": "Question",
       name: i18n.t(`bessPage.faq.items.${key}.question`),
       acceptedAnswer: { "@type": "Answer", text: i18n.t(`bessPage.faq.items.${key}.answer`) },
     }));
     return {
-      meta: [
-        { title: i18n.t("seo.bess.title") },
-        { name: "description", content: i18n.t("seo.bess.description") },
-        { property: "og:title", content: i18n.t("seo.bess.title") },
-        { property: "og:description", content: i18n.t("seo.bess.description") },
-        { property: "og:type", content: "website" },
-        { property: "og:url", content: "https://heilares.ee/akupangad" },
-        { name: "twitter:card", content: "summary_large_image" },
-      ],
-      links: [{ rel: "canonical", href: "https://heilares.ee/akupangad" }],
+      meta: seo.meta,
+      links: seo.links,
       scripts: [
         {
           type: "application/ld+json",
@@ -110,7 +104,7 @@ export const Route = createFileRoute("/akupangad")({
   },
 });
 
-function BessPage() {
+export function BessPage() {
   const { t } = useTranslation();
   const [quoteOpen, setQuoteOpen] = useState(false);
   const benefits = t("bessPage.benefits.items", { returnObjects: true }) as CopyItem[];

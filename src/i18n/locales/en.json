@@ -696,8 +696,6 @@
       "email": "Email",
       "phone": "Phone",
       "location": "Location",
-      "hours": "Hours",
-      "hoursValue": "Mon–Fri 09:00–18:00",
       "locationValue": "Estonia & Europe"
     },
     "map": {
@@ -784,7 +782,8 @@
   },
   "roles": {
     "workforce": "Workforce rental",
-    "greenEnergy": "Green energy"
+    "greenEnergy": "Green energy",
+    "partnershipManager": "Partnership Manager"
   },
   "batterySection": {
     "eyebrow": "BATTERY STORAGE / BESS",

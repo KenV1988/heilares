@@ -1,6 +1,8 @@
-# HeilAres full-site audit
+# HeilAres contact and German localization
 
-- [x] Inventory all active routes, shared components, forms, links, images, and metadata
-- [x] Audit desktop, tablet, mobile, and all three languages
-- [x] Fix layout, overflow, translation, navigation, accessibility, media, and SEO issues
-- [x] Re-test every route, language switch, interaction, link, and required viewport
+- [x] Audit contacts, working hours, i18n, SEO, routes, and responsive risks
+- [x] Remove employee phones and all business-hours content
+- [x] Add Karl-Heinrich Raigo with role and email
+- [ ] Add complete German UI, blog, project, FAQ, form, metadata, and alt-text content
+- [ ] Add localized FI/EN/DE URLs, language-preserving navigation, canonicals, hreflang, and sitemap entries
+- [ ] Validate locale parity, all routes, language switch sequences, interactions, metadata, and required viewport widths

@@ -26,23 +26,12 @@ import { QuoteModal } from "@/components/site/QuoteModal";
 import { ElectricalFAQ } from "@/components/site/ElectricalFAQ";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { projects } from "@/data/projects";
-import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-elektritood.jpg";
 
 export const Route = createFileRoute("/elektritood")({
   component: ElectricalPage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.electrical.title") },
-      { name: "description", content: i18n.t("seo.electrical.description") },
-      { property: "og:title", content: i18n.t("seo.electrical.title") },
-      { property: "og:description", content: i18n.t("seo.electrical.description") },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://heilares.ee/elektritood" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-    links: [{ rel: "canonical", href: "https://heilares.ee/elektritood" }],
-  }),
+  head: () => localizedHead("et", "electrical", "/elektritood"),
 });
 
 const SERVICE_ICONS = [
@@ -75,7 +64,7 @@ interface WhyItem {
 
 const FEATURED_SLUGS = ["risti-eesti", "stelpe-latvia", "kirikmae-eesti"];
 
-function ElectricalPage() {
+export function ElectricalPage() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
 
@@ -367,7 +356,6 @@ function ElectricalPage() {
           </div>
         </div>
       </section>
-
 
       <QuoteModal open={open} onOpenChange={setOpen} />
     </SiteLayout>

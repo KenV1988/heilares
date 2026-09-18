@@ -17,23 +17,14 @@ import { SectionHeader } from "@/components/site/Section";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 
 export const Route = createFileRoute("/")({
   component: Index,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.home.title") },
-      { name: "description", content: i18n.t("seo.home.description") },
-      { property: "og:title", content: i18n.t("seo.home.title") },
-      { property: "og:description", content: i18n.t("seo.home.description") },
-      { name: "twitter:title", content: i18n.t("seo.home.twitterTitle") },
-      { name: "twitter:description", content: i18n.t("seo.home.twitterDescription") },
-    ],
-    links: [{ rel: "canonical", href: "https://heilares.ee/" }],
-  }),
+  head: () => localizedHead("et", "home", "/"),
 });
 
-function Index() {
+export function Index() {
   const { t } = useTranslation();
   return (
     <SiteLayout>

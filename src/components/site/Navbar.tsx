@@ -42,6 +42,11 @@ export function Navbar() {
       ? ["/", "/fi", "/en", "/de"].includes(pathname)
       : pathname === to || pathname.endsWith(to) || pathname.includes(`${to}/`);
 
+  const openLinkedIn = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    window.open(company.social.linkedin, "_blank", "noopener,noreferrer");
+  };
+
 
   return (
     <>
@@ -82,6 +87,7 @@ export function Navbar() {
               href={company.social.linkedin}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={openLinkedIn}
               aria-label="LinkedIn"
               className="group grid h-9 w-9 place-items-center rounded-full border border-[var(--border)] transition hover:[border-color:rgba(214,178,106,0.6)]"
             >
@@ -155,6 +161,7 @@ export function Navbar() {
                 href={company.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={openLinkedIn}
                 aria-label="LinkedIn"
                 className="group grid h-9 w-9 place-items-center rounded-full border border-[var(--border)] transition hover:[border-color:rgba(214,178,106,0.6)]"
               >

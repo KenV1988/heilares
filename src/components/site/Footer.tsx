@@ -141,7 +141,6 @@ export function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={openLinkedIn}
                 aria-label={label}
                 className="group grid h-8 w-8 place-items-center rounded-full border bg-transparent transition hover:[border-color:rgba(214,178,106,0.6)]"
                 style={goldBorder}

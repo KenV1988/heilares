@@ -130,7 +130,7 @@ function BessPage() {
         backgroundAlt={t("bessPage.heroAlt")}
       />
 
-      <section className="container-x -mt-4 pb-14 md:pb-20">
+      <section className="container-x pt-6 pb-14 md:pt-8 md:pb-20">
         <div className="flex flex-col items-center gap-7 text-center">
           <p className="max-w-3xl text-[15px] leading-relaxed text-white/65 md:text-base">
             {t("bessPage.hero.support")}

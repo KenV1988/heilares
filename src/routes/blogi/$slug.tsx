@@ -54,6 +54,12 @@ export function BlogPostView({ post }: { post: BlogPost }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const c = post.content[lang];
+  const sections =
+    post.slug === "maapark-katusepark-tracker-vordlus"
+      ? [c.sections[2], c.sections[0], c.sections[1], ...c.sections.slice(3)].filter(
+          (section): section is (typeof c.sections)[number] => Boolean(section),
+        )
+      : c.sections;
 
   return (
     <SiteLayout>
@@ -108,7 +114,7 @@ export function BlogPostView({ post }: { post: BlogPost }) {
               {c.lead}
             </p>
 
-            {c.sections.map((section, idx) => (
+            {sections.map((section, idx) => (
               <section key={idx} className="mt-12">
                 <h2 className="text-2xl font-bold text-white md:text-3xl">{section.heading}</h2>
                 <div className="mt-5 space-y-5">

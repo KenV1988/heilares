@@ -268,10 +268,10 @@ const parkTypes: BlogPost = {
   cover: parkTypesCover,
   content: {
     et: {
-      title: "Maapark, katusepark või Solar Tracker Park — milline sobib teie projektile?",
+      title: "Solar Tracker Park, maapark või katusepark — milline sobib teie projektile?",
       summary:
         "Kolm peamist päikesepargi tüüpi B2B kontekstis — millised on iga tüübi tugevused, kulustruktuur ja kuhu need sobivad kõige paremini.",
-      lead: "Maaparkide, katuseparkide ja Solar Tracker Park vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
+      lead: "Solar Tracker Park, maapargi ja katusepargi vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
       sections: [
         {
           heading: "Maapark — suurim mastaabivõime",
@@ -317,10 +317,10 @@ const parkTypes: BlogPost = {
       ],
     },
     en: {
-      title: "Ground-mount, rooftop or tracker — which solar park suits your project?",
+      title: "Solar Tracker Park, Ground-mounted Solar Park or Rooftop Solar Park — which suits your project?",
       summary:
         "The three main solar park types in a B2B context — strengths, cost structure and best use cases for each.",
-      lead: "Choosing between ground-mount, rooftop and Solar Tracker Parks depends primarily on land availability, grid connection capacity and expected yield, not just investment size.",
+      lead: "Choosing between a Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park depends primarily on land availability, grid connection capacity and expected yield, not just investment size.",
       sections: [
         {
           heading: "Ground-mount — maximum scalability",
@@ -366,10 +366,10 @@ const parkTypes: BlogPost = {
       ],
     },
     fi: {
-      title: "Maa-, katto- vai seurantapuisto — mikä sopii hankkeellesi?",
+      title: "Solar Tracker Park, Maapark vai Katusepark — mikä sopii hankkeellesi?",
       summary:
         "Kolme aurinkopuistotyyppiä B2B-näkökulmasta — vahvuudet, kustannusrakenne ja parhaat käyttötapaukset.",
-      lead: "Maa-, katto- ja seurantapuiston välillä valinta riippuu ensisijaisesti maa-alasta, verkkoliitynnän kapasiteetista ja odotetusta tuotosta, ei vain investoinnin koosta.",
+      lead: "Solar Tracker Park, Maapark ja Katusepark välillä valinta riippuu ensisijaisesti maa-alasta, verkkoliitynnän kapasiteetista ja odotetusta tuotosta, ei vain investoinnin koosta.",
       sections: [
         {
           heading: "Maapuisto — suurin skaalautuvuus",
@@ -414,10 +414,10 @@ const parkTypes: BlogPost = {
       ],
     },
     de: {
-      title: "Freiflächenanlage, Dachanlage oder Solar Tracker Park – was passt zu Ihrem Projekt?",
+      title: "Solar Tracker Park, Freiflächen-Solarpark oder Dach-Solarpark – was passt zu Ihrem Projekt?",
       summary:
         "Die drei wichtigsten Solarpark-Typen im B2B-Kontext – Stärken, Kostenstruktur und die besten Einsatzbereiche für jeden Typ.",
-      lead: "Die Wahl zwischen Freiflächenanlage, Dachanlage und Solar Tracker Park hängt in erster Linie von der verfügbaren Fläche, der Netzanschlusskapazität und dem erwarteten Ertrag ab, nicht nur von der Investitionshöhe.",
+      lead: "Die Wahl zwischen Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark hängt in erster Linie von der verfügbaren Fläche, der Netzanschlusskapazität und dem erwarteten Ertrag ab, nicht nur von der Investitionshöhe.",
       sections: [
         {
           heading: "Freiflächenanlage – maximale Skalierbarkeit",

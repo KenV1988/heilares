@@ -270,8 +270,8 @@
     "filter": {
       "all": "All",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Ground-mount",
-      "katusepark": "Rooftop"
+      "maapark": "Ground-mounted Solar Park",
+      "katusepark": "Rooftop Solar Park"
     },
     "capacity": "Capacity",
     "year": "Completed",

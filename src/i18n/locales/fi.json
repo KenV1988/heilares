@@ -270,8 +270,8 @@
     "filter": {
       "all": "Kaikki",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Maapuisto",
-      "katusepark": "Kattopuisto"
+      "maapark": "Maapark",
+      "katusepark": "Katusepark"
     },
     "capacity": "Teho",
     "year": "Valmistunut",

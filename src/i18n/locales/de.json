@@ -270,8 +270,8 @@
     "filter": {
       "all": "Alle",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Freiflächenpark",
-      "katusepark": "Dachpark"
+      "maapark": "Freiflächen-Solarpark",
+      "katusepark": "Dach-Solarpark"
     },
     "capacity": "Leistung",
     "year": "Fertiggestellt",

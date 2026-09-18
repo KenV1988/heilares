@@ -25,7 +25,7 @@
   "hero": {
     "badge": "SOLAR ENERGY SPECIALISTS",
     "title": "End-to-end <accent>solar energy</accent> solutions",
-    "subtitle": "Turnkey solar panel installation — ground-mount, rooftop and Solar Tracker Parks across Estonia and Europe. We also offer workforce rental.",
+    "subtitle": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park across Estonia and Europe. We also offer workforce rental.",
     "primaryCta": "Request a quote",
     "secondaryCta": "Learn more"
   },
@@ -43,11 +43,11 @@
       "desc": "Sun-tracking systems for maximum yield on large-scale solar fields."
     },
     "ground": {
-      "title": "Ground-mount park",
+      "title": "Ground-mounted Solar Park",
       "desc": "Utility-scale ground-mounted solar parks. Full design and installation."
     },
     "roof": {
-      "title": "Rooftop park",
+      "title": "Rooftop Solar Park",
       "desc": "Rooftop installations for industrial halls, warehouses and commercial buildings across Europe."
     }
   },
@@ -270,8 +270,8 @@
     "filter": {
       "all": "All",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Ground-mount",
-      "katusepark": "Rooftop"
+      "maapark": "Ground-mounted Solar Park",
+      "katusepark": "Rooftop Solar Park"
     },
     "capacity": "Capacity",
     "year": "Completed",
@@ -288,11 +288,11 @@
   "panelsPage": {
     "hero": {
       "title": "Solar panel services",
-      "subtitle": "Turnkey ground-mount, rooftop and tracker solar parks for B2B clients in Estonia, Latvia and across Europe."
+      "subtitle": "Turnkey Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park solutions for B2B clients in Estonia, Latvia and across Europe."
     },
     "ground": {
       "eyebrow": "Ground-mount solutions",
-      "title": "Ground-mount park",
+      "title": "Ground-mounted Solar Park",
       "lead": "A ground-mount park is a land-based solar park that HeilAres designs and installs on a turnkey basis at commercial and industrial scale.",
       "paragraphs": [
         "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. HeilAres handles the installation — foundations, mounting structures, and panel and inverter installation.",
@@ -308,7 +308,7 @@
     },
     "roof": {
       "eyebrow": "Rooftop installations",
-      "title": "Rooftop park",
+      "title": "Rooftop Solar Park",
       "lead": "A rooftop park is a solar installation on industrial buildings, warehouses and commercial properties that HeilAres delivers on all roof types.",
       "paragraphs": [
         "Rooftop parks suit both flat and pitched roofs — trapezoidal sheet, sandwich panel, bitumen and membrane roofs. Every project starts with a structural assessment to confirm the roof can safely carry the additional weight of panels and mounting structures.",
@@ -344,7 +344,7 @@
       "items": {
         "types": {
           "question": "What types of solar parks does HeilAres install?",
-          "answer": "We install ground-mount solar parks, rooftop parks for industrial and commercial buildings, and single-axis Solar Tracker Park solutions. We work both in Estonia and on international projects."
+          "answer": "We install single-axis Solar Tracker Park solutions, Ground-mounted Solar Parks, and Rooftop Solar Parks for industrial and commercial buildings. We work both in Estonia and on international projects."
         },
         "capacity": {
           "question": "How large are the solar parks HeilAres installs?",
@@ -644,8 +644,8 @@
       },
       "types": {
         "question": "What types of solar parks do you build?",
-        "lead": "HeilAres builds ground-mount, rooftop and tracker solar parks.",
-        "answer": "We build three main types — ground-mount parks, rooftop parks for industrial buildings, and Solar Tracker Parks (sun-tracking systems)."
+        "lead": "HeilAres builds Solar Tracker Parks, Ground-mounted Solar Parks and Rooftop Solar Parks.",
+        "answer": "We build three main types — Solar Tracker Parks (sun-tracking systems), Ground-mounted Solar Parks and Rooftop Solar Parks for industrial buildings."
       },
       "quoteSpeed": {
         "question": "How quickly can I get a quote?",
@@ -678,8 +678,8 @@
       "selectType": "Select type",
       "types": {
         "tracker_park": "Solar Tracker Park",
-        "maapark": "Ground-mount",
-        "katusepark": "Rooftop",
+        "maapark": "Ground-mounted Solar Park",
+        "katusepark": "Rooftop Solar Park",
         "electrical": "Electrical works",
         "workforce": "Workforce rental",
         "other": "Other",
@@ -747,12 +747,12 @@
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
-      "description": "Turnkey solar panel installation — rooftop, ground-mount and Solar Tracker Parks. We operate in Estonia and across Europe.",
+      "description": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park. We operate in Estonia and across Europe.",
       "twitterTitle": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
-      "twitterDescription": "Turnkey solar panel installation — rooftop, ground-mount and Solar Tracker Parks. We operate in Estonia and across Europe."
+      "twitterDescription": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park. We operate in Estonia and across Europe."
     },
     "panels": {
-      "title": "Solar panels — Tracker, ground and rooftop parks | HeilAres",
+      "title": "Solar Tracker Park, Ground-mounted and Rooftop Solar Parks | HeilAres",
       "description": "Three core solar installation types for B2B clients. Tier-1 components, experienced crews, megawatt scale."
     },
     "electrical": {

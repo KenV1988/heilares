@@ -1,6 +1,6 @@
 import { defineTool, ToolError } from "@lovable.dev/mcp-js";
 import { z } from "zod";
-import { projects } from "@/data/projects";
+import { projectsByCategory } from "@/data/projects";
 
 const LANGS = ["et", "en", "fi"] as const;
 
@@ -18,7 +18,7 @@ export default defineTool({
   },
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: ({ lang, category }) => {
-    const list = projects
+    const list = projectsByCategory
       .filter((p) => !category || p.category === category)
       .map((p) => ({
         slug: p.slug,

@@ -25,7 +25,7 @@
   "hero": {
     "badge": "SPEZIALISTEN FÜR SOLARENERGIE",
     "title": "Ganzheitliche <accent>Solarenergie</accent>lösungen",
-    "subtitle": "Schlüsselfertige Solarpanel-Installation — Freiflächen-, Dach- und Solar-Tracker-Parks in Estland und Europa. Wir bieten außerdem Personalvermietung an.",
+    "subtitle": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark in Estland und Europa. Wir bieten außerdem Personalvermietung an.",
     "primaryCta": "Angebot anfordern",
     "secondaryCta": "Mehr erfahren"
   },
@@ -43,11 +43,11 @@
       "desc": "Sonnennachführende Systeme für maximalen Ertrag bei großflächigen Solarparks."
     },
     "ground": {
-      "title": "Freiflächenpark",
+      "title": "Freiflächen-Solarpark",
       "desc": "Großflächige bodenmontierte Solarparks. Vollständige Planung und Installation."
     },
     "roof": {
-      "title": "Dachpark",
+      "title": "Dach-Solarpark",
       "desc": "Dachinstallationen für Industriehallen, Lagerhäuser und Gewerbegebäude in ganz Europa."
     }
   },
@@ -270,8 +270,8 @@
     "filter": {
       "all": "Alle",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Freiflächenpark",
-      "katusepark": "Dachpark"
+      "maapark": "Freiflächen-Solarpark",
+      "katusepark": "Dach-Solarpark"
     },
     "capacity": "Leistung",
     "year": "Fertiggestellt",
@@ -288,11 +288,11 @@
   "panelsPage": {
     "hero": {
       "title": "Solarpanel-Dienstleistungen",
-      "subtitle": "Schlüsselfertige Freiflächen-, Dach- und Tracker-Solarparks für B2B-Kunden in Estland, Lettland und ganz Europa."
+      "subtitle": "Schlüsselfertige Lösungen für Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark für B2B-Kunden in Estland, Lettland und ganz Europa."
     },
     "ground": {
       "eyebrow": "Freiflächenlösungen",
-      "title": "Freiflächenpark",
+      "title": "Freiflächen-Solarpark",
       "lead": "Ein Freiflächenpark ist ein bodengebundener Solarpark, den HeilAres schlüsselfertig im gewerblichen und industriellen Maßstab plant und installiert.",
       "paragraphs": [
         "Freiflächenparks eignen sich ideal für landwirtschaftliche Flächen, Konversionsflächen und Industriegrundstücke mit ausreichend offener Fläche, um Panels im optimalen Neigungswinkel zu installieren. HeilAres übernimmt die Installation — Fundamente, Montagestrukturen sowie Panel- und Wechselrichterinstallation.",
@@ -308,7 +308,7 @@
     },
     "roof": {
       "eyebrow": "Dachinstallationen",
-      "title": "Dachpark",
+      "title": "Dach-Solarpark",
       "lead": "Ein Dachpark ist eine Solaranlage auf Industriegebäuden, Lagerhäusern und Gewerbeimmobilien, die HeilAres auf allen Dachtypen realisiert.",
       "paragraphs": [
         "Dachparks eignen sich sowohl für Flach- als auch für Schrägdächer — Trapezblech, Sandwichpaneele, Bitumen- und Membrandächer. Jedes Projekt beginnt mit einer statischen Prüfung, um sicherzustellen, dass das Dach das zusätzliche Gewicht von Panels und Montagestrukturen sicher tragen kann.",
@@ -344,7 +344,7 @@
       "items": {
         "types": {
           "question": "Welche Arten von Solarparks installiert HeilAres?",
-          "answer": "Wir installieren Freiflächen-Solarparks, Dachparks für Industrie- und Gewerbegebäude sowie einachsige Solar-Tracker-Park-Lösungen. Wir arbeiten sowohl in Estland als auch bei internationalen Projekten."
+          "answer": "Wir installieren einachsige Solar Tracker Park-Lösungen, Freiflächen-Solarparks und Dach-Solarparks für Industrie- und Gewerbegebäude. Wir arbeiten sowohl in Estland als auch bei internationalen Projekten."
         },
         "capacity": {
           "question": "Wie groß sind die von HeilAres installierten Solarparks?",
@@ -644,8 +644,8 @@
       },
       "types": {
         "question": "Welche Arten von Solarparks bauen Sie?",
-        "lead": "HeilAres baut Freiflächen-, Dach- und Tracker-Solarparks.",
-        "answer": "Wir bauen drei Haupttypen — Freiflächenparks, Dachparks für Industriegebäude und Solar Tracker Parks (sonnennachführende Systeme)."
+        "lead": "HeilAres baut Solar Tracker Parks, Freiflächen-Solarparks und Dach-Solarparks.",
+        "answer": "Wir bauen drei Haupttypen — Solar Tracker Parks (sonnennachführende Systeme), Freiflächen-Solarparks und Dach-Solarparks für Industriegebäude."
       },
       "quoteSpeed": {
         "question": "Wie schnell kann ich ein Angebot erhalten?",
@@ -678,8 +678,8 @@
       "selectType": "Art auswählen",
       "types": {
         "tracker_park": "Solar Tracker Park",
-        "maapark": "Freiflächenpark",
-        "katusepark": "Dachpark",
+        "maapark": "Freiflächen-Solarpark",
+        "katusepark": "Dach-Solarpark",
         "electrical": "Elektroarbeiten",
         "workforce": "Personalvermietung",
         "other": "Sonstiges",
@@ -747,9 +747,9 @@
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Spezialisten für Solarenergie in Estland und Europa",
-      "description": "Schlüsselfertige Solarpanel-Installation — Dach-, Freiflächen- und Solar-Tracker-Parks. Wir sind in Estland und ganz Europa tätig.",
+      "description": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark. Wir sind in Estland und ganz Europa tätig.",
       "twitterTitle": "HeilAres OÜ — Spezialisten für Solarenergie in Estland und Europa",
-      "twitterDescription": "Schlüsselfertige Solarpanel-Installation — Dach-, Freiflächen- und Solar-Tracker-Parks. Wir sind in Estland und ganz Europa tätig."
+      "twitterDescription": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark. Wir sind in Estland und ganz Europa tätig."
     },
     "panels": {
       "title": "Solarpanels — Tracker-, Freiflächen- und Dachparks | HeilAres",

@@ -5,7 +5,7 @@ import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { ProjectCard } from "@/components/site/ProjectCard";
-import { projects, type ProjectCategory } from "@/data/projects";
+import { projectsByCategory, type ProjectCategory } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/projects/risti-2.jpg";
@@ -25,10 +25,10 @@ export function ProjectsPage() {
   const filteredSolar = useMemo(
     () =>
       filter === "all"
-        ? projects
+        ? projectsByCategory
         : filter === "workforce"
           ? []
-          : projects.filter((p) => p.category === filter),
+          : projectsByCategory.filter((p) => p.category === filter),
     [filter],
   );
 

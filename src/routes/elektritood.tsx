@@ -98,7 +98,7 @@ function ElectricalPage() {
       />
 
       {/* Hero CTAs + trust badges */}
-      <section className="container-x -mt-4 pb-14 md:pb-20">
+      <section className="container-x relative z-20 -mt-4 pb-14 md:pb-20">
         <div className="flex flex-col items-center gap-6">
           <div className="flex flex-col gap-3 sm:flex-row">
             <button

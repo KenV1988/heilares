@@ -58,14 +58,14 @@ export function Navbar() {
             <Logo />
           </div>
 
-          <nav className="hidden flex-1 items-center justify-center gap-1 lg:flex lg:pl-6">
+          <nav className="hidden flex-1 items-center justify-center gap-0.5 lg:flex lg:pl-4">
             {NAV_LINKS.map((link) => {
               const active = isActive(link.to);
               return (
                 <LocalizedLink
                   key={link.to}
                   to={link.to}
-                  className={`relative px-3 py-2 text-[14px] font-medium tracking-[0.02em] transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
+                  className={`relative whitespace-nowrap px-2.5 py-2 text-[14px] font-medium tracking-[0.02em] transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
                     active ? "text-white" : "text-white/70 hover:text-white"
                   }`}
                 >

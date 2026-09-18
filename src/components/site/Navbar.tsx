@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "@tanstack/react-router";
 import { LocalizedLink } from "./LocalizedLink";
-import { Menu, X, ArrowRight, Mail } from "lucide-react";
+import { Menu, X, ArrowRight, Mail, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -78,6 +78,15 @@ export function Navbar() {
           </nav>
 
           <div className="hidden items-center gap-2.5 lg:flex">
+            <a
+              href={company.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="group grid h-9 w-9 place-items-center rounded-full border border-[var(--border)] transition hover:[border-color:rgba(214,178,106,0.6)]"
+            >
+              <Linkedin className="h-4 w-4 text-white/70 transition group-hover:text-[var(--gold-light)]" />
+            </a>
             <LanguageSwitcher />
             <LocalizedLink
               to="/toojou-rent"

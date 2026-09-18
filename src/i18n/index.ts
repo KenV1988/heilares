@@ -14,7 +14,7 @@ export function getSupportedLang(language?: string): Lang {
   return SUPPORTED_LANGS.includes(lang as Lang) ? (lang as Lang) : "et";
 }
 
-function detectInitialLang(): Lang {
+function detectBrowserLang(): Lang {
   if (typeof window === "undefined") return "et";
   try {
     const stored = window.localStorage.getItem(STORAGE_KEY);
@@ -38,7 +38,7 @@ if (!i18n.isInitialized) {
       en: { translation: en },
       fi: { translation: fi },
     },
-    lng: detectInitialLang(),
+    lng: "et",
     fallbackLng: "et",
     supportedLngs: SUPPORTED_LANGS as unknown as string[],
     interpolation: { escapeValue: false },
@@ -49,6 +49,12 @@ if (!i18n.isInitialized) {
   i18n.addResourceBundle("et", "translation", et, true, true);
   i18n.addResourceBundle("en", "translation", en, true, true);
   i18n.addResourceBundle("fi", "translation", fi, true, true);
+}
+
+export function restoreLanguagePreference() {
+  if (typeof window === "undefined") return;
+  const language = detectBrowserLang();
+  if (i18n.language !== language) void i18n.changeLanguage(language);
 }
 
 if (typeof window !== "undefined") {

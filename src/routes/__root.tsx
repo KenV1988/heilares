@@ -11,7 +11,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
-import "../i18n";
+import { restoreLanguagePreference } from "../i18n";
 import { initAnalytics, trackPageView } from "@/lib/analytics";
 
 function NotFoundComponent() {
@@ -137,6 +137,10 @@ function AnalyticsTracker() {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+
+  useEffect(() => {
+    restoreLanguagePreference();
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>

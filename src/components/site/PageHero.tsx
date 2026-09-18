@@ -29,7 +29,7 @@ export function PageHero({
 }: Props) {
   return (
     <section
-      className={`relative flex flex-col overflow-hidden ${
+      className={`relative isolate flex flex-col overflow-hidden ${
         compact ? "min-h-[280px] pt-36 pb-12" : "min-h-[420px] pt-36 pb-12 md:min-h-[520px] md:pt-44 md:pb-16"
       }`}
     >

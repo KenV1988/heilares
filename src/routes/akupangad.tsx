@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import {
   ArrowDown,
@@ -29,7 +29,9 @@ import { QuoteModal } from "@/components/site/QuoteModal";
 import { BessFAQ } from "@/components/site/BessFAQ";
 import { Button } from "@/components/ui/button";
 import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-akupangad.jpg";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 const BENEFIT_ICONS = [BatteryCharging, ChartNoAxesCombined, Gauge, Sun, Cpu, Layers3] as const;
 const AUDIENCE_ICONS = [PanelsTopLeft, Factory, Building2, RadioTower] as const;
@@ -65,22 +67,15 @@ type Step = CopyItem;
 export const Route = createFileRoute("/akupangad")({
   component: BessPage,
   head: () => {
+    const seo = localizedHead("et", "bess", "/akupangad");
     const faq = FAQ_KEYS.map((key) => ({
       "@type": "Question",
       name: i18n.t(`bessPage.faq.items.${key}.question`),
       acceptedAnswer: { "@type": "Answer", text: i18n.t(`bessPage.faq.items.${key}.answer`) },
     }));
     return {
-      meta: [
-        { title: i18n.t("seo.bess.title") },
-        { name: "description", content: i18n.t("seo.bess.description") },
-        { property: "og:title", content: i18n.t("seo.bess.title") },
-        { property: "og:description", content: i18n.t("seo.bess.description") },
-        { property: "og:type", content: "website" },
-        { property: "og:url", content: "https://heilares.ee/akupangad" },
-        { name: "twitter:card", content: "summary_large_image" },
-      ],
-      links: [{ rel: "canonical", href: "https://heilares.ee/akupangad" }],
+      meta: seo.meta,
+      links: seo.links,
       scripts: [
         {
           type: "application/ld+json",
@@ -110,7 +105,7 @@ export const Route = createFileRoute("/akupangad")({
   },
 });
 
-function BessPage() {
+export function BessPage() {
   const { t } = useTranslation();
   const [quoteOpen, setQuoteOpen] = useState(false);
   const benefits = t("bessPage.benefits.items", { returnObjects: true }) as CopyItem[];
@@ -215,12 +210,12 @@ function BessPage() {
           icons={[Sun, Cpu, BatteryCharging, Factory]}
         />
         <p className="mt-5 text-sm leading-relaxed text-white/50">{t("bessPage.solar.note")}</p>
-        <Link
+        <LocalizedLink
           to="/paikesepargid"
           className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--brand)] hover:text-[var(--brand-glow)]"
         >
           {t("bessPage.solar.link")} <ArrowRight className="h-4 w-4" />
-        </Link>
+        </LocalizedLink>
       </SplitSection>
 
       <section className="relative py-20 md:py-28">
@@ -289,9 +284,9 @@ function BessPage() {
             variant="outline"
             className="mt-7 h-auto rounded-full border-[var(--border)] bg-transparent px-6 py-3 text-white hover:border-[var(--brand)] hover:bg-[var(--bg-card)] hover:text-[var(--brand-glow)]"
           >
-            <Link to="/elektritood">
+            <LocalizedLink to="/elektritood">
               {t("bessPage.electrical.cta")} <ArrowRight />
-            </Link>
+            </LocalizedLink>
           </Button>
         </div>
       </SplitSection>
@@ -400,7 +395,7 @@ function BessPage() {
                 variant="outline"
                 className="h-auto rounded-full border-[var(--border)] bg-transparent px-7 py-3.5 text-white hover:bg-[var(--bg-elevated)] hover:text-white"
               >
-                <Link to="/kontakt">{t("bessPage.cta.secondary")}</Link>
+                <LocalizedLink to="/kontakt">{t("bessPage.cta.secondary")}</LocalizedLink>
               </Button>
             </div>
           </div>

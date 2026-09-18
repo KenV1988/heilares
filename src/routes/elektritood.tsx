@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import {
   ArrowRight,
@@ -26,23 +26,13 @@ import { QuoteModal } from "@/components/site/QuoteModal";
 import { ElectricalFAQ } from "@/components/site/ElectricalFAQ";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { projects } from "@/data/projects";
-import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-elektritood.jpg";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/elektritood")({
   component: ElectricalPage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.electrical.title") },
-      { name: "description", content: i18n.t("seo.electrical.description") },
-      { property: "og:title", content: i18n.t("seo.electrical.title") },
-      { property: "og:description", content: i18n.t("seo.electrical.description") },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://heilares.ee/elektritood" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-    links: [{ rel: "canonical", href: "https://heilares.ee/elektritood" }],
-  }),
+  head: () => localizedHead("et", "electrical", "/elektritood"),
 });
 
 const SERVICE_ICONS = [
@@ -75,7 +65,7 @@ interface WhyItem {
 
 const FEATURED_SLUGS = ["risti-eesti", "stelpe-latvia", "kirikmae-eesti"];
 
-function ElectricalPage() {
+export function ElectricalPage() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
 
@@ -108,12 +98,12 @@ function ElectricalPage() {
               {t("electricalPage.hero.cta")}
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
             </button>
-            <Link
+            <LocalizedLink
               to="/tehtud-tood"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-[var(--border)] px-7 py-3.5 text-sm font-semibold text-white transition hover:border-[var(--brand)] hover:text-[var(--brand-glow)]"
             >
               {t("electricalPage.hero.ctaSecondary")}
-            </Link>
+            </LocalizedLink>
           </div>
 
           <div className="flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
@@ -334,13 +324,13 @@ function ElectricalPage() {
           ))}
         </div>
         <div className="mt-10 text-center">
-          <Link
+          <LocalizedLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--brand)] transition hover:text-[var(--brand-glow)]"
           >
             {t("electricalPage.projects.link")}
             <ArrowRight className="h-4 w-4" />
-          </Link>
+          </LocalizedLink>
         </div>
       </section>
 
@@ -367,7 +357,6 @@ function ElectricalPage() {
           </div>
         </div>
       </section>
-
 
       <QuoteModal open={open} onOpenChange={setOpen} />
     </SiteLayout>

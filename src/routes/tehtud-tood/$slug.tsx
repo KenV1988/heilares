@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, MapPin, Calendar, Gauge } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
@@ -6,6 +6,8 @@ import { Seo } from "@/components/site/Seo";
 import { projects, formatCapacity } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
+import { localizedContentHead } from "@/lib/locale-seo";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/tehtud-tood/$slug")({
   component: ProjectDetail,
@@ -17,22 +19,21 @@ export const Route = createFileRoute("/tehtud-tood/$slug")({
   head: ({ loaderData }) => {
     if (!loaderData) return {};
     const project = loaderData.project;
-    const title = `${project.title.et} | HeilAres`;
-    return {
-      meta: [
-        { title },
-        { name: "description", content: project.description.et },
-        { property: "og:title", content: title },
-        { property: "og:description", content: project.description.et },
-        { property: "og:image", content: project.coverImage },
-      ],
-      links: [{ rel: "canonical", href: `https://heilares.ee/tehtud-tood/${project.slug}` }],
-    };
+    return localizedContentHead(
+      "et",
+      `/tehtud-tood/${project.slug}`,
+      project.title.et,
+      project.description.et,
+    );
   },
 });
 
 function ProjectDetail() {
   const { project } = Route.useLoaderData();
+  return <ProjectDetailView project={project} />;
+}
+
+export function ProjectDetailView({ project }: { project: (typeof projects)[number] }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
 
@@ -42,13 +43,13 @@ function ProjectDetail() {
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <Link
+          <LocalizedLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("projectsSection.back")}
-          </Link>
+          </LocalizedLink>
 
           <div className="mt-8 max-w-4xl">
             <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--brand)]/30 bg-[var(--brand)]/10 px-3 py-1 text-[12px] font-semibold tracking-[0.02em] text-[var(--brand)]">

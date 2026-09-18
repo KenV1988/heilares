@@ -7,26 +7,18 @@ import { PageHero } from "@/components/site/PageHero";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { projects, type ProjectCategory } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
-import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/projects/risti-2.jpg";
 
 export const Route = createFileRoute("/tehtud-tood/")({
   component: ProjectsPage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.projects.title") },
-      { name: "description", content: i18n.t("seo.projects.description") },
-      { property: "og:title", content: i18n.t("seo.projects.title") },
-      { property: "og:description", content: i18n.t("seo.projects.description") },
-    ],
-    links: [{ rel: "canonical", href: "https://heilares.ee/tehtud-tood" }],
-  }),
+  head: () => localizedHead("et", "projects", "/tehtud-tood"),
 });
 
 type FilterKey = ProjectCategory | "all" | "workforce";
 const FILTERS: FilterKey[] = ["all", "tracker_park", "maapark", "katusepark", "workforce"];
 
-function ProjectsPage() {
+export function ProjectsPage() {
   const { t } = useTranslation();
   const [filter, setFilter] = useState<FilterKey>("all");
 

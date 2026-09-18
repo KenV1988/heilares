@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, Clock } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
@@ -6,6 +6,8 @@ import { Seo } from "@/components/site/Seo";
 import { CTA } from "@/components/site/CTA";
 import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
+import { localizedContentHead } from "@/lib/locale-seo";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import {
   Accordion,
   AccordionItem,
@@ -33,21 +35,22 @@ export const Route = createFileRoute("/blogi/$slug")({
       };
     }
     const c = loaderData.post.content.et;
-    return {
-      meta: [
-        { title: `${c.title} | HeilAres` },
-        { name: "description", content: c.summary },
-        { property: "og:title", content: `${c.title} | HeilAres` },
-        { property: "og:description", content: c.summary },
-        { property: "og:type", content: "article" },
-      ],
-      links: [{ rel: "canonical", href: `https://heilares.ee/blogi/${loaderData.post.slug}` }],
-    };
+    return localizedContentHead(
+      "et",
+      `/blogi/${loaderData.post.slug}`,
+      c.title,
+      c.summary,
+      "article",
+    );
   },
 });
 
 function BlogPostPage() {
   const { post } = Route.useLoaderData() as { post: BlogPost };
+  return <BlogPostView post={post} />;
+}
+
+export function BlogPostView({ post }: { post: BlogPost }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const c = post.content[lang];
@@ -58,13 +61,13 @@ function BlogPostPage() {
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <Link
+          <LocalizedLink
             to="/blogi"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("blog.back")}
-          </Link>
+          </LocalizedLink>
 
           <div className="mt-8 max-w-3xl">
             <div className="flex items-center gap-3 text-xs uppercase tracking-wider text-white/50">

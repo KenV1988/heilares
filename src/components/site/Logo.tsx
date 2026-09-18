@@ -1,14 +1,14 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useLocation } from "@tanstack/react-router";
 import logoSrc from "@/assets/brand/heilares-horizontal.svg";
+import { localizePath, type Lang } from "@/i18n";
 
 export function Logo({ size = "header" }: { size?: "header" | "footer" }) {
-  const cls =
-    size === "footer"
-      ? "h-[88px] w-auto md:h-[120px]"
-      : "h-12 w-auto md:h-16";
+  const { pathname } = useLocation();
+  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
+  const cls = size === "footer" ? "h-[88px] w-auto md:h-[120px]" : "h-12 w-auto md:h-16";
   return (
     <Link
-      to="/"
+      to={localizePath("/", currentLang)}
       className="inline-flex items-center py-1"
       aria-label="HeilAres — avaleht"
     >

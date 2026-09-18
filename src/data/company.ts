@@ -2,8 +2,7 @@ export type CompanyContact = {
   name: string;
   area: string;
   areaKey: string;
-  phone: string;
-  phoneHref: string;
+  email: string;
 };
 
 export const company = {
@@ -15,19 +14,22 @@ export const company = {
       name: "Kristjan Lepik",
       area: "Tööjõu rent",
       areaKey: "roles.workforce",
-      phone: "+372 5594 2216",
-      phoneHref: "tel:+37255942216",
+      email: "kristjan@heilares.ee",
     },
     {
       name: "Lauri Sal-al-Saller",
       area: "Roheenergia",
       areaKey: "roles.greenEnergy",
-      phone: "+372 505 9917",
-      phoneHref: "tel:+3725059917",
+      email: "lauri@heilares.ee",
+    },
+    {
+      name: "Karl-Heinrich Raigo",
+      area: "Partnership Manager",
+      areaKey: "roles.partnershipManager",
+      email: "karl@heilares.ee",
     },
   ] as CompanyContact[],
   locationKey: "contact.info.locationValue",
-  hoursKey: "contact.info.hoursValue",
   social: {
     linkedin: "https://ee.linkedin.com/company/heilares-o%C3%BC",
   },

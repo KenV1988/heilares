@@ -696,8 +696,6 @@
       "email": "Sähköposti",
       "phone": "Puhelin",
       "location": "Sijainti",
-      "hours": "Aukioloajat",
-      "hoursValue": "Ma–Pe 09:00–18:00",
       "locationValue": "Viro & Eurooppa"
     },
     "map": {
@@ -784,7 +782,8 @@
   },
   "roles": {
     "workforce": "Työvoiman vuokraus",
-    "greenEnergy": "Vihreä energia"
+    "greenEnergy": "Vihreä energia",
+    "partnershipManager": "Partnership Manager"
   },
   "batterySection": {
     "eyebrow": "AKKUVARASTOT / BESS",

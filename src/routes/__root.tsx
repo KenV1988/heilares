@@ -11,7 +11,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
-import { restoreLanguagePreference } from "../i18n";
+import i18n, { languageFromPath } from "../i18n";
 import { useTranslation } from "react-i18next";
 import { initAnalytics, trackPageView } from "@/lib/analytics";
 
@@ -144,10 +144,13 @@ function AnalyticsTracker() {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const pathname = useRouterState({ select: (state) => state.location.pathname });
+  const routeLanguage = languageFromPath(pathname);
 
   useEffect(() => {
-    restoreLanguagePreference();
-  }, []);
+    if (i18n.language !== routeLanguage) void i18n.changeLanguage(routeLanguage);
+    document.documentElement.lang = routeLanguage;
+  }, [routeLanguage]);
 
   return (
     <QueryClientProvider client={queryClient}>

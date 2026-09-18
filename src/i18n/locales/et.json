@@ -7,7 +7,8 @@
     "projects": "Tehtud tööd",
     "blog": "Blogi",
     "contact": "Kontakt",
-    "cta": "Küsi pakkumist"
+    "cta": "Küsi pakkumist",
+    "battery": "Akupangad"
   },
   "common": {
     "learnMore": "Loe lähemalt",
@@ -681,7 +682,8 @@
         "katusepark": "Katusepark",
         "electrical": "Elektritööd",
         "workforce": "Tööjõu rent",
-        "other": "Muu"
+        "other": "Muu",
+        "battery": "Akupangad / BESS"
       }
     },
     "errors": {
@@ -767,10 +769,323 @@
     "blog": {
       "title": "Päikeseenergia blogi arendajatele | HeilAres",
       "description": "Nõuanded ja teadmised päikeseparkide ehitusest, EPC-teenusest ja tööjõu rendist. HeilArese blogi."
+    },
+    "bess": {
+      "title": "Akupangad ja BESS-lahendused | HeilAres",
+      "description": "Akupangad ja BESS-lahendused päikeseparkidele, ettevõtetele ja tööstusele. Energia salvestamine, tarbimise juhtimine ja energiasüsteemide integreerimine Eestis ja Euroopas."
     }
   },
   "roles": {
     "workforce": "Tööjõu rent",
     "greenEnergy": "Roheenergia"
+  },
+  "batterySection": {
+    "eyebrow": "AKUPANGAD / BESS",
+    "title": "Energiasalvestus ettevõtetele ja energiataristule",
+    "subtitle": "Projektipõhised BESS-lahendused päikeseparkidele, tööstusele ja äriklientidele.",
+    "items": {
+      "storage": {
+        "title": "Energia salvestamine",
+        "desc": "Salvesta toodetud energia ja kasuta seda vastavalt objekti vajadustele."
+      },
+      "solar": {
+        "title": "Päikesepark + BESS",
+        "desc": "Ühenda energia tootmine ja salvestamine üheks juhitavaks süsteemiks."
+      },
+      "loads": {
+        "title": "Koormuste juhtimine",
+        "desc": "Tasakaalusta tootmist ja tarbimist ning juhi tipukoormusi."
+      },
+      "industry": {
+        "title": "Tööstuslik energiataristu",
+        "desc": "Integreeri BESS ettevõtte olemasoleva elektrisüsteemiga."
+      }
+    }
+  },
+  "bessPage": {
+    "hero": {
+      "title": "Akupangad ja BESS-lahendused",
+      "subtitle": "Salvesta energiat, tasakaalusta tarbimist ja kasuta oma energiataristut tõhusamalt.",
+      "support": "Projektipõhised energiasalvestuse lahendused päikeseparkidele, ettevõtetele ja tööstusobjektidele Eestis ja Euroopas.",
+      "primary": "Küsi pakkumist",
+      "secondary": "Vaata, kuidas see töötab",
+      "trust": [
+        "Energia salvestus",
+        "BESS",
+        "Päikeseenergia",
+        "Elektritaristu"
+      ]
+    },
+    "heroAlt": "Tööstuslikud BESS-konteinerid, elektritaristu ja päikesepark Põhja-Euroopas",
+    "what": {
+      "eyebrow": "ENERGIASALVESTUS",
+      "title": "Mis on BESS?",
+      "p1": "BESS ehk Battery Energy Storage System on akupõhine energiasalvestussüsteem, mis võimaldab elektrienergiat salvestada ja kasutada seda ajal, mil seda kõige rohkem vaja on.",
+      "p2": "BESS-i saab integreerida näiteks päikesepargi, ettevõtte elektrisüsteemi või muu energiataristuga.",
+      "p3": "Salvestussüsteemi eesmärk ei ole ainult energia hoidmine, vaid kogu energiasüsteemi paindlikumaks ja paremini juhitavaks muutmine.",
+      "flow": [
+        "Tootmine",
+        "BESS",
+        "Tarbimine / võrk"
+      ]
+    },
+    "benefits": {
+      "eyebrow": "BESS-I EELISED",
+      "title": "Miks lisada energiasüsteemi akusalvestus?",
+      "items": [
+        {
+          "title": "Salvesta toodetud energia",
+          "desc": "Salvesta energia ajal, kui tootmine ületab hetketarbimist, ning kasuta seda hiljem."
+        },
+        {
+          "title": "Tasakaalusta tootmist ja tarbimist",
+          "desc": "Akusalvesti aitab viia energia tootmise ja tarbimise paremini kokku."
+        },
+        {
+          "title": "Juhi tipukoormusi",
+          "desc": "Salvestatud energiat saab kasutada tiputarbimise perioodidel, aidates juhtida elektrisüsteemi koormust."
+        },
+        {
+          "title": "Integreeri rohkem taastuvenergiat",
+          "desc": "BESS võimaldab muuta päikeseenergia tootmise paindlikumaks ja paremini juhitavaks."
+        },
+        {
+          "title": "Optimeeri energiatarbimist",
+          "desc": "Energiat saab salvestada ja kasutada vastavalt objekti tarbimisprofiilile ning süsteemi eesmärkidele."
+        },
+        {
+          "title": "Valmista süsteem ette tulevikuks",
+          "desc": "Akusalvestus annab energiataristule rohkem paindlikkust ning võimaldab süsteemi vajaduse korral edasi arendada."
+        }
+      ]
+    },
+    "audiences": {
+      "eyebrow": "KASUTUSVALDKONNAD",
+      "title": "Akusalvestus erinevatele energiakasutajatele",
+      "items": [
+        {
+          "title": "Päikesepargid",
+          "desc": "Salvesta päikesepargi toodetud energia ja muuda tootmine paindlikumaks."
+        },
+        {
+          "title": "Tööstus",
+          "desc": "Juhi suuri koormusi ja optimeeri ettevõtte energiakasutust vastavalt tegelikule tarbimisprofiilile."
+        },
+        {
+          "title": "Ärihooned",
+          "desc": "Integreeri akusalvestus olemasoleva energiataristuga ning kasuta toodetud või salvestatud energiat paindlikumalt."
+        },
+        {
+          "title": "Energiaprojektid",
+          "desc": "BESS võib olla osa suuremast taastuvenergia ja elektrivõrgu projektist."
+        }
+      ]
+    },
+    "solar": {
+      "eyebrow": "PÄIKESEPARK + BESS",
+      "title": "Päikesepark ja akusalvesti üheks süsteemiks",
+      "p1": "Päikesepark toodab energiat vastavalt päikese olemasolule, kuid tarbimine ei pruugi toimuda samal ajal. Akusalvesti võimaldab osa toodetud energiast salvestada ja kasutada hiljem.",
+      "p2": "HeilAres saab ühendada päikeseenergia tootmise ja akusalvestuse üheks terviklikuks energialahenduseks.",
+      "flow": [
+        "Päikesepark",
+        "Inverter",
+        "BESS",
+        "Tarbimine / võrk"
+      ],
+      "note": "Õige lahendus sõltub tootmisest, tarbimisest, võrguühendusest ja projekti eesmärkidest.",
+      "link": "Vaata päikesepargi lahendusi"
+    },
+    "sizing": {
+      "eyebrow": "PROJEKTIPÕHINE DIMENSIONEERIMINE",
+      "title": "Akupank peab sobima projektiga, mitte vastupidi",
+      "p1": "Iga energiasalvestuse projekt on erinev. Sobiva BESS-lahenduse valikul tuleb arvestada objekti energiatarbimist, tootmisprofiili, võrguühendust, soovitud võimsust, salvestusmahtu ja süsteemi kasutusotstarvet.",
+      "p2": "Seetõttu ei paku HeilAres ühte standardset akupanka kõigile.",
+      "p3": "Lahendus valitakse vastavalt projekti tehnilistele vajadustele.",
+      "flow": [
+        "Tarbimine",
+        "Tootmine",
+        "Võrguühendus",
+        "Võimsus",
+        "Salvestusmaht",
+        "BESS-lahendus"
+      ]
+    },
+    "solution": {
+      "eyebrow": "TERVIKLAHENDUS",
+      "title": "Terviklik akusalvestuse lahendus",
+      "items": [
+        {
+          "title": "Akusüsteem",
+          "desc": "Energia salvestamiseks kasutatav akusüsteem vastavalt projekti vajadustele."
+        },
+        {
+          "title": "Inverterid ja muundurid",
+          "desc": "Energia liikumise ja süsteemi töö juhtimiseks vajalikud seadmed."
+        },
+        {
+          "title": "Juhtimissüsteem",
+          "desc": "Süsteemi töö juhtimine ja optimeerimine vastavalt projekti eesmärkidele."
+        },
+        {
+          "title": "Elektripaigaldis",
+          "desc": "Kaabeldus, elektrikilbid, kaitsesüsteemid ja muud vajalikud elektrilised ühendused."
+        },
+        {
+          "title": "Seire ja monitooring",
+          "desc": "Süsteemi töö jälgimine ja andmete kasutamine süsteemi juhtimiseks."
+        },
+        {
+          "title": "Võrguühendus",
+          "desc": "Lahendus vastavalt objekti võrguühendusele ja projekti tehnilistele tingimustele."
+        }
+      ]
+    },
+    "electrical": {
+      "eyebrow": "BESS JA ELEKTRITÖÖD",
+      "title": "BESS vajab ka professionaalset elektrilist lahendust",
+      "p1": "Akusalvesti ei ole eraldiseisev seade. Selle toimimiseks tuleb integreerida see objekti elektrisüsteemi, inverterite, kaitsesüsteemide, kaabelduse ja võrguühendusega.",
+      "p2": "HeilAres saab BESS-projekti elektrilise poole siduda teiste energialahendustega.",
+      "registry": "MTR TEL005181",
+      "registryNote": "HeilAresi elektritööde majandustegevuse registreering MTR-is.",
+      "cta": "Vaata elektritöid"
+    },
+    "safety": {
+      "eyebrow": "OHUTUS JA TÖÖKINDLUS",
+      "title": "Ohutus ja töökindlus on BESS-i lahutamatu osa",
+      "p1": "Akusalvestussüsteemide puhul on oluline arvestada kogu süsteemi tehnilise ülesehituse, elektriohutuse, temperatuuritingimuste, kaitsesüsteemide ja tuleohutusega.",
+      "p2": "Lahenduse projekteerimisel ja paigaldamisel tuleb arvestada konkreetse objekti, kasutatava tehnoloogia ja kehtivate tehniliste nõuetega.",
+      "points": [
+        "Elektriohutus",
+        "Temperatuuritingimused",
+        "Kaitsesüsteemid",
+        "Tuleohutus"
+      ]
+    },
+    "future": {
+      "eyebrow": "TULEVIKUKINDEL ENERGIATARISTU",
+      "title": "Planeeri energiataristu ette ka järgmiseks etapiks",
+      "p1": "Energiavajadused muutuvad. Tulevikus võivad süsteemiga liituda uued päikesepargid, elektriautode laadijad, tootmisseadmed, akusalvestid või muud suure võimsusega tarbijad.",
+      "p2": "Seetõttu tasub energiataristu planeerimisel arvestada ka võimalike tulevaste laiendustega.",
+      "stages": [
+        {
+          "label": "Täna",
+          "value": "Päikeseenergia"
+        },
+        {
+          "label": "Järgmine etapp",
+          "value": "Päikeseenergia + BESS"
+        },
+        {
+          "label": "Tulevik",
+          "value": "Päikeseenergia + BESS + EV + tööstuslikud tarbijad"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "KUIDAS ME TÖÖTAME",
+      "title": "Projekt vajadusest kasutuselevõtuni",
+      "items": [
+        {
+          "title": "Vajaduste kaardistamine",
+          "desc": "Analüüsime objekti, energiatarbimist, tootmist, võrguühendust ja projekti eesmärki."
+        },
+        {
+          "title": "Tehniline lahendus",
+          "desc": "Paneme kokku projektile sobiva energiasalvestuse lahenduse ning määrame vajaliku töömahu."
+        },
+        {
+          "title": "Paigaldus ja integreerimine",
+          "desc": "Paigaldame ja ühendame süsteemi vastavalt projektile ning koordineerime selle integreerimise objekti energiataristuga."
+        },
+        {
+          "title": "Käivitamine ja üleandmine",
+          "desc": "Kontrollime süsteemi toimimist, viime läbi vajalikud seadistused ja anname lahenduse üle."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "MIKS HEILARES",
+      "title": "Miks valida HeilAres akusalvestuse partneriks?",
+      "subtitle": "Projektipõhine tervikvaade seob energiasalvestuse päikeseenergia ja professionaalsete elektritöödega.",
+      "items": [
+        {
+          "title": "Taastuvenergia kogemus",
+          "desc": "HeilAresi põhitegevus on seotud taastuvenergia ja päikeseenergia projektidega."
+        },
+        {
+          "title": "Terviklahendus",
+          "desc": "Akusalvestust saab siduda päikeseparkide ja elektritöödega."
+        },
+        {
+          "title": "Projektipõhine lähenemine",
+          "desc": "Lahendus valitakse vastavalt konkreetse objekti vajadustele."
+        },
+        {
+          "title": "Elektriline kompetents",
+          "desc": "Akusalvestuse elektriline pool saab olla seotud HeilAresi elektritööde võimekusega."
+        },
+        {
+          "title": "Eesti ja Euroopa",
+          "desc": "Võimalus töötada projektidega Eestis ja teistes Euroopa riikides vastavalt projekti mahule ja vajadustele."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "KKK",
+      "title": "Korduma kippuvad küsimused BESS-lahenduste kohta",
+      "subtitle": "Oluline info akupanga kavandamise, integreerimise ja kasutamise kohta.",
+      "items": {
+        "what": {
+          "question": "Mis on BESS?",
+          "answer": "BESS ehk Battery Energy Storage System on akupõhine energiasalvestussüsteem, mis võimaldab elektrienergiat salvestada ja seda hiljem kasutada vastavalt süsteemi eesmärkidele."
+        },
+        "uses": {
+          "question": "Milleks akupanka kasutatakse?",
+          "answer": "Akusalvestust saab kasutada näiteks päikeseenergia salvestamiseks, tootmise ja tarbimise tasakaalustamiseks, tipukoormuste juhtimiseks ning energiataristu paindlikumaks muutmiseks."
+        },
+        "existingSolar": {
+          "question": "Kas akupanka saab ühendada olemasoleva päikesepargiga?",
+          "answer": "Jah. Akusalvesti saab integreerida olemasoleva päikesepargiga, kuid sobiv lahendus sõltub olemasoleva süsteemi tehnilisest ülesehitusest, võrguühendusest ja projekti eesmärkidest."
+        },
+        "size": {
+          "question": "Kui suur akupank minu ettevõttele vajalik on?",
+          "answer": "Akupanga suurust ei saa määrata ainult ettevõtte aastase elektritarbimise põhjal. Dimensioneerimisel tuleb arvestada muu hulgas tarbimisprofiili, tipukoormusi, tootmisvõimsust, võrguühendust ja soovitud kasutusotstarvet."
+        },
+        "dimensioning": {
+          "question": "Kas HeilAres aitab akupanga lahendust dimensioneerida?",
+          "answer": "Jah. Projekti sobiva lahenduse määramiseks tuleb esmalt kaardistada objekti energiakasutus, tootmine ja tehnilised tingimused."
+        },
+        "industry": {
+          "question": "Kas akupank sobib tööstusettevõttele?",
+          "answer": "Jah. BESS-i saab kasutada tööstusobjektide energiataristu osana, kuid sobiv lahendus tuleb määrata vastavalt konkreetse objekti tarbimis- ja tootmisprofiilile."
+        },
+        "ev": {
+          "question": "Kas akupanka saab kasutada koos elektriautode laadijatega?",
+          "answer": "Akusalvesti saab olla osa laiemast energiataristust, kuhu kuuluvad ka elektriautode laadijad. Sobiv tehniline lahendus sõltub objekti elektrisüsteemist ja koormusprofiilist."
+        },
+        "electrical": {
+          "question": "Kas HeilAres teostab ka BESS-i elektritöid?",
+          "answer": "Jah. BESS-i elektrilise ühendamise ja elektripaigaldistega seotud tööd saab siduda HeilAresi elektritööde teenusega. HeilAresel on elektritööde MTR registreering TEL005181."
+        },
+        "expansion": {
+          "question": "Kas akusalvesti saab hiljem suuremaks ehitada?",
+          "answer": "See sõltub kasutatavast süsteemist ja selle tehnilisest ülesehitusest. Kui tulevane laiendamine on projekti alguses teada, tuleks sellega arvestada juba energiataristu ja elektrisüsteemi planeerimisel."
+        },
+        "timeline": {
+          "question": "Kui kaua BESS-projekti rajamine aega võtab?",
+          "answer": "Projekti kestus sõltub süsteemi suurusest, objekti valmisolekust, projekteerimisest, seadmete saadavusest, võrguühendusest ja vajalikest kooskõlastustest. Täpne ajakava määratakse projektipõhiselt."
+        },
+        "start": {
+          "question": "Kuidas alustada akusalvestuse projektiga?",
+          "answer": "Saada meile objekti põhiandmed, olemasoleva energiatarbimise ja tootmise info ning võimalusel elektriprojekt või võrguühenduse andmed. Seejärel saame hinnata projekti vajadusi ja sobivat lahendust."
+        }
+      }
+    },
+    "cta": {
+      "title": "Kas teie energiataristu vajab akusalvestust?",
+      "subtitle": "Saada meile oma projekti põhiandmed ning vaatame koos üle, milline energiasalvestuse lahendus võiks teie objektile sobida.",
+      "primary": "Küsi pakkumist",
+      "secondary": "Võta ühendust"
+    }
   }
 }

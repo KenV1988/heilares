@@ -18,6 +18,7 @@ export function Footer() {
 
   const directions = [
     { label: t("footer.dirGreen"), to: "/paikesepargid" as const, accent: false },
+    { label: t("nav.battery"), to: "/akupangad" as const, accent: false },
     { label: t("footer.dirWorkforce"), to: "/toojou-rent" as const, accent: false },
     { label: t("footer.dirWorks"), to: "/tehtud-tood" as const, accent: false },
     { label: t("footer.dirQuote"), to: "/kontakt" as const, accent: true },

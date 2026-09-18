@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { ArrowRight, Linkedin } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useTranslation, Trans } from "react-i18next";
 import { QuoteModal } from "./QuoteModal";
 
@@ -75,16 +75,6 @@ export function Hero() {
             className="inline-flex h-14 items-center gap-2 text-[15px] font-semibold text-white/90 underline-offset-[6px] transition hover:text-[var(--brand-glow)] hover:underline"
           >
             {t("hero.secondaryCta")}
-          </a>
-          <a
-            href="https://ee.linkedin.com/company/heilares-o%C3%BC"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-            className="inline-flex h-14 items-center gap-2 rounded-full border border-[var(--gold)]/30 bg-[var(--gold)]/10 px-6 text-[15px] font-semibold text-[var(--gold-light)] transition hover:border-[var(--gold)]/60 hover:bg-[var(--gold)]/15"
-          >
-            <Linkedin className="h-4 w-4" />
-            LinkedIn
           </a>
         </div>
       </div>

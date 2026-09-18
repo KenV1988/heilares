@@ -31,6 +31,6 @@ export const company = {
   ] as CompanyContact[],
   locationKey: "contact.info.locationValue",
   social: {
-    linkedin: "https://ee.linkedin.com/company/heilares-o%C3%BC",
+    linkedin: "https://www.linkedin.com/company/heilares-o%C3%BC/home/",
   },
 };

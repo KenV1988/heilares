@@ -109,8 +109,7 @@ export function BlogIndex() {
                   <h2 className="mt-3 text-xl font-bold text-white">{c.title}</h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{c.summary}</p>
                   <LocalizedLink
-                    to="/blogi/$slug"
-                    params={{ slug: post.slug }}
+                    to={`/blogi/${post.slug}`}
                     className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--brand)] transition group-hover:gap-2.5"
                   >
                     {t("blog.readMore")}

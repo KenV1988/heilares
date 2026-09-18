@@ -10,8 +10,7 @@ export function ProjectCard({ project }: { project: Project }) {
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   return (
     <LocalizedLink
-      to="/tehtud-tood/$slug"
-      params={{ slug: project.slug }}
+      to={`/tehtud-tood/${project.slug}`}
       className="card-lift group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">

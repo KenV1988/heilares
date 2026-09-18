@@ -82,7 +82,7 @@ export function Footer() {
                   {company.email}
                 </a>
               </li>
-              {company.contacts.filter((c) => c.email !== "karl@heilares.ee").map((c) => (
+              {company.contacts.filter((c) => c.email !== "karl.raigo@heilares.ee").map((c) => (
                 <li key={c.email} className="flex items-start gap-2.5">
                   <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
                   <div>

@@ -8,5 +8,5 @@ type LocalizedLinkProps = Omit<ComponentProps<typeof Link>, "to"> & {
 
 export function LocalizedLink({ to, ...props }: LocalizedLinkProps) {
   const { pathname } = useLocation();
-  return <Link {...props} to={localizePath(to, languageFromPath(pathname))} />;
+  return <Link {...props} from="/" to={localizePath(to, languageFromPath(pathname))} />;
 }

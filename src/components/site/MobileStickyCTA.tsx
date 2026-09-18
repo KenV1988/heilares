@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { localizePath, type Lang } from "@/i18n";
+import { LocalizedLink } from "./LocalizedLink";
 
 /**
  * Sticky bottom CTA bar — mobile only. Appears after the user has scrolled
@@ -10,8 +9,6 @@ import { localizePath, type Lang } from "@/i18n";
  */
 export function MobileStickyCTA() {
   const { t } = useTranslation();
-  const { pathname } = useLocation();
-  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -49,13 +46,13 @@ export function MobileStickyCTA() {
     >
       <div className="pointer-events-auto border-t border-white/10 bg-[rgba(10,15,13,0.95)] backdrop-blur-xl">
         <div className="flex h-16 items-center gap-2 px-4">
-          <Link
-            to={localizePath("/toojou-rent", currentLang)}
+          <LocalizedLink
+            to="/toojou-rent"
             className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full bg-[var(--brand)] text-[14px] font-semibold text-[#06120A]"
           >
             {t("nav.workforce")}
             <ArrowRight className="h-4 w-4" />
-          </Link>
+          </LocalizedLink>
         </div>
       </div>
     </div>

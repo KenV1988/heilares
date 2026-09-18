@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "@tanstack/react-router";
+import { useLocation } from "@tanstack/react-router";
+import { LocalizedLink } from "./LocalizedLink";
 import { Menu, X, ArrowRight, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { NAV_LINKS } from "@/lib/nav";
 import { company } from "@/data/company";
-import { localizePath, type Lang } from "@/i18n";
+
 
 export function Navbar() {
   const { t } = useTranslation();
@@ -41,8 +42,6 @@ export function Navbar() {
       ? ["/", "/fi", "/en", "/de"].includes(pathname)
       : pathname === to || pathname.endsWith(to) || pathname.includes(`${to}/`);
 
-  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
-  const localized = (to: string) => localizePath(to, currentLang);
 
   return (
     <>
@@ -62,9 +61,9 @@ export function Navbar() {
             {NAV_LINKS.map((link) => {
               const active = isActive(link.to);
               return (
-                <Link
+                <LocalizedLink
                   key={link.to}
-                  to={localized(link.to)}
+                  to={link.to}
                   className={`relative px-3 py-2 text-[14px] font-medium tracking-[0.02em] transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
                     active ? "text-white" : "text-white/70 hover:text-white"
                   }`}
@@ -73,20 +72,20 @@ export function Navbar() {
                   {active && (
                     <span className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-[var(--brand)]" />
                   )}
-                </Link>
+                </LocalizedLink>
               );
             })}
           </nav>
 
           <div className="hidden items-center gap-2.5 lg:flex">
             <LanguageSwitcher />
-            <Link
-              to={localized("/toojou-rent")}
+            <LocalizedLink
+              to="/toojou-rent"
               className="group inline-flex h-10 items-center gap-1.5 rounded-full bg-[var(--brand)] px-4 text-[13px] font-semibold text-[#06120A] transition hover:bg-[var(--brand-hover)]"
             >
               {t("nav.workforce")}
               <ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
-            </Link>
+            </LocalizedLink>
           </div>
 
           <button
@@ -113,8 +112,8 @@ export function Navbar() {
                 const active = isActive(link.to);
                 return (
                   <li key={link.to}>
-                    <Link
-                      to={localized(link.to)}
+                    <LocalizedLink
+                      to={link.to}
                       onClick={() => setOpen(false)}
                       className={`flex items-baseline gap-4 border-b border-white/5 py-4 ${
                         active ? "text-[var(--brand-glow)]" : "text-white"
@@ -126,7 +125,7 @@ export function Navbar() {
                       <span className="font-display text-[32px] font-semibold leading-none tracking-tight">
                         {t(link.key)}
                       </span>
-                    </Link>
+                    </LocalizedLink>
                   </li>
                 );
               })}
@@ -134,14 +133,14 @@ export function Navbar() {
           </nav>
 
           <div className="container-x border-t border-white/10 bg-[#0A0F0D] py-6">
-            <Link
-              to={localized("/toojou-rent")}
+            <LocalizedLink
+              to="/toojou-rent"
               onClick={() => setOpen(false)}
               className="flex h-14 w-full items-center justify-center gap-2 rounded-full bg-[var(--brand)] text-[15px] font-semibold text-[#06120A]"
             >
               {t("nav.workforce")}
               <ArrowRight className="h-4 w-4" />
-            </Link>
+            </LocalizedLink>
             <div className="mt-5 flex items-center justify-between text-[13px]">
               <a
                 href={`mailto:${company.email}`}

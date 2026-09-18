@@ -10,5 +10,5 @@
 # Päikeseparkide järjestuse ühtlustamine
 
 - [x] Kaardista kõik päikeseparkide tüüpide kuvamiskohad ja ühised andmeallikad
-- [ ] Rakenda järjestus Solar Tracker Park → Maapark → Katusepark kõigis vaadetes ja keeltes
-- [ ] Kontrolli sisu, linke, pilte, paigutust ja nõutud ekraanilaiusi
+- [x] Rakenda järjestus Solar Tracker Park → Maapark → Katusepark kõigis vaadetes ja keeltes
+- [x] Kontrolli sisu, linke, pilte, paigutust ja nõutud ekraanilaiusi

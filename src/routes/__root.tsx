@@ -11,7 +11,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
-import "../i18n";
+import { restoreLanguagePreference } from "../i18n";
 import { initAnalytics, trackPageView } from "@/lib/analytics";
 
 function NotFoundComponent() {
@@ -83,8 +83,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:title", content: "HeilAres OÜ — Roheenergia spetsialistid" },
       { name: "twitter:title", content: "HeilAres OÜ — Roheenergia spetsialistid" },
-      { property: "og:description", content: "Võtmed kätte päikeseparkide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark." },
-      { name: "twitter:description", content: "Võtmed kätte päikeseparkide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark." },
+      {
+        property: "og:description",
+        content:
+          "Võtmed kätte päikeseparkide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark.",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Võtmed kätte päikeseparkide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark.",
+      },
       { property: "og:image", content: "https://heilares.ainiki.ee/og-image.png" },
       { name: "twitter:image", content: "https://heilares.ainiki.ee/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -137,6 +145,10 @@ function AnalyticsTracker() {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+
+  useEffect(() => {
+    restoreLanguagePreference();
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>

@@ -4,6 +4,7 @@ import { Seo } from "@/components/site/Seo";
 import { Hero } from "@/components/site/Hero";
 import { Services } from "@/components/site/Services";
 import { WorkforceSection } from "@/components/site/WorkforceSection";
+import { BatterySection } from "@/components/site/BatterySection";
 import { ElectricalSection } from "@/components/site/ElectricalSection";
 import { Process } from "@/components/site/Process";
 import { Why } from "@/components/site/Why";
@@ -28,9 +29,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:title", content: i18n.t("seo.home.twitterTitle") },
       { name: "twitter:description", content: i18n.t("seo.home.twitterDescription") },
     ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/" },
-    ],
+    links: [{ rel: "canonical", href: "https://heilares.ainiki.ee/" }],
   }),
 });
 
@@ -42,12 +41,16 @@ function Index() {
       <Hero />
       <Services />
       <WorkforceSection />
+      <BatterySection />
       <ElectricalSection />
       <Process />
       <Why />
 
       <section className="container-x py-20 md:py-28">
-        <SectionHeader title={t("projectsSection.title")} subtitle={t("projectsSection.subtitle")} />
+        <SectionHeader
+          title={t("projectsSection.title")}
+          subtitle={t("projectsSection.subtitle")}
+        />
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3 md:mt-16">
           {projects.slice(0, 3).map((p) => (
             <ProjectCard key={p.slug} project={p} />

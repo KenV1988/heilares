@@ -72,7 +72,11 @@ function ProjectDetail() {
                 value={formatCapacity(project.capacityKw, lang)}
               />
             ) : null}
-            <Stat Icon={MapPin} label={t("projectsSection.location")} value={project.location[lang]} />
+            <Stat
+              Icon={MapPin}
+              label={t("projectsSection.location")}
+              value={project.location[lang]}
+            />
             <Stat
               Icon={Calendar}
               label={t("projectsSection.year")}
@@ -113,7 +117,10 @@ function ProjectDetail() {
               </div>
             </div>
             <aside className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-7">
-              <Detail label={t("projectsSection.details.panels")} value={project.panelsUsed[lang]} />
+              <Detail
+                label={t("projectsSection.details.panels")}
+                value={project.panelsUsed[lang]}
+              />
               <Detail label={t("projectsSection.details.inverter")} value={project.inverter} />
               <Detail
                 label={t("projectsSection.details.mounting")}

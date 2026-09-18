@@ -783,7 +783,7 @@
   "roles": {
     "workforce": "Personalvermietung",
     "greenEnergy": "Grüne Energie",
-    "partnershipManager": "Partnership Manager"
+    "partnershipManager": "Partnerschaftsmanager"
   },
   "batterySection": {
     "eyebrow": "BATTERIESPEICHER / BESS",
@@ -815,7 +815,12 @@
       "support": "Projektspezifische Energiespeicherlösungen für Solarparks, Unternehmen und Industriestandorte in Estland und Europa.",
       "primary": "Angebot anfordern",
       "secondary": "So funktioniert es",
-      "trust": ["Energiespeicherung", "BESS", "Solarenergie", "Elektroinfrastruktur"]
+      "trust": [
+        "Energiespeicherung",
+        "BESS",
+        "Solarenergie",
+        "Elektroinfrastruktur"
+      ]
     },
     "heroAlt": "Industrielle BESS-Container, Elektroinfrastruktur und ein Solarpark in Nordeuropa",
     "what": {
@@ -824,7 +829,11 @@
       "p1": "BESS, also Battery Energy Storage System, speichert elektrische Energie zur Nutzung, wenn sie am meisten benötigt wird.",
       "p2": "BESS kann in einen Solarpark, ein Unternehmenselektrosystem oder eine andere Energieinfrastruktur integriert werden.",
       "p3": "Speicherung bedeutet nicht nur, Energie zu halten; sie macht das gesamte Energiesystem flexibler und steuerbarer.",
-      "flow": ["Erzeugung", "BESS", "Verbrauch / Netz"]
+      "flow": [
+        "Erzeugung",
+        "BESS",
+        "Verbrauch / Netz"
+      ]
     },
     "benefits": {
       "eyebrow": "VORTEILE VON BESS",
@@ -883,7 +892,12 @@
       "title": "Solarpark und Batteriespeicher als ein System",
       "p1": "Ein Solarpark erzeugt Energie, wenn Sonnenlicht verfügbar ist, während der Bedarf zu einem anderen Zeitpunkt entstehen kann. Batteriespeicher ermöglichen es, einen Teil der erzeugten Energie zu speichern und später zu nutzen.",
       "p2": "HeilAres kann Solarstromerzeugung und Batteriespeicherung zu einer integrierten Energielösung kombinieren.",
-      "flow": ["Solarpark", "Wechselrichter", "BESS", "Verbrauch / Netz"],
+      "flow": [
+        "Solarpark",
+        "Wechselrichter",
+        "BESS",
+        "Verbrauch / Netz"
+      ],
       "note": "Die richtige Lösung hängt von Erzeugung, Verbrauch, Netzanschluss und Projektzielen ab.",
       "link": "Solarpark-Lösungen entdecken"
     },
@@ -946,7 +960,12 @@
       "title": "Sicherheit und Zuverlässigkeit sind fester Bestandteil von BESS",
       "p1": "Batteriespeichersysteme erfordern die Berücksichtigung der gesamten technischen Architektur, der elektrischen Sicherheit, der Temperaturbedingungen, der Schutzsysteme und des Brandschutzes.",
       "p2": "Planung und Installation müssen den jeweiligen Standort, die gewählte Technologie und die geltenden technischen Anforderungen berücksichtigen.",
-      "points": ["Elektrische Sicherheit", "Temperaturbedingungen", "Schutzsysteme", "Brandschutz"]
+      "points": [
+        "Elektrische Sicherheit",
+        "Temperaturbedingungen",
+        "Schutzsysteme",
+        "Brandschutz"
+      ]
     },
     "future": {
       "eyebrow": "ZUKUNFTSFÄHIGE ENERGIEINFRASTRUKTUR",

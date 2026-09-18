@@ -147,6 +147,10 @@ function RootComponent() {
   const pathname = useRouterState({ select: (state) => state.location.pathname });
   const routeLanguage = languageFromPath(pathname);
 
+  // Switch synchronously during render so client first paint matches SSR HTML.
+  // Resources are bundled, so changeLanguage applies immediately without a fetch.
+  if (i18n.language !== routeLanguage) void i18n.changeLanguage(routeLanguage);
+
   useEffect(() => {
     if (i18n.language !== routeLanguage) void i18n.changeLanguage(routeLanguage);
     document.documentElement.lang = routeLanguage;

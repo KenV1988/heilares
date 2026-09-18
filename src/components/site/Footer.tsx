@@ -1,11 +1,12 @@
-import { Link } from "@tanstack/react-router";
+
 import { Linkedin, Mail, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { NAV_LINKS } from "@/lib/nav";
 import { company } from "@/data/company";
 import { useLocation } from "@tanstack/react-router";
-import { localizePath, type Lang } from "@/i18n";
+import { languageFromPath } from "@/i18n";
+import { LocalizedLink } from "./LocalizedLink";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -62,12 +63,12 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {NAV_LINKS.map((l) => (
                 <li key={l.to}>
-                  <Link
-                    to={localized(l.to)}
+                  <LocalizedLink
+                    to={l.to}
                     className="text-white/75 transition hover:text-[var(--brand)]"
                   >
                     {t(l.key)}
-                  </Link>
+                  </LocalizedLink>
                 </li>
               ))}
             </ul>
@@ -115,8 +116,8 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {directions.map((d) => (
                 <li key={d.to + d.label}>
-                  <Link
-                    to={localized(d.to)}
+                  <LocalizedLink
+                    to={d.to}
                     className={
                       d.accent
                         ? "font-semibold text-[#D6B26A] transition hover:text-[var(--gold-light)]"
@@ -124,7 +125,7 @@ export function Footer() {
                     }
                   >
                     {d.label}
-                  </Link>
+                  </LocalizedLink>
                 </li>
               ))}
             </ul>
@@ -156,13 +157,13 @@ export function Footer() {
             © {year} {company.name}. {t("footer.rights")}.
           </p>
           <div className="md:text-right text-center">
-            <Link
-              to={localized("/")}
+            <LocalizedLink
+              to="/"
               className="transition hover:opacity-100"
               style={{ color: "rgba(214,178,106,0.6)" }}
             >
               heilares.ee
-            </Link>
+            </LocalizedLink>
           </div>
         </div>
       </div>

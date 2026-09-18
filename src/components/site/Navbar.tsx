@@ -152,6 +152,15 @@ export function Navbar() {
             </LocalizedLink>
             <div className="mt-5 flex items-center justify-between text-[13px]">
               <a
+                href={company.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="group grid h-9 w-9 place-items-center rounded-full border border-[var(--border)] transition hover:[border-color:rgba(214,178,106,0.6)]"
+              >
+                <Linkedin className="h-4 w-4 text-white/70 transition group-hover:text-[var(--gold-light)]" />
+              </a>
+              <a
                 href={`mailto:${company.email}`}
                 className="inline-flex items-center gap-2 text-white/75"
               >

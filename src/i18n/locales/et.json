@@ -783,7 +783,7 @@
   "roles": {
     "workforce": "Tööjõu rent",
     "greenEnergy": "Roheenergia",
-    "partnershipManager": "Partnership Manager"
+    "partnershipManager": "Partnerluse juht"
   },
   "batterySection": {
     "eyebrow": "AKUPANGAD / BESS",
@@ -815,7 +815,12 @@
       "support": "Projektipõhised energiasalvestuse lahendused päikeseparkidele, ettevõtetele ja tööstusobjektidele Eestis ja Euroopas.",
       "primary": "Küsi pakkumist",
       "secondary": "Vaata, kuidas see töötab",
-      "trust": ["Energia salvestus", "BESS", "Päikeseenergia", "Elektritaristu"]
+      "trust": [
+        "Energia salvestus",
+        "BESS",
+        "Päikeseenergia",
+        "Elektritaristu"
+      ]
     },
     "heroAlt": "Tööstuslikud BESS-konteinerid, elektritaristu ja päikesepark Põhja-Euroopas",
     "what": {
@@ -824,7 +829,11 @@
       "p1": "BESS ehk Battery Energy Storage System on akupõhine energiasalvestussüsteem, mis võimaldab elektrienergiat salvestada ja kasutada seda ajal, mil seda kõige rohkem vaja on.",
       "p2": "BESS-i saab integreerida näiteks päikesepargi, ettevõtte elektrisüsteemi või muu energiataristuga.",
       "p3": "Salvestussüsteemi eesmärk ei ole ainult energia hoidmine, vaid kogu energiasüsteemi paindlikumaks ja paremini juhitavaks muutmine.",
-      "flow": ["Tootmine", "BESS", "Tarbimine / võrk"]
+      "flow": [
+        "Tootmine",
+        "BESS",
+        "Tarbimine / võrk"
+      ]
     },
     "benefits": {
       "eyebrow": "BESS-I EELISED",
@@ -883,7 +892,12 @@
       "title": "Päikesepark ja akusalvesti üheks süsteemiks",
       "p1": "Päikesepark toodab energiat vastavalt päikese olemasolule, kuid tarbimine ei pruugi toimuda samal ajal. Akusalvesti võimaldab osa toodetud energiast salvestada ja kasutada hiljem.",
       "p2": "HeilAres saab ühendada päikeseenergia tootmise ja akusalvestuse üheks terviklikuks energialahenduseks.",
-      "flow": ["Päikesepark", "Inverter", "BESS", "Tarbimine / võrk"],
+      "flow": [
+        "Päikesepark",
+        "Inverter",
+        "BESS",
+        "Tarbimine / võrk"
+      ],
       "note": "Õige lahendus sõltub tootmisest, tarbimisest, võrguühendusest ja projekti eesmärkidest.",
       "link": "Vaata päikesepargi lahendusi"
     },
@@ -893,7 +907,14 @@
       "p1": "Iga energiasalvestuse projekt on erinev. Sobiva BESS-lahenduse valikul tuleb arvestada objekti energiatarbimist, tootmisprofiili, võrguühendust, soovitud võimsust, salvestusmahtu ja süsteemi kasutusotstarvet.",
       "p2": "Seetõttu ei paku HeilAres ühte standardset akupanka kõigile.",
       "p3": "Lahendus valitakse vastavalt projekti tehnilistele vajadustele.",
-      "flow": ["Tarbimine", "Tootmine", "Võrguühendus", "Võimsus", "Salvestusmaht", "BESS-lahendus"]
+      "flow": [
+        "Tarbimine",
+        "Tootmine",
+        "Võrguühendus",
+        "Võimsus",
+        "Salvestusmaht",
+        "BESS-lahendus"
+      ]
     },
     "solution": {
       "eyebrow": "TERVIKLAHENDUS",
@@ -939,7 +960,12 @@
       "title": "Ohutus ja töökindlus on BESS-i lahutamatu osa",
       "p1": "Akusalvestussüsteemide puhul on oluline arvestada kogu süsteemi tehnilise ülesehituse, elektriohutuse, temperatuuritingimuste, kaitsesüsteemide ja tuleohutusega.",
       "p2": "Lahenduse projekteerimisel ja paigaldamisel tuleb arvestada konkreetse objekti, kasutatava tehnoloogia ja kehtivate tehniliste nõuetega.",
-      "points": ["Elektriohutus", "Temperatuuritingimused", "Kaitsesüsteemid", "Tuleohutus"]
+      "points": [
+        "Elektriohutus",
+        "Temperatuuritingimused",
+        "Kaitsesüsteemid",
+        "Tuleohutus"
+      ]
     },
     "future": {
       "eyebrow": "TULEVIKUKINDEL ENERGIATARISTU",

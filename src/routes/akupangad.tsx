@@ -512,6 +512,45 @@ function SplitSection({
 }
 
 function FlowDiagram({ labels, icons }: { labels: string[]; icons: readonly LucideIcon[] }) {
+  if (labels.length === 4) {
+    return (
+      <div className="grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] sm:grid-rows-[1fr_auto_1fr] sm:items-center">
+        {labels.map((label, index) => {
+          const Icon = icons[index];
+          const cardPosition = [
+            "sm:col-start-1 sm:row-start-1",
+            "sm:col-start-3 sm:row-start-1",
+            "sm:col-start-3 sm:row-start-3",
+            "sm:col-start-1 sm:row-start-3",
+          ][index];
+          const arrowPosition = [
+            "sm:col-start-2 sm:row-start-1 sm:rotate-0",
+            "sm:col-start-3 sm:row-start-2 sm:rotate-90",
+            "sm:col-start-2 sm:row-start-3 sm:rotate-180",
+          ][index];
+
+          return (
+            <div key={label} className="contents">
+              <div
+                className={`flex min-h-36 min-w-0 flex-col items-center justify-center rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-5 text-center sm:h-full ${cardPosition}`}
+              >
+                <Icon className="mx-auto h-8 w-8 shrink-0 text-[var(--gold-light)]" />
+                <div className="font-display mt-3 break-words text-base font-bold text-white">
+                  {label}
+                </div>
+              </div>
+              {index < labels.length - 1 && (
+                <ArrowRight
+                  className={`mx-auto h-5 w-5 rotate-90 text-[var(--brand)] ${arrowPosition}`}
+                />
+              )}
+            </div>
+          );
+        })}
+      </div>
+    );
+  }
+
   return (
     <div className="grid gap-3 sm:grid-cols-[1fr_auto_1fr_auto_1fr]">
       {labels.map((label, index) => {

@@ -122,11 +122,24 @@ function RootShell({ children }: { children: React.ReactNode }) {
   );
 }
 
+/** Initialize GA4 once and fire a page_view on every route change. */
+function AnalyticsTracker() {
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+
+  useEffect(() => {
+    initAnalytics();
+    trackPageView(pathname);
+  }, [pathname]);
+
+  return null;
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
     <QueryClientProvider client={queryClient}>
+      <AnalyticsTracker />
       <Outlet />
     </QueryClientProvider>
   );

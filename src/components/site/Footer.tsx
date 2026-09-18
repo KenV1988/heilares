@@ -12,10 +12,6 @@ export function Footer() {
 
   const socials = [{ Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" }];
 
-  const openLinkedIn = (event: React.MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    window.open(company.social.linkedin, "_blank", "noopener,noreferrer");
-  };
 
   const goldBorder = { borderColor: "rgba(214,178,106,0.30)" };
   const goldDivider = { borderColor: "rgba(214,178,106,0.18)" };

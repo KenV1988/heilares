@@ -3,6 +3,6 @@
 - [x] Audit contacts, working hours, i18n, SEO, routes, and responsive risks
 - [x] Remove employee phones and all business-hours content
 - [x] Add Karl-Heinrich Raigo with role and email
-- [ ] Add complete German UI, blog, project, FAQ, form, metadata, and alt-text content
-- [ ] Add localized FI/EN/DE URLs, language-preserving navigation, canonicals, hreflang, and sitemap entries
-- [ ] Validate locale parity, all routes, language switch sequences, interactions, metadata, and required viewport widths
+- [x] Add complete German UI, blog, project, FAQ, form, metadata, and alt-text content
+- [x] Add localized FI/EN/DE URLs, language-preserving navigation, canonicals, hreflang, and sitemap entries
+- [x] Validate locale parity, all routes, language switch sequences, interactions, metadata, and required viewport widths

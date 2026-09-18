@@ -782,7 +782,8 @@
   },
   "roles": {
     "workforce": "Personalvermietung",
-    "greenEnergy": "Grüne Energie"
+    "greenEnergy": "Grüne Energie",
+    "partnershipManager": "Partnership Manager"
   },
   "batterySection": {
     "eyebrow": "BATTERIESPEICHER / BESS",

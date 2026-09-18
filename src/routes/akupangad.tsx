@@ -60,7 +60,7 @@ interface CopyItem {
   title: string;
   desc: string;
 }
-interface Step extends CopyItem {}
+type Step = CopyItem;
 
 export const Route = createFileRoute("/akupangad")({
   component: BessPage,

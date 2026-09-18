@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { languageFromPath } from "@/i18n";
 import { LocalizedLink } from "./LocalizedLink";
 
 /**
@@ -11,8 +9,6 @@ import { LocalizedLink } from "./LocalizedLink";
  */
 export function MobileStickyCTA() {
   const { t } = useTranslation();
-  const { pathname } = useLocation();
-  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {

@@ -1,11 +1,7 @@
-import { useLocation } from "@tanstack/react-router";
 import logoSrc from "@/assets/brand/heilares-horizontal.svg";
-import { languageFromPath } from "@/i18n";
 import { LocalizedLink } from "./LocalizedLink";
 
 export function Logo({ size = "header" }: { size?: "header" | "footer" }) {
-  const { pathname } = useLocation();
-  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
   const cls = size === "footer" ? "h-[88px] w-auto md:h-[120px]" : "h-12 w-auto md:h-16";
   return (
     <LocalizedLink

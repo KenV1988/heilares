@@ -4,15 +4,10 @@ import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { NAV_LINKS } from "@/lib/nav";
 import { company } from "@/data/company";
-import { useLocation } from "@tanstack/react-router";
-import { languageFromPath } from "@/i18n";
 import { LocalizedLink } from "./LocalizedLink";
 
 export function Footer() {
   const { t } = useTranslation();
-  const { pathname } = useLocation();
-  const currentLang = (pathname.split("/").filter(Boolean)[0] || "et") as Lang;
-  const localized = (to: string) => localizePath(to, currentLang);
   const year = new Date().getFullYear();
 
   const socials = [{ Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" }];

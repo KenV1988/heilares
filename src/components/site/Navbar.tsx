@@ -42,10 +42,6 @@ export function Navbar() {
       ? ["/", "/fi", "/en", "/de"].includes(pathname)
       : pathname === to || pathname.endsWith(to) || pathname.includes(`${to}/`);
 
-  const openLinkedIn = (event: React.MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    window.open(company.social.linkedin, "_blank", "noopener,noreferrer");
-  };
 
 
   return (

@@ -29,9 +29,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:title", content: i18n.t("seo.home.twitterTitle") },
       { name: "twitter:description", content: i18n.t("seo.home.twitterDescription") },
     ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/" },
-    ],
+    links: [{ rel: "canonical", href: "https://heilares.ainiki.ee/" }],
   }),
 });
 
@@ -49,7 +47,10 @@ function Index() {
       <Why />
 
       <section className="container-x py-20 md:py-28">
-        <SectionHeader title={t("projectsSection.title")} subtitle={t("projectsSection.subtitle")} />
+        <SectionHeader
+          title={t("projectsSection.title")}
+          subtitle={t("projectsSection.subtitle")}
+        />
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3 md:mt-16">
           {projects.slice(0, 3).map((p) => (
             <ProjectCard key={p.slug} project={p} />

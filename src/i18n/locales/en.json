@@ -807,12 +807,7 @@
       "support": "Project-specific energy storage solutions for solar parks, businesses and industrial sites in Estonia and Europe.",
       "primary": "Request a quote",
       "secondary": "See how it works",
-      "trust": [
-        "Energy storage",
-        "BESS",
-        "Solar energy",
-        "Electrical infrastructure"
-      ]
+      "trust": ["Energy storage", "BESS", "Solar energy", "Electrical infrastructure"]
     },
     "heroAlt": "Industrial BESS containers, electrical infrastructure and a solar park in Northern Europe",
     "what": {
@@ -821,11 +816,7 @@
       "p1": "BESS, or Battery Energy Storage System, stores electrical energy for use when it is needed most.",
       "p2": "BESS can be integrated with a solar park, a company electrical system or other energy infrastructure.",
       "p3": "Storage is not only about holding energy; it makes the whole energy system more flexible and controllable.",
-      "flow": [
-        "Generation",
-        "BESS",
-        "Consumption / grid"
-      ]
+      "flow": ["Generation", "BESS", "Consumption / grid"]
     },
     "benefits": {
       "eyebrow": "BESS BENEFITS",
@@ -880,16 +871,11 @@
       ]
     },
     "solar": {
-      "eyebrow": "PÄIKESEPARK + BESS",
+      "eyebrow": "SOLAR PARK + BESS",
       "title": "Solar park and battery storage as one system",
       "p1": "A solar park generates energy when sunlight is available, while demand may occur at a different time. Battery storage allows part of the generated energy to be stored and used later.",
       "p2": "HeilAres can combine solar generation and battery storage into one integrated energy solution.",
-      "flow": [
-        "Solar park",
-        "Inverter",
-        "BESS",
-        "Consumption / grid"
-      ],
+      "flow": ["Solar park", "Inverter", "BESS", "Consumption / grid"],
       "note": "The right solution depends on generation, consumption, grid connection and project objectives.",
       "link": "Explore solar park solutions"
     },
@@ -952,12 +938,7 @@
       "title": "Safety and reliability are integral to BESS",
       "p1": "Battery storage systems require consideration of the complete technical architecture, electrical safety, temperature conditions, protection systems and fire safety.",
       "p2": "Design and installation must account for the specific site, selected technology and applicable technical requirements.",
-      "points": [
-        "Electrical safety",
-        "Temperature conditions",
-        "Protection systems",
-        "Fire safety"
-      ]
+      "points": ["Electrical safety", "Temperature conditions", "Protection systems", "Fire safety"]
     },
     "future": {
       "eyebrow": "FUTURE-READY ENERGY INFRASTRUCTURE",

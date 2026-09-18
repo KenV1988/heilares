@@ -9,9 +9,7 @@ export function Footer() {
   const { t } = useTranslation();
   const year = new Date().getFullYear();
 
-  const socials = [
-    { Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" },
-  ];
+  const socials = [{ Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" }];
 
   const goldBorder = { borderColor: "rgba(214,178,106,0.30)" };
   const goldDivider = { borderColor: "rgba(214,178,106,0.18)" };
@@ -24,7 +22,6 @@ export function Footer() {
     { label: t("footer.dirQuote"), to: "/kontakt" as const, accent: true },
   ];
 
-
   const Diamond = () => (
     <span
       aria-hidden
@@ -34,7 +31,10 @@ export function Footer() {
   );
 
   return (
-    <footer className="bg-[var(--bg-elevated)]" style={{ borderTop: "1px solid rgba(214,178,106,0.2)" }}>
+    <footer
+      className="bg-[var(--bg-elevated)]"
+      style={{ borderTop: "1px solid rgba(214,178,106,0.2)" }}
+    >
       <div className="container-x pt-16 pb-6 md:pt-20 md:pb-6">
         <div className="grid gap-12 md:grid-cols-[1.3fr_1fr_1.2fr_1fr]">
           {/* Brand column */}

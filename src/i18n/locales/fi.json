@@ -807,12 +807,7 @@
       "support": "Projektikohtaiset energianvarastointiratkaisut aurinkopuistoille, yrityksille ja teollisuuskohteille Virossa ja Euroopassa.",
       "primary": "Pyydä tarjous",
       "secondary": "Katso, miten se toimii",
-      "trust": [
-        "Energian varastointi",
-        "BESS",
-        "Aurinkoenergia",
-        "Sähköinfrastruktuuri"
-      ]
+      "trust": ["Energian varastointi", "BESS", "Aurinkoenergia", "Sähköinfrastruktuuri"]
     },
     "heroAlt": "Teolliset BESS-kontit, sähköinfrastruktuuri ja aurinkopuisto Pohjois-Euroopassa",
     "what": {
@@ -821,11 +816,7 @@
       "p1": "BESS eli Battery Energy Storage System on akkupohjainen energianvarastointijärjestelmä, joka varastoi sähköenergiaa myöhempää käyttöä varten.",
       "p2": "BESS voidaan integroida aurinkopuistoon, yrityksen sähköjärjestelmään tai muuhun energiainfrastruktuuriin.",
       "p3": "Varastoinnin tarkoitus ei ole vain säilyttää energiaa, vaan tehdä koko energiajärjestelmästä joustavampi ja paremmin hallittava.",
-      "flow": [
-        "Tuotanto",
-        "BESS",
-        "Kulutus / verkko"
-      ]
+      "flow": ["Tuotanto", "BESS", "Kulutus / verkko"]
     },
     "benefits": {
       "eyebrow": "BESSIN HYÖDYT",
@@ -880,16 +871,11 @@
       ]
     },
     "solar": {
-      "eyebrow": "PÄIKESEPARK + BESS",
+      "eyebrow": "AURINKOPUISTO + BESS",
       "title": "Aurinkopuisto ja akkuvarasto yhdeksi järjestelmäksi",
       "p1": "Aurinkopuisto tuottaa energiaa auringon mukaan, mutta kulutus voi ajoittua eri aikaan. Akkuvarasto mahdollistaa osan tuotannosta varastoinnin myöhempää käyttöä varten.",
       "p2": "HeilAres voi yhdistää aurinkoenergian tuotannon ja akkuvarastoinnin kokonaisratkaisuksi.",
-      "flow": [
-        "Aurinkopuisto",
-        "Invertteri",
-        "BESS",
-        "Kulutus / verkko"
-      ],
+      "flow": ["Aurinkopuisto", "Invertteri", "BESS", "Kulutus / verkko"],
       "note": "Oikea ratkaisu riippuu tuotannosta, kulutuksesta, verkkoliitännästä ja projektin tavoitteista.",
       "link": "Tutustu aurinkopuistoratkaisuihin"
     },

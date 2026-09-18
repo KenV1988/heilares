@@ -7,8 +7,8 @@ import { CTA } from "@/components/site/CTA";
 import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
-import {
 import { LocalizedLink } from "@/components/site/LocalizedLink";
+import {
   Accordion,
   AccordionItem,
   AccordionTrigger,

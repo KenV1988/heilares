@@ -513,17 +513,17 @@ function SplitSection({
 
 function FlowDiagram({ labels, icons }: { labels: string[]; icons: readonly LucideIcon[] }) {
   return (
-    <div className="grid gap-3 sm:grid-cols-[1fr_auto_1fr_auto_1fr] sm:items-center">
+    <div className="grid gap-3 sm:grid-cols-[1fr_auto_1fr_auto_1fr]">
       {labels.map((label, index) => {
         const Icon = icons[index];
         return (
           <div key={label} className="contents">
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 text-center">
+            <div className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6 text-center sm:h-full">
               <Icon className="mx-auto h-8 w-8 text-[var(--gold-light)]" />
               <div className="font-display mt-3 text-base font-bold text-white">{label}</div>
             </div>
             {index < labels.length - 1 && (
-              <ArrowRight className="mx-auto h-5 w-5 rotate-90 text-[var(--brand)] sm:rotate-0" />
+              <ArrowRight className="mx-auto h-5 w-5 rotate-90 self-center text-[var(--brand)] sm:rotate-0" />
             )}
           </div>
         );

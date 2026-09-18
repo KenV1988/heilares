@@ -26,7 +26,7 @@ export const company = {
       name: "Karl-Heinrich Raigo",
       area: "Partnership Manager",
       areaKey: "roles.partnershipManager",
-      email: "karl@heilares.ee",
+      email: "karl.raigo@heilares.ee",
     },
   ] as CompanyContact[],
   locationKey: "contact.info.locationValue",

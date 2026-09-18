@@ -1,14 +1,15 @@
-import { Link } from "@tanstack/react-router";
+import {} from "@tanstack/react-router";
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { formatCapacity, type Project } from "@/data/projects";
 import { getSupportedLang } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export function ProjectCard({ project }: { project: Project }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   return (
-    <Link
+    <LocalizedLink
       to="/tehtud-tood/$slug"
       params={{ slug: project.slug }}
       className="card-lift group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
@@ -53,6 +54,6 @@ export function ProjectCard({ project }: { project: Project }) {
           </span>
         </div>
       </div>
-    </Link>
+    </LocalizedLink>
   );
 }

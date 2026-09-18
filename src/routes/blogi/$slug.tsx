@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, Clock } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
@@ -8,6 +8,7 @@ import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
 import {
+import { LocalizedLink } from "@/components/site/LocalizedLink";
   Accordion,
   AccordionItem,
   AccordionTrigger,
@@ -60,13 +61,13 @@ export function BlogPostView({ post }: { post: BlogPost }) {
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <Link
+          <LocalizedLink
             to="/blogi"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("blog.back")}
-          </Link>
+          </LocalizedLink>
 
           <div className="mt-8 max-w-3xl">
             <div className="flex items-center gap-3 text-xs uppercase tracking-wider text-white/50">

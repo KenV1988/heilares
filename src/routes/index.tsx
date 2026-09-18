@@ -14,10 +14,11 @@ import { projects } from "@/data/projects";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/site/Section";
-import { Link } from "@tanstack/react-router";
+import {} from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import i18n from "@/i18n";
 import { localizedHead } from "@/lib/locale-seo";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -48,13 +49,13 @@ export function Index() {
           ))}
         </div>
         <div className="mt-10 text-center">
-          <Link
+          <LocalizedLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white hover:border-white hover:bg-white/5"
           >
             {t("common.viewAll")}
             <ArrowRight className="h-4 w-4" />
-          </Link>
+          </LocalizedLink>
         </div>
       </section>
 

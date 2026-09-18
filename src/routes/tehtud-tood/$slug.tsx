@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, MapPin, Calendar, Gauge } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
@@ -7,6 +7,7 @@ import { projects, formatCapacity } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/tehtud-tood/$slug")({
   component: ProjectDetail,
@@ -42,13 +43,13 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <Link
+          <LocalizedLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("projectsSection.back")}
-          </Link>
+          </LocalizedLink>
 
           <div className="mt-8 max-w-4xl">
             <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--brand)]/30 bg-[var(--brand)]/10 px-3 py-1 text-[12px] font-semibold tracking-[0.02em] text-[var(--brand)]">

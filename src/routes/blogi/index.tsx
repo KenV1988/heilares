@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowRight, Clock } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
@@ -10,6 +10,7 @@ import { blogPosts, type BlogCategory } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/tracker-park-1.jpg";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/blogi/")({
   component: BlogIndex,
@@ -107,14 +108,14 @@ export function BlogIndex() {
                   </span>
                   <h2 className="mt-3 text-xl font-bold text-white">{c.title}</h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{c.summary}</p>
-                  <Link
+                  <LocalizedLink
                     to="/blogi/$slug"
                     params={{ slug: post.slug }}
                     className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--brand)] transition group-hover:gap-2.5"
                   >
                     {t("blog.readMore")}
                     <ArrowRight className="h-4 w-4" />
-                  </Link>
+                  </LocalizedLink>
                 </div>
               </article>
             );

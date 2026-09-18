@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import {
   ArrowDown,
@@ -31,6 +31,7 @@ import { Button } from "@/components/ui/button";
 import i18n from "@/i18n";
 import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-akupangad.jpg";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 const BENEFIT_ICONS = [BatteryCharging, ChartNoAxesCombined, Gauge, Sun, Cpu, Layers3] as const;
 const AUDIENCE_ICONS = [PanelsTopLeft, Factory, Building2, RadioTower] as const;
@@ -209,12 +210,12 @@ export function BessPage() {
           icons={[Sun, Cpu, BatteryCharging, Factory]}
         />
         <p className="mt-5 text-sm leading-relaxed text-white/50">{t("bessPage.solar.note")}</p>
-        <Link
+        <LocalizedLink
           to="/paikesepargid"
           className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[var(--brand)] hover:text-[var(--brand-glow)]"
         >
           {t("bessPage.solar.link")} <ArrowRight className="h-4 w-4" />
-        </Link>
+        </LocalizedLink>
       </SplitSection>
 
       <section className="relative py-20 md:py-28">
@@ -283,9 +284,9 @@ export function BessPage() {
             variant="outline"
             className="mt-7 h-auto rounded-full border-[var(--border)] bg-transparent px-6 py-3 text-white hover:border-[var(--brand)] hover:bg-[var(--bg-card)] hover:text-[var(--brand-glow)]"
           >
-            <Link to="/elektritood">
+            <LocalizedLink to="/elektritood">
               {t("bessPage.electrical.cta")} <ArrowRight />
-            </Link>
+            </LocalizedLink>
           </Button>
         </div>
       </SplitSection>
@@ -394,7 +395,7 @@ export function BessPage() {
                 variant="outline"
                 className="h-auto rounded-full border-[var(--border)] bg-transparent px-7 py-3.5 text-white hover:bg-[var(--bg-elevated)] hover:text-white"
               >
-                <Link to="/kontakt">{t("bessPage.cta.secondary")}</Link>
+                <LocalizedLink to="/kontakt">{t("bessPage.cta.secondary")}</LocalizedLink>
               </Button>
             </div>
           </div>

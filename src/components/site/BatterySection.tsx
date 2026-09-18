@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import {} from "@tanstack/react-router";
 import {
   ArrowUpRight,
   BatteryCharging,
@@ -10,6 +10,7 @@ import type { LucideIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "./Section";
 import { Reveal } from "./Reveal";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export function BatterySection() {
   const { t } = useTranslation();
@@ -33,7 +34,7 @@ export function BatterySection() {
         <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2 lg:grid-cols-4">
           {items.map(({ key, Icon }, index) => (
             <Reveal key={key} delay={index * 80} className="h-full">
-              <Link
+              <LocalizedLink
                 to="/akupangad"
                 className="card-lift group flex h-full flex-col rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6"
               >
@@ -54,7 +55,7 @@ export function BatterySection() {
                     <ArrowUpRight className="h-4 w-4" />
                   </span>
                 </div>
-              </Link>
+              </LocalizedLink>
             </Reveal>
           ))}
         </div>

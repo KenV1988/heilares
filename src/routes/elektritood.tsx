@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import {
   ArrowRight,
@@ -28,6 +28,7 @@ import { ProjectCard } from "@/components/site/ProjectCard";
 import { projects } from "@/data/projects";
 import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-elektritood.jpg";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/elektritood")({
   component: ElectricalPage,
@@ -97,12 +98,12 @@ export function ElectricalPage() {
               {t("electricalPage.hero.cta")}
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
             </button>
-            <Link
+            <LocalizedLink
               to="/tehtud-tood"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-[var(--border)] px-7 py-3.5 text-sm font-semibold text-white transition hover:border-[var(--brand)] hover:text-[var(--brand-glow)]"
             >
               {t("electricalPage.hero.ctaSecondary")}
-            </Link>
+            </LocalizedLink>
           </div>
 
           <div className="flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
@@ -323,13 +324,13 @@ export function ElectricalPage() {
           ))}
         </div>
         <div className="mt-10 text-center">
-          <Link
+          <LocalizedLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--brand)] transition hover:text-[var(--brand-glow)]"
           >
             {t("electricalPage.projects.link")}
             <ArrowRight className="h-4 w-4" />
-          </Link>
+          </LocalizedLink>
         </div>
       </section>
 

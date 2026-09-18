@@ -68,4 +68,3 @@ if (typeof window !== "undefined") {
 }
 
 export default i18n;
-

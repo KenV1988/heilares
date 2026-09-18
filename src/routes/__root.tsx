@@ -12,23 +12,23 @@ import {
 
 import appCss from "../styles.css?url";
 import { restoreLanguagePreference } from "../i18n";
+import { useTranslation } from "react-i18next";
 import { initAnalytics, trackPageView } from "@/lib/analytics";
 
 function NotFoundComponent() {
+  const { t } = useTranslation();
   return (
     <div className="flex min-h-screen items-center justify-center bg-[var(--bg-base)] px-4 text-white">
       <div className="max-w-md text-center">
         <h1 className="text-7xl font-bold text-[var(--brand)]">404</h1>
-        <h2 className="mt-4 text-xl font-semibold">Page not found</h2>
-        <p className="mt-2 text-sm text-white/60">
-          The page you're looking for doesn't exist or has been moved.
-        </p>
+        <h2 className="mt-4 text-xl font-semibold">{t("system.notFoundTitle")}</h2>
+        <p className="mt-2 text-sm text-white/60">{t("system.notFoundText")}</p>
         <div className="mt-6">
           <Link
             to="/"
             className="inline-flex items-center justify-center rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#0a0f0d] hover:bg-[var(--brand-hover)]"
           >
-            Go home
+            {t("system.home")}
           </Link>
         </div>
       </div>
@@ -39,14 +39,13 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
+  const { t } = useTranslation();
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-[var(--bg-base)] px-4 text-white">
       <div className="max-w-md text-center">
-        <h1 className="text-xl font-semibold tracking-tight">This page didn't load</h1>
-        <p className="mt-2 text-sm text-white/60">
-          Something went wrong on our end. You can try refreshing or head back home.
-        </p>
+        <h1 className="text-xl font-semibold tracking-tight">{t("system.errorTitle")}</h1>
+        <p className="mt-2 text-sm text-white/60">{t("system.errorText")}</p>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <button
             onClick={() => {
@@ -55,13 +54,13 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
             }}
             className="inline-flex items-center justify-center rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#0a0f0d]"
           >
-            Try again
+            {t("system.retry")}
           </button>
           <a
             href="/"
             className="inline-flex items-center justify-center rounded-full border border-white/20 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/5"
           >
-            Go home
+            {t("system.home")}
           </a>
         </div>
       </div>
@@ -93,8 +92,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Võtmed kätte päikeseparkide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark.",
       },
-      { property: "og:image", content: "https://heilares.ainiki.ee/og-image.png" },
-      { name: "twitter:image", content: "https://heilares.ainiki.ee/og-image.png" },
+      { property: "og:image", content: "https://heilares.ee/og-image.png" },
+      { name: "twitter:image", content: "https://heilares.ee/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:type", content: "website" },
     ],

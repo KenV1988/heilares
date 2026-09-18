@@ -58,8 +58,7 @@ const epcPartner: BlogPost = {
       title: "Kuidas valida päikesepargi EPC-partnerit?",
       summary:
         "Praktiline juhend arendajatele ja tööstustele EPC-partneri valikul — millised kriteeriumid loevad ja milliseid küsimusi küsida.",
-      lead:
-        "Päikesepargi EPC-partner (Engineering, Procurement, Construction) on ettevõte, kes vastutab kogu päikesepargi projekteerimise, komponentide hankimise ja ehituse eest võtmed kätte põhimõttel.",
+      lead: "Päikesepargi EPC-partner (Engineering, Procurement, Construction) on ettevõte, kes vastutab kogu päikesepargi projekteerimise, komponentide hankimise ja ehituse eest võtmed kätte põhimõttel.",
       sections: [
         {
           heading: "Miks EPC-partneri valik on kriitiline?",
@@ -87,22 +86,19 @@ const epcPartner: BlogPost = {
       faqs: [
         {
           question: "Mille poolest erineb EPC-partner tavalisest paigaldajast?",
-          lead:
-            "EPC-partner vastutab kogu projekti elutsükli eest — projekteerimine, hankimine ja ehitus — samas kui tavaline paigaldaja teostab ainult füüsilise paigalduse.",
+          lead: "EPC-partner vastutab kogu projekti elutsükli eest — projekteerimine, hankimine ja ehitus — samas kui tavaline paigaldaja teostab ainult füüsilise paigalduse.",
           answer:
             "EPC-mudel annab arendajale ühe vastutava partneri kogu lepingulisele ahelale, mis lihtsustab projekti juhtimist ja vähendab koordinatsiooniriski.",
         },
         {
           question: "Kui suur peab EPC-partneri portfell olema?",
-          lead:
-            "Suuremahuliste projektide jaoks on mõistlik valida EPC-partner, kelle portfellis on vähemalt 100 MW paigaldatud võimsust.",
+          lead: "Suuremahuliste projektide jaoks on mõistlik valida EPC-partner, kelle portfellis on vähemalt 100 MW paigaldatud võimsust.",
           answer:
             "Megavatt-skaala kogemus näitab, et meeskond on lahendanud reaalseid projektijuhtimise, võrguühenduse ja loogistika väljakutseid.",
         },
         {
           question: "Kas tasub valida kohalik või rahvusvaheline EPC?",
-          lead:
-            "Kohalik EPC-partner, kellel on rahvusvaheline kogemus, on tavaliselt parim valik, kuna kombineerib kohaliku regulatiivse kogemuse ja skaalavõime.",
+          lead: "Kohalik EPC-partner, kellel on rahvusvaheline kogemus, on tavaliselt parim valik, kuna kombineerib kohaliku regulatiivse kogemuse ja skaalavõime.",
           answer:
             "HeilAres kombineerib Eesti ja Läti kohaliku tugeva tegevuse Euroopa-üleste projektivõimekustega.",
         },
@@ -112,8 +108,7 @@ const epcPartner: BlogPost = {
       title: "How to choose a solar park EPC partner?",
       summary:
         "A practical guide for developers and industrial clients on selecting an EPC partner — which criteria matter and what questions to ask.",
-      lead:
-        "A solar park EPC partner (Engineering, Procurement, Construction) is the company responsible for the full turnkey delivery of a solar park, covering design, component procurement and construction.",
+      lead: "A solar park EPC partner (Engineering, Procurement, Construction) is the company responsible for the full turnkey delivery of a solar park, covering design, component procurement and construction.",
       sections: [
         {
           heading: "Why is the EPC choice critical?",
@@ -141,22 +136,19 @@ const epcPartner: BlogPost = {
       faqs: [
         {
           question: "How is an EPC partner different from a regular installer?",
-          lead:
-            "An EPC partner is responsible for the entire project lifecycle — engineering, procurement and construction — while a regular installer only performs physical installation.",
+          lead: "An EPC partner is responsible for the entire project lifecycle — engineering, procurement and construction — while a regular installer only performs physical installation.",
           answer:
             "The EPC model gives the developer a single point of contractual accountability, which simplifies project management and reduces coordination risk.",
         },
         {
           question: "How large should an EPC partner's portfolio be?",
-          lead:
-            "For large-scale projects it is reasonable to select an EPC partner with at least 100 MW of installed capacity in their portfolio.",
+          lead: "For large-scale projects it is reasonable to select an EPC partner with at least 100 MW of installed capacity in their portfolio.",
           answer:
             "Megawatt-scale experience proves the team has solved real project management, grid interconnection and logistics challenges.",
         },
         {
           question: "Should you choose a local or international EPC?",
-          lead:
-            "A local EPC partner with international experience is usually the best choice as it combines local regulatory know-how with scalability.",
+          lead: "A local EPC partner with international experience is usually the best choice as it combines local regulatory know-how with scalability.",
           answer:
             "HeilAres combines a strong local presence in Estonia and Latvia with pan-European project capabilities.",
         },
@@ -166,8 +158,7 @@ const epcPartner: BlogPost = {
       title: "Kuinka valita aurinkopuiston EPC-kumppani?",
       summary:
         "Käytännönopas kehittäjille ja teollisuusasiakkaille EPC-kumppanin valintaan — mitkä kriteerit merkitsevät ja mitä kysyä.",
-      lead:
-        "Aurinkopuiston EPC-kumppani (Engineering, Procurement, Construction) on yritys, joka vastaa aurinkopuiston koko avaimet käteen -toimituksesta — suunnittelusta, komponenttien hankinnasta ja rakentamisesta.",
+      lead: "Aurinkopuiston EPC-kumppani (Engineering, Procurement, Construction) on yritys, joka vastaa aurinkopuiston koko avaimet käteen -toimituksesta — suunnittelusta, komponenttien hankinnasta ja rakentamisesta.",
       sections: [
         {
           heading: "Miksi EPC-kumppanin valinta on kriittinen?",
@@ -195,22 +186,19 @@ const epcPartner: BlogPost = {
       faqs: [
         {
           question: "Miten EPC-kumppani eroaa tavallisesta asentajasta?",
-          lead:
-            "EPC-kumppani vastaa koko projektin elinkaaresta — suunnittelusta, hankinnasta ja rakentamisesta — kun tavallinen asentaja hoitaa vain fyysisen asennuksen.",
+          lead: "EPC-kumppani vastaa koko projektin elinkaaresta — suunnittelusta, hankinnasta ja rakentamisesta — kun tavallinen asentaja hoitaa vain fyysisen asennuksen.",
           answer:
             "EPC-malli antaa kehittäjälle yhden sopimusvastuullisen kumppanin, mikä yksinkertaistaa projektinhallintaa.",
         },
         {
           question: "Kuinka suuri EPC-kumppanin portfolion tulisi olla?",
-          lead:
-            "Suuren mittakaavan projekteissa on järkevää valita EPC-kumppani, jonka portfoliossa on vähintään 100 MW asennettua kapasiteettia.",
+          lead: "Suuren mittakaavan projekteissa on järkevää valita EPC-kumppani, jonka portfoliossa on vähintään 100 MW asennettua kapasiteettia.",
           answer:
             "Megawattiluokan kokemus osoittaa, että tiimi on ratkaissut todellisia projektinhallinnan ja verkkoliitynnän haasteita.",
         },
         {
           question: "Pitäisikö valita paikallinen vai kansainvälinen EPC?",
-          lead:
-            "Paikallinen EPC-kumppani, jolla on kansainvälistä kokemusta, on yleensä paras valinta.",
+          lead: "Paikallinen EPC-kumppani, jolla on kansainvälistä kokemusta, on yleensä paras valinta.",
           answer:
             "HeilAres yhdistää vahvan paikallisen läsnäolon Virossa ja Latviassa pan-eurooppalaisiin projektikykyihin.",
         },
@@ -233,8 +221,7 @@ const parkTypes: BlogPost = {
       title: "Maapark, katusepark või Solar Tracker Park — milline sobib teie projektile?",
       summary:
         "Kolm peamist päikesepargi tüüpi B2B kontekstis — millised on iga tüübi tugevused, kulustruktuur ja kuhu need sobivad kõige paremini.",
-      lead:
-        "Maaparkide, katuseparkide ja Solar Tracker Park vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
+      lead: "Maaparkide, katuseparkide ja Solar Tracker Park vahel valimisel sõltub õige lahendus eelkõige maa-ala saadavusest, võrguühenduse võimsusest ja oodatavast tootlikkusest, mitte ainult investeeringu suurusest.",
       sections: [
         {
           heading: "Maapark — suurim mastaabivõime",
@@ -267,15 +254,13 @@ const parkTypes: BlogPost = {
       faqs: [
         {
           question: "Kas Solar Tracker Park on alati parem kui fikseeritud maapark?",
-          lead:
-            "Solar Tracker Park annab keskmiselt 15–25% rohkem energiat, kuid CAPEX ja OPEX on kõrgemad, seega tasuvus sõltub asukohast ja elektrihinnast.",
+          lead: "Solar Tracker Park annab keskmiselt 15–25% rohkem energiat, kuid CAPEX ja OPEX on kõrgemad, seega tasuvus sõltub asukohast ja elektrihinnast.",
           answer:
             "Põhja-Euroopa tingimustes on Solar Tracker Park sageli mõistlik valik suurte maa-alade jaoks, kus võrguühendus võimaldab täisvõimsust kasutada.",
         },
         {
           question: "Millise tüübi tasuvusaeg on lühim?",
-          lead:
-            "Katuseparkidel on tüüpiliselt lühim tasuvusaeg, kuna omatarbeline energia asendab võrgust ostmist täishinnaga.",
+          lead: "Katuseparkidel on tüüpiliselt lühim tasuvusaeg, kuna omatarbeline energia asendab võrgust ostmist täishinnaga.",
           answer:
             "Maa- ja Solar Tracker Park tasuvus sõltub müügihinnast (PPA või spot), mis on tavaliselt madalam kui jaehind.",
         },
@@ -285,8 +270,7 @@ const parkTypes: BlogPost = {
       title: "Ground-mount, rooftop or tracker — which solar park suits your project?",
       summary:
         "The three main solar park types in a B2B context — strengths, cost structure and best use cases for each.",
-      lead:
-        "Choosing between ground-mount, rooftop and Solar Tracker Parks depends primarily on land availability, grid connection capacity and expected yield, not just investment size.",
+      lead: "Choosing between ground-mount, rooftop and Solar Tracker Parks depends primarily on land availability, grid connection capacity and expected yield, not just investment size.",
       sections: [
         {
           heading: "Ground-mount — maximum scalability",
@@ -305,7 +289,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Solar Tracker Park — maximum yield per area",
           paragraphs: [
-            "Solar Tracker Parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. HeilAres has installed the 72.5 MW Stelpe Solar Tracker Park in Latvia.",
+            "Solar Tracker Parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. HeilAres has participated in the installation of the 72.5 MW Stelpe ground-mounted solar park in Latvia.",
             "Trackers suit large, flat sites where grid capacity does not limit output.",
           ],
         },
@@ -319,15 +303,13 @@ const parkTypes: BlogPost = {
       faqs: [
         {
           question: "Is a Solar Tracker Park always better than fixed-tilt ground-mount?",
-          lead:
-            "Trackers produce 15–25% more energy on average, but CAPEX and OPEX are higher, so payback depends on location and electricity price.",
+          lead: "Trackers produce 15–25% more energy on average, but CAPEX and OPEX are higher, so payback depends on location and electricity price.",
           answer:
             "In Northern European conditions, trackers are often a sensible choice for large sites where grid capacity can absorb peak output.",
         },
         {
           question: "Which type has the shortest payback?",
-          lead:
-            "Rooftop parks typically have the shortest payback because self-consumed energy displaces retail-priced grid purchases.",
+          lead: "Rooftop parks typically have the shortest payback because self-consumed energy displaces retail-priced grid purchases.",
           answer:
             "Ground-mount and tracker payback depends on PPA or spot price, usually lower than retail.",
         },
@@ -337,8 +319,7 @@ const parkTypes: BlogPost = {
       title: "Maa-, katto- vai seurantapuisto — mikä sopii hankkeellesi?",
       summary:
         "Kolme aurinkopuistotyyppiä B2B-näkökulmasta — vahvuudet, kustannusrakenne ja parhaat käyttötapaukset.",
-      lead:
-        "Maa-, katto- ja seurantapuiston välillä valinta riippuu ensisijaisesti maa-alasta, verkkoliitynnän kapasiteetista ja odotetusta tuotosta, ei vain investoinnin koosta.",
+      lead: "Maa-, katto- ja seurantapuiston välillä valinta riippuu ensisijaisesti maa-alasta, verkkoliitynnän kapasiteetista ja odotetusta tuotosta, ei vain investoinnin koosta.",
       sections: [
         {
           heading: "Maapuisto — suurin skaalautuvuus",
@@ -357,7 +338,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Seurantapuisto — maksimituotto pinta-alaa kohti",
           paragraphs: [
-            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. HeilAres on asentanut 72,5 MW Stelpe-seurantapuiston Latviassa.",
+            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. HeilAres on osallistunut 72,5 MW:n Stelpen maapuiston asennukseen Latviassa.",
             "Sopii erityisesti suurille, tasaisille alueille.",
           ],
         },
@@ -371,17 +352,14 @@ const parkTypes: BlogPost = {
       faqs: [
         {
           question: "Onko seurantapuisto aina parempi kuin kiinteä maapuisto?",
-          lead:
-            "Seurantapuisto tuottaa keskimäärin 15–25% enemmän energiaa, mutta CAPEX ja OPEX ovat korkeammat.",
+          lead: "Seurantapuisto tuottaa keskimäärin 15–25% enemmän energiaa, mutta CAPEX ja OPEX ovat korkeammat.",
           answer:
             "Pohjois-Euroopassa seuranta on usein järkevä valinta suurille kohteille, joissa verkkoliityntä sallii huipputuotannon.",
         },
         {
           question: "Millä tyypillä takaisinmaksuaika on lyhin?",
-          lead:
-            "Kattopuistoilla on tyypillisesti lyhin takaisinmaksuaika omakäytön ansiosta.",
-          answer:
-            "Maa- ja seurantapuistojen takaisinmaksu riippuu PPA- tai spot-hinnasta.",
+          lead: "Kattopuistoilla on tyypillisesti lyhin takaisinmaksuaika omakäytön ansiosta.",
+          answer: "Maa- ja seurantapuistojen takaisinmaksu riippuu PPA- tai spot-hinnasta.",
         },
       ],
     },
@@ -402,8 +380,7 @@ const turnkey: BlogPost = {
       title: "Mis on võtmed-kätte päikesepargi ehitus ja mida see hõlmab?",
       summary:
         "Detailne ülevaade võtmed-kätte EPC-mudelist — kõik tööetapid, vastutusalad ja mida arendaja saab ühelt partnerilt.",
-      lead:
-        "Võtmed-kätte päikesepargi ehitus tähendab, et üks EPC-partner vastutab kogu paigaldusprotsessi eest — alates projekteerimisest kuni paigaldustööde lõpuni.",
+      lead: "Võtmed-kätte päikesepargi ehitus tähendab, et üks EPC-partner vastutab kogu paigaldusprotsessi eest — alates projekteerimisest kuni paigaldustööde lõpuni.",
       sections: [
         {
           heading: "Mida võtmed-kätte hõlmab?",
@@ -424,24 +401,20 @@ const turnkey: BlogPost = {
       faqs: [
         {
           question: "Kas võtmed-kätte mudel on alati kallim kui ise koordineerimine?",
-          lead:
-            "Võtmed-kätte CAPEX võib olla pisut kõrgem, kuid kogu projekti TCO on tavaliselt madalam tänu väiksematele viivituskuludele ja paremale komponendile.",
+          lead: "Võtmed-kätte CAPEX võib olla pisut kõrgem, kuid kogu projekti TCO on tavaliselt madalam tänu väiksematele viivituskuludele ja paremale komponendile.",
           answer:
             "Suurte projektide puhul kompenseerib EPC mahuallahindlus tarnijate juures sageli täiendava marginaali.",
         },
         {
           question: "Kas EPC võtab vastutuse tootmise eest peale paigaldustööde lõppu?",
-          lead:
-            "EPC garanteerib ehituskvaliteedi (workmanship warranty) tavaliselt 2–5 aastat, samas kui komponentide garantii tuleb otse Tier-1 tootjatelt.",
+          lead: "EPC garanteerib ehituskvaliteedi (workmanship warranty) tavaliselt 2–5 aastat, samas kui komponentide garantii tuleb otse Tier-1 tootjatelt.",
           answer:
             "Tootlikkuse garantii (performance guarantee) saab kokku leppida eraldi, eriti suuremate projektide puhul.",
         },
         {
           question: "Kas HeilAres pakub võtmed-kätte teenust väljaspool Eestit?",
-          lead:
-            "Jah, HeilAres pakub võtmed-kätte EPC teenust kogu Euroopas.",
-          answer:
-            "Meeskonnad on valmis kiirelt asuma tööle üle Euroopa.",
+          lead: "Jah, HeilAres pakub võtmed-kätte EPC teenust kogu Euroopas.",
+          answer: "Meeskonnad on valmis kiirelt asuma tööle üle Euroopa.",
         },
       ],
     },
@@ -449,8 +422,7 @@ const turnkey: BlogPost = {
       title: "What is turnkey solar park construction and what does it cover?",
       summary:
         "A detailed view of the turnkey EPC model — every work phase, responsibilities and what a developer gets from a single partner.",
-      lead:
-        "Turnkey solar park construction means one EPC partner is responsible for the entire process from engineering to grid connection and ready-to-operate handover.",
+      lead: "Turnkey solar park construction means one EPC partner is responsible for the entire process from engineering to grid connection and ready-to-operate handover.",
       sections: [
         {
           heading: "What does turnkey cover?",
@@ -471,24 +443,20 @@ const turnkey: BlogPost = {
       faqs: [
         {
           question: "Is turnkey always more expensive than self-coordination?",
-          lead:
-            "Turnkey CAPEX may be slightly higher, but total project TCO is usually lower thanks to fewer delay costs and better procurement.",
+          lead: "Turnkey CAPEX may be slightly higher, but total project TCO is usually lower thanks to fewer delay costs and better procurement.",
           answer:
             "For large projects, EPC volume discounts with suppliers often offset the additional margin.",
         },
         {
           question: "Does the EPC take responsibility for production after handover?",
-          lead:
-            "EPC typically guarantees workmanship for 2–5 years, while component warranties come directly from the Tier-1 manufacturers.",
+          lead: "EPC typically guarantees workmanship for 2–5 years, while component warranties come directly from the Tier-1 manufacturers.",
           answer:
             "A performance guarantee can be negotiated separately, especially for larger projects.",
         },
         {
           question: "Does HeilAres offer turnkey outside Estonia?",
-          lead:
-            "Yes, HeilAres delivers turnkey EPC services across Europe.",
-          answer:
-            "Crews can start work quickly across Europe.",
+          lead: "Yes, HeilAres delivers turnkey EPC services across Europe.",
+          answer: "Crews can start work quickly across Europe.",
         },
       ],
     },
@@ -496,8 +464,7 @@ const turnkey: BlogPost = {
       title: "Mitä on aurinkopuiston avaimet käteen -rakentaminen ja mitä se sisältää?",
       summary:
         "Yksityiskohtainen katsaus avaimet käteen -EPC-malliin — kaikki työvaiheet ja vastuut.",
-      lead:
-        "Avaimet käteen -aurinkopuiston rakentaminen tarkoittaa, että yksi EPC-kumppani vastaa koko prosessista suunnittelusta verkkoliityntään ja käyttövalmiiseen luovutukseen.",
+      lead: "Avaimet käteen -aurinkopuiston rakentaminen tarkoittaa, että yksi EPC-kumppani vastaa koko prosessista suunnittelusta verkkoliityntään ja käyttövalmiiseen luovutukseen.",
       sections: [
         {
           heading: "Mitä avaimet käteen kattaa?",
@@ -518,24 +485,18 @@ const turnkey: BlogPost = {
       faqs: [
         {
           question: "Onko avaimet käteen aina kalliimpi?",
-          lead:
-            "Avaimet käteen -CAPEX voi olla hieman korkeampi, mutta hankkeen kokonaiskustannus on yleensä alhaisempi.",
-          answer:
-            "Suurissa hankkeissa EPC:n volyymialennukset usein kompensoivat lisämarginaalin.",
+          lead: "Avaimet käteen -CAPEX voi olla hieman korkeampi, mutta hankkeen kokonaiskustannus on yleensä alhaisempi.",
+          answer: "Suurissa hankkeissa EPC:n volyymialennukset usein kompensoivat lisämarginaalin.",
         },
         {
           question: "Vastaako EPC tuotannosta luovutuksen jälkeen?",
-          lead:
-            "EPC takaa työn laadun yleensä 2–5 vuotta; komponenttitakuut tulevat Tier-1-valmistajilta.",
-          answer:
-            "Tuottotakuu voidaan neuvotella erikseen.",
+          lead: "EPC takaa työn laadun yleensä 2–5 vuotta; komponenttitakuut tulevat Tier-1-valmistajilta.",
+          answer: "Tuottotakuu voidaan neuvotella erikseen.",
         },
         {
           question: "Tarjoaako HeilAres avaimet käteen -palvelua Viron ulkopuolella?",
-          lead:
-            "Kyllä, HeilAres toimittaa EPC-palveluita koko Euroopassa.",
-          answer:
-            "Ryhmät voivat aloittaa työt nopeasti ympäri Eurooppaa.",
+          lead: "Kyllä, HeilAres toimittaa EPC-palveluita koko Euroopassa.",
+          answer: "Ryhmät voivat aloittaa työt nopeasti ympäri Eurooppaa.",
         },
       ],
     },
@@ -556,8 +517,7 @@ const timeline: BlogPost = {
       title: "Kui kaua võtab suuremahulise päikesepargi ehitus aega?",
       summary:
         "Realistlik ajakava suuremahulise päikesepargi ehitusele — etapid, kestus ja peamised viivituste põhjused.",
-      lead:
-        "Suuremahulise päikesepargi (10 MW ja suurem) ehitusaeg on tüüpiliselt 6–12 kuud alates lepingu sõlmimisest kuni paigaldustööde lõpuni, sõltudes peamiselt komponentide tarneajast ja loamenetlusest.",
+      lead: "Suuremahulise päikesepargi (10 MW ja suurem) ehitusaeg on tüüpiliselt 6–12 kuud alates lepingu sõlmimisest kuni paigaldustööde lõpuni, sõltudes peamiselt komponentide tarneajast ja loamenetlusest.",
       sections: [
         {
           heading: "Etapid ja nende tüüpiline kestus",
@@ -579,15 +539,13 @@ const timeline: BlogPost = {
       faqs: [
         {
           question: "Kui kaua võtab 100 MW päikesepargi ehitus?",
-          lead:
-            "100 MW päikesepargi ehitus võtab tavaliselt 9–14 kuud alates lepingust kuni paigaldustööde lõpuni.",
+          lead: "100 MW päikesepargi ehitus võtab tavaliselt 9–14 kuud alates lepingust kuni paigaldustööde lõpuni.",
           answer:
             "HeilArese suurim paigaldatud objekt on 244 MW Risti päikesepark Eestis, kus mitmed meeskonnad töötasid paralleelselt.",
         },
         {
           question: "Kas talvel saab päikesepargi ehitusega jätkata?",
-          lead:
-            "Jah, HeilAres jätkab paigaldustöödega ka talvel, eriti vundamentide ja kandekonstruktsioonide osas.",
+          lead: "Jah, HeilAres jätkab paigaldustöödega ka talvel, eriti vundamentide ja kandekonstruktsioonide osas.",
           answer:
             "Paneelide ja DC-tööde puhul on temperatuuri- ja niiskusepiirangud, mida arvestatakse graafikus.",
         },
@@ -597,8 +555,7 @@ const timeline: BlogPost = {
       title: "How long does utility-scale solar park construction take?",
       summary:
         "A realistic timeline for utility-scale solar park construction — phases, durations and the main causes of delay.",
-      lead:
-        "Utility-scale solar park construction (10 MW and above) typically takes 6–12 months from contract signing to grid connection, depending mainly on component lead times and permitting.",
+      lead: "Utility-scale solar park construction (10 MW and above) typically takes 6–12 months from contract signing to grid connection, depending mainly on component lead times and permitting.",
       sections: [
         {
           heading: "Phases and their typical duration",
@@ -620,15 +577,13 @@ const timeline: BlogPost = {
       faqs: [
         {
           question: "How long does a 100 MW solar park take to build?",
-          lead:
-            "A 100 MW solar park typically takes 9–14 months from contract to grid connection.",
+          lead: "A 100 MW solar park typically takes 9–14 months from contract to grid connection.",
           answer:
             "HeilAres' largest installed site is the 244 MW Risti park in Estonia, where multiple crews worked in parallel.",
         },
         {
           question: "Can construction continue through winter?",
-          lead:
-            "Yes, HeilAres continues installation work through winter, especially foundations and mounting structures.",
+          lead: "Yes, HeilAres continues installation work through winter, especially foundations and mounting structures.",
           answer:
             "Panels and DC work have temperature and humidity limits factored into the schedule.",
         },
@@ -638,8 +593,7 @@ const timeline: BlogPost = {
       title: "Kuinka kauan suuren mittakaavan aurinkopuiston rakentaminen kestää?",
       summary:
         "Realistinen aikataulu suuren mittakaavan aurinkopuiston rakentamiseen — vaiheet, kestot ja viivästysten syyt.",
-      lead:
-        "Suuren mittakaavan aurinkopuiston (10 MW tai enemmän) rakentaminen kestää tyypillisesti 6–12 kuukautta sopimuksen allekirjoituksesta verkkoliityntään.",
+      lead: "Suuren mittakaavan aurinkopuiston (10 MW tai enemmän) rakentaminen kestää tyypillisesti 6–12 kuukautta sopimuksen allekirjoituksesta verkkoliityntään.",
       sections: [
         {
           heading: "Vaiheet ja niiden kesto",
@@ -661,15 +615,12 @@ const timeline: BlogPost = {
       faqs: [
         {
           question: "Kuinka kauan 100 MW aurinkopuiston rakentaminen kestää?",
-          lead:
-            "100 MW aurinkopuisto kestää tyypillisesti 9–14 kuukautta sopimuksesta verkkoliityntään.",
-          answer:
-            "HeilAreksen suurin kohde on 244 MW Risti-puisto Virossa.",
+          lead: "100 MW aurinkopuisto kestää tyypillisesti 9–14 kuukautta sopimuksesta verkkoliityntään.",
+          answer: "HeilAreksen suurin kohde on 244 MW Risti-puisto Virossa.",
         },
         {
           question: "Voiko rakentaminen jatkua talvella?",
-          lead:
-            "Kyllä, HeilAres jatkaa asennustöitä talvella, erityisesti perustusten ja rakenteiden osalta.",
+          lead: "Kyllä, HeilAres jatkaa asennustöitä talvella, erityisesti perustusten ja rakenteiden osalta.",
           answer:
             "Paneeli- ja DC-töille on lämpötila- ja kosteusrajoja, jotka huomioidaan aikataulussa.",
         },
@@ -692,8 +643,7 @@ const tier1: BlogPost = {
       title: "Mida tähendab Tier-1 päikesepaneel ja miks see on oluline?",
       summary:
         "Tier-1 mõiste lahtiseletus B2B kontekstis — mille alusel BloombergNEF tootjaid hindab ja miks see arendaja jaoks oluline on.",
-      lead:
-        "Tier-1 päikesepaneel on paneel, mille tootja on BloombergNEF (BNEF) klassifikatsiooni järgi pankade poolt rahastatava (bankable) tasemel — see tähendab, et tootja on tarninud märkimisväärses mahus paneele rahaliselt sõltumatutele suurprojektidele.",
+      lead: "Tier-1 päikesepaneel on paneel, mille tootja on BloombergNEF (BNEF) klassifikatsiooni järgi pankade poolt rahastatava (bankable) tasemel — see tähendab, et tootja on tarninud märkimisväärses mahus paneele rahaliselt sõltumatutele suurprojektidele.",
       sections: [
         {
           heading: "Mida Tier-1 päriselt mõõdab?",
@@ -719,15 +669,13 @@ const tier1: BlogPost = {
       faqs: [
         {
           question: "Kuidas kontrollida, kas tootja on Tier-1?",
-          lead:
-            "BloombergNEF avaldab kvartaalse Tier-1 list'i, mida saab kontrollida tootja Bloomberg'i raportist või HeilAres tellitud pakkumistest.",
+          lead: "BloombergNEF avaldab kvartaalse Tier-1 list'i, mida saab kontrollida tootja Bloomberg'i raportist või HeilAres tellitud pakkumistest.",
           answer:
             "HeilAres lisab igale pakkumisele konkreetsete tootjate Tier-1 staatuse pakkumise hetkel.",
         },
         {
           question: "Kas Tier-1 paneelid on alati kallimad?",
-          lead:
-            "Tier-1 paneelid on tüüpiliselt 5–15% kallimad kui Tier-2, kuid maksumus pärineb tootmise mahust ja kvaliteedikontrollist.",
+          lead: "Tier-1 paneelid on tüüpiliselt 5–15% kallimad kui Tier-2, kuid maksumus pärineb tootmise mahust ja kvaliteedikontrollist.",
           answer:
             "Pikaajalise tootlikkuse ja garantii usaldusväärsuse arvestamisel on Tier-1 paneelid TCO-lt soodsamad.",
         },
@@ -737,8 +685,7 @@ const tier1: BlogPost = {
       title: "What is a Tier-1 solar panel and why does it matter?",
       summary:
         "Tier-1 explained in a B2B context — how BloombergNEF rates manufacturers and why it matters for developers.",
-      lead:
-        "A Tier-1 solar panel is one whose manufacturer is classified as bankable by BloombergNEF (BNEF) — meaning the manufacturer has supplied panels in significant volume to non-recourse-financed utility-scale projects.",
+      lead: "A Tier-1 solar panel is one whose manufacturer is classified as bankable by BloombergNEF (BNEF) — meaning the manufacturer has supplied panels in significant volume to non-recourse-financed utility-scale projects.",
       sections: [
         {
           heading: "What does Tier-1 actually measure?",
@@ -764,15 +711,12 @@ const tier1: BlogPost = {
       faqs: [
         {
           question: "How can I verify a manufacturer is Tier-1?",
-          lead:
-            "BloombergNEF publishes a quarterly Tier-1 list that can be cross-checked with the manufacturer's Bloomberg report or with bids issued by HeilAres.",
-          answer:
-            "HeilAres includes manufacturer Tier-1 status at bid time on every offer.",
+          lead: "BloombergNEF publishes a quarterly Tier-1 list that can be cross-checked with the manufacturer's Bloomberg report or with bids issued by HeilAres.",
+          answer: "HeilAres includes manufacturer Tier-1 status at bid time on every offer.",
         },
         {
           question: "Are Tier-1 panels always more expensive?",
-          lead:
-            "Tier-1 panels are typically 5–15% more expensive than Tier-2, but the cost reflects manufacturing scale and quality control.",
+          lead: "Tier-1 panels are typically 5–15% more expensive than Tier-2, but the cost reflects manufacturing scale and quality control.",
           answer:
             "Considering long-term yield and warranty reliability, Tier-1 panels usually have a lower TCO.",
         },
@@ -782,8 +726,7 @@ const tier1: BlogPost = {
       title: "Mikä on Tier-1-aurinkopaneeli ja miksi se on tärkeää?",
       summary:
         "Tier-1 selitettynä B2B-kontekstissa — miten BloombergNEF arvioi valmistajia ja miksi se on tärkeää kehittäjälle.",
-      lead:
-        "Tier-1-aurinkopaneeli on paneeli, jonka valmistaja on BloombergNEF:n (BNEF) luokituksen mukaan pankkien rahoittama (bankable) — eli valmistaja on toimittanut merkittäviä määriä paneeleita itsenäisesti rahoitettuihin suuriin hankkeisiin.",
+      lead: "Tier-1-aurinkopaneeli on paneeli, jonka valmistaja on BloombergNEF:n (BNEF) luokituksen mukaan pankkien rahoittama (bankable) — eli valmistaja on toimittanut merkittäviä määriä paneeleita itsenäisesti rahoitettuihin suuriin hankkeisiin.",
       sections: [
         {
           heading: "Mitä Tier-1 oikeasti mittaa?",
@@ -801,23 +744,18 @@ const tier1: BlogPost = {
         },
         {
           heading: "Yleisiä väärinkäsityksiä",
-          paragraphs: [
-            "Tier-1 ei ole sertifikaatti vaan neljännesvuosittain päivitettävä lista.",
-          ],
+          paragraphs: ["Tier-1 ei ole sertifikaatti vaan neljännesvuosittain päivitettävä lista."],
         },
       ],
       faqs: [
         {
           question: "Miten varmistan, että valmistaja on Tier-1?",
-          lead:
-            "BloombergNEF julkaisee neljännesvuosittain Tier-1-listan.",
-          answer:
-            "HeilAres ilmoittaa valmistajan Tier-1-statuksen jokaisessa tarjouksessa.",
+          lead: "BloombergNEF julkaisee neljännesvuosittain Tier-1-listan.",
+          answer: "HeilAres ilmoittaa valmistajan Tier-1-statuksen jokaisessa tarjouksessa.",
         },
         {
           question: "Ovatko Tier-1-paneelit aina kalliimpia?",
-          lead:
-            "Tier-1-paneelit ovat tyypillisesti 5–15% kalliimpia kuin Tier-2.",
+          lead: "Tier-1-paneelit ovat tyypillisesti 5–15% kalliimpia kuin Tier-2.",
           answer:
             "Pitkän aikavälin tuoton ja takuun luotettavuuden huomioiden Tier-1-paneeleilla on yleensä alhaisempi TCO.",
         },
@@ -840,8 +778,7 @@ const maintenance: BlogPost = {
       title: "Päikesepargi hooldus — mida arendaja peaks teadma?",
       summary:
         "Praktiline ülevaade päikesepargi O&M-st (Operations and Maintenance) arendaja perspektiivist — mida hooldus hõlmab ja milline on tüüpiline kuluefekt.",
-      lead:
-        "Päikesepargi O&M (Operations and Maintenance) sisaldab nii ennetavat kui ka tõrkest tingitud hooldust ning monitooringut, mille eesmärk on hoida pargi tootlikkust 25–30 aasta jooksul võimalikult lähedal projekteeritud tasemele.",
+      lead: "Päikesepargi O&M (Operations and Maintenance) sisaldab nii ennetavat kui ka tõrkest tingitud hooldust ning monitooringut, mille eesmärk on hoida pargi tootlikkust 25–30 aasta jooksul võimalikult lähedal projekteeritud tasemele.",
       sections: [
         {
           heading: "Mida päikesepargi hooldus sisaldab?",
@@ -868,15 +805,13 @@ const maintenance: BlogPost = {
       faqs: [
         {
           question: "Kui palju maksab 10 MW päikesepargi aastane hooldus?",
-          lead:
-            "10 MW päikesepargi tüüpiline O&M aastakulu on 80 000–150 000 €, sõltudes teenuse tasemest ja asukohast.",
+          lead: "10 MW päikesepargi tüüpiline O&M aastakulu on 80 000–150 000 €, sõltudes teenuse tasemest ja asukohast.",
           answer:
             "Täpne kulu sõltub sellest, kas hooldus sisaldab puhastust, varuosi ja garanteeritud reageerimisaega.",
         },
         {
           question: "Kas peaks O&M-i tellima EPC-partnerilt?",
-          lead:
-            "Sama EPC-partneri valimine O&M-iks lihtsustab garantiivastutust ja annab kiirema reageerimise kogu projekti elutsükli jooksul.",
+          lead: "Sama EPC-partneri valimine O&M-iks lihtsustab garantiivastutust ja annab kiirema reageerimise kogu projekti elutsükli jooksul.",
           answer:
             "HeilAres pakub jätkuvat O&M-teenust kõikidele oma ehitatud projektidele Eestis, Lätis ja teistes Euroopa riikides.",
         },
@@ -886,8 +821,7 @@ const maintenance: BlogPost = {
       title: "Solar park maintenance — what developers should know",
       summary:
         "A practical overview of solar park O&M from the developer perspective — what maintenance covers and typical cost impact.",
-      lead:
-        "Solar park O&M (Operations and Maintenance) covers preventive and corrective maintenance plus monitoring, aimed at keeping output close to design level over 25–30 years.",
+      lead: "Solar park O&M (Operations and Maintenance) covers preventive and corrective maintenance plus monitoring, aimed at keeping output close to design level over 25–30 years.",
       sections: [
         {
           heading: "What does maintenance include?",
@@ -914,15 +848,13 @@ const maintenance: BlogPost = {
       faqs: [
         {
           question: "How much does annual maintenance cost for a 10 MW park?",
-          lead:
-            "A 10 MW park typically has annual O&M cost of €80,000–150,000, depending on service level and location.",
+          lead: "A 10 MW park typically has annual O&M cost of €80,000–150,000, depending on service level and location.",
           answer:
             "Exact cost depends on whether cleaning, spares and guaranteed response are included.",
         },
         {
           question: "Should I contract O&M with the EPC partner?",
-          lead:
-            "Choosing the same partner for EPC and O&M simplifies warranty accountability and gives faster response throughout the project lifecycle.",
+          lead: "Choosing the same partner for EPC and O&M simplifies warranty accountability and gives faster response throughout the project lifecycle.",
           answer:
             "HeilAres offers ongoing O&M for all projects it has built in Estonia, Latvia and Europe.",
         },
@@ -932,8 +864,7 @@ const maintenance: BlogPost = {
       title: "Aurinkopuiston huolto — mitä kehittäjän tulisi tietää?",
       summary:
         "Käytännönkatsaus aurinkopuiston O&M:ään kehittäjän näkökulmasta — mitä huolto sisältää ja tyypillinen kustannusvaikutus.",
-      lead:
-        "Aurinkopuiston O&M (Operations and Maintenance) sisältää ennaltaehkäisevän ja korjaavan huollon sekä monitoroinnin, joiden tavoitteena on pitää tuotanto lähellä suunnittelutasoa 25–30 vuoden ajan.",
+      lead: "Aurinkopuiston O&M (Operations and Maintenance) sisältää ennaltaehkäisevän ja korjaavan huollon sekä monitoroinnin, joiden tavoitteena on pitää tuotanto lähellä suunnittelutasoa 25–30 vuoden ajan.",
       sections: [
         {
           heading: "Mitä huolto sisältää?",
@@ -960,17 +891,13 @@ const maintenance: BlogPost = {
       faqs: [
         {
           question: "Paljonko maksaa 10 MW puiston vuosihuolto?",
-          lead:
-            "10 MW puiston tyypillinen O&M-vuosikustannus on 80 000–150 000 €.",
-          answer:
-            "Tarkka kustannus riippuu siitä, sisältääkö huolto puhdistuksen ja varaosat.",
+          lead: "10 MW puiston tyypillinen O&M-vuosikustannus on 80 000–150 000 €.",
+          answer: "Tarkka kustannus riippuu siitä, sisältääkö huolto puhdistuksen ja varaosat.",
         },
         {
           question: "Kannattaako O&M tilata EPC-kumppanilta?",
-          lead:
-            "Saman kumppanin valinta EPC:hen ja O&M:ään yksinkertaistaa takuuvastuuta.",
-          answer:
-            "HeilAres tarjoaa jatkuvaa O&M-palvelua kaikille rakentamilleen kohteille.",
+          lead: "Saman kumppanin valinta EPC:hen ja O&M:ään yksinkertaistaa takuuvastuuta.",
+          answer: "HeilAres tarjoaa jatkuvaa O&M-palvelua kaikille rakentamilleen kohteille.",
         },
       ],
     },
@@ -991,8 +918,7 @@ const electricalWorks: BlogPost = {
       title: "Elektritööd päikeseparkides ja tööstuses — mida peab teadma",
       summary:
         "Praktiline ülevaade elektritööde ulatusest päikeseparkides ja tööstusobjektidel: MTR-pädevus, kesk- ja madalpinge, komisoneerimine ja lepingu tingimused.",
-      lead:
-        "Elektritööd on päikesepargi ja tööstusobjekti südameks — mitte ainult paneelide ja inverterite ühendamine, vaid kogu kesk- ja madalpinge infrastruktuuri projekteerimine, ehitus, testimine ja komisoneerimine vastavalt kehtivatele standarditele.",
+      lead: "Elektritööd on päikesepargi ja tööstusobjekti südameks — mitte ainult paneelide ja inverterite ühendamine, vaid kogu kesk- ja madalpinge infrastruktuuri projekteerimine, ehitus, testimine ja komisoneerimine vastavalt kehtivatele standarditele.",
       sections: [
         {
           heading: "Miks elektritööd määravad projekti kvaliteedi?",
@@ -1004,7 +930,7 @@ const electricalWorks: BlogPost = {
         {
           heading: "Millist pädevust elektritööd eeldavad?",
           paragraphs: [
-            "Eestis peab elektritöid tegema vastava pädevuse ja MTR-registreeringuga meeskond. HeilAresi elektritöid teostab MTR-registreeringuga (TEL005181) meeskond, mis lubab tegutseda kuni 35 kV keskpingel ja täismahus madalpingel.",
+            "Eestis peab elektritöid tegema vastava pädevuse ja registreeringuga meeskond. HeilAresel on elektritööde MTR-registreering TEL005181.",
           ],
         },
         {
@@ -1018,29 +944,26 @@ const electricalWorks: BlogPost = {
           heading: "Kuidas vormistada elektritööde leping?",
           paragraphs: [
             "Lepingus peavad olema kirjas ulatus (DC, AC, keskpinge, monitooring), vastavad standardid (EVS-HD, IEC), testimiskavand ja vastuvõtuprotokoll. Nõudke dokumenteeritud kasutus- ja hooldusjuhendit ning esialgset mõõteprotokolli.",
-            "HeilAres annab kõikjal elektritöödele kirjaliku garantsii ja tagab hoolduse kogu vara elutsükli jooksul — see tagab, et rikete korral pole vaja otsida uut partnerit.",
+            "Garantii, hoolduse ja reageerimisaja tingimused määratakse projektipõhises lepingus.",
           ],
         },
       ],
       faqs: [
         {
           question: "Mis on MTR-registreering ja miks see on oluline?",
-          lead:
-            "MTR (Majandustegevuse Register) on Eesti registreering, mis tõendab ettevõtte õigust teostada elektritöid vastaval pingetasemel.",
+          lead: "MTR (Majandustegevuse Register) on Eesti registreering, mis tõendab ettevõtte õigust teostada elektritöid vastaval pingetasemel.",
           answer:
-            "HeilAresi MTR-registreering on TEL005181, mis lubab elektritöid kuni 35 kV keskpingel ja kogu madalpingel — see katab kõik päikesepargi ja enamiku tööstusobjektide vajadusi.",
+            "HeilAresi elektritööde MTR-registreering on TEL005181. Projekti täpne tööulatus ja nõuded lepitakse kokku lähteandmete põhjal.",
         },
         {
           question: "Kas elektritööd saab tellida eraldi, ilma EPC-ta?",
-          lead:
-            "Jah — HeilAres pakub elektritöid ka eraldiseisva teenusena, kui klient on ise ehituse või paneelide paigalduse organiseerinud.",
+          lead: "Jah — HeilAres pakub elektritöid ka eraldiseisva teenusena, kui klient on ise ehituse või paneelide paigalduse organiseerinud.",
           answer:
             "Eraldi tellimisel hindame olemasoleva paigalduse üle, teostame puuduva elektriosa ja komisoneerime süsteemi vastavalt standarditele.",
         },
         {
           question: "Kui kiiresti saab elektritööd tellida?",
-          lead:
-            "Pakkumise vastus on tavaliselt 24 tunni jooksul ja väiksemate objektide puhul saab meeskonna objektile mõne päevaga.",
+          lead: "Pakkumise vastus on tavaliselt 24 tunni jooksul ja väiksemate objektide puhul saab meeskonna objektile mõne päevaga.",
           answer:
             "Suurte päikeseparkide ja tööstusobjektide puhul koostame graafiku koos kliendiga, arvestades võrguühenduse ja komponentide saadavust.",
         },
@@ -1050,8 +973,7 @@ const electricalWorks: BlogPost = {
       title: "Electrical works in solar parks and industry — what you need to know",
       summary:
         "A practical overview of the scope of electrical works in solar parks and industrial sites: MTR competence, medium and low voltage, commissioning and contract terms.",
-      lead:
-        "Electrical works are the heart of a solar park or industrial facility — not just connecting panels and inverters, but engineering, building, testing and commissioning the entire medium- and low-voltage infrastructure to applicable standards.",
+      lead: "Electrical works are the heart of a solar park or industrial facility — not just connecting panels and inverters, but engineering, building, testing and commissioning the entire medium- and low-voltage infrastructure to applicable standards.",
       sections: [
         {
           heading: "Why do electrical works determine project quality?",
@@ -1063,7 +985,7 @@ const electricalWorks: BlogPost = {
         {
           heading: "What competence do electrical works require?",
           paragraphs: [
-            "In Estonia, electrical works must be carried out by a team with the relevant competence and MTR registration. HeilAres' electrical works are performed by a team with MTR registration (TEL005181), which authorises work up to 35 kV medium voltage and full low voltage.",
+            "In Estonia, electrical works must be carried out by a team with the relevant competence and registration. HeilAres holds electrical works MTR registration TEL005181.",
           ],
         },
         {
@@ -1077,29 +999,26 @@ const electricalWorks: BlogPost = {
           heading: "How to formalise the electrical works contract?",
           paragraphs: [
             "The contract must specify the scope (DC, AC, medium voltage, monitoring), the applicable standards (EVS-HD, IEC), the test plan and the acceptance protocol. Demand a documented operation and maintenance manual and an initial measurement protocol.",
-            "HeilAres provides a written warranty for all electrical works and ensures maintenance throughout the asset lifecycle — so that in case of a fault there is no need to find a new partner.",
+            "Warranty, maintenance and response-time terms are defined in the project-specific contract.",
           ],
         },
       ],
       faqs: [
         {
           question: "What is MTR registration and why does it matter?",
-          lead:
-            "MTR (Economic Activities Register) is the Estonian registration that certifies a company's right to perform electrical works at the relevant voltage level.",
+          lead: "MTR (Economic Activities Register) is the Estonian registration that certifies a company's right to perform electrical works at the relevant voltage level.",
           answer:
-            "HeilAres' MTR registration is TEL005181, which authorises electrical works up to 35 kV medium voltage and full low voltage — covering all solar park and most industrial site needs.",
+            "HeilAres' electrical works MTR registration is TEL005181. The exact scope and project requirements are agreed based on the project information.",
         },
         {
           question: "Can electrical works be ordered separately, without EPC?",
-          lead:
-            "Yes — HeilAres offers electrical works as a standalone service when the client has organised construction or panel installation themselves.",
+          lead: "Yes — HeilAres offers electrical works as a standalone service when the client has organised construction or panel installation themselves.",
           answer:
             "When ordered separately, we review the existing installation, complete the missing electrical part and commission the system to standards.",
         },
         {
           question: "How quickly can electrical works be ordered?",
-          lead:
-            "A quote is typically returned within 24 hours and for smaller sites the team can be on-site within a few days.",
+          lead: "A quote is typically returned within 24 hours and for smaller sites the team can be on-site within a few days.",
           answer:
             "For large solar parks and industrial sites, we build a schedule together with the client, accounting for grid connection and component availability.",
         },
@@ -1109,8 +1028,7 @@ const electricalWorks: BlogPost = {
       title: "Sähkötöitä aurinkopuistoissa ja teollisuudessa — mitä on tiedettävä",
       summary:
         "Käytännön katsaus sähkötöiden laajuuteen aurinkopuistoissa ja teollisuuskohteissa: MTR-pätevyys, keski- ja pienjännite, käyttöönotto ja sopimusehdot.",
-      lead:
-        "Sähkötöitä ovat aurinkopuiston tai teollisuuskohteen sydän — ei vain paneelien ja invertterien liittämistä, vaan koko keski- ja pienjänniteinfrastruktuurin suunnittelu, rakentaminen, testaus ja käyttöönotto vaatimusten mukaisesti.",
+      lead: "Sähkötöitä ovat aurinkopuiston tai teollisuuskohteen sydän — ei vain paneelien ja invertterien liittämistä, vaan koko keski- ja pienjänniteinfrastruktuurin suunnittelu, rakentaminen, testaus ja käyttöönotto vaatimusten mukaisesti.",
       sections: [
         {
           heading: "Miksi sähkötöitä määrittävät projektin laadun?",
@@ -1122,7 +1040,7 @@ const electricalWorks: BlogPost = {
         {
           heading: "Mitä pätevyyttä sähkötöitä edellyttävät?",
           paragraphs: [
-            "Virossa sähkötöitä on tehtävä relevantin pätevyyden ja MTR-rekisteröinnin omaavalla tiimillä. HeilAreksen sähkötöitä tekee MTR-rekisteröity (TEL005181) tiimi, joka on valtuutettu työskentelemään jopa 35 kV keski- ja koko pienjännitteellä.",
+            "Virossa sähkötyöt on tehtävä asianmukaisen pätevyyden ja rekisteröinnin perusteella. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181.",
           ],
         },
         {
@@ -1136,29 +1054,26 @@ const electricalWorks: BlogPost = {
           heading: "Miten sähkötöiden sopimus muodostetaan?",
           paragraphs: [
             "Sopimuksessa on määriteltävä laajuus (DC, AC, keskipaine, valvonta), sovellettavat standardit (EVS-HD, IEC), testaussuunnitelma ja vastaanottopöytäkirja. Vaadi dokumentoitu käyttö- ja huolto-ohje sekä alkuperäinen mittauspöytäkirja.",
-            "HeilAres antaa kaikille sähkötöille kirjallisen takuun ja varaa huollon koko omaisuuden elinkaaren ajalle — jotta vikatilanteessa ei tarvitse etsiä uutta kumppania.",
+            "Takuu-, huolto- ja vasteaikaehdot määritellään projektikohtaisessa sopimuksessa.",
           ],
         },
       ],
       faqs: [
         {
           question: "Mitä MTR-rekisteröinti on ja miksi se on tärkeää?",
-          lead:
-            "MTR (elinkeinorekisteri) on Viron rekisteröinti, joka todistaa yrityksen oikeuden suorittaa sähkötöitä kyseisellä jännitetasolla.",
+          lead: "MTR (elinkeinorekisteri) on Viron rekisteröinti, joka todistaa yrityksen oikeuden suorittaa sähkötöitä kyseisellä jännitetasolla.",
           answer:
-            "HeilAreksen MTR-rekisteröinti on TEL005181, joka valtuuttaa sähkötöitä jopa 35 kV keski- ja koko pienjännitteellä — kattaa kaikki aurinkopuiston ja useimmat teollisuuskohteiden tarpeet.",
+            "HeilAreksen sähkötöiden MTR-rekisteröinti on TEL005181. Tarkka työn laajuus ja projektivaatimukset sovitaan lähtötietojen perusteella.",
         },
         {
           question: "Voiko sähkötöitä tilata erillisenä, ilman EPC:tä?",
-          lead:
-            "Kyllä — HeilAres tarjoaa sähkötöitä erillisenä palveluna, kun asiakas on itse järjestänyt rakentamisen tai paneelien asennuksen.",
+          lead: "Kyllä — HeilAres tarjoaa sähkötöitä erillisenä palveluna, kun asiakas on itse järjestänyt rakentamisen tai paneelien asennuksen.",
           answer:
             "Erillisessä tilauksessa arvioimme olemassa olevan asennuksen, täydennämme puuttuvan sähköosan ja otamme järjestelmän käyttöön vaatimusten mukaisesti.",
         },
         {
           question: "Kuinka nopeasti sähkötöitä voi tilata?",
-          lead:
-            "Tarjous annetaan yleensä 24 tunnin kuluessa ja pienempiin kohteisiin tiimi pääsee muutamassa päivässä.",
+          lead: "Tarjous annetaan yleensä 24 tunnin kuluessa ja pienempiin kohteisiin tiimi pääsee muutamassa päivässä.",
           answer:
             "Suurten aurinkopuistojen ja teollisuuskohteiden osalta rakennamme aikataulun yhdessä asiakkaan kanssa, ottaen huomioon verkkoliitynnän ja komponenttien saatavuuden.",
         },

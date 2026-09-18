@@ -36,7 +36,8 @@ export function ContactForm({ compact = false, defaultType, onSubmitted }: Props
       `${t("quote.title")} — ${data.name}${data.company ? ` (${data.company})` : ""}`,
     );
     const body = encodeURIComponent(lines.join("\n"));
-    window.location.href = `mailto:${company.email}?subject=${subject}&body=${body}`;
+    const mailto = `mailto:${company.email}?subject=${subject}&body=${body}`;
+    window.location.assign(mailto);
     onSubmitted?.();
   };
 

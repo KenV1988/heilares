@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:title", content: i18n.t("seo.home.twitterTitle") },
       { name: "twitter:description", content: i18n.t("seo.home.twitterDescription") },
     ],
-    links: [{ rel: "canonical", href: "https://heilares.ainiki.ee/" }],
+    links: [{ rel: "canonical", href: "https://heilares.ee/" }],
   }),
 });
 

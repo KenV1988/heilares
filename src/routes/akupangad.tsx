@@ -489,11 +489,11 @@ function SplitSection({
   return (
     <section className="relative py-20 md:py-28">
       {accent && <div className="absolute inset-0 -z-10 bg-[var(--bg-accent)]" />}
-      <div className="container-x grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
-        <Reveal className={reverse ? "lg:order-2" : ""}>
-          <div>
+      <div className="container-x grid min-w-0 items-center gap-12 lg:grid-cols-2 lg:gap-20">
+        <Reveal className={`min-w-0 ${reverse ? "lg:order-2" : ""}`}>
+          <div className="min-w-0">
             <SectionBadge>{eyebrow}</SectionBadge>
-            <h2 className="font-display mt-5 text-[36px] font-bold leading-[1.08] text-white md:text-[56px]">
+            <h2 className="font-display mt-5 break-words text-[36px] font-bold leading-[1.08] text-white md:text-[56px]">
               {title}
             </h2>
             {paragraphs.map((p, i) => (
@@ -503,7 +503,7 @@ function SplitSection({
             ))}
           </div>
         </Reveal>
-        <Reveal delay={100} className={reverse ? "lg:order-1" : ""}>
+        <Reveal delay={100} className={`min-w-0 ${reverse ? "lg:order-1" : ""}`}>
           <div>{children}</div>
         </Reveal>
       </div>

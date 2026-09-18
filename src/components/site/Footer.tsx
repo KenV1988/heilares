@@ -36,7 +36,7 @@ export function Footer() {
       style={{ borderTop: "1px solid rgba(214,178,106,0.2)" }}
     >
       <div className="container-x pt-16 pb-6 md:pt-20 md:pb-6">
-        <div className="grid gap-12 md:grid-cols-[1.3fr_1fr_1.2fr_1fr]">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1.2fr_1fr]">
           {/* Brand column */}
           <div className="flex flex-col">
             <Logo size="footer" />
@@ -149,13 +149,13 @@ export function Footer() {
             © {year} {company.name}. {t("footer.rights")}.
           </p>
           <div className="md:text-right text-center">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="transition hover:opacity-100"
               style={{ color: "rgba(214,178,106,0.6)" }}
             >
               heilares.ee
-            </a>
+            </Link>
           </div>
         </div>
       </div>

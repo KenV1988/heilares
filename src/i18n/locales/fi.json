@@ -8,7 +8,9 @@
     "blog": "Blogi",
     "contact": "Yhteystiedot",
     "cta": "Pyydä tarjous",
-    "battery": "Akkuvarastot"
+    "battery": "Akkuvarastot",
+    "menuLabel": "Valikko",
+    "languageLabel": "Vaihda kieltä"
   },
   "common": {
     "learnMore": "Lue lisää",
@@ -124,7 +126,8 @@
         "question": "Missä maissa laivanrakennuksen ryhmiä voi tilata?",
         "lead": "HeilAresin laivanrakennusryhmät ovat käytettävissä Euroopassa ja Skandinaviassa.",
         "answer": "Aloitamme työt telakkakohteilla ympäri Eurooppaa ja Skandinaviaa. Kokemus laivanrakennusprojekteista varmistaa, että tiimimme ymmärtävät laivanrakennusteollisuuden erityisvaatimukset ja turvallisuusstandardit."
-      }
+      },
+      "imageAlt": "Telakka, jossa on kuivatelakoita, laivoja ja nostureita"
     },
     "factories": {
       "eyebrow": "Tehtaat",
@@ -267,7 +270,7 @@
     "filter": {
       "all": "Kaikki",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Maa-asennus",
+      "maapark": "Maapuisto",
       "katusepark": "Kattopuisto"
     },
     "capacity": "Teho",
@@ -279,7 +282,8 @@
       "mounting": "Kiinnitysjärjestelmä",
       "duration": "Kesto"
     },
-    "back": "Takaisin projekteihin"
+    "back": "Takaisin projekteihin",
+    "heroAlt": "Ristin Solar Tracker Park Virossa"
   },
   "panelsPage": {
     "hero": {
@@ -299,7 +303,8 @@
         "question": "Kuinka paljon maata maapuisto tarvitsee?",
         "lead": "1 MW maapuisto vaatii keskimäärin 1–1,5 hehtaaria maata.",
         "answer": "Tarkka maantarve riippuu paneelityypistä, kallistuskulmasta ja rivivälistä."
-      }
+      },
+      "imageAlt": "Maapuisto pellolla ja pitkät paneelirivit aurinkopuistossa"
     },
     "roof": {
       "eyebrow": "Kattoasennukset",
@@ -329,7 +334,8 @@
         "question": "Kuinka paljon enemmän energiaa Solar Tracker Park tuottaa kiinteään maapuistoon verrattuna?",
         "lead": "Solar Tracker Park tuottavat keskimäärin 15–25% enemmän energiaa kuin samankokoiset kiinteät maapuistot.",
         "answer": "Tarkka nousu riippuu sijainnista, leveysasteesta ja paikallisesta säästä. Pohjois-Euroopan oloissa tyypillinen nousu on noin 20%."
-      }
+      },
+      "imageAlt": "Solar Tracker Park ja aurinkoa seuraavat paneelirivit vihreällä pellolla"
     },
     "faq": {
       "eyebrow": "UKK",
@@ -393,8 +399,7 @@
       "subtitle": "Ammattimaiset sähköasennukset, kaapelointi, sähkökeskukset, inverttereiden kytkennät ja sähköjärjestelmien rakentaminen Virossa ja Euroopassa.",
       "cta": "Pyydä tarjous",
       "ctaSecondary": "Katso projektimme",
-      "badgeRegistry": "Sähkötöiden MTR-rekisteröinti TEL005181",
-      "badgeLevel": "Pätevyys taso 6"
+      "badgeRegistry": "Sähkötöiden MTR-rekisteröinti TEL005181"
     },
     "services": {
       "eyebrow": "Palvelut",
@@ -492,11 +497,6 @@
         "label": "MTR-rekisteröinti",
         "value": "TEL005181",
         "note": "Sähkötöiden elinkeinotoiminnan rekisteröinti MTR:ssä."
-      },
-      "competence": {
-        "label": "Pätevyys",
-        "value": "Taso 6",
-        "note": "Sähkötyöt tekee asianmukaisen pätevyyden omaava tiimi."
       }
     },
     "future": {
@@ -699,6 +699,12 @@
       "hours": "Aukioloajat",
       "hoursValue": "Ma–Pe 09:00–18:00",
       "locationValue": "Viro & Eurooppa"
+    },
+    "map": {
+      "title": "HeilAresin sijainti Google Mapsissa",
+      "zoomIn": "Lähennä",
+      "zoomOut": "Loitonna",
+      "directions": "Reittiohjeet HeilAresille"
     }
   },
   "footer": {
@@ -737,12 +743,15 @@
       "electrical": "Sähkötöitä",
       "workforce": "Työvoiman vuokraus"
     },
-    "category": "Kategoria"
+    "category": "Kategoria",
+    "heroAlt": "Solar Tracker Park ja aurinkoa seuraavat paneelirivit"
   },
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
-      "description": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja Solar Tracker Park. Toimimme Virossa ja koko Euroopassa."
+      "description": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja Solar Tracker Park. Toimimme Virossa ja koko Euroopassa.",
+      "twitterTitle": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
+      "twitterDescription": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja Solar Tracker Park. Toimimme Virossa ja koko Euroopassa."
     },
     "panels": {
       "title": "Aurinkopaneelit — Tracker, maa- ja kattopuistot | HeilAres",
@@ -1071,5 +1080,13 @@
       "primary": "Pyydä tarjous",
       "secondary": "Ota yhteyttä"
     }
+  },
+  "system": {
+    "notFoundTitle": "Sivua ei löytynyt",
+    "notFoundText": "Etsimääsi sivua ei ole tai se on siirretty.",
+    "home": "Etusivulle",
+    "errorTitle": "Sivua ei voitu ladata",
+    "errorText": "Jotakin meni vikaan. Yritä uudelleen tai palaa etusivulle.",
+    "retry": "Yritä uudelleen"
   }
 }

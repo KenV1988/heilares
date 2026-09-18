@@ -1,7 +1,6 @@
 import { useState, useMemo } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
@@ -20,9 +19,7 @@ export const Route = createFileRoute("/tehtud-tood/")({
       { property: "og:title", content: i18n.t("seo.projects.title") },
       { property: "og:description", content: i18n.t("seo.projects.description") },
     ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/tehtud-tood" },
-    ],
+    links: [{ rel: "canonical", href: "https://heilares.ee/tehtud-tood" }],
   }),
 });
 
@@ -38,8 +35,8 @@ function ProjectsPage() {
       filter === "all"
         ? projects
         : filter === "workforce"
-        ? []
-        : projects.filter((p) => p.category === filter),
+          ? []
+          : projects.filter((p) => p.category === filter),
     [filter],
   );
 
@@ -53,7 +50,7 @@ function ProjectsPage() {
         title={t("projectsSection.title")}
         subtitle={t("projectsSection.subtitle")}
         backgroundImage={heroBg}
-        backgroundAlt="Risti Solar Tracker Park Eestis"
+        backgroundAlt={t("projectsSection.heroAlt")}
       />
 
       <section className="container-x py-12 md:py-16">
@@ -101,12 +98,15 @@ function ProjectsPage() {
             </div>
 
             <div className="grid gap-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)] md:grid-cols-2">
-              {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((s, i) => (
-                <Link
+              {(
+                t("workforceProjects.items", { returnObjects: true }) as {
+                  name: string;
+                  country: string;
+                }[]
+              ).map((s, i) => (
+                <div
                   key={s.name}
-                  to="/toojou-rent"
-                  hash="tehtud-tood"
-                  className="group flex items-center gap-5 bg-[var(--bg-elevated)] p-6 transition hover:bg-[var(--bg-card)] md:p-7"
+                  className="flex items-center gap-5 bg-[var(--bg-elevated)] p-6 md:p-7"
                 >
                   <span className="font-display w-9 text-[13px] font-semibold tracking-[0.18em] text-[var(--brand)]">
                     0{i + 1}
@@ -117,8 +117,7 @@ function ProjectsPage() {
                       {s.name}
                     </h3>
                   </div>
-                  <ArrowRight className="h-4 w-4 shrink-0 text-white/40 transition group-hover:translate-x-0.5 group-hover:text-[var(--brand)]" />
-                </Link>
+                </div>
               ))}
             </div>
           </div>

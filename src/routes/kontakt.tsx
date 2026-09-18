@@ -18,14 +18,11 @@ export const Route = createFileRoute("/kontakt")({
       { property: "og:title", content: i18n.t("seo.contact.title") },
       { property: "og:description", content: i18n.t("seo.contact.description") },
     ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/kontakt" },
-    ],
+    links: [{ rel: "canonical", href: "https://heilares.ee/kontakt" }],
   }),
 });
 
-const PANEL =
-  "rounded-2xl bg-[rgba(16,22,15,0.6)] p-5 md:p-6 border";
+const PANEL = "rounded-2xl bg-[rgba(16,22,15,0.6)] p-5 md:p-6 border";
 const PANEL_STYLE = { borderColor: "rgba(214,178,106,0.12)" } as const;
 
 function IconBox({ children }: { children: React.ReactNode }) {
@@ -112,8 +109,17 @@ function ContactPage() {
       <section className="container-x pt-5 pb-2">
         <div className="grid gap-5 md:grid-cols-3">
           {[
-            { Icon: Mail, label: t("contact.info.email"), value: company.email, href: `mailto:${company.email}` },
-            { Icon: MapPin, label: t("contact.info.location"), value: t("contact.info.locationValue") },
+            {
+              Icon: Mail,
+              label: t("contact.info.email"),
+              value: company.email,
+              href: `mailto:${company.email}`,
+            },
+            {
+              Icon: MapPin,
+              label: t("contact.info.location"),
+              value: t("contact.info.locationValue"),
+            },
             { Icon: Clock, label: t("contact.info.hours"), value: t("contact.info.hoursValue") },
           ].map(({ Icon, label, value, href }) => {
             const body = (
@@ -130,7 +136,9 @@ function ContactPage() {
               </div>
             );
             return href ? (
-              <a key={label} href={href} className="block">{body}</a>
+              <a key={label} href={href} className="block">
+                {body}
+              </a>
             ) : (
               <div key={label}>{body}</div>
             );
@@ -150,7 +158,7 @@ function ContactPage() {
         >
           <iframe
             key={zoom}
-            title="HeilAres asukoht Google Mapsil"
+            title={t("contact.map.title")}
             src={`https://maps.google.com/maps?q=${HEILARES_LAT},${HEILARES_LNG}&t=&z=${zoom}&ie=UTF8&iwloc=B&output=embed`}
             width="100%"
             height="420"
@@ -166,7 +174,7 @@ function ContactPage() {
               type="button"
               onClick={() => setZoom((z) => Math.min(MAX_ZOOM, z + 1))}
               disabled={zoom >= MAX_ZOOM}
-              aria-label="Suumi lähemale"
+              aria-label={t("contact.map.zoomIn")}
               className="grid h-11 w-11 place-items-center rounded-xl border text-[var(--brand-glow)] shadow-lg backdrop-blur transition enabled:hover:brightness-125 disabled:opacity-30"
               style={{
                 background: "rgba(10,15,13,0.78)",
@@ -179,7 +187,7 @@ function ContactPage() {
               type="button"
               onClick={() => setZoom((z) => Math.max(MIN_ZOOM, z - 1))}
               disabled={zoom <= MIN_ZOOM}
-              aria-label="Suumi kaugemale"
+              aria-label={t("contact.map.zoomOut")}
               className="grid h-11 w-11 place-items-center rounded-xl border text-[var(--brand-glow)] shadow-lg backdrop-blur transition enabled:hover:brightness-125 disabled:opacity-30"
               style={{
                 background: "rgba(10,15,13,0.78)",
@@ -198,7 +206,7 @@ function ContactPage() {
             style={{ background: "var(--brand-glow)" }}
           >
             <MapPin className="h-4 w-4" />
-            Juhised HeilAresesse
+            {t("contact.map.directions")}
           </a>
         </div>
       </section>

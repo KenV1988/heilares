@@ -1,15 +1,18 @@
+import { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
   Link,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
 import "../i18n";
+import { initAnalytics, trackPageView } from "@/lib/analytics";
 
 function NotFoundComponent() {
   return (
@@ -120,11 +123,24 @@ function RootShell({ children }: { children: React.ReactNode }) {
   );
 }
 
+/** Initialize GA4 once and fire a page_view on every route change. */
+function AnalyticsTracker() {
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+
+  useEffect(() => {
+    initAnalytics();
+    trackPageView(pathname);
+  }, [pathname]);
+
+  return null;
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
     <QueryClientProvider client={queryClient}>
+      <AnalyticsTracker />
       <Outlet />
     </QueryClientProvider>
   );

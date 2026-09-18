@@ -20,9 +20,7 @@ export const Route = createFileRoute("/paikesepargid")({
       { property: "og:title", content: i18n.t("seo.panels.title") },
       { property: "og:description", content: i18n.t("seo.panels.description") },
     ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/paikesepargid" },
-    ],
+    links: [{ rel: "canonical", href: "https://heilares.ee/paikesepargid" }],
   }),
 });
 

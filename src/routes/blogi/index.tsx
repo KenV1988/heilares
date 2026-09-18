@@ -20,9 +20,7 @@ export const Route = createFileRoute("/blogi/")({
       { property: "og:title", content: i18n.t("seo.blog.title") },
       { property: "og:description", content: i18n.t("seo.blog.description") },
     ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/blogi" },
-    ],
+    links: [{ rel: "canonical", href: "https://heilares.ee/blogi" }],
   }),
 });
 
@@ -60,7 +58,7 @@ function BlogIndex() {
         title={t("blog.title")}
         subtitle={t("blog.subtitle")}
         backgroundImage={heroBg}
-        backgroundAlt="Solar Tracker Park päikest jälgivate paneeliridadega"
+        backgroundAlt={t("blog.heroAlt")}
       />
 
       <section className="container-x py-12 md:py-16">
@@ -93,6 +91,8 @@ function BlogIndex() {
                     src={post.cover}
                     alt={c.title}
                     loading="lazy"
+                    width={1280}
+                    height={720}
                     className="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
@@ -114,9 +114,7 @@ function BlogIndex() {
                     {t(`blog.filters.${post.category}`)}
                   </span>
                   <h2 className="mt-3 text-xl font-bold text-white">{c.title}</h2>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">
-                    {c.summary}
-                  </p>
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{c.summary}</p>
                   <Link
                     to="/blogi/$slug"
                     params={{ slug: post.slug }}

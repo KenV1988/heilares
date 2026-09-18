@@ -8,7 +8,9 @@
     "blog": "Blogi",
     "contact": "Kontakt",
     "cta": "Küsi pakkumist",
-    "battery": "Akupangad"
+    "battery": "Akupangad",
+    "menuLabel": "Menüü",
+    "languageLabel": "Vaheta keelt"
   },
   "common": {
     "learnMore": "Loe lähemalt",
@@ -124,7 +126,8 @@
         "question": "Millistes riikides laevaehituse meeskondi saab tellida?",
         "lead": "HeilArese laevaehituse meeskonnad on saadaval Euroopas ja Skandinaavias.",
         "answer": "Asume tööle laevatehaste objektidel üle Euroopa ja Skandinaavias. Kogemus laevaehituse projektidega tagab, et meeskonnad mõistavad laevaehituse tööstuse spetsiifilisi nõudeid ja ohutusstandardeid."
-      }
+      },
+      "imageAlt": "Laevaehituse sadam kuivdoki, laevade ja kraanadega"
     },
     "factories": {
       "eyebrow": "Tehased",
@@ -279,7 +282,8 @@
       "mounting": "Kandekonstruktsioon",
       "duration": "Teostusaeg"
     },
-    "back": "Tagasi projektidele"
+    "back": "Tagasi projektidele",
+    "heroAlt": "Risti Solar Tracker Park Eestis"
   },
   "panelsPage": {
     "hero": {
@@ -299,7 +303,8 @@
         "question": "Kui suurt maad on vaja maapargi rajamiseks?",
         "lead": "1 MW maapark vajab keskmiselt 1–1,5 hektarit maad.",
         "answer": "Täpne maavajadus sõltub paneelide tüübist, paigaldusnurgast ja ridade vahekaugusest."
-      }
+      },
+      "imageAlt": "Maapark põllul, pikad paneeliread silmapiirini ulatuvas päikesepargis"
     },
     "roof": {
       "eyebrow": "Katusepaigaldus",
@@ -329,7 +334,8 @@
         "question": "Kui palju suurem on Solar Tracker Park tootlikkus võrreldes fikseeritud maapargiga?",
         "lead": "Solar Tracker Park annavad keskmiselt 15–25% rohkem energiat kui samasuurused fikseeritud maapargid.",
         "answer": "Täpne kasv sõltub asukohast, laiuskraadist ja kohalikest ilmastikutingimustest. Põhja-Euroopa tingimustes on tüüpiline kasv 20% kandis."
-      }
+      },
+      "imageAlt": "Päikest jälgiv Solar Tracker Park rohelisel väljal"
     },
     "faq": {
       "eyebrow": "KKK",
@@ -393,8 +399,7 @@
       "subtitle": "Professionaalsed elektripaigaldised, kaabeldus, elektrikilbid, inverterite ühendused ja elektrisüsteemide rajamine Eestis ja Euroopas.",
       "cta": "Küsi pakkumist",
       "ctaSecondary": "Vaata meie projekte",
-      "badgeRegistry": "Elektritööde MTR registreering TEL005181",
-      "badgeLevel": "Pädevus tase 6"
+      "badgeRegistry": "Elektritööde MTR registreering TEL005181"
     },
     "services": {
       "eyebrow": "Teenused",
@@ -492,11 +497,6 @@
         "label": "MTR registreering",
         "value": "TEL005181",
         "note": "Elektritööde majandustegevuse registreering MTR-is."
-      },
-      "competence": {
-        "label": "Pädevus",
-        "value": "Tase 6",
-        "note": "Elektritöid teostab vastava pädevusega meeskond."
       }
     },
     "future": {
@@ -699,6 +699,12 @@
       "hours": "Tööajad",
       "hoursValue": "E–R 09:00–18:00",
       "locationValue": "Eesti & Euroopa"
+    },
+    "map": {
+      "title": "HeilArese asukoht Google Mapsil",
+      "zoomIn": "Suumi lähemale",
+      "zoomOut": "Suumi kaugemale",
+      "directions": "Juhised HeilAresesse"
     }
   },
   "footer": {
@@ -737,7 +743,8 @@
       "electrical": "Elektritööd",
       "workforce": "Tööjõu rent"
     },
-    "category": "Kategooria"
+    "category": "Kategooria",
+    "heroAlt": "Solar Tracker Park päikest jälgivate paneeliridadega"
   },
   "seo": {
     "home": {
@@ -1061,5 +1068,13 @@
       "primary": "Küsi pakkumist",
       "secondary": "Võta ühendust"
     }
+  },
+  "system": {
+    "notFoundTitle": "Lehte ei leitud",
+    "notFoundText": "Otsitud lehte ei ole olemas või see on teisaldatud.",
+    "home": "Avalehele",
+    "errorTitle": "Lehte ei saanud laadida",
+    "errorText": "Midagi läks valesti. Proovi uuesti või mine avalehele.",
+    "retry": "Proovi uuesti"
   }
 }

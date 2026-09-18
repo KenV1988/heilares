@@ -48,11 +48,11 @@ export function Navbar() {
         }`}
       >
         <div className="container-x flex h-20 items-center justify-between md:h-[104px]">
-          <div className="flex-1 md:flex-none md:pr-6">
+          <div className="flex-1 lg:flex-none lg:pr-6">
             <Logo />
           </div>
 
-          <nav className="hidden flex-1 items-center justify-center gap-1 md:flex md:pl-6">
+          <nav className="hidden flex-1 items-center justify-center gap-1 lg:flex lg:pl-6">
             {NAV_LINKS.map((link) => {
               const active = isActive(link.to);
               return (
@@ -72,7 +72,7 @@ export function Navbar() {
             })}
           </nav>
 
-          <div className="hidden items-center gap-2.5 md:flex">
+          <div className="hidden items-center gap-2.5 lg:flex">
             <LanguageSwitcher />
             <Link
               to="/toojou-rent"
@@ -85,8 +85,8 @@ export function Navbar() {
 
           <button
             onClick={() => setOpen((o) => !o)}
-            className="grid h-12 w-12 place-items-center rounded-full border border-[var(--border)] text-white md:hidden"
-            aria-label="Menüü"
+            className="grid h-12 w-12 place-items-center rounded-full border border-[var(--border)] text-white lg:hidden"
+            aria-label={t("nav.menuLabel")}
             aria-expanded={open}
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -97,7 +97,7 @@ export function Navbar() {
       {/* Mobile full-screen overlay */}
       {open && (
         <div
-          className="fixed inset-0 z-40 flex flex-col bg-[#0A0F0D] pt-20 md:hidden"
+          className="fixed inset-0 z-40 flex flex-col bg-[#0A0F0D] pt-20 lg:hidden"
           role="dialog"
           aria-modal="true"
         >
@@ -148,11 +148,7 @@ export function Navbar() {
             </div>
             <div className="mt-3 flex flex-col gap-2 text-[13px] text-white/75">
               {company.contacts.map((c) => (
-                <a
-                  key={c.phone}
-                  href={c.phoneHref}
-                  className="inline-flex items-center gap-2"
-                >
+                <a key={c.phone} href={c.phoneHref} className="inline-flex items-center gap-2">
                   <Phone className="h-4 w-4 text-[var(--brand)]" />
                   <span className="font-medium text-white">{c.phone}</span>
                   <span className="text-white/50">· {c.name}</span>

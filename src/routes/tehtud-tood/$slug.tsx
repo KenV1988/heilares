@@ -14,6 +14,21 @@ export const Route = createFileRoute("/tehtud-tood/$slug")({
     if (!project) throw notFound();
     return { project };
   },
+  head: ({ loaderData }) => {
+    if (!loaderData) return {};
+    const project = loaderData.project;
+    const title = `${project.title.et} | HeilAres`;
+    return {
+      meta: [
+        { title },
+        { name: "description", content: project.description.et },
+        { property: "og:title", content: title },
+        { property: "og:description", content: project.description.et },
+        { property: "og:image", content: project.coverImage },
+      ],
+      links: [{ rel: "canonical", href: `https://heilares.ee/tehtud-tood/${project.slug}` }],
+    };
+  },
 });
 
 function ProjectDetail() {
@@ -47,12 +62,26 @@ function ProjectDetail() {
             </p>
           </div>
 
-          <div className={`mt-10 grid gap-4 ${project.capacityKw ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}>
+          <div
+            className={`mt-10 grid gap-4 ${project.capacityKw ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}
+          >
             {project.capacityKw ? (
-              <Stat Icon={Gauge} label={t("projectsSection.capacity")} value={formatCapacity(project.capacityKw, lang)} />
+              <Stat
+                Icon={Gauge}
+                label={t("projectsSection.capacity")}
+                value={formatCapacity(project.capacityKw, lang)}
+              />
             ) : null}
-            <Stat Icon={MapPin} label={t("projectsSection.location")} value={project.location} />
-            <Stat Icon={Calendar} label={t("projectsSection.year")} value={String(project.yearCompleted)} />
+            <Stat
+              Icon={MapPin}
+              label={t("projectsSection.location")}
+              value={project.location[lang]}
+            />
+            <Stat
+              Icon={Calendar}
+              label={t("projectsSection.year")}
+              value={String(project.yearCompleted)}
+            />
           </div>
         </div>
 
@@ -60,8 +89,11 @@ function ProjectDetail() {
           <div className="overflow-hidden rounded-3xl border border-[var(--border)]">
             <img
               src={project.coverImage}
-              alt={project.coverAlt}
-              loading="lazy"
+              alt={project.coverAlt[lang]}
+              loading="eager"
+              fetchPriority="high"
+              width={1280}
+              height={720}
               className="aspect-[16/9] w-full object-cover"
             />
           </div>
@@ -71,22 +103,33 @@ function ProjectDetail() {
           <div className="grid gap-10 md:grid-cols-3">
             <div className="md:col-span-2">
               <div className="grid gap-3 sm:grid-cols-2">
-                {project.gallery.map((img: { src: string; alt: string }, idx: number) => (
+                {project.gallery.map((img, idx) => (
                   <img
                     key={idx}
                     src={img.src}
-                    alt={img.alt}
+                    alt={img.alt[lang]}
                     loading="lazy"
+                    width={960}
+                    height={720}
                     className="aspect-[4/3] w-full rounded-2xl border border-[var(--border)] object-cover"
                   />
                 ))}
               </div>
             </div>
             <aside className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-7">
-              <Detail label={t("projectsSection.details.panels")} value={project.panelsUsed} />
+              <Detail
+                label={t("projectsSection.details.panels")}
+                value={project.panelsUsed[lang]}
+              />
               <Detail label={t("projectsSection.details.inverter")} value={project.inverter} />
-              <Detail label={t("projectsSection.details.mounting")} value={project.mountingSystem} />
-              <Detail label={t("projectsSection.details.duration")} value={project.completionTime} />
+              <Detail
+                label={t("projectsSection.details.mounting")}
+                value={project.mountingSystem[lang]}
+              />
+              <Detail
+                label={t("projectsSection.details.duration")}
+                value={project.completionTime[lang]}
+              />
             </aside>
           </div>
         </section>

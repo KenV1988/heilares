@@ -58,7 +58,7 @@ export function MobileStickyCTA() {
           </Link>
           <a
             href={primaryPhone.phoneHref}
-            aria-label={`Helista ${primaryPhone.phone}`}
+            aria-label={`${t("contact.info.phone")} ${primaryPhone.phone}`}
             className="grid h-12 w-12 place-items-center rounded-full border border-[var(--brand)]/40 bg-[var(--bg-accent)] text-[var(--brand)]"
           >
             <Phone className="h-5 w-5" />

@@ -16,7 +16,7 @@ export function ProjectCard({ project }: { project: Project }) {
       <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">
         <img
           src={project.coverImage}
-          alt={project.coverAlt}
+          alt={project.coverAlt[lang]}
           loading="lazy"
           width={1280}
           height={800}
@@ -30,7 +30,7 @@ export function ProjectCard({ project }: { project: Project }) {
       <div className="flex flex-1 flex-col p-6">
         <div className="flex items-center gap-1.5 text-[12px] text-white/55">
           <MapPin className="h-3.5 w-3.5" />
-          {project.location}
+          {project.location[lang]}
         </div>
         <h3 className="font-display mt-2 text-[20px] font-bold leading-tight text-white">
           {project.title[lang]}

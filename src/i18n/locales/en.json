@@ -8,7 +8,9 @@
     "blog": "Blog",
     "contact": "Contact",
     "cta": "Request quote",
-    "battery": "Battery storage"
+    "battery": "Battery storage",
+    "menuLabel": "Menu",
+    "languageLabel": "Change language"
   },
   "common": {
     "learnMore": "Learn more",
@@ -124,7 +126,8 @@
         "question": "In which countries can shipbuilding crews be hired?",
         "lead": "HeilAres shipbuilding crews are available in Europe and Scandinavia.",
         "answer": "We deploy crews to shipyard sites across Europe and Scandinavia. Experience with shipbuilding projects ensures that our teams understand the shipyard industry's specific requirements and safety standards."
-      }
+      },
+      "imageAlt": "Shipyard with dry docks, ships and cranes"
     },
     "factories": {
       "eyebrow": "Factories",
@@ -279,7 +282,8 @@
       "mounting": "Mounting system",
       "duration": "Duration"
     },
-    "back": "Back to projects"
+    "back": "Back to projects",
+    "heroAlt": "Risti Solar Tracker Park in Estonia"
   },
   "panelsPage": {
     "hero": {
@@ -299,7 +303,8 @@
         "question": "How much land is required for a ground-mount park?",
         "lead": "1 MW of ground-mount capacity typically requires 1–1.5 hectares of land.",
         "answer": "Exact land requirement depends on panel type, tilt angle and row spacing."
-      }
+      },
+      "imageAlt": "Ground-mounted solar park with long panel rows across a field"
     },
     "roof": {
       "eyebrow": "Rooftop installations",
@@ -329,7 +334,8 @@
         "question": "How much more energy does a Solar Tracker Park produce vs a fixed ground-mount?",
         "lead": "Solar Tracker Parks generate on average 15–25% more energy than equally sized fixed ground-mount parks.",
         "answer": "The exact uplift depends on location, latitude and local weather. In Northern European conditions a typical gain is around 20%."
-      }
+      },
+      "imageAlt": "Solar Tracker Park with sun-tracking panel rows on a green field"
     },
     "faq": {
       "eyebrow": "FAQ",
@@ -393,8 +399,7 @@
       "subtitle": "Professional electrical installations, cabling, switchboards, inverter connections and electrical systems in Estonia and across Europe.",
       "cta": "Request a quote",
       "ctaSecondary": "See our projects",
-      "badgeRegistry": "Electrical works MTR registration TEL005181",
-      "badgeLevel": "Competence level 6"
+      "badgeRegistry": "Electrical works MTR registration TEL005181"
     },
     "services": {
       "eyebrow": "Services",
@@ -492,11 +497,6 @@
         "label": "MTR registration",
         "value": "TEL005181",
         "note": "Electrical works registration in the Estonian register of economic activities (MTR)."
-      },
-      "competence": {
-        "label": "Competence",
-        "value": "Level 6",
-        "note": "Electrical works are carried out by a team with the relevant competence."
       }
     },
     "future": {
@@ -699,6 +699,12 @@
       "hours": "Hours",
       "hoursValue": "Mon–Fri 09:00–18:00",
       "locationValue": "Estonia & Europe"
+    },
+    "map": {
+      "title": "HeilAres location on Google Maps",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "directions": "Directions to HeilAres"
     }
   },
   "footer": {
@@ -737,12 +743,15 @@
       "electrical": "Electrical works",
       "workforce": "Workforce rental"
     },
-    "category": "Category"
+    "category": "Category",
+    "heroAlt": "Solar Tracker Park with sun-tracking panel rows"
   },
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
-      "description": "Turnkey solar panel installation — rooftop, ground-mount and Solar Tracker Parks. We operate in Estonia and across Europe."
+      "description": "Turnkey solar panel installation — rooftop, ground-mount and Solar Tracker Parks. We operate in Estonia and across Europe.",
+      "twitterTitle": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
+      "twitterDescription": "Turnkey solar panel installation — rooftop, ground-mount and Solar Tracker Parks. We operate in Estonia and across Europe."
     },
     "panels": {
       "title": "Solar panels — Tracker, ground and rooftop parks | HeilAres",
@@ -1066,5 +1075,13 @@
       "primary": "Request a quote",
       "secondary": "Contact us"
     }
+  },
+  "system": {
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for does not exist or has been moved.",
+    "home": "Go home",
+    "errorTitle": "This page did not load",
+    "errorText": "Something went wrong. Try again or return to the homepage.",
+    "retry": "Try again"
   }
 }

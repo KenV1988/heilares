@@ -25,9 +25,7 @@ export const Route = createFileRoute("/toojou-rent")({
       { property: "og:title", content: i18n.t("seo.workforce.title") },
       { property: "og:description", content: i18n.t("seo.workforce.description") },
     ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/toojou-rent" },
-    ],
+    links: [{ rel: "canonical", href: "https://heilares.ee/toojou-rent" }],
   }),
 });
 
@@ -102,7 +100,12 @@ function WorkforcePage() {
           </p>
         </div>
         <div className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)] md:mt-16 md:grid-cols-2">
-          {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item, i) => (
+          {(
+            t("workforceProjects.items", { returnObjects: true }) as {
+              name: string;
+              country: string;
+            }[]
+          ).map((item, i) => (
             <div
               key={item.name}
               className="flex items-center gap-5 bg-[var(--bg-elevated)] p-6 md:p-7"
@@ -123,9 +126,6 @@ function WorkforcePage() {
           {t("workforceProjects.specialties")}
         </p>
       </section>
-
-
-
 
       {/* CTA */}
       <section className="container-x py-16 md:py-24">

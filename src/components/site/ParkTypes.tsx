@@ -10,14 +10,12 @@ import maaparkImg from "@/assets/services/service-maapark.jpg";
 
 const KEYS = ["ground", "roof", "tracker"] as const;
 
-const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string; alt: string }>> = {
+const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string }>> = {
   tracker: {
     src: trackerImg,
-    alt: "Päikest jälgiv Solar Tracker Park selge taeva all, pikad paneeliread rohelisel väljal",
   },
   ground: {
     src: maaparkImg,
-    alt: "Maapark põllul aerofotol, pikad paneeliread silmapiirini ulatuvas päikesepargis",
   },
 };
 
@@ -49,7 +47,9 @@ export function ParkTypes() {
                   <div className="mt-8 overflow-hidden rounded-2xl border border-[var(--border)]">
                     <img
                       src={image.src}
-                      alt={image.alt}
+                      alt={t(`panelsPage.${key}.imageAlt`)}
+                      width={1920}
+                      height={1080}
                       loading="lazy"
                       className="aspect-[16/9] w-full object-cover"
                     />

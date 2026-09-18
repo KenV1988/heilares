@@ -25,7 +25,10 @@ export const Route = createFileRoute("/blogi/$slug")({
       return {
         meta: [
           { title: "Blogi | HeilAres" },
-          { name: "description", content: "HeilArese päikeseenergia blogi arendajatele ja tööstustele." },
+          {
+            name: "description",
+            content: "HeilArese päikeseenergia blogi arendajatele ja tööstustele.",
+          },
         ],
       };
     }
@@ -38,9 +41,7 @@ export const Route = createFileRoute("/blogi/$slug")({
         { property: "og:description", content: c.summary },
         { property: "og:type", content: "article" },
       ],
-      links: [
-        { rel: "canonical", href: `https://heilares.ainiki.ee/blogi/${loaderData.post.slug}` },
-      ],
+      links: [{ rel: "canonical", href: `https://heilares.ee/blogi/${loaderData.post.slug}` }],
     };
   },
 });
@@ -90,6 +91,9 @@ function BlogPostPage() {
             <img
               src={post.cover}
               alt={c.title}
+              width={1280}
+              height={720}
+              fetchPriority="high"
               className="aspect-[16/9] w-full object-cover"
             />
           </div>
@@ -103,9 +107,7 @@ function BlogPostPage() {
 
             {c.sections.map((section, idx) => (
               <section key={idx} className="mt-12">
-                <h2 className="text-2xl font-bold text-white md:text-3xl">
-                  {section.heading}
-                </h2>
+                <h2 className="text-2xl font-bold text-white md:text-3xl">{section.heading}</h2>
                 <div className="mt-5 space-y-5">
                   {section.paragraphs.map((p, pIdx) => (
                     <p
@@ -120,9 +122,7 @@ function BlogPostPage() {
             ))}
 
             <section className="mt-16">
-              <h2 className="text-2xl font-bold text-white md:text-3xl">
-                {t("blog.faqHeading")}
-              </h2>
+              <h2 className="text-2xl font-bold text-white md:text-3xl">{t("blog.faqHeading")}</h2>
               <Accordion type="single" collapsible className="mt-6 space-y-4">
                 {c.faqs.map((faq, idx) => (
                   <AccordionItem

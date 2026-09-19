@@ -17,4 +17,4 @@
 
 - [x] Lisa neljakeelne BESS-artikkel koos loendite, KKK ja kaanepildiga
 - [x] Lisa BESS-kategooria blogi filtrisse ja avalikku blogitööriista
-- [ ] Kontrolli artikli sisu, lingid, SEO ning desktop- ja mobiilivaade
+- [x] Kontrolli artikli sisu, lingid, SEO ning desktop- ja mobiilivaade

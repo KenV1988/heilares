@@ -12,3 +12,9 @@
 - [x] Kaardista kõik päikeseparkide tüüpide kuvamiskohad ja ühised andmeallikad
 - [x] Rakenda järjestus Solar Tracker Park → Maapark → Katusepark kõigis vaadetes ja keeltes
 - [x] Kontrolli sisu, linke, pilte, paigutust ja nõutud ekraanilaiusi
+
+# BESS blogipostitus
+
+- [x] Lisa neljakeelne BESS-artikkel koos loendite, KKK ja kaanepildiga
+- [x] Lisa BESS-kategooria blogi filtrisse ja avalikku blogitööriista
+- [x] Kontrolli artikli sisu, lingid, SEO ning desktop- ja mobiilivaade

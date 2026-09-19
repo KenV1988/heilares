@@ -24,6 +24,7 @@ const ALL_FILTERS: (BlogCategory | "all")[] = [
   "components",
   "maintenance",
   "electrical",
+  "storage",
   "workforce",
 ];
 

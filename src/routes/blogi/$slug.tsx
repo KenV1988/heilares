@@ -126,6 +126,15 @@ export function BlogPostView({ post }: { post: BlogPost }) {
                       {p}
                     </p>
                   ))}
+                    {section.bullets && section.bullets.length > 0 ? (
+                      <ul className="space-y-3 pl-5 text-base leading-relaxed text-white/75 md:text-[17px]">
+                        {section.bullets.map((item) => (
+                          <li key={item} className="list-disc pl-1 marker:text-[var(--gold)]">
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
                 </div>
               </section>
             ))}
@@ -156,7 +165,7 @@ export function BlogPostView({ post }: { post: BlogPost }) {
         </section>
       </article>
 
-      <CTA />
+      <CTA title={c.ctaTitle} subtitle={c.ctaSubtitle} />
     </SiteLayout>
   );
 }

@@ -119,7 +119,8 @@
               "enum": [
                 "et",
                 "en",
-                "fi"
+                "fi",
+                "de"
               ]
             },
             "category": {
@@ -129,7 +130,10 @@
                 "epc",
                 "park_types",
                 "components",
-                "maintenance"
+                "maintenance",
+                "electrical",
+                "storage",
+                "workforce"
               ]
             }
           }
@@ -161,7 +165,8 @@
               "enum": [
                 "et",
                 "en",
-                "fi"
+                "fi",
+                "de"
               ]
             }
           },

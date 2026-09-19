@@ -7,10 +7,12 @@ import tier1Cover from "@/assets/blog/tier1.jpg";
 import maintenanceCover from "@/assets/blog/maintenance.jpg";
 import electricalCover from "@/assets/blog/electrical-works.jpg";
 import { workforceFactory, workforceShipbuilding } from "./blog-workforce";
+import { bessStorage } from "./blog-bess";
 
 export interface BlogSection {
   heading: string;
   paragraphs: string[];
+  bullets?: string[];
 }
 
 export interface BlogFAQ {
@@ -25,6 +27,8 @@ export interface BlogPostContent {
   lead: string;
   sections: BlogSection[];
   faqs: BlogFAQ[];
+  ctaTitle?: string;
+  ctaSubtitle?: string;
 }
 
 export type BlogCategory =
@@ -33,6 +37,7 @@ export type BlogCategory =
   | "components"
   | "maintenance"
   | "electrical"
+  | "storage"
   | "workforce";
 
 export interface BlogPost {
@@ -1404,6 +1409,7 @@ const electricalWorks: BlogPost = {
 };
 
 const allPosts: BlogPost[] = [
+  bessStorage,
   workforceFactory,
   workforceShipbuilding,
   epcPartner,

@@ -9,66 +9,36 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as IndexRouteImport } from './routes/index'
-import { Route as LangRouteImport } from './routes/$lang'
-import { Route as AkupangadRouteImport } from './routes/akupangad'
-import { Route as ElektritoodRouteImport } from './routes/elektritood'
-import { Route as KontaktRouteImport } from './routes/kontakt'
-import { Route as McpRouteImport } from './routes/mcp'
-import { Route as PaikesepaneelidRouteImport } from './routes/paikesepaneelid'
-import { Route as PaikesepargidRouteImport } from './routes/paikesepargid'
 import { Route as ToojouRentRouteImport } from './routes/toojou-rent'
-import { Route as LangIndexRouteImport } from './routes/$lang/index'
-import { Route as LangAkupangadRouteImport } from './routes/$lang/akupangad'
-import { Route as LangElektritoodRouteImport } from './routes/$lang/elektritood'
-import { Route as LangKontaktRouteImport } from './routes/$lang/kontakt'
-import { Route as LangPaikesepargidRouteImport } from './routes/$lang/paikesepargid'
-import { Route as LangToojouRentRouteImport } from './routes/$lang/toojou-rent'
-import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
-import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
-import { Route as BlogiIndexRouteImport } from './routes/blogi/index'
-import { Route as BlogiSlugRouteImport } from './routes/blogi/$slug'
+import { Route as PaikesepargidRouteImport } from './routes/paikesepargid'
+import { Route as PaikesepaneelidRouteImport } from './routes/paikesepaneelid'
+import { Route as McpRouteImport } from './routes/mcp'
+import { Route as KontaktRouteImport } from './routes/kontakt'
+import { Route as ElektritoodRouteImport } from './routes/elektritood'
+import { Route as AkupangadRouteImport } from './routes/akupangad'
+import { Route as LangRouteImport } from './routes/$lang'
+import { Route as IndexRouteImport } from './routes/index'
 import { Route as TehtudToodIndexRouteImport } from './routes/tehtud-tood/index'
+import { Route as BlogiIndexRouteImport } from './routes/blogi/index'
+import { Route as LangIndexRouteImport } from './routes/$lang/index'
 import { Route as TehtudToodSlugRouteImport } from './routes/tehtud-tood/$slug'
-import { Route as LangBlogiIndexRouteImport } from './routes/$lang/blogi/index'
-import { Route as LangBlogiSlugRouteImport } from './routes/$lang/blogi/$slug'
+import { Route as BlogiSlugRouteImport } from './routes/blogi/$slug'
+import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
+import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
+import { Route as LangToojouRentRouteImport } from './routes/$lang/toojou-rent'
+import { Route as LangPaikesepargidRouteImport } from './routes/$lang/paikesepargid'
+import { Route as LangKontaktRouteImport } from './routes/$lang/kontakt'
+import { Route as LangElektritoodRouteImport } from './routes/$lang/elektritood'
+import { Route as LangAkupangadRouteImport } from './routes/$lang/akupangad'
 import { Route as LangTehtudToodIndexRouteImport } from './routes/$lang/tehtud-tood/index'
-import { Route as LangTehtudToodSlugRouteImport } from './routes/$lang/tehtud-tood/$slug'
+import { Route as LangBlogiIndexRouteImport } from './routes/$lang/blogi/index'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
+import { Route as LangTehtudToodSlugRouteImport } from './routes/$lang/tehtud-tood/$slug'
+import { Route as LangBlogiSlugRouteImport } from './routes/$lang/blogi/$slug'
 
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LangRoute = LangRouteImport.update({
-  id: '/$lang',
-  path: '/$lang',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AkupangadRoute = AkupangadRouteImport.update({
-  id: '/akupangad',
-  path: '/akupangad',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ElektritoodRoute = ElektritoodRouteImport.update({
-  id: '/elektritood',
-  path: '/elektritood',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KontaktRoute = KontaktRouteImport.update({
-  id: '/kontakt',
-  path: '/kontakt',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const McpRoute = McpRouteImport.update({
-  id: '/mcp',
-  path: '/mcp',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PaikesepaneelidRoute = PaikesepaneelidRouteImport.update({
-  id: '/paikesepaneelid',
-  path: '/paikesepaneelid',
+const ToojouRentRoute = ToojouRentRouteImport.update({
+  id: '/toojou-rent',
+  path: '/toojou-rent',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PaikesepargidRoute = PaikesepargidRouteImport.update({
@@ -76,61 +46,39 @@ const PaikesepargidRoute = PaikesepargidRouteImport.update({
   path: '/paikesepargid',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ToojouRentRoute = ToojouRentRouteImport.update({
-  id: '/toojou-rent',
-  path: '/toojou-rent',
+const PaikesepaneelidRoute = PaikesepaneelidRouteImport.update({
+  id: '/paikesepaneelid',
+  path: '/paikesepaneelid',
   getParentRoute: () => rootRouteImport,
 } as any)
-const LangIndexRoute = LangIndexRouteImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => LangRoute,
+const McpRoute = McpRouteImport.update({
+  id: '/mcp',
+  path: '/mcp',
+  getParentRoute: () => rootRouteImport,
 } as any)
-const LangAkupangadRoute = LangAkupangadRouteImport.update({
-  id: '/akupangad',
-  path: '/akupangad',
-  getParentRoute: () => LangRoute,
-} as any)
-const LangElektritoodRoute = LangElektritoodRouteImport.update({
-  id: '/elektritood',
-  path: '/elektritood',
-  getParentRoute: () => LangRoute,
-} as any)
-const LangKontaktRoute = LangKontaktRouteImport.update({
+const KontaktRoute = KontaktRouteImport.update({
   id: '/kontakt',
   path: '/kontakt',
-  getParentRoute: () => LangRoute,
-} as any)
-const LangPaikesepargidRoute = LangPaikesepargidRouteImport.update({
-  id: '/paikesepargid',
-  path: '/paikesepargid',
-  getParentRoute: () => LangRoute,
-} as any)
-const LangToojouRentRoute = LangToojouRentRouteImport.update({
-  id: '/toojou-rent',
-  path: '/toojou-rent',
-  getParentRoute: () => LangRoute,
-} as any)
-const Char91DotmcpChar93ListToolsRoute =
-  Char91DotmcpChar93ListToolsRouteImport.update({
-    id: '/.mcp/list-tools',
-    path: '/.mcp/list-tools',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const Char91DotwellKnownChar93OauthProtectedResourceRoute =
-  Char91DotwellKnownChar93OauthProtectedResourceRouteImport.update({
-    id: '/.well-known/oauth-protected-resource',
-    path: '/.well-known/oauth-protected-resource',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const BlogiIndexRoute = BlogiIndexRouteImport.update({
-  id: '/blogi/',
-  path: '/blogi/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogiSlugRoute = BlogiSlugRouteImport.update({
-  id: '/blogi/$slug',
-  path: '/blogi/$slug',
+const ElektritoodRoute = ElektritoodRouteImport.update({
+  id: '/elektritood',
+  path: '/elektritood',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AkupangadRoute = AkupangadRouteImport.update({
+  id: '/akupangad',
+  path: '/akupangad',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangRoute = LangRouteImport.update({
+  id: '/$lang',
+  path: '/$lang',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TehtudToodIndexRoute = TehtudToodIndexRouteImport.update({
@@ -138,19 +86,61 @@ const TehtudToodIndexRoute = TehtudToodIndexRouteImport.update({
   path: '/tehtud-tood/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogiIndexRoute = BlogiIndexRouteImport.update({
+  id: '/blogi/',
+  path: '/blogi/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangIndexRoute = LangIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => LangRoute,
+} as any)
 const TehtudToodSlugRoute = TehtudToodSlugRouteImport.update({
   id: '/tehtud-tood/$slug',
   path: '/tehtud-tood/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const LangBlogiIndexRoute = LangBlogiIndexRouteImport.update({
-  id: '/blogi/',
-  path: '/blogi/',
-  getParentRoute: () => LangRoute,
-} as any)
-const LangBlogiSlugRoute = LangBlogiSlugRouteImport.update({
+const BlogiSlugRoute = BlogiSlugRouteImport.update({
   id: '/blogi/$slug',
   path: '/blogi/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Char91DotwellKnownChar93OauthProtectedResourceRoute =
+  Char91DotwellKnownChar93OauthProtectedResourceRouteImport.update({
+    id: '/.well-known/oauth-protected-resource',
+    path: '/.well-known/oauth-protected-resource',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const Char91DotmcpChar93ListToolsRoute =
+  Char91DotmcpChar93ListToolsRouteImport.update({
+    id: '/.mcp/list-tools',
+    path: '/.mcp/list-tools',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const LangToojouRentRoute = LangToojouRentRouteImport.update({
+  id: '/toojou-rent',
+  path: '/toojou-rent',
+  getParentRoute: () => LangRoute,
+} as any)
+const LangPaikesepargidRoute = LangPaikesepargidRouteImport.update({
+  id: '/paikesepargid',
+  path: '/paikesepargid',
+  getParentRoute: () => LangRoute,
+} as any)
+const LangKontaktRoute = LangKontaktRouteImport.update({
+  id: '/kontakt',
+  path: '/kontakt',
+  getParentRoute: () => LangRoute,
+} as any)
+const LangElektritoodRoute = LangElektritoodRouteImport.update({
+  id: '/elektritood',
+  path: '/elektritood',
+  getParentRoute: () => LangRoute,
+} as any)
+const LangAkupangadRoute = LangAkupangadRouteImport.update({
+  id: '/akupangad',
+  path: '/akupangad',
   getParentRoute: () => LangRoute,
 } as any)
 const LangTehtudToodIndexRoute = LangTehtudToodIndexRouteImport.update({
@@ -158,9 +148,9 @@ const LangTehtudToodIndexRoute = LangTehtudToodIndexRouteImport.update({
   path: '/tehtud-tood/',
   getParentRoute: () => LangRoute,
 } as any)
-const LangTehtudToodSlugRoute = LangTehtudToodSlugRouteImport.update({
-  id: '/tehtud-tood/$slug',
-  path: '/tehtud-tood/$slug',
+const LangBlogiIndexRoute = LangBlogiIndexRouteImport.update({
+  id: '/blogi/',
+  path: '/blogi/',
   getParentRoute: () => LangRoute,
 } as any)
 const Char91DotmcpChar93InvokeToolToolRoute =
@@ -169,6 +159,16 @@ const Char91DotmcpChar93InvokeToolToolRoute =
     path: '/.mcp/invoke-tool/$tool',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangTehtudToodSlugRoute = LangTehtudToodSlugRouteImport.update({
+  id: '/tehtud-tood/$slug',
+  path: '/tehtud-tood/$slug',
+  getParentRoute: () => LangRoute,
+} as any)
+const LangBlogiSlugRoute = LangBlogiSlugRouteImport.update({
+  id: '/blogi/$slug',
+  path: '/blogi/$slug',
+  getParentRoute: () => LangRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -361,53 +361,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/$lang': {
-      id: '/$lang'
-      path: '/$lang'
-      fullPath: '/$lang'
-      preLoaderRoute: typeof LangRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/akupangad': {
-      id: '/akupangad'
-      path: '/akupangad'
-      fullPath: '/akupangad'
-      preLoaderRoute: typeof AkupangadRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/elektritood': {
-      id: '/elektritood'
-      path: '/elektritood'
-      fullPath: '/elektritood'
-      preLoaderRoute: typeof ElektritoodRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/kontakt': {
-      id: '/kontakt'
-      path: '/kontakt'
-      fullPath: '/kontakt'
-      preLoaderRoute: typeof KontaktRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/mcp': {
-      id: '/mcp'
-      path: '/mcp'
-      fullPath: '/mcp'
-      preLoaderRoute: typeof McpRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/paikesepaneelid': {
-      id: '/paikesepaneelid'
-      path: '/paikesepaneelid'
-      fullPath: '/paikesepaneelid'
-      preLoaderRoute: typeof PaikesepaneelidRouteImport
+    '/toojou-rent': {
+      id: '/toojou-rent'
+      path: '/toojou-rent'
+      fullPath: '/toojou-rent'
+      preLoaderRoute: typeof ToojouRentRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/paikesepargid': {
@@ -417,81 +375,53 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PaikesepargidRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/toojou-rent': {
-      id: '/toojou-rent'
-      path: '/toojou-rent'
-      fullPath: '/toojou-rent'
-      preLoaderRoute: typeof ToojouRentRouteImport
+    '/paikesepaneelid': {
+      id: '/paikesepaneelid'
+      path: '/paikesepaneelid'
+      fullPath: '/paikesepaneelid'
+      preLoaderRoute: typeof PaikesepaneelidRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/$lang/': {
-      id: '/$lang/'
-      path: '/'
-      fullPath: '/$lang/'
-      preLoaderRoute: typeof LangIndexRouteImport
-      parentRoute: typeof LangRoute
+    '/mcp': {
+      id: '/mcp'
+      path: '/mcp'
+      fullPath: '/mcp'
+      preLoaderRoute: typeof McpRouteImport
+      parentRoute: typeof rootRouteImport
     }
-    '/$lang/akupangad': {
-      id: '/$lang/akupangad'
-      path: '/akupangad'
-      fullPath: '/$lang/akupangad'
-      preLoaderRoute: typeof LangAkupangadRouteImport
-      parentRoute: typeof LangRoute
-    }
-    '/$lang/elektritood': {
-      id: '/$lang/elektritood'
-      path: '/elektritood'
-      fullPath: '/$lang/elektritood'
-      preLoaderRoute: typeof LangElektritoodRouteImport
-      parentRoute: typeof LangRoute
-    }
-    '/$lang/kontakt': {
-      id: '/$lang/kontakt'
+    '/kontakt': {
+      id: '/kontakt'
       path: '/kontakt'
-      fullPath: '/$lang/kontakt'
-      preLoaderRoute: typeof LangKontaktRouteImport
-      parentRoute: typeof LangRoute
-    }
-    '/$lang/paikesepargid': {
-      id: '/$lang/paikesepargid'
-      path: '/paikesepargid'
-      fullPath: '/$lang/paikesepargid'
-      preLoaderRoute: typeof LangPaikesepargidRouteImport
-      parentRoute: typeof LangRoute
-    }
-    '/$lang/toojou-rent': {
-      id: '/$lang/toojou-rent'
-      path: '/toojou-rent'
-      fullPath: '/$lang/toojou-rent'
-      preLoaderRoute: typeof LangToojouRentRouteImport
-      parentRoute: typeof LangRoute
-    }
-    '/.mcp/list-tools': {
-      id: '/.mcp/list-tools'
-      path: '/.mcp/list-tools'
-      fullPath: '/.mcp/list-tools'
-      preLoaderRoute: typeof Char91DotmcpChar93ListToolsRouteImport
+      fullPath: '/kontakt'
+      preLoaderRoute: typeof KontaktRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/.well-known/oauth-protected-resource': {
-      id: '/.well-known/oauth-protected-resource'
-      path: '/.well-known/oauth-protected-resource'
-      fullPath: '/.well-known/oauth-protected-resource'
-      preLoaderRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRouteImport
+    '/elektritood': {
+      id: '/elektritood'
+      path: '/elektritood'
+      fullPath: '/elektritood'
+      preLoaderRoute: typeof ElektritoodRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogi/': {
-      id: '/blogi/'
-      path: '/blogi'
-      fullPath: '/blogi/'
-      preLoaderRoute: typeof BlogiIndexRouteImport
+    '/akupangad': {
+      id: '/akupangad'
+      path: '/akupangad'
+      fullPath: '/akupangad'
+      preLoaderRoute: typeof AkupangadRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogi/$slug': {
-      id: '/blogi/$slug'
-      path: '/blogi/$slug'
-      fullPath: '/blogi/$slug'
-      preLoaderRoute: typeof BlogiSlugRouteImport
+    '/$lang': {
+      id: '/$lang'
+      path: '/$lang'
+      fullPath: '/$lang'
+      preLoaderRoute: typeof LangRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/tehtud-tood/': {
@@ -501,6 +431,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TehtudToodIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blogi/': {
+      id: '/blogi/'
+      path: '/blogi'
+      fullPath: '/blogi/'
+      preLoaderRoute: typeof BlogiIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/': {
+      id: '/$lang/'
+      path: '/'
+      fullPath: '/$lang/'
+      preLoaderRoute: typeof LangIndexRouteImport
+      parentRoute: typeof LangRoute
+    }
     '/tehtud-tood/$slug': {
       id: '/tehtud-tood/$slug'
       path: '/tehtud-tood/$slug'
@@ -508,18 +452,60 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TehtudToodSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/$lang/blogi/': {
-      id: '/$lang/blogi/'
-      path: '/blogi'
-      fullPath: '/$lang/blogi/'
-      preLoaderRoute: typeof LangBlogiIndexRouteImport
+    '/blogi/$slug': {
+      id: '/blogi/$slug'
+      path: '/blogi/$slug'
+      fullPath: '/blogi/$slug'
+      preLoaderRoute: typeof BlogiSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.well-known/oauth-protected-resource': {
+      id: '/.well-known/oauth-protected-resource'
+      path: '/.well-known/oauth-protected-resource'
+      fullPath: '/.well-known/oauth-protected-resource'
+      preLoaderRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.mcp/list-tools': {
+      id: '/.mcp/list-tools'
+      path: '/.mcp/list-tools'
+      fullPath: '/.mcp/list-tools'
+      preLoaderRoute: typeof Char91DotmcpChar93ListToolsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/toojou-rent': {
+      id: '/$lang/toojou-rent'
+      path: '/toojou-rent'
+      fullPath: '/$lang/toojou-rent'
+      preLoaderRoute: typeof LangToojouRentRouteImport
       parentRoute: typeof LangRoute
     }
-    '/$lang/blogi/$slug': {
-      id: '/$lang/blogi/$slug'
-      path: '/blogi/$slug'
-      fullPath: '/$lang/blogi/$slug'
-      preLoaderRoute: typeof LangBlogiSlugRouteImport
+    '/$lang/paikesepargid': {
+      id: '/$lang/paikesepargid'
+      path: '/paikesepargid'
+      fullPath: '/$lang/paikesepargid'
+      preLoaderRoute: typeof LangPaikesepargidRouteImport
+      parentRoute: typeof LangRoute
+    }
+    '/$lang/kontakt': {
+      id: '/$lang/kontakt'
+      path: '/kontakt'
+      fullPath: '/$lang/kontakt'
+      preLoaderRoute: typeof LangKontaktRouteImport
+      parentRoute: typeof LangRoute
+    }
+    '/$lang/elektritood': {
+      id: '/$lang/elektritood'
+      path: '/elektritood'
+      fullPath: '/$lang/elektritood'
+      preLoaderRoute: typeof LangElektritoodRouteImport
+      parentRoute: typeof LangRoute
+    }
+    '/$lang/akupangad': {
+      id: '/$lang/akupangad'
+      path: '/akupangad'
+      fullPath: '/$lang/akupangad'
+      preLoaderRoute: typeof LangAkupangadRouteImport
       parentRoute: typeof LangRoute
     }
     '/$lang/tehtud-tood/': {
@@ -529,11 +515,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangTehtudToodIndexRouteImport
       parentRoute: typeof LangRoute
     }
-    '/$lang/tehtud-tood/$slug': {
-      id: '/$lang/tehtud-tood/$slug'
-      path: '/tehtud-tood/$slug'
-      fullPath: '/$lang/tehtud-tood/$slug'
-      preLoaderRoute: typeof LangTehtudToodSlugRouteImport
+    '/$lang/blogi/': {
+      id: '/$lang/blogi/'
+      path: '/blogi'
+      fullPath: '/$lang/blogi/'
+      preLoaderRoute: typeof LangBlogiIndexRouteImport
       parentRoute: typeof LangRoute
     }
     '/.mcp/invoke-tool/$tool': {
@@ -542,6 +528,20 @@ declare module '@tanstack/react-router' {
       fullPath: '/.mcp/invoke-tool/$tool'
       preLoaderRoute: typeof Char91DotmcpChar93InvokeToolToolRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/$lang/tehtud-tood/$slug': {
+      id: '/$lang/tehtud-tood/$slug'
+      path: '/tehtud-tood/$slug'
+      fullPath: '/$lang/tehtud-tood/$slug'
+      preLoaderRoute: typeof LangTehtudToodSlugRouteImport
+      parentRoute: typeof LangRoute
+    }
+    '/$lang/blogi/$slug': {
+      id: '/$lang/blogi/$slug'
+      path: '/blogi/$slug'
+      fullPath: '/$lang/blogi/$slug'
+      preLoaderRoute: typeof LangBlogiSlugRouteImport
+      parentRoute: typeof LangRoute
     }
   }
 }

@@ -1,4 +1,4 @@
-import logoSrc from "@/assets/brand/heilares-horizontal.svg";
+import logoSrc from "@/assets/brand/heilares-logo.png.asset.json";
 import { LocalizedLink } from "./LocalizedLink";
 
 export function Logo({ size = "header" }: { size?: "header" | "footer" }) {
@@ -10,10 +10,10 @@ export function Logo({ size = "header" }: { size?: "header" | "footer" }) {
       aria-label="HeilAres — avaleht"
     >
       <img
-        src={logoSrc}
+        src={logoSrc.url}
         alt="HeilAres"
-        width={213}
-        height={64}
+        width={1249}
+        height={434}
         className={`${cls} [filter:drop-shadow(0_1px_2px_rgba(0,0,0,0.55))_drop-shadow(0_0_1px_rgba(0,0,0,0.4))]`}
         draggable={false}
       />

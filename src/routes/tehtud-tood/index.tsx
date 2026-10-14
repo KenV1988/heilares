@@ -1,53 +1,34 @@
 import { useState, useMemo } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { Ship } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { ProjectCard } from "@/components/site/ProjectCard";
-import { projects, type ProjectCategory } from "@/data/projects";
+import { projectsByCategory, type ProjectCategory } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
-import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/projects/risti-2.jpg";
-import shipyard4 from "@/assets/projects/shipyard-4.jpg";
 
 export const Route = createFileRoute("/tehtud-tood/")({
   component: ProjectsPage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.projects.title") },
-      { name: "description", content: i18n.t("seo.projects.description") },
-      { property: "og:title", content: i18n.t("seo.projects.title") },
-      { property: "og:description", content: i18n.t("seo.projects.description") },
-    ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/tehtud-tood" },
-    ],
-  }),
+  head: () => localizedHead("et", "projects", "/tehtud-tood"),
 });
 
 type FilterKey = ProjectCategory | "all" | "workforce";
 const FILTERS: FilterKey[] = ["all", "tracker_park", "maapark", "katusepark", "workforce"];
 
-const SHIPYARD_IMAGES: Record<string, { src: string; alt: string }> = {
-  "Saint-Nazaire": {
-    src: shipyard4,
-    alt: "Saint-Nazaire'i laevatehas Prantsusmaal — punane kraan ja kruiisilaeva kere ehituses",
-  },
-};
-
-function ProjectsPage() {
+export function ProjectsPage() {
   const { t } = useTranslation();
   const [filter, setFilter] = useState<FilterKey>("all");
 
   const filteredSolar = useMemo(
     () =>
       filter === "all"
-        ? projects
+        ? projectsByCategory
         : filter === "workforce"
-        ? []
-        : projects.filter((p) => p.category === filter),
+          ? []
+          : projectsByCategory.filter((p) => p.category === filter),
     [filter],
   );
 
@@ -61,7 +42,7 @@ function ProjectsPage() {
         title={t("projectsSection.title")}
         subtitle={t("projectsSection.subtitle")}
         backgroundImage={heroBg}
-        backgroundAlt="Risti Solar Tracker Park Eestis"
+        backgroundAlt={t("projectsSection.heroAlt")}
       />
 
       <section className="container-x py-12 md:py-16">
@@ -108,42 +89,28 @@ function ProjectsPage() {
               </p>
             </div>
 
-            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-              {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((s) => {
-                const key = s.name.split(/['\s]/)[0];
-                const img = SHIPYARD_IMAGES[key];
-                return (
-                  <Link
-                    key={s.name}
-                    to="/toojou-rent"
-                    hash="tehtud-tood"
-                    className="card-lift group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
-                  >
-                    <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">
-                      {img ? (
-                        <img
-                          src={img.src}
-                          alt={img.alt}
-                          loading="lazy"
-                          width={1280}
-                          height={800}
-                          className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                        />
-                      ) : (
-                        <div className="absolute inset-0 grid place-items-center bg-gradient-to-br from-[#131C19] to-[#0A0F0D] text-[var(--brand-glow)]/70">
-                          <Ship className="h-16 w-16" strokeWidth={1.3} />
-                        </div>
-                      )}
-                    </div>
-                    <div className="p-6">
-                      <div className="text-[12px] text-white/55">{s.country}</div>
-                      <h3 className="font-display mt-1.5 text-[18px] font-bold leading-tight text-white">
-                        {s.name}
-                      </h3>
-                    </div>
-                  </Link>
-                );
-              })}
+            <div className="grid gap-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)] md:grid-cols-2">
+              {(
+                t("workforceProjects.items", { returnObjects: true }) as {
+                  name: string;
+                  country: string;
+                }[]
+              ).map((s, i) => (
+                <div
+                  key={s.name}
+                  className="flex items-center gap-5 bg-[var(--bg-elevated)] p-6 md:p-7"
+                >
+                  <span className="font-display w-9 text-[13px] font-semibold tracking-[0.18em] text-[var(--brand)]">
+                    0{i + 1}
+                  </span>
+                  <div className="flex-1">
+                    <div className="text-[12px] text-white/55">{s.country}</div>
+                    <h3 className="font-display mt-1 text-[18px] font-bold leading-tight text-white">
+                      {s.name}
+                    </h3>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         )}

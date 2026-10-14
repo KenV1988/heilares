@@ -1,9 +1,10 @@
-import { Link } from "@tanstack/react-router";
+import {} from "@tanstack/react-router";
 import { ArrowUpRight, Ship, Factory } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "./Section";
 import { Reveal } from "./Reveal";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export function WorkforceSection() {
   const { t } = useTranslation();
@@ -26,7 +27,7 @@ export function WorkforceSection() {
         <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2 md:items-stretch">
           {items.map(({ key, Icon }, i) => (
             <Reveal key={key} delay={i * 90} className="h-full">
-              <Link
+              <LocalizedLink
                 to="/toojou-rent"
                 className="card-lift group relative flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-base)]"
               >
@@ -60,18 +61,18 @@ export function WorkforceSection() {
                     </span>
                   </div>
                 </div>
-              </Link>
+              </LocalizedLink>
             </Reveal>
           ))}
         </div>
         <div className="mt-12 text-center">
-          <Link
+          <LocalizedLink
             to="/toojou-rent"
             className="inline-flex h-12 items-center gap-2 rounded-full border border-white/20 px-6 text-[14px] font-semibold text-white transition hover:border-[var(--brand)] hover:text-[var(--brand-glow)]"
           >
             {t("workforceSection.cta")}
             <ArrowUpRight className="h-4 w-4" />
-          </Link>
+          </LocalizedLink>
         </div>
       </div>
     </section>

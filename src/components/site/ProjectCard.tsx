@@ -1,22 +1,22 @@
-import { Link } from "@tanstack/react-router";
+import {} from "@tanstack/react-router";
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { formatCapacity, type Project } from "@/data/projects";
 import { getSupportedLang } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export function ProjectCard({ project }: { project: Project }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   return (
-    <Link
-      to="/tehtud-tood/$slug"
-      params={{ slug: project.slug }}
+    <LocalizedLink
+      to={`/tehtud-tood/${project.slug}`}
       className="card-lift group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">
         <img
           src={project.coverImage}
-          alt={project.coverAlt}
+          alt={project.coverAlt[lang]}
           loading="lazy"
           width={1280}
           height={800}
@@ -30,7 +30,7 @@ export function ProjectCard({ project }: { project: Project }) {
       <div className="flex flex-1 flex-col p-6">
         <div className="flex items-center gap-1.5 text-[12px] text-white/55">
           <MapPin className="h-3.5 w-3.5" />
-          {project.location}
+          {project.location[lang]}
         </div>
         <h3 className="font-display mt-2 text-[20px] font-bold leading-tight text-white">
           {project.title[lang]}
@@ -53,6 +53,6 @@ export function ProjectCard({ project }: { project: Project }) {
           </span>
         </div>
       </div>
-    </Link>
+    </LocalizedLink>
   );
 }

@@ -1,0 +1,196 @@
+import type { BlogPost } from "./blog";
+import bessCover from "@/assets/services/service-akupangad.jpg";
+
+export const bessStorage: BlogPost = {
+  slug: "mis-on-bess-ja-miks-ettevotted-vajavad-energiasalvestust",
+  category: "storage",
+  date: "2026-09-19",
+  readMinutes: 6,
+  cover: bessCover,
+  content: {
+    et: {
+      title: "Mis on BESS ehk akupank ja miks vajavad ettevõtted energiasalvestust?",
+      summary:
+        "Ülevaade BESS-i tööpõhimõttest, kasutusaladest, MW ja MWh erinevusest ning tööstusliku akusalvestuse dimensioneerimisest.",
+      lead: "BESS ehk Battery Energy Storage System on akupõhine energiasalvestussüsteem, mis võimaldab elektrienergiat salvestada ja kasutada hiljem vastavalt objekti tarbimisele, tootmisele või energiaturu tingimustele. Ettevõtete ja suuremate energiataristute jaoks ei ole akupank lihtsalt suur aku – see on juhitav osa kogu elektrisüsteemist.",
+      sections: [
+        {
+          heading: "Miks ettevõte vajab akusalvestust?",
+          paragraphs: [
+            "Taastuvenergia osakaalu kasv suurendab vajadust elektrisüsteemi paindlikkuse järele. BESS võimaldab nihutada energia tootmise ja kasutamise aega ning toetada päikese- ja tuuleenergia integreerimist.",
+            "Päikeseenergia tootmine ja elektritarbimine ei toimu alati samal ajal. Päeval võib päikesepark toota rohkem energiat, kui ettevõte parasjagu vajab, samal ajal kui suurem tarbimine toimub hiljem. BESS võimaldab osa sellest energiast salvestada ning kasutada siis, kui seda rohkem vaja on.",
+            "BESS-i tegelik väärtus sõltub alati projekti eesmärgist, elektritarbimise profiilist, võrguühendusest ja valitud süsteemi võimsusest ning salvestusmahust.",
+          ],
+          bullets: [
+            "päikeseenergia salvestamine hilisemaks kasutamiseks;",
+            "tootmise ja tarbimise tasakaalustamine;",
+            "tipukoormuste juhtimine;",
+            "energiatarbimise paindlikum juhtimine;",
+            "taastuvenergia parem integreerimine;",
+            "elektrisüsteemi paindlikkuse suurendamine.",
+          ],
+        },
+        {
+          heading: "Päikesepark ja BESS töötavad koos",
+          paragraphs: [
+            "Üks levinumaid rakendusi on päikesepargi ühendamine akusalvestiga. Näiteks võib päikesepark toota keskpäeval rohkem elektrit, kui ettevõte samal hetkel tarbib. Selle asemel, et kogu ülejääv energia kohe võrku suunata, saab osa energiast salvestada BESS-i.",
+            "Hiljem saab salvestatud energiat kasutada vastavalt süsteemi seadistusele ja projekti eesmärkidele. See muudab päikeseenergia kasutamise paindlikumaks ning võimaldab paremini siduda tootmist ja tarbimist.",
+          ],
+        },
+        {
+          heading: "Mida tähendavad MW ja MWh?",
+          paragraphs: [
+            "BESS-i puhul kohtab sageli kahte olulist näitajat: MW ja MWh. MW ehk võimsus näitab, kui suure võimsusega saab süsteem energiat laadida või välja anda. MWh ehk energiamahutavus näitab, kui palju energiat süsteem suudab salvestada.",
+            "Need ei ole sama asi. Näiteks võib süsteem olla suure võimsusega, kuid suhteliselt väikese salvestusmahuga, või vastupidi. Seetõttu ei saa akupanka valida ainult ühe numbri põhjal.",
+          ],
+        },
+        {
+          heading: "Kuidas valida õige suurusega BESS?",
+          paragraphs: [
+            "Õige akupank algab objekti andmetest, mitte konkreetsest akukonteinerist.",
+            "Liiga väike süsteem ei pruugi täita projekti eesmärki. Liiga suur süsteem võib aga tähendada ebavajalikku investeeringut. Seetõttu peab BESS olema dimensioneeritud konkreetse energiataristu järgi.",
+          ],
+          bullets: [
+            "ettevõtte elektritarbimist;",
+            "tarbimise ajalist profiili;",
+            "olemasolevat või kavandatavat päikeseparki;",
+            "võrguühenduse tingimusi;",
+            "soovitud laadimis- ja tühjendusvõimsust;",
+            "vajalikku salvestusmahtu;",
+            "süsteemi kasutusotstarvet;",
+            "võimalikke tulevasi laiendusi.",
+          ],
+        },
+        {
+          heading: "BESS ei ole ainult aku",
+          paragraphs: ["Tööstuslik BESS koosneb rohkemast kui akumoodulitest. Kõik lahenduse osad peavad töötama ühe tervikliku süsteemina."],
+          bullets: [
+            "akusüsteemi;",
+            "invertereid ja muundureid;",
+            "juhtimis- ja energiahaldussüsteemi;",
+            "elektrikilpe ja kaitsesüsteeme;",
+            "kaabeldust ja elektriühendusi;",
+            "seire- ja monitooringusüsteemi;",
+            "võrguühendust;",
+            "vajalikke ohutus- ja tuleohutuslahendusi.",
+          ],
+        },
+        {
+          heading: "Ohutus on BESS-i puhul keskne",
+          paragraphs: [
+            "Akusalvestuse projekteerimisel tuleb arvestada elektriohutuse, temperatuuritingimuste, kaitsesüsteemide, tuleohutuse ja konkreetse paigalduskeskkonnaga.",
+            "Tööstusliku BESS-i puhul ei tohiks vaadata ainult aku tehnilisi näitajaid. Oluline on kogu süsteemi ülesehitus ja selle integreerimine objekti elektritaristuga.",
+          ],
+        },
+        {
+          heading: "Millal tasub BESS-i kaaluda?",
+          paragraphs: [
+            "Akusalvestus võib olla asjakohane mitmesuguste energiataristu vajaduste korral.",
+            "BESS-i tasuvust ei saa hinnata ainult aku hinna järgi. Vajalik on vaadata kogu projekti, kasutusviisi ja võimalikke tulusid ning kulude muutusi.",
+          ],
+          bullets: [
+            "suuremahuline päikesepark;",
+            "oluline erinevus päevase tootmise ja tarbimise vahel;",
+            "suured või muutuvad elektrikoormused;",
+            "vajadus energiatarbimist paindlikumalt juhtida;",
+            "piiratud või kulukas võrguühendus;",
+            "plaan tulevikus lisada EV-laadimine või uusi suure võimsusega tarbijaid.",
+          ],
+        },
+        {
+          heading: "BESS kui osa tuleviku energiataristust",
+          paragraphs: [
+            "Ettevõtte energiavajadused võivad muutuda. Tänasele päikesepargile võivad tulevikus lisanduda akusalvestus, elektriautode laadijad, tootmisseadmed või muud suure võimsusega tarbijad.",
+            "Seetõttu tasub BESS-i planeerimisel vaadata mitte ainult tänast olukorda, vaid kogu energiataristu võimalikku arengut. HeilAres läheneb BESS-projektidele projektipõhiselt ning seob energiasalvestuse vajadusel päikeseparkide ja elektritöödega.",
+          ],
+        },
+      ],
+      faqs: [
+        { question: "Mis on BESS?", lead: "BESS tähendab Battery Energy Storage System'it.", answer: "See on akupõhine energiasalvestussüsteem, mida kasutatakse elektrienergia salvestamiseks ja hilisemaks kasutamiseks." },
+        { question: "Kas BESS-i saab ühendada olemasoleva päikesepargiga?", lead: "Jah.", answer: "BESS-i saab projekteerida olemasoleva või uue päikesepargi juurde, kuid vajalik lahendus sõltub olemasolevast elektrisüsteemist ja võrguühendusest." },
+        { question: "Mis vahe on MW ja MWh vahel?", lead: "MW näitab süsteemi võimsust.", answer: "MWh näitab salvestatava energia hulka." },
+        { question: "Kui suur akupank ettevõttele vajalik on?", lead: "Universaalset BESS-i suurust ei ole.", answer: "Seda tuleb hinnata tarbimise, tootmise, võrguühenduse ja projekti eesmärgi põhjal." },
+        { question: "Kas HeilAres aitab BESS-i dimensioneerida?", lead: "Jah.", answer: "Projekt algab objekti energiatarbimise, tootmise, võrguühenduse ja eesmärkide kaardistamisest." },
+        { question: "Kas BESS sobib tööstusettevõttele?", lead: "Jah.", answer: "Tööstusobjektidel võib BESS-i kasutada muu hulgas energia salvestamiseks, koormuste juhtimiseks ja energiataristu paindlikumaks muutmiseks." },
+        { question: "Kas BESS-i saab hiljem laiendada?", lead: "Paljud süsteemid võimaldavad modulaarset laiendamist.", answer: "Laiendatavus tuleb arvestada juba esialgses projekteerimises." },
+      ],
+      ctaTitle: "Valmis oma energiataristut arendama?",
+      ctaSubtitle: "Kui kaalud päikesepargi, BESS-i või nende kombinatsiooni rajamist, saada HeilAresile oma projekti põhiandmed. Koos saab hinnata, milline lahendus sobib objekti energiatarbimise ja tehniliste tingimustega.",
+    },
+    fi: {
+      title: "Mikä on BESS eli akkuenergian varastointi ja miksi yritykset tarvitsevat energiavarastointia?",
+      summary: "Katsaus BESS-järjestelmän toimintaan, käyttökohteisiin, MW:n ja MWh:n eroon sekä teollisen akkuvaraston mitoitukseen.",
+      lead: "BESS eli Battery Energy Storage System on akkupohjainen energiavarastointijärjestelmä, jonka avulla sähköenergiaa voidaan varastoida ja käyttää myöhemmin kohteen kulutuksen, tuotannon tai energiantarpeen mukaan. Yrityksille ja suuremmille energiainfrastruktuureille akku ei ole vain yksittäinen laite. BESS on ohjattava osa koko sähköjärjestelmää.",
+      sections: [
+        { heading: "Miksi yritys tarvitsee energiavarastointia?", paragraphs: ["Uusiutuvan energian lisääntyminen kasvattaa sähköjärjestelmän joustavuuden tarvetta. Akkuvarastot voivat auttaa siirtämään energian tuotannon ja kulutuksen ajankohtaa sekä tukemaan aurinko- ja tuulienergian integrointia.", "Aurinkoenergian tuotanto ja sähkönkulutus eivät aina tapahdu samaan aikaan. Aurinkovoimala voi tuottaa päivällä enemmän sähköä kuin yritys sillä hetkellä tarvitsee. BESS mahdollistaa osan energiasta varastoinnin ja sen myöhemmän käytön."], bullets: ["aurinkoenergian varastointi;", "tuotannon ja kulutuksen tasapainottaminen;", "huippukuormien hallinta;", "energiankulutuksen joustavampi ohjaaminen;", "uusiutuvan energian integroinnin helpottaminen;", "sähköjärjestelmän joustavuuden lisääminen."] },
+        { heading: "Aurinkovoimala ja BESS yhdessä", paragraphs: ["Yksi yleisimmistä käyttötavoista on yhdistää aurinkovoimala akkuvarastoon. Kun aurinkovoimala tuottaa enemmän energiaa kuin kohde sillä hetkellä kuluttaa, osa energiasta voidaan varastoida BESS-järjestelmään.", "Energia voidaan käyttää myöhemmin järjestelmän asetusten ja projektin tavoitteiden mukaisesti."] },
+        { heading: "Mitä MW ja MWh tarkoittavat?", paragraphs: ["MW kertoo järjestelmän tehon eli kuinka suurella teholla energiaa voidaan ladata tai purkaa. MWh kertoo, kuinka paljon energiaa voidaan varastoida.", "Nämä eivät ole sama asia, joten BESS-järjestelmää ei voida mitoittaa yhden luvun perusteella."] },
+        { heading: "Miten oikea BESS-koko määritetään?", paragraphs: ["Mitoitus perustuu kohteen todellisiin tietoihin.", "Liian pieni järjestelmä ei välttämättä täytä projektin tavoitteita. Liian suuri järjestelmä voi puolestaan tarkoittaa tarpeettoman suurta investointia."], bullets: ["sähkönkulutus;", "kulutusprofiili;", "aurinkovoimalan tuotanto;", "verkkoliittymä;", "tarvittava lataus- ja purkuteho;", "energiakapasiteetti;", "järjestelmän käyttötarkoitus;", "mahdolliset tulevat laajennukset."] },
+        { heading: "BESS ei ole vain akku", paragraphs: ["Teollisen BESS-ratkaisun eri osien on toimittava yhdessä."], bullets: ["akkumoduulit;", "invertterit ja muuntimet;", "energianhallintajärjestelmän;", "sähkökaapit ja suojaukset;", "kaapeloinnin;", "valvonta- ja seurantajärjestelmät;", "verkkoliitännän;", "tarvittavat turvallisuus- ja paloturvallisuusratkaisut."] },
+        { heading: "Turvallisuus on keskeinen osa BESS-ratkaisua", paragraphs: ["BESS-järjestelmää suunniteltaessa on huomioitava sähkö- ja paloturvallisuus, lämpötilaolosuhteet, suojausjärjestelmät sekä kohteen erityisvaatimukset.", "Siksi teollista akkuvarastoa ei pitäisi arvioida pelkästään akun teknisten tietojen perusteella."] },
+        { heading: "Milloin BESS kannattaa ottaa huomioon?", paragraphs: ["BESS voi olla kiinnostava ratkaisu monenlaisiin energiainfrastruktuurin tarpeisiin.", "BESS-investoinnin kannattavuutta on arvioitava koko järjestelmän ja käyttötavan perusteella."], bullets: ["suuri aurinkovoimala;", "suuri ero tuotannon ja kulutuksen ajoituksessa;", "merkittäviä sähkökuormia;", "tarve hallita energiankulutusta joustavammin;", "verkkoliittymän rajoitteita;", "suunnitelmia uusille sähköautojen latauslaitteille tai muille suurille kuluttajille."] },
+        { heading: "BESS osana tulevaisuuden energiainfrastruktuuria", paragraphs: ["Yrityksen energiantarpeet voivat muuttua. Aurinkovoimalan lisäksi järjestelmään voidaan myöhemmin liittää BESS, sähköautojen lataus, tuotantolaitteita tai muita suuria kuluttajia.", "Siksi energiainfrastruktuuria kannattaa suunnitella myös tulevia tarpeita varten. HeilAres tarjoaa projektikohtaisia BESS-ratkaisuja, jotka voidaan yhdistää aurinkovoimaloihin ja sähköasennuksiin."] },
+      ],
+      faqs: [
+        { question: "Mikä on BESS?", lead: "BESS tarkoittaa Battery Energy Storage System -järjestelmää.", answer: "Se on akkupohjainen energiavarastointijärjestelmä." },
+        { question: "Voiko BESS yhdistää olemassa olevaan aurinkovoimalaan?", lead: "Kyllä.", answer: "Ratkaisu suunnitellaan olemassa olevan sähköjärjestelmän ja verkkoliittymän perusteella." },
+        { question: "Mitä eroa on MW:lla ja MWh:lla?", lead: "MW kertoo tehon.", answer: "MWh kertoo varastoitavan energian määrän." },
+        { question: "Kuinka suuri akkuvarasto yritykseni tarvitsee?", lead: "Yhtä yleispätevää kokoa ei ole.", answer: "Koko määritetään kulutuksen, tuotannon, verkkoliittymän ja käyttötarkoituksen perusteella." },
+        { question: "Voiko HeilAres auttaa mitoituksessa?", lead: "Kyllä.", answer: "Projekti alkaa kohteen energiankulutuksen, tuotannon ja teknisten tavoitteiden kartoittamisesta." },
+        { question: "Voiko BESS-järjestelmää laajentaa myöhemmin?", lead: "Monet järjestelmät ovat modulaarisia.", answer: "Laajennettavuus kannattaa huomioida jo alkuvaiheen suunnittelussa." },
+      ],
+      ctaTitle: "Suunnitteletko energiavarastointia?",
+      ctaSubtitle: "Lähetä HeilAresille projektisi perustiedot, niin voimme arvioida, millainen energiavarastointiratkaisu sopii kohteeseesi.",
+    },
+    en: {
+      title: "What Is BESS and Why Do Businesses Need Battery Energy Storage?",
+      summary: "An overview of how BESS works, its applications, the difference between MW and MWh, and industrial battery storage sizing.",
+      lead: "BESS, or Battery Energy Storage System, is a battery-based energy storage system that allows electricity to be stored and used later according to the needs of a site, its production profile or its energy strategy. For businesses and larger energy infrastructure projects, BESS is not simply a large battery. It is a controllable part of the wider electrical system.",
+      sections: [
+        { heading: "Why Would a Business Need Energy Storage?", paragraphs: ["As renewable energy deployment increases, power systems require more flexibility. Battery storage can help shift energy from periods of high renewable generation to periods when electricity is needed, while supporting the integration of variable renewable generation.", "Solar generation and electricity consumption do not always happen at the same time. A solar park may generate significant amounts of electricity during the middle of the day, while the company's highest consumption may occur later. A BESS can store part of the generated energy and make it available when it is needed.", "The actual value of a BESS depends on the project's objectives, consumption profile, grid connection and required power and storage capacity."], bullets: ["storing solar energy;", "balancing generation and consumption;", "managing peak loads;", "increasing energy-use flexibility;", "supporting renewable energy integration;", "improving the flexibility of an electrical system."] },
+        { heading: "Solar + BESS", paragraphs: ["One of the most common applications is combining a solar park with battery storage. When solar generation exceeds the site's immediate consumption, part of the energy can be stored in the BESS instead of being used immediately.", "The stored energy can then be used later according to the system configuration and project objectives. This creates a more flexible relationship between energy production and consumption."] },
+        { heading: "What Do MW and MWh Mean?", paragraphs: ["MW describes power — how quickly the system can charge or discharge energy. MWh describes energy capacity — how much energy the system can store.", "These are different characteristics. A system can have high power but relatively limited energy capacity, or the opposite. Therefore, BESS sizing cannot be based on a single number."] },
+        { heading: "How Do You Choose the Right BESS Size?", paragraphs: ["The correct BESS starts with the project data rather than a standard battery product.", "An undersized system may not achieve the intended objective. An oversized system may create unnecessary investment. The battery therefore needs to be designed around the actual energy infrastructure."], bullets: ["electricity consumption;", "consumption profile;", "existing or planned solar generation;", "grid connection;", "required charging and discharging power;", "required storage capacity;", "intended use of the system;", "future expansion plans."] },
+        { heading: "BESS Is More Than a Battery", paragraphs: ["All components of an industrial BESS need to operate as one integrated system."], bullets: ["battery systems;", "inverters and power conversion equipment;", "energy management and control systems;", "electrical switchgear and protection;", "cabling and electrical connections;", "monitoring systems;", "grid connection;", "relevant safety and fire protection solutions."] },
+        { heading: "Safety Is a Core Part of BESS", paragraphs: ["BESS projects require consideration of electrical safety, temperature conditions, protection systems, fire safety and the specific installation environment.", "For an industrial project, the battery should therefore not be assessed separately from the rest of the electrical infrastructure."] },
+        { heading: "When Should a Business Consider BESS?", paragraphs: ["Battery storage can be relevant for a wide range of energy infrastructure needs.", "The economics of a BESS should be evaluated based on the complete project, its intended operation and its potential value streams rather than battery price alone."], bullets: ["a large solar installation;", "a significant difference between generation and consumption periods;", "large or variable electrical loads;", "a need for more flexible energy management;", "grid connection constraints;", "plans to add EV charging or other high-power loads."] },
+        { heading: "BESS as Part of Future Energy Infrastructure", paragraphs: ["Energy requirements change. A company may start with a solar park and later add battery storage, EV charging, production equipment or other high-power consumers.", "Planning the electrical infrastructure with future expansion in mind can therefore be important. HeilAres approaches BESS projects on a project-specific basis and can integrate energy storage with solar parks and professional electrical works."] },
+      ],
+      faqs: [
+        { question: "What is BESS?", lead: "BESS stands for Battery Energy Storage System.", answer: "It is a battery-based system used to store electricity for later use." },
+        { question: "Can BESS be connected to an existing solar park?", lead: "Yes.", answer: "The solution needs to be designed around the existing electrical system, solar installation and grid connection." },
+        { question: "What is the difference between MW and MWh?", lead: "MW describes power.", answer: "MWh describes stored energy capacity." },
+        { question: "How large should a BESS be for a business?", lead: "There is no universal BESS size.", answer: "The required size depends on electricity consumption, generation, grid connection and the intended purpose of the system." },
+        { question: "Can HeilAres help with BESS sizing?", lead: "Yes.", answer: "The project can begin with an assessment of the site's consumption, generation, grid connection and technical objectives." },
+        { question: "Can BESS be expanded later?", lead: "Many systems can be designed with modular expansion in mind.", answer: "Future expansion should ideally be considered during the initial design." },
+      ],
+      ctaTitle: "Planning a Battery Energy Storage Project?",
+      ctaSubtitle: "Send HeilAres the basic information about your project and we can assess what type of energy storage solution could fit your site's energy profile and technical requirements.",
+    },
+    de: {
+      title: "Was ist BESS und warum benötigen Unternehmen Batteriespeicher?",
+      summary: "Ein Überblick über Funktionsweise, Einsatzbereiche, den Unterschied zwischen MW und MWh und die Dimensionierung industrieller Batteriespeicher.",
+      lead: "BESS steht für Battery Energy Storage System und bezeichnet ein Batteriespeichersystem, mit dem elektrische Energie gespeichert und zu einem späteren Zeitpunkt entsprechend dem Verbrauch, der Erzeugung oder der Energiestrategie eines Standorts genutzt werden kann. Für Unternehmen und größere Energieinfrastrukturprojekte ist ein BESS nicht einfach nur eine große Batterie. Es ist ein steuerbarer Bestandteil des gesamten elektrischen Energiesystems.",
+      sections: [
+        { heading: "Warum benötigen Unternehmen einen Batteriespeicher?", paragraphs: ["Mit dem zunehmenden Ausbau erneuerbarer Energien steigt auch der Bedarf an Flexibilität im Stromsystem. Batteriespeicher können Energie aus Zeiten hoher erneuerbarer Erzeugung für spätere Verbrauchszeiten speichern und dadurch die Integration erneuerbarer Energien unterstützen.", "Die Erzeugung von Solarstrom und der Stromverbrauch eines Unternehmens finden nicht immer gleichzeitig statt. Eine Photovoltaikanlage kann beispielsweise mittags mehr Strom erzeugen, als das Unternehmen zu diesem Zeitpunkt benötigt. Ein BESS kann einen Teil dieser Energie speichern und später wieder zur Verfügung stellen.", "Der konkrete Nutzen eines BESS hängt immer von den Projektzielen, dem Verbrauchsprofil, dem Netzanschluss sowie der benötigten Leistung und Speicherkapazität ab."], bullets: ["Speicherung von Solarstrom;", "Ausgleich von Erzeugung und Verbrauch;", "Steuerung von Lastspitzen;", "flexiblere Steuerung des Energieverbrauchs;", "bessere Integration erneuerbarer Energien;", "Erhöhung der Flexibilität der elektrischen Infrastruktur."] },
+        { heading: "Photovoltaikanlage + BESS", paragraphs: ["Eine der häufigsten Anwendungen ist die Kombination einer Photovoltaikanlage mit einem Batteriespeicher. Wenn die PV-Anlage mehr Strom produziert, als am Standort unmittelbar benötigt wird, kann ein Teil dieser Energie im BESS gespeichert werden.", "Später kann die gespeicherte Energie entsprechend der Systemkonfiguration und den Projektzielen genutzt werden. Damit lassen sich Stromerzeugung und Verbrauch zeitlich flexibler miteinander verbinden."] },
+        { heading: "Was bedeuten MW und MWh?", paragraphs: ["MW beschreibt die Leistung des Systems – also wie schnell Energie geladen oder entladen werden kann. MWh beschreibt die Speicherkapazität – also wie viel Energie gespeichert werden kann.", "Beides ist nicht dasselbe. Ein System kann eine hohe Leistung, aber eine vergleichsweise geringe Speicherkapazität besitzen oder umgekehrt. Deshalb sollte ein BESS niemals anhand einer einzigen Kennzahl dimensioniert werden."] },
+        { heading: "Wie wird die richtige Größe eines BESS bestimmt?", paragraphs: ["Die richtige Dimensionierung beginnt mit den Daten des Projekts.", "Ein zu kleiner Speicher erfüllt möglicherweise den gewünschten Zweck nicht. Ein zu großer Speicher kann dagegen eine unnötig hohe Investition darstellen. Deshalb muss der Batteriespeicher auf die tatsächliche Energieinfrastruktur abgestimmt werden."], bullets: ["Stromverbrauch;", "Verbrauchsprofil;", "bestehende oder geplante Photovoltaikanlage;", "Netzanschluss;", "benötigte Lade- und Entladeleistung;", "erforderliche Speicherkapazität;", "Verwendungszweck des Systems;", "mögliche zukünftige Erweiterungen."] },
+        { heading: "Ein BESS ist mehr als eine Batterie", paragraphs: ["Alle Komponenten einer industriellen BESS-Lösung müssen als integriertes System zusammenarbeiten."], bullets: ["Batteriesystem;", "Wechselrichter und Leistungselektronik;", "Energie- und Managementsystem;", "Schaltanlagen und Schutzsysteme;", "Verkabelung und elektrische Anschlüsse;", "Überwachungs- und Monitoringsysteme;", "Netzanschluss;", "erforderliche Sicherheits- und Brandschutzlösungen."] },
+        { heading: "Sicherheit ist ein zentraler Bestandteil", paragraphs: ["Bei der Planung eines BESS müssen elektrische Sicherheit, Temperaturbedingungen, Schutzsysteme, Brandschutz und die Besonderheiten des jeweiligen Standorts berücksichtigt werden.", "Bei einem industriellen Batteriespeicher sollte daher nicht nur die Batterie betrachtet werden. Entscheidend ist die gesamte technische Integration in die elektrische Infrastruktur."] },
+        { heading: "Wann sollte ein Unternehmen BESS in Betracht ziehen?", paragraphs: ["Ein Batteriespeicher kann für verschiedene Anforderungen an die Energieinfrastruktur interessant sein.", "Die Wirtschaftlichkeit eines BESS sollte anhand des gesamten Projekts und seiner geplanten Nutzung bewertet werden – nicht nur anhand des Batteriepreises."], bullets: ["eine größere Photovoltaikanlage betreiben oder planen;", "einen deutlichen Unterschied zwischen Erzeugungs- und Verbrauchszeiten haben;", "große oder wechselnde elektrische Lasten besitzen;", "ihren Energieverbrauch flexibler steuern möchten;", "Einschränkungen beim Netzanschluss haben;", "zukünftig EV-Ladeinfrastruktur oder weitere leistungsintensive Verbraucher hinzufügen möchten."] },
+        { heading: "BESS als Teil der zukünftigen Energieinfrastruktur", paragraphs: ["Der Energiebedarf eines Unternehmens kann sich verändern. Zu einer bestehenden Photovoltaikanlage können später Batteriespeicher, EV-Ladeinfrastruktur, Produktionsanlagen oder weitere leistungsintensive Verbraucher hinzukommen.", "Deshalb lohnt es sich, die Energieinfrastruktur bereits heute mit Blick auf mögliche zukünftige Erweiterungen zu planen. HeilAres entwickelt BESS-Lösungen projektbezogen und kann Energiespeicherung bei Bedarf mit Photovoltaikanlagen und professionellen Elektroarbeiten verbinden."] },
+      ],
+      faqs: [
+        { question: "Was ist BESS?", lead: "BESS steht für Battery Energy Storage System.", answer: "Es bezeichnet ein Batteriespeichersystem zur Speicherung und späteren Nutzung elektrischer Energie." },
+        { question: "Kann ein BESS an eine bestehende Photovoltaikanlage angeschlossen werden?", lead: "Ja.", answer: "Die Lösung muss auf die bestehende elektrische Infrastruktur, die PV-Anlage und den Netzanschluss abgestimmt werden." },
+        { question: "Was ist der Unterschied zwischen MW und MWh?", lead: "MW beschreibt die Leistung des Systems.", answer: "MWh beschreibt die gespeicherte Energiemenge." },
+        { question: "Wie groß muss ein Batteriespeicher für ein Unternehmen sein?", lead: "Es gibt keine universelle BESS-Größe.", answer: "Das hängt vom Stromverbrauch, der Stromerzeugung, dem Netzanschluss und dem gewünschten Einsatzzweck ab." },
+        { question: "Kann HeilAres bei der Dimensionierung helfen?", lead: "Ja.", answer: "Die Planung beginnt mit der Analyse des Energieverbrauchs, der Erzeugung, des Netzanschlusses und der technischen Projektziele." },
+        { question: "Kann ein BESS später erweitert werden?", lead: "Viele Systeme können modular erweitert werden.", answer: "Die spätere Erweiterbarkeit sollte jedoch bereits bei der ursprünglichen Planung berücksichtigt werden." },
+      ],
+      ctaTitle: "Sie planen ein BESS-Projekt?",
+      ctaSubtitle: "Senden Sie HeilAres die wichtigsten Projektdaten. Gemeinsam können wir prüfen, welche Energiespeicherlösung zu Ihrem Standort und dessen Energieprofil passen könnte.",
+    },
+  },
+};

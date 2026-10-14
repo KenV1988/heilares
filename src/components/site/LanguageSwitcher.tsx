@@ -7,15 +7,20 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { getSupportedLang } from "@/i18n";
+import { localizePath } from "@/i18n";
+import { useLocation, useNavigate } from "@tanstack/react-router";
 
 const LANGS = [
   { code: "et", label: "EST", name: "Eesti" },
   { code: "en", label: "ENG", name: "English" },
   { code: "fi", label: "FIN", name: "Suomi" },
+  { code: "de", label: "DE", name: "Deutsch" },
 ] as const;
 
 export function LanguageSwitcher() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
   const currentLang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const current = LANGS.find((l) => l.code === currentLang) ?? LANGS[0];
 
@@ -23,7 +28,7 @@ export function LanguageSwitcher() {
     <DropdownMenu>
       <DropdownMenuTrigger
         className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--bg-elevated)]/60 px-3.5 py-2 text-xs font-semibold uppercase tracking-wider text-white/85 transition hover:border-[var(--ring)] hover:text-white"
-        aria-label="Switch language"
+        aria-label={t("nav.languageLabel")}
       >
         <Globe className="h-3.5 w-3.5 text-[var(--brand)]" />
         <span>{current.label}</span>
@@ -36,7 +41,10 @@ export function LanguageSwitcher() {
         {LANGS.map((l) => (
           <DropdownMenuItem
             key={l.code}
-            onClick={() => i18n.changeLanguage(l.code)}
+            onClick={() => {
+              void i18n.changeLanguage(l.code);
+              void navigate({ href: localizePath(pathname, l.code) });
+            }}
             className={`cursor-pointer text-sm ${
               l.code === current.code ? "text-[var(--brand)]" : "text-white/85"
             }`}

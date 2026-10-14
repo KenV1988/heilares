@@ -9,24 +9,15 @@ import { Why } from "@/components/site/Why";
 import { ParksFAQ } from "@/components/site/ParksFAQ";
 import { CTA } from "@/components/site/CTA";
 import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-maapark.jpg";
 
 export const Route = createFileRoute("/paikesepargid")({
   component: PanelsPage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.panels.title") },
-      { name: "description", content: i18n.t("seo.panels.description") },
-      { property: "og:title", content: i18n.t("seo.panels.title") },
-      { property: "og:description", content: i18n.t("seo.panels.description") },
-    ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/paikesepargid" },
-    ],
-  }),
+  head: () => localizedHead("et", "panels", "/paikesepargid"),
 });
 
-function PanelsPage() {
+export function PanelsPage() {
   const { t } = useTranslation();
   return (
     <SiteLayout>

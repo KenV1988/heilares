@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { ArrowRight, Zap, Shield, Settings, Ship } from "lucide-react";
+import { ArrowRight, Zap, Shield, Settings } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
@@ -14,29 +14,12 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import i18n from "@/i18n";
-import shipyard4 from "@/assets/projects/shipyard-4.jpg";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/service-laevaehitus.jpg";
-
-const SHIPYARD_IMAGES: Record<string, { src: string; alt: string }> = {
-  "Saint-Nazaire'i laevatehas": {
-    src: shipyard4,
-    alt: "Saint-Nazaire'i laevatehas Prantsusmaal — hiiglaslik punane kraan ja kruiisilaeva kere ehituses",
-  },
-};
 
 export const Route = createFileRoute("/toojou-rent")({
   component: WorkforcePage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.workforce.title") },
-      { name: "description", content: i18n.t("seo.workforce.description") },
-      { property: "og:title", content: i18n.t("seo.workforce.title") },
-      { property: "og:description", content: i18n.t("seo.workforce.description") },
-    ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/toojou-rent" },
-    ],
-  }),
+  head: () => localizedHead("et", "workforce", "/toojou-rent"),
 });
 
 const WHY_ICONS = [
@@ -45,7 +28,7 @@ const WHY_ICONS = [
   { key: "flexible", Icon: Settings },
 ] as const;
 
-function WorkforcePage() {
+export function WorkforcePage() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const faqKeys = ["q1", "q2"] as const;
@@ -109,45 +92,33 @@ function WorkforcePage() {
             {t("workforceProjects.lead")}
           </p>
         </div>
-        <div className="mt-12 grid gap-5 md:mt-16 md:grid-cols-2 lg:grid-cols-3">
-          {(t("workforceProjects.items", { returnObjects: true }) as { name: string; country: string }[]).map((item) => {
-            const img = SHIPYARD_IMAGES[item.name];
-            return (
-              <div
-                key={item.name}
-                className="group overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] transition hover:border-[var(--ring)]"
-              >
-                <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">
-                  {img ? (
-                    <img
-                      src={img.src}
-                      alt={img.alt}
-                      loading="lazy"
-                      width={1280}
-                      height={800}
-                      className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                    />
-                  ) : (
-                    <div className="absolute inset-0 grid place-items-center bg-gradient-to-br from-[#131C19] to-[#0A0F0D] text-[var(--brand-glow)]/70">
-                      <Ship className="h-16 w-16" strokeWidth={1.3} />
-                    </div>
-                  )}
-                </div>
-                <div className="p-6 md:p-7">
-                  <h3 className="text-lg font-bold text-white">{item.name}</h3>
-                  <div className="mt-1 text-sm text-white/55">{item.country}</div>
-                </div>
+        <div className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--border)] md:mt-16 md:grid-cols-2">
+          {(
+            t("workforceProjects.items", { returnObjects: true }) as {
+              name: string;
+              country: string;
+            }[]
+          ).map((item, i) => (
+            <div
+              key={item.name}
+              className="flex items-center gap-5 bg-[var(--bg-elevated)] p-6 md:p-7"
+            >
+              <span className="font-display w-9 text-[13px] font-semibold tracking-[0.18em] text-[var(--brand)]">
+                0{i + 1}
+              </span>
+              <div className="flex-1">
+                <div className="text-[12px] text-white/55">{item.country}</div>
+                <h3 className="font-display mt-0.5 text-[18px] font-bold leading-tight text-white">
+                  {item.name}
+                </h3>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
         <p className="mx-auto mt-12 max-w-3xl text-center text-base leading-relaxed text-white/70 md:text-lg">
           {t("workforceProjects.specialties")}
         </p>
       </section>
-
-
-
 
       {/* CTA */}
       <section className="container-x py-16 md:py-24">

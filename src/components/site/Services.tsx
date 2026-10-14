@@ -1,9 +1,10 @@
-import { Link } from "@tanstack/react-router";
+import {} from "@tanstack/react-router";
 import { ArrowUpRight, SunMedium, Mountain, Building2 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "./Section";
 import { Reveal } from "./Reveal";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export function Services() {
   const { t } = useTranslation();
@@ -16,14 +17,11 @@ export function Services() {
   return (
     <section id="services" className="relative py-24 md:py-32">
       <div className="container-x">
-        <SectionHeader
-          eyebrow={t("services.title")}
-          title={t("services.subtitle")}
-        />
+        <SectionHeader eyebrow={t("services.title")} title={t("services.subtitle")} />
         <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-3 md:items-stretch">
           {items.map(({ key, Icon }, i) => (
             <Reveal key={key} delay={i * 90} className="h-full">
-              <Link
+              <LocalizedLink
                 to="/paikesepargid"
                 className="card-lift group relative flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
               >
@@ -58,7 +56,7 @@ export function Services() {
                     </span>
                   </div>
                 </div>
-              </Link>
+              </LocalizedLink>
             </Reveal>
           ))}
         </div>

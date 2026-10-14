@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { useTranslation, Trans } from "react-i18next";
 import { QuoteModal } from "./QuoteModal";
-import { useCountUp } from "@/hooks/use-reveal";
 
 export function Hero() {
   const { t } = useTranslation();
@@ -12,6 +11,10 @@ export function Hero() {
   useEffect(() => {
     const v = videoRef.current;
     if (!v) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      v.pause();
+      return;
+    }
     v.muted = true;
     const tryPlay = () => v.play().catch(() => {});
     tryPlay();
@@ -20,7 +23,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative flex min-h-screen flex-col overflow-hidden md:min-h-[720px]">
+    <section className="relative flex min-h-[100dvh] flex-col overflow-hidden md:min-h-[720px]">
       {/* background video */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <video
@@ -47,7 +50,7 @@ export function Hero() {
       </div>
 
       <div className="container-x relative z-10 flex flex-1 flex-col items-center justify-center pt-28 pb-16 md:pt-40 md:pb-24">
-        <h1 className="font-display mx-auto max-w-5xl text-center text-[48px] font-bold leading-[1.05] tracking-[-0.025em] text-white md:text-[88px] lg:text-[104px] min-h-[2.1em]">
+        <h1 className="font-display mx-auto max-w-5xl text-center text-[44px] font-bold leading-[1.05] tracking-[-0.025em] text-white sm:text-[56px] md:text-[88px] lg:text-[104px]">
           <Trans
             i18nKey="hero.title"
             components={{ accent: <span className="text-gradient" /> }}
@@ -55,7 +58,7 @@ export function Hero() {
           />
         </h1>
 
-        <p className="mx-auto mt-7 max-w-2xl text-center text-[16px] leading-[1.6] text-white/70 md:text-[18px] min-h-[4.8rem] md:min-h-[5.4rem]">
+        <p className="mx-auto mt-7 max-w-2xl text-center text-[16px] leading-[1.6] text-white/70 md:text-[18px]">
           {t("hero.subtitle")}
         </p>
 
@@ -78,41 +81,5 @@ export function Hero() {
 
       <QuoteModal open={open} onOpenChange={setOpen} />
     </section>
-  );
-}
-
-function HeroStats() {
-  const { t } = useTranslation();
-  const mw = useCountUp(400, 1200);
-  const yrs = useCountUp(5, 1000);
-  const hrs = useCountUp(24, 1000);
-
-  return (
-    <div className="mt-14 grid grid-cols-3 gap-3 md:mt-20 md:gap-8">
-      <Stat label={t("stats.mw")}>
-        <span ref={mw}>0</span>
-        <span className="text-[var(--gold-light)]">+</span> MW
-      </Stat>
-      <Stat label={t("stats.years")}>
-        <span ref={yrs}>0</span>
-        <span className="text-[var(--gold-light)]">+</span>
-      </Stat>
-      <Stat label={t("stats.response")}>
-        <span ref={hrs}>0</span>h
-      </Stat>
-    </div>
-  );
-}
-
-function Stat({ label, children }: { label: string; children: React.ReactNode }) {
-  return (
-    <div className="text-center">
-      <div className="font-display text-[28px] font-bold leading-none tracking-tight text-[var(--gold)] md:text-[56px]">
-        {children}
-      </div>
-      <div className="mt-2 text-[10px] font-semibold uppercase leading-tight tracking-[0.16em] text-white/55 md:mt-3 md:text-[12px]">
-        {label}
-      </div>
-    </div>
   );
 }

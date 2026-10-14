@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "@tanstack/react-router";
-import { Menu, X, ArrowRight, Mail, Phone } from "lucide-react";
+import { useLocation } from "@tanstack/react-router";
+import { LocalizedLink } from "./LocalizedLink";
+import { Menu, X, ArrowRight, Mail, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { NAV_LINKS } from "@/lib/nav";
 import { company } from "@/data/company";
+
 
 export function Navbar() {
   const { t } = useTranslation();
@@ -36,7 +38,11 @@ export function Navbar() {
   }, [open]);
 
   const isActive = (to: string) =>
-    to === "/" ? pathname === "/" : pathname === to || pathname.startsWith(to + "/");
+    to === "/"
+      ? ["/", "/fi", "/en", "/de"].includes(pathname)
+      : pathname === to || pathname.endsWith(to) || pathname.includes(`${to}/`);
+
+
 
   return (
     <>
@@ -48,18 +54,18 @@ export function Navbar() {
         }`}
       >
         <div className="container-x flex h-20 items-center justify-between md:h-[104px]">
-          <div className="flex-1 md:flex-none md:pr-6">
+          <div className="flex-1 lg:flex-none lg:pr-6">
             <Logo />
           </div>
 
-          <nav className="hidden flex-1 items-center justify-center gap-1 md:flex md:pl-6">
+          <nav className="hidden flex-1 items-center justify-center gap-0.5 lg:flex lg:pl-4">
             {NAV_LINKS.map((link) => {
               const active = isActive(link.to);
               return (
-                <Link
+                <LocalizedLink
                   key={link.to}
                   to={link.to}
-                  className={`relative px-3 py-2 text-[14px] font-medium tracking-[0.02em] transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
+                  className={`relative whitespace-nowrap px-2.5 py-2 text-[14px] font-medium tracking-[0.02em] transition-colors [text-shadow:0_1px_2px_rgba(0,0,0,0.5)] ${
                     active ? "text-white" : "text-white/70 hover:text-white"
                   }`}
                 >
@@ -67,26 +73,35 @@ export function Navbar() {
                   {active && (
                     <span className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-[var(--brand)]" />
                   )}
-                </Link>
+                </LocalizedLink>
               );
             })}
           </nav>
 
-          <div className="hidden items-center gap-2.5 md:flex">
+          <div className="hidden items-center gap-2.5 lg:flex">
+            <a
+              href={company.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="group grid h-9 w-9 place-items-center rounded-full border border-[var(--border)] transition hover:[border-color:rgba(214,178,106,0.6)]"
+            >
+              <Linkedin className="h-4 w-4 text-white/70 transition group-hover:text-[var(--gold-light)]" />
+            </a>
             <LanguageSwitcher />
-            <Link
+            <LocalizedLink
               to="/toojou-rent"
               className="group inline-flex h-10 items-center gap-1.5 rounded-full bg-[var(--brand)] px-4 text-[13px] font-semibold text-[#06120A] transition hover:bg-[var(--brand-hover)]"
             >
               {t("nav.workforce")}
               <ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
-            </Link>
+            </LocalizedLink>
           </div>
 
           <button
             onClick={() => setOpen((o) => !o)}
-            className="grid h-12 w-12 place-items-center rounded-full border border-[var(--border)] text-white md:hidden"
-            aria-label="Menüü"
+            className="grid h-12 w-12 place-items-center rounded-full border border-[var(--border)] text-white lg:hidden"
+            aria-label={t("nav.menuLabel")}
             aria-expanded={open}
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -97,7 +112,7 @@ export function Navbar() {
       {/* Mobile full-screen overlay */}
       {open && (
         <div
-          className="fixed inset-0 z-40 flex flex-col bg-[#0A0F0D] pt-20 md:hidden"
+          className="fixed inset-0 z-40 flex flex-col bg-[#0A0F0D] pt-20 lg:hidden"
           role="dialog"
           aria-modal="true"
         >
@@ -107,7 +122,7 @@ export function Navbar() {
                 const active = isActive(link.to);
                 return (
                   <li key={link.to}>
-                    <Link
+                    <LocalizedLink
                       to={link.to}
                       onClick={() => setOpen(false)}
                       className={`flex items-baseline gap-4 border-b border-white/5 py-4 ${
@@ -120,7 +135,7 @@ export function Navbar() {
                       <span className="font-display text-[32px] font-semibold leading-none tracking-tight">
                         {t(link.key)}
                       </span>
-                    </Link>
+                    </LocalizedLink>
                   </li>
                 );
               })}
@@ -128,15 +143,24 @@ export function Navbar() {
           </nav>
 
           <div className="container-x border-t border-white/10 bg-[#0A0F0D] py-6">
-            <Link
+            <LocalizedLink
               to="/toojou-rent"
               onClick={() => setOpen(false)}
               className="flex h-14 w-full items-center justify-center gap-2 rounded-full bg-[var(--brand)] text-[15px] font-semibold text-[#06120A]"
             >
               {t("nav.workforce")}
               <ArrowRight className="h-4 w-4" />
-            </Link>
+            </LocalizedLink>
             <div className="mt-5 flex items-center justify-between text-[13px]">
+              <a
+                href={company.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="group grid h-9 w-9 place-items-center rounded-full border border-[var(--border)] transition hover:[border-color:rgba(214,178,106,0.6)]"
+              >
+                <Linkedin className="h-4 w-4 text-white/70 transition group-hover:text-[var(--gold-light)]" />
+              </a>
               <a
                 href={`mailto:${company.email}`}
                 className="inline-flex items-center gap-2 text-white/75"
@@ -145,19 +169,6 @@ export function Navbar() {
                 {company.email}
               </a>
               <LanguageSwitcher />
-            </div>
-            <div className="mt-3 flex flex-col gap-2 text-[13px] text-white/75">
-              {company.contacts.map((c) => (
-                <a
-                  key={c.phone}
-                  href={c.phoneHref}
-                  className="inline-flex items-center gap-2"
-                >
-                  <Phone className="h-4 w-4 text-[var(--brand)]" />
-                  <span className="font-medium text-white">{c.phone}</span>
-                  <span className="text-white/50">· {c.name}</span>
-                </a>
-              ))}
             </div>
           </div>
         </div>

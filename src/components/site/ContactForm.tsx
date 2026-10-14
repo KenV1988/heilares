@@ -32,13 +32,24 @@ export function ContactForm({ compact = false, defaultType, onSubmitted }: Props
       "",
       data.message,
     ].filter(Boolean);
-    const subject = encodeURIComponent(`${t("quote.title")} — ${data.name}${data.company ? ` (${data.company})` : ""}`);
+    const subject = encodeURIComponent(
+      `${t("quote.title")} — ${data.name}${data.company ? ` (${data.company})` : ""}`,
+    );
     const body = encodeURIComponent(lines.join("\n"));
-    window.location.href = `mailto:${company.email}?subject=${subject}&body=${body}`;
+    const mailto = `mailto:${company.email}?subject=${subject}&body=${body}`;
+    window.location.assign(mailto);
     onSubmitted?.();
   };
 
-  const types = ["tracker_park", "maapark", "katusepark", "electrical", "workforce", "other"] as const;
+  const types = [
+    "tracker_park",
+    "maapark",
+    "katusepark",
+    "battery",
+    "electrical",
+    "workforce",
+    "other",
+  ] as const;
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">

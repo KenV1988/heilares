@@ -5,7 +5,7 @@ export default defineTool({
   name: "get_company_info",
   title: "Get company info",
   description:
-    "Get HeilAres OÜ public company details: name, tagline, email and contact persons with their area of responsibility and phone number.",
+    "Get HeilAres OÜ public company details: name, tagline, email and contact persons with their area of responsibility and email address.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => {
@@ -17,7 +17,7 @@ export default defineTool({
       contacts: company.contacts.map((c) => ({
         name: c.name,
         area: c.area,
-        phone: c.phone,
+        email: c.email,
       })),
     };
     return {

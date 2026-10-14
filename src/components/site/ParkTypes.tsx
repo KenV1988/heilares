@@ -8,16 +8,14 @@ import {
 import trackerImg from "@/assets/services/tracker-park-1.jpg";
 import maaparkImg from "@/assets/services/service-maapark.jpg";
 
-const KEYS = ["ground", "roof", "tracker"] as const;
+const KEYS = ["tracker", "ground", "roof"] as const;
 
-const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string; alt: string }>> = {
+const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string }>> = {
   tracker: {
     src: trackerImg,
-    alt: "Päikest jälgiv Solar Tracker Park selge taeva all, pikad paneeliread rohelisel väljal",
   },
   ground: {
     src: maaparkImg,
-    alt: "Maapark põllul aerofotol, pikad paneeliread silmapiirini ulatuvas päikesepargis",
   },
 };
 
@@ -27,7 +25,7 @@ export function ParkTypes() {
   return (
     <section className="container-x py-16 md:py-24">
       <div className="mx-auto max-w-4xl space-y-20 md:space-y-28">
-        {KEYS.map((key) => {
+        {KEYS.map((key, index) => {
           const paragraphs = t(`panelsPage.${key}.paragraphs`, {
             returnObjects: true,
           }) as string[];
@@ -36,8 +34,9 @@ export function ParkTypes() {
           return (
             <article key={key} className="scroll-mt-28" id={key}>
               <div className="rounded-3xl border border-[var(--border)] bg-[var(--bg-card)] p-8 md:p-12">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
-                  {t(`panelsPage.${key}.eyebrow`)}
+                <p className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <span>{t(`panelsPage.${key}.eyebrow`)}</span>
                 </p>
                 <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">
                   {t(`panelsPage.${key}.title`)}
@@ -49,7 +48,9 @@ export function ParkTypes() {
                   <div className="mt-8 overflow-hidden rounded-2xl border border-[var(--border)]">
                     <img
                       src={image.src}
-                      alt={image.alt}
+                      alt={t(`panelsPage.${key}.imageAlt`)}
+                      width={1920}
+                      height={1080}
                       loading="lazy"
                       className="aspect-[16/9] w-full object-cover"
                     />

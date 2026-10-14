@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, MapPin, Calendar, Gauge } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
@@ -6,6 +6,8 @@ import { Seo } from "@/components/site/Seo";
 import { projects, formatCapacity } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
+import { localizedContentHead } from "@/lib/locale-seo";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/tehtud-tood/$slug")({
   component: ProjectDetail,
@@ -14,10 +16,24 @@ export const Route = createFileRoute("/tehtud-tood/$slug")({
     if (!project) throw notFound();
     return { project };
   },
+  head: ({ loaderData }) => {
+    if (!loaderData) return {};
+    const project = loaderData.project;
+    return localizedContentHead(
+      "et",
+      `/tehtud-tood/${project.slug}`,
+      project.title.et,
+      project.description.et,
+    );
+  },
 });
 
 function ProjectDetail() {
   const { project } = Route.useLoaderData();
+  return <ProjectDetailView project={project} />;
+}
+
+export function ProjectDetailView({ project }: { project: (typeof projects)[number] }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
 
@@ -27,13 +43,13 @@ function ProjectDetail() {
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <Link
+          <LocalizedLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("projectsSection.back")}
-          </Link>
+          </LocalizedLink>
 
           <div className="mt-8 max-w-4xl">
             <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--brand)]/30 bg-[var(--brand)]/10 px-3 py-1 text-[12px] font-semibold tracking-[0.02em] text-[var(--brand)]">
@@ -47,12 +63,26 @@ function ProjectDetail() {
             </p>
           </div>
 
-          <div className={`mt-10 grid gap-4 ${project.capacityKw ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}>
+          <div
+            className={`mt-10 grid gap-4 ${project.capacityKw ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}
+          >
             {project.capacityKw ? (
-              <Stat Icon={Gauge} label={t("projectsSection.capacity")} value={formatCapacity(project.capacityKw, lang)} />
+              <Stat
+                Icon={Gauge}
+                label={t("projectsSection.capacity")}
+                value={formatCapacity(project.capacityKw, lang)}
+              />
             ) : null}
-            <Stat Icon={MapPin} label={t("projectsSection.location")} value={project.location} />
-            <Stat Icon={Calendar} label={t("projectsSection.year")} value={String(project.yearCompleted)} />
+            <Stat
+              Icon={MapPin}
+              label={t("projectsSection.location")}
+              value={project.location[lang]}
+            />
+            <Stat
+              Icon={Calendar}
+              label={t("projectsSection.year")}
+              value={String(project.yearCompleted)}
+            />
           </div>
         </div>
 
@@ -60,8 +90,11 @@ function ProjectDetail() {
           <div className="overflow-hidden rounded-3xl border border-[var(--border)]">
             <img
               src={project.coverImage}
-              alt={project.coverAlt}
-              loading="lazy"
+              alt={project.coverAlt[lang]}
+              loading="eager"
+              fetchPriority="high"
+              width={1280}
+              height={720}
               className="aspect-[16/9] w-full object-cover"
             />
           </div>
@@ -71,22 +104,33 @@ function ProjectDetail() {
           <div className="grid gap-10 md:grid-cols-3">
             <div className="md:col-span-2">
               <div className="grid gap-3 sm:grid-cols-2">
-                {project.gallery.map((img: { src: string; alt: string }, idx: number) => (
+                {project.gallery.map((img, idx) => (
                   <img
                     key={idx}
                     src={img.src}
-                    alt={img.alt}
+                    alt={img.alt[lang]}
                     loading="lazy"
+                    width={960}
+                    height={720}
                     className="aspect-[4/3] w-full rounded-2xl border border-[var(--border)] object-cover"
                   />
                 ))}
               </div>
             </div>
             <aside className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-7">
-              <Detail label={t("projectsSection.details.panels")} value={project.panelsUsed} />
+              <Detail
+                label={t("projectsSection.details.panels")}
+                value={project.panelsUsed[lang]}
+              />
               <Detail label={t("projectsSection.details.inverter")} value={project.inverter} />
-              <Detail label={t("projectsSection.details.mounting")} value={project.mountingSystem} />
-              <Detail label={t("projectsSection.details.duration")} value={project.completionTime} />
+              <Detail
+                label={t("projectsSection.details.mounting")}
+                value={project.mountingSystem[lang]}
+              />
+              <Detail
+                label={t("projectsSection.details.duration")}
+                value={project.completionTime[lang]}
+              />
             </aside>
           </div>
         </section>

@@ -2,7 +2,7 @@ import { defineTool } from "@lovable.dev/mcp-js";
 import { z } from "zod";
 import { blogPosts } from "@/data/blog";
 
-const LANGS = ["et", "en", "fi"] as const;
+const LANGS = ["et", "en", "fi", "de"] as const;
 
 export default defineTool({
   name: "list_blog_posts",
@@ -12,7 +12,7 @@ export default defineTool({
   inputSchema: {
     lang: z.enum(LANGS).default("et").describe("Language of the article metadata."),
     category: z
-      .enum(["epc", "park_types", "components", "maintenance"])
+      .enum(["epc", "park_types", "components", "maintenance", "electrical", "storage", "workforce"])
       .optional()
       .describe("Optional category filter."),
   },

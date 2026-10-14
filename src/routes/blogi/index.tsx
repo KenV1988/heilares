@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowRight, Clock } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
@@ -8,22 +8,13 @@ import { PageHero } from "@/components/site/PageHero";
 import { CTA } from "@/components/site/CTA";
 import { blogPosts, type BlogCategory } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
-import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/tracker-park-1.jpg";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/blogi/")({
   component: BlogIndex,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.blog.title") },
-      { name: "description", content: i18n.t("seo.blog.description") },
-      { property: "og:title", content: i18n.t("seo.blog.title") },
-      { property: "og:description", content: i18n.t("seo.blog.description") },
-    ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/blogi" },
-    ],
-  }),
+  head: () => localizedHead("et", "blog", "/blogi"),
 });
 
 const ALL_FILTERS: (BlogCategory | "all")[] = [
@@ -33,10 +24,11 @@ const ALL_FILTERS: (BlogCategory | "all")[] = [
   "components",
   "maintenance",
   "electrical",
+  "storage",
   "workforce",
 ];
 
-function BlogIndex() {
+export function BlogIndex() {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const [filter, setFilter] = useState<(typeof ALL_FILTERS)[number]>("all");
@@ -60,7 +52,7 @@ function BlogIndex() {
         title={t("blog.title")}
         subtitle={t("blog.subtitle")}
         backgroundImage={heroBg}
-        backgroundAlt="Solar Tracker Park päikest jälgivate paneeliridadega"
+        backgroundAlt={t("blog.heroAlt")}
       />
 
       <section className="container-x py-12 md:py-16">
@@ -93,6 +85,8 @@ function BlogIndex() {
                     src={post.cover}
                     alt={c.title}
                     loading="lazy"
+                    width={1280}
+                    height={720}
                     className="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
@@ -114,17 +108,14 @@ function BlogIndex() {
                     {t(`blog.filters.${post.category}`)}
                   </span>
                   <h2 className="mt-3 text-xl font-bold text-white">{c.title}</h2>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">
-                    {c.summary}
-                  </p>
-                  <Link
-                    to="/blogi/$slug"
-                    params={{ slug: post.slug }}
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{c.summary}</p>
+                  <LocalizedLink
+                    to={`/blogi/${post.slug}`}
                     className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--brand)] transition group-hover:gap-2.5"
                   >
                     {t("blog.readMore")}
                     <ArrowRight className="h-4 w-4" />
-                  </Link>
+                  </LocalizedLink>
                 </div>
               </article>
             );

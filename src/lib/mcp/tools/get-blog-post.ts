@@ -2,7 +2,7 @@ import { defineTool, ToolError } from "@lovable.dev/mcp-js";
 import { z } from "zod";
 import { blogPosts } from "@/data/blog";
 
-const LANGS = ["et", "en", "fi"] as const;
+const LANGS = ["et", "en", "fi", "de"] as const;
 
 export default defineTool({
   name: "get_blog_post",

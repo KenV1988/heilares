@@ -9,10 +9,9 @@ import laevaehitusImg from "@/assets/services/service-laevaehitus.jpg";
 
 const KEYS = ["shipbuilding", "factories"] as const;
 
-const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string; alt: string }>> = {
+const IMAGES: Partial<Record<(typeof KEYS)[number], { src: string }>> = {
   shipbuilding: {
     src: laevaehitusImg,
-    alt: "Laevaehituse sadam hämaras, suured laevad kuivdokis ja kraanad — laevaehituse keskkond",
   },
 };
 
@@ -44,7 +43,9 @@ export function WorkforceTypes() {
                   <div className="mt-8 overflow-hidden rounded-2xl border border-[var(--border)]">
                     <img
                       src={image.src}
-                      alt={image.alt}
+                      alt={t(`workforcePage.${key}.imageAlt`)}
+                      width={1920}
+                      height={1281}
                       loading="lazy"
                       className="aspect-[16/9] w-full object-cover"
                     />

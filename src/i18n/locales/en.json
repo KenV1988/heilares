@@ -7,7 +7,10 @@
     "projects": "Projects",
     "blog": "Blog",
     "contact": "Contact",
-    "cta": "Request quote"
+    "cta": "Request quote",
+    "battery": "Battery storage",
+    "menuLabel": "Menu",
+    "languageLabel": "Change language"
   },
   "common": {
     "learnMore": "Learn more",
@@ -22,7 +25,7 @@
   "hero": {
     "badge": "SOLAR ENERGY SPECIALISTS",
     "title": "End-to-end <accent>solar energy</accent> solutions",
-    "subtitle": "Turnkey solar panel installation — ground-mount, rooftop and Solar Tracker Parks across Estonia and Europe. We also offer workforce rental.",
+    "subtitle": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park across Estonia and Europe. We also offer workforce rental.",
     "primaryCta": "Request a quote",
     "secondaryCta": "Learn more"
   },
@@ -40,11 +43,11 @@
       "desc": "Sun-tracking systems for maximum yield on large-scale solar fields."
     },
     "ground": {
-      "title": "Ground-mount park",
+      "title": "Ground-mounted Solar Park",
       "desc": "Utility-scale ground-mounted solar parks. Full design and installation."
     },
     "roof": {
-      "title": "Rooftop park",
+      "title": "Rooftop Solar Park",
       "desc": "Rooftop installations for industrial halls, warehouses and commercial buildings across Europe."
     }
   },
@@ -70,7 +73,7 @@
     "eyebrow": "ELECTRICAL WORKS",
     "title": "Electrical works for solar parks and industry",
     "subtitle": "Professional electrical installations, cabling, switchboards and inverter connections for solar parks, industry and commercial buildings.",
-    "badge": "MTR TEL005181 · Competence level 6",
+    "badge": "MTR TEL005181",
     "items": {
       "solar": {
         "title": "Solar park electrical works",
@@ -123,7 +126,8 @@
         "question": "In which countries can shipbuilding crews be hired?",
         "lead": "HeilAres shipbuilding crews are available in Europe and Scandinavia.",
         "answer": "We deploy crews to shipyard sites across Europe and Scandinavia. Experience with shipbuilding projects ensures that our teams understand the shipyard industry's specific requirements and safety standards."
-      }
+      },
+      "imageAlt": "Shipyard with dry docks, ships and cranes"
     },
     "factories": {
       "eyebrow": "Factories",
@@ -256,7 +260,7 @@
       "competence": {
         "title": "Recognized competence",
         "desc": "Electrical work is carried out by a team with the relevant competence and MTR registration.",
-        "mtr": "MTR: TEL005181 · Level 6"
+        "mtr": "MTR: TEL005181"
       }
     }
   },
@@ -266,8 +270,8 @@
     "filter": {
       "all": "All",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Ground-mount",
-      "katusepark": "Rooftop"
+      "maapark": "Ground-mounted Solar Park",
+      "katusepark": "Rooftop Solar Park"
     },
     "capacity": "Capacity",
     "year": "Completed",
@@ -278,16 +282,17 @@
       "mounting": "Mounting system",
       "duration": "Duration"
     },
-    "back": "Back to projects"
+    "back": "Back to projects",
+    "heroAlt": "Risti Solar Tracker Park in Estonia"
   },
   "panelsPage": {
     "hero": {
       "title": "Solar panel services",
-      "subtitle": "Turnkey ground-mount, rooftop and tracker solar parks for B2B clients in Estonia, Latvia and across Europe."
+      "subtitle": "Turnkey Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park solutions for B2B clients in Estonia, Latvia and across Europe."
     },
     "ground": {
       "eyebrow": "Ground-mount solutions",
-      "title": "Ground-mount park",
+      "title": "Ground-mounted Solar Park",
       "lead": "A ground-mount park is a land-based solar park that HeilAres designs and installs on a turnkey basis at commercial and industrial scale.",
       "paragraphs": [
         "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. HeilAres handles the installation — foundations, mounting structures, and panel and inverter installation.",
@@ -298,11 +303,12 @@
         "question": "How much land is required for a ground-mount park?",
         "lead": "1 MW of ground-mount capacity typically requires 1–1.5 hectares of land.",
         "answer": "Exact land requirement depends on panel type, tilt angle and row spacing."
-      }
+      },
+      "imageAlt": "Ground-mounted solar park with long panel rows across a field"
     },
     "roof": {
       "eyebrow": "Rooftop installations",
-      "title": "Rooftop park",
+      "title": "Rooftop Solar Park",
       "lead": "A rooftop park is a solar installation on industrial buildings, warehouses and commercial properties that HeilAres delivers on all roof types.",
       "paragraphs": [
         "Rooftop parks suit both flat and pitched roofs — trapezoidal sheet, sandwich panel, bitumen and membrane roofs. Every project starts with a structural assessment to confirm the roof can safely carry the additional weight of panels and mounting structures.",
@@ -328,7 +334,8 @@
         "question": "How much more energy does a Solar Tracker Park produce vs a fixed ground-mount?",
         "lead": "Solar Tracker Parks generate on average 15–25% more energy than equally sized fixed ground-mount parks.",
         "answer": "The exact uplift depends on location, latitude and local weather. In Northern European conditions a typical gain is around 20%."
-      }
+      },
+      "imageAlt": "Solar Tracker Park with sun-tracking panel rows on a green field"
     },
     "faq": {
       "eyebrow": "FAQ",
@@ -337,7 +344,7 @@
       "items": {
         "types": {
           "question": "What types of solar parks does HeilAres install?",
-          "answer": "We install ground-mount solar parks, rooftop parks for industrial and commercial buildings, and single-axis Solar Tracker Park solutions. We work both in Estonia and on international projects."
+          "answer": "We install single-axis Solar Tracker Park solutions, Ground-mounted Solar Parks, and Rooftop Solar Parks for industrial and commercial buildings. We work both in Estonia and on international projects."
         },
         "capacity": {
           "question": "How large are the solar parks HeilAres installs?",
@@ -369,7 +376,7 @@
         },
         "electrical": {
           "question": "Does HeilAres also carry out electrical works?",
-          "answer": "Yes. Electrical-related solutions may include DC and AC cabling and inverter connection. HeilAres holds electrical works MTR registration TEL005181 and level 6 competence."
+          "answer": "Yes. Electrical-related solutions may include DC and AC cabling and inverter connection. HeilAres holds electrical works MTR registration TEL005181."
         },
         "countries": {
           "question": "In which countries does HeilAres install solar parks?",
@@ -392,8 +399,7 @@
       "subtitle": "Professional electrical installations, cabling, switchboards, inverter connections and electrical systems in Estonia and across Europe.",
       "cta": "Request a quote",
       "ctaSecondary": "See our projects",
-      "badgeRegistry": "Electrical works MTR registration TEL005181",
-      "badgeLevel": "Competence level 6"
+      "badgeRegistry": "Electrical works MTR registration TEL005181"
     },
     "services": {
       "eyebrow": "Services",
@@ -491,11 +497,6 @@
         "label": "MTR registration",
         "value": "TEL005181",
         "note": "Electrical works registration in the Estonian register of economic activities (MTR)."
-      },
-      "competence": {
-        "label": "Competence",
-        "value": "Level 6",
-        "note": "Electrical works are carried out by a team with the relevant competence."
       }
     },
     "future": {
@@ -540,7 +541,7 @@
         },
         {
           "title": "Qualified electrical works",
-          "desc": "Our electrical works are backed by the company's MTR registration TEL005181 and level 6 competence."
+          "desc": "Our electrical works are backed by the company's MTR registration TEL005181."
         },
         {
           "title": "Turnkey approach",
@@ -604,7 +605,7 @@
         },
         "registration": {
           "question": "Does HeilAres have the required registration for electrical works?",
-          "answer": "Yes. HeilAres holds electrical works MTR registration TEL005181 and Level 6 competence."
+          "answer": "Yes. HeilAres holds electrical works MTR registration TEL005181."
         },
         "regions": {
           "question": "In which regions does HeilAres carry out electrical works?",
@@ -643,8 +644,8 @@
       },
       "types": {
         "question": "What types of solar parks do you build?",
-        "lead": "HeilAres builds ground-mount, rooftop and tracker solar parks.",
-        "answer": "We build three main types — ground-mount parks, rooftop parks for industrial buildings, and Solar Tracker Parks (sun-tracking systems)."
+        "lead": "HeilAres builds Solar Tracker Parks, Ground-mounted Solar Parks and Rooftop Solar Parks.",
+        "answer": "We build three main types — Solar Tracker Parks (sun-tracking systems), Ground-mounted Solar Parks and Rooftop Solar Parks for industrial buildings."
       },
       "quoteSpeed": {
         "question": "How quickly can I get a quote?",
@@ -677,11 +678,12 @@
       "selectType": "Select type",
       "types": {
         "tracker_park": "Solar Tracker Park",
-        "maapark": "Ground-mount",
-        "katusepark": "Rooftop",
+        "maapark": "Ground-mounted Solar Park",
+        "katusepark": "Rooftop Solar Park",
         "electrical": "Electrical works",
         "workforce": "Workforce rental",
-        "other": "Other"
+        "other": "Other",
+        "battery": "Battery storage / BESS"
       }
     },
     "errors": {
@@ -694,9 +696,13 @@
       "email": "Email",
       "phone": "Phone",
       "location": "Location",
-      "hours": "Hours",
-      "hoursValue": "Mon–Fri 09:00–18:00",
       "locationValue": "Estonia & Europe"
+    },
+    "map": {
+      "title": "HeilAres location on Google Maps",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "directions": "Directions to HeilAres"
     }
   },
   "footer": {
@@ -733,22 +739,26 @@
       "components": "Components",
       "maintenance": "Maintenance",
       "electrical": "Electrical works",
+      "storage": "Battery storage / BESS",
       "workforce": "Workforce rental"
     },
-    "category": "Category"
+    "category": "Category",
+    "heroAlt": "Solar Tracker Park with sun-tracking panel rows"
   },
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
-      "description": "Turnkey solar panel installation — rooftop, ground-mount and Solar Tracker Parks. We operate in Estonia and across Europe."
+      "description": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park. We operate in Estonia and across Europe.",
+      "twitterTitle": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
+      "twitterDescription": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park. We operate in Estonia and across Europe."
     },
     "panels": {
-      "title": "Solar panels — Tracker, ground and rooftop parks | HeilAres",
+      "title": "Solar Tracker Park, Ground-mounted and Rooftop Solar Parks | HeilAres",
       "description": "Three core solar installation types for B2B clients. Tier-1 components, experienced crews, megawatt scale."
     },
     "electrical": {
       "title": "Electrical works and installations | HeilAres",
-      "description": "Professional electrical works for solar parks, industrial and commercial projects. Cabling, switchboards, inverters, electrical installations and energy solutions. MTR TEL005181, level 6."
+      "description": "Professional electrical works for solar parks, industrial and commercial projects. Cabling, switchboards, inverters, electrical installations and energy solutions. MTR TEL005181."
     },
     "workforce": {
       "title": "Workforce rental — Shipbuilding and factories | HeilAres",
@@ -765,10 +775,332 @@
     "blog": {
       "title": "Blog — Solar energy knowledge base | HeilAres",
       "description": "B2B-focused articles on solar park EPC, turnkey construction, Tier-1 panels and O&M."
+    },
+    "bess": {
+      "title": "Battery storage and BESS solutions | HeilAres",
+      "description": "Battery storage and BESS solutions for solar parks, businesses and industry. Energy storage, load management and system integration in Estonia and Europe."
     }
   },
   "roles": {
     "workforce": "Workforce rental",
-    "greenEnergy": "Green energy"
+    "greenEnergy": "Green energy",
+    "partnershipManager": "Partnership Manager"
+  },
+  "batterySection": {
+    "eyebrow": "BATTERY STORAGE / BESS",
+    "title": "Energy storage for businesses and energy infrastructure",
+    "subtitle": "Project-specific BESS solutions for solar parks, industry and commercial clients.",
+    "items": {
+      "storage": {
+        "title": "Energy storage",
+        "desc": "Store generated energy and use it according to your site needs."
+      },
+      "solar": {
+        "title": "Solar park + BESS",
+        "desc": "Combine generation and storage into one controllable system."
+      },
+      "loads": {
+        "title": "Load management",
+        "desc": "Balance generation and consumption and manage peak loads."
+      },
+      "industry": {
+        "title": "Industrial energy infrastructure",
+        "desc": "Integrate BESS with your existing electrical system."
+      }
+    }
+  },
+  "bessPage": {
+    "hero": {
+      "title": "Battery storage and BESS solutions",
+      "subtitle": "Store energy, balance consumption and use your energy infrastructure more efficiently.",
+      "support": "Project-specific energy storage solutions for solar parks, businesses and industrial sites in Estonia and Europe.",
+      "primary": "Request a quote",
+      "secondary": "See how it works",
+      "trust": [
+        "Energy storage",
+        "BESS",
+        "Solar energy",
+        "Electrical infrastructure"
+      ]
+    },
+    "heroAlt": "Industrial BESS containers, electrical infrastructure and a solar park in Northern Europe",
+    "what": {
+      "eyebrow": "ENERGY STORAGE",
+      "title": "What is BESS?",
+      "p1": "BESS, or Battery Energy Storage System, stores electrical energy for use when it is needed most.",
+      "p2": "BESS can be integrated with a solar park, a company electrical system or other energy infrastructure.",
+      "p3": "Storage is not only about holding energy; it makes the whole energy system more flexible and controllable.",
+      "flow": [
+        "Generation",
+        "BESS",
+        "Consumption / grid"
+      ]
+    },
+    "benefits": {
+      "eyebrow": "BESS BENEFITS",
+      "title": "Why add battery storage to your energy system?",
+      "items": [
+        {
+          "title": "Store generated energy",
+          "desc": "Store energy when generation exceeds current demand and use it later."
+        },
+        {
+          "title": "Balance generation and demand",
+          "desc": "Battery storage helps align energy generation with consumption."
+        },
+        {
+          "title": "Manage peak loads",
+          "desc": "Use stored energy during peak-demand periods to manage system load."
+        },
+        {
+          "title": "Integrate more renewable energy",
+          "desc": "BESS makes solar generation more flexible and controllable."
+        },
+        {
+          "title": "Optimise energy use",
+          "desc": "Store and use energy according to the site load profile and system objectives."
+        },
+        {
+          "title": "Prepare for the future",
+          "desc": "Storage adds flexibility and allows the infrastructure to evolve when needed."
+        }
+      ]
+    },
+    "audiences": {
+      "eyebrow": "APPLICATIONS",
+      "title": "Battery storage for different energy users",
+      "items": [
+        {
+          "title": "Solar parks",
+          "desc": "Store solar generation and make production more flexible."
+        },
+        {
+          "title": "Industry",
+          "desc": "Manage large loads and optimise energy use based on the actual consumption profile."
+        },
+        {
+          "title": "Commercial buildings",
+          "desc": "Integrate storage with existing infrastructure and use generated or stored energy more flexibly."
+        },
+        {
+          "title": "Energy projects",
+          "desc": "BESS can form part of a wider renewable energy and grid project."
+        }
+      ]
+    },
+    "solar": {
+      "eyebrow": "SOLAR PARK + BESS",
+      "title": "Solar park and battery storage as one system",
+      "p1": "A solar park generates energy when sunlight is available, while demand may occur at a different time. Battery storage allows part of the generated energy to be stored and used later.",
+      "p2": "HeilAres can combine solar generation and battery storage into one integrated energy solution.",
+      "flow": [
+        "Solar park",
+        "Inverter",
+        "BESS",
+        "Consumption / grid"
+      ],
+      "note": "The right solution depends on generation, consumption, grid connection and project objectives.",
+      "link": "Explore solar park solutions"
+    },
+    "sizing": {
+      "eyebrow": "PROJECT-SPECIFIC SIZING",
+      "title": "Battery storage must fit the project, not the other way around",
+      "p1": "Every energy storage project is different. Selecting the right BESS requires consideration of consumption, generation profile, grid connection, required power, storage capacity and intended use.",
+      "p2": "That is why HeilAres does not offer one standard battery system for everyone.",
+      "p3": "The solution is selected according to the technical needs of the project.",
+      "flow": [
+        "Consumption",
+        "Generation",
+        "Grid connection",
+        "Power",
+        "Storage capacity",
+        "BESS solution"
+      ]
+    },
+    "solution": {
+      "eyebrow": "COMPLETE SOLUTION",
+      "title": "A complete battery storage solution",
+      "items": [
+        {
+          "title": "Battery system",
+          "desc": "A battery system selected for the project’s energy storage needs."
+        },
+        {
+          "title": "Inverters and converters",
+          "desc": "Equipment required to control energy flows and system operation."
+        },
+        {
+          "title": "Control system",
+          "desc": "Control and optimisation according to the project objectives."
+        },
+        {
+          "title": "Electrical installation",
+          "desc": "Cabling, switchboards, protection systems and required electrical connections."
+        },
+        {
+          "title": "Monitoring",
+          "desc": "Monitoring system operation and using data to control it."
+        },
+        {
+          "title": "Grid connection",
+          "desc": "A solution matched to the site grid connection and technical conditions."
+        }
+      ]
+    },
+    "electrical": {
+      "eyebrow": "BESS AND ELECTRICAL WORKS",
+      "title": "BESS also requires a professional electrical solution",
+      "p1": "Battery storage is not a standalone device. It must be integrated with the site electrical system, inverters, protection systems, cabling and grid connection.",
+      "p2": "HeilAres can connect the electrical side of a BESS project with other energy solutions.",
+      "registry": "MTR TEL005181",
+      "registryNote": "HeilAres electrical works registration in the Estonian register of economic activities.",
+      "cta": "Explore electrical works"
+    },
+    "safety": {
+      "eyebrow": "SAFETY AND RELIABILITY",
+      "title": "Safety and reliability are integral to BESS",
+      "p1": "Battery storage systems require consideration of the complete technical architecture, electrical safety, temperature conditions, protection systems and fire safety.",
+      "p2": "Design and installation must account for the specific site, selected technology and applicable technical requirements.",
+      "points": [
+        "Electrical safety",
+        "Temperature conditions",
+        "Protection systems",
+        "Fire safety"
+      ]
+    },
+    "future": {
+      "eyebrow": "FUTURE-READY ENERGY INFRASTRUCTURE",
+      "title": "Plan your energy infrastructure for the next stage",
+      "p1": "Energy needs change. Future additions may include new solar parks, EV chargers, production equipment, storage or other high-power consumers.",
+      "p2": "Energy infrastructure should therefore be planned with possible future expansion in mind.",
+      "stages": [
+        {
+          "label": "Today",
+          "value": "Solar energy"
+        },
+        {
+          "label": "Next stage",
+          "value": "Solar energy + BESS"
+        },
+        {
+          "label": "Future",
+          "value": "Solar energy + BESS + EV + industrial loads"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "HOW WE WORK",
+      "title": "From requirements to commissioning",
+      "items": [
+        {
+          "title": "Requirements mapping",
+          "desc": "We analyse the site, consumption, generation, grid connection and project objective."
+        },
+        {
+          "title": "Technical solution",
+          "desc": "We develop a suitable storage solution and define the required scope."
+        },
+        {
+          "title": "Installation and integration",
+          "desc": "We install and connect the system and coordinate integration with the site infrastructure."
+        },
+        {
+          "title": "Commissioning and handover",
+          "desc": "We verify operation, complete the required settings and hand over the solution."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "WHY HEILARES",
+      "title": "Why choose HeilAres as your battery storage partner?",
+      "subtitle": "A project-specific, integrated view connects energy storage with solar energy and professional electrical works.",
+      "items": [
+        {
+          "title": "Renewable energy experience",
+          "desc": "HeilAres core business is connected with renewable and solar energy projects."
+        },
+        {
+          "title": "Integrated solution",
+          "desc": "Battery storage can be combined with solar parks and electrical works."
+        },
+        {
+          "title": "Project-specific approach",
+          "desc": "The solution is selected according to the needs of the specific site."
+        },
+        {
+          "title": "Electrical capability",
+          "desc": "The electrical side of storage can be connected with HeilAres electrical works capability."
+        },
+        {
+          "title": "Estonia and Europe",
+          "desc": "Projects can be delivered in Estonia and elsewhere in Europe according to their scale and needs."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions about BESS solutions",
+      "subtitle": "Essential information about planning, integrating and using battery storage.",
+      "items": {
+        "what": {
+          "question": "What is BESS?",
+          "answer": "BESS is a battery-based energy storage system that stores electricity for later use according to system objectives."
+        },
+        "uses": {
+          "question": "What is battery storage used for?",
+          "answer": "It can store solar energy, balance generation and consumption, manage peak loads and make infrastructure more flexible."
+        },
+        "existingSolar": {
+          "question": "Can storage be connected to an existing solar park?",
+          "answer": "Yes. The suitable solution depends on the existing system architecture, grid connection and project objectives."
+        },
+        "size": {
+          "question": "What size battery system does my business need?",
+          "answer": "Sizing requires the load profile, peak loads, generation capacity, grid connection and intended use—not annual consumption alone."
+        },
+        "dimensioning": {
+          "question": "Can HeilAres help size the solution?",
+          "answer": "Yes. We first map the site energy use, generation and technical conditions."
+        },
+        "industry": {
+          "question": "Is BESS suitable for industry?",
+          "answer": "Yes. The suitable solution is determined from the site-specific consumption and generation profile."
+        },
+        "ev": {
+          "question": "Can battery storage work with EV chargers?",
+          "answer": "Yes. It can form part of wider infrastructure including EV charging, subject to the electrical system and load profile."
+        },
+        "electrical": {
+          "question": "Does HeilAres also carry out BESS electrical works?",
+          "answer": "Yes. BESS electrical connection and installation can be combined with HeilAres electrical services. MTR registration TEL005181."
+        },
+        "expansion": {
+          "question": "Can battery storage be expanded later?",
+          "answer": "It depends on the system architecture. Known future expansion should be considered during initial infrastructure planning."
+        },
+        "timeline": {
+          "question": "How long does a BESS project take?",
+          "answer": "Timing depends on system size, site readiness, design, equipment availability, grid connection and approvals. The schedule is project-specific."
+        },
+        "start": {
+          "question": "How do I start a battery storage project?",
+          "answer": "Send the site details, consumption and generation information, and available electrical or grid-connection documents. We can then assess the requirements."
+        }
+      }
+    },
+    "cta": {
+      "title": "Does your energy infrastructure need battery storage?",
+      "subtitle": "Send us the key project details and we will review which energy storage solution may suit your site.",
+      "primary": "Request a quote",
+      "secondary": "Contact us"
+    }
+  },
+  "system": {
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for does not exist or has been moved.",
+    "home": "Go home",
+    "errorTitle": "This page did not load",
+    "errorText": "Something went wrong. Try again or return to the homepage.",
+    "retry": "Try again"
   }
 }

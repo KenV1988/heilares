@@ -15,7 +15,7 @@
       {
         "name": "get_company_info",
         "title": "Get company info",
-        "description": "Get HeilAres OÜ public company details: name, tagline, email and contact persons with their area of responsibility and phone number.",
+        "description": "Get HeilAres OÜ public company details: name, tagline, email and contact persons with their area of responsibility and email address.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
@@ -119,7 +119,8 @@
               "enum": [
                 "et",
                 "en",
-                "fi"
+                "fi",
+                "de"
               ]
             },
             "category": {
@@ -129,7 +130,10 @@
                 "epc",
                 "park_types",
                 "components",
-                "maintenance"
+                "maintenance",
+                "electrical",
+                "storage",
+                "workforce"
               ]
             }
           }
@@ -161,7 +165,8 @@
               "enum": [
                 "et",
                 "en",
-                "fi"
+                "fi",
+                "de"
               ]
             }
           },

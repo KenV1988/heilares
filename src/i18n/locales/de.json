@@ -1,0 +1,1106 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "panels": "Solarparks",
+    "electrical": "Elektroarbeiten",
+    "workforce": "Personalvermietung",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "cta": "Angebot anfordern",
+    "battery": "Batteriespeicher",
+    "menuLabel": "Menü",
+    "languageLabel": "Sprache ändern"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "requestQuote": "Angebot anfordern",
+    "contactUs": "Kontakt aufnehmen",
+    "viewProject": "Projekt ansehen",
+    "viewAll": "Alle ansehen",
+    "send": "Senden",
+    "sending": "Wird gesendet...",
+    "loading": "Wird geladen..."
+  },
+  "hero": {
+    "badge": "SPEZIALISTEN FÜR SOLARENERGIE",
+    "title": "Ganzheitliche <accent>Solarenergie</accent>lösungen",
+    "subtitle": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark in Estland und Europa. Wir bieten außerdem Personalvermietung an.",
+    "primaryCta": "Angebot anfordern",
+    "secondaryCta": "Mehr erfahren"
+  },
+  "stats": {
+    "title": "Messbare Erfahrung",
+    "mw": "Installierte Anlagen",
+    "response": "Reaktionszeit auf Anfragen",
+    "years": "Jahre Erfahrung"
+  },
+  "services": {
+    "title": "Solarpanel-Lösungen",
+    "subtitle": "Drei Kern-Installationsarten — alle schlüsselfertig geliefert.",
+    "tracker": {
+      "title": "Solar Tracker Park",
+      "desc": "Sonnennachführende Systeme für maximalen Ertrag bei großflächigen Solarparks."
+    },
+    "ground": {
+      "title": "Freiflächen-Solarpark",
+      "desc": "Großflächige bodenmontierte Solarparks. Vollständige Planung und Installation."
+    },
+    "roof": {
+      "title": "Dach-Solarpark",
+      "desc": "Dachinstallationen für Industriehallen, Lagerhäuser und Gewerbegebäude in ganz Europa."
+    }
+  },
+  "workforceSection": {
+    "eyebrow": "PERSONALVERMIETUNG",
+    "title": "Erfahrenes Personal mieten",
+    "subtitle": "HeilAres stellt erfahrenes und zertifiziertes Personal für Schiffbau- und Fabrikprojekte in ganz Europa und Skandinavien zur Verfügung.",
+    "solar": {
+      "title": "Montageteams für Solaranlagen",
+      "desc": "Vermietungsteams für den Bau von Solarparks, geeignet für die Beauftragung durch andere EPC-Unternehmen."
+    },
+    "shipbuilding": {
+      "title": "Schiffbau",
+      "desc": "Zertifizierte Teams für Schiffbauprojekte in ganz Europa."
+    },
+    "factories": {
+      "title": "Fabriken",
+      "desc": "Industrielle Montageteams für den Fabrikbetrieb, schneller Einsatzstart und hohe Produktivität."
+    },
+    "cta": "Mehr über Personalvermietung erfahren"
+  },
+  "electricalSection": {
+    "eyebrow": "ELEKTROARBEITEN",
+    "title": "Elektroarbeiten für Solarparks und Industrie",
+    "subtitle": "Professionelle Elektroinstallationen, Verkabelung, Schaltschränke und Wechselrichteranschlüsse für Solarparks, Industrie und Gewerbegebäude.",
+    "badge": "MTR TEL005181",
+    "items": {
+      "solar": {
+        "title": "Elektroarbeiten für Solarparks",
+        "desc": "DC/AC-Verkabelung, Wechselrichteranschlüsse und Verteilerschaltschränke in großflächigen Solarparks."
+      },
+      "switchboards": {
+        "title": "Schaltschränke und Verteilersysteme",
+        "desc": "Hauptschaltschränke, Unterverteilungen sowie Erweiterung oder Modernisierung bestehender Systeme."
+      },
+      "cabling": {
+        "title": "Verkabelung",
+        "desc": "Stark- und Schwachstromverkabelung, Kabeltrassen und Solarpark-Verkabelung."
+      },
+      "inverters": {
+        "title": "Wechselrichter und Energiesysteme",
+        "desc": "Installation und Anschluss von Wechselrichtern, AC/DC-Lösungen und Elektroanschlüsse für Batteriespeicher."
+      }
+    },
+    "cta": "Mehr über Elektroarbeiten erfahren"
+  },
+  "workforcePage": {
+    "hero": {
+      "title": "Personalvermietung",
+      "subtitle": "HeilAres stellt erfahrenes und qualifiziertes Personal für Schiffbau- und Fabrikprojekte in ganz Europa und Skandinavien zur Verfügung."
+    },
+    "solar": {
+      "eyebrow": "Solarenergie",
+      "title": "Montageteams für Solaranlagen",
+      "lead": "Die Montageteams von HeilAres sind auf den Bau von Solarparks spezialisiert und stehen anderen EPC-Unternehmen in ganz Europa und Skandinavien zur Beauftragung zur Verfügung.",
+      "paragraphs": [
+        "Unsere Teams bestehen aus erfahrenen Projektleitern und qualifizierten Monteuren, die am Bau von Solarparks mit hunderten Megawatt in Estland und Lettland beteiligt waren. Teams können schnell an Standorte in ganz Europa mobilisiert werden, damit die Arbeit von Subunternehmern nicht durch Personalmangel ins Stocken gerät.",
+        "Die Vermietungsteams führen Gestellmontage, Panelinstallation, DC-Verkabelung und Wechselrichteranschluss durch. Jedes Team arbeitet nach den Sicherheitsanforderungen und dem Projektzeitplan des Auftraggebers. So können EPC-Unternehmen ihre Ressourcennutzung optimieren und größere Projekte übernehmen, ohne die Fixkosten zu erhöhen.",
+        "Ein flexibles Vermietungsmodell ermöglicht es, Teams sowohl für kurzfristige Termindeals als auch für längere Projekte zu beauftragen. Alle unsere Monteure durchlaufen regelmäßige Sicherheitsschulungen und verfügen über die erforderlichen Zertifizierungen für die Arbeit auf industriellen Solarstandorten."
+      ],
+      "faq": {
+        "question": "Eignen sich Vermietungsteams für die Beauftragung durch andere EPC-Unternehmen?",
+        "lead": "Ja, die Vermietungsteams von HeilAres sind vorrangig für Subunternehmertätigkeit und partnerschaftsbasierte Arbeit konzipiert.",
+        "answer": "Unsere Teams arbeiten regelmäßig im Rahmen von Subunternehmerverträgen für große EPC-Unternehmen. Wir richten uns nach den Sicherheitsanforderungen, Qualitätsstandards und dem Projektzeitplan des Auftraggebers — so kann sich der Partner auf das Projektmanagement konzentrieren, während wir die Installation übernehmen."
+      }
+    },
+    "shipbuilding": {
+      "eyebrow": "Schiffbau",
+      "title": "Schiffbau",
+      "lead": "HeilAres stellt qualifiziertes Personal für Schiffbauprojekte in Europa und Skandinavien bereit.",
+      "paragraphs": [
+        "Unsere Schiffbauteams vereinen erfahrene Fachkräfte aus mehreren Gewerken und sind einsatzbereit auf Werftgeländen, wo schnelle und qualitativ hochwertige Arbeit gefordert ist.",
+        "Wir bieten sowohl kurzfristige als auch langfristige Vermietungslösungen an, die sich sowohl zur Abdeckung von Saisonspitzen als auch für eine dauerhafte Partnerschaft eignen. Unsere Projektleiter stellen sicher, dass die Arbeit alle Sicherheits- und Qualitätsstandards im Schiffbau erfüllt."
+      ],
+      "faq": {
+        "question": "In welchen Ländern können Schiffbauteams gemietet werden?",
+        "lead": "Schiffbauteams von HeilAres stehen in Europa und Skandinavien zur Verfügung.",
+        "answer": "Wir entsenden Teams zu Werftgeländen in ganz Europa und Skandinavien. Die Erfahrung mit Schiffbauprojekten stellt sicher, dass unsere Teams die spezifischen Anforderungen und Sicherheitsstandards der Werftindustrie verstehen."
+      },
+      "imageAlt": "Werft mit Trockendocks, Schiffen und Kränen"
+    },
+    "factories": {
+      "eyebrow": "Fabriken",
+      "title": "Fabriken",
+      "lead": "Die industriellen Montageteams von HeilAres sind für Fabrikumgebungen konzipiert, in denen kurzfristiger Einsatzstart und hohe Produktivität gefordert sind.",
+      "paragraphs": [
+        "Wir installieren und montieren industrielle Anlagen, Metallkonstruktionen und Produktionslinien in Fabriken und Industriegebäuden. Unsere Teams sind es gewohnt, in laufenden Produktionsräumen zu arbeiten, in denen minimale Ausfallzeiten und maximale Effizienz gefordert sind.",
+        "Wir stellen Vermietungsteams bereit, die sich schnell an unterschiedliche Fabrikanforderungen und Arbeitsabläufe anpassen können. So können Unternehmen ihre Produktionskapazität skalieren, ohne die feste Kapazität zu erhöhen."
+      ],
+      "faq": {
+        "question": "Können Vermietungsteams für Fabriken sich schnell an unterschiedliche Produktionslinien anpassen?",
+        "lead": "Ja, die Fabrikteams von HeilAres sind anpassungsfähig und können sich schnell in unterschiedliche Arbeitsabläufe von Fabriken integrieren.",
+        "answer": "Unsere Teams sind in industriellen Installationen erfahren und können sich schnell mit den Besonderheiten neuer Anlagen und Arbeitsabläufe vertraut machen. Projektleiter stimmen sich mit dem Auftraggeber ab, um eine reibungslose Integration in die bestehenden Produktionsabläufe zu gewährleisten."
+      }
+    },
+    "cta": {
+      "title": "Benötigen Sie erfahrenes Personal?",
+      "subtitle": "Nehmen Sie Kontakt auf und wir klären die Details der Personalvermietung schnell.",
+      "button": "Personalvermietung besprechen"
+    }
+  },
+  "workforceProjects": {
+    "eyebrow": "FRÜHERE PROJEKTE",
+    "title": "Frühere Projekte",
+    "lead": "Wir haben die Erfahrung unserer qualifizierten Teams zu führenden europäischen Werften in Finnland, Spanien, Frankreich und Deutschland eingebracht.",
+    "specialties": "Unsere Schiffbauteams vereinen erfahrene Fachkräfte aus mehreren Gewerken: Innenausbaumonteure, Schweißer der Klassen 135/136 und 141, Lüftungsmonteure, Rohrleger, Maler und Elektriker. So können wir den gesamten Installationsumfang aus einer Hand abdecken.",
+    "items": [
+      {
+        "name": "Meyer Turku",
+        "country": "Finnland"
+      },
+      {
+        "name": "Rauma Marine Constructions",
+        "country": "Finnland"
+      },
+      {
+        "name": "Werft Cádiz",
+        "country": "Spanien"
+      },
+      {
+        "name": "Werft Saint-Nazaire",
+        "country": "Frankreich"
+      },
+      {
+        "name": "Werft Bremen",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Werft Wismar",
+        "country": "Deutschland"
+      }
+    ]
+  },
+  "workforceWhy": {
+    "eyebrow": "WARUM HEILARES",
+    "title": "Warum ein Team von HeilAres mieten?",
+    "subtitle": "HeilAres ist ein vertrauenswürdiger Partner in der Personalvermietung — erfahrene Teams, flexible Lösungen und vielfältige Projekterfahrung.",
+    "items": {
+      "mobilization": {
+        "title": "Schneller Einsatzstart",
+        "desc": "Eigene Teams und erfahrene Projektleiter, einsatzbereit kurzfristig in ganz Europa."
+      },
+      "certified": {
+        "title": "Qualifizierte Teams",
+        "desc": "Alle Monteure durchlaufen regelmäßige Sicherheitsschulungen und verfügen über die erforderlichen Zertifizierungen."
+      },
+      "scale": {
+        "title": "Vielfältige Projekterfahrung",
+        "desc": "Breite Erfahrung bei großflächigen Schiffbau- und Industrieprojekten."
+      },
+      "flexible": {
+        "title": "Flexible Kapazitätsskalierung",
+        "desc": "Bestellen Sie sowohl kleine Teams für kurzfristige Einsätze als auch große Teams für langfristige Projekte."
+      }
+    }
+  },
+  "workforceFAQ": {
+    "eyebrow": "FAQ",
+    "title": "Häufig gestellte Fragen zur Personalvermietung",
+    "subtitle": "Alles, was Sie über die Personalvermietung von HeilAres wissen müssen.",
+    "items": {
+      "q1": {
+        "question": "Wie schnell kann ein Team auf der Baustelle eingesetzt werden?",
+        "lead": "HeilAres ermöglicht einen schnellen Start — Teams sind kurzfristig einsatzbereit.",
+        "answer": "Der genaue Zeitpunkt hängt vom Standort und der Teamgröße ab. Bei Projekten innerhalb Europas erfolgt der Einsatz in der Regel schneller. Alle notwendigen Werkzeuge und Geräte sind im Team enthalten."
+      },
+      "q2": {
+        "question": "Eignen sich Vermietungsteams für die Beauftragung durch andere Unternehmen?",
+        "lead": "Ja, die Vermietungsteams von HeilAres sind vorrangig für die Beauftragung durch Unternehmen und Industriepartner konzipiert.",
+        "answer": "Unsere Teams arbeiten im Rahmen von Subunternehmerverträgen und richten sich nach den Sicherheitsanforderungen und Qualitätsstandards des Auftraggebers. So können Partner ihre Kapazität skalieren, ohne die Fixkosten zu erhöhen."
+      }
+    }
+  },
+  "process": {
+    "title": "So arbeiten wir",
+    "subtitle": "Einfach und transparent — vom ersten Gespräch bis zur fertigen Installation.",
+    "step1": {
+      "title": "Beratung",
+      "desc": "Wir erfassen Ihre Anforderungen, den Standort und das Energiepotenzial."
+    },
+    "step2": {
+      "title": "Planung",
+      "desc": "Wir entwickeln die technische Lösung und ein präzises Angebot."
+    },
+    "step3": {
+      "title": "Installation",
+      "desc": "Wir liefern die Montage, die Panels und die DC-Arbeiten mit dem Wechselrichter."
+    }
+  },
+  "why": {
+    "title": "Warum HeilAres",
+    "subtitle": "Ein anerkannter Partner für großflächige Solarprojekte in ganz Europa.",
+    "items": {
+      "scale": {
+        "title": "Erfahrung im Megawatt-Bereich",
+        "desc": "Beteiligung an der Installation von Solarparks mit hunderten MW in Estland und Lettland."
+      },
+      "turnkey": {
+        "title": "Schlüsselfertige Lieferung",
+        "desc": "Ein Partner für die gesamte Installation — Montage, Panels, DC und Wechselrichter."
+      },
+      "speed": {
+        "title": "Schneller Einsatzstart",
+        "desc": "Eigene Teams und erfahrene Projektleiter, einsatzbereit."
+      },
+      "quality": {
+        "title": "Tier-1-Komponenten",
+        "desc": "Wir arbeiten ausschließlich mit erstklassigen Panels und Wechselrichtern."
+      },
+      "competence": {
+        "title": "Anerkannte Kompetenz",
+        "desc": "Die Elektroarbeiten werden von einem Team mit entsprechender Kompetenz und MTR-Registrierung durchgeführt.",
+        "mtr": "MTR: TEL005181"
+      }
+    }
+  },
+  "projectsSection": {
+    "title": "Ausgewählte Projekte",
+    "subtitle": "Eine Auswahl aktueller großflächiger Solarprojekte.",
+    "filter": {
+      "all": "Alle",
+      "tracker_park": "Solar Tracker Park",
+      "maapark": "Freiflächen-Solarpark",
+      "katusepark": "Dach-Solarpark"
+    },
+    "capacity": "Leistung",
+    "year": "Fertiggestellt",
+    "location": "Standort",
+    "details": {
+      "panels": "Panels",
+      "inverter": "Wechselrichter",
+      "mounting": "Montagesystem",
+      "duration": "Bauzeit"
+    },
+    "back": "Zurück zu den Projekten",
+    "heroAlt": "Solar Tracker Park Risti in Estland"
+  },
+  "panelsPage": {
+    "hero": {
+      "title": "Solarpanel-Dienstleistungen",
+      "subtitle": "Schlüsselfertige Lösungen für Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark für B2B-Kunden in Estland, Lettland und ganz Europa."
+    },
+    "ground": {
+      "eyebrow": "Freiflächenlösungen",
+      "title": "Freiflächen-Solarpark",
+      "lead": "Ein Freiflächenpark ist ein bodengebundener Solarpark, den HeilAres schlüsselfertig im gewerblichen und industriellen Maßstab plant und installiert.",
+      "paragraphs": [
+        "Freiflächenparks eignen sich ideal für landwirtschaftliche Flächen, Konversionsflächen und Industriegrundstücke mit ausreichend offener Fläche, um Panels im optimalen Neigungswinkel zu installieren. HeilAres übernimmt die Installation — Fundamente, Montagestrukturen sowie Panel- und Wechselrichterinstallation.",
+        "Wir liefern Installationen von wenigen MW bis zu hunderten von MW. Zu den mit dem HeilAres-Team installierten Freiflächenparks zählen der 76-MW-Park Kirikmäe in Estland und der 72,5-MW-Park Stelpe in Lettland. Wir arbeiten ausschließlich mit Tier-1-Herstellern von Panels und Wechselrichtern, um langfristigen Ertrag und Zuverlässigkeit zu gewährleisten.",
+        "Die Stärken eines Freiflächenparks sind einfache Wartung, hoher Ertrag und flexible Skalierbarkeit."
+      ],
+      "faq": {
+        "question": "Wie viel Fläche wird für einen Freiflächenpark benötigt?",
+        "lead": "1 MW Freiflächenleistung erfordert in der Regel 1–1,5 Hektar Land.",
+        "answer": "Der genaue Flächenbedarf hängt vom Paneltyp, dem Neigungswinkel und dem Reihenabstand ab."
+      },
+      "imageAlt": "Bodenmontierter Solarpark mit langen Panelreihen auf einem Feld"
+    },
+    "roof": {
+      "eyebrow": "Dachinstallationen",
+      "title": "Dach-Solarpark",
+      "lead": "Ein Dachpark ist eine Solaranlage auf Industriegebäuden, Lagerhäusern und Gewerbeimmobilien, die HeilAres auf allen Dachtypen realisiert.",
+      "paragraphs": [
+        "Dachparks eignen sich sowohl für Flach- als auch für Schrägdächer — Trapezblech, Sandwichpaneele, Bitumen- und Membrandächer. Jedes Projekt beginnt mit einer statischen Prüfung, um sicherzustellen, dass das Dach das zusätzliche Gewicht von Panels und Montagestrukturen sicher tragen kann.",
+        "Die Teams von HeilAres arbeiten so, dass der Betrieb des Kunden möglichst wenig gestört wird. Wir planen um Ihren Produktionskalender herum, verwenden sichere Hebegeräte und organisieren die Installationslogistik so, dass Lager- und Fabrikbetrieb weiterlaufen können.",
+        "Ein Dachpark senkt die Stromkosten und den CO2-Fußabdruck eines Unternehmens erheblich, indem er ansonsten ungenutzte Flächen nutzt. Bei größeren Industriegebäuden kann die Dachkapazität mehrere Megawatt erreichen."
+      ],
+      "faq": {
+        "question": "Ist mein Dach für Solarpanels geeignet?",
+        "lead": "Die meisten Industriedächer eignen sich für Solarpanels, wenn die Konstruktion eine zusätzliche Last von 15–25 kg/m² tragen kann.",
+        "answer": "HeilAres bewertet jedes Dach individuell — Belagsart, Alter, Tragfähigkeit und Verschattungshindernisse. Jedes Angebot beinhaltet eine Tragfähigkeitsbewertung."
+      }
+    },
+    "tracker": {
+      "eyebrow": "Sonnennachführende Systeme",
+      "title": "Solar Tracker Park",
+      "lead": "Ein Solar Tracker Park ist ein einachsig sonnennachführender Solarpark, der im Vergleich zu fest montierten Panels bis zu 25 % höheren Energieertrag liefert.",
+      "paragraphs": [
+        "Solar-Tracker-Park-Systeme drehen die Panels im Tagesverlauf von Ost nach West und folgen dabei der Sonne. So bleiben die Panels vom Morgen bis zum Abend im optimalen Winkel zur Sonneneinstrahlung ausgerichtet und der jährliche Energieertrag steigt im Vergleich zu klassischen fest montierten Freiflächenparks deutlich.",
+        "Solar Tracker Parks eignen sich ideal für große offene Landflächen mit stabilem Untergrund und ausreichend Platz, um Verschattungen zwischen den Reihen zu vermeiden. HeilAres hat Solar Tracker Parks sowohl in Estland als auch in Lettland gebaut, darunter der 244-MW-Solar-Tracker-Park Risti in Estland und der Solar Tracker Park Lielvarde in Lettland.",
+        "Höherer Ertrag bedeutet schnellere Amortisation und ein besseres Produktionsprofil über den Tag, was besonders bei hohen Spotmarktpreisen für Strom wertvoll ist."
+      ],
+      "faq": {
+        "question": "Wie viel mehr Energie erzeugt ein Solar Tracker Park im Vergleich zu einem fest montierten Freiflächenpark?",
+        "lead": "Solar Tracker Parks erzeugen durchschnittlich 15–25 % mehr Energie als gleich große fest montierte Freiflächenparks.",
+        "answer": "Der genaue Mehrertrag hängt von Standort, Breitengrad und lokalen Wetterbedingungen ab. Unter nordeuropäischen Bedingungen liegt der typische Gewinn bei etwa 20 %."
+      },
+      "imageAlt": "Solar Tracker Park mit sonnennachführenden Panelreihen auf einem grünen Feld"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles, was Sie über die Solarparks von HeilAres wissen müssen.",
+      "items": {
+        "types": {
+          "question": "Welche Arten von Solarparks installiert HeilAres?",
+          "answer": "Wir installieren einachsige Solar Tracker Park-Lösungen, Freiflächen-Solarparks und Dach-Solarparks für Industrie- und Gewerbegebäude. Wir arbeiten sowohl in Estland als auch bei internationalen Projekten."
+        },
+        "capacity": {
+          "question": "Wie groß sind die von HeilAres installierten Solarparks?",
+          "answer": "Wir liefern Projekte von wenigen Megawatt bis hin zu großflächigen Solarparks mit hunderten Megawatt. Unsere Teams waren an Projekten wie dem 76-MW-Park Kirikmäe, dem 72,5-MW-Park Stelpe und dem 244-MW-Solar-Tracker-Park Risti beteiligt."
+        },
+        "turnkey": {
+          "question": "Bietet HeilAres die Installation von Solarparks als schlüsselfertige Lösung an?",
+          "answer": "Ja. Je nach Projekt umfasst die Leistung die Installation von Tragkonstruktionen, Panels, DC-Verkabelung und Wechselrichtern. Der genaue Leistungsumfang wird projekt- und vertragsbezogen festgelegt."
+        },
+        "roof": {
+          "question": "Installiert HeilAres Solarparks auch auf Dächern?",
+          "answer": "Ja. Wir installieren Solarparks auf den Dächern von Industrie-, Lager- und Gewerbegebäuden. Vor der Installation müssen die Dachkonstruktion und die Eignung für die Solaranlage geprüft werden."
+        },
+        "tracker": {
+          "question": "Was ist ein Solar Tracker Park und wann sollte er eingesetzt werden?",
+          "answer": "Ein Solar Tracker Park nutzt einachsige Nachführsysteme, die die Panelposition entsprechend dem Sonnenverlauf anpassen. Die Lösung eignet sich am besten für große offene Flächen mit ausreichend Platz für Nachführsysteme."
+        },
+        "land": {
+          "question": "Wie viel Land wird für einen Solarpark benötigt?",
+          "answer": "Der erforderliche Flächenbedarf hängt von der geplanten Leistung, der Paneltechnologie, der Konstruktion, der Grundstücksform, der Reihenanordnung und weiteren Projektbedingungen ab. Der genaue Bedarf ergibt sich während der Projektplanung."
+        },
+        "suitability": {
+          "question": "Hilft HeilAres bei der Beurteilung, ob mein Grundstück oder Dach für einen Solarpark geeignet ist?",
+          "answer": "Ja. Zu Projektbeginn bewerten wir die Standortbedingungen, die vorhandene Infrastruktur und die technischen Anforderungen der geplanten Lösung."
+        },
+        "components": {
+          "question": "Welche Solarpanels und Wechselrichter verwenden Sie?",
+          "answer": "HeilAres arbeitet mit Tier-1-Herstellern zusammen, und die ausgewählten Komponenten richten sich nach den spezifischen technischen und wirtschaftlichen Anforderungen jedes Projekts."
+        },
+        "electrical": {
+          "question": "Führt HeilAres auch Elektroarbeiten durch?",
+          "answer": "Ja. Elektrobezogene Leistungen können DC- und AC-Verkabelung sowie den Wechselrichteranschluss umfassen. HeilAres verfügt über die MTR-Registrierung für Elektroarbeiten TEL005181."
+        },
+        "countries": {
+          "question": "In welchen Ländern installiert HeilAres Solarparks?",
+          "answer": "HeilAres ist in Estland, Lettland und je nach Projekt auch in anderen Teilen Europas tätig."
+        },
+        "quote": {
+          "question": "Wie schnell kann ich ein Angebot für ein Solarpark-Projekt erhalten?",
+          "answer": "Senden Sie uns den Standort, die geplante Leistung und vorhandene Projektinformationen. Anschließend können wir den Leistungsumfang bewerten und ein Angebot erstellen."
+        },
+        "start": {
+          "question": "Wie starte ich ein Solarpark-Projekt?",
+          "answer": "Am einfachsten senden Sie uns die wichtigsten Projektdaten. Wir erfassen den Bedarf, prüfen den Standort und erstellen eine passende technische Lösung samt Angebot."
+        }
+      }
+    }
+  },
+  "electricalPage": {
+    "hero": {
+      "title": "Elektroarbeiten für Solarenergie- und Industrieprojekte",
+      "subtitle": "Professionelle Elektroinstallationen, Verkabelung, Schaltschränke, Wechselrichteranschlüsse und Elektrosysteme in Estland und ganz Europa.",
+      "cta": "Angebot anfordern",
+      "ctaSecondary": "Unsere Projekte ansehen",
+      "badgeRegistry": "MTR-Registrierung für Elektroarbeiten TEL005181"
+    },
+    "services": {
+      "eyebrow": "Leistungen",
+      "title": "Elektrodienstleistungen",
+      "subtitle": "Elektroinstallationen und -systeme für Solarparks, Industrie, Gewerbegebäude und Großbauprojekte.",
+      "items": [
+        {
+          "title": "Elektroarbeiten für Solarparks",
+          "list": [
+            "DC-Verkabelung",
+            "AC-Verkabelung",
+            "Wechselrichteranschlüsse",
+            "Kabeltrassen",
+            "Verteilerschaltschränke",
+            "Geräteanschlüsse",
+            "Elektroinstallationen"
+          ]
+        },
+        {
+          "title": "Schaltschränke und Verteilersysteme",
+          "list": [
+            "Verteilerschaltschränke",
+            "Hauptschaltschränke",
+            "Unterverteilungen",
+            "Systemerweiterung",
+            "Modernisierung bestehender Schaltschränke"
+          ]
+        },
+        {
+          "title": "Verkabelung",
+          "list": [
+            "Starkstromverkabelung",
+            "Schwachstromverkabelung",
+            "Kabeltrassen",
+            "Verkabelung für Gebäude und Industriestandorte",
+            "Solarpark-Verkabelung"
+          ]
+        },
+        {
+          "title": "Wechselrichter und Energiesysteme",
+          "list": [
+            "Wechselrichterinstallation",
+            "Elektroanschluss von Wechselrichtern",
+            "AC/DC-Anschlüsse für Solaranlagen",
+            "Elektroanschlüsse für Batteriespeicher",
+            "Erweiterung der Energieinfrastruktur"
+          ]
+        },
+        {
+          "title": "Erdung und Blitzschutz",
+          "list": [
+            "Erdungssysteme",
+            "Potenzialausgleich",
+            "Blitzschutzsysteme",
+            "Elektrosicherheitslösungen"
+          ]
+        },
+        {
+          "title": "Prüfung und Messung",
+          "list": [
+            "Messung von Elektroinstallationen",
+            "Systemprüfung",
+            "Fehlersuche",
+            "Bewertung bestehender Elektrosysteme",
+            "Erstellung von Dokumentation nach Projektanforderungen"
+          ]
+        },
+        {
+          "title": "Gewerbliche und industrielle Elektroarbeiten",
+          "list": [
+            "Neue Elektroinstallationen",
+            "Modernisierung bestehender Systeme",
+            "Elektroarbeiten in Produktionsstätten",
+            "Elektroarbeiten in Gewerberäumen",
+            "Anschluss von Großverbrauchern"
+          ]
+        },
+        {
+          "title": "Elektrolösungen für Ladeinfrastruktur",
+          "list": [
+            "Stromversorgung für Ladestationen",
+            "Verkabelung",
+            "Schaltschranklösungen",
+            "Elektroarbeiten im Zusammenhang mit Lastmanagement",
+            "Vorbereitung der Ladeinfrastruktur"
+          ]
+        }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Kompetenz und Registrierung",
+      "title": "Qualifizierte Elektroarbeiten",
+      "lead": "HeilAres führt Elektroarbeiten auf Grundlage der entsprechenden Kompetenz und Registrierung durch.",
+      "registry": {
+        "label": "MTR-Registrierung",
+        "value": "TEL005181",
+        "note": "Registrierung für Elektroarbeiten im estnischen Register für Wirtschaftstätigkeiten (MTR)."
+      }
+    },
+    "future": {
+      "eyebrow": "Zukunftsorientiert",
+      "title": "Eine Elektrolösung für die Zukunft",
+      "p1": "Bei der Planung und dem Bau eines Elektrosystems lohnt es sich, zukünftige Energiebedarfe des Gebäudes oder Standorts zu berücksichtigen. Solarpanels, Batteriespeicher, Ladestationen, größere Produktionsanlagen und weitere Verbraucher können später eine erhebliche Überarbeitung des bestehenden Systems erfordern.",
+      "p2": "HeilAres hilft bei der Planung der Elektrolösung, damit das System in Zukunft erweitert werden kann.",
+      "todayLabel": "Heute",
+      "todayValue": "Elektrosystem",
+      "tomorrowLabel": "Morgen",
+      "tomorrowValue": "Solarenergie + Batteriespeicher + Ladeinfrastruktur + größere Verbraucher"
+    },
+    "process": {
+      "eyebrow": "So arbeiten wir",
+      "title": "So arbeiten wir",
+      "steps": [
+        {
+          "title": "Beratung",
+          "desc": "Wir erfassen den Standort, das bestehende Elektrosystem und die Projektanforderungen."
+        },
+        {
+          "title": "Technische Lösung",
+          "desc": "Wir erstellen eine passende Elektrolösung und definieren den Leistungsumfang."
+        },
+        {
+          "title": "Installation",
+          "desc": "Wir führen die Elektroarbeiten gemäß den Projekt- und Standortanforderungen durch."
+        },
+        {
+          "title": "Prüfung und Übergabe",
+          "desc": "Wir prüfen die fertiggestellten Arbeiten und übergeben das System entsprechend den Projektanforderungen."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Warum HeilAres",
+      "title": "Warum HeilAres?",
+      "items": [
+        {
+          "title": "Erfahrung mit Großprojekten",
+          "desc": "HeilAres hat an der Umsetzung großflächiger Solarenergieprojekte in Estland und im Baltikum mitgewirkt."
+        },
+        {
+          "title": "Qualifizierte Elektroarbeiten",
+          "desc": "Unsere Elektroarbeiten werden durch die MTR-Registrierung TEL005181 des Unternehmens abgesichert."
+        },
+        {
+          "title": "Schlüsselfertiger Ansatz",
+          "desc": "Elektroarbeiten können mit dem gesamten Solarpark- oder Energieprojekt kombiniert werden."
+        },
+        {
+          "title": "Erfahrene Teams",
+          "desc": "Professionelle Montageteams und projektbezogene Arbeitsorganisation."
+        },
+        {
+          "title": "Estland und Europa",
+          "desc": "Wir können Projekte in Estland und anderen europäischen Ländern realisieren."
+        }
+      ],
+      "subtitle": "HeilAres liefert Elektroarbeiten, abgesichert durch MTR-Kompetenz und jahrelange Erfahrung mit Großprojekten."
+    },
+    "projects": {
+      "eyebrow": "Projekte",
+      "title": "Projekte, an denen wir mitgewirkt haben",
+      "lead": "HeilAres hat an der Umsetzung folgender großflächiger Solarenergieprojekte mitgewirkt. Der genaue Leistungsumfang variiert je nach Projekt.",
+      "link": "Alle Projekte ansehen"
+    },
+    "cta": {
+      "title": "Benötigen Sie eine Elektrolösung für Ihr Projekt?",
+      "subtitle": "Senden Sie uns die wichtigsten Projektdaten und wir prüfen, wie wir helfen können.",
+      "button": "Angebot anfordern"
+    },
+    "heroAlt": "Elektriker verbinden Wechselrichter und Verteilerschaltschränke eines Solarparks neben Kabeltrassen",
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles, was Sie über die Elektroarbeiten von HeilAres wissen müssen.",
+      "items": {
+        "scope": {
+          "question": "Welche Elektroarbeiten führt HeilAres durch?",
+          "answer": "Wir führen Elektroinstallationen, Verkabelung, Schaltschränke, Wechselrichter- und Energiesystemarbeiten in Solarparks, Industrie- und Gewerbegebäuden sowie anderen Großanlagen durch."
+        },
+        "existing": {
+          "question": "Führt HeilAres auch Elektroarbeiten an bestehenden Anlagen durch?",
+          "answer": "Ja. Wir übernehmen sowohl den Bau neuer Elektroinstallationen als auch die Modernisierung, Erweiterung und Anpassung bestehender Elektrosysteme."
+        },
+        "solar": {
+          "question": "Führen Sie Elektroarbeiten für Solarparks durch?",
+          "answer": "Ja. Bei Solarparks führen wir DC- und AC-Verkabelung, Wechselrichteranschluss, Kabelverlegung und die Installation der elektrischen Verteilanlage nach Projektanforderungen durch."
+        },
+        "switchboards": {
+          "question": "Arbeiten Sie auch mit elektrischen Schaltschränken?",
+          "answer": "Ja. Wir führen Installations-, Anschluss-, Modernisierungs- und Erweiterungsarbeiten im Bereich Elektroverteilung und Schaltschränke durch."
+        },
+        "industrial": {
+          "question": "Führen Sie Elektroarbeiten in Industrie- und Gewerbegebäuden durch?",
+          "answer": "Ja. Wir bieten Elektroarbeiten für Industrie-, Lager-, Gewerbe- und andere Großanlagen an."
+        },
+        "planning": {
+          "question": "Können Sie auch bei der Planung des Elektrosystems helfen?",
+          "answer": "Ja. Wir können den Elektrobedarf des Gebäudes bewerten und beim Entwurf einer Lösung helfen, die künftige Erweiterungen wie Solarenergie, Batteriespeicher, Ladestationen oder andere Großverbraucher ermöglicht."
+        },
+        "ev": {
+          "question": "Führen Sie Elektroarbeiten für Ladestationen durch?",
+          "answer": "Ja. Wir übernehmen die Stromversorgung von Ladestationen, Verkabelung und Schaltschrankarbeiten sowie die Vorbereitung der Ladeinfrastruktur."
+        },
+        "registration": {
+          "question": "Verfügt HeilAres über die erforderliche Registrierung für Elektroarbeiten?",
+          "answer": "Ja. HeilAres verfügt über die MTR-Registrierung für Elektroarbeiten TEL005181."
+        },
+        "regions": {
+          "question": "In welchen Regionen führt HeilAres Elektroarbeiten durch?",
+          "answer": "Wir realisieren Projekte in Estland und, je nach Projektart, auch in anderen Teilen Europas."
+        },
+        "ordering": {
+          "question": "Wie läuft die Beauftragung von Elektroarbeiten ab?",
+          "answer": "Wir beginnen mit der Erfassung des Projekts und der Anforderungen. Anschließend bewerten wir den Leistungsumfang, erstellen eine technische Lösung samt Angebot und vereinbaren die Ausführung."
+        },
+        "quote": {
+          "question": "Wie kann ich ein Angebot für Elektroarbeiten erhalten?",
+          "answer": "Senden Sie uns die wichtigsten Details des Projekts oder der Anlage sowie, falls möglich, Projektunterlagen, Zeichnungen oder Informationen zum bestehenden System. Anschließend können wir den Umfang bewerten und ein Angebot erstellen."
+        }
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Alles, was Sie über die Solarprojekte von HeilAres wissen müssen.",
+    "items": {
+      "turnkey": {
+        "question": "Was bedeutet schlüsselfertige Solarpark-Installation?",
+        "lead": "HeilAres übernimmt die volle Verantwortung für die Installation — von der Montagestruktur bis zum Wechselrichteranschluss.",
+        "answer": "HeilAres übernimmt die Verantwortung für die Installationsarbeiten — Montagestruktur- und Panelinstallation, DC-Arbeiten und Wechselrichteranschluss. Der Kunde erhält einen Partner für die gesamte Installation."
+      },
+      "size": {
+        "question": "Wie groß sind die von HeilAres gebauten Solarparks?",
+        "lead": "HeilAres hat an Solarpark-Installationen mit insgesamt über 400 MW in ganz Europa mitgewirkt.",
+        "answer": "Wir haben an Solarpark-Installationen mit insgesamt über 400 MW mitgewirkt, darunter der 244-MW-Solarpark Risti in Estland und der 72,5-MW-Park Stelpe in Lettland. Wir realisieren Projekte von wenigen hundert kW bis zu hunderten MW."
+      },
+      "countries": {
+        "question": "In welchen Ländern ist HeilAres tätig?",
+        "lead": "HeilAres ist in Estland und Lettland tätig und expandiert nach Finnland und in weitere europäische Länder.",
+        "answer": "Wir sind in Estland und Lettland tätig und expandieren nach Finnland und in weitere europäische Länder. Unsere Teams sind europaweit für einen schnellen Einsatzstart bereit."
+      },
+      "types": {
+        "question": "Welche Arten von Solarparks bauen Sie?",
+        "lead": "HeilAres baut Solar Tracker Parks, Freiflächen-Solarparks und Dach-Solarparks.",
+        "answer": "Wir bauen drei Haupttypen — Solar Tracker Parks (sonnennachführende Systeme), Freiflächen-Solarparks und Dach-Solarparks für Industriegebäude."
+      },
+      "quoteSpeed": {
+        "question": "Wie schnell kann ich ein Angebot erhalten?",
+        "lead": "HeilAres beantwortet Angebotsanfragen innerhalb von 24 Stunden.",
+        "answer": "Wir beantworten Anfragen innerhalb von 24 Stunden."
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Projekt zu starten?",
+    "subtitle": "Fordern Sie ein Angebot an — wir antworten innerhalb von 24 Stunden.",
+    "button": "Angebot anfordern"
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Lassen Sie uns über Ihr Projekt sprechen. Wir antworten so schnell wie möglich.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "company": "Unternehmen",
+      "projectType": "Projektart",
+      "message": "Nachricht",
+      "submit": "Anfrage senden",
+      "namePlaceholder": "Ihr Name",
+      "emailPlaceholder": "sie@unternehmen.com",
+      "phonePlaceholder": "+372 ...",
+      "companyPlaceholder": "Firmenname",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt — Standort, Größe, Zeitrahmen...",
+      "selectType": "Art auswählen",
+      "types": {
+        "tracker_park": "Solar Tracker Park",
+        "maapark": "Freiflächen-Solarpark",
+        "katusepark": "Dach-Solarpark",
+        "electrical": "Elektroarbeiten",
+        "workforce": "Personalvermietung",
+        "other": "Sonstiges",
+        "battery": "Batteriespeicher / BESS"
+      }
+    },
+    "errors": {
+      "nameRequired": "Bitte geben Sie Ihren Namen ein",
+      "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+      "emailInvalid": "Ungültige E-Mail-Adresse",
+      "messageRequired": "Bitte beschreiben Sie Ihr Projekt"
+    },
+    "info": {
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "location": "Standort",
+      "locationValue": "Estland & Europa"
+    },
+    "map": {
+      "title": "Standort von HeilAres auf Google Maps",
+      "zoomIn": "Vergrößern",
+      "zoomOut": "Verkleinern",
+      "directions": "Route zu HeilAres"
+    }
+  },
+  "footer": {
+    "tagline": "Spezialisten für Solarenergie aus Estland, in ganz Europa tätig.",
+    "nav": "Seiten",
+    "services": "Leistungen",
+    "contactCol": "Kontakt",
+    "rights": "Alle Rechte vorbehalten",
+    "social": "Soziale Medien",
+    "directions": "Schwerpunktbereiche",
+    "dirGreen": "Grüne Energie",
+    "dirWorkforce": "Personalvermietung",
+    "dirWorks": "Abgeschlossene Arbeiten",
+    "dirQuote": "Angebot anfordern",
+    "mtr": "MTR für Elektroarbeiten: TEL005181"
+  },
+  "quote": {
+    "title": "Angebot anfordern",
+    "subtitle": "Füllen Sie das Formular aus und wir senden Ihnen innerhalb von 24 Stunden ein maßgeschneidertes Angebot.",
+    "close": "Schließen"
+  },
+  "blog": {
+    "eyebrow": "BLOG",
+    "title": "Artikel zur Solarenergie",
+    "subtitle": "Faktenbasierte Artikel für Solarpark-Entwickler, Industriekunden und Partner im Bereich grüne Energie.",
+    "readMore": "Weiterlesen",
+    "back": "Zurück zum Blog",
+    "minutes": "Min. Lesezeit",
+    "faqHeading": "Häufig gestellte Fragen",
+    "filters": {
+      "all": "Alle",
+      "epc": "EPC und Partner",
+      "park_types": "Parktypen",
+      "components": "Komponenten",
+      "maintenance": "Wartung",
+      "electrical": "Elektroarbeiten",
+      "storage": "Batteriespeicher / BESS",
+      "workforce": "Personalvermietung"
+    },
+    "category": "Kategorie",
+    "heroAlt": "Solar Tracker Park mit sonnennachführenden Panelreihen"
+  },
+  "seo": {
+    "home": {
+      "title": "HeilAres OÜ — Spezialisten für Solarenergie in Estland und Europa",
+      "description": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark. Wir sind in Estland und ganz Europa tätig.",
+      "twitterTitle": "HeilAres OÜ — Spezialisten für Solarenergie in Estland und Europa",
+      "twitterDescription": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark. Wir sind in Estland und ganz Europa tätig."
+    },
+    "panels": {
+      "title": "Solarpanels — Tracker-, Freiflächen- und Dachparks | HeilAres",
+      "description": "Drei Kern-Installationsarten für B2B-Kunden. Tier-1-Komponenten, erfahrene Teams, Megawatt-Maßstab."
+    },
+    "electrical": {
+      "title": "Elektroarbeiten und Installationen | HeilAres",
+      "description": "Professionelle Elektroarbeiten für Solarparks, Industrie- und Gewerbeprojekte. Verkabelung, Schaltschränke, Wechselrichter, Elektroinstallationen und Energielösungen. MTR TEL005181."
+    },
+    "workforce": {
+      "title": "Personalvermietung — Schiffbau und Fabriken | HeilAres",
+      "description": "Erfahrenes Personal zur Vermietung. Schiffbau- und Industriestandorte in ganz Europa und Skandinavien. Schneller Einsatzstart."
+    },
+    "projects": {
+      "title": "Projekte — Solarparks in Estland und Europa | HeilAres",
+      "description": "Großflächige Solarprojekte — Risti, Stelpe, Kirikmäe, Lielvarde und mehr."
+    },
+    "contact": {
+      "title": "Kontakt — HeilAres OÜ",
+      "description": "Erreichen Sie das HeilAres-Team. info@heilares.ee."
+    },
+    "blog": {
+      "title": "Blog — Wissensdatenbank Solarenergie | HeilAres",
+      "description": "B2B-fokussierte Artikel zu Solarpark-EPC, schlüsselfertigem Bau, Tier-1-Panels und Betriebsführung."
+    },
+    "bess": {
+      "title": "Batteriespeicher- und BESS-Lösungen | HeilAres",
+      "description": "Batteriespeicher- und BESS-Lösungen für Solarparks, Unternehmen und Industrie. Energiespeicherung, Lastmanagement und Systemintegration in Estland und Europa."
+    }
+  },
+  "roles": {
+    "workforce": "Personalvermietung",
+    "greenEnergy": "Grüne Energie",
+    "partnershipManager": "Partnerschaftsmanager"
+  },
+  "batterySection": {
+    "eyebrow": "BATTERIESPEICHER / BESS",
+    "title": "Energiespeicherung für Unternehmen und Energieinfrastruktur",
+    "subtitle": "Projektspezifische BESS-Lösungen für Solarparks, Industrie und Gewerbekunden.",
+    "items": {
+      "storage": {
+        "title": "Energiespeicherung",
+        "desc": "Speichern Sie erzeugte Energie und nutzen Sie sie nach Bedarf Ihres Standorts."
+      },
+      "solar": {
+        "title": "Solarpark + BESS",
+        "desc": "Kombinieren Sie Erzeugung und Speicherung zu einem steuerbaren System."
+      },
+      "loads": {
+        "title": "Lastmanagement",
+        "desc": "Gleichen Sie Erzeugung und Verbrauch aus und managen Sie Spitzenlasten."
+      },
+      "industry": {
+        "title": "Industrielle Energieinfrastruktur",
+        "desc": "Integrieren Sie BESS in Ihr bestehendes Elektrosystem."
+      }
+    }
+  },
+  "bessPage": {
+    "hero": {
+      "title": "Batteriespeicher- und BESS-Lösungen",
+      "subtitle": "Speichern Sie Energie, gleichen Sie den Verbrauch aus und nutzen Sie Ihre Energieinfrastruktur effizienter.",
+      "support": "Projektspezifische Energiespeicherlösungen für Solarparks, Unternehmen und Industriestandorte in Estland und Europa.",
+      "primary": "Angebot anfordern",
+      "secondary": "So funktioniert es",
+      "trust": [
+        "Energiespeicherung",
+        "BESS",
+        "Solarenergie",
+        "Elektroinfrastruktur"
+      ]
+    },
+    "heroAlt": "Industrielle BESS-Container, Elektroinfrastruktur und ein Solarpark in Nordeuropa",
+    "what": {
+      "eyebrow": "ENERGIESPEICHERUNG",
+      "title": "Was ist BESS?",
+      "p1": "BESS, also Battery Energy Storage System, speichert elektrische Energie zur Nutzung, wenn sie am meisten benötigt wird.",
+      "p2": "BESS kann in einen Solarpark, ein Unternehmenselektrosystem oder eine andere Energieinfrastruktur integriert werden.",
+      "p3": "Speicherung bedeutet nicht nur, Energie zu halten; sie macht das gesamte Energiesystem flexibler und steuerbarer.",
+      "flow": [
+        "Erzeugung",
+        "BESS",
+        "Verbrauch / Netz"
+      ]
+    },
+    "benefits": {
+      "eyebrow": "VORTEILE VON BESS",
+      "title": "Warum Batteriespeicher in Ihr Energiesystem integrieren?",
+      "items": [
+        {
+          "title": "Erzeugte Energie speichern",
+          "desc": "Speichern Sie Energie, wenn die Erzeugung den aktuellen Bedarf übersteigt, und nutzen Sie sie später."
+        },
+        {
+          "title": "Erzeugung und Bedarf ausgleichen",
+          "desc": "Batteriespeicher helfen, die Energieerzeugung an den Verbrauch anzupassen."
+        },
+        {
+          "title": "Spitzenlasten managen",
+          "desc": "Nutzen Sie gespeicherte Energie während Spitzenlastzeiten, um die Systemlast zu steuern."
+        },
+        {
+          "title": "Mehr erneuerbare Energie integrieren",
+          "desc": "BESS macht die Solarstromerzeugung flexibler und steuerbarer."
+        },
+        {
+          "title": "Energienutzung optimieren",
+          "desc": "Speichern und nutzen Sie Energie entsprechend dem Lastprofil des Standorts und den Systemzielen."
+        },
+        {
+          "title": "Für die Zukunft vorbereitet sein",
+          "desc": "Speicherung schafft Flexibilität und ermöglicht die Weiterentwicklung der Infrastruktur bei Bedarf."
+        }
+      ]
+    },
+    "audiences": {
+      "eyebrow": "ANWENDUNGSBEREICHE",
+      "title": "Batteriespeicher für unterschiedliche Energienutzer",
+      "items": [
+        {
+          "title": "Solarparks",
+          "desc": "Speichern Sie die Solarstromerzeugung und machen Sie die Produktion flexibler."
+        },
+        {
+          "title": "Industrie",
+          "desc": "Managen Sie große Lasten und optimieren Sie die Energienutzung anhand des tatsächlichen Verbrauchsprofils."
+        },
+        {
+          "title": "Gewerbegebäude",
+          "desc": "Integrieren Sie Speicherung in bestehende Infrastruktur und nutzen Sie erzeugte oder gespeicherte Energie flexibler."
+        },
+        {
+          "title": "Energieprojekte",
+          "desc": "BESS kann Teil eines größeren Projekts für erneuerbare Energien und Netzintegration sein."
+        }
+      ]
+    },
+    "solar": {
+      "eyebrow": "SOLARPARK + BESS",
+      "title": "Solarpark und Batteriespeicher als ein System",
+      "p1": "Ein Solarpark erzeugt Energie, wenn Sonnenlicht verfügbar ist, während der Bedarf zu einem anderen Zeitpunkt entstehen kann. Batteriespeicher ermöglichen es, einen Teil der erzeugten Energie zu speichern und später zu nutzen.",
+      "p2": "HeilAres kann Solarstromerzeugung und Batteriespeicherung zu einer integrierten Energielösung kombinieren.",
+      "flow": [
+        "Solarpark",
+        "Wechselrichter",
+        "BESS",
+        "Verbrauch / Netz"
+      ],
+      "note": "Die richtige Lösung hängt von Erzeugung, Verbrauch, Netzanschluss und Projektzielen ab.",
+      "link": "Solarpark-Lösungen entdecken"
+    },
+    "sizing": {
+      "eyebrow": "PROJEKTSPEZIFISCHE DIMENSIONIERUNG",
+      "title": "Der Batteriespeicher muss zum Projekt passen, nicht umgekehrt",
+      "p1": "Jedes Energiespeicherprojekt ist anders. Die Auswahl des richtigen BESS erfordert die Berücksichtigung von Verbrauch, Erzeugungsprofil, Netzanschluss, erforderlicher Leistung, Speicherkapazität und geplanter Nutzung.",
+      "p2": "Deshalb bietet HeilAres nicht ein Standard-Batteriesystem für alle an.",
+      "p3": "Die Lösung wird entsprechend den technischen Anforderungen des Projekts ausgewählt.",
+      "flow": [
+        "Verbrauch",
+        "Erzeugung",
+        "Netzanschluss",
+        "Leistung",
+        "Speicherkapazität",
+        "BESS-Lösung"
+      ]
+    },
+    "solution": {
+      "eyebrow": "KOMPLETTLÖSUNG",
+      "title": "Eine vollständige Batteriespeicherlösung",
+      "items": [
+        {
+          "title": "Batteriesystem",
+          "desc": "Ein für den Energiespeicherbedarf des Projekts ausgewähltes Batteriesystem."
+        },
+        {
+          "title": "Wechselrichter und Umrichter",
+          "desc": "Ausrüstung zur Steuerung der Energieflüsse und des Systembetriebs."
+        },
+        {
+          "title": "Steuerungssystem",
+          "desc": "Steuerung und Optimierung entsprechend den Projektzielen."
+        },
+        {
+          "title": "Elektroinstallation",
+          "desc": "Verkabelung, Schaltschränke, Schutzsysteme und erforderliche Elektroanschlüsse."
+        },
+        {
+          "title": "Überwachung",
+          "desc": "Überwachung des Systembetriebs und Nutzung der Daten zur Steuerung."
+        },
+        {
+          "title": "Netzanschluss",
+          "desc": "Eine auf den Netzanschluss und die technischen Bedingungen des Standorts abgestimmte Lösung."
+        }
+      ]
+    },
+    "electrical": {
+      "eyebrow": "BESS UND ELEKTROARBEITEN",
+      "title": "BESS erfordert ebenfalls eine professionelle Elektrolösung",
+      "p1": "Batteriespeicher ist kein eigenständiges Gerät. Er muss in das Elektrosystem des Standorts, Wechselrichter, Schutzsysteme, Verkabelung und Netzanschluss integriert werden.",
+      "p2": "HeilAres kann die elektrische Seite eines BESS-Projekts mit anderen Energielösungen verbinden.",
+      "registry": "MTR TEL005181",
+      "registryNote": "Registrierung der Elektroarbeiten von HeilAres im estnischen Register für Wirtschaftstätigkeiten.",
+      "cta": "Elektroarbeiten entdecken"
+    },
+    "safety": {
+      "eyebrow": "SICHERHEIT UND ZUVERLÄSSIGKEIT",
+      "title": "Sicherheit und Zuverlässigkeit sind fester Bestandteil von BESS",
+      "p1": "Batteriespeichersysteme erfordern die Berücksichtigung der gesamten technischen Architektur, der elektrischen Sicherheit, der Temperaturbedingungen, der Schutzsysteme und des Brandschutzes.",
+      "p2": "Planung und Installation müssen den jeweiligen Standort, die gewählte Technologie und die geltenden technischen Anforderungen berücksichtigen.",
+      "points": [
+        "Elektrische Sicherheit",
+        "Temperaturbedingungen",
+        "Schutzsysteme",
+        "Brandschutz"
+      ]
+    },
+    "future": {
+      "eyebrow": "ZUKUNFTSFÄHIGE ENERGIEINFRASTRUKTUR",
+      "title": "Planen Sie Ihre Energieinfrastruktur für die nächste Stufe",
+      "p1": "Der Energiebedarf verändert sich. Künftige Erweiterungen können neue Solarparks, Ladestationen, Produktionsanlagen, Speicher oder andere Großverbraucher umfassen.",
+      "p2": "Die Energieinfrastruktur sollte daher unter Berücksichtigung möglicher künftiger Erweiterungen geplant werden.",
+      "stages": [
+        {
+          "label": "Heute",
+          "value": "Solarenergie"
+        },
+        {
+          "label": "Nächste Stufe",
+          "value": "Solarenergie + BESS"
+        },
+        {
+          "label": "Zukunft",
+          "value": "Solarenergie + BESS + Ladeinfrastruktur + Industrielasten"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "SO ARBEITEN WIR",
+      "title": "Von den Anforderungen bis zur Inbetriebnahme",
+      "items": [
+        {
+          "title": "Bedarfsermittlung",
+          "desc": "Wir analysieren den Standort, Verbrauch, Erzeugung, Netzanschluss und das Projektziel."
+        },
+        {
+          "title": "Technische Lösung",
+          "desc": "Wir entwickeln eine passende Speicherlösung und definieren den erforderlichen Umfang."
+        },
+        {
+          "title": "Installation und Integration",
+          "desc": "Wir installieren und schließen das System an und koordinieren die Integration in die Standortinfrastruktur."
+        },
+        {
+          "title": "Inbetriebnahme und Übergabe",
+          "desc": "Wir prüfen den Betrieb, nehmen die erforderlichen Einstellungen vor und übergeben die Lösung."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "WARUM HEILARES",
+      "title": "Warum HeilAres als Partner für Batteriespeicher wählen?",
+      "subtitle": "Ein projektspezifischer, ganzheitlicher Ansatz verbindet Energiespeicherung mit Solarenergie und professionellen Elektroarbeiten.",
+      "items": [
+        {
+          "title": "Erfahrung mit erneuerbaren Energien",
+          "desc": "Das Kerngeschäft von HeilAres ist mit Projekten im Bereich erneuerbare und Solarenergie verbunden."
+        },
+        {
+          "title": "Integrierte Lösung",
+          "desc": "Batteriespeicher kann mit Solarparks und Elektroarbeiten kombiniert werden."
+        },
+        {
+          "title": "Projektspezifischer Ansatz",
+          "desc": "Die Lösung wird nach den Anforderungen des jeweiligen Standorts ausgewählt."
+        },
+        {
+          "title": "Elektrokompetenz",
+          "desc": "Die elektrische Seite der Speicherung kann mit der Elektroarbeiten-Kompetenz von HeilAres verbunden werden."
+        },
+        {
+          "title": "Estland und Europa",
+          "desc": "Projekte können je nach Umfang und Bedarf in Estland und anderen Teilen Europas realisiert werden."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Häufig gestellte Fragen zu BESS-Lösungen",
+      "subtitle": "Wichtige Informationen zur Planung, Integration und Nutzung von Batteriespeichern.",
+      "items": {
+        "what": {
+          "question": "Was ist BESS?",
+          "answer": "BESS ist ein batteriebasiertes Energiespeichersystem, das elektrische Energie zur späteren Nutzung entsprechend den Systemzielen speichert."
+        },
+        "uses": {
+          "question": "Wofür wird Batteriespeicher eingesetzt?",
+          "answer": "Er kann Solarenergie speichern, Erzeugung und Verbrauch ausgleichen, Spitzenlasten managen und die Infrastruktur flexibler machen."
+        },
+        "existingSolar": {
+          "question": "Kann Speicherung mit einem bestehenden Solarpark verbunden werden?",
+          "answer": "Ja. Die geeignete Lösung hängt von der bestehenden Systemarchitektur, dem Netzanschluss und den Projektzielen ab."
+        },
+        "size": {
+          "question": "Welche Größe an Batteriesystem benötigt mein Unternehmen?",
+          "answer": "Die Dimensionierung erfordert das Lastprofil, Spitzenlasten, Erzeugungskapazität, Netzanschluss und die geplante Nutzung — nicht allein den Jahresverbrauch."
+        },
+        "dimensioning": {
+          "question": "Kann HeilAres bei der Dimensionierung der Lösung helfen?",
+          "answer": "Ja. Wir erfassen zunächst den Energieverbrauch, die Erzeugung und die technischen Bedingungen des Standorts."
+        },
+        "industry": {
+          "question": "Eignet sich BESS für die Industrie?",
+          "answer": "Ja. Die geeignete Lösung wird anhand des standortspezifischen Verbrauchs- und Erzeugungsprofils bestimmt."
+        },
+        "ev": {
+          "question": "Kann Batteriespeicher mit Ladestationen zusammenarbeiten?",
+          "answer": "Ja. Er kann Teil einer umfassenderen Infrastruktur einschließlich Ladeinfrastruktur sein, abhängig vom Elektrosystem und Lastprofil."
+        },
+        "electrical": {
+          "question": "Führt HeilAres auch die Elektroarbeiten für BESS durch?",
+          "answer": "Ja. Der elektrische Anschluss und die Installation von BESS können mit den Elektrodienstleistungen von HeilAres kombiniert werden. MTR-Registrierung TEL005181."
+        },
+        "expansion": {
+          "question": "Kann der Batteriespeicher später erweitert werden?",
+          "answer": "Das hängt von der Systemarchitektur ab. Bekannte künftige Erweiterungen sollten bereits bei der ursprünglichen Infrastrukturplanung berücksichtigt werden."
+        },
+        "timeline": {
+          "question": "Wie lange dauert ein BESS-Projekt?",
+          "answer": "Der Zeitrahmen hängt von Systemgröße, Standortbereitschaft, Planung, Verfügbarkeit der Ausrüstung, Netzanschluss und Genehmigungen ab. Der Zeitplan ist projektspezifisch."
+        },
+        "start": {
+          "question": "Wie starte ich ein Batteriespeicherprojekt?",
+          "answer": "Senden Sie die Standortdaten, Informationen zu Verbrauch und Erzeugung sowie verfügbare Unterlagen zu Elektrik oder Netzanschluss. Anschließend können wir die Anforderungen bewerten."
+        }
+      }
+    },
+    "cta": {
+      "title": "Benötigt Ihre Energieinfrastruktur einen Batteriespeicher?",
+      "subtitle": "Senden Sie uns die wichtigsten Projektdaten und wir prüfen, welche Energiespeicherlösung für Ihren Standort geeignet sein könnte.",
+      "primary": "Angebot anfordern",
+      "secondary": "Kontakt aufnehmen"
+    }
+  },
+  "system": {
+    "notFoundTitle": "Seite nicht gefunden",
+    "notFoundText": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "home": "Zur Startseite",
+    "errorTitle": "Diese Seite konnte nicht geladen werden",
+    "errorText": "Etwas ist schiefgelaufen. Versuchen Sie es erneut oder kehren Sie zur Startseite zurück.",
+    "retry": "Erneut versuchen"
+  }
+}

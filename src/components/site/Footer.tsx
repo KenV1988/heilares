@@ -1,30 +1,28 @@
-import { Link } from "@tanstack/react-router";
-import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, Clock } from "lucide-react";
+
+import { Linkedin, Mail, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Logo } from "./Logo";
 import { NAV_LINKS } from "@/lib/nav";
 import { company } from "@/data/company";
+import { LocalizedLink } from "./LocalizedLink";
 
 export function Footer() {
   const { t } = useTranslation();
   const year = new Date().getFullYear();
 
-  const socials = [
-    { Icon: Facebook, href: company.social.facebook, label: "Facebook" },
-    { Icon: Instagram, href: company.social.instagram, label: "Instagram" },
-    { Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" },
-  ];
+  const socials = [{ Icon: Linkedin, href: company.social.linkedin, label: "LinkedIn" }];
+
 
   const goldBorder = { borderColor: "rgba(214,178,106,0.30)" };
   const goldDivider = { borderColor: "rgba(214,178,106,0.18)" };
 
   const directions = [
     { label: t("footer.dirGreen"), to: "/paikesepargid" as const, accent: false },
+    { label: t("nav.battery"), to: "/akupangad" as const, accent: false },
     { label: t("footer.dirWorkforce"), to: "/toojou-rent" as const, accent: false },
     { label: t("footer.dirWorks"), to: "/tehtud-tood" as const, accent: false },
     { label: t("footer.dirQuote"), to: "/kontakt" as const, accent: true },
   ];
-
 
   const Diamond = () => (
     <span
@@ -35,9 +33,12 @@ export function Footer() {
   );
 
   return (
-    <footer className="bg-[var(--bg-elevated)]" style={{ borderTop: "1px solid rgba(214,178,106,0.2)" }}>
+    <footer
+      className="bg-[var(--bg-elevated)]"
+      style={{ borderTop: "1px solid rgba(214,178,106,0.2)" }}
+    >
       <div className="container-x pt-16 pb-6 md:pt-20 md:pb-6">
-        <div className="grid gap-12 md:grid-cols-[1.3fr_1fr_1.2fr_1fr]">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1.2fr_1fr]">
           {/* Brand column */}
           <div className="flex flex-col">
             <Logo size="footer" />
@@ -58,9 +59,12 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {NAV_LINKS.map((l) => (
                 <li key={l.to}>
-                  <Link to={l.to} className="text-white/75 transition hover:text-[var(--brand)]">
+                  <LocalizedLink
+                    to={l.to}
+                    className="text-white/75 transition hover:text-[var(--brand)]"
+                  >
                     {t(l.key)}
-                  </Link>
+                  </LocalizedLink>
                 </li>
               ))}
             </ul>
@@ -78,14 +82,17 @@ export function Footer() {
                   {company.email}
                 </a>
               </li>
-              {company.contacts.map((c) => (
-                <li key={c.phoneHref} className="flex items-start gap-2.5">
-                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
+              {company.contacts.filter((c) => c.email !== "karl.raigo@heilares.ee").map((c) => (
+                <li key={c.email} className="flex items-start gap-2.5">
+                  <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand)]" />
                   <div>
                     <div className="font-medium text-white">{c.name}</div>
                     <div className="text-xs text-white/55">{t(c.areaKey)}</div>
-                    <a href={c.phoneHref} className="mt-0.5 inline-block hover:text-[var(--brand)]">
-                      {c.phone}
+                    <a
+                      href={`mailto:${c.email}`}
+                      className="mt-0.5 inline-block break-all hover:text-[var(--brand)]"
+                    >
+                      {c.email}
                     </a>
                   </div>
                 </li>
@@ -93,10 +100,6 @@ export function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 text-[var(--brand)]" />
                 <span>{t("contact.info.locationValue")}</span>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <Clock className="mt-0.5 h-4 w-4 text-[var(--brand)]" />
-                <span>{t("contact.info.hoursValue")}</span>
               </li>
             </ul>
           </div>
@@ -109,7 +112,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {directions.map((d) => (
                 <li key={d.to + d.label}>
-                  <Link
+                  <LocalizedLink
                     to={d.to}
                     className={
                       d.accent
@@ -118,7 +121,7 @@ export function Footer() {
                     }
                   >
                     {d.label}
-                  </Link>
+                  </LocalizedLink>
                 </li>
               ))}
             </ul>
@@ -130,12 +133,14 @@ export function Footer() {
           className="mt-12 grid grid-cols-1 items-center gap-3 border-t pt-5 text-xs text-white/45 md:grid-cols-3"
           style={goldDivider}
         >
-          {/* Social icons hidden until real profile links are available */}
-          <div className="hidden gap-2.5 md:justify-start justify-center">
+          {/* LinkedIn */}
+          <div className="flex gap-2.5 md:justify-start justify-center">
             {socials.map(({ Icon, href, label }) => (
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={label}
                 className="group grid h-8 w-8 place-items-center rounded-full border bg-transparent transition hover:[border-color:rgba(214,178,106,0.6)]"
                 style={goldBorder}
@@ -148,13 +153,13 @@ export function Footer() {
             © {year} {company.name}. {t("footer.rights")}.
           </p>
           <div className="md:text-right text-center">
-            <a
-              href="/"
+            <LocalizedLink
+              to="/"
               className="transition hover:opacity-100"
               style={{ color: "rgba(214,178,106,0.6)" }}
             >
               heilares.ee
-            </a>
+            </LocalizedLink>
           </div>
         </div>
       </div>

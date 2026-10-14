@@ -29,8 +29,10 @@ export function PageHero({
 }: Props) {
   return (
     <section
-      className={`relative flex flex-col overflow-hidden ${
-        compact ? "min-h-[280px] pt-36 pb-12" : "min-h-[420px] pt-36 pb-12 md:min-h-[520px] md:pt-44 md:pb-16"
+      className={`relative isolate flex flex-col overflow-hidden ${
+        compact
+          ? "min-h-[280px] pt-36 pb-12"
+          : "min-h-[420px] pt-36 pb-12 md:min-h-[520px] md:pt-44 md:pb-16"
       }`}
     >
       {backgroundImage && (
@@ -50,17 +52,15 @@ export function PageHero({
           />
         </>
       )}
-      {!backgroundImage && (
-        <div className="absolute inset-x-0 top-0 h-[500px] radial-glow -z-10" />
-      )}
+      {!backgroundImage && <div className="absolute inset-x-0 top-0 h-[500px] radial-glow -z-10" />}
 
       {decorative === "diamonds" && (
-        <div className="pointer-events-none absolute inset-x-0 top-28 flex justify-center gap-3 opacity-25" aria-hidden>
+        <div
+          className="pointer-events-none absolute inset-x-0 top-28 flex justify-center gap-3 opacity-25"
+          aria-hidden
+        >
           {[0, 1, 2].map((i) => (
-            <span
-              key={i}
-              className="block h-2.5 w-2.5 rotate-45 border border-[var(--gold)]"
-            />
+            <span key={i} className="block h-2.5 w-2.5 rotate-45 border border-[var(--gold)]" />
           ))}
         </div>
       )}
@@ -68,13 +68,11 @@ export function PageHero({
       <div className="container-x relative z-10 flex flex-1 flex-col items-center justify-center">
         <div className="w-full text-center">
           {badge && <SectionBadge>{badge}</SectionBadge>}
-          <h1 className="mx-auto mt-5 max-w-3xl text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px] min-h-[2.1em]">
+          <h1 className="mx-auto mt-5 max-w-3xl text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
             {title}
           </h1>
           {subtitle && (
-            <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg min-h-[3.5rem] md:min-h-[4rem]">
-              {subtitle}
-            </p>
+            <p className="mx-auto mt-5 max-w-3xl text-base text-white/70 md:text-lg">{subtitle}</p>
           )}
           {decorative === "diamonds" && (
             <div
@@ -86,13 +84,8 @@ export function PageHero({
         </div>
 
         {stats && stats.length > 0 && (
-          <div
-            className="mt-auto pt-12"
-          >
-            <div
-              className="border-t pt-8"
-              style={{ borderColor: "rgba(214,178,106,0.18)" }}
-            >
+          <div className="mt-auto pt-12">
+            <div className="border-t pt-8" style={{ borderColor: "rgba(214,178,106,0.18)" }}>
               <div className="grid grid-cols-3 gap-4 text-center">
                 {stats.map((s, i) => (
                   <div key={i}>

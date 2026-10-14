@@ -7,7 +7,10 @@
     "projects": "Toteutetut projektit",
     "blog": "Blogi",
     "contact": "Yhteystiedot",
-    "cta": "Pyydä tarjous"
+    "cta": "Pyydä tarjous",
+    "battery": "Akkuvarastot",
+    "menuLabel": "Valikko",
+    "languageLabel": "Vaihda kieltä"
   },
   "common": {
     "learnMore": "Lue lisää",
@@ -22,7 +25,7 @@
   "hero": {
     "badge": "AURINKOENERGIAN ASIANTUNTIJAT",
     "title": "Kokonaisvaltaiset <accent>aurinkoenergia</accent>ratkaisut",
-    "subtitle": "Avaimet käteen -aurinkopaneeliasennukset — maa-, katto- ja Solar Tracker Park Virossa ja koko Euroopassa. Tarjoamme myös työvoiman vuokrausta.",
+    "subtitle": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark Virossa ja koko Euroopassa. Tarjoamme myös työvoiman vuokrausta.",
     "primaryCta": "Pyydä tarjous",
     "secondaryCta": "Lue lisää"
   },
@@ -40,11 +43,11 @@
       "desc": "Aurinkoa seuraavat järjestelmät maksimaaliseen tuottoon suurissa aurinkopuistoissa."
     },
     "ground": {
-      "title": "Maa-asennettu puisto",
+      "title": "Maapark",
       "desc": "Maahan asennetut suurikokoiset aurinkopuistot. Täysi suunnittelu ja asennus."
     },
     "roof": {
-      "title": "Kattopuisto",
+      "title": "Katusepark",
       "desc": "Kattoasennukset teollisuushalleihin, varastoihin ja liikekiinteistöihin ympäri Eurooppaa."
     }
   },
@@ -70,7 +73,7 @@
     "eyebrow": "SÄHKÖTYÖT",
     "title": "Sähkötyöt aurinkopuistoille ja teollisuudelle",
     "subtitle": "Ammattimaiset sähköasennukset, kaapelointi, sähkökeskukset ja inverttereiden kytkennät aurinkopuistoille, teollisuudelle ja liikekiinteistöille.",
-    "badge": "MTR TEL005181 · Pätevyys taso 6",
+    "badge": "MTR TEL005181",
     "items": {
       "solar": {
         "title": "Aurinkopuistojen sähkötyöt",
@@ -123,7 +126,8 @@
         "question": "Missä maissa laivanrakennuksen ryhmiä voi tilata?",
         "lead": "HeilAresin laivanrakennusryhmät ovat käytettävissä Euroopassa ja Skandinaviassa.",
         "answer": "Aloitamme työt telakkakohteilla ympäri Eurooppaa ja Skandinaviaa. Kokemus laivanrakennusprojekteista varmistaa, että tiimimme ymmärtävät laivanrakennusteollisuuden erityisvaatimukset ja turvallisuusstandardit."
-      }
+      },
+      "imageAlt": "Telakka, jossa on kuivatelakoita, laivoja ja nostureita"
     },
     "factories": {
       "eyebrow": "Tehtaat",
@@ -256,7 +260,7 @@
       "competence": {
         "title": "Tunnustettu pätevyys",
         "desc": "Sähkötyöt suorittaa tiimi, jolla on asianmukainen pätevyys ja MTR-rekisteröinti.",
-        "mtr": "MTR: TEL005181 · Taso 6"
+        "mtr": "MTR: TEL005181"
       }
     }
   },
@@ -266,8 +270,8 @@
     "filter": {
       "all": "Kaikki",
       "tracker_park": "Solar Tracker Park",
-      "maapark": "Maa-asennus",
-      "katusepark": "Kattopuisto"
+      "maapark": "Maapark",
+      "katusepark": "Katusepark"
     },
     "capacity": "Teho",
     "year": "Valmistunut",
@@ -278,16 +282,17 @@
       "mounting": "Kiinnitysjärjestelmä",
       "duration": "Kesto"
     },
-    "back": "Takaisin projekteihin"
+    "back": "Takaisin projekteihin",
+    "heroAlt": "Ristin Solar Tracker Park Virossa"
   },
   "panelsPage": {
     "hero": {
       "title": "Aurinkopaneelipalvelut",
-      "subtitle": "Avaimet käteen -maa-, katto- ja tracker-aurinkopuistot B2B-asiakkaille Virossa, Latviassa ja koko Euroopassa."
+      "subtitle": "Avaimet käteen -Solar Tracker Park, Maapark ja Katusepark B2B-asiakkaille Virossa, Latviassa ja koko Euroopassa."
     },
     "ground": {
       "eyebrow": "Maa-asennukset",
-      "title": "Maapuisto",
+      "title": "Maapark",
       "lead": "Maapuisto on maahan asennettava aurinkopuisto, jonka HeilAres suunnittelee ja asentaa avaimet käteen -periaatteella kaupallisessa ja teollisessa mittakaavassa.",
       "paragraphs": [
         "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. HeilAres hoitaa asennustyöt — perustukset, kiinnitysrakenteet sekä paneelien ja invertterien asennuksen.",
@@ -298,11 +303,12 @@
         "question": "Kuinka paljon maata maapuisto tarvitsee?",
         "lead": "1 MW maapuisto vaatii keskimäärin 1–1,5 hehtaaria maata.",
         "answer": "Tarkka maantarve riippuu paneelityypistä, kallistuskulmasta ja rivivälistä."
-      }
+      },
+      "imageAlt": "Maapuisto pellolla ja pitkät paneelirivit aurinkopuistossa"
     },
     "roof": {
       "eyebrow": "Kattoasennukset",
-      "title": "Kattopuisto",
+      "title": "Katusepark",
       "lead": "Kattopuisto on aurinkopaneeliasennus teollisuusrakennusten, varastojen ja liikekiinteistöjen katoille, jonka HeilAres toteuttaa kaikille kattotyypeille.",
       "paragraphs": [
         "Kattopuistot sopivat sekä tasakattoihin että harjakattoihin — trapetsipelti, sandwich-paneeli, bitumi ja kalvokatot. Jokainen projekti alkaa rakenteellisella arvioinnilla, jotta voidaan varmistaa, että katto kantaa turvallisesti paneelien ja kiinnitysrakenteiden lisäkuorman.",
@@ -328,7 +334,8 @@
         "question": "Kuinka paljon enemmän energiaa Solar Tracker Park tuottaa kiinteään maapuistoon verrattuna?",
         "lead": "Solar Tracker Park tuottavat keskimäärin 15–25% enemmän energiaa kuin samankokoiset kiinteät maapuistot.",
         "answer": "Tarkka nousu riippuu sijainnista, leveysasteesta ja paikallisesta säästä. Pohjois-Euroopan oloissa tyypillinen nousu on noin 20%."
-      }
+      },
+      "imageAlt": "Solar Tracker Park ja aurinkoa seuraavat paneelirivit vihreällä pellolla"
     },
     "faq": {
       "eyebrow": "UKK",
@@ -337,7 +344,7 @@
       "items": {
         "types": {
           "question": "Minkä tyyppisiä aurinkopuistoja HeilAres asentaa?",
-          "answer": "Asennamme maahan asennettavia aurinkopuistoja, teollisuus- ja liikerakennusten kattopuistoja sekä yksiakselisia Solar Tracker Park -ratkaisuja. Työskentelemme sekä Virossa että kansainvälisissä projekteissa."
+          "answer": "Asennamme yksiakselisia Solar Tracker Park -ratkaisuja, Maapark-ratkaisuja sekä teollisuus- ja liikerakennusten Katusepark-ratkaisuja. Työskentelemme sekä Virossa että kansainvälisissä projekteissa."
         },
         "capacity": {
           "question": "Kuinka suuria aurinkopuistoja HeilAres asentaa?",
@@ -369,7 +376,7 @@
         },
         "electrical": {
           "question": "Tekeekö HeilAres myös sähkötyöt?",
-          "answer": "Kyllä. Sähkötyöihin liittyvät ratkaisut voivat kattaa muun muassa DC- ja AC-kaapeloinnin sekä inverttereiden kytkennän. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181 ja tason 6 pätevyys."
+          "answer": "Kyllä. Sähkötyöihin liittyvät ratkaisut voivat kattaa muun muassa DC- ja AC-kaapeloinnin sekä inverttereiden kytkennän. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181."
         },
         "countries": {
           "question": "Missä maissa HeilAres asentaa aurinkopuistoja?",
@@ -392,8 +399,7 @@
       "subtitle": "Ammattimaiset sähköasennukset, kaapelointi, sähkökeskukset, inverttereiden kytkennät ja sähköjärjestelmien rakentaminen Virossa ja Euroopassa.",
       "cta": "Pyydä tarjous",
       "ctaSecondary": "Katso projektimme",
-      "badgeRegistry": "Sähkötöiden MTR-rekisteröinti TEL005181",
-      "badgeLevel": "Pätevyys taso 6"
+      "badgeRegistry": "Sähkötöiden MTR-rekisteröinti TEL005181"
     },
     "services": {
       "eyebrow": "Palvelut",
@@ -491,11 +497,6 @@
         "label": "MTR-rekisteröinti",
         "value": "TEL005181",
         "note": "Sähkötöiden elinkeinotoiminnan rekisteröinti MTR:ssä."
-      },
-      "competence": {
-        "label": "Pätevyys",
-        "value": "Taso 6",
-        "note": "Sähkötyöt tekee asianmukaisen pätevyyden omaava tiimi."
       }
     },
     "future": {
@@ -540,7 +541,7 @@
         },
         {
           "title": "Pätevät sähkötyöt",
-          "desc": "Sähkötöitä tukevat yrityksen MTR-rekisteröinti TEL005181 ja tason 6 pätevyys."
+          "desc": "Sähkötöitä tukevat yrityksen MTR-rekisteröinti TEL005181."
         },
         {
           "title": "Avaimet käteen -lähestymistapa",
@@ -604,7 +605,7 @@
         },
         "registration": {
           "question": "Onko HeilAresilla sähkötöiden tekemiseen vaadittava rekisteröinti?",
-          "answer": "Kyllä. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181 ja taso 6 pätevyys."
+          "answer": "Kyllä. HeilAresilla on sähkötöiden MTR-rekisteröinti TEL005181."
         },
         "regions": {
           "question": "Millä alueilla HeilAres tekee sähkötöitä?",
@@ -643,8 +644,8 @@
       },
       "types": {
         "question": "Minkä tyyppisiä aurinkopuistoja rakennatte?",
-        "lead": "HeilAres rakentaa maa-, katto- ja tracker-aurinkopuistoja.",
-        "answer": "Rakennamme kolmea päätyyppiä — maapuistoja, kattopuistoja teollisuusrakennuksille ja Solar Tracker Park (aurinkoa seuraavia järjestelmiä)."
+        "lead": "HeilAres rakentaa Solar Tracker Park, Maapark ja Katusepark.",
+        "answer": "Rakennamme kolmea päätyyppiä — Solar Tracker Park (aurinkoa seuraavia järjestelmiä), Maapark ja Katusepark teollisuusrakennuksille."
       },
       "quoteSpeed": {
         "question": "Kuinka nopeasti saan tarjouksen?",
@@ -677,11 +678,12 @@
       "selectType": "Valitse tyyppi",
       "types": {
         "tracker_park": "Solar Tracker Park",
-        "maapark": "Maa-asennus",
-        "katusepark": "Kattopuisto",
+        "maapark": "Maapark",
+        "katusepark": "Katusepark",
         "electrical": "Sähkötöitä",
         "workforce": "Työvoiman vuokraus",
-        "other": "Muu"
+        "other": "Muu",
+        "battery": "Akkuvarastot / BESS"
       }
     },
     "errors": {
@@ -694,9 +696,13 @@
       "email": "Sähköposti",
       "phone": "Puhelin",
       "location": "Sijainti",
-      "hours": "Aukioloajat",
-      "hoursValue": "Ma–Pe 09:00–18:00",
       "locationValue": "Viro & Eurooppa"
+    },
+    "map": {
+      "title": "HeilAresin sijainti Google Mapsissa",
+      "zoomIn": "Lähennä",
+      "zoomOut": "Loitonna",
+      "directions": "Reittiohjeet HeilAresille"
     }
   },
   "footer": {
@@ -733,22 +739,26 @@
       "components": "Komponentit",
       "maintenance": "Huolto",
       "electrical": "Sähkötöitä",
+      "storage": "Akkuvarastot / BESS",
       "workforce": "Työvoiman vuokraus"
     },
-    "category": "Kategoria"
+    "category": "Kategoria",
+    "heroAlt": "Solar Tracker Park ja aurinkoa seuraavat paneelirivit"
   },
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
-      "description": "Avaimet käteen -aurinkopaneeliasennukset — kattopuistot, maapuistot ja Solar Tracker Park. Toimimme Virossa ja koko Euroopassa."
+      "description": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark. Toimimme Virossa ja koko Euroopassa.",
+      "twitterTitle": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
+      "twitterDescription": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark. Toimimme Virossa ja koko Euroopassa."
     },
     "panels": {
-      "title": "Aurinkopaneelit — Tracker, maa- ja kattopuistot | HeilAres",
+      "title": "Solar Tracker Park, Maapark ja Katusepark | HeilAres",
       "description": "Kolme pääasennustyyppiä B2B-asiakkaille. Tier-1-komponentit, kokeneet työryhmät, megawattiluokka."
     },
     "electrical": {
       "title": "Sähkötyöt ja sähköasennukset | HeilAres",
-      "description": "Ammattimaiset sähkötyöt aurinkopuistoille sekä teollisuus- ja liikekiinteistöprojekteille. Kaapelointi, sähkökeskukset, invertterit ja energiaratkaisut. MTR TEL005181, taso 6."
+      "description": "Ammattimaiset sähkötyöt aurinkopuistoille sekä teollisuus- ja liikekiinteistöprojekteille. Kaapelointi, sähkökeskukset, invertterit ja energiaratkaisut. MTR TEL005181."
     },
     "workforce": {
       "title": "Työvoiman vuokraus — Laivanrakennus ja tehtaat | HeilAres",
@@ -765,10 +775,332 @@
     "blog": {
       "title": "Blogi — Aurinkoenergian tietopankki | HeilAres",
       "description": "B2B-suuntautuneita artikkeleita aurinkopuistojen EPC:stä, avaimet käteen -rakentamisesta, Tier-1-paneeleista ja O&M:stä."
+    },
+    "bess": {
+      "title": "Akkuvarastot ja BESS-ratkaisut | HeilAres",
+      "description": "Akkuvarastot ja BESS-ratkaisut aurinkopuistoille, yrityksille ja teollisuudelle. Energian varastointi ja järjestelmäintegraatio Virossa ja Euroopassa."
     }
   },
   "roles": {
     "workforce": "Työvoiman vuokraus",
-    "greenEnergy": "Vihreä energia"
+    "greenEnergy": "Vihreä energia",
+    "partnershipManager": "Kumppanuuspäällikkö"
+  },
+  "batterySection": {
+    "eyebrow": "AKKUVARASTOT / BESS",
+    "title": "Energian varastointi yrityksille ja energiainfrastruktuuriin",
+    "subtitle": "Projektikohtaiset BESS-ratkaisut aurinkopuistoille, teollisuudelle ja liikekiinteistöille.",
+    "items": {
+      "storage": {
+        "title": "Energian varastointi",
+        "desc": "Varastoi tuotettua energiaa ja käytä sitä kohteen tarpeiden mukaan."
+      },
+      "solar": {
+        "title": "Aurinkopuisto + BESS",
+        "desc": "Yhdistä tuotanto ja varastointi yhdeksi hallittavaksi järjestelmäksi."
+      },
+      "loads": {
+        "title": "Kuormanhallinta",
+        "desc": "Tasapainota tuotantoa ja kulutusta sekä hallitse huippukuormia."
+      },
+      "industry": {
+        "title": "Teollinen energiainfrastruktuuri",
+        "desc": "Integroi BESS olemassa olevaan sähköjärjestelmään."
+      }
+    }
+  },
+  "bessPage": {
+    "hero": {
+      "title": "Akkuvarastot ja BESS-ratkaisut",
+      "subtitle": "Varastoi energiaa, tasapainota kulutusta ja hyödynnä energiainfrastruktuuriasi tehokkaammin.",
+      "support": "Projektikohtaiset energianvarastointiratkaisut aurinkopuistoille, yrityksille ja teollisuuskohteille Virossa ja Euroopassa.",
+      "primary": "Pyydä tarjous",
+      "secondary": "Katso, miten se toimii",
+      "trust": [
+        "Energian varastointi",
+        "BESS",
+        "Aurinkoenergia",
+        "Sähköinfrastruktuuri"
+      ]
+    },
+    "heroAlt": "Teolliset BESS-kontit, sähköinfrastruktuuri ja aurinkopuisto Pohjois-Euroopassa",
+    "what": {
+      "eyebrow": "ENERGIAN VARASTOINTI",
+      "title": "Mikä on BESS?",
+      "p1": "BESS eli Battery Energy Storage System on akkupohjainen energianvarastointijärjestelmä, joka varastoi sähköenergiaa myöhempää käyttöä varten.",
+      "p2": "BESS voidaan integroida aurinkopuistoon, yrityksen sähköjärjestelmään tai muuhun energiainfrastruktuuriin.",
+      "p3": "Varastoinnin tarkoitus ei ole vain säilyttää energiaa, vaan tehdä koko energiajärjestelmästä joustavampi ja paremmin hallittava.",
+      "flow": [
+        "Tuotanto",
+        "BESS",
+        "Kulutus / verkko"
+      ]
+    },
+    "benefits": {
+      "eyebrow": "BESSIN HYÖDYT",
+      "title": "Miksi lisätä akkuvarasto energiajärjestelmään?",
+      "items": [
+        {
+          "title": "Varastoi tuotettua energiaa",
+          "desc": "Varastoi energiaa tuotannon ylittäessä kulutuksen ja käytä se myöhemmin."
+        },
+        {
+          "title": "Tasapainota tuotantoa ja kulutusta",
+          "desc": "Akkuvarasto auttaa sovittamaan energiantuotannon ja kulutuksen yhteen."
+        },
+        {
+          "title": "Hallitse huippukuormia",
+          "desc": "Käytä varastoitua energiaa huippukulutuksen aikana järjestelmän kuorman hallintaan."
+        },
+        {
+          "title": "Integroi enemmän uusiutuvaa energiaa",
+          "desc": "BESS tekee aurinkoenergian tuotannosta joustavampaa ja hallittavampaa."
+        },
+        {
+          "title": "Optimoi energiankäyttöä",
+          "desc": "Varastoi ja käytä energiaa kohteen kulutusprofiilin ja tavoitteiden mukaan."
+        },
+        {
+          "title": "Valmistaudu tulevaisuuteen",
+          "desc": "Akkuvarasto lisää joustavuutta ja mahdollistaa infrastruktuurin kehittämisen."
+        }
+      ]
+    },
+    "audiences": {
+      "eyebrow": "KÄYTTÖKOHTEET",
+      "title": "Akkuvarastointi eri energiankäyttäjille",
+      "items": [
+        {
+          "title": "Aurinkopuistot",
+          "desc": "Varastoi aurinkopuiston tuottamaa energiaa ja lisää tuotannon joustavuutta."
+        },
+        {
+          "title": "Teollisuus",
+          "desc": "Hallitse suuria kuormia ja optimoi energiankäyttö todellisen kulutusprofiilin mukaan."
+        },
+        {
+          "title": "Liikekiinteistöt",
+          "desc": "Integroi varastointi olemassa olevaan infrastruktuuriin ja käytä energiaa joustavammin."
+        },
+        {
+          "title": "Energiaprojektit",
+          "desc": "BESS voi olla osa laajempaa uusiutuvan energian ja sähköverkon projektia."
+        }
+      ]
+    },
+    "solar": {
+      "eyebrow": "AURINKOPUISTO + BESS",
+      "title": "Aurinkopuisto ja akkuvarasto yhdeksi järjestelmäksi",
+      "p1": "Aurinkopuisto tuottaa energiaa auringon mukaan, mutta kulutus voi ajoittua eri aikaan. Akkuvarasto mahdollistaa osan tuotannosta varastoinnin myöhempää käyttöä varten.",
+      "p2": "HeilAres voi yhdistää aurinkoenergian tuotannon ja akkuvarastoinnin kokonaisratkaisuksi.",
+      "flow": [
+        "Aurinkopuisto",
+        "Invertteri",
+        "BESS",
+        "Kulutus / verkko"
+      ],
+      "note": "Oikea ratkaisu riippuu tuotannosta, kulutuksesta, verkkoliitännästä ja projektin tavoitteista.",
+      "link": "Tutustu aurinkopuistoratkaisuihin"
+    },
+    "sizing": {
+      "eyebrow": "PROJEKTIKOHTAINEN MITOITUS",
+      "title": "Akkuvaraston on sovittava projektiin, ei päinvastoin",
+      "p1": "Jokainen energianvarastointiprojekti on erilainen. Sopivan BESS-ratkaisun valinnassa huomioidaan kulutus, tuotantoprofiili, verkkoliitäntä, teho, varastointikapasiteetti ja käyttötarkoitus.",
+      "p2": "Siksi HeilAres ei tarjoa yhtä vakioratkaisua kaikille.",
+      "p3": "Ratkaisu valitaan projektin teknisten tarpeiden mukaan.",
+      "flow": [
+        "Kulutus",
+        "Tuotanto",
+        "Verkkoliitäntä",
+        "Teho",
+        "Varastointikapasiteetti",
+        "BESS-ratkaisu"
+      ]
+    },
+    "solution": {
+      "eyebrow": "KOKONAISRATKAISU",
+      "title": "Kokonaisvaltainen akkuvarastoratkaisu",
+      "items": [
+        {
+          "title": "Akkujärjestelmä",
+          "desc": "Projektin energianvarastointitarpeisiin valittu akkujärjestelmä."
+        },
+        {
+          "title": "Invertterit ja muuntimet",
+          "desc": "Energiavirtojen ja järjestelmän toiminnan hallintaan tarvittavat laitteet."
+        },
+        {
+          "title": "Ohjausjärjestelmä",
+          "desc": "Järjestelmän ohjaus ja optimointi projektin tavoitteiden mukaan."
+        },
+        {
+          "title": "Sähköasennus",
+          "desc": "Kaapelointi, sähkökeskukset, suojausjärjestelmät ja sähköliitännät."
+        },
+        {
+          "title": "Seuranta ja valvonta",
+          "desc": "Järjestelmän toiminnan seuranta ja tietojen hyödyntäminen."
+        },
+        {
+          "title": "Verkkoliitäntä",
+          "desc": "Kohteen verkkoliitännän ja teknisten ehtojen mukainen ratkaisu."
+        }
+      ]
+    },
+    "electrical": {
+      "eyebrow": "BESS JA SÄHKÖTYÖT",
+      "title": "BESS tarvitsee myös ammattimaisen sähköratkaisun",
+      "p1": "Akkuvarasto ei ole erillinen laite. Se integroidaan kohteen sähköjärjestelmään, inverttereihin, suojausjärjestelmiin, kaapelointiin ja verkkoliitäntään.",
+      "p2": "HeilAres voi yhdistää BESS-projektin sähköisen osuuden muihin energiaratkaisuihin.",
+      "registry": "MTR TEL005181",
+      "registryNote": "HeilAresin sähkötöiden MTR-rekisteröinti.",
+      "cta": "Tutustu sähkötöihin"
+    },
+    "safety": {
+      "eyebrow": "TURVALLISUUS JA TOIMINTAVARMUUS",
+      "title": "Turvallisuus ja toimintavarmuus ovat olennainen osa BESSiä",
+      "p1": "Akkuvarastojärjestelmissä on huomioitava kokonaisuuden tekninen rakenne, sähköturvallisuus, lämpötilaolosuhteet, suojausjärjestelmät ja paloturvallisuus.",
+      "p2": "Suunnittelussa ja asennuksessa huomioidaan kohde, käytettävä teknologia ja voimassa olevat tekniset vaatimukset.",
+      "points": [
+        "Sähköturvallisuus",
+        "Lämpötilaolosuhteet",
+        "Suojausjärjestelmät",
+        "Paloturvallisuus"
+      ]
+    },
+    "future": {
+      "eyebrow": "TULEVAISUUDEN KESTÄVÄ ENERGIAINFRASTRUKTUURI",
+      "title": "Suunnittele energiainfrastruktuuri myös seuraavaa vaihetta varten",
+      "p1": "Energiantarpeet muuttuvat. Tulevaisuudessa järjestelmään voi liittyä uusia aurinkopuistoja, sähköautojen latausta, tuotantolaitteita, varastoja tai muita suuritehoisia kuluttajia.",
+      "p2": "Energiainfrastruktuuri kannattaa suunnitella mahdolliset tulevat laajennukset huomioiden.",
+      "stages": [
+        {
+          "label": "Tänään",
+          "value": "Aurinkoenergia"
+        },
+        {
+          "label": "Seuraava vaihe",
+          "value": "Aurinkoenergia + BESS"
+        },
+        {
+          "label": "Tulevaisuus",
+          "value": "Aurinkoenergia + BESS + EV + teolliset kuluttajat"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "NÄIN TYÖSKENTELEMME",
+      "title": "Tarpeesta käyttöönottoon",
+      "items": [
+        {
+          "title": "Tarpeiden kartoitus",
+          "desc": "Analysoimme kohteen, kulutuksen, tuotannon, verkkoliitännän ja projektin tavoitteen."
+        },
+        {
+          "title": "Tekninen ratkaisu",
+          "desc": "Kokoamme sopivan varastointiratkaisun ja määritämme työn laajuuden."
+        },
+        {
+          "title": "Asennus ja integrointi",
+          "desc": "Asennamme ja kytkemme järjestelmän sekä koordinoimme integroinnin energiainfrastruktuuriin."
+        },
+        {
+          "title": "Käyttöönotto ja luovutus",
+          "desc": "Tarkistamme toiminnan, teemme tarvittavat asetukset ja luovutamme ratkaisun."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "MIKSI HEILARES",
+      "title": "Miksi valita HeilAres akkuvarastoinnin kumppaniksi?",
+      "subtitle": "Projektikohtainen kokonaisnäkemys yhdistää energian varastoinnin aurinkoenergiaan ja ammattimaisiin sähkötöihin.",
+      "items": [
+        {
+          "title": "Uusiutuvan energian kokemus",
+          "desc": "HeilAresin ydintoiminta liittyy uusiutuvan energian ja aurinkoenergian projekteihin."
+        },
+        {
+          "title": "Kokonaisratkaisu",
+          "desc": "Akkuvarastointi voidaan yhdistää aurinkopuistoihin ja sähkötöihin."
+        },
+        {
+          "title": "Projektikohtainen lähestymistapa",
+          "desc": "Ratkaisu valitaan kohteen tarpeiden mukaan."
+        },
+        {
+          "title": "Sähköinen osaaminen",
+          "desc": "Varastoinnin sähköinen osuus voidaan yhdistää HeilAresin sähkötöihin."
+        },
+        {
+          "title": "Viro ja Eurooppa",
+          "desc": "Projekteja voidaan toteuttaa Virossa ja muualla Euroopassa niiden laajuuden ja tarpeiden mukaan."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "UKK",
+      "title": "Usein kysytyt kysymykset BESS-ratkaisuista",
+      "subtitle": "Oleellista tietoa akkuvaraston suunnittelusta, integroinnista ja käytöstä.",
+      "items": {
+        "what": {
+          "question": "Mikä on BESS?",
+          "answer": "BESS on akkupohjainen energianvarastointijärjestelmä, joka varastoi sähköä myöhempää käyttöä varten."
+        },
+        "uses": {
+          "question": "Mihin akkuvarastoa käytetään?",
+          "answer": "Sitä voidaan käyttää aurinkoenergian varastointiin, tuotannon ja kulutuksen tasapainottamiseen, huippukuormien hallintaan ja infrastruktuurin joustavuuden lisäämiseen."
+        },
+        "existingSolar": {
+          "question": "Voiko akkuvaraston yhdistää olemassa olevaan aurinkopuistoon?",
+          "answer": "Kyllä. Sopiva ratkaisu riippuu nykyisen järjestelmän rakenteesta, verkkoliitännästä ja projektin tavoitteista."
+        },
+        "size": {
+          "question": "Minkä kokoinen akkuvarasto yritykseni tarvitsee?",
+          "answer": "Mitoituksessa huomioidaan kulutusprofiili, huippukuormat, tuotantoteho, verkkoliitäntä ja käyttötarkoitus, ei vain vuosikulutus."
+        },
+        "dimensioning": {
+          "question": "Auttaako HeilAres ratkaisun mitoituksessa?",
+          "answer": "Kyllä. Ensin kartoitetaan kohteen energiankäyttö, tuotanto ja tekniset ehdot."
+        },
+        "industry": {
+          "question": "Sopiiko BESS teollisuusyritykselle?",
+          "answer": "Kyllä. Sopiva ratkaisu määritetään kohteen kulutus- ja tuotantoprofiilin mukaan."
+        },
+        "ev": {
+          "question": "Voiko akkuvarastoa käyttää latauslaitteiden kanssa?",
+          "answer": "Kyllä. Se voi olla osa laajempaa energiainfrastruktuuria. Ratkaisu riippuu sähköjärjestelmästä ja kuormitusprofiilista."
+        },
+        "electrical": {
+          "question": "Tekeekö HeilAres myös BESSin sähkötyöt?",
+          "answer": "Kyllä. BESSin sähkökytkennät ja asennukset voidaan yhdistää HeilAresin sähkötöihin. MTR-rekisteröinti TEL005181."
+        },
+        "expansion": {
+          "question": "Voiko akkuvarastoa laajentaa myöhemmin?",
+          "answer": "Se riippuu järjestelmän teknisestä rakenteesta. Tiedossa oleva laajennus tulee huomioida jo alkuvaiheen suunnittelussa."
+        },
+        "timeline": {
+          "question": "Kuinka kauan BESS-projekti kestää?",
+          "answer": "Kesto riippuu järjestelmän koosta, kohteen valmiudesta, suunnittelusta, laitteiden saatavuudesta, verkkoliitännästä ja hyväksynnöistä. Aikataulu on projektikohtainen."
+        },
+        "start": {
+          "question": "Miten aloitan akkuvarastoprojektin?",
+          "answer": "Lähetä kohteen perustiedot, kulutus- ja tuotantotiedot sekä mahdolliset sähkö- tai verkkoliitäntäasiakirjat. Sen jälkeen voimme arvioida tarpeet."
+        }
+      }
+    },
+    "cta": {
+      "title": "Tarvitseeko energiainfrastruktuurinne akkuvarastointia?",
+      "subtitle": "Lähetä projektin perustiedot, niin arvioimme yhdessä kohteeseen sopivan energianvarastointiratkaisun.",
+      "primary": "Pyydä tarjous",
+      "secondary": "Ota yhteyttä"
+    }
+  },
+  "system": {
+    "notFoundTitle": "Sivua ei löytynyt",
+    "notFoundText": "Etsimääsi sivua ei ole tai se on siirretty.",
+    "home": "Etusivulle",
+    "errorTitle": "Sivua ei voitu ladata",
+    "errorText": "Jotakin meni vikaan. Yritä uudelleen tai palaa etusivulle.",
+    "retry": "Yritä uudelleen"
   }
 }

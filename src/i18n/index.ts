@@ -3,8 +3,9 @@ import { initReactI18next } from "react-i18next";
 import et from "./locales/et.json";
 import en from "./locales/en.json";
 import fi from "./locales/fi.json";
+import de from "./locales/de.json";
 
-export const SUPPORTED_LANGS = ["et", "en", "fi"] as const;
+export const SUPPORTED_LANGS = ["et", "fi", "en", "de"] as const;
 export type Lang = (typeof SUPPORTED_LANGS)[number];
 
 const STORAGE_KEY = "heilares.lang";
@@ -14,7 +15,7 @@ export function getSupportedLang(language?: string): Lang {
   return SUPPORTED_LANGS.includes(lang as Lang) ? (lang as Lang) : "et";
 }
 
-function detectInitialLang(): Lang {
+function detectBrowserLang(): Lang {
   if (typeof window === "undefined") return "et";
   try {
     const stored = window.localStorage.getItem(STORAGE_KEY);
@@ -37,8 +38,9 @@ if (!i18n.isInitialized) {
       et: { translation: et },
       en: { translation: en },
       fi: { translation: fi },
+      de: { translation: de },
     },
-    lng: detectInitialLang(),
+    lng: "et",
     fallbackLng: "et",
     supportedLngs: SUPPORTED_LANGS as unknown as string[],
     interpolation: { escapeValue: false },
@@ -49,6 +51,25 @@ if (!i18n.isInitialized) {
   i18n.addResourceBundle("et", "translation", et, true, true);
   i18n.addResourceBundle("en", "translation", en, true, true);
   i18n.addResourceBundle("fi", "translation", fi, true, true);
+  i18n.addResourceBundle("de", "translation", de, true, true);
+}
+
+export function languageFromPath(pathname: string): Lang {
+  const segment = pathname.split("/").filter(Boolean)[0];
+  return segment && SUPPORTED_LANGS.includes(segment as Lang) ? (segment as Lang) : "et";
+}
+
+export function localizePath(pathname: string, language: Lang): string {
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts[0] && SUPPORTED_LANGS.includes(parts[0] as Lang)) parts.shift();
+  const base = `/${parts.join("/")}`;
+  return language === "et" ? base || "/" : `/${language}${base === "/" ? "" : base}`;
+}
+
+export function restoreLanguagePreference() {
+  if (typeof window === "undefined") return;
+  const language = detectBrowserLang();
+  if (i18n.language !== language) void i18n.changeLanguage(language);
 }
 
 if (typeof window !== "undefined") {
@@ -62,4 +83,3 @@ if (typeof window !== "undefined") {
 }
 
 export default i18n;
-

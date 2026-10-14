@@ -1,9 +1,10 @@
-import { Link } from "@tanstack/react-router";
+import {} from "@tanstack/react-router";
 import { ArrowUpRight, Sun, LayoutGrid, Cable, Cpu, BadgeCheck } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionHeader } from "./Section";
 import { Reveal } from "./Reveal";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export function ElectricalSection() {
   const { t } = useTranslation();
@@ -34,7 +35,7 @@ export function ElectricalSection() {
         <div className="mt-14 grid gap-5 md:mt-20 md:grid-cols-2 lg:grid-cols-4 md:items-stretch">
           {items.map(({ key, Icon }, i) => (
             <Reveal key={key} delay={i * 80} className="h-full">
-              <Link
+              <LocalizedLink
                 to="/elektritood"
                 className="card-lift group relative flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
               >
@@ -68,19 +69,19 @@ export function ElectricalSection() {
                     </span>
                   </div>
                 </div>
-              </Link>
+              </LocalizedLink>
             </Reveal>
           ))}
         </div>
 
         <div className="mt-12 text-center">
-          <Link
+          <LocalizedLink
             to="/elektritood"
             className="inline-flex h-12 items-center gap-2 rounded-full border border-white/20 px-6 text-[14px] font-semibold text-white transition hover:border-[var(--brand)] hover:text-[var(--brand-glow)]"
           >
             {t("electricalSection.cta")}
             <ArrowUpRight className="h-4 w-4" />
-          </Link>
+          </LocalizedLink>
         </div>
       </div>
     </section>

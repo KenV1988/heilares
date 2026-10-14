@@ -1,31 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { Mail, Phone, MapPin, Clock, Plus, Minus } from "lucide-react";
+import { Mail, MapPin, UserRound, Plus, Minus } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { ContactForm } from "@/components/site/ContactForm";
 import { company } from "@/data/company";
 import i18n from "@/i18n";
+import { localizedHead } from "@/lib/locale-seo";
 
 export const Route = createFileRoute("/kontakt")({
   component: ContactPage,
-  head: () => ({
-    meta: [
-      { title: i18n.t("seo.contact.title") },
-      { name: "description", content: i18n.t("seo.contact.description") },
-      { property: "og:title", content: i18n.t("seo.contact.title") },
-      { property: "og:description", content: i18n.t("seo.contact.description") },
-    ],
-    links: [
-      { rel: "canonical", href: "https://heilares.ainiki.ee/kontakt" },
-    ],
-  }),
+  head: () => localizedHead("et", "contact", "/kontakt"),
 });
 
-const PANEL =
-  "rounded-2xl bg-[rgba(16,22,15,0.6)] p-5 md:p-6 border";
+const PANEL = "rounded-2xl bg-[rgba(16,22,15,0.6)] p-5 md:p-6 border";
 const PANEL_STYLE = { borderColor: "rgba(214,178,106,0.12)" } as const;
 
 function IconBox({ children }: { children: React.ReactNode }) {
@@ -42,17 +32,12 @@ function IconBox({ children }: { children: React.ReactNode }) {
   );
 }
 
-const CONTACT_EMAILS: Record<string, string> = {
-  "Kristjan Lepik": "kristjan@heilares.ee",
-  "Lauri Sal-al-Saller": "lauri@heilares.ee",
-};
-
 const HEILARES_LAT = "59.3142143";
 const HEILARES_LNG = "24.5706397";
 const MIN_ZOOM = 4;
 const MAX_ZOOM = 17;
 
-function ContactPage() {
+export function ContactPage() {
   const { t } = useTranslation();
   const [zoom, setZoom] = useState(6);
 
@@ -68,53 +53,49 @@ function ContactPage() {
         decorative="diamonds"
       />
 
-      {/* Contact cards — Kristjan + Lauri */}
+      {/* Contact cards */}
       <section className="container-x pt-4 pb-2">
-        <div className="grid gap-5 md:grid-cols-2">
-          {company.contacts.map((c) => {
-            const email = CONTACT_EMAILS[c.name];
-            return (
-              <div key={c.phoneHref} className={PANEL} style={PANEL_STYLE}>
-                <div className="flex items-start gap-4">
-                  <IconBox>
-                    <Phone className="h-5 w-5" />
-                  </IconBox>
-                  <div className="min-w-0">
-                    <div className="text-lg font-semibold text-white">{c.name}</div>
-                    <div className="mt-0.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--brand)]">
-                      {t(c.areaKey)}
-                    </div>
-                    <a
-                      href={c.phoneHref}
-                      className="mt-3 flex items-center gap-2 text-[15px] text-white/85 hover:text-[var(--brand-glow)]"
-                    >
-                      <Phone className="h-4 w-4 text-[var(--brand-glow)]" />
-                      <span className="font-medium">{c.phone}</span>
-                    </a>
-                    {email && (
-                      <a
-                        href={`mailto:${email}`}
-                        className="mt-1.5 flex items-center gap-2 text-[15px] text-white/85 hover:text-[var(--brand-glow)]"
-                      >
-                        <Mail className="h-4 w-4 text-[var(--brand-glow)]" />
-                        <span className="font-medium">{email}</span>
-                      </a>
-                    )}
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {company.contacts.map((c) => (
+            <div key={c.email} className={`${PANEL} h-full`} style={PANEL_STYLE}>
+              <div className="flex items-start gap-4">
+                <IconBox>
+                  <UserRound className="h-5 w-5" />
+                </IconBox>
+                <div className="min-w-0">
+                  <div className="text-lg font-semibold text-white">{c.name}</div>
+                  <div className="mt-0.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--brand)]">
+                    {t(c.areaKey)}
                   </div>
+                  <a
+                    href={`mailto:${c.email}`}
+                    className="mt-3 flex min-w-0 items-center gap-2 text-[15px] text-white/85 hover:text-[var(--brand-glow)]"
+                  >
+                    <Mail className="h-4 w-4 shrink-0 text-[var(--brand-glow)]" />
+                    <span className="min-w-0 break-all font-medium">{c.email}</span>
+                  </a>
                 </div>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Info row — Email / Location / Hours */}
+      {/* Info row — Email / Location */}
       <section className="container-x pt-5 pb-2">
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2">
           {[
-            { Icon: Mail, label: t("contact.info.email"), value: company.email, href: `mailto:${company.email}` },
-            { Icon: MapPin, label: t("contact.info.location"), value: t("contact.info.locationValue") },
-            { Icon: Clock, label: t("contact.info.hours"), value: t("contact.info.hoursValue") },
+            {
+              Icon: Mail,
+              label: t("contact.info.email"),
+              value: company.email,
+              href: `mailto:${company.email}`,
+            },
+            {
+              Icon: MapPin,
+              label: t("contact.info.location"),
+              value: t("contact.info.locationValue"),
+            },
           ].map(({ Icon, label, value, href }) => {
             const body = (
               <div className={`${PANEL} flex items-start gap-4`} style={PANEL_STYLE}>
@@ -130,7 +111,9 @@ function ContactPage() {
               </div>
             );
             return href ? (
-              <a key={label} href={href} className="block">{body}</a>
+              <a key={label} href={href} className="block">
+                {body}
+              </a>
             ) : (
               <div key={label}>{body}</div>
             );
@@ -150,7 +133,7 @@ function ContactPage() {
         >
           <iframe
             key={zoom}
-            title="HeilAres asukoht Google Mapsil"
+            title={t("contact.map.title")}
             src={`https://maps.google.com/maps?q=${HEILARES_LAT},${HEILARES_LNG}&t=&z=${zoom}&ie=UTF8&iwloc=B&output=embed`}
             width="100%"
             height="420"
@@ -166,7 +149,7 @@ function ContactPage() {
               type="button"
               onClick={() => setZoom((z) => Math.min(MAX_ZOOM, z + 1))}
               disabled={zoom >= MAX_ZOOM}
-              aria-label="Suumi lähemale"
+              aria-label={t("contact.map.zoomIn")}
               className="grid h-11 w-11 place-items-center rounded-xl border text-[var(--brand-glow)] shadow-lg backdrop-blur transition enabled:hover:brightness-125 disabled:opacity-30"
               style={{
                 background: "rgba(10,15,13,0.78)",
@@ -179,7 +162,7 @@ function ContactPage() {
               type="button"
               onClick={() => setZoom((z) => Math.max(MIN_ZOOM, z - 1))}
               disabled={zoom <= MIN_ZOOM}
-              aria-label="Suumi kaugemale"
+              aria-label={t("contact.map.zoomOut")}
               className="grid h-11 w-11 place-items-center rounded-xl border text-[var(--brand-glow)] shadow-lg backdrop-blur transition enabled:hover:brightness-125 disabled:opacity-30"
               style={{
                 background: "rgba(10,15,13,0.78)",
@@ -198,7 +181,7 @@ function ContactPage() {
             style={{ background: "var(--brand-glow)" }}
           >
             <MapPin className="h-4 w-4" />
-            Juhised HeilAresesse
+            {t("contact.map.directions")}
           </a>
         </div>
       </section>

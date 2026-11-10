@@ -10,6 +10,6 @@ export default defineMcp({
   title: "Heilares",
   version: "0.1.0",
   instructions:
-    "Public tools for HeilAres OÜ, a green-energy EPC company building megawatt-scale solar parks in the Baltics and Nordics. Use get_company_info for contacts, list_projects/get_project for reference projects, and list_blog_posts/get_blog_post for the solar knowledge base. Content is available in Estonian (et), English (en) and Finnish (fi).",
+    "Public tools for HeilAres OÜ, an installation contractor for utility-scale solar parks. Use get_company_info for contacts, list_projects/get_project for reference projects with separate total park capacity and HeilAres work scope, and list_blog_posts/get_blog_post for the solar knowledge base. Content is available in Estonian (et), English (en), Finnish (fi) and German (de).",
   tools: [getCompanyInfo, listProjects, getProject, listBlogPosts, getBlogPost],
 });

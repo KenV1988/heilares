@@ -1,9 +1,9 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { ArrowLeft, MapPin, Calendar, Gauge } from "lucide-react";
+import { ArrowLeft, MapPin, Calendar, Gauge, ListChecks } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
-import { projects, formatCapacity } from "@/data/projects";
+import { projects, formatCapacity, formatHeilAresShare } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
@@ -58,32 +58,32 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
             <h1 className="mt-5 text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">
               {project.title[lang]}
             </h1>
-            <p className="mt-5 max-w-2xl text-base text-white/70 md:text-lg">
+            <p className="mt-5 max-w-3xl text-base leading-relaxed text-white/70 md:text-lg">
               {project.description[lang]}
             </p>
           </div>
 
-          <div
-            className={`mt-10 grid gap-4 ${project.capacityKw ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}
-          >
-            {project.capacityKw ? (
-              <Stat
-                Icon={Gauge}
-                label={t("projectsSection.capacity")}
-                value={formatCapacity(project.capacityKw, lang)}
-              />
-            ) : null}
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            <Stat
+              Icon={ListChecks}
+              label={t("projectsSection.share")}
+              value={formatHeilAresShare(project, lang)}
+            />
+            <Stat
+              Icon={Gauge}
+              label={t("projectsSection.capacity")}
+              value={formatCapacity(project.parkCapacityKw, lang)}
+            />
             <Stat
               Icon={MapPin}
               label={t("projectsSection.location")}
               value={project.location[lang]}
             />
-            <Stat
-              Icon={Calendar}
-              label={t("projectsSection.year")}
-              value={String(project.yearCompleted)}
-            />
+            <Stat Icon={Calendar} label={t("projectsSection.year")} value={project.period} />
           </div>
+          {project.shareBreakdown && (
+            <p className="mt-3 text-sm text-white/55">{t("projectsSection.shareBreakdown")}</p>
+          )}
         </div>
 
         <div className="container-x mt-12 md:mt-16">
@@ -101,7 +101,7 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
         </div>
 
         <section className="container-x py-16 md:py-24">
-          <div className="grid gap-10 md:grid-cols-3">
+          <div className="grid items-start gap-10 md:grid-cols-3">
             <div className="md:col-span-2">
               <div className="grid gap-3 sm:grid-cols-2">
                 {project.gallery.map((img, idx) => (
@@ -118,19 +118,27 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
               </div>
             </div>
             <aside className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-7">
-              <Detail
-                label={t("projectsSection.details.panels")}
-                value={project.panelsUsed[lang]}
-              />
-              <Detail label={t("projectsSection.details.inverter")} value={project.inverter} />
-              <Detail
-                label={t("projectsSection.details.mounting")}
-                value={project.mountingSystem[lang]}
-              />
-              <Detail
-                label={t("projectsSection.details.duration")}
-                value={project.completionTime[lang]}
-              />
+              <h2 className="font-display mb-2 text-xl font-bold text-white">
+                {t("projectsSection.details.title")}
+              </h2>
+              {project.technology && (
+                <Detail
+                  label={t("projectsSection.details.technology")}
+                  value={project.technology[lang]}
+                />
+              )}
+              {project.developer && (
+                <Detail label={t("projectsSection.details.developer")} value={project.developer} />
+              )}
+              {project.mainContractor && (
+                <Detail
+                  label={t("projectsSection.details.contractor")}
+                  value={project.mainContractor}
+                />
+              )}
+              {project.client && (
+                <Detail label={t("projectsSection.details.client")} value={project.client} />
+              )}
             </aside>
           </div>
         </section>
@@ -152,8 +160,8 @@ function Stat({
 }) {
   return (
     <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-5">
-      <div className="flex items-center gap-2 text-xs uppercase tracking-wider text-white/55">
-        <Icon className="h-3.5 w-3.5" />
+      <div className="flex items-center gap-2 text-xs uppercase leading-snug tracking-wider text-white/55">
+        <Icon className="h-3.5 w-3.5 shrink-0" />
         {label}
       </div>
       <div className="mt-2 text-xl font-bold text-white">{value}</div>
@@ -165,7 +173,7 @@ function Detail({ label, value }: { label: string; value: string }) {
   return (
     <div className="border-b border-[var(--border)] py-4 last:border-0">
       <div className="text-xs uppercase tracking-wider text-white/50">{label}</div>
-      <div className="mt-1 text-sm font-medium text-white">{value}</div>
+      <div className="mt-1 text-sm font-medium leading-relaxed text-white">{value}</div>
     </div>
   );
 }

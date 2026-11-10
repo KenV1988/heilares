@@ -31,7 +31,7 @@
   },
   "stats": {
     "title": "Mõõdetav kogemus",
-    "mw": "Osaletud paigaldustel",
+    "mw": "Dokumenteeritud tööde maht",
     "response": "Pakkumise vastus",
     "years": "Aastat valdkonnas"
   },
@@ -243,7 +243,7 @@
     "items": {
       "scale": {
         "title": "Megavatt-skaala kogemus",
-        "desc": "Sadu MW päikeseparkide paigaldustel osaletud Eestis ja Lätis."
+        "desc": "Dokumenteeritud tööde maht referentsprojektidel on 167,64 MW. Suurtel objektidel teostame kokkulepitud tööpakette."
       },
       "turnkey": {
         "title": "Võtmed kätte teenus",
@@ -266,24 +266,27 @@
   },
   "projectsSection": {
     "title": "Tehtud tööd",
-    "subtitle": "Valik viimaseid suuremahulisi päikeseenergia projekte.",
+    "subtitle": "Valik projekte, kus pargi koguvõimsus ja HeilArese teostatud tööde maht on eraldi välja toodud.",
     "filter": {
       "all": "Kõik",
       "tracker_park": "Solar Tracker Park",
       "maapark": "Maapark",
       "katusepark": "Katusepark"
     },
-    "capacity": "Võimsus",
-    "year": "Valmimine",
+    "capacity": "Pargi koguvõimsus",
+    "year": "Tööde periood",
     "location": "Asukoht",
     "details": {
-      "panels": "Paneelid",
-      "inverter": "Inverter",
-      "mounting": "Kandekonstruktsioon",
-      "duration": "Teostusaeg"
+      "title": "Projekti andmed",
+      "technology": "Tehnoloogia",
+      "developer": "Arendaja / omanik",
+      "contractor": "Peatöövõtja",
+      "client": "Klient"
     },
     "back": "Tagasi projektidele",
-    "heroAlt": "Risti Solar Tracker Park Eestis"
+    "heroAlt": "Risti Solar Tracker Park Eestis",
+    "share": "HeilArese tööde maht",
+    "shareBreakdown": "Kandekonstruktsioon + paneelid / DC + inverterid"
   },
   "panelsPage": {
     "hero": {
@@ -296,7 +299,7 @@
       "lead": "Maapark on maapealne päikesepark, mille HeilAres projekteerib ja paigaldab võtmed kätte põhimõttel kommerts- ja tööstusmastaabis.",
       "paragraphs": [
         "Maapargid sobivad ideaalselt põllumaale, kasutusest väljas olevatele aladele ja tööstusmaale, kus on piisavalt avatud pinda paneelide paigaldamiseks optimaalse nurga all. HeilAres teostab paigaldustööd — vundamentide rajamine, kandekonstruktsioonide paigaldus ning paneelide ja inverterite paigaldus.",
-        "Osaleme nii mõne MW suuruste maaparkide kui ka sadade megavattide suuruste suurprojektide paigaldustel. HeilAres meeskonna osalusel on paigaldatud näiteks 76 MW Kirikmäe maapark Eestis ja 72,5 MW Stelpe maapark Lätis. Töötame ainult Tier-1 päikesepaneelide ja inverterite tootjatega, et tagada pikaajaline tootlikkus ja töökindlus.",
+        "Osaleme nii mõne MW suuruste maaparkide kui ka suurprojektide paigaldustel kokkulepitud tööpakettide ulatuses. Kirikmäe 77,5 MW pargis oli HeilArese töömaht 32,7 MW. Stelpe 72,5 MW pargis paigaldasime 24 MW ulatuses kandekonstruktsioonid ja paneelid ning teostasime 40 MW ulatuses DC- ja inverteritöid.",
         "Maapargi eelis on lihtne hooldus, suur tootlikkus ja paindlik mastaapsus."
       ],
       "faq": {
@@ -327,7 +330,7 @@
       "lead": "Solar Tracker Park on päikest jälgiv ühe-teljeline (single-axis) päikesepark, mis annab kuni 25% suurema energiatootlikkuse võrreldes fikseeritud paneelidega.",
       "paragraphs": [
         "Solar Tracker süsteemid pööravad päikesepaneele päeva jooksul ida-läänesuunaliselt, jälgides päikese liikumist. See tagab paneelide optimaalse nurga päikesekiirguse suhtes hommikust õhtuni ning tõstab oluliselt aastast energiatootlikkust võrreldes klassikaliste fikseeritud maaparkidega.",
-        "Solar Tracker Park sobivad ideaalselt suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. HeilAres on paigaldanud Solar Tracker Park nii Eestis kui Lätis, sealhulgas 244 MW Risti Solar Tracker Park Eestis ja Lielvarde Solar Tracker Park Lätis.",
+        "Solar Tracker Park sobivad suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. Risti 244 MW pargis on HeilArese tööde maht ligikaudu 80 MW. Lielvārde 10,94 MW projektis teostasime ramimise, kandekonstruktsioonide ja paneelide paigalduse peatöövõtjana.",
         "Suurem tootlikkus tähendab kiiremat investeeringu tasuvust ja paremat tootmise jaotust päeva jooksul, mis on eriti väärtuslik elektri spot-hindade tippaegadel."
       ],
       "faq": {
@@ -348,7 +351,7 @@
         },
         "capacity": {
           "question": "Kui suure võimsusega päikeseparke HeilAres paigaldab?",
-          "answer": "Teostame nii mõne megavati suuruseid projekte kui ka suuremahulisi, sadade megavattide suuruseid päikeseparke. Meie meeskonnad on osalenud näiteks 76 MW Kirikmäe, 72,5 MW Stelpe ja 244 MW Risti Solar Tracker Park projektidel."
+          "answer": "Teostame päikeseparkidel kokkulepitud tööpakette. Risti 244 MW pargis on HeilArese osa ligikaudu 80 MW, Stelpe 72,5 MW pargis 24 MW mehaanilisi paigaldustöid ja 40 MW DC- ning inverteritöid ning Kirikmäe 77,5 MW pargis 32,7 MW."
         },
         "turnkey": {
           "question": "Kas HeilAres pakub päikesepargi paigaldust võtmed kätte lahendusena?",
@@ -634,8 +637,8 @@
       },
       "size": {
         "question": "Kui suuri päikeseparke HeilAres ehitab?",
-        "lead": "HeilAres on osalenud üle 400 MW päikeseparkide paigaldustel Euroopas.",
-        "answer": "Oleme osalenud üle 400 MW päikeseparkide paigaldustel, sealhulgas 244 MW Risti päikesepark Eestis ja 72,5 MW Stelpe park Lätis. Ehitame nii mõnesaja kW kui ka sadade MW suuruseid projekte."
+        "lead": "HeilArese dokumenteeritud tööde maht referentsprojektidel on 167,64 MW.",
+        "answer": "Risti 244 MW pargis on HeilArese osa ligikaudu 80 MW. Stelpe 72,5 MW pargis paigaldasime 24 MW ulatuses kandekonstruktsioonid ja paneelid ning teostasime 40 MW ulatuses DC- ja inverteritöid. Kirikmäe 77,5 MW pargis oli meie töömaht 32,7 MW."
       },
       "countries": {
         "question": "Millistes riikides HeilAres tegutseb?",
@@ -748,7 +751,7 @@
   "seo": {
     "home": {
       "title": "Päikesepargi ehitus võtmed kätte | HeilAres OÜ",
-      "description": "HeilAres ehitab võtmed-kätte päikeseparke — Solar Tracker Park, maaparke ja katuseparke Eestis, Lätis ja üle Euroopa. 400+ MW kogemust. Pakume ka tööjõu renti. Küsi pakkumist.",
+      "description": "HeilAres teostab Solar Tracker Park, maaparkide ja katuseparkide paigaldustöid Eestis, Lätis ja üle Euroopa. Dokumenteeritud tööde maht 167,64 MW. Küsi pakkumist.",
       "twitterTitle": "HeilAres OÜ — Roheenergia spetsialistid",
       "twitterDescription": "Võtmed kätte päikeseparkide paigaldus Eestis, Lätis ja üle Euroopa. Solar Tracker Park, maapark, katusepark."
     },
@@ -766,7 +769,7 @@
     },
     "projects": {
       "title": "Tehtud tööd — päikesepargid Eestis ja Euroopas | HeilAres",
-      "description": "Vaata HeilArese suuremahulisi päikeseparke — Risti 244 MW, Stelpe 72,5 MW, Kirikmäe 76 MW ja teised projektid."
+      "description": "Vaata projekte, kus pargi koguvõimsus ja HeilArese tööde maht on eraldi välja toodud: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW ja BLS 4,2 MW."
     },
     "contact": {
       "title": "Kontakt | HeilAres OÜ",

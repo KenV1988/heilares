@@ -75,7 +75,7 @@ const epcPartner: BlogPost = {
         {
           heading: "Millised kriteeriumid loevad?",
           paragraphs: [
-            "Esmane kriteerium on referentside maht megavattides. EPC-partner, kes on paigaldanud sadu MW, mõistab täismahus projektide spetsiifikat — alates substation-ühenduse projekteerimisest kuni DC-kaablite hoolduseni. HeilAres on paigaldanud üle 400 MW Eestis, Lätis ja Euroopas.",
+            "Esmane kriteerium on referentsprojektide tegelik töömaht ja sarnaste tööpakettide kogemus. HeilArese dokumenteeritud tööde maht on 167,64 MW; suurtes parkides teostame kokkulepitud osi, mitte automaatselt kogu pargi paigaldust.",
             "Teine kriteerium on komponentide tarneahel. Tugevad EPC-partnerid on otselepingulistes suhetes Tier-1 paneelide ja inverterite tootjatega — see tähendab paremaid hindu, garantii usaldusväärsust ja stabiilset tarnegraafikut. Küsi konkreetseid tarnijaid ja garantiitingimusi.",
             "Kolmas kriteerium on oma paigaldusmeeskonnad. EPC, kes tellib kogu paigalduse alltöövõtjatelt, kaotab kontrolli kvaliteedi ja graafiku üle. HeilArese kõik meeskonnad on majasisesed, mis tagab ühtse kvaliteedistandardi kõikidel objektidel.",
           ],
@@ -125,7 +125,7 @@ const epcPartner: BlogPost = {
         {
           heading: "Which criteria matter?",
           paragraphs: [
-            "The first criterion is portfolio volume in megawatts. An EPC partner that has installed hundreds of MW understands the specifics of full-scale projects — from substation interconnection design to long-term DC cable maintenance. HeilAres has installed over 400 MW in Estonia, Latvia and Europe.",
+            "The first criterion is the actual scope delivered on reference projects and experience with comparable work packages. HeilAres has 167.64 MW of documented work; on large parks we deliver agreed scopes rather than automatically installing the entire park.",
             "The second criterion is supply chain. Strong EPC partners have direct contractual relationships with Tier-1 panel and inverter manufacturers — meaning better prices, reliable warranties and stable delivery schedules. Ask for specific suppliers and warranty terms.",
             "The third criterion is in-house installation crews. An EPC that subcontracts all installation loses control of quality and schedule. All of HeilAres' crews are in-house, ensuring a single quality standard across every site.",
           ],
@@ -175,7 +175,7 @@ const epcPartner: BlogPost = {
         {
           heading: "Mitkä kriteerit ratkaisevat?",
           paragraphs: [
-            "Ensimmäinen kriteeri on portfolion megawattimäärä. EPC, joka on asentanut satoja MW, ymmärtää täysimittaisten projektien erityispiirteet — sähköaseman liitynnästä DC-kaapeleiden huoltoon. HeilAres on asentanut yli 400 MW Virossa, Latviassa ja Euroopassa.",
+            "Ensimmäinen kriteeri on referenssiprojektien toteutunut työmäärä ja kokemus vastaavista työpaketeista. HeilAresin dokumentoitu työmäärä on 167,64 MW; suurissa puistoissa toteutamme sovittuja osuuksia emmekä automaattisesti koko puiston asennusta.",
             "Toinen kriteeri on toimitusketju. Vahvoilla EPC-kumppaneilla on suorat sopimukset Tier-1-paneelien ja -invertterien valmistajien kanssa — mikä tarkoittaa parempia hintoja, luotettavia takuita ja vakaita toimitusaikatauluja.",
             "Kolmas kriteeri on omat asennusryhmät. EPC, joka ulkoistaa kaiken asennuksen, menettää laadun ja aikataulun hallinnan. Kaikki HeilAreksen asennusryhmät ovat talon sisäisiä, mikä takaa yhtenäisen laatustandardin kaikilla työmailla.",
           ],
@@ -225,7 +225,7 @@ const epcPartner: BlogPost = {
         {
           heading: "Welche Kriterien sind entscheidend?",
           paragraphs: [
-            "Das erste Kriterium ist das Portfoliovolumen in Megawatt. Ein EPC-Partner, der hunderte MW installiert hat, versteht die Besonderheiten großmaßstäblicher Projekte – von der Planung des Umspannwerkanschlusses bis zur langfristigen Wartung der DC-Kabel. HeilAres hat über 400 MW in Estland, Lettland und Europa installiert.",
+            "Das erste Kriterium ist der tatsächlich ausgeführte Arbeitsumfang in Referenzprojekten sowie Erfahrung mit vergleichbaren Arbeitspaketen. HeilAres weist 167,64 MW dokumentierte Arbeiten aus; bei großen Parks liefern wir vereinbarte Teilumfänge und nicht automatisch die gesamte Parkinstallation.",
             "Das zweite Kriterium ist die Lieferkette. Starke EPC-Partner unterhalten direkte Vertragsbeziehungen zu Tier-1-Herstellern von Modulen und Wechselrichtern – das bedeutet bessere Preise, zuverlässige Garantien und stabile Lieferzeiten. Fragen Sie nach konkreten Lieferanten und Garantiebedingungen.",
             "Das dritte Kriterium sind eigene Montageteams. Ein EPC, der die gesamte Montage an Subunternehmer vergibt, verliert die Kontrolle über Qualität und Termine. Alle Teams von HeilAres sind inhouse, was einen einheitlichen Qualitätsstandard auf allen Baustellen sicherstellt.",
           ],
@@ -296,7 +296,7 @@ const parkTypes: BlogPost = {
           heading: "Solar Tracker Park — maksimaalne tootlikkus pinnaühiku kohta",
           paragraphs: [
             "Solar Tracker Park kasutab ühe-teljelisi (single-axis) jälgijaid, mis pööravad paneele ida-läänesuunaliselt päeva jooksul. Tootlikkus on 15–25% suurem kui sama suure fikseeritud maapargi puhul, mis kompenseerib kõrgemat CAPEX-i ja hoolduskulusid.",
-            "Solar Tracker Park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. HeilAres on paigaldanud Lätis 72,5 MW Stelpe Solar Tracker Park.",
+            "Solar Tracker Park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. HeilArese tööde maht Risti 244 MW Solar Tracker Pargis on ligikaudu 80 MW.",
           ],
         },
         {
@@ -344,7 +344,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Solar Tracker Park — maximum yield per area",
           paragraphs: [
-            "Solar Tracker Parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. HeilAres has participated in the installation of the 72.5 MW Stelpe ground-mounted solar park in Latvia.",
+            "Solar Tracker Parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. HeilAres' documented scope at the 244 MW Risti Solar Tracker Park is approximately 80 MW.",
             "Trackers suit large, flat sites where grid capacity does not limit output.",
           ],
         },
@@ -393,7 +393,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Seurantapuisto — maksimituotto pinta-alaa kohti",
           paragraphs: [
-            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. HeilAres on osallistunut 72,5 MW:n Stelpen maapuiston asennukseen Latviassa.",
+            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. HeilAresin dokumentoitu työmäärä Ristin 244 MW:n Solar Tracker Park -puistossa on noin 80 MW.",
             "Sopii erityisesti suurille, tasaisille alueille.",
           ],
         },
@@ -441,7 +441,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Solar Tracker Park – maximaler Ertrag pro Flächeneinheit",
           paragraphs: [
-            "Ein Solar Tracker Park nutzt einachsige Nachführsysteme, die die Module tagsüber von Ost nach West ausrichten. Der Ertrag liegt 15–25 % höher als bei einer gleich großen, fest aufgeständerten Anlage, was den höheren CAPEX und Wartungsaufwand ausgleicht. HeilAres war an der Installation des 72,5-MW-Solarparks Stelpe mit Bodenmontage in Lettland beteiligt.",
+            "Ein Solar Tracker Park nutzt einachsige Nachführsysteme, die die Module tagsüber von Ost nach West ausrichten. Der Ertrag liegt 15–25 % höher als bei einer gleich großen, fest aufgeständerten Anlage, was den höheren CAPEX und Wartungsaufwand ausgleicht. Der dokumentierte Arbeitsumfang von HeilAres im 244-MW-Solar-Tracker-Park Risti beträgt etwa 80 MW.",
             "Tracker-Anlagen eignen sich vor allem für große, ebene Flächen, bei denen die Netzkapazität die Erzeugung nicht limitiert.",
           ],
         },
@@ -689,7 +689,7 @@ const timeline: BlogPost = {
           question: "Kui kaua võtab 100 MW päikesepargi ehitus?",
           lead: "100 MW päikesepargi ehitus võtab tavaliselt 9–14 kuud alates lepingust kuni paigaldustööde lõpuni.",
           answer:
-            "HeilArese suurim paigaldatud objekt on 244 MW Risti päikesepark Eestis, kus mitmed meeskonnad töötasid paralleelselt.",
+            "HeilArese üks suurimaid referentse on 244 MW Risti päikesepark Eestis, kus meie teostatud tööde maht on ligikaudu 80 MW ja mitmed meeskonnad töötasid paralleelselt.",
         },
         {
           question: "Kas talvel saab päikesepargi ehitusega jätkata?",
@@ -727,7 +727,7 @@ const timeline: BlogPost = {
           question: "How long does a 100 MW solar park take to build?",
           lead: "A 100 MW solar park typically takes 9–14 months from contract to grid connection.",
           answer:
-            "HeilAres' largest installed site is the 244 MW Risti park in Estonia, where multiple crews worked in parallel.",
+            "One of HeilAres' largest references is the 244 MW Risti park in Estonia, where our documented scope is approximately 80 MW and multiple crews worked in parallel.",
         },
         {
           question: "Can construction continue through winter?",
@@ -764,7 +764,7 @@ const timeline: BlogPost = {
         {
           question: "Kuinka kauan 100 MW aurinkopuiston rakentaminen kestää?",
           lead: "100 MW aurinkopuisto kestää tyypillisesti 9–14 kuukautta sopimuksesta verkkoliityntään.",
-          answer: "HeilAreksen suurin kohde on 244 MW Risti-puisto Virossa.",
+          answer: "Yksi HeilAresin suurimmista referensseistä on Ristin 244 MW:n puisto Virossa, jossa yrityksen dokumentoitu työmäärä on noin 80 MW.",
         },
         {
           question: "Voiko rakentaminen jatkua talvella?",
@@ -802,7 +802,7 @@ const timeline: BlogPost = {
           question: "Wie lange dauert der Bau eines 100-MW-Solarparks?",
           lead: "Der Bau eines 100-MW-Solarparks dauert üblicherweise 9–14 Monate vom Vertrag bis zum Netzanschluss.",
           answer:
-            "Das größte von HeilAres realisierte Projekt ist der 244-MW-Solarpark Risti in Estland, bei dem mehrere Teams parallel gearbeitet haben.",
+            "Eine der größten Referenzen von HeilAres ist der 244-MW-Solarpark Risti in Estland, bei dem der dokumentierte Arbeitsumfang des Unternehmens etwa 80 MW beträgt und mehrere Teams parallel arbeiteten.",
         },
         {
           question: "Kann der Bau eines Solarparks im Winter fortgesetzt werden?",

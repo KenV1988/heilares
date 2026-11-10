@@ -18,3 +18,10 @@
 - [x] Lisa neljakeelne BESS-artikkel koos loendite, KKK ja kaanepildiga
 - [x] Lisa BESS-kategooria blogi filtrisse ja avalikku blogitööriista
 - [x] Kontrolli artikli sisu, lingid, SEO ning desktop- ja mobiilivaade
+
+# Projekti osakaalude ja tehtud tööde täpsustamine
+
+- [x] Viia PDF-i projektide koguvõimsused, HeilArese töömahud, tööde ulatus ja perioodid ühisesse andmeallikasse
+- [x] Näita pargi koguvõimsust ja HeilArese osa eraldi projektikaartidel ning detaillehtedel kõigis keeltes
+- [x] Paranda eksitavad projektikogemuse väited avalehel, teenuste lehel, KKK-s, blogis ja avalikes projektitööriistades
+- [x] Kontrolli konkreetseid MW-väärtusi testidega ning projektide desktop- ja mobiilivaateid kõigis keeltes

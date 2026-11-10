@@ -28,24 +28,32 @@ export interface Project {
   slug: string;
   category: ProjectCategory;
   location: LocalizedText;
-  capacityKw?: number;
-  yearCompleted: number;
+  /** Total capacity of the park, not the capacity installed by HeilAres. */
+  parkCapacityKw: number;
+  /** HeilAres' documented project share. For Stelpe, see shareBreakdown. */
+  heilAresShareKw: number;
+  heilAresShareApproximate?: boolean;
+  shareBreakdown?: {
+    mechanicalKw: number;
+    electricalKw: number;
+  };
+  period: string;
   coverImage: string;
   coverAlt: LocalizedText;
   gallery: GalleryImage[];
   title: LocalizedText;
   description: LocalizedText;
-  panelsUsed: LocalizedText;
-  inverter: string;
-  mountingSystem: LocalizedText;
-  completionTime: LocalizedText;
+  technology?: LocalizedText;
+  developer?: string;
+  mainContractor?: string;
+  client?: string;
 }
 
-const sharedDesc = {
-  et: "Teostasime raami paigalduse, paneelide paigalduse ning DC-tööd koos inverteriga.",
-  en: "We delivered the mounting structure, panel installation and DC works together with the inverter.",
-  fi: "Toteutimme rakenteen asennuksen, paneelien asennuksen sekä DC-työt invertterin kanssa.",
-  de: "Wir führten die Montage des Untergestells, die Installation der Module sowie die DC-Arbeiten inklusive Wechselrichter aus.",
+const zimTracker: LocalizedText = {
+  et: "ZIMMERMANN PV-Tracker — ZIM Track",
+  en: "ZIMMERMANN PV-Tracker — ZIM Track",
+  fi: "ZIMMERMANN PV-Tracker — ZIM Track",
+  de: "ZIMMERMANN PV-Tracker — ZIM Track",
 };
 
 export const projects: Project[] = [
@@ -53,8 +61,10 @@ export const projects: Project[] = [
     slug: "risti-eesti",
     category: "tracker_park",
     location: { et: "Risti, Eesti", en: "Risti, Estonia", fi: "Risti, Viro", de: "Risti, Estland" },
-    capacityKw: 244000,
-    yearCompleted: 2026,
+    parkCapacityKw: 244000,
+    heilAresShareKw: 80000,
+    heilAresShareApproximate: true,
+    period: "2025–2026",
     coverImage: risti2,
     coverAlt: {
       et: "Risti Solar Tracker Park Eestis, suuremahuline päikest jälgiv park",
@@ -106,21 +116,15 @@ export const projects: Project[] = [
       fi: "Ristin aurinkopuisto",
       de: "Solarpark Risti",
     },
-    description: sharedDesc,
-    panelsUsed: {
-      et: "Tier-1 paneelid",
-      en: "Tier-1 panels",
-      fi: "Tier-1-paneelit",
-      de: "Tier-1 Module",
+    description: {
+      et: "HeilAres teostas ligikaudu 80 MW ulatuses kandekonstruktsioonide ja päikesepaneelide paigaldust ning DC-kaabelduse ja inverterite töid. Pargi koguvõimsus on 244 MW.",
+      en: "HeilAres delivered approximately 80 MW of mounting structures and PV module installation, together with DC cabling and inverter works. The park's total capacity is 244 MW.",
+      fi: "HeilAres toteutti noin 80 MW edestä tukirakenteiden ja aurinkopaneelien asennusta sekä DC-kaapelointi- ja invertteritöitä. Puiston kokonaisteho on 244 MW.",
+      de: "HeilAres montierte Unterkonstruktionen und PV-Module mit einem Umfang von etwa 80 MW und führte DC-Verkabelung sowie Wechselrichterarbeiten aus. Die Gesamtleistung des Parks beträgt 244 MW.",
     },
-    inverter: "SMA / Huawei inverter",
-    mountingSystem: {
-      et: "Üheteljeline tracker",
-      en: "Single-axis tracker",
-      fi: "Yksiakselinen tracker",
-      de: "Einachsige Nachführung",
-    },
-    completionTime: { et: "2–4 kuud", en: "2–4 months", fi: "2–4 kuukautta", de: "2–4 Monate" },
+    technology: zimTracker,
+    developer: "Sunly",
+    mainContractor: "Connecto Infra",
   },
   {
     slug: "stelpe-latvia",
@@ -131,8 +135,10 @@ export const projects: Project[] = [
       fi: "Stelpe, Latvia",
       de: "Stelpe, Lettland",
     },
-    capacityKw: 72500,
-    yearCompleted: 2025,
+    parkCapacityKw: 72500,
+    heilAresShareKw: 40000,
+    shareBreakdown: { mechanicalKw: 24000, electricalKw: 40000 },
+    period: "2024–2025",
     coverImage: stelpe1,
     coverAlt: {
       et: "Stelpe maapargi paneeliread talvel",
@@ -175,21 +181,20 @@ export const projects: Project[] = [
       fi: "Stelpen aurinkopuisto",
       de: "Solarpark Stelpe",
     },
-    description: sharedDesc,
-    panelsUsed: {
-      et: "Tier-1 paneelid",
-      en: "Tier-1 panels",
-      fi: "Tier-1-paneelit",
-      de: "Tier-1 Module",
+    description: {
+      et: "HeilAres paigaldas 24 MW ulatuses kandekonstruktsioonid ja päikesepaneelid ning teostas 40 MW ulatuses DC-kaabelduse ja inverterite töid. Pargi koguvõimsus on 72,5 MW; tööpakettide mahtusid ei liideta.",
+      en: "HeilAres installed 24 MW of mounting structures and PV modules and delivered 40 MW of DC cabling and inverter works. The park's total capacity is 72.5 MW; the work-package volumes are not additive.",
+      fi: "HeilAres asensi 24 MW edestä tukirakenteita ja aurinkopaneeleita sekä toteutti 40 MW edestä DC-kaapelointi- ja invertteritöitä. Puiston kokonaisteho on 72,5 MW; työpakettien määriä ei lasketa yhteen.",
+      de: "HeilAres montierte Unterkonstruktionen und PV-Module mit 24 MW und führte DC-Verkabelung sowie Wechselrichterarbeiten mit 40 MW aus. Die Gesamtleistung des Parks beträgt 72,5 MW; die Arbeitspakete werden nicht addiert.",
     },
-    inverter: "SMA / Huawei inverter",
-    mountingSystem: {
-      et: "Maapealne kandekonstruktsioon",
-      en: "Ground-mounted structure",
-      fi: "Maa-asennusrakenne",
-      de: "Freilandanlage",
+    technology: {
+      et: "CORAB WS-019NB, 15° fikseeritud paigaldusnurk",
+      en: "CORAB WS-019NB, 15° fixed tilt",
+      fi: "CORAB WS-019NB, 15° kiinteä asennuskulma",
+      de: "CORAB WS-019NB, 15° feste Aufständerung",
     },
-    completionTime: { et: "2–4 kuud", en: "2–4 months", fi: "2–4 kuukautta", de: "2–4 Monate" },
+    developer: "Ignitis Renewables",
+    mainContractor: "Smartecon OÜ",
   },
   {
     slug: "kirikmae-eesti",
@@ -200,23 +205,24 @@ export const projects: Project[] = [
       fi: "Kirikmäe, Viro",
       de: "Kirikmäe, Estland",
     },
-    capacityKw: 76000,
-    yearCompleted: 2023,
+    parkCapacityKw: 77500,
+    heilAresShareKw: 32700,
+    period: "2024",
     coverImage: kirikmae1,
     coverAlt: {
-      et: "Kirikmäe 76 MW maapargi õhuvaade",
-      en: "Aerial view of the 76 MW Kirikmäe ground-mounted solar park",
-      fi: "Ilmakuva 76 MW:n Kirikmäen maapuistosta",
-      de: "Luftaufnahme des 76 MW Solarparks Kirikmäe",
+      et: "Kirikmäe 77,5 MW maapargi õhuvaade",
+      en: "Aerial view of the 77.5 MW Kirikmäe ground-mounted solar park",
+      fi: "Ilmakuva 77,5 MW:n Kirikmäen maapuistosta",
+      de: "Luftaufnahme des 77,5-MW-Solarparks Kirikmäe",
     },
     gallery: [
       {
         src: kirikmae1,
         alt: {
-          et: "Kirikmäe 76 MW maapargi õhuvaade",
-          en: "Aerial view of the 76 MW Kirikmäe ground-mounted solar park",
-          fi: "Ilmakuva 76 MW:n Kirikmäen maapuistosta",
-          de: "Luftaufnahme des 76 MW Solarparks Kirikmäe",
+          et: "Kirikmäe 77,5 MW maapargi õhuvaade",
+          en: "Aerial view of the 77.5 MW Kirikmäe ground-mounted solar park",
+          fi: "Ilmakuva 77,5 MW:n Kirikmäen maapuistosta",
+          de: "Luftaufnahme des 77,5-MW-Solarparks Kirikmäe",
         },
       },
     ],
@@ -226,27 +232,28 @@ export const projects: Project[] = [
       fi: "Kirikmäen aurinkopuisto",
       de: "Solarpark Kirikmäe",
     },
-    description: sharedDesc,
-    panelsUsed: {
-      et: "Tier-1 paneelid",
-      en: "Tier-1 panels",
-      fi: "Tier-1-paneelit",
-      de: "Tier-1 Module",
+    description: {
+      et: "HeilArese 32,7 MW töömaht hõlmas betoonvaide, kandekonstruktsioone, päikesepaneele, DC-kaabeldust ja invertereid. Pargi koguvõimsus on 77,5 MW.",
+      en: "HeilAres' 32.7 MW scope covered concrete piles, mounting structures, PV modules, DC cabling and inverters. The park's total capacity is 77.5 MW.",
+      fi: "HeilAresin 32,7 MW:n työmaara käsitti betonipaalut, tukirakenteet, aurinkopaneelit, DC-kaapeloinnin ja invertterit. Puiston kokonaisteho on 77,5 MW.",
+      de: "Der 32,7-MW-Arbeitsumfang von HeilAres umfasste Betonpfähle, Unterkonstruktionen, PV-Module, DC-Verkabelung und Wechselrichter. Die Gesamtleistung des Parks beträgt 77,5 MW.",
     },
-    inverter: "SMA / Huawei inverter",
-    mountingSystem: {
-      et: "Maapealne kandekonstruktsioon",
-      en: "Ground-mounted structure",
-      fi: "Maa-asennusrakenne",
-      de: "Freilandanlage",
+    technology: {
+      et: "Fikseeritud maapealne kandekonstruktsioon, ligikaudu 117 600 Canadian Solar paneeli",
+      en: "Fixed-tilt ground mounting, approximately 117,600 Canadian Solar modules",
+      fi: "Kiinteäkulmainen maa-asennus, noin 117 600 Canadian Solar -paneelia",
+      de: "Fest aufgeständerte Bodenmontage, etwa 117.600 Canadian-Solar-Module",
     },
-    completionTime: { et: "2–4 kuud", en: "2–4 months", fi: "2–4 kuukautta", de: "2–4 Monate" },
+    developer: "Baltic Renewable Energy Platform (Evecon & Mirova)",
+    mainContractor: "Wiso Engineering",
   },
   {
     slug: "bls-eesti",
     category: "katusepark",
     location: { et: "Eesti", en: "Estonia", fi: "Viro", de: "Estland" },
-    yearCompleted: 2023,
+    parkCapacityKw: 4200,
+    heilAresShareKw: 4200,
+    period: "2023",
     coverImage: bls1.url,
     coverAlt: {
       et: "BLS logistikakeskuse katusepargi objekt Eestis",
@@ -266,76 +273,64 @@ export const projects: Project[] = [
       },
     ],
     title: {
-      et: "BLS päikesepark",
-      en: "BLS solar park",
-      fi: "BLS-aurinkopuisto",
-      de: "Solarpark BLS",
+      et: "BLS logistikakeskuse katusepark",
+      en: "BLS Logistics Centre rooftop solar park",
+      fi: "BLS-logistiikkakeskuksen kattoaurinkopuisto",
+      de: "Dach-Solarpark des BLS Logistikzentrums",
     },
-    description: sharedDesc,
-    panelsUsed: {
-      et: "Tier-1 paneelid",
-      en: "Tier-1 panels",
-      fi: "Tier-1-paneelit",
-      de: "Tier-1 Module",
+    description: {
+      et: "HeilArese dokumenteeritud tööde maht BLS logistikakeskuse katusepargis oli 4,2 MW.",
+      en: "HeilAres' documented scope at the BLS Logistics Centre rooftop solar park was 4.2 MW.",
+      fi: "HeilAresin dokumentoitu työmaara BLS-logistiikkakeskuksen kattoaurinkopuistossa oli 4,2 MW.",
+      de: "Der dokumentierte Arbeitsumfang von HeilAres am Dach-Solarpark des BLS Logistikzentrums betrug 4,2 MW.",
     },
-    inverter: "SMA / Huawei inverter",
-    mountingSystem: {
-      et: "Katuse kandekonstruktsioon",
-      en: "Rooftop mounting structure",
-      fi: "Kattoasennusrakenne",
-      de: "Dachmontage-System",
-    },
-    completionTime: { et: "2–4 nädalat", en: "2–4 weeks", fi: "2–4 viikkoa", de: "2–4 Wochen" },
+    client: "BLS Baltic Logistic",
   },
   {
     slug: "lielvarde-latvia",
     category: "tracker_park",
     location: {
-      et: "Lielvarde, Läti",
-      en: "Lielvarde, Latvia",
-      fi: "Lielvarde, Latvia",
-      de: "Lielvarde, Lettland",
+      et: "Lielvārde, Läti",
+      en: "Lielvārde, Latvia",
+      fi: "Lielvārde, Latvia",
+      de: "Lielvārde, Lettland",
     },
-    yearCompleted: 2025,
+    parkCapacityKw: 10940,
+    heilAresShareKw: 10940,
+    period: "2024–2025",
     coverImage: lielvarde1,
     coverAlt: {
-      et: "Lielvarde Solar Tracker Park Lätis",
-      en: "Lielvarde Solar Tracker Park in Latvia",
-      fi: "Lielvarden Solar Tracker Park Latviassa",
-      de: "Lielvarde Solar Tracker Park in Lettland",
+      et: "Lielvārde Solar Tracker Park Lätis",
+      en: "Lielvārde Solar Tracker Park in Latvia",
+      fi: "Lielvärden Solar Tracker Park Latviassa",
+      de: "Lielvārde Solar Tracker Park in Lettland",
     },
     gallery: [
       {
         src: lielvarde1,
         alt: {
-          et: "Lielvarde Solar Tracker Park Lätis",
-          en: "Lielvarde Solar Tracker Park in Latvia",
-          fi: "Lielvarden Solar Tracker Park Latviassa",
-          de: "Lielvarde Solar Tracker Park in Lettland",
+          et: "Lielvārde Solar Tracker Park Lätis",
+          en: "Lielvārde Solar Tracker Park in Latvia",
+          fi: "Lielvärden Solar Tracker Park Latviassa",
+          de: "Lielvārde Solar Tracker Park in Lettland",
         },
       },
     ],
     title: {
-      et: "Lielvarde päikesepark",
-      en: "Lielvarde solar park",
-      fi: "Lielvarden aurinkopuisto",
-      de: "Solarpark Lielvarde",
+      et: "Lielvārde päikesepark",
+      en: "Lielvārde solar park",
+      fi: "Lielvärden aurinkopuisto",
+      de: "Solarpark Lielvārde",
     },
-    description: sharedDesc,
-    panelsUsed: {
-      et: "Tier-1 paneelid",
-      en: "Tier-1 panels",
-      fi: "Tier-1-paneelit",
-      de: "Tier-1 Module",
+    description: {
+      et: "HeilAres teostas 10,94 MW suurusel projektil postide ramimise, kandekonstruktsioonide ja päikesepaneelide paigalduse. HeilAres oli projekti peatöövõtja.",
+      en: "HeilAres delivered pile driving, mounting structures and PV module installation for the 10.94 MW project and acted as the project's main contractor.",
+      fi: "HeilAres toteutti 10,94 MW:n hankkeessa paalutuksen, tukirakenteiden ja aurinkopaneelien asennuksen. HeilAres toimi hankkeen paaurakoitsijana.",
+      de: "HeilAres führte bei dem 10,94-MW-Projekt die Rammung sowie die Montage der Unterkonstruktionen und PV-Module aus und war Hauptauftragnehmer des Projekts.",
     },
-    inverter: "SMA / Huawei inverter",
-    mountingSystem: {
-      et: "Üheteljeline tracker",
-      en: "Single-axis tracker",
-      fi: "Yksiakselinen tracker",
-      de: "Einachsige Nachführung",
-    },
-    completionTime: { et: "2–4 kuud", en: "2–4 months", fi: "2–4 kuukautta", de: "2–4 Monate" },
+    technology: zimTracker,
+    developer: "EVECON group",
+    mainContractor: "HeilAres OÜ",
   },
 ];
 
@@ -346,9 +341,21 @@ export const projectsByCategory = projectCategoryOrder.flatMap((category) =>
 export const formatCapacity = (kw: number, locale: string = "et") => {
   if (kw >= 1000) {
     const mw = kw / 1000;
-    const formatted =
-      mw % 1 === 0 ? mw.toString() : mw.toFixed(1).replace(".", locale === "en" ? "." : ",");
+    const formatted = new Intl.NumberFormat(locale, { maximumFractionDigits: 2 }).format(mw);
     return `${formatted} MW`;
   }
-  return `${kw} kW`;
+  return `${new Intl.NumberFormat(locale).format(kw)} kW`;
+};
+
+export const formatHeilAresShare = (project: Project, locale: string = "et") => {
+  if (project.shareBreakdown) {
+    return `${formatCapacity(project.shareBreakdown.mechanicalKw, locale)} / ${formatCapacity(
+      project.shareBreakdown.electricalKw,
+      locale,
+    )}`;
+  }
+  return `${project.heilAresShareApproximate ? "≈" : ""}${formatCapacity(
+    project.heilAresShareKw,
+    locale,
+  )}`;
 };

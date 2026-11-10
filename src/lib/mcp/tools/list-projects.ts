@@ -2,13 +2,13 @@ import { defineTool, ToolError } from "@lovable.dev/mcp-js";
 import { z } from "zod";
 import { projectsByCategory } from "@/data/projects";
 
-const LANGS = ["et", "en", "fi"] as const;
+const LANGS = ["et", "en", "fi", "de"] as const;
 
 export default defineTool({
   name: "list_projects",
   title: "List solar park projects",
   description:
-    "List HeilAres reference projects (solar tracker parks, ground-mounted and rooftop parks) with location, capacity, park type and completion year.",
+    "List HeilAres reference projects with separate total park capacity and documented HeilAres work scope, location, park type and project period.",
   inputSchema: {
     lang: z.enum(LANGS).default("et").describe("Language for titles and descriptions."),
     category: z
@@ -23,10 +23,20 @@ export default defineTool({
       .map((p) => ({
         slug: p.slug,
         title: p.title[lang],
+        description: p.description[lang],
         category: p.category,
-        location: p.location,
-        capacityMw: p.capacityKw ? p.capacityKw / 1000 : undefined,
-        yearCompleted: p.yearCompleted,
+        location: p.location[lang],
+        parkCapacityMw: p.parkCapacityKw / 1000,
+        heilAresShareMw: p.heilAresShareKw / 1000,
+        heilAresShareApproximate: p.heilAresShareApproximate ?? false,
+        shareBreakdown: p.shareBreakdown
+          ? {
+              mechanicalMw: p.shareBreakdown.mechanicalKw / 1000,
+              electricalMw: p.shareBreakdown.electricalKw / 1000,
+              note: "Work-package volumes are separate and must not be added together.",
+            }
+          : undefined,
+        period: p.period,
       }));
     if (list.length === 0) throw new ToolError("No projects match that filter.");
     return {

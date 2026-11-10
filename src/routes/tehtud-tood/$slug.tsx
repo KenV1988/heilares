@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { ArrowLeft, MapPin, Calendar, Gauge, ListChecks } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
-import { projects, formatCapacity, formatHeilAresShare } from "@/data/projects";
+import { projects, formatCapacity, formatHeilAresShare, getAdditionalProjectImages } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
@@ -36,6 +36,7 @@ function ProjectDetail() {
 export function ProjectDetailView({ project }: { project: (typeof projects)[number] }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
+  const gallery = getAdditionalProjectImages(project);
 
   return (
     <SiteLayout>
@@ -109,12 +110,12 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
         </div>
 
         <section className="container-x py-16 md:py-24">
-          <div className="grid items-start gap-10 md:grid-cols-3">
-            <div className="md:col-span-2">
+          <div className={gallery.length > 0 ? "grid items-start gap-10 md:grid-cols-3" : "grid items-start"}>
+            {gallery.length > 0 && <div className="md:col-span-2">
               <div className="grid gap-3 sm:grid-cols-2">
-                {project.gallery.map((img, idx) => (
+                {gallery.map((img) => (
                   <img
-                    key={idx}
+                    key={img.src}
                     src={img.src}
                     alt={img.alt[lang]}
                     loading="lazy"
@@ -124,7 +125,7 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
                   />
                 ))}
               </div>
-            </div>
+            </div>}
             <aside className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-7">
               <h2 className="font-display mb-2 text-xl font-bold text-white">
                 {t("projectsSection.details.title")}

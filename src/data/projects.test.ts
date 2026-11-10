@@ -1,11 +1,34 @@
 import { describe, expect, it } from "vitest";
-import { formatCapacity, formatHeilAresShare, projects } from "./projects";
+import { formatCapacity, formatHeilAresShare, getAdditionalProjectImages, projects } from "./projects";
 
 const bySlug = (slug: string) => {
   const project = projects.find((item) => item.slug === slug);
   if (!project) throw new Error(`Missing project ${slug}`);
   return project;
 };
+
+describe("project photos are displayed once", () => {
+  it.each([
+    ["risti-eesti", 3],
+    ["stelpe-latvia", 2],
+    ["kirikmae-eesti", 0],
+    ["bls-eesti", 0],
+    ["lielvarde-latvia", 0],
+  ])("keeps only additional photos for %s", (slug, count) => {
+    const project = bySlug(slug);
+    const additional = getAdditionalProjectImages(project);
+    expect(additional).toHaveLength(count);
+    const sources = [project.coverImage, ...additional.map((image) => image.src)];
+    expect(new Set(sources).size).toBe(sources.length);
+  });
+
+  it("also removes repeated additional photos without losing their translations", () => {
+    const project = bySlug("risti-eesti");
+    const photo = project.gallery[0];
+    if (!photo) throw new Error("Missing Risti photo");
+    expect(getAdditionalProjectImages({ ...project, gallery: [photo, photo] })).toEqual([photo]);
+  });
+});
 
 describe("documented reference project scopes", () => {
   it("separates Risti's 244 MW park capacity from HeilAres' 80 MW scope", () => {

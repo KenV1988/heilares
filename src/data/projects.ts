@@ -339,6 +339,15 @@ export const projectsByCategory = projectCategoryOrder.flatMap((category) =>
   projects.filter((project) => project.category === category),
 );
 
+export const getAdditionalProjectImages = (project: Project): GalleryImage[] => {
+  const seen = new Set([project.coverImage]);
+  return project.gallery.filter((image) => {
+    if (seen.has(image.src)) return false;
+    seen.add(image.src);
+    return true;
+  });
+};
+
 export const formatCapacity = (kw: number, locale: string = "et") => {
   if (kw >= 1000) {
     const mw = kw / 1000;

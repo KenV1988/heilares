@@ -1,0 +1,2 @@
+## Project image rendering
+- Project detail pages use `getAdditionalProjectImages` to exclude the cover and repeated gallery sources, and omit the gallery column when empty; this keeps every localized page free of duplicate photos and blank gallery space.

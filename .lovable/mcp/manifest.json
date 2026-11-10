@@ -31,7 +31,7 @@
       {
         "name": "list_projects",
         "title": "List solar park projects",
-        "description": "List HeilAres reference projects (solar tracker parks, ground-mounted and rooftop parks) with location, capacity, park type and completion year.",
+        "description": "List HeilAres reference projects with separate total park capacity and documented HeilAres work scope, location, park type and project period.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
@@ -48,7 +48,8 @@
               "enum": [
                 "et",
                 "en",
-                "fi"
+                "fi",
+                "de"
               ]
             },
             "category": {
@@ -67,7 +68,7 @@
       {
         "name": "get_project",
         "title": "Get project details",
-        "description": "Get full public details of one HeilAres reference project by slug: description, panels, inverter, mounting system and completion time.",
+        "description": "Get public details of one HeilAres reference project, clearly separating total park capacity from HeilAres' documented scope and work packages.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
@@ -89,7 +90,8 @@
               "enum": [
                 "et",
                 "en",
-                "fi"
+                "fi",
+                "de"
               ]
             }
           },

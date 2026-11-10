@@ -79,16 +79,10 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
               label={t("projectsSection.location")}
               value={project.location[lang]}
             />
-            <Stat
-              Icon={Calendar}
-              label={t("projectsSection.year")}
-              value={project.period}
-            />
+            <Stat Icon={Calendar} label={t("projectsSection.year")} value={project.period} />
           </div>
           {project.shareBreakdown && (
-            <p className="mt-3 text-sm text-white/55">
-              {t("projectsSection.shareBreakdown")}
-            </p>
+            <p className="mt-3 text-sm text-white/55">{t("projectsSection.shareBreakdown")}</p>
           )}
         </div>
 
@@ -134,10 +128,7 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
                 />
               )}
               {project.developer && (
-                <Detail
-                  label={t("projectsSection.details.developer")}
-                  value={project.developer}
-                />
+                <Detail label={t("projectsSection.details.developer")} value={project.developer} />
               )}
               {project.mainContractor && (
                 <Detail

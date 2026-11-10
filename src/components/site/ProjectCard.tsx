@@ -1,10 +1,6 @@
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import {
-  formatCapacity,
-  formatHeilAresShare,
-  type Project,
-} from "@/data/projects";
+import { formatCapacity, formatHeilAresShare, type Project } from "@/data/projects";
 import { getSupportedLang } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 

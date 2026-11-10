@@ -76,15 +76,16 @@ export function useCountUp(target: number, duration = 1200, locale = "en") {
     );
     io.observe(el);
     return () => io.disconnect();
-  }, [target, duration]);
+  }, [target, duration, locale]);
 
   return ref;
 }
 
-function formatNumber(v: number, target?: number) {
-  // If target has decimals, keep one; else integer
-  if (target !== undefined && !Number.isInteger(target)) {
-    return v.toFixed(1);
-  }
-  return Math.round(v).toString();
+function formatNumber(v: number, target: number, locale: string) {
+  const decimals = Number.isInteger(target) ? 0 : (target.toString().split(".")[1]?.length ?? 0);
+  const value = decimals === 0 ? Math.round(v) : v;
+  return new Intl.NumberFormat(locale, {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  }).format(value);
 }

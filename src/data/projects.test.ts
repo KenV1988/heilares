@@ -51,3 +51,17 @@ describe("documented reference project scopes", () => {
     }
   });
 });
+
+import { projects as allProjects } from "./projects";
+describe("project years match the reference PDF", () => {
+  it.each([
+    ["risti", "2025–2026"],
+    ["stelpe", "2025"],
+    ["lielvarde", "2025"],
+    ["kirikmae", "2024"],
+    ["bls", "2023"],
+  ])("%s → %s", (key, year) => {
+    const p = allProjects.find((x) => x.slug.includes(key));
+    expect(p?.period).toBe(year);
+  });
+});

@@ -138,7 +138,7 @@ export const projects: Project[] = [
     parkCapacityKw: 72500,
     heilAresShareKw: 40000,
     shareBreakdown: { mechanicalKw: 24000, electricalKw: 40000 },
-    period: "2024–2025",
+    period: "2025",
     coverImage: stelpe1,
     coverAlt: {
       et: "Stelpe maapargi paneeliread talvel",
@@ -297,7 +297,7 @@ export const projects: Project[] = [
     },
     parkCapacityKw: 10940,
     heilAresShareKw: 10940,
-    period: "2024–2025",
+    period: "2025",
     coverImage: lielvarde1,
     coverAlt: {
       et: "Lielvārde Solar Tracker Park Lätis",

@@ -330,7 +330,7 @@
       "lead": "Solar Tracker Park on yksiakselinen aurinkoa seuraava aurinkopuisto, joka tuottaa jopa 25% enemmän energiaa verrattuna kiinteäkulmaisiin paneeleihin.",
       "paragraphs": [
         "Tracker-järjestelmät kääntävät paneeleita päivän aikana idästä länteen seuraten auringon liikettä. Tämä pitää paneelit optimaalisessa kulmassa säteilyyn nähden aamusta iltaan ja nostaa merkittävästi vuosittaista energiatuottoa verrattuna perinteisiin kiinteisiin maapuistoihin.",
-        "Solar Tracker Park sopii suurille avoimille alueille, joilla on vakaa maaperä ja riittävästi tilaa rivien välisten varjojen välttämiseksi. Ristin 244 MW:n puistossa HeilAresin työmäärä on noin 80 MW. Lielvärden 10,94 MW:n projektissa toteutimme paalutuksen, tukirakenteet ja paneeliasennuksen pääurakoitsijana.",
+        "Solar Tracker Park sopii suurille avoimille alueille, joilla on vakaa maaperä ja riittävästi tilaa rivien välisten varjojen välttämiseksi. Ristin 244 MW:n puistossa HeilAresin työmäärä on 80 MW. Lielvärden 10,94 MW:n projektissa toteutimme paalutuksen, tukirakenteet ja paneeliasennuksen pääurakoitsijana.",
         "Suurempi tuotto tarkoittaa nopeampaa takaisinmaksua ja parempaa tuotantojakaumaa päivän aikana, mikä on erityisen arvokasta sähkön spot-hintojen huippuaikoina."
       ],
       "faq": {
@@ -351,7 +351,7 @@
         },
         "capacity": {
           "question": "Kuinka suuria aurinkopuistoja HeilAres asentaa?",
-          "answer": "Toteutamme aurinkopuistoihin sovittuja työpaketteja. HeilAresin osuus on noin 80 MW Ristin 244 MW:n puistossa, 24 MW mekaanista asennusta ja 40 MW DC- sekä invertteritöitä Stelpen 72,5 MW:n puistossa sekä 32,7 MW Kirikmäen 77,5 MW:n puistossa."
+          "answer": "Toteutamme aurinkopuistoihin sovittuja työpaketteja. HeilAresin osuus on 80 MW Ristin 244 MW:n puistossa, 24 MW mekaanista asennusta ja 40 MW DC- sekä invertteritöitä Stelpen 72,5 MW:n puistossa sekä 32,7 MW Kirikmäen 77,5 MW:n puistossa."
         },
         "turnkey": {
           "question": "Tarjoaako HeilAres aurinkopuiston asennuksen avaimet käten -ratkaisuna?",
@@ -638,7 +638,7 @@
       "size": {
         "question": "Kuinka suuria aurinkopuistoja HeilAres rakentaa?",
         "lead": "HeilAresin dokumentoitu työmäärä referenssiprojekteissa on 167,64 MW.",
-        "answer": "Ristin 244 MW:n puistossa HeilAresin osuus on noin 80 MW. Stelpen 72,5 MW:n puistossa asensimme 24 MW edestä tukirakenteita ja paneeleita sekä toteutimme 40 MW edestä DC- ja invertteritöitä. Kirikmäen 77,5 MW:n puistossa työmäärämme oli 32,7 MW."
+        "answer": "Ristin 244 MW:n puistossa HeilAresin osuus on 80 MW. Stelpen 72,5 MW:n puistossa asensimme 24 MW edestä tukirakenteita ja paneeleita sekä toteutimme 40 MW edestä DC- ja invertteritöitä. Kirikmäen 77,5 MW:n puistossa työmäärämme oli 32,7 MW."
       },
       "countries": {
         "question": "Missä maissa HeilAres toimii?",
@@ -769,7 +769,7 @@
     },
     "projects": {
       "title": "Projektit — Aurinkopuistot Virossa ja Euroopassa | HeilAres",
-      "description": "Tutustu projekteihin, joissa puiston kokonaisteho ja HeilAresin työmäärä on eritelty: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW ja BLS 4,2 MW."
+      "description": "Tutustu projekteihin, joissa puiston kokonaisteho ja HeilAresin työmäärä on eritelty: Risti 80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW ja BLS 4,2 MW."
     },
     "contact": {
       "title": "Yhteystiedot — HeilAres OÜ",

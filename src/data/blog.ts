@@ -296,7 +296,7 @@ const parkTypes: BlogPost = {
           heading: "Solar Tracker Park — maksimaalne tootlikkus pinnaühiku kohta",
           paragraphs: [
             "Solar Tracker Park kasutab ühe-teljelisi (single-axis) jälgijaid, mis pööravad paneele ida-läänesuunaliselt päeva jooksul. Tootlikkus on 15–25% suurem kui sama suure fikseeritud maapargi puhul, mis kompenseerib kõrgemat CAPEX-i ja hoolduskulusid.",
-            "Solar Tracker Park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. HeilArese tööde maht Risti 244 MW Solar Tracker Pargis on ligikaudu 80 MW.",
+            "Solar Tracker Park sobib eelkõige suurte, tasase pinnasega maa-alade jaoks, kus võrgupiirang ei limiteeri tootmismahtu. HeilArese tööde maht Risti 244 MW Solar Tracker Pargis on 80 MW.",
           ],
         },
         {
@@ -344,7 +344,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Solar Tracker Park — maximum yield per area",
           paragraphs: [
-            "Solar Tracker Parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. HeilAres' documented scope at the 244 MW Risti Solar Tracker Park is approximately 80 MW.",
+            "Solar Tracker Parks use single-axis trackers that rotate panels east–west across the day. Yield is 15–25% higher than an equivalent fixed-tilt park, compensating for higher CAPEX and maintenance. HeilAres' documented scope at the 244 MW Risti Solar Tracker Park is 80 MW.",
             "Trackers suit large, flat sites where grid capacity does not limit output.",
           ],
         },
@@ -393,7 +393,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Seurantapuisto — maksimituotto pinta-alaa kohti",
           paragraphs: [
-            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. HeilAresin dokumentoitu työmäärä Ristin 244 MW:n Solar Tracker Park -puistossa on noin 80 MW.",
+            "Seurantapuisto käyttää yksiakselisia seuraajia, jotka kääntävät paneeleita itä-länsisuunnassa päivän aikana. Tuotto on 15–25% suurempi kuin vastaavalla kiinteällä asennuksella. HeilAresin dokumentoitu työmäärä Ristin 244 MW:n Solar Tracker Park -puistossa on 80 MW.",
             "Sopii erityisesti suurille, tasaisille alueille.",
           ],
         },
@@ -441,7 +441,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Solar Tracker Park – maximaler Ertrag pro Flächeneinheit",
           paragraphs: [
-            "Ein Solar Tracker Park nutzt einachsige Nachführsysteme, die die Module tagsüber von Ost nach West ausrichten. Der Ertrag liegt 15–25 % höher als bei einer gleich großen, fest aufgeständerten Anlage, was den höheren CAPEX und Wartungsaufwand ausgleicht. Der dokumentierte Arbeitsumfang von HeilAres im 244-MW-Solar-Tracker-Park Risti beträgt etwa 80 MW.",
+            "Ein Solar Tracker Park nutzt einachsige Nachführsysteme, die die Module tagsüber von Ost nach West ausrichten. Der Ertrag liegt 15–25 % höher als bei einer gleich großen, fest aufgeständerten Anlage, was den höheren CAPEX und Wartungsaufwand ausgleicht. Der dokumentierte Arbeitsumfang von HeilAres im 244-MW-Solar-Tracker-Park Risti beträgt 80 MW.",
             "Tracker-Anlagen eignen sich vor allem für große, ebene Flächen, bei denen die Netzkapazität die Erzeugung nicht limitiert.",
           ],
         },
@@ -689,7 +689,7 @@ const timeline: BlogPost = {
           question: "Kui kaua võtab 100 MW päikesepargi ehitus?",
           lead: "100 MW päikesepargi ehitus võtab tavaliselt 9–14 kuud alates lepingust kuni paigaldustööde lõpuni.",
           answer:
-            "HeilArese üks suurimaid referentse on 244 MW Risti päikesepark Eestis, kus meie teostatud tööde maht on ligikaudu 80 MW ja mitmed meeskonnad töötasid paralleelselt.",
+            "HeilArese üks suurimaid referentse on 244 MW Risti päikesepark Eestis, kus meie teostatud tööde maht on 80 MW ja mitmed meeskonnad töötasid paralleelselt.",
         },
         {
           question: "Kas talvel saab päikesepargi ehitusega jätkata?",
@@ -727,7 +727,7 @@ const timeline: BlogPost = {
           question: "How long does a 100 MW solar park take to build?",
           lead: "A 100 MW solar park typically takes 9–14 months from contract to grid connection.",
           answer:
-            "One of HeilAres' largest references is the 244 MW Risti park in Estonia, where our documented scope is approximately 80 MW and multiple crews worked in parallel.",
+            "One of HeilAres' largest references is the 244 MW Risti park in Estonia, where our documented scope is 80 MW and multiple crews worked in parallel.",
         },
         {
           question: "Can construction continue through winter?",
@@ -764,7 +764,7 @@ const timeline: BlogPost = {
         {
           question: "Kuinka kauan 100 MW aurinkopuiston rakentaminen kestää?",
           lead: "100 MW aurinkopuisto kestää tyypillisesti 9–14 kuukautta sopimuksesta verkkoliityntään.",
-          answer: "Yksi HeilAresin suurimmista referensseistä on Ristin 244 MW:n puisto Virossa, jossa yrityksen dokumentoitu työmäärä on noin 80 MW.",
+          answer: "Yksi HeilAresin suurimmista referensseistä on Ristin 244 MW:n puisto Virossa, jossa yrityksen dokumentoitu työmäärä on 80 MW.",
         },
         {
           question: "Voiko rakentaminen jatkua talvella?",
@@ -802,7 +802,7 @@ const timeline: BlogPost = {
           question: "Wie lange dauert der Bau eines 100-MW-Solarparks?",
           lead: "Der Bau eines 100-MW-Solarparks dauert üblicherweise 9–14 Monate vom Vertrag bis zum Netzanschluss.",
           answer:
-            "Eine der größten Referenzen von HeilAres ist der 244-MW-Solarpark Risti in Estland, bei dem der dokumentierte Arbeitsumfang des Unternehmens etwa 80 MW beträgt und mehrere Teams parallel arbeiteten.",
+            "Eine der größten Referenzen von HeilAres ist der 244-MW-Solarpark Risti in Estland, bei dem der dokumentierte Arbeitsumfang des Unternehmens 80 MW beträgt und mehrere Teams parallel arbeiteten.",
         },
         {
           question: "Kann der Bau eines Solarparks im Winter fortgesetzt werden?",

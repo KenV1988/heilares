@@ -330,7 +330,7 @@
       "lead": "Solar Tracker Park on päikest jälgiv ühe-teljeline (single-axis) päikesepark, mis annab kuni 25% suurema energiatootlikkuse võrreldes fikseeritud paneelidega.",
       "paragraphs": [
         "Solar Tracker süsteemid pööravad päikesepaneele päeva jooksul ida-läänesuunaliselt, jälgides päikese liikumist. See tagab paneelide optimaalse nurga päikesekiirguse suhtes hommikust õhtuni ning tõstab oluliselt aastast energiatootlikkust võrreldes klassikaliste fikseeritud maaparkidega.",
-        "Solar Tracker Park sobivad suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. Risti 244 MW pargis on HeilArese tööde maht ligikaudu 80 MW. Lielvārde 10,94 MW projektis teostasime ramimise, kandekonstruktsioonide ja paneelide paigalduse peatöövõtjana.",
+        "Solar Tracker Park sobivad suurtele avatud maa-aladele, kus on stabiilne pinnas ja piisavalt ruumi süsteemide vaheliste varjude vältimiseks. Risti 244 MW pargis on HeilArese tööde maht 80 MW. Lielvārde 10,94 MW projektis teostasime ramimise, kandekonstruktsioonide ja paneelide paigalduse peatöövõtjana.",
         "Suurem tootlikkus tähendab kiiremat investeeringu tasuvust ja paremat tootmise jaotust päeva jooksul, mis on eriti väärtuslik elektri spot-hindade tippaegadel."
       ],
       "faq": {
@@ -351,7 +351,7 @@
         },
         "capacity": {
           "question": "Kui suure võimsusega päikeseparke HeilAres paigaldab?",
-          "answer": "Teostame päikeseparkidel kokkulepitud tööpakette. Risti 244 MW pargis on HeilArese osa ligikaudu 80 MW, Stelpe 72,5 MW pargis 24 MW mehaanilisi paigaldustöid ja 40 MW DC- ning inverteritöid ning Kirikmäe 77,5 MW pargis 32,7 MW."
+          "answer": "Teostame päikeseparkidel kokkulepitud tööpakette. Risti 244 MW pargis on HeilArese osa 80 MW, Stelpe 72,5 MW pargis 24 MW mehaanilisi paigaldustöid ja 40 MW DC- ning inverteritöid ning Kirikmäe 77,5 MW pargis 32,7 MW."
         },
         "turnkey": {
           "question": "Kas HeilAres pakub päikesepargi paigaldust võtmed kätte lahendusena?",
@@ -638,7 +638,7 @@
       "size": {
         "question": "Kui suuri päikeseparke HeilAres ehitab?",
         "lead": "HeilArese dokumenteeritud tööde maht referentsprojektidel on 167,64 MW.",
-        "answer": "Risti 244 MW pargis on HeilArese osa ligikaudu 80 MW. Stelpe 72,5 MW pargis paigaldasime 24 MW ulatuses kandekonstruktsioonid ja paneelid ning teostasime 40 MW ulatuses DC- ja inverteritöid. Kirikmäe 77,5 MW pargis oli meie töömaht 32,7 MW."
+        "answer": "Risti 244 MW pargis on HeilArese osa 80 MW. Stelpe 72,5 MW pargis paigaldasime 24 MW ulatuses kandekonstruktsioonid ja paneelid ning teostasime 40 MW ulatuses DC- ja inverteritöid. Kirikmäe 77,5 MW pargis oli meie töömaht 32,7 MW."
       },
       "countries": {
         "question": "Millistes riikides HeilAres tegutseb?",
@@ -769,7 +769,7 @@
     },
     "projects": {
       "title": "Tehtud tööd — päikesepargid Eestis ja Euroopas | HeilAres",
-      "description": "Vaata projekte, kus pargi koguvõimsus ja HeilArese tööde maht on eraldi välja toodud: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW ja BLS 4,2 MW."
+      "description": "Vaata projekte, kus pargi koguvõimsus ja HeilArese tööde maht on eraldi välja toodud: Risti 80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW ja BLS 4,2 MW."
     },
     "contact": {
       "title": "Kontakt | HeilAres OÜ",

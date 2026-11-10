@@ -63,7 +63,6 @@ export const projects: Project[] = [
     location: { et: "Risti, Eesti", en: "Risti, Estonia", fi: "Risti, Viro", de: "Risti, Estland" },
     parkCapacityKw: 244000,
     heilAresShareKw: 80000,
-    heilAresShareApproximate: true,
     period: "2025–2026",
     coverImage: risti2,
     coverAlt: {
@@ -117,10 +116,10 @@ export const projects: Project[] = [
       de: "Solarpark Risti",
     },
     description: {
-      et: "HeilAres teostas ligikaudu 80 MW ulatuses kandekonstruktsioonide ja päikesepaneelide paigaldust ning DC-kaabelduse ja inverterite töid. Pargi koguvõimsus on 244 MW.",
-      en: "HeilAres delivered approximately 80 MW of mounting structures and PV module installation, together with DC cabling and inverter works. The park's total capacity is 244 MW.",
-      fi: "HeilAres toteutti noin 80 MW edestä tukirakenteiden ja aurinkopaneelien asennusta sekä DC-kaapelointi- ja invertteritöitä. Puiston kokonaisteho on 244 MW.",
-      de: "HeilAres montierte Unterkonstruktionen und PV-Module mit einem Umfang von etwa 80 MW und führte DC-Verkabelung sowie Wechselrichterarbeiten aus. Die Gesamtleistung des Parks beträgt 244 MW.",
+      et: "HeilAres teostas 80 MW ulatuses kandekonstruktsioonide ja päikesepaneelide paigaldust ning DC-kaabelduse ja inverterite töid. Pargi koguvõimsus on 244 MW.",
+      en: "HeilAres delivered 80 MW of mounting structures and PV module installation, together with DC cabling and inverter works. The park's total capacity is 244 MW.",
+      fi: "HeilAres toteutti 80 MW edestä tukirakenteiden ja aurinkopaneelien asennusta sekä DC-kaapelointi- ja invertteritöitä. Puiston kokonaisteho on 244 MW.",
+      de: "HeilAres montierte Unterkonstruktionen und PV-Module mit einem Umfang von 80 MW und führte DC-Verkabelung sowie Wechselrichterarbeiten aus. Die Gesamtleistung des Parks beträgt 244 MW.",
     },
     technology: zimTracker,
     developer: "Sunly",

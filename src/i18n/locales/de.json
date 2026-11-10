@@ -330,7 +330,7 @@
       "lead": "Ein Solar Tracker Park ist ein einachsig sonnennachführender Solarpark, der im Vergleich zu fest montierten Panels bis zu 25 % höheren Energieertrag liefert.",
       "paragraphs": [
         "Solar-Tracker-Park-Systeme drehen die Panels im Tagesverlauf von Ost nach West und folgen dabei der Sonne. So bleiben die Panels vom Morgen bis zum Abend im optimalen Winkel zur Sonneneinstrahlung ausgerichtet und der jährliche Energieertrag steigt im Vergleich zu klassischen fest montierten Freiflächenparks deutlich.",
-        "Solar Tracker Parks eignen sich für große offene Flächen mit stabilem Untergrund und ausreichend Abstand zur Vermeidung von Verschattung. Beim 244-MW-Park Risti beträgt der Arbeitsumfang von HeilAres etwa 80 MW. Beim 10,94-MW-Projekt Lielvārde führten wir als Hauptauftragnehmer Rammung, Unterkonstruktion und Modulmontage aus.",
+        "Solar Tracker Parks eignen sich für große offene Flächen mit stabilem Untergrund und ausreichend Abstand zur Vermeidung von Verschattung. Beim 244-MW-Park Risti beträgt der Arbeitsumfang von HeilAres 80 MW. Beim 10,94-MW-Projekt Lielvārde führten wir als Hauptauftragnehmer Rammung, Unterkonstruktion und Modulmontage aus.",
         "Höherer Ertrag bedeutet schnellere Amortisation und ein besseres Produktionsprofil über den Tag, was besonders bei hohen Spotmarktpreisen für Strom wertvoll ist."
       ],
       "faq": {
@@ -351,7 +351,7 @@
         },
         "capacity": {
           "question": "Wie groß sind die von HeilAres installierten Solarparks?",
-          "answer": "Wir liefern vereinbarte Arbeitspakete für Solarparkprojekte. Der Anteil von HeilAres beträgt etwa 80 MW beim 244-MW-Park Risti, 24 MW mechanische Montage und 40 MW DC- sowie Wechselrichterarbeiten beim 72,5-MW-Park Stelpe und 32,7 MW beim 77,5-MW-Park Kirikmäe."
+          "answer": "Wir liefern vereinbarte Arbeitspakete für Solarparkprojekte. Der Anteil von HeilAres beträgt 80 MW beim 244-MW-Park Risti, 24 MW mechanische Montage und 40 MW DC- sowie Wechselrichterarbeiten beim 72,5-MW-Park Stelpe und 32,7 MW beim 77,5-MW-Park Kirikmäe."
         },
         "turnkey": {
           "question": "Bietet HeilAres die Installation von Solarparks als schlüsselfertige Lösung an?",
@@ -638,7 +638,7 @@
       "size": {
         "question": "Wie groß sind die von HeilAres gebauten Solarparks?",
         "lead": "HeilAres weist in seinen Referenzprojekten einen dokumentierten Arbeitsumfang von 167,64 MW aus.",
-        "answer": "Beim 244-MW-Park Risti beträgt der Anteil von HeilAres etwa 80 MW. Beim 72,5-MW-Park Stelpe montierten wir Unterkonstruktionen und Module mit 24 MW und führten DC- und Wechselrichterarbeiten mit 40 MW aus. Unser Umfang beim 77,5-MW-Park Kirikmäe betrug 32,7 MW."
+        "answer": "Beim 244-MW-Park Risti beträgt der Anteil von HeilAres 80 MW. Beim 72,5-MW-Park Stelpe montierten wir Unterkonstruktionen und Module mit 24 MW und führten DC- und Wechselrichterarbeiten mit 40 MW aus. Unser Umfang beim 77,5-MW-Park Kirikmäe betrug 32,7 MW."
       },
       "countries": {
         "question": "In welchen Ländern ist HeilAres tätig?",
@@ -769,7 +769,7 @@
     },
     "projects": {
       "title": "Projekte — Solarparks in Estland und Europa | HeilAres",
-      "description": "Projekte mit getrennt ausgewiesener Parkleistung und HeilAres-Umfang: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW und BLS 4,2 MW."
+      "description": "Projekte mit getrennt ausgewiesener Parkleistung und HeilAres-Umfang: Risti 80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW und BLS 4,2 MW."
     },
     "contact": {
       "title": "Kontakt — HeilAres OÜ",

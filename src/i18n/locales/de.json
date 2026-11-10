@@ -280,8 +280,9 @@
       "title": "Projektdaten",
       "technology": "Technologie",
       "developer": "Entwickler / Eigentümer",
-      "contractor": "Hauptauftragnehmer",
-      "client": "Kunde"
+        "contractor": "Hauptauftragnehmer",
+        "epcContractor": "EPC-Auftragnehmer",
+        "client": "Kunde"
     },
     "back": "Zurück zu den Projekten",
     "heroAlt": "Solar Tracker Park Risti in Estland",

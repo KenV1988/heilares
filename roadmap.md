@@ -25,3 +25,10 @@
 - [x] Näita pargi koguvõimsust ja HeilArese osa eraldi projektikaartidel ning detaillehtedel kõigis keeltes
 - [x] Paranda eksitavad projektikogemuse väited avalehel, teenuste lehel, KKK-s, blogis ja avalikes projektitööriistades
 - [x] Kontrolli konkreetseid MW-väärtusi testidega ning projektide desktop- ja mobiilivaateid kõigis keeltes
+
+
+# Peatöövõtjate ja projektiandmete kontroll
+
+- [x] Võrrelda kõik projektiväljad PDF-i detailsete tabelitega
+- [x] Parandada leitud erinevused ja lisada peatöövõtjate andmetestid
+- [x] Kontrollida kuvamist, nelja keele pariteeti, linke ja mobiilvaadet

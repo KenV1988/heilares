@@ -280,8 +280,9 @@
       "title": "Projekti andmed",
       "technology": "Tehnoloogia",
       "developer": "Arendaja / omanik",
-      "contractor": "Peatöövõtja",
-      "client": "Klient"
+        "contractor": "Peatöövõtja",
+        "epcContractor": "EPC-töövõtja",
+        "client": "Klient"
     },
     "back": "Tagasi projektidele",
     "heroAlt": "Risti Solar Tracker Park Eestis",

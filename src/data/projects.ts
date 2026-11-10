@@ -46,6 +46,7 @@ export interface Project {
   technology?: LocalizedText;
   developer?: string;
   mainContractor?: string;
+  contractorRole?: "main" | "epc";
   client?: string;
 }
 
@@ -245,6 +246,7 @@ export const projects: Project[] = [
     },
     developer: "Baltic Renewable Energy Platform (Evecon & Mirova)",
     mainContractor: "Wiso Engineering",
+    contractorRole: "epc",
   },
   {
     slug: "bls-eesti",

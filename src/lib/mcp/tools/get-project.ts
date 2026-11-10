@@ -37,6 +37,7 @@ export default defineTool({
       technology: p.technology?.[lang],
       developer: p.developer,
       mainContractor: p.mainContractor,
+      contractorRole: p.mainContractor ? (p.contractorRole ?? "main") : undefined,
       client: p.client,
       url: `https://heilares.ee${lang === "et" ? "" : `/${lang}`}/tehtud-tood/${p.slug}`,
     };

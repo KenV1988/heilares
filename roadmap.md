@@ -21,7 +21,7 @@
 
 # Projekti osakaalude ja tehtud tööde täpsustamine
 
-- [ ] Viia PDF-i projektide koguvõimsused, HeilArese töömahud, tööde ulatus ja perioodid ühisesse andmeallikasse
-- [ ] Näita pargi koguvõimsust ja HeilArese osa eraldi projektikaartidel ning detaillehtedel kõigis keeltes
-- [ ] Paranda eksitavad projektikogemuse väited avalehel, teenuste lehel, KKK-s, blogis ja avalikes projektitööriistades
-- [ ] Kontrolli konkreetseid MW-väärtusi testidega ning projektide desktop- ja mobiilivaateid kõigis keeltes
+- [x] Viia PDF-i projektide koguvõimsused, HeilArese töömahud, tööde ulatus ja perioodid ühisesse andmeallikasse
+- [x] Näita pargi koguvõimsust ja HeilArese osa eraldi projektikaartidel ning detaillehtedel kõigis keeltes
+- [x] Paranda eksitavad projektikogemuse väited avalehel, teenuste lehel, KKK-s, blogis ja avalikes projektitööriistades
+- [x] Kontrolli konkreetseid MW-väärtusi testidega ning projektide desktop- ja mobiilivaateid kõigis keeltes

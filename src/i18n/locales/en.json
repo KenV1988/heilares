@@ -31,7 +31,7 @@
   },
   "stats": {
     "title": "Measurable experience",
-    "mw": "On installations",
+    "mw": "Documented work scope",
     "response": "Quote response",
     "years": "Years in the field"
   },
@@ -243,7 +243,7 @@
     "items": {
       "scale": {
         "title": "Megawatt-scale experience",
-        "desc": "Hundreds of MW of solar park installations participated in across Estonia and Latvia."
+        "desc": "167.64 MW of documented work across reference projects. On large sites, we deliver clearly agreed work packages."
       },
       "turnkey": {
         "title": "Turnkey delivery",
@@ -266,24 +266,27 @@
   },
   "projectsSection": {
     "title": "Selected projects",
-    "subtitle": "A selection of recent large-scale solar projects.",
+    "subtitle": "Selected projects with total park capacity and HeilAres’ documented scope shown separately.",
     "filter": {
       "all": "All",
       "tracker_park": "Solar Tracker Park",
       "maapark": "Ground-mounted Solar Park",
       "katusepark": "Rooftop Solar Park"
     },
-    "capacity": "Capacity",
-    "year": "Completed",
+    "capacity": "Total park capacity",
+    "year": "Project period",
     "location": "Location",
     "details": {
-      "panels": "Panels",
-      "inverter": "Inverter",
-      "mounting": "Mounting system",
-      "duration": "Duration"
+      "title": "Project details",
+      "technology": "Technology",
+      "developer": "Developer / owner",
+      "contractor": "Main contractor",
+      "client": "Client"
     },
     "back": "Back to projects",
-    "heroAlt": "Risti Solar Tracker Park in Estonia"
+    "heroAlt": "Risti Solar Tracker Park in Estonia",
+    "share": "HeilAres work scope",
+    "shareBreakdown": "Mounting structures + modules / DC + inverters"
   },
   "panelsPage": {
     "hero": {
@@ -296,7 +299,7 @@
       "lead": "A ground-mount park is a land-based solar park that HeilAres designs and installs on a turnkey basis at commercial and industrial scale.",
       "paragraphs": [
         "Ground-mount parks are ideal for agricultural land, brownfield sites and industrial plots with enough open area to install panels at the optimal tilt. HeilAres handles the installation — foundations, mounting structures, and panel and inverter installation.",
-        "We deliver installations from a few MW up to hundreds of MW. Ground-mount parks installed with the HeilAres team include the 76 MW Kirikmäe park in Estonia and the 72.5 MW Stelpe park in Latvia. We only work with Tier-1 panel and inverter manufacturers to guarantee long-term yield and reliability.",
+        "We work on ground-mounted parks from a few MW to large-scale projects through clearly agreed work packages. HeilAres’ scope at the 77.5 MW Kirikmäe park was 32.7 MW. At the 72.5 MW Stelpe park, we installed 24 MW of mounting structures and modules and delivered 40 MW of DC and inverter works.",
         "The strengths of a ground-mount park are easy maintenance, high yield and flexible scalability."
       ],
       "faq": {
@@ -327,7 +330,7 @@
       "lead": "A Solar Tracker Park is a single-axis sun-tracking solar park that delivers up to 25% higher energy yield compared to fixed-tilt panels.",
       "paragraphs": [
         "Solar Tracker Park systems rotate the panels east to west during the day, following the sun. This keeps the panels at the optimal angle to solar irradiation from morning to evening and significantly increases annual energy yield compared to classic fixed ground-mount parks.",
-        "Solar Tracker Parks are ideal for large open land areas with stable soil and enough space to avoid shading between rows. HeilAres has built Solar Tracker Parks in both Estonia and Latvia, including the 244 MW Risti Solar Tracker Park in Estonia and the Lielvarde Solar Tracker Park in Latvia.",
+        "Solar Tracker Parks suit large open areas with stable ground and enough space to avoid shading between rows. HeilAres’ scope at the 244 MW Risti park is approximately 80 MW. At the 10.94 MW Lielvārde project, we delivered pile driving, mounting structures and module installation as the main contractor.",
         "Higher yield means faster payback and a better production profile across the day, which is especially valuable during peak electricity spot prices."
       ],
       "faq": {
@@ -348,7 +351,7 @@
         },
         "capacity": {
           "question": "How large are the solar parks HeilAres installs?",
-          "answer": "We deliver projects from a few megawatts up to large-scale, hundreds-of-megawatts solar parks. Our crews have participated in projects such as the 76 MW Kirikmäe, 72.5 MW Stelpe and 244 MW Risti Solar Tracker Park."
+          "answer": "We deliver agreed work packages on solar park projects. HeilAres’ scope is approximately 80 MW at the 244 MW Risti park, 24 MW of mechanical installation and 40 MW of DC and inverter works at the 72.5 MW Stelpe park, and 32.7 MW at the 77.5 MW Kirikmäe park."
         },
         "turnkey": {
           "question": "Does HeilAres offer solar park installation as a turnkey solution?",
@@ -634,8 +637,8 @@
       },
       "size": {
         "question": "How large are the solar parks HeilAres builds?",
-        "lead": "HeilAres has participated in solar park installations totalling over 400 MW across Europe.",
-        "answer": "We have participated in solar park installations totalling over 400 MW, including the 244 MW Risti solar park in Estonia and the 72.5 MW Stelpe park in Latvia. We build projects ranging from a few hundred kW to hundreds of MW."
+        "lead": "HeilAres has 167.64 MW of documented work across its reference projects.",
+        "answer": "At the 244 MW Risti park, HeilAres’ scope is approximately 80 MW. At the 72.5 MW Stelpe park, we installed 24 MW of mounting structures and modules and delivered 40 MW of DC and inverter works. Our scope at the 77.5 MW Kirikmäe park was 32.7 MW."
       },
       "countries": {
         "question": "In which countries does HeilAres operate?",
@@ -748,7 +751,7 @@
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
-      "description": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park. We operate in Estonia and across Europe.",
+      "description": "HeilAres delivers Solar Tracker Park, ground-mounted and rooftop solar park installation in Estonia, Latvia and across Europe. Documented work scope: 167.64 MW. Request a quote.",
       "twitterTitle": "HeilAres OÜ — Solar energy specialists in Estonia and Europe",
       "twitterDescription": "Turnkey solar park installation — Solar Tracker Park, Ground-mounted Solar Park and Rooftop Solar Park. We operate in Estonia and across Europe."
     },
@@ -766,7 +769,7 @@
     },
     "projects": {
       "title": "Projects — Solar parks in Estonia and Europe | HeilAres",
-      "description": "Large-scale solar projects — Risti, Stelpe, Kirikmäe, Lielvarde and more."
+      "description": "Explore projects with total park capacity and HeilAres scope shown separately: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32.7 MW, Lielvārde 10.94 MW and BLS 4.2 MW."
     },
     "contact": {
       "title": "Contact — HeilAres OÜ",

@@ -31,7 +31,7 @@
   },
   "stats": {
     "title": "Messbare Erfahrung",
-    "mw": "Installierte Anlagen",
+    "mw": "Dokumentierter Arbeitsumfang",
     "response": "Reaktionszeit auf Anfragen",
     "years": "Jahre Erfahrung"
   },
@@ -243,7 +243,7 @@
     "items": {
       "scale": {
         "title": "Erfahrung im Megawatt-Bereich",
-        "desc": "Beteiligung an der Installation von Solarparks mit hunderten MW in Estland und Lettland."
+        "desc": "167,64 MW dokumentierter Arbeitsumfang in Referenzprojekten. Bei großen Projekten liefern wir klar vereinbarte Arbeitspakete."
       },
       "turnkey": {
         "title": "Schlüsselfertige Lieferung",
@@ -266,24 +266,27 @@
   },
   "projectsSection": {
     "title": "Ausgewählte Projekte",
-    "subtitle": "Eine Auswahl aktueller großflächiger Solarprojekte.",
+    "subtitle": "Ausgewählte Projekte mit getrennt ausgewiesener Park-Gesamtleistung und dokumentiertem Arbeitsumfang von HeilAres.",
     "filter": {
       "all": "Alle",
       "tracker_park": "Solar Tracker Park",
       "maapark": "Freiflächen-Solarpark",
       "katusepark": "Dach-Solarpark"
     },
-    "capacity": "Leistung",
-    "year": "Fertiggestellt",
+    "capacity": "Gesamtleistung des Parks",
+    "year": "Projektzeitraum",
     "location": "Standort",
     "details": {
-      "panels": "Panels",
-      "inverter": "Wechselrichter",
-      "mounting": "Montagesystem",
-      "duration": "Bauzeit"
+      "title": "Projektdaten",
+      "technology": "Technologie",
+      "developer": "Entwickler / Eigentümer",
+      "contractor": "Hauptauftragnehmer",
+      "client": "Kunde"
     },
     "back": "Zurück zu den Projekten",
-    "heroAlt": "Solar Tracker Park Risti in Estland"
+    "heroAlt": "Solar Tracker Park Risti in Estland",
+    "share": "Arbeitsumfang von HeilAres",
+    "shareBreakdown": "Unterkonstruktion + Module / DC + Wechselrichter"
   },
   "panelsPage": {
     "hero": {
@@ -296,7 +299,7 @@
       "lead": "Ein Freiflächenpark ist ein bodengebundener Solarpark, den HeilAres schlüsselfertig im gewerblichen und industriellen Maßstab plant und installiert.",
       "paragraphs": [
         "Freiflächenparks eignen sich ideal für landwirtschaftliche Flächen, Konversionsflächen und Industriegrundstücke mit ausreichend offener Fläche, um Panels im optimalen Neigungswinkel zu installieren. HeilAres übernimmt die Installation — Fundamente, Montagestrukturen sowie Panel- und Wechselrichterinstallation.",
-        "Wir liefern Installationen von wenigen MW bis zu hunderten von MW. Zu den mit dem HeilAres-Team installierten Freiflächenparks zählen der 76-MW-Park Kirikmäe in Estland und der 72,5-MW-Park Stelpe in Lettland. Wir arbeiten ausschließlich mit Tier-1-Herstellern von Panels und Wechselrichtern, um langfristigen Ertrag und Zuverlässigkeit zu gewährleisten.",
+        "Wir arbeiten an Freiflächen-Solarparks von wenigen MW bis zu Großprojekten im Rahmen klar vereinbarter Arbeitspakete. Beim 77,5-MW-Park Kirikmäe betrug der Arbeitsumfang von HeilAres 32,7 MW. Beim 72,5-MW-Park Stelpe montierten wir Unterkonstruktionen und Module mit 24 MW und führten DC- und Wechselrichterarbeiten mit 40 MW aus.",
         "Die Stärken eines Freiflächenparks sind einfache Wartung, hoher Ertrag und flexible Skalierbarkeit."
       ],
       "faq": {
@@ -327,7 +330,7 @@
       "lead": "Ein Solar Tracker Park ist ein einachsig sonnennachführender Solarpark, der im Vergleich zu fest montierten Panels bis zu 25 % höheren Energieertrag liefert.",
       "paragraphs": [
         "Solar-Tracker-Park-Systeme drehen die Panels im Tagesverlauf von Ost nach West und folgen dabei der Sonne. So bleiben die Panels vom Morgen bis zum Abend im optimalen Winkel zur Sonneneinstrahlung ausgerichtet und der jährliche Energieertrag steigt im Vergleich zu klassischen fest montierten Freiflächenparks deutlich.",
-        "Solar Tracker Parks eignen sich ideal für große offene Landflächen mit stabilem Untergrund und ausreichend Platz, um Verschattungen zwischen den Reihen zu vermeiden. HeilAres hat Solar Tracker Parks sowohl in Estland als auch in Lettland gebaut, darunter der 244-MW-Solar-Tracker-Park Risti in Estland und der Solar Tracker Park Lielvarde in Lettland.",
+        "Solar Tracker Parks eignen sich für große offene Flächen mit stabilem Untergrund und ausreichend Abstand zur Vermeidung von Verschattung. Beim 244-MW-Park Risti beträgt der Arbeitsumfang von HeilAres etwa 80 MW. Beim 10,94-MW-Projekt Lielvārde führten wir als Hauptauftragnehmer Rammung, Unterkonstruktion und Modulmontage aus.",
         "Höherer Ertrag bedeutet schnellere Amortisation und ein besseres Produktionsprofil über den Tag, was besonders bei hohen Spotmarktpreisen für Strom wertvoll ist."
       ],
       "faq": {
@@ -348,7 +351,7 @@
         },
         "capacity": {
           "question": "Wie groß sind die von HeilAres installierten Solarparks?",
-          "answer": "Wir liefern Projekte von wenigen Megawatt bis hin zu großflächigen Solarparks mit hunderten Megawatt. Unsere Teams waren an Projekten wie dem 76-MW-Park Kirikmäe, dem 72,5-MW-Park Stelpe und dem 244-MW-Solar-Tracker-Park Risti beteiligt."
+          "answer": "Wir liefern vereinbarte Arbeitspakete für Solarparkprojekte. Der Anteil von HeilAres beträgt etwa 80 MW beim 244-MW-Park Risti, 24 MW mechanische Montage und 40 MW DC- sowie Wechselrichterarbeiten beim 72,5-MW-Park Stelpe und 32,7 MW beim 77,5-MW-Park Kirikmäe."
         },
         "turnkey": {
           "question": "Bietet HeilAres die Installation von Solarparks als schlüsselfertige Lösung an?",
@@ -634,8 +637,8 @@
       },
       "size": {
         "question": "Wie groß sind die von HeilAres gebauten Solarparks?",
-        "lead": "HeilAres hat an Solarpark-Installationen mit insgesamt über 400 MW in ganz Europa mitgewirkt.",
-        "answer": "Wir haben an Solarpark-Installationen mit insgesamt über 400 MW mitgewirkt, darunter der 244-MW-Solarpark Risti in Estland und der 72,5-MW-Park Stelpe in Lettland. Wir realisieren Projekte von wenigen hundert kW bis zu hunderten MW."
+        "lead": "HeilAres weist in seinen Referenzprojekten einen dokumentierten Arbeitsumfang von 167,64 MW aus.",
+        "answer": "Beim 244-MW-Park Risti beträgt der Anteil von HeilAres etwa 80 MW. Beim 72,5-MW-Park Stelpe montierten wir Unterkonstruktionen und Module mit 24 MW und führten DC- und Wechselrichterarbeiten mit 40 MW aus. Unser Umfang beim 77,5-MW-Park Kirikmäe betrug 32,7 MW."
       },
       "countries": {
         "question": "In welchen Ländern ist HeilAres tätig?",
@@ -748,7 +751,7 @@
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Spezialisten für Solarenergie in Estland und Europa",
-      "description": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark. Wir sind in Estland und ganz Europa tätig.",
+      "description": "HeilAres führt Montagen für Solar Tracker Parks, Freiflächen- und Dach-Solarparks in Estland, Lettland und Europa aus. Dokumentierter Arbeitsumfang: 167,64 MW. Angebot anfordern.",
       "twitterTitle": "HeilAres OÜ — Spezialisten für Solarenergie in Estland und Europa",
       "twitterDescription": "Schlüsselfertige Solarpark-Installation — Solar Tracker Park, Freiflächen-Solarpark und Dach-Solarpark. Wir sind in Estland und ganz Europa tätig."
     },
@@ -766,7 +769,7 @@
     },
     "projects": {
       "title": "Projekte — Solarparks in Estland und Europa | HeilAres",
-      "description": "Großflächige Solarprojekte — Risti, Stelpe, Kirikmäe, Lielvarde und mehr."
+      "description": "Projekte mit getrennt ausgewiesener Parkleistung und HeilAres-Umfang: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW und BLS 4,2 MW."
     },
     "contact": {
       "title": "Kontakt — HeilAres OÜ",

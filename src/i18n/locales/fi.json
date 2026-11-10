@@ -31,7 +31,7 @@
   },
   "stats": {
     "title": "Mitattavaa kokemusta",
-    "mw": "Osallistuttu asennuksiin",
+    "mw": "Dokumentoitu työmäärä",
     "response": "Tarjousvastaus",
     "years": "Vuotta alalla"
   },
@@ -243,7 +243,7 @@
     "items": {
       "scale": {
         "title": "Megawattiluokan kokemus",
-        "desc": "Satoja megawatteja aurinkopuistoasennuksista osallistuttu Virossa ja Latviassa."
+        "desc": "Dokumentoitu työmäärä referenssiprojekteissa on 167,64 MW. Suurilla kohteilla toteutamme tarkasti sovittuja työpaketteja."
       },
       "turnkey": {
         "title": "Avaimet käteen -toimitus",
@@ -266,24 +266,27 @@
   },
   "projectsSection": {
     "title": "Valitut projektit",
-    "subtitle": "Valikoima viimeaikaisia suuria aurinkoenergiaprojekteja.",
+    "subtitle": "Valittuja projekteja, joissa puiston kokonaisteho ja HeilAresin dokumentoitu työmäärä on esitetty erikseen.",
     "filter": {
       "all": "Kaikki",
       "tracker_park": "Solar Tracker Park",
       "maapark": "Maapark",
       "katusepark": "Katusepark"
     },
-    "capacity": "Teho",
-    "year": "Valmistunut",
+    "capacity": "Puiston kokonaisteho",
+    "year": "Työjakso",
     "location": "Sijainti",
     "details": {
-      "panels": "Paneelit",
-      "inverter": "Invertteri",
-      "mounting": "Kiinnitysjärjestelmä",
-      "duration": "Kesto"
+      "title": "Projektin tiedot",
+      "technology": "Teknologia",
+      "developer": "Kehittäjä / omistaja",
+      "contractor": "Pääurakoitsija",
+      "client": "Asiakas"
     },
     "back": "Takaisin projekteihin",
-    "heroAlt": "Ristin Solar Tracker Park Virossa"
+    "heroAlt": "Ristin Solar Tracker Park Virossa",
+    "share": "HeilAresin työmäärä",
+    "shareBreakdown": "Tukirakenteet + paneelit / DC + invertterit"
   },
   "panelsPage": {
     "hero": {
@@ -296,7 +299,7 @@
       "lead": "Maapuisto on maahan asennettava aurinkopuisto, jonka HeilAres suunnittelee ja asentaa avaimet käteen -periaatteella kaupallisessa ja teollisessa mittakaavassa.",
       "paragraphs": [
         "Maapuistot sopivat erinomaisesti maatalousmaalle, käytöstä poistuneille alueille ja teollisuusmaille, joilla on riittävästi avointa pinta-alaa paneelien asentamiseen optimaalisessa kulmassa. HeilAres hoitaa asennustyöt — perustukset, kiinnitysrakenteet sekä paneelien ja invertterien asennuksen.",
-        "Toteutamme asennuksia muutamasta megawatista satoihin megawatteihin. HeilAres-tiimin osallistumalla on asennettu esimerkiksi 76 MW Kirikmäen maapuisto Virossa ja 72,5 MW Stelpen maapuisto Latviassa. Työskentelemme vain Tier-1-tason paneeli- ja invertterivalmistajien kanssa varmistaaksemme pitkäaikaisen tuoton ja luotettavuuden.",
+        "Toteutamme maapuistoja muutamasta megawatista suuriin projekteihin tarkasti sovittujen työpakettien laajuudessa. Kirikmäen 77,5 MW:n puistossa HeilAresin työmäärä oli 32,7 MW. Stelpen 72,5 MW:n puistossa asensimme 24 MW edestä tukirakenteita ja paneeleita sekä toteutimme 40 MW edestä DC- ja invertteritöitä.",
         "Maapuiston vahvuudet ovat helppo huolto, korkea tuotto ja joustava skaalautuvuus."
       ],
       "faq": {
@@ -327,7 +330,7 @@
       "lead": "Solar Tracker Park on yksiakselinen aurinkoa seuraava aurinkopuisto, joka tuottaa jopa 25% enemmän energiaa verrattuna kiinteäkulmaisiin paneeleihin.",
       "paragraphs": [
         "Tracker-järjestelmät kääntävät paneeleita päivän aikana idästä länteen seuraten auringon liikettä. Tämä pitää paneelit optimaalisessa kulmassa säteilyyn nähden aamusta iltaan ja nostaa merkittävästi vuosittaista energiatuottoa verrattuna perinteisiin kiinteisiin maapuistoihin.",
-        "Solar Tracker Park sopivat erinomaisesti suurille avoimille maa-alueille, joilla on vakaa maaperä ja riittävästi tilaa rivien välisten varjojen välttämiseksi. HeilAres on rakentanut Solar Tracker Park sekä Virossa että Latviassa, mukaan lukien 244 MW Ristin Solar Tracker Park Virossa ja Lielvarden Solar Tracker Park Latviassa.",
+        "Solar Tracker Park sopii suurille avoimille alueille, joilla on vakaa maaperä ja riittävästi tilaa rivien välisten varjojen välttämiseksi. Ristin 244 MW:n puistossa HeilAresin työmäärä on noin 80 MW. Lielvärden 10,94 MW:n projektissa toteutimme paalutuksen, tukirakenteet ja paneeliasennuksen pääurakoitsijana.",
         "Suurempi tuotto tarkoittaa nopeampaa takaisinmaksua ja parempaa tuotantojakaumaa päivän aikana, mikä on erityisen arvokasta sähkön spot-hintojen huippuaikoina."
       ],
       "faq": {
@@ -348,7 +351,7 @@
         },
         "capacity": {
           "question": "Kuinka suuria aurinkopuistoja HeilAres asentaa?",
-          "answer": "Toteutamme projekteja muutamasta megawatista suuren mittakaavan, satojen megavattien aurinkopuistoihin. Tiimimme ovat osallistuneet esimerkiksi 76 MW Kirikmäen, 72,5 MW Stelpen ja 244 MW Ristin Solar Tracker Park -projekteihin."
+          "answer": "Toteutamme aurinkopuistoihin sovittuja työpaketteja. HeilAresin osuus on noin 80 MW Ristin 244 MW:n puistossa, 24 MW mekaanista asennusta ja 40 MW DC- sekä invertteritöitä Stelpen 72,5 MW:n puistossa sekä 32,7 MW Kirikmäen 77,5 MW:n puistossa."
         },
         "turnkey": {
           "question": "Tarjoaako HeilAres aurinkopuiston asennuksen avaimet käten -ratkaisuna?",
@@ -634,8 +637,8 @@
       },
       "size": {
         "question": "Kuinka suuria aurinkopuistoja HeilAres rakentaa?",
-        "lead": "HeilAres on osallistunut yli 400 MW aurinkopuistoasennuksiin Euroopassa.",
-        "answer": "Olemme osallistuneet yli 400 MW aurinkopuistoasennuksiin, mukaan lukien 244 MW Ristin aurinkopuisto Virossa ja 72,5 MW Stelpen puisto Latviassa. Rakennamme projekteja muutamasta sadasta kW:sta satoihin megawatteihin."
+        "lead": "HeilAresin dokumentoitu työmäärä referenssiprojekteissa on 167,64 MW.",
+        "answer": "Ristin 244 MW:n puistossa HeilAresin osuus on noin 80 MW. Stelpen 72,5 MW:n puistossa asensimme 24 MW edestä tukirakenteita ja paneeleita sekä toteutimme 40 MW edestä DC- ja invertteritöitä. Kirikmäen 77,5 MW:n puistossa työmäärämme oli 32,7 MW."
       },
       "countries": {
         "question": "Missä maissa HeilAres toimii?",
@@ -748,7 +751,7 @@
   "seo": {
     "home": {
       "title": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
-      "description": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark. Toimimme Virossa ja koko Euroopassa.",
+      "description": "HeilAres toteuttaa Solar Tracker Park-, maa- ja kattoaurinkopuistojen asennuksia Virossa, Latviassa ja muualla Euroopassa. Dokumentoitu työmäärä 167,64 MW. Pyydä tarjous.",
       "twitterTitle": "HeilAres OÜ — Aurinkoenergian asiantuntijat Virossa ja Euroopassa",
       "twitterDescription": "Avaimet käteen -aurinkopuistoasennukset — Solar Tracker Park, Maapark ja Katusepark. Toimimme Virossa ja koko Euroopassa."
     },
@@ -766,7 +769,7 @@
     },
     "projects": {
       "title": "Projektit — Aurinkopuistot Virossa ja Euroopassa | HeilAres",
-      "description": "Suurikokoiset aurinkoenergiaprojektit — Risti, Stelpe, Kirikmäe, Lielvarde ja muut."
+      "description": "Tutustu projekteihin, joissa puiston kokonaisteho ja HeilAresin työmäärä on eritelty: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32,7 MW, Lielvārde 10,94 MW ja BLS 4,2 MW."
     },
     "contact": {
       "title": "Yhteystiedot — HeilAres OÜ",

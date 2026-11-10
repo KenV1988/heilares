@@ -40,7 +40,7 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>(threshold = 0.
  * Counts up from 0 to `target` over `duration` ms when element enters view.
  * Returns ref + current display value.
  */
-export function useCountUp(target: number, duration = 1200) {
+export function useCountUp(target: number, duration = 1200, locale = "en") {
   const ref = useRef<HTMLSpanElement | null>(null);
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export function useCountUp(target: number, duration = 1200) {
 
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduced) {
-      el.textContent = formatNumber(target);
+      el.textContent = formatNumber(target, target, locale);
       return;
     }
 

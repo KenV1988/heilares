@@ -64,7 +64,7 @@ export function useCountUp(target: number, duration = 1200, locale = "en") {
               const t = Math.min(1, (now - start) / duration);
               const eased = 1 - Math.pow(1 - t, 3); // easeOutCubic
               const v = target * eased;
-              if (el) el.textContent = formatNumber(v, target);
+              if (el) el.textContent = formatNumber(v, target, locale);
               if (t < 1) requestAnimationFrame(tick);
             };
             requestAnimationFrame(tick);

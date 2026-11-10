@@ -29,6 +29,6 @@
 
 # Peatöövõtjate ja projektiandmete kontroll
 
-- [ ] Võrrelda kõik projektiväljad PDF-i detailsete tabelitega
-- [ ] Parandada leitud erinevused ja lisada peatöövõtjate andmetestid
-- [ ] Kontrollida kuvamist, nelja keele pariteeti, linke ja mobiilvaadet
+- [x] Võrrelda kõik projektiväljad PDF-i detailsete tabelitega
+- [x] Parandada leitud erinevused ja lisada peatöövõtjate andmetestid
+- [x] Kontrollida kuvamist, nelja keele pariteeti, linke ja mobiilvaadet

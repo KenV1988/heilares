@@ -8,11 +8,11 @@ const bySlug = (slug: string) => {
 };
 
 describe("documented reference project scopes", () => {
-  it("separates Risti's 244 MW park capacity from HeilAres' approximate 80 MW scope", () => {
+  it("separates Risti's 244 MW park capacity from HeilAres' 80 MW scope", () => {
     const project = bySlug("risti-eesti");
     expect(project.parkCapacityKw).toBe(244000);
     expect(project.heilAresShareKw).toBe(80000);
-    expect(project.heilAresShareApproximate).toBe(true);
+    expect(formatHeilAresShare(project, "en")).toBe("80 MW");
   });
 
   it("keeps Stelpe's 24 MW mechanical and 40 MW electrical packages separate", () => {

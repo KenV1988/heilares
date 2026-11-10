@@ -286,7 +286,9 @@
     "back": "Zurück zu den Projekten",
     "heroAlt": "Solar Tracker Park Risti in Estland",
     "share": "Arbeitsumfang von HeilAres",
-    "shareBreakdown": "Unterkonstruktion + Module / DC + Wechselrichter"
+    "shareBreakdown": "Unterkonstruktion + Module / DC + Wechselrichter",
+    "shareMechanical": "Unterkonstruktion + Module",
+    "shareElectrical": "DC + Wechselrichter"
   },
   "panelsPage": {
     "hero": {

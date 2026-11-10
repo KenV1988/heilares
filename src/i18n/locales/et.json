@@ -286,7 +286,9 @@
     "back": "Tagasi projektidele",
     "heroAlt": "Risti Solar Tracker Park Eestis",
     "share": "HeilArese tööde maht",
-    "shareBreakdown": "Kandekonstruktsioon + paneelid / DC + inverterid"
+    "shareBreakdown": "Kandekonstruktsioon + paneelid / DC + inverterid",
+    "shareMechanical": "Kandekonstruktsioon + paneelid",
+    "shareElectrical": "DC + inverterid"
   },
   "panelsPage": {
     "hero": {

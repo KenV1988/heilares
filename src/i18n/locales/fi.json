@@ -286,7 +286,9 @@
     "back": "Takaisin projekteihin",
     "heroAlt": "Ristin Solar Tracker Park Virossa",
     "share": "HeilAresin työmäärä",
-    "shareBreakdown": "Tukirakenteet + paneelit / DC + invertterit"
+    "shareBreakdown": "Tukirakenteet + paneelit / DC + invertterit",
+    "shareMechanical": "Tukirakenteet + paneelit",
+    "shareElectrical": "DC + invertterit"
   },
   "panelsPage": {
     "hero": {

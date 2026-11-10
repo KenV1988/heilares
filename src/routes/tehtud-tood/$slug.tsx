@@ -68,6 +68,14 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
               Icon={ListChecks}
               label={t("projectsSection.share")}
               value={formatHeilAresShare(project, lang)}
+              lines={
+                project.shareBreakdown
+                  ? [
+                      `${formatCapacity(project.shareBreakdown.mechanicalKw, lang)} — ${t("projectsSection.shareMechanical")}`,
+                      `${formatCapacity(project.shareBreakdown.electricalKw, lang)} — ${t("projectsSection.shareElectrical")}`,
+                    ]
+                  : undefined
+              }
             />
             <Stat
               Icon={Gauge}
@@ -153,10 +161,12 @@ function Stat({
   Icon,
   label,
   value,
+  lines,
 }: {
   Icon: React.ComponentType<{ className?: string }>;
   label: string;
   value: string;
+  lines?: string[];
 }) {
   return (
     <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-5">
@@ -164,7 +174,15 @@ function Stat({
         <Icon className="h-3.5 w-3.5 shrink-0" />
         {label}
       </div>
-      <div className="mt-2 text-xl font-bold text-white">{value}</div>
+      {lines ? (
+        <ul className="mt-2 space-y-1.5">
+          {lines.map((l) => (
+            <li key={l} className="text-base font-bold leading-snug text-white">{l}</li>
+          ))}
+        </ul>
+      ) : (
+        <div className="mt-2 text-xl font-bold text-white">{value}</div>
+      )}
     </div>
   );
 }

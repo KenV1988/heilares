@@ -41,12 +41,23 @@ export function ProjectCard({ project }: { project: Project }) {
             <div className="text-[10px] font-semibold uppercase leading-tight tracking-[0.12em] text-white/50">
               {t("projectsSection.share")}
             </div>
-            <div className="font-display mt-2 text-[22px] font-bold leading-none text-[var(--brand-glow)]">
-              {formatHeilAresShare(project, lang)}
-            </div>
-            {project.shareBreakdown && (
-              <div className="mt-2 text-[11px] leading-snug text-white/50">
-                {t("projectsSection.shareBreakdown")}
+            {project.shareBreakdown ? (
+              <dl className="mt-2 space-y-2">
+                {[
+                  [project.shareBreakdown.mechanicalKw, t("projectsSection.shareMechanical")],
+                  [project.shareBreakdown.electricalKw, t("projectsSection.shareElectrical")],
+                ].map(([kw, label]) => (
+                  <div key={label as string} className="flex items-baseline gap-3">
+                    <dt className="font-display min-w-[4.5rem] text-[22px] font-bold leading-none text-[var(--brand-glow)]">
+                      {formatCapacity(kw as number, lang)}
+                    </dt>
+                    <dd className="text-[12px] leading-snug text-white/65">{label as string}</dd>
+                  </div>
+                ))}
+              </dl>
+            ) : (
+              <div className="font-display mt-2 text-[22px] font-bold leading-none text-[var(--brand-glow)]">
+                {formatHeilAresShare(project, lang)}
               </div>
             )}
           </div>

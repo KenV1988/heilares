@@ -286,7 +286,9 @@
     "back": "Back to projects",
     "heroAlt": "Risti Solar Tracker Park in Estonia",
     "share": "HeilAres work scope",
-    "shareBreakdown": "Mounting structures + modules / DC + inverters"
+    "shareBreakdown": "Mounting structures + modules / DC + inverters",
+    "shareMechanical": "Mounting structures + modules",
+    "shareElectrical": "DC + inverters"
   },
   "panelsPage": {
     "hero": {

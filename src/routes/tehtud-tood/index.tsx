@@ -78,7 +78,7 @@ export function ProjectsPage() {
               aria-hidden
             />
             <div className="mb-10 max-w-3xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+              <p className="inline-block rounded-full border border-[var(--brand)]/40 bg-[var(--brand)]/10 px-4 py-1.5 text-base font-bold uppercase tracking-[0.14em] text-[var(--brand)] md:text-xl">
                 {t("nav.workforce")}
               </p>
               <h2 className="font-display mt-3 text-balance text-[28px] font-bold leading-tight text-white md:text-[40px]">

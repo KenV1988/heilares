@@ -280,8 +280,9 @@
       "title": "Projektin tiedot",
       "technology": "Teknologia",
       "developer": "Kehittäjä / omistaja",
-      "contractor": "Pääurakoitsija",
-      "client": "Asiakas"
+        "contractor": "Pääurakoitsija",
+        "epcContractor": "EPC-urakoitsija",
+        "client": "Asiakas"
     },
     "back": "Takaisin projekteihin",
     "heroAlt": "Ristin Solar Tracker Park Virossa",

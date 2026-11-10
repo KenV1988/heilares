@@ -280,8 +280,9 @@
       "title": "Project details",
       "technology": "Technology",
       "developer": "Developer / owner",
-      "contractor": "Main contractor",
-      "client": "Client"
+        "contractor": "Main contractor",
+        "epcContractor": "EPC contractor",
+        "client": "Client"
     },
     "back": "Back to projects",
     "heroAlt": "Risti Solar Tracker Park in Estonia",

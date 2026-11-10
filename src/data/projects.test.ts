@@ -44,6 +44,32 @@ describe("documented reference project scopes", () => {
     expect(project.period).toBe("2023");
   });
 
+  it.each([
+    ["risti-eesti", "Connecto Infra", "main"],
+    ["stelpe-latvia", "Smartecon OÜ", "main"],
+    ["kirikmae-eesti", "Wiso Engineering", "epc"],
+    ["lielvarde-latvia", "HeilAres OÜ", "main"],
+  ])("records the documented contractor for %s", (slug, contractor, role) => {
+    const project = bySlug(slug);
+    expect(project.mainContractor).toBe(contractor);
+    expect(project.contractorRole ?? "main").toBe(role);
+  });
+
+  it("does not invent a main contractor for BLS and retains its documented client", () => {
+    const project = bySlug("bls-eesti");
+    expect(project.mainContractor).toBeUndefined();
+    expect(project.client).toBe("BLS Baltic Logistic");
+  });
+
+  it.each([
+    ["risti-eesti", "Sunly"],
+    ["stelpe-latvia", "Ignitis Renewables"],
+    ["kirikmae-eesti", "Baltic Renewable Energy Platform (Evecon & Mirova)"],
+    ["lielvarde-latvia", "EVECON group"],
+  ])("records the documented developer and owner for %s", (slug, developer) => {
+    expect(bySlug(slug).developer).toBe(developer);
+  });
+
   it("provides complete Estonian, English, Finnish and German scope text for every project", () => {
     for (const project of projects) {
       expect(Object.keys(project.description).sort()).toEqual(["de", "en", "et", "fi"]);

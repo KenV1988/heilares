@@ -140,7 +140,11 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
               )}
               {project.mainContractor && (
                 <Detail
-                  label={t("projectsSection.details.contractor")}
+                  label={t(
+                    project.contractorRole === "epc"
+                      ? "projectsSection.details.epcContractor"
+                      : "projectsSection.details.contractor",
+                  )}
                   value={project.mainContractor}
                 />
               )}

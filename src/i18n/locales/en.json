@@ -286,7 +286,9 @@
     "back": "Back to projects",
     "heroAlt": "Risti Solar Tracker Park in Estonia",
     "share": "HeilAres work scope",
-    "shareBreakdown": "Mounting structures + modules / DC + inverters"
+    "shareBreakdown": "Mounting structures + modules / DC + inverters",
+    "shareMechanical": "Mounting structures + modules",
+    "shareElectrical": "DC + inverters"
   },
   "panelsPage": {
     "hero": {
@@ -330,7 +332,7 @@
       "lead": "A Solar Tracker Park is a single-axis sun-tracking solar park that delivers up to 25% higher energy yield compared to fixed-tilt panels.",
       "paragraphs": [
         "Solar Tracker Park systems rotate the panels east to west during the day, following the sun. This keeps the panels at the optimal angle to solar irradiation from morning to evening and significantly increases annual energy yield compared to classic fixed ground-mount parks.",
-        "Solar Tracker Parks suit large open areas with stable ground and enough space to avoid shading between rows. HeilAres’ scope at the 244 MW Risti park is approximately 80 MW. At the 10.94 MW Lielvārde project, we delivered pile driving, mounting structures and module installation as the main contractor.",
+        "Solar Tracker Parks suit large open areas with stable ground and enough space to avoid shading between rows. HeilAres’ scope at the 244 MW Risti park is 80 MW. At the 10.94 MW Lielvārde project, we delivered pile driving, mounting structures and module installation as the main contractor.",
         "Higher yield means faster payback and a better production profile across the day, which is especially valuable during peak electricity spot prices."
       ],
       "faq": {
@@ -351,7 +353,7 @@
         },
         "capacity": {
           "question": "How large are the solar parks HeilAres installs?",
-          "answer": "We deliver agreed work packages on solar park projects. HeilAres’ scope is approximately 80 MW at the 244 MW Risti park, 24 MW of mechanical installation and 40 MW of DC and inverter works at the 72.5 MW Stelpe park, and 32.7 MW at the 77.5 MW Kirikmäe park."
+          "answer": "We deliver agreed work packages on solar park projects. HeilAres’ scope is 80 MW at the 244 MW Risti park, 24 MW of mechanical installation and 40 MW of DC and inverter works at the 72.5 MW Stelpe park, and 32.7 MW at the 77.5 MW Kirikmäe park."
         },
         "turnkey": {
           "question": "Does HeilAres offer solar park installation as a turnkey solution?",
@@ -638,7 +640,7 @@
       "size": {
         "question": "How large are the solar parks HeilAres builds?",
         "lead": "HeilAres has 167.64 MW of documented work across its reference projects.",
-        "answer": "At the 244 MW Risti park, HeilAres’ scope is approximately 80 MW. At the 72.5 MW Stelpe park, we installed 24 MW of mounting structures and modules and delivered 40 MW of DC and inverter works. Our scope at the 77.5 MW Kirikmäe park was 32.7 MW."
+        "answer": "At the 244 MW Risti park, HeilAres’ scope is 80 MW. At the 72.5 MW Stelpe park, we installed 24 MW of mounting structures and modules and delivered 40 MW of DC and inverter works. Our scope at the 77.5 MW Kirikmäe park was 32.7 MW."
       },
       "countries": {
         "question": "In which countries does HeilAres operate?",
@@ -769,7 +771,7 @@
     },
     "projects": {
       "title": "Projects — Solar parks in Estonia and Europe | HeilAres",
-      "description": "Explore projects with total park capacity and HeilAres scope shown separately: Risti ≈80 MW, Stelpe 24/40 MW, Kirikmäe 32.7 MW, Lielvārde 10.94 MW and BLS 4.2 MW."
+      "description": "Explore projects with total park capacity and HeilAres scope shown separately: Risti 80 MW, Stelpe 24/40 MW, Kirikmäe 32.7 MW, Lielvārde 10.94 MW and BLS 4.2 MW."
     },
     "contact": {
       "title": "Contact — HeilAres OÜ",

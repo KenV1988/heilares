@@ -64,10 +64,15 @@ export function ProjectsPage() {
         </div>
 
         {filteredSolar.length > 0 && (
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {filteredSolar.map((p) => (
-              <ProjectCard key={p.slug} project={p} />
-            ))}
+          <div>
+            <div className="mb-6">
+              <SectionBadge>{t("nav.panels")}</SectionBadge>
+            </div>
+            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {filteredSolar.map((p) => (
+                <ProjectCard key={p.slug} project={p} />
+              ))}
+            </div>
           </div>
         )}
 
@@ -82,9 +87,6 @@ export function ProjectsPage() {
               <SectionBadge>
                 {t("nav.workforce")}
               </SectionBadge>
-              <h2 className="font-display mt-3 text-balance text-[28px] font-bold leading-tight text-white md:text-[40px]">
-                {t("workforceProjects.title")}
-              </h2>
               <p className="mt-3 text-base text-white/65 md:text-lg">
                 {t("workforceProjects.lead")}
               </p>

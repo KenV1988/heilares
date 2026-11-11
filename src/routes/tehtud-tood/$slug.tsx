@@ -53,7 +53,7 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
           </LocalizedLink>
 
           <div className="mt-8 max-w-4xl">
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-[var(--brand)]/30 bg-[var(--brand)]/10 px-3 py-1 text-[12px] font-semibold tracking-[0.02em] text-[var(--brand)]">
+            <span className="block text-lg font-medium leading-snug tracking-normal text-foreground/80">
               {t(`projectsSection.filter.${project.category}`)}
             </span>
             <h1 className="mt-5 text-balance text-[40px] font-bold leading-[1.05] tracking-tight text-white md:text-[64px]">

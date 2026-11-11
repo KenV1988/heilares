@@ -2,8 +2,7 @@ import type { ReactNode } from "react";
 
 export function SectionBadge({ children }: { children: ReactNode }) {
   return (
-    <span className="inline-flex items-center gap-2 text-[13px] font-semibold uppercase tracking-[0.18em] text-[var(--brand)]">
-      <span className="hairline" aria-hidden />
+    <span className="block text-pretty text-[18px] font-medium normal-case leading-snug tracking-normal text-foreground/80 md:text-[20px]">
       {children}
     </span>
   );
@@ -27,7 +26,7 @@ export function SectionHeader({
           <SectionBadge>{eyebrow}</SectionBadge>
         </div>
       )}
-      <h2 className="font-display mt-5 text-balance text-[36px] font-bold leading-[1.1] tracking-tight text-white md:text-[56px] lg:text-[64px]">
+      <h2 className="font-display mt-5 text-balance text-[36px] font-bold leading-[1.1] tracking-normal text-foreground md:text-[56px] lg:text-[64px]">
         {title}
       </h2>
       {subtitle && (

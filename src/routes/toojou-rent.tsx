@@ -7,6 +7,7 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { QuoteModal } from "@/components/site/QuoteModal";
 import { WorkforceTypes } from "@/components/site/WorkforceTypes";
+import { SectionBadge } from "@/components/site/Section";
 import {
   Accordion,
   AccordionItem,
@@ -49,9 +50,9 @@ export function WorkforcePage() {
       {/* Why HeilAres */}
       <section className="container-x py-16 md:py-24">
         <div className="text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+          <SectionBadge>
             {t("workforceWhy.eyebrow")}
-          </p>
+          </SectionBadge>
           <h2 className="mx-auto mt-4 max-w-2xl text-balance text-[32px] font-bold leading-[1.05] tracking-tight text-white md:text-[48px]">
             {t("workforceWhy.title")}
           </h2>
@@ -82,9 +83,9 @@ export function WorkforcePage() {
       {/* Past projects — shipyards */}
       <section id="tehtud-tood" className="container-x scroll-mt-28 py-16 md:py-24">
         <div className="text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+          <SectionBadge>
             {t("workforceProjects.eyebrow")}
-          </p>
+          </SectionBadge>
           <h2 className="mx-auto mt-4 max-w-2xl text-balance text-[32px] font-bold leading-[1.05] tracking-tight text-white md:text-[48px]">
             {t("workforceProjects.title")}
           </h2>
@@ -143,9 +144,9 @@ export function WorkforcePage() {
       {/* FAQ */}
       <section className="container-x py-16 md:py-24">
         <div className="text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+          <SectionBadge>
             {t("workforceFAQ.eyebrow")}
-          </p>
+          </SectionBadge>
           <h2 className="mx-auto mt-4 max-w-2xl text-balance text-[32px] font-bold leading-[1.05] tracking-tight text-white md:text-[48px]">
             {t("workforceFAQ.title")}
           </h2>

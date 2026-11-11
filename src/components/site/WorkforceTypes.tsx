@@ -6,6 +6,7 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import laevaehitusImg from "@/assets/services/service-laevaehitus.jpg";
+import { SectionBadge } from "./Section";
 
 const KEYS = ["shipbuilding", "factories"] as const;
 
@@ -30,9 +31,9 @@ export function WorkforceTypes() {
           return (
             <article key={key} className="scroll-mt-28" id={key}>
               <div className="rounded-3xl border border-[var(--border)] bg-[var(--bg-card)] p-8 md:p-12">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+                <SectionBadge>
                   {t(`workforcePage.${key}.eyebrow`)}
-                </p>
+                </SectionBadge>
                 <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">
                   {t(`workforcePage.${key}.title`)}
                 </h2>

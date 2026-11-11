@@ -194,9 +194,9 @@ export function ElectricalPage() {
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <Reveal>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
+              <SectionBadge>
                 {t("electricalPage.future.eyebrow")}
-              </p>
+              </SectionBadge>
               <h2 className="font-display mt-4 text-balance text-[32px] font-bold leading-[1.1] tracking-tight text-white md:text-[48px]">
                 {t("electricalPage.future.title")}
               </h2>

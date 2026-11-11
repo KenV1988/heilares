@@ -5,6 +5,7 @@ import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { ProjectCard } from "@/components/site/ProjectCard";
+import { SectionBadge } from "@/components/site/Section";
 import { projectsByCategory, type ProjectCategory } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { localizedHead } from "@/lib/locale-seo";
@@ -78,9 +79,9 @@ export function ProjectsPage() {
               aria-hidden
             />
             <div className="mb-10 max-w-3xl">
-              <p className="inline-block rounded-full border border-[var(--brand)]/40 bg-[var(--brand)]/10 px-4 py-1.5 text-base font-bold uppercase tracking-[0.14em] text-[var(--brand)] md:text-xl">
+              <SectionBadge>
                 {t("nav.workforce")}
-              </p>
+              </SectionBadge>
               <h2 className="font-display mt-3 text-balance text-[28px] font-bold leading-tight text-white md:text-[40px]">
                 {t("workforceProjects.title")}
               </h2>

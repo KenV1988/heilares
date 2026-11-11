@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import trackerImg from "@/assets/services/tracker-park-1.jpg";
 import maaparkImg from "@/assets/services/service-maapark.jpg";
+import { SectionBadge } from "./Section";
 
 const KEYS = ["tracker", "ground", "roof"] as const;
 
@@ -34,10 +35,10 @@ export function ParkTypes() {
           return (
             <article key={key} className="scroll-mt-28" id={key}>
               <div className="rounded-3xl border border-[var(--border)] bg-[var(--bg-card)] p-8 md:p-12">
-                <p className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand)]">
-                  <span>{String(index + 1).padStart(2, "0")}</span>
+                <SectionBadge>
+                  <span className="mr-3 text-muted-foreground">{String(index + 1).padStart(2, "0")}</span>
                   <span>{t(`panelsPage.${key}.eyebrow`)}</span>
-                </p>
+                </SectionBadge>
                 <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">
                   {t(`panelsPage.${key}.title`)}
                 </h2>

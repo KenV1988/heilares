@@ -1,6 +1,6 @@
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { formatCapacity, formatHeilAresShare, formatProjectDuration, type Project } from "@/data/projects";
+import { formatCapacity, formatHeilAresShare, type Project } from "@/data/projects";
 import { getSupportedLang } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 
@@ -70,7 +70,7 @@ export function ProjectCard({ project }: { project: Project }) {
               </span>
             </div>
             <div className="flex items-center gap-3">
-              <span className="text-[12px] text-white/50">{formatProjectDuration(project, lang)}</span>
+              <span className="text-[12px] text-white/50">{project.period}</span>
               <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full border border-[var(--border)] text-white/60 transition group-hover:border-[var(--brand)] group-hover:text-[var(--brand-glow)]">
                 <ArrowUpRight className="h-4 w-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>

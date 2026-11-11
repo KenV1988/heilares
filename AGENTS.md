@@ -1,3 +1,3 @@
 ## Project image rendering
 - Project detail pages use `getAdditionalProjectImages` to exclude the cover and repeated gallery sources, and omit the gallery column when empty; this keeps every localized page free of duplicate photos and blank gallery space.
-- Store project work durations as numeric `durationMonths` separately from calendar `period`, and format them through `formatProjectDuration` in cards, detail pages and public project tools so all locales share the same values.
+- Store project work durations as numeric `durationMonths` separately from calendar `period`; cards display `period`, while detail pages format months through `formatProjectDuration`, so calendar years and work duration remain distinct across locales.

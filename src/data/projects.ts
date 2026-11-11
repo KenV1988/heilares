@@ -38,6 +38,8 @@ export interface Project {
     electricalKw: number;
   };
   period: string;
+  /** User-confirmed work duration, independent of the calendar period. */
+  durationMonths: number;
   coverImage: string;
   coverAlt: LocalizedText;
   gallery: GalleryImage[];
@@ -65,6 +67,7 @@ export const projects: Project[] = [
     parkCapacityKw: 244000,
     heilAresShareKw: 80000,
     period: "2025–2026",
+    durationMonths: 21,
     coverImage: risti2,
     coverAlt: {
       et: "Risti Solar Tracker Park Eestis, suuremahuline päikest jälgiv park",
@@ -139,6 +142,7 @@ export const projects: Project[] = [
     heilAresShareKw: 40000,
     shareBreakdown: { mechanicalKw: 24000, electricalKw: 40000 },
     period: "2025",
+    durationMonths: 12,
     coverImage: stelpe1,
     coverAlt: {
       et: "Stelpe maapargi paneeliread talvel",
@@ -208,6 +212,7 @@ export const projects: Project[] = [
     parkCapacityKw: 77500,
     heilAresShareKw: 32700,
     period: "2024",
+    durationMonths: 6,
     coverImage: kirikmae1,
     coverAlt: {
       et: "Kirikmäe 77,5 MW maapargi õhuvaade",
@@ -255,6 +260,7 @@ export const projects: Project[] = [
     parkCapacityKw: 4200,
     heilAresShareKw: 4200,
     period: "2023",
+    durationMonths: 1.5,
     coverImage: bls1.url,
     coverAlt: {
       et: "BLS logistikakeskuse katusepargi objekt Eestis",
@@ -299,6 +305,7 @@ export const projects: Project[] = [
     parkCapacityKw: 10940,
     heilAresShareKw: 10940,
     period: "2025",
+    durationMonths: 3,
     coverImage: lielvarde1,
     coverAlt: {
       et: "Lielvārde Solar Tracker Park Lätis",
@@ -356,6 +363,14 @@ export const formatCapacity = (kw: number, locale: string = "et") => {
   }
   return `${new Intl.NumberFormat(locale).format(kw)} kW`;
 };
+
+export const formatProjectDuration = (project: Project, locale: string = "et") =>
+  new Intl.NumberFormat(locale, {
+    style: "unit",
+    unit: "month",
+    unitDisplay: "long",
+    maximumFractionDigits: 1,
+  }).format(project.durationMonths);
 
 export const formatHeilAresShare = (project: Project, locale: string = "et") => {
   if (project.shareBreakdown) {

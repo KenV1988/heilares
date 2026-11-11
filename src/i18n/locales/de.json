@@ -275,6 +275,7 @@
     },
     "capacity": "Gesamtleistung des Parks",
     "year": "Projektzeitraum",
+    "duration": "Dauer der Arbeiten",
     "location": "Standort",
     "details": {
       "title": "Projektdaten",

@@ -275,6 +275,7 @@
     },
     "capacity": "Total park capacity",
     "year": "Project period",
+    "duration": "Work duration",
     "location": "Location",
     "details": {
       "title": "Project details",

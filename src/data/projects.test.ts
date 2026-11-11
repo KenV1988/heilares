@@ -30,6 +30,18 @@ describe("project photos are displayed once", () => {
   });
 });
 
+describe("user-confirmed project durations in months", () => {
+  it.each([
+    ["risti-eesti", 21],
+    ["stelpe-latvia", 12],
+    ["kirikmae-eesti", 6],
+    ["lielvarde-latvia", 3],
+    ["bls-eesti", 1.5],
+  ])("records %s as %s months independently of its calendar period", (slug, months) => {
+    expect(bySlug(slug).durationMonths).toBe(months);
+  });
+});
+
 describe("documented reference project scopes", () => {
   it("separates Risti's 244 MW park capacity from HeilAres' 80 MW scope", () => {
     const project = bySlug("risti-eesti");

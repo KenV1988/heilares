@@ -275,6 +275,7 @@
     },
     "capacity": "Puiston kokonaisteho",
     "year": "Työjakso",
+    "duration": "Töiden kesto",
     "location": "Sijainti",
     "details": {
       "title": "Projektin tiedot",

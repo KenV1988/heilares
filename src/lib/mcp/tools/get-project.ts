@@ -1,6 +1,6 @@
 import { defineTool, ToolError } from "@lovable.dev/mcp-js";
 import { z } from "zod";
-import { projects } from "@/data/projects";
+import { projects, formatProjectDuration } from "@/data/projects";
 
 const LANGS = ["et", "en", "fi", "de"] as const;
 
@@ -34,6 +34,8 @@ export default defineTool({
           }
         : undefined,
       period: p.period,
+      durationMonths: p.durationMonths,
+      duration: formatProjectDuration(p, lang),
       technology: p.technology?.[lang],
       developer: p.developer,
       mainContractor: p.mainContractor,

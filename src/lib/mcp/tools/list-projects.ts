@@ -1,6 +1,6 @@
 import { defineTool, ToolError } from "@lovable.dev/mcp-js";
 import { z } from "zod";
-import { projectsByCategory } from "@/data/projects";
+import { projectsByCategory, formatProjectDuration } from "@/data/projects";
 
 const LANGS = ["et", "en", "fi", "de"] as const;
 
@@ -37,6 +37,8 @@ export default defineTool({
             }
           : undefined,
         period: p.period,
+        durationMonths: p.durationMonths,
+        duration: formatProjectDuration(p, lang),
       }));
     if (list.length === 0) throw new ToolError("No projects match that filter.");
     return {

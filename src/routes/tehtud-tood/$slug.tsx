@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { ArrowLeft, MapPin, Calendar, Gauge, ListChecks } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
-import { projects, formatCapacity, formatHeilAresShare, getAdditionalProjectImages } from "@/data/projects";
+import { projects, formatCapacity, formatHeilAresShare, formatProjectDuration, getAdditionalProjectImages } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
@@ -88,7 +88,7 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
               label={t("projectsSection.location")}
               value={project.location[lang]}
             />
-            <Stat Icon={Calendar} label={t("projectsSection.year")} value={project.period} />
+            <Stat Icon={Calendar} label={t("projectsSection.duration")} value={formatProjectDuration(project, lang)} />
           </div>
           {project.shareBreakdown && (
             <p className="mt-3 text-sm text-white/55">{t("projectsSection.shareBreakdown")}</p>

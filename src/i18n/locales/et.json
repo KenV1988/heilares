@@ -275,6 +275,7 @@
     },
     "capacity": "Pargi koguvõimsus",
     "year": "Tööde periood",
+    "duration": "Tööde kestus",
     "location": "Asukoht",
     "details": {
       "title": "Projekti andmed",

@@ -36,7 +36,7 @@ export function ParkTypes() {
             <article key={key} className="scroll-mt-28" id={key}>
               <div className="rounded-3xl border border-[var(--border)] bg-[var(--bg-card)] p-8 md:p-12">
                 <SectionBadge>
-                  <span className="mr-3 text-muted-foreground">{String(index + 1).padStart(2, "0")}</span>
+                  <span className="mr-3">{String(index + 1).padStart(2, "0")}</span>
                   <span>{t(`panelsPage.${key}.eyebrow`)}</span>
                 </SectionBadge>
                 <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-white md:text-4xl">

@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 export function SectionBadge({ children }: { children: ReactNode }) {
   return (
-    <span className="block text-pretty text-[18px] font-medium normal-case leading-snug tracking-normal text-foreground/80 md:text-[20px]">
+    <span className="block text-pretty text-[18px] font-medium normal-case leading-snug tracking-normal text-brand md:text-[20px]">
       {children}
     </span>
   );

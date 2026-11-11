@@ -1,4 +1,4 @@
 ## Project image rendering
 - Project detail pages use `getAdditionalProjectImages` to exclude the cover and repeated gallery sources, and omit the gallery column when empty; this keeps every localized page free of duplicate photos and blank gallery space.
 - Store project work durations as numeric `durationMonths` separately from calendar `period`; cards display `period`, while detail pages format months through `formatProjectDuration`, so calendar years and work duration remain distinct across locales.
-- Use the shared `SectionBadge` for noninteractive section context labels, with readable neutral text and no pill treatment, so labels remain distinct from actionable controls across all locales.
+- Use the shared `SectionBadge` for noninteractive section context labels with no pill treatment, so labels remain distinct from actionable controls across all locales.

@@ -85,6 +85,7 @@ function formatNumber(v: number, target: number, locale: string) {
   const decimals = Number.isInteger(target) ? 0 : (target.toString().split(".")[1]?.length ?? 0);
   const value = decimals === 0 ? Math.round(v) : v;
   return new Intl.NumberFormat(locale, {
+    useGrouping: false,
     minimumFractionDigits: decimals,
     maximumFractionDigits: decimals,
   }).format(value);

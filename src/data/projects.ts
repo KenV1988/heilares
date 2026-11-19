@@ -245,9 +245,9 @@ export const projects: Project[] = [
     },
     technology: {
       et: "Fikseeritud maapealne kandekonstruktsioon, ligikaudu 117 600 Canadian Solar paneeli",
-      en: "Fixed-tilt ground mounting, approximately 117,600 Canadian Solar modules",
+      en: "Fixed-tilt ground mounting, approximately 117 600 Canadian Solar modules",
       fi: "Kiinteäkulmainen maa-asennus, noin 117 600 Canadian Solar -paneelia",
-      de: "Fest aufgeständerte Bodenmontage, etwa 117.600 Canadian-Solar-Module",
+      de: "Fest aufgeständerte Bodenmontage, etwa 117 600 Canadian-Solar-Module",
     },
     developer: "Baltic Renewable Energy Platform (Evecon & Mirova)",
     mainContractor: "Wiso Engineering",
@@ -358,14 +358,15 @@ export const getAdditionalProjectImages = (project: Project): GalleryImage[] => 
 export const formatCapacity = (kw: number, locale: string = "et") => {
   if (kw >= 1000) {
     const mw = kw / 1000;
-    const formatted = new Intl.NumberFormat(locale, { maximumFractionDigits: 2 }).format(mw);
+    const formatted = new Intl.NumberFormat(locale, { useGrouping: false, maximumFractionDigits: 2 }).format(mw);
     return `${formatted} MW`;
   }
-  return `${new Intl.NumberFormat(locale).format(kw)} kW`;
+  return `${new Intl.NumberFormat(locale, { useGrouping: false }).format(kw)} kW`;
 };
 
 export const formatProjectDuration = (project: Project, locale: string = "et") =>
   new Intl.NumberFormat(locale, {
+    useGrouping: false,
     style: "unit",
     unit: "month",
     unitDisplay: "long",

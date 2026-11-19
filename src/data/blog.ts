@@ -435,7 +435,7 @@ const parkTypes: BlogPost = {
         {
           heading: "Dachanlage – Nutzung vorhandener Flächen ohne neuen Landverbrauch",
           paragraphs: [
-            "Dachanlagen eignen sich für Eigentümer von Industriegebäuden, Lagerhallen, Fabriken und Verteilzentren, die ihre Stromkosten und ihren CO2-Fußabdruck senken möchten, ohne Grundfläche zu beanspruchen. Eine typische 1-MW-Dachanlage bedeckt etwa 6.000–8.000 m² Dachfläche.",
+            "Dachanlagen eignen sich für Eigentümer von Industriegebäuden, Lagerhallen, Fabriken und Verteilzentren, die ihre Stromkosten und ihren CO2-Fußabdruck senken möchten, ohne Grundfläche zu beanspruchen. Eine typische 1-MW-Dachanlage bedeckt etwa 6 000–8 000 m² Dachfläche.",
             "Der Vorteil von Dachanlagen ist der direkte Eigenverbrauch vor Ort – die erzeugte Energie wird lokal verbraucht, was bei hohen Strompreisen eine besonders schnelle Amortisation ermöglicht. Voraussetzung ist, dass die Dachtragkonstruktion die zusätzliche Last aufnehmen kann.",
           ],
         },
@@ -1077,7 +1077,7 @@ const maintenance: BlogPost = {
       faqs: [
         {
           question: "How much does annual maintenance cost for a 10 MW park?",
-          lead: "A 10 MW park typically has annual O&M cost of €80,000–150,000, depending on service level and location.",
+          lead: "A 10 MW park typically has annual O&M cost of €80 000–150 000, depending on service level and location.",
           answer:
             "Exact cost depends on whether cleaning, spares and guaranteed response are included.",
         },
@@ -1161,7 +1161,7 @@ const maintenance: BlogPost = {
       faqs: [
         {
           question: "Wie viel kostet die jährliche Wartung eines 10-MW-Solarparks?",
-          lead: "Die typischen jährlichen O&M-Kosten für einen 10-MW-Solarpark liegen bei 80.000–150.000 €, abhängig von Serviceniveau und Standort.",
+          lead: "Die typischen jährlichen O&M-Kosten für einen 10-MW-Solarpark liegen bei 80 000–150 000 €, abhängig von Serviceniveau und Standort.",
           answer:
             "Die genauen Kosten hängen davon ab, ob Reinigung, Ersatzteile und eine garantierte Reaktionszeit enthalten sind.",
         },

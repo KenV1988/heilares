@@ -2,6 +2,16 @@ import { describe, expect, it } from "vitest";
 import { bessProjects, formatStorage, formatStorageMwh } from "./bess-projects";
 
 describe("user-supplied BESS reference specifications", () => {
+  it.each(["et", "en", "fi", "de"])("displays thousands without punctuation in %s", (locale) => {
+    expect(formatStorage(1542, locale)).toBe("1542 kWh");
+    expect(formatStorage(1260, locale)).toBe("1260 kWh");
+    expect(formatStorage(117600, locale)).toBe("117600 kWh");
+  });
+
+  it.each(["et", "en", "fi", "de"])("preserves actual decimal capacities in %s", (locale) => {
+    expect(formatStorage(409.6, locale)).toBe(locale === "en" ? "409.6 kWh" : "409,6 kWh");
+    expect(formatStorageMwh(1542, locale)).toBe(locale === "en" ? "1.542 MWh" : "1,542 MWh");
+  });
   it.each([
     ["parnu-bess-1542", ["parnu-1-1.webp", "parnu-1-2.webp"]],
     ["parnu-bess-105", ["parnu-2-1.webp", "parnu-2-2.webp", "parnu-2-3.webp"]],
@@ -41,7 +51,7 @@ describe("user-supplied BESS reference specifications", () => {
     "keeps the supplied %s kWh capacity exact in both units across all languages",
     (kwh) => {
       for (const locale of ["et", "en", "fi", "de"]) {
-        const number = new Intl.NumberFormat(locale, { maximumFractionDigits: 4 });
+        const number = new Intl.NumberFormat(locale, { useGrouping: false, maximumFractionDigits: 4 });
         expect(formatStorage(kwh, locale)).toBe(`${number.format(kwh)} kWh`);
         expect(formatStorageMwh(kwh, locale)).toBe(`${number.format(kwh / 1000)} MWh`);
       }

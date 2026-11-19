@@ -104,9 +104,9 @@ export const bessProjects: BessProject[] = [
       },
       {
         et: "Paigaldasime 6 BSL S314-16 LiFePO₄ akusüsteemi, igaüks 257 kWh (kokku 1542 kWh).",
-        en: "Installed 6 BSL S314-16 LiFePO₄ battery systems, 257 kWh each (1,542 kWh in total).",
+        en: "Installed 6 BSL S314-16 LiFePO₄ battery systems, 257 kWh each (1542 kWh in total).",
         fi: "Asensimme 6 BSL S314-16 LiFePO₄ -akkujärjestelmää, kukin 257 kWh (yhteensä 1 542 kWh).",
-        de: "Montage von 6 BSL S314-16 LiFePO₄-Batteriesystemen mit jeweils 257 kWh (insgesamt 1.542 kWh).",
+        de: "Montage von 6 BSL S314-16 LiFePO₄-Batteriesystemen mit jeweils 257 kWh (insgesamt 1542 kWh).",
       },
       {
         et: "Rajasime kaabliteed ja paigaldasime AXCMK-HF C-Pro 4×50/16 jõukaabli.",
@@ -441,9 +441,9 @@ export const bessProjects: BessProject[] = [
       },
       {
         et: "Paigaldasime 10 ESS-GRID akusüsteemi, igaüks 126 kWh (kokku 1260 kWh).",
-        en: "Installed 10 ESS-GRID battery systems, 126 kWh each (1,260 kWh in total).",
+        en: "Installed 10 ESS-GRID battery systems, 126 kWh each (1260 kWh in total).",
         fi: "Asensimme 10 ESS-GRID-akkujärjestelmää, kukin 126 kWh (yhteensä 1 260 kWh).",
-        de: "Montage von 10 ESS-GRID Batteriesystemen mit jeweils 126 kWh (insgesamt 1.260 kWh).",
+        de: "Montage von 10 ESS-GRID Batteriesystemen mit jeweils 126 kWh (insgesamt 1260 kWh).",
       },
       {
         et: "Rajasime kaabliteed ja paigaldasime AXCHK-HF C-Pro 4×95/29 jõukaabli.",
@@ -485,6 +485,6 @@ export const bessProjects: BessProject[] = [
 ];
 
 export const formatStorage = (kwh: number, locale: string) =>
-  `${new Intl.NumberFormat(locale, { maximumFractionDigits: 4 }).format(kwh)} kWh`;
+  `${new Intl.NumberFormat(locale, { useGrouping: false, maximumFractionDigits: 4 }).format(kwh)} kWh`;
 export const formatStorageMwh = (kwh: number, locale: string) =>
-  `${new Intl.NumberFormat(locale, { maximumFractionDigits: 4 }).format(kwh / 1000)} MWh`;
+  `${new Intl.NumberFormat(locale, { useGrouping: false, maximumFractionDigits: 4 }).format(kwh / 1000)} MWh`;

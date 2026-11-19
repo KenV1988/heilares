@@ -5,3 +5,4 @@
 - Keep BESS reference specifications and four-language work lists in a separate typed dataset; energy capacity (kWh/MWh) must not reuse solar power (kW/MW) fields.
 - Resolve static reference detail content by slug during render and metadata generation, with beforeLoad validating existence; do not return in-module content from route loaders.
 - BESS references without supplied photos use a non-photographic capacity panel and omit detail imagery; never infer dates, durations or substitute another site’s photos.
+- Detail-page back links use the shared BackLink to restore the previous history entry and its scroll position, with a localized overview fallback for direct visits.

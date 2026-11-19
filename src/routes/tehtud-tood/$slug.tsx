@@ -15,7 +15,7 @@ import { getSupportedLang } from "@/i18n";
 import { referenceProjectHead } from "@/lib/reference-projects";
 import { bessProjects } from "@/data/bess-projects";
 import { BessProjectDetail } from "@/components/site/BessProjectDetail";
-import { LocalizedLink } from "@/components/site/LocalizedLink";
+import { BackLink } from "@/components/site/BackLink";
 
 export const Route = createFileRoute("/tehtud-tood/$slug")({
   component: ProjectDetail,
@@ -53,13 +53,13 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <LocalizedLink
+          <BackLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("projectsSection.back")}
-          </LocalizedLink>
+          </BackLink>
 
           <div className="mt-8 max-w-4xl">
             <span className="block text-lg font-medium leading-snug tracking-normal text-foreground/80">

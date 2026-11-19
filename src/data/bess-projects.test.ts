@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { bessProjects } from "./bess-projects";
+import { bessProjects, formatStorage, formatStorageMwh } from "./bess-projects";
 
 describe("user-supplied BESS reference specifications", () => {
   it.each([
@@ -24,6 +24,17 @@ describe("user-supplied BESS reference specifications", () => {
         storage as number,
       );
       expect(project?.inverterCount && project.inverterCount * project.inverterUnitKw).toBe(power);
+    },
+  );
+
+  it.each([1542, 105, 630, 409.6, 1260])(
+    "keeps the supplied %s kWh capacity exact in both units across all languages",
+    (kwh) => {
+      for (const locale of ["et", "en", "fi", "de"]) {
+        const number = new Intl.NumberFormat(locale, { maximumFractionDigits: 4 });
+        expect(formatStorage(kwh, locale)).toBe(`${number.format(kwh)} kWh`);
+        expect(formatStorageMwh(kwh, locale)).toBe(`${number.format(kwh / 1000)} MWh`);
+      }
     },
   );
 });

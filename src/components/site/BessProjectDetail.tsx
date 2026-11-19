@@ -9,7 +9,7 @@ import {
 } from "@/data/bess-projects";
 import { SiteLayout } from "./Layout";
 import { SectionBadge } from "./Section";
-import { LocalizedLink } from "./LocalizedLink";
+import { BackLink } from "./BackLink";
 import { CTA } from "./CTA";
 
 export function BessProjectDetail({ project }: { project: BessProject }) {
@@ -21,13 +21,13 @@ export function BessProjectDetail({ project }: { project: BessProject }) {
     <SiteLayout>
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <LocalizedLink
+          <BackLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm text-foreground/65 transition hover:text-brand"
           >
             <ArrowLeft className="h-4 w-4" />
             {labels.back[lang]}
-          </LocalizedLink>
+          </BackLink>
           <div className="mt-8 max-w-4xl">
             <SectionBadge>{labels.category[lang]}</SectionBadge>
             <h1 className="mt-5 text-balance text-[36px] font-bold leading-[1.1] tracking-normal text-foreground md:text-[64px]">

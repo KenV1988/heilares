@@ -1,5 +1,11 @@
 # HeilAres contact and German localization
 
+# Tagasinupp ja akupankade andmete kontroll
+
+- [x] Taasta detailvaate tagasinupuga eelmise lehe kerimiskoht kõigis keeltes
+- [x] Võrdle viie akupanga detailid lisatud spetsifikatsioonidega ja kontrolli tõlkeid
+- [x] Kasutaja kinnitas esimese projekti 480 kW inverterite koguvõimsuse; võrrelda ka ülejäänud nelja projekti
+
 # BESS-akupankade referentsprojektid
 
 - [x] Lisa viis projekti täpsete tehniliste andmetega ET/EN/FI/DE

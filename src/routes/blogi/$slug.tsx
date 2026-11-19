@@ -7,7 +7,7 @@ import { CTA } from "@/components/site/CTA";
 import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
-import { LocalizedLink } from "@/components/site/LocalizedLink";
+import { BackLink } from "@/components/site/BackLink";
 import {
   Accordion,
   AccordionItem,
@@ -67,13 +67,13 @@ export function BlogPostView({ post }: { post: BlogPost }) {
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
-          <LocalizedLink
+          <BackLink
             to="/blogi"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("blog.back")}
-          </LocalizedLink>
+          </BackLink>
 
           <div className="mt-8 max-w-3xl">
             <div className="flex items-center gap-3 text-xs uppercase tracking-wider text-white/50">

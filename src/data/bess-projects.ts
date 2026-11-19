@@ -284,15 +284,6 @@ export const bessProjects: BessProject[] = [
     ],
     photos: [
       {
-        src: photo33.url,
-        alt: {
-          et: "Pärnu 630 kWh akupanga paigaldus – vaade 3",
-          en: "Pärnu 630 kWh energy storage installation – view 3",
-          fi: "Pärnu: 630 kWh:n akkuvaraston asennus – näkymä 3",
-          de: "Pärnu: 630 kWh Batteriespeicherinstallation – Ansicht 3",
-        },
-      },
-      {
         src: photo31.url,
         alt: {
           et: "Pärnu 630 kWh akupanga paigaldus – vaade 1",
@@ -308,6 +299,15 @@ export const bessProjects: BessProject[] = [
           en: "Pärnu 630 kWh energy storage installation – view 2",
           fi: "Pärnu: 630 kWh:n akkuvaraston asennus – näkymä 2",
           de: "Pärnu: 630 kWh Batteriespeicherinstallation – Ansicht 2",
+        },
+      },
+      {
+        src: photo33.url,
+        alt: {
+          et: "Pärnu 630 kWh akupanga paigaldus – vaade 3",
+          en: "Pärnu 630 kWh energy storage installation – view 3",
+          fi: "Pärnu: 630 kWh:n akkuvaraston asennus – näkymä 3",
+          de: "Pärnu: 630 kWh Batteriespeicherinstallation – Ansicht 3",
         },
       },
       {

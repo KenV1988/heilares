@@ -1,5 +1,10 @@
 # HeilAres contact and German localization
 
+# BESS-fotode järjestus
+
+- [x] Kasuta kõigil viiel BESS-kaardil põhipildina fotot number 1 ning detailis järjekorda 1, 2, 3, 4
+- [x] Kontrolli nummerdatud fotode järjestust kõigis keeltes arvutis ja telefonis
+
 # Tagasinupp ja akupankade andmete kontroll
 
 - [x] Kontrolli kõigi projekti- ja blogikaartide tagasiliikumist ning säilita valitud filter

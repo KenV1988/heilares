@@ -1,25 +1,20 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import { ProjectDetailView } from "../../tehtud-tood/$slug";
+import { ReferenceProjectView } from "../../tehtud-tood/$slug";
 import { projects } from "@/data/projects";
-import { localizedContentHead } from "@/lib/locale-seo";
-import { getSupportedLang } from "@/i18n";
+import { bessProjects } from "@/data/bess-projects";
+import { referenceProjectHead } from "@/lib/reference-projects";
+
 export const Route = createFileRoute("/$lang/tehtud-tood/$slug")({
-  loader: ({ params }) => {
-    const project = projects.find((p) => p.slug === params.slug);
-    if (!project) throw notFound();
-    return { project };
+  beforeLoad: ({ params }) => {
+    if (
+      !projects.some((p) => p.slug === params.slug) &&
+      !bessProjects.some((p) => p.slug === params.slug)
+    )
+      throw notFound();
   },
-  head: ({ params, loaderData }) =>
-    loaderData
-      ? localizedContentHead(
-          params.lang,
-          `/tehtud-tood/${params.slug}`,
-          loaderData.project.title[getSupportedLang(params.lang)],
-          loaderData.project.description[getSupportedLang(params.lang)],
-        )
-      : {},
+  head: ({ params }) => referenceProjectHead(params.lang, params.slug),
   component: () => {
-    const { project } = Route.useLoaderData();
-    return <ProjectDetailView project={project} />;
+    const { slug } = Route.useParams();
+    return <ReferenceProjectView slug={slug} />;
   },
 });

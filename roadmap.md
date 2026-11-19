@@ -1,5 +1,13 @@
 # HeilAres contact and German localization
 
+# BESS-akupankade referentsprojektid
+
+- [x] Lisa viis projekti täpsete tehniliste andmetega ET/EN/FI/DE
+- [x] Paiguta avatavad BESS-kaardid päikeseparkide ja tööjõu rendi vahele
+- [x] Lisa kolme Pärnu objekti fotod ja kontrolli detaillehti ning mobiilivaadet
+- [x] Lisa saabunud Valga ja Märjamaa fotod kaartidele ja detailvaadetesse
+- [x] Eemalda akupangakaartide piltidelt korduv kategooriasilt kõigis keeltes
+
 - [x] Audit contacts, working hours, i18n, SEO, routes, and responsive risks
 - [x] Remove employee phones and all business-hours content
 - [x] Add Karl-Heinrich Raigo with role and email

@@ -4,6 +4,10 @@ import { useTranslation } from "react-i18next";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
+import { Button } from "@/components/ui/button";
+import { BessProjectCard } from "@/components/site/BessProjectCard";
+import { bessProjects, bessProjectLabels } from "@/data/bess-projects";
+import { getSupportedLang } from "@/i18n";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { SectionBadge } from "@/components/site/Section";
 import { projectsByCategory, type ProjectCategory } from "@/data/projects";
@@ -16,18 +20,19 @@ export const Route = createFileRoute("/tehtud-tood/")({
   head: () => localizedHead("et", "projects", "/tehtud-tood"),
 });
 
-type FilterKey = ProjectCategory | "all" | "workforce";
-const FILTERS: FilterKey[] = ["all", "tracker_park", "maapark", "katusepark", "workforce"];
+type FilterKey = ProjectCategory | "all" | "bess" | "workforce";
+const FILTERS: FilterKey[] = ["all", "tracker_park", "maapark", "katusepark", "bess", "workforce"];
 
 export function ProjectsPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const [filter, setFilter] = useState<FilterKey>("all");
 
   const filteredSolar = useMemo(
     () =>
       filter === "all"
         ? projectsByCategory
-        : filter === "workforce"
+        : filter === "workforce" || filter === "bess"
           ? []
           : projectsByCategory.filter((p) => p.category === filter),
     [filter],
@@ -49,17 +54,23 @@ export function ProjectsPage() {
       <section className="container-x py-12 md:py-16">
         <div className="mb-8 flex flex-wrap justify-center gap-2">
           {FILTERS.map((f) => (
-            <button
+            <Button
               key={f}
               onClick={() => setFilter(f)}
+              variant="outline"
+              aria-pressed={filter === f}
               className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
                 filter === f
-                  ? "border-[var(--brand)] bg-[var(--brand)] text-[#0a0f0d]"
-                  : "border-[var(--border)] text-white/70 hover:border-[var(--ring)] hover:text-white"
+                  ? "border-brand bg-brand text-primary-foreground hover:bg-brand-hover hover:text-primary-foreground"
+                  : "border-border text-foreground/70 hover:border-ring hover:text-foreground"
               }`}
             >
-              {f === "workforce" ? t("nav.workforce") : t(`projectsSection.filter.${f}`)}
-            </button>
+              {f === "bess"
+                ? bessProjectLabels.category[lang]
+                : f === "workforce"
+                  ? t("nav.workforce")
+                  : t(`projectsSection.filter.${f}`)}
+            </Button>
           ))}
         </div>
 
@@ -76,6 +87,19 @@ export function ProjectsPage() {
           </div>
         )}
 
+        {(filter === "all" || filter === "bess") && (
+          <div className={filteredSolar.length > 0 ? "mt-[72px]" : ""}>
+            <div className="mb-6">
+              <SectionBadge>{bessProjectLabels.category[lang]}</SectionBadge>
+            </div>
+            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {bessProjects.map((project) => (
+                <BessProjectCard key={project.slug} project={project} />
+              ))}
+            </div>
+          </div>
+        )}
+
         {showShipyards && (
           <div className="mt-[72px]">
             <div
@@ -84,9 +108,7 @@ export function ProjectsPage() {
               aria-hidden
             />
             <div className="mb-10 max-w-3xl">
-              <SectionBadge>
-                {t("nav.workforce")}
-              </SectionBadge>
+              <SectionBadge>{t("nav.workforce")}</SectionBadge>
               <p className="mt-3 text-base text-white/65 md:text-lg">
                 {t("workforceProjects.lead")}
               </p>

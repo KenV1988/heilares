@@ -3,33 +3,42 @@ import { useTranslation } from "react-i18next";
 import { ArrowLeft, MapPin, Calendar, Gauge, ListChecks } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
-import { projects, formatCapacity, formatHeilAresShare, formatProjectDuration, getAdditionalProjectImages } from "@/data/projects";
+import {
+  projects,
+  formatCapacity,
+  formatHeilAresShare,
+  formatProjectDuration,
+  getAdditionalProjectImages,
+} from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
 import { getSupportedLang } from "@/i18n";
-import { localizedContentHead } from "@/lib/locale-seo";
+import { referenceProjectHead } from "@/lib/reference-projects";
+import { bessProjects } from "@/data/bess-projects";
+import { BessProjectDetail } from "@/components/site/BessProjectDetail";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 export const Route = createFileRoute("/tehtud-tood/$slug")({
   component: ProjectDetail,
-  loader: ({ params }) => {
-    const project = projects.find((p) => p.slug === params.slug);
-    if (!project) throw notFound();
-    return { project };
+  beforeLoad: ({ params }) => {
+    if (
+      !projects.some((p) => p.slug === params.slug) &&
+      !bessProjects.some((p) => p.slug === params.slug)
+    )
+      throw notFound();
   },
-  head: ({ loaderData }) => {
-    if (!loaderData) return {};
-    const project = loaderData.project;
-    return localizedContentHead(
-      "et",
-      `/tehtud-tood/${project.slug}`,
-      project.title.et,
-      project.description.et,
-    );
-  },
+  head: ({ params }) => referenceProjectHead("et", params.slug),
 });
 
 function ProjectDetail() {
-  const { project } = Route.useLoaderData();
+  const { slug } = Route.useParams();
+  return <ReferenceProjectView slug={slug} />;
+}
+
+export function ReferenceProjectView({ slug }: { slug: string }) {
+  const bess = bessProjects.find((p) => p.slug === slug);
+  if (bess) return <BessProjectDetail project={bess} />;
+  const project = projects.find((p) => p.slug === slug);
+  if (!project) throw notFound();
   return <ProjectDetailView project={project} />;
 }
 
@@ -88,7 +97,11 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
               label={t("projectsSection.location")}
               value={project.location[lang]}
             />
-            <Stat Icon={Calendar} label={t("projectsSection.duration")} value={formatProjectDuration(project, lang)} />
+            <Stat
+              Icon={Calendar}
+              label={t("projectsSection.duration")}
+              value={formatProjectDuration(project, lang)}
+            />
           </div>
           {project.shareBreakdown && (
             <p className="mt-3 text-sm text-white/55">{t("projectsSection.shareBreakdown")}</p>
@@ -110,22 +123,28 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
         </div>
 
         <section className="container-x py-16 md:py-24">
-          <div className={gallery.length > 0 ? "grid items-start gap-10 md:grid-cols-3" : "grid items-start"}>
-            {gallery.length > 0 && <div className="md:col-span-2">
-              <div className="grid gap-3 sm:grid-cols-2">
-                {gallery.map((img) => (
-                  <img
-                    key={img.src}
-                    src={img.src}
-                    alt={img.alt[lang]}
-                    loading="lazy"
-                    width={960}
-                    height={720}
-                    className="aspect-[4/3] w-full rounded-2xl border border-[var(--border)] object-cover"
-                  />
-                ))}
+          <div
+            className={
+              gallery.length > 0 ? "grid items-start gap-10 md:grid-cols-3" : "grid items-start"
+            }
+          >
+            {gallery.length > 0 && (
+              <div className="md:col-span-2">
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {gallery.map((img) => (
+                    <img
+                      key={img.src}
+                      src={img.src}
+                      alt={img.alt[lang]}
+                      loading="lazy"
+                      width={960}
+                      height={720}
+                      className="aspect-[4/3] w-full rounded-2xl border border-[var(--border)] object-cover"
+                    />
+                  ))}
+                </div>
               </div>
-            </div>}
+            )}
             <aside className="rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-7">
               <h2 className="font-display mb-2 text-xl font-bold text-white">
                 {t("projectsSection.details.title")}
@@ -182,7 +201,9 @@ function Stat({
       {lines ? (
         <ul className="mt-2 space-y-1.5">
           {lines.map((l) => (
-            <li key={l} className="text-base font-bold leading-snug text-white">{l}</li>
+            <li key={l} className="text-base font-bold leading-snug text-white">
+              {l}
+            </li>
           ))}
         </ul>
       ) : (

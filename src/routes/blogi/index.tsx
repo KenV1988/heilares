@@ -1,4 +1,5 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
+import { useOverviewFilter } from "@/components/site/useOverviewFilter";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowRight, Clock } from "lucide-react";
@@ -31,7 +32,7 @@ const ALL_FILTERS: (BlogCategory | "all")[] = [
 export function BlogIndex() {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
-  const [filter, setFilter] = useState<(typeof ALL_FILTERS)[number]>("all");
+  const [filter, setFilter] = useOverviewFilter(ALL_FILTERS, "all");
 
   const availableFilters = useMemo(() => {
     const present = new Set(blogPosts.map((p) => p.category));

@@ -2,6 +2,14 @@
 
 # Tagasinupp ja akupankade andmete kontroll
 
+- [x] Kontrolli kõigi projekti- ja blogikaartide tagasiliikumist ning säilita valitud filter
+
+# Akude kogumahud ja uued blogipostitused
+
+- [x] Lisa akude töökirjeldustesse sulgudes kogumaht kõigis keeltes
+- [x] Lisa kaks ajakohast teenustega seotud blogipostitust eri kuupäevadega ET/EN/FI/DE
+- [x] Kontrolli uusi postitusi ja akude kogumahtusid arvutis ning telefonis
+
 - [x] Taasta detailvaate tagasinupuga eelmise lehe kerimiskoht kõigis keeltes
 - [x] Võrdle viie akupanga detailid lisatud spetsifikatsioonidega ja kontrolli tõlkeid
 - [x] Kasutaja kinnitas esimese projekti 480 kW inverterite koguvõimsuse; võrrelda ka ülejäänud nelja projekti

@@ -8,6 +8,7 @@ import maintenanceCover from "@/assets/blog/maintenance.jpg";
 import electricalCover from "@/assets/blog/electrical-works.jpg";
 import { workforceFactory, workforceShipbuilding } from "./blog-workforce";
 import { bessStorage } from "./blog-bess";
+import { autumnPosts } from "./blog-autumn";
 
 export interface BlogSection {
   heading: string;
@@ -1409,6 +1410,7 @@ const electricalWorks: BlogPost = {
 };
 
 const allPosts: BlogPost[] = [
+  ...autumnPosts,
   bessStorage,
   workforceFactory,
   workforceShipbuilding,

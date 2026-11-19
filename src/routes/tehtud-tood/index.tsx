@@ -1,4 +1,5 @@
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
+import { useOverviewFilter } from "@/components/site/useOverviewFilter";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { SiteLayout } from "@/components/site/Layout";
@@ -26,7 +27,7 @@ const FILTERS: FilterKey[] = ["all", "tracker_park", "maapark", "katusepark", "b
 export function ProjectsPage() {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
-  const [filter, setFilter] = useState<FilterKey>("all");
+  const [filter, setFilter] = useOverviewFilter(FILTERS, "all");
 
   const filteredSolar = useMemo(
     () =>

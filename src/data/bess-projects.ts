@@ -103,10 +103,10 @@ export const bessProjects: BessProject[] = [
         de: "Montage von 6 Deye SUN-80K-SG02HP3-EU-EM6 Hybridwechselrichtern mit jeweils 80 kW (insgesamt 480 kW).",
       },
       {
-        et: "Paigaldasime 6 BSL S314-16 LiFePO₄ akusüsteemi, igaüks 257 kWh.",
-        en: "Installed 6 BSL S314-16 LiFePO₄ battery systems, 257 kWh each.",
-        fi: "Asensimme 6 BSL S314-16 LiFePO₄ -akkujärjestelmää, kukin 257 kWh.",
-        de: "Montage von 6 BSL S314-16 LiFePO₄-Batteriesystemen mit jeweils 257 kWh.",
+        et: "Paigaldasime 6 BSL S314-16 LiFePO₄ akusüsteemi, igaüks 257 kWh (kokku 1542 kWh).",
+        en: "Installed 6 BSL S314-16 LiFePO₄ battery systems, 257 kWh each (1,542 kWh in total).",
+        fi: "Asensimme 6 BSL S314-16 LiFePO₄ -akkujärjestelmää, kukin 257 kWh (yhteensä 1 542 kWh).",
+        de: "Montage von 6 BSL S314-16 LiFePO₄-Batteriesystemen mit jeweils 257 kWh (insgesamt 1.542 kWh).",
       },
       {
         et: "Rajasime kaabliteed ja paigaldasime AXCMK-HF C-Pro 4×50/16 jõukaabli.",
@@ -264,10 +264,10 @@ export const bessProjects: BessProject[] = [
         de: "Montage von 6 Deye SUN-80K-SG02HP3-EU-EM6 Hybridwechselrichtern mit jeweils 80 kW (insgesamt 480 kW).",
       },
       {
-        et: "Paigaldasime 6 BSL S205-10 LiFePO₄ akusüsteemi, igaüks 105 kWh.",
-        en: "Installed 6 BSL S205-10 LiFePO₄ battery systems, 105 kWh each.",
-        fi: "Asensimme 6 BSL S205-10 LiFePO₄ -akkujärjestelmää, kukin 105 kWh.",
-        de: "Montage von 6 BSL S205-10 LiFePO₄-Batteriesystemen mit jeweils 105 kWh.",
+        et: "Paigaldasime 6 BSL S205-10 LiFePO₄ akusüsteemi, igaüks 105 kWh (kokku 630 kWh).",
+        en: "Installed 6 BSL S205-10 LiFePO₄ battery systems, 105 kWh each (630 kWh in total).",
+        fi: "Asensimme 6 BSL S205-10 LiFePO₄ -akkujärjestelmää, kukin 105 kWh (yhteensä 630 kWh).",
+        de: "Montage von 6 BSL S205-10 LiFePO₄-Batteriesystemen mit jeweils 105 kWh (insgesamt 630 kWh).",
       },
       {
         et: "Rajasime kaabliteed ja paigaldasime MCCMKF 4×70/35 jõukaabli.",
@@ -355,10 +355,10 @@ export const bessProjects: BessProject[] = [
         de: "Montage von 4 KSTAR KAC50DP Wechselrichtern mit jeweils 50 kW (insgesamt 200 kW).",
       },
       {
-        et: "Paigaldasime 4 KSTAR BC100DE akuüksust, igaüks 102,4 kWh.",
-        en: "Installed 4 KSTAR BC100DE battery units, 102.4 kWh each.",
-        fi: "Asensimme 4 KSTAR BC100DE -akkuyksikköä, kukin 102,4 kWh.",
-        de: "Montage von 4 KSTAR BC100DE Batterieeinheiten mit jeweils 102,4 kWh.",
+        et: "Paigaldasime 4 KSTAR BC100DE akuüksust, igaüks 102,4 kWh (kokku 409,6 kWh).",
+        en: "Installed 4 KSTAR BC100DE battery units, 102.4 kWh each (409.6 kWh in total).",
+        fi: "Asensimme 4 KSTAR BC100DE -akkuyksikköä, kukin 102,4 kWh (yhteensä 409,6 kWh).",
+        de: "Montage von 4 KSTAR BC100DE Batterieeinheiten mit jeweils 102,4 kWh (insgesamt 409,6 kWh).",
       },
       {
         et: "Rajasime uued kaabliteed.",
@@ -440,10 +440,10 @@ export const bessProjects: BessProject[] = [
         de: "Montage von 10 Deye-Hybridwechselrichtern mit jeweils 60 kW (insgesamt 600 kW).",
       },
       {
-        et: "Paigaldasime 10 ESS-GRID akusüsteemi, igaüks 126 kWh.",
-        en: "Installed 10 ESS-GRID battery systems, 126 kWh each.",
-        fi: "Asensimme 10 ESS-GRID-akkujärjestelmää, kukin 126 kWh.",
-        de: "Montage von 10 ESS-GRID Batteriesystemen mit jeweils 126 kWh.",
+        et: "Paigaldasime 10 ESS-GRID akusüsteemi, igaüks 126 kWh (kokku 1260 kWh).",
+        en: "Installed 10 ESS-GRID battery systems, 126 kWh each (1,260 kWh in total).",
+        fi: "Asensimme 10 ESS-GRID-akkujärjestelmää, kukin 126 kWh (yhteensä 1 260 kWh).",
+        de: "Montage von 10 ESS-GRID Batteriesystemen mit jeweils 126 kWh (insgesamt 1.260 kWh).",
       },
       {
         et: "Rajasime kaabliteed ja paigaldasime AXCHK-HF C-Pro 4×95/29 jõukaabli.",

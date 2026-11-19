@@ -1,6 +1,6 @@
 import type { BlogPost } from "./blog";
 import storagePhoto from "@/assets/projects/bess/valga-1.webp.asset.json";
-import electricalPhoto from "@/assets/blog/electrical-works.jpg";
+import electricalPhoto from "@/assets/blog/winter-electrical-planning.webp.asset.json";
 
 export const autumnPosts: BlogPost[] = [
   {
@@ -68,7 +68,7 @@ export const autumnPosts: BlogPost[] = [
   },
   {
     slug: "talvised-elektritood-ja-2027-projektide-ettevalmistus",
-    category: "electrical", date: "2026-11-12", readMinutes: 4, cover: electricalPhoto,
+    category: "electrical", date: "2026-11-12", readMinutes: 4, cover: electricalPhoto.url,
     content: {
       et: {
         title: "Talvised elektritööd ja 2027. aasta projektid: ettevalmistus algab täna",

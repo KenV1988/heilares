@@ -71,3 +71,9 @@
 - [x] Võrrelda kõik projektiväljad PDF-i detailsete tabelitega
 - [x] Parandada leitud erinevused ja lisada peatöövõtjate andmetestid
 - [x] Kontrollida kuvamist, nelja keele pariteeti, linke ja mobiilvaadet
+
+# Projektide avamine samal lehel
+
+- [x] Asenda tehtud tööde päikeseparkide ja BESS-projektide lingid ühiselt juhitava laiendatava vaatega neljas keeles
+- [x] Säilita kõik andmed ja pildid ning lisa suurendatav galerii
+- [x] Kontrolli kõiki projekte, ühe avatud projekti reeglit, galeriid ja mobiilivaadet neljas keeles

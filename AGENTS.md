@@ -9,3 +9,6 @@
 - Overview filters live on their router history entry through useOverviewFilter so restored scroll positions correspond to the same filtered project or article layout.
 - Seasonal editorial posts are maintained as four-language entries in a separate dataset and merged into the shared date-sorted blog list.
 - BESS comparison tables read capacities, equipment counts and localized work directly from the reference dataset so cards, details and comparisons cannot drift.
+
+- On the projects overview, use one shared expanded slug across solar and BESS grids; reuse source datasets and keep standalone detail routes intact for existing links and SEO.
+- Place expanded project information after its grid row at each breakpoint and use the shared gallery for ordered, deduplicated photos and accessible lightbox controls.

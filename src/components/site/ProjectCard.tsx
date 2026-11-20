@@ -1,16 +1,18 @@
-import { ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowUpRight, ChevronDown, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { formatCapacity, formatHeilAresShare, type Project } from "@/data/projects";
 import { getSupportedLang } from "@/i18n";
-import { LocalizedLink } from "@/components/site/LocalizedLink";
+import { ProjectCardFrame, type ProjectExpansionProps } from "./ProjectCardFrame";
 
-export function ProjectCard({ project }: { project: Project }) {
+export function ProjectCard({ project, expanded, onToggle }: { project: Project } & ProjectExpansionProps) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
 
   return (
-    <LocalizedLink
-      to={`/tehtud-tood/${project.slug}`}
+    <ProjectCardFrame
+      slug={project.slug}
+      expanded={expanded}
+      onToggle={onToggle}
       className="card-lift group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-card)]">
@@ -72,12 +74,12 @@ export function ProjectCard({ project }: { project: Project }) {
             <div className="flex items-center gap-3">
               <span className="text-[12px] text-white/50">{project.period}</span>
               <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full border border-[var(--border)] text-white/60 transition group-hover:border-[var(--brand)] group-hover:text-[var(--brand-glow)]">
-                <ArrowUpRight className="h-4 w-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                <>{onToggle ? <ChevronDown aria-hidden className={`h-4 w-4 transition-transform ${expanded ? "rotate-180" : ""}`} /> : <ArrowUpRight className="h-4 w-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />}</>
               </span>
             </div>
           </div>
         </div>
       </div>
-    </LocalizedLink>
+    </ProjectCardFrame>
   );
 }

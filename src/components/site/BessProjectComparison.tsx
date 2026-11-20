@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { getSupportedLang } from "@/i18n";
 import { bessProjects, bessProjectLabels, formatStorage } from "@/data/bess-projects";
 import { LocalizedLink } from "./LocalizedLink";
+import { Button } from "@/components/ui/button";
 
 const copy = {
   title: { et: "Akupankade projektide võrdlus", en: "Energy storage project comparison", fi: "Akkuvarastoprojektien vertailu", de: "Vergleich der Batteriespeicherprojekte" },
@@ -11,7 +12,7 @@ const copy = {
   inverters: { et: "Inverterid", en: "Inverters", fi: "Invertterit", de: "Wechselrichter" },
 };
 
-export function BessProjectComparison() {
+export function BessProjectComparison({ onOpenProject }: { onOpenProject?: (slug: string) => void }) {
   const { i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   return (
@@ -22,10 +23,7 @@ export function BessProjectComparison() {
       <div className="mt-6 divide-y divide-border border-y border-border lg:hidden" data-testid="bess-mobile-comparison">
         {bessProjects.map((project) => (
           <article key={project.slug} className="py-7">
-            <LocalizedLink to={`/tehtud-tood/${project.slug}`} className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3 text-foreground transition hover:text-brand-glow focus-visible:outline-2 focus-visible:outline-ring">
-              <h4 className="font-display min-w-0 break-words text-lg font-bold leading-snug">{project.title[lang]}</h4>
-              <ArrowUpRight className="mt-1 h-5 w-5 shrink-0" aria-hidden />
-            </LocalizedLink>
+            {onOpenProject ? <Button variant="ghost" onClick={() => onOpenProject(project.slug)} className="h-auto w-full justify-between whitespace-normal p-0 text-left text-lg font-bold text-foreground hover:bg-transparent hover:text-brand-glow"><span>{project.title[lang]}</span><ArrowUpRight aria-hidden /></Button> : <LocalizedLink to={`/tehtud-tood/${project.slug}`} className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3 text-foreground transition hover:text-brand-glow"><h4 className="font-display min-w-0 break-words text-lg font-bold leading-snug">{project.title[lang]}</h4><ArrowUpRight className="mt-1 h-5 w-5 shrink-0" aria-hidden /></LocalizedLink>}
             <dl className="my-5 grid grid-cols-2 gap-4 bg-bg-elevated p-4">
               <div className="min-w-0">
                 <dt className="min-h-10 break-words text-sm leading-5 text-foreground/65">{bessProjectLabels.capacity[lang]}</dt>
@@ -60,9 +58,7 @@ export function BessProjectComparison() {
             {bessProjects.map((project) => (
               <tr key={project.slug} className="border-t border-border align-top">
                 <th scope="row" className="p-5 font-medium">
-                  <LocalizedLink to={`/tehtud-tood/${project.slug}`} className="inline-flex items-start gap-2 text-foreground transition hover:text-brand-glow focus-visible:outline-2 focus-visible:outline-ring">
-                    <span>{project.title[lang]}</span><ArrowUpRight className="mt-0.5 h-4 w-4 shrink-0" aria-hidden />
-                  </LocalizedLink>
+                  {onOpenProject ? <Button variant="ghost" onClick={() => onOpenProject(project.slug)} className="h-auto items-start whitespace-normal p-0 text-left text-foreground hover:bg-transparent hover:text-brand-glow"><span>{project.title[lang]}</span><ArrowUpRight aria-hidden /></Button> : <LocalizedLink to={`/tehtud-tood/${project.slug}`} className="inline-flex items-start gap-2 text-foreground transition hover:text-brand-glow"><span>{project.title[lang]}</span><ArrowUpRight className="mt-0.5 h-4 w-4 shrink-0" aria-hidden /></LocalizedLink>}
                 </th>
                 <td className="p-5">
                   <p className="font-display text-xl font-bold text-brand-glow">{formatStorage(project.storageKwh, lang)}</p>

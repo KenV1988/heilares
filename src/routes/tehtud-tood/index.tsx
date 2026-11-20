@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useOverviewFilter } from "@/components/site/useOverviewFilter";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
@@ -6,11 +6,11 @@ import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { Button } from "@/components/ui/button";
-import { BessProjectCard } from "@/components/site/BessProjectCard";
+import { ExpandableProjectGrid } from "@/components/site/ExpandableProjectGrid";
+import { toggleExpandedProject } from "@/components/site/project-expansion";
 import { BessProjectComparison } from "@/components/site/BessProjectComparison";
 import { bessProjects, bessProjectLabels } from "@/data/bess-projects";
 import { getSupportedLang } from "@/i18n";
-import { ProjectCard } from "@/components/site/ProjectCard";
 import { SectionBadge } from "@/components/site/Section";
 import { projectsByCategory, type ProjectCategory } from "@/data/projects";
 import { CTA } from "@/components/site/CTA";
@@ -29,6 +29,16 @@ export function ProjectsPage() {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const [filter, setFilter] = useOverviewFilter(FILTERS, "all");
+  const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
+  const closeProject = () => {
+    if (expandedSlug) document.getElementById(`project-trigger-${expandedSlug}`)?.focus({ preventScroll: true });
+    setExpandedSlug(null);
+  };
+  const toggleProject = (slug: string) => setExpandedSlug(current => toggleExpandedProject(current, slug));
+  const openFromComparison = (slug: string) => {
+    setExpandedSlug(slug);
+    requestAnimationFrame(() => document.getElementById(`project-trigger-${slug}`)?.scrollIntoView({ block: "start", behavior: "instant" }));
+  };
 
   const filteredSolar = useMemo(
     () =>
@@ -58,7 +68,7 @@ export function ProjectsPage() {
           {FILTERS.map((f) => (
             <Button
               key={f}
-              onClick={() => setFilter(f)}
+              onClick={() => { setFilter(f); setExpandedSlug(null); }}
               variant="outline"
               aria-pressed={filter === f}
               className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
@@ -81,11 +91,7 @@ export function ProjectsPage() {
             <div className="mb-6">
               <SectionBadge>{t("nav.panels")}</SectionBadge>
             </div>
-            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-              {filteredSolar.map((p) => (
-                <ProjectCard key={p.slug} project={p} />
-              ))}
-            </div>
+            <ExpandableProjectGrid projects={filteredSolar} expandedSlug={expandedSlug} onToggle={toggleProject} onClose={closeProject} />
           </div>
         )}
 
@@ -94,12 +100,8 @@ export function ProjectsPage() {
             <div className="mb-6">
               <SectionBadge>{bessProjectLabels.category[lang]}</SectionBadge>
             </div>
-            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-              {bessProjects.map((project) => (
-                <BessProjectCard key={project.slug} project={project} />
-              ))}
-            </div>
-            <BessProjectComparison />
+            <ExpandableProjectGrid projects={bessProjects} expandedSlug={expandedSlug} onToggle={toggleProject} onClose={closeProject} />
+            <BessProjectComparison onOpenProject={openFromComparison} />
           </div>
         )}
 

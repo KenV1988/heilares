@@ -1,4 +1,4 @@
-import { ArrowUpRight, Battery, MapPin } from "lucide-react";
+import { ArrowUpRight, ChevronDown, Battery, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { getSupportedLang } from "@/i18n";
 import {
@@ -7,15 +7,17 @@ import {
   formatStorageMwh,
   type BessProject,
 } from "@/data/bess-projects";
-import { LocalizedLink } from "./LocalizedLink";
+import { ProjectCardFrame, type ProjectExpansionProps } from "./ProjectCardFrame";
 
-export function BessProjectCard({ project }: { project: BessProject }) {
+export function BessProjectCard({ project, expanded, onToggle }: { project: BessProject } & ProjectExpansionProps) {
   const { i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const cover = project.photos[0];
   return (
-    <LocalizedLink
-      to={`/tehtud-tood/${project.slug}`}
+    <ProjectCardFrame
+      slug={project.slug}
+      expanded={expanded}
+      onToggle={onToggle}
       className="card-lift group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-bg-elevated"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-bg-card">
@@ -63,11 +65,11 @@ export function BessProjectCard({ project }: { project: BessProject }) {
               </span>
             </div>
             <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full border border-border text-foreground/60 transition group-hover:border-brand group-hover:text-brand-glow">
-              <ArrowUpRight className="h-4 w-4" />
+              <>{onToggle ? <ChevronDown aria-hidden className={`h-4 w-4 transition-transform ${expanded ? "rotate-180" : ""}`} /> : <ArrowUpRight className="h-4 w-4" />}</>
             </span>
           </div>
         </div>
       </div>
-    </LocalizedLink>
+    </ProjectCardFrame>
   );
 }

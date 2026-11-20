@@ -2,8 +2,8 @@
 
 # BESS-projektide võrdlustabel
 
-- [ ] Lisa viie projekti akumahud, inverterid ja tehtud tööd võrdlustabelisse ET/EN/FI/DE
-- [ ] Kontrolli tabelit ning projektide avamist arvutis ja telefonis kõigis keeltes
+- [x] Lisa viie projekti akumahud, inverterid ja tehtud tööd võrdlustabelisse ET/EN/FI/DE
+- [x] Kontrolli tabelit ning projektide avamist arvutis ja telefonis kõigis keeltes
 
 # Akupankade pealkirjade lihtsustamine
 

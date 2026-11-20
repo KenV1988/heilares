@@ -13,3 +13,6 @@
 - On the projects overview, use one shared expanded slug across solar and BESS grids; reuse source datasets and keep standalone detail routes intact for existing links and SEO.
 - Place expanded project information after its grid row at each breakpoint and use the shared gallery for ordered, deduplicated photos and accessible lightbox controls.
 - Capture the opened card's viewport position and restore it after inline panel exit only below the two-column breakpoint; larger layouts must not programmatically scroll when closing details.
+- Language navigation disables scroll reset and carries overview filters to preserve the reading position across localized routes.
+- Blog overview expands the existing article renderer inline after each grid row; standalone article routes remain available for SEO and incoming links.
+- Blog close controls return to the article card on all screen sizes, unlike desktop project close controls, because long editorial content needs an explicit reading-position reset.

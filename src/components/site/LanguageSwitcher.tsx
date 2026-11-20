@@ -19,7 +19,7 @@ const LANGS = [
 
 export function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
-  const { pathname } = useLocation();
+  const { pathname, searchStr, hash, state } = useLocation();
   const navigate = useNavigate();
   const currentLang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const current = LANGS.find((l) => l.code === currentLang) ?? LANGS[0];
@@ -43,7 +43,7 @@ export function LanguageSwitcher() {
             key={l.code}
             onClick={() => {
               void i18n.changeLanguage(l.code);
-              void navigate({ href: localizePath(pathname, l.code) });
+              void navigate({ href: `${localizePath(pathname, l.code)}${searchStr}${hash ? `#${hash}` : ""}`, resetScroll: false, state: { overviewFilter: state.overviewFilter } });
             }}
             className={`cursor-pointer text-sm ${
               l.code === current.code ? "text-[var(--brand)]" : "text-white/85"

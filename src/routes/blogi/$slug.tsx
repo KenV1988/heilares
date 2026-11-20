@@ -8,6 +8,7 @@ import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import { localizedContentHead } from "@/lib/locale-seo";
 import { BackLink } from "@/components/site/BackLink";
+import { Fragment } from "react";
 import {
   Accordion,
   AccordionItem,
@@ -50,7 +51,7 @@ function BlogPostPage() {
   return <BlogPostView post={post} />;
 }
 
-export function BlogPostView({ post }: { post: BlogPost }) {
+export function BlogPostView({ post, inline = false }: { post: BlogPost; inline?: boolean }) {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const c = post.content[lang];
@@ -61,19 +62,21 @@ export function BlogPostView({ post }: { post: BlogPost }) {
         )
       : c.sections;
 
+  const Wrapper = inline ? Fragment : SiteLayout;
+  const Heading = inline ? "h2" : "h1";
   return (
-    <SiteLayout>
-      <Seo titleKey="seo.blog.title" descriptionKey="seo.blog.description" />
+    <Wrapper>
+      {!inline && <Seo titleKey="seo.blog.title" descriptionKey="seo.blog.description" />}
 
-      <article className="pt-32 md:pt-40">
+      <article className={inline ? "" : "pt-32 md:pt-40"}>
         <div className="container-x">
-          <BackLink
+          {!inline && <BackLink
             to="/blogi"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("blog.back")}
-          </BackLink>
+          </BackLink>}
 
           <div className="mt-8 max-w-3xl">
             <div className="flex items-center gap-3 text-xs uppercase tracking-wider text-white/50">
@@ -89,13 +92,13 @@ export function BlogPostView({ post }: { post: BlogPost }) {
                 {post.readMinutes} {t("blog.minutes")}
               </span>
             </div>
-            <h1 className="mt-5 text-balance text-[36px] font-bold leading-[1.1] tracking-tight text-white md:text-[56px]">
+            <Heading className="mt-5 text-balance text-3xl font-bold leading-tight text-foreground md:text-4xl">
               {c.title}
-            </h1>
+            </Heading>
           </div>
         </div>
 
-        <div className="container-x mt-12 md:mt-16">
+        {!inline && <div className="container-x mt-12 md:mt-16">
           <div className="overflow-hidden rounded-3xl border border-[var(--border)]">
             <img
               src={post.cover}
@@ -106,7 +109,7 @@ export function BlogPostView({ post }: { post: BlogPost }) {
               className="aspect-[16/9] w-full object-cover"
             />
           </div>
-        </div>
+        </div>}
 
         <section className="container-x py-16 md:py-20">
           <div className="mx-auto max-w-3xl">
@@ -165,7 +168,7 @@ export function BlogPostView({ post }: { post: BlogPost }) {
         </section>
       </article>
 
-      <CTA title={c.ctaTitle} subtitle={c.ctaSubtitle} />
-    </SiteLayout>
+      <CTA title={c.ctaTitle} subtitle={c.ctaSubtitle ?? { et: "Saada oma projekti põhiandmed ja soovitud ajakava.", en: "Send your project information and preferred schedule.", fi: "Lähetä hankkeen perustiedot ja toivottu aikataulu.", de: "Senden Sie die Projektdaten und Ihren gewünschten Zeitplan." }[lang]} />
+    </Wrapper>
   );
 }

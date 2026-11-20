@@ -112,7 +112,7 @@ export function Navbar() {
       {/* Mobile full-screen overlay */}
       {open && (
         <div
-          className="fixed inset-0 z-40 flex flex-col bg-[#0A0F0D] pt-20 lg:hidden"
+          className="fixed inset-0 z-[45] flex flex-col bg-[#0A0F0D] pt-20 lg:hidden"
           role="dialog"
           aria-modal="true"
         >

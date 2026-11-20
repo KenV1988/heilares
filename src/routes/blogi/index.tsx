@@ -1,8 +1,8 @@
-import { useMemo } from "react";
+import { Fragment, useMemo, useRef, useState, type CSSProperties } from "react";
 import { useOverviewFilter } from "@/components/site/useOverviewFilter";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { ArrowRight, Clock } from "lucide-react";
+import { ChevronDown, Clock, X } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
@@ -11,7 +11,9 @@ import { blogPosts, type BlogCategory } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
 import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/tracker-park-1.jpg";
-import { LocalizedLink } from "@/components/site/LocalizedLink";
+import { Button } from "@/components/ui/button";
+import { BlogPostView } from "./$slug";
+import { projectReturnScrollY } from "@/components/site/project-expansion";
 
 export const Route = createFileRoute("/blogi/")({
   component: BlogIndex,
@@ -33,6 +35,29 @@ export function BlogIndex() {
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const [filter, setFilter] = useOverviewFilter(ALL_FILTERS, "all");
+
+  const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
+  const openingPosition = useRef<{ slug: string; top: number } | null>(null);
+  const closeCopy = { et: "Sulge postitus", en: "Close post", fi: "Sulje artikkeli", de: "Beitrag schließen" };
+  const closeArticle = () => {
+    const position = openingPosition.current;
+    setExpandedSlug(null);
+    requestAnimationFrame(() => {
+      if (!position) return;
+      const card = document.getElementById(`blog-card-${position.slug}`);
+      document.getElementById(`blog-trigger-${position.slug}`)?.focus({ preventScroll: true });
+      if (card) {
+        window.scrollTo({ top: projectReturnScrollY(window.scrollY, card.getBoundingClientRect().top, 120), behavior: "instant" });
+      }
+      openingPosition.current = null;
+    });
+  };
+  const toggleArticle = (slug: string) => {
+    if (expandedSlug === slug) { closeArticle(); return; }
+    const card = document.getElementById(`blog-card-${slug}`);
+    openingPosition.current = card ? { slug, top: card.getBoundingClientRect().top } : null;
+    setExpandedSlug(slug);
+  };
 
   const availableFilters = useMemo(() => {
     const present = new Set(blogPosts.map((p) => p.category));
@@ -59,27 +84,31 @@ export function BlogIndex() {
       <section className="container-x py-12 md:py-16">
         <div className="mb-8 flex flex-wrap justify-center gap-2">
           {availableFilters.map((f) => (
-            <button
+            <Button
               key={f}
-              onClick={() => setFilter(f)}
+              variant="ghost"
+              aria-pressed={filter === f}
+              onClick={() => { setFilter(f); setExpandedSlug(null); }}
               className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
                 filter === f
-                  ? "border-[var(--brand)] bg-[var(--brand)] text-[#0a0f0d]"
-                  : "border-[var(--border)] text-white/70 hover:border-[var(--ring)] hover:text-white"
+                  ? "border-brand bg-brand text-primary-foreground hover:bg-brand-hover hover:text-primary-foreground"
+                  : "border-border bg-transparent text-foreground/70 hover:border-ring hover:bg-transparent hover:text-foreground"
               }`}
             >
               {t(`blog.filters.${f}`)}
-            </button>
+            </Button>
           ))}
         </div>
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {visible.map((post) => {
+          {visible.map((post, index) => {
             const c = post.content[lang];
             return (
+              <Fragment key={post.slug}>
               <article
-                key={post.slug}
-                className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] transition duration-200 ease-out hover:-translate-y-1 hover:border-[rgba(214,178,106,0.35)] hover:shadow-[0_4px_20px_rgba(214,178,106,0.12)]"
+                id={`blog-card-${post.slug}`}
+                style={{ order: index * 10 }}
+                className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] transition duration-200 ease-out hover:border-[rgba(214,178,106,0.35)] hover:shadow-[0_4px_20px_rgba(214,178,106,0.12)]"
               >
                 <div className="overflow-hidden">
                   <img
@@ -110,21 +139,37 @@ export function BlogIndex() {
                   </span>
                   <h2 className="mt-3 text-xl font-bold text-white">{c.title}</h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{c.summary}</p>
-                  <LocalizedLink
-                    to={`/blogi/${post.slug}`}
-                    className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--brand)] transition group-hover:gap-2.5"
+                  <Button
+                    id={`blog-trigger-${post.slug}`}
+                    variant="ghost"
+                    aria-expanded={expandedSlug === post.slug}
+                    aria-controls={`blog-panel-${post.slug}`}
+                    onClick={() => toggleArticle(post.slug)}
+                    className="mt-5 justify-start px-0 text-sm font-semibold text-brand"
                   >
-                    {t("blog.readMore")}
-                    <ArrowRight className="h-4 w-4" />
-                  </LocalizedLink>
+                    {expandedSlug === post.slug ? closeCopy[lang] : t("blog.readMore")}
+                    <ChevronDown className={`h-4 w-4 transition-transform ${expandedSlug === post.slug ? "rotate-180" : ""}`} />
+                  </Button>
                 </div>
               </article>
+              {expandedSlug === post.slug && <div
+                id={`blog-panel-${post.slug}`}
+                role="region"
+                aria-labelledby={`blog-trigger-${post.slug}`}
+                style={{ '--mobile-order': index * 10 + 1, '--tablet-order': (Math.floor(index / 2) * 2 + 1) * 10 + 1, '--desktop-order': (Math.floor(index / 3) * 3 + 2) * 10 + 1 } as CSSProperties}
+                className="col-span-full min-w-0 border-y border-brand/40 bg-bg-elevated py-6 [order:var(--mobile-order)] md:[order:var(--tablet-order)] lg:[order:var(--desktop-order)]"
+              >
+                <div className="flex justify-end px-5"><Button variant="outline" size="icon" aria-label={closeCopy[lang]} onClick={closeArticle}><X /></Button></div>
+                <BlogPostView post={post} inline />
+                <Button variant="ghost" className="mx-5 mt-6" onClick={closeArticle}><X />{closeCopy[lang]}</Button>
+              </div>}
+              </Fragment>
             );
           })}
         </div>
       </section>
 
-      <CTA />
+      <CTA subtitle={{ et: "Saada oma projekti põhiandmed ja soovitud ajakava.", en: "Send your project information and preferred schedule.", fi: "Lähetä hankkeen perustiedot ja toivottu aikataulu.", de: "Senden Sie die Projektdaten und Ihren gewünschten Zeitplan." }[lang]} />
     </SiteLayout>
   );
 }

@@ -2,9 +2,14 @@
 
 # Projektide sulgemine ja lihtsam ülevaade
 
-- [ ] Kontrolli järje säilimist kõigi avamis- ja sulgemisviisidega
-- [ ] Eemalda tehtud tööde lehe võrdlustabel kõigis keeltes, säilitades avatavad projektikaardid
-- [ ] Ära keri arvutivaates projekti sulgemisel lehte; säilita telefonis avamiseelne koht
+- [x] Kontrolli järje säilimist kõigi avamis- ja sulgemisviisidega
+- [x] Eemalda tehtud tööde lehe võrdlustabel kõigis keeltes, säilitades avatavad projektikaardid
+- [x] Ära keri arvutivaates projekti sulgemisel lehte; säilita telefonis avamiseelne koht
+- [x] Ava blogipostitused samal lehel nagu projektikaardid kõigis keeltes
+- [x] Säilita keelevahetusel lehe asukoht telefoni ja arvuti keelevalikus
+- [x] Taasta blogifiltrite varasemad värvid ning lisa lõppu „Sulge postitus”, mis viib igas vaates avatud kaardi juurde
+- [x] Kontrolli ja paranda 12 blogipostituse neljakeelne sisu lisatud auditi järgi
+- [ ] HeilArese kinnitus: MTR-i kehtivus ja tegevusala, meeskondade saadavus ning tööriista- ja arveldustingimused; sõltumatu kinnitus puudub
 
 # BESS-projektide võrdlustabel
 

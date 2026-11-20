@@ -16,40 +16,39 @@ export const workforceShipbuilding: BlogPost = {
       title: "Tööjõu rent laevaehituses — kuidas mehitada laevatehase projekt",
       summary:
         "Kuidas laevatehased katavad tootmistippude tööjõuvajaduse renditud meeskondadega: kvalifikatsioon, dokumendid, logistika ja hinnamudel.",
-      lead: "Laevaehitus töötab projektipõhises rütmis — plokkide koostamine, varustuse paigaldus ja lõppviimistlus nõuavad lühikese aja jooksul kordades rohkem käsi kui tehase põhikoosseis. Renditud meeskond katab selle tipu ilma püsikulu kasvatamata.",
+      lead: "Laevaehitus töötab projektipõhises rütmis — plokkide koostamine, varustuse paigaldus ja lõppviimistlus nõuavad lühikese aja jooksul oluliselt rohkem töötajaid kui tehase põhikoosseis. Renditud meeskond katab selle tipu ilma püsikulu kasvatamata.",
       sections: [
         {
           heading: "Millist tööjõudu laevatehased tegelikult vajavad?",
           paragraphs: [
-            "Kõige sagedasem nõudlus on keevitajate (MIG/MAG, TIG, 111), laevakoostajate, torulukkseppade, elektrikute ja isolatsioonipaigaldajate järele. Lisandub abitööjõud — materjali liigutamine, tellingud, puhastus ja tuleohutusvalve.",
-            "Iga rolli juures loeb dokumenteeritud kvalifikatsioon: kehtivad keevituskatsetused, ohutuskoolitused, kõrgtöö- ja kinnises ruumis töötamise load. HeilAres kontrollib need enne meeskonna lähetamist üle, et objektil ei tekiks seisakut paberitöö tõttu.",
+            "Laevatehased võivad vajada keevitajaid (MIG/MAG, TIG, 111), laevakonstruktsioonide koostajaid, torulukkseppi, elektrikuid ja isolatsioonipaigaldajaid. Konkreetsete rollide saadavus kinnitatakse eraldi; tellingu- ja tuleohutustööd eeldavad ülesandele vastavat väljaõpet ja pädevust.",
+            "Enne lähetamist tuleb kontrollida rolli ja sihtriigi nõudeid, kvalifikatsioonidokumente ning kõrgustes ja kinnistes ruumides töötamiseks vajalikke koolitusi, pädevusi ja lube. Kontrolli ulatus lepitakse kokku projektipõhiselt.",
           ],
         },
         {
           heading: "Kuidas mehitamine praktikas käib?",
           paragraphs: [
-            "Alustame vajaduse kaardistamisest: rollid, arv, vahetuste graafik, projekti kestus ja objekti asukoht. Sellest sünnib mehitusplaan koos ajakavaga, mis arvestab reisi-, majutus- ja väljaõppeaega.",
-            "Meeskonnad saadetakse objektile koos brigadiriga, kes vastutab töö korralduse ja kliendipoolse tootmisjuhiga suhtluse eest. Nii ei pea tehas juhtima üksikuid inimesi, vaid tellib tulemuse.",
+            "Alustame vajaduse kaardistamisest: rollid, arv, vahetuste graafik, projekti kestus ja objekti asukoht. Sellest sünnib tööjõu planeerimise kava koos ajakavaga, mis arvestab reisi-, majutus- ja väljaõppeaega.",
+            "Meeskonnajuhi kaasamine ja ülesanded lepitakse kokku projektipõhiselt. Töötajate ajutine kasutamine, alltöövõtt ja tulemuspõhine teenus on erinevad lepingumudelid; juhtimine ja vastutus tuleb lepingus selgelt määrata.",
           ],
         },
         {
           heading: "Mida arvestada eelarves?",
           paragraphs: [
             "Tunnitasu kõrval mõjutavad kogumaksumust reisi- ja majutuskulud, ületunnid ja vahetustega töö lisatasud. Läbipaistev pakkumine näitab need eraldi ridadena, et võrdlus teiste pakkujatega oleks aus.",
-            "Pikemate projektide puhul on mõistlik kokku leppida rullimismudel — meeskond vahetub tsüklitena, mis hoiab tootlikkuse ühtlase ja vähendab läbipõlemist.",
+            "Pikemal projektil võib kokku leppida rotatsioonigraafiku, arvestades töö- ja puhkeaega, sõiduaega, majutust ning objekti töökorraldust. See võib aidata vähendada väsimust ja toetada töövõime säilimist.",
           ],
         },
       ],
       faqs: [
         {
           question: "Kui kiiresti saab meeskonna objektile?",
-          lead: "Standardsete rollide puhul liigub esimene meeskond objektile tavaliselt 1–3 nädalaga.",
-          answer:
-            "Kiirus sõltub vajalikest sertifikaatidest, viisadest ja majutuse korraldusest — pakkumise vastuse anname 24 tunni jooksul.",
+          lead: "Meeskonna alustamisaeg sõltub rollidest, kvalifikatsioonist, riigi nõuetest ja saadavusest ning kinnitatakse projektipõhiselt.",
+          answer: "Dokumendid, võimalikud viisad, majutus ja reisikorraldus tuleb enne lähetamist kokku leppida; kindlat 24 tunni vastamisaega ei lubata.",
         },
         {
           question: "Kes vastutab tööohutuse eest?",
-          lead: "Tööohutuse üldkorraldus jääb objekti valdajale, meeskonna väljaõppe ja isikukaitsevahendite eest vastutab HeilAres.",
+          lead: "Ohutuse korraldamine, juhendamine, väljaõpe ja kaitsevahendid tuleb jaotada lepingu ning sihtriigi õiguse järgi; seadusest tulenevaid kohustusi ei saa lepinguga välistada.",
           answer:
             "Iga töötaja läbib enne tööle asumist objekti sissejuhatava ohutusinstruktaaži ja kannab nõuetekohaseid kaitsevahendeid.",
         },
@@ -62,7 +61,7 @@ export const workforceShipbuilding: BlogPost = {
       ],
     },
     en: {
-      title: "Workforce rental in shipbuilding — how to staff a shipyard project",
+      title: "Workforce solutions for shipbuilding — how to staff a shipyard project",
       summary:
         "How shipyards cover peak labour demand with rented crews: qualifications, documents, logistics and the pricing model.",
       lead: "Shipbuilding runs in project cycles — block assembly, outfitting and final finishing require many times more hands over a short window than a yard's core staff can provide. A rented crew covers that peak without growing fixed costs.",
@@ -70,35 +69,34 @@ export const workforceShipbuilding: BlogPost = {
         {
           heading: "What labour do shipyards actually need?",
           paragraphs: [
-            "The most common demand is for welders (MIG/MAG, TIG, 111), ship fitters, pipe fitters, electricians and insulation installers, plus support labour for material handling, scaffolding, cleaning and fire watch.",
-            "Documented qualification matters in every role: valid welding qualifications, safety training, work-at-height and confined-space permits. HeilAres verifies these before deployment so paperwork never stalls the site.",
+            "Shipyards may need welders (MIG/MAG, TIG, 111), ship structure fitters, pipe fitters, electricians and insulation installers. Role availability is confirmed separately; scaffolding and fire-watch tasks require appropriate training and competence.",
+            "Before deployment, check role and destination-country requirements, qualification records and training, competence and permits needed for height and confined-space work. The verification scope is agreed per project.",
           ],
         },
         {
           heading: "How does staffing work in practice?",
           paragraphs: [
             "We start by mapping the need: roles, headcount, shift pattern, project duration and site location. That becomes a staffing plan with a schedule that accounts for travel, accommodation and onboarding time.",
-            "Crews arrive with a team leader who runs the work and communicates with the client's production manager, so the yard orders an outcome rather than managing individuals.",
+            "A team lead’s involvement and duties are agreed per project. Temporary staffing, subcontracting and outcome-based services are different contractual models; management and responsibility must be clearly defined.",
           ],
         },
         {
           heading: "What to budget for",
           paragraphs: [
             "Beyond the hourly rate, total cost is driven by travel and accommodation, overtime and shift premiums. A transparent quote lists these as separate lines so comparison stays honest.",
-            "For longer projects a rotation model is sensible — crews change in cycles, which keeps productivity steady and reduces burnout.",
+            "Longer projects may use a rotation schedule that accounts for working and rest time, travel, accommodation and site organisation. This can help reduce fatigue and support sustained work capacity.",
           ],
         },
       ],
       faqs: [
         {
           question: "How fast can a crew be on site?",
-          lead: "For standard roles the first crew is usually on site within 1–3 weeks.",
-          answer:
-            "Speed depends on required certificates, visas and accommodation; we answer quote requests within 24 hours.",
+          lead: "Crew start dates depend on roles, qualifications, country requirements and availability and are confirmed per project.",
+          answer: "Documents, any visas, accommodation and travel must be agreed before deployment; no fixed 24-hour response is promised.",
         },
         {
           question: "Who is responsible for occupational safety?",
-          lead: "Overall site safety stays with the site operator; HeilAres is responsible for crew training and personal protective equipment.",
+          lead: "Safety organisation, induction, training and protective equipment responsibilities must follow the contract and destination-country law; statutory duties cannot be excluded by contract.",
           answer:
             "Every worker completes the site induction before starting and wears compliant protective equipment.",
         },
@@ -118,35 +116,34 @@ export const workforceShipbuilding: BlogPost = {
         {
           heading: "Millaista työvoimaa telakat todella tarvitsevat?",
           paragraphs: [
-            "Yleisimmin kysytään hitsaajia (MIG/MAG, TIG, 111), laivakoostajia, putkiasentajia, sähköasentajia ja eristäjiä sekä aputyövoimaa materiaalinsiirtoon, telineisiin, siivoukseen ja tulityövartiointiin.",
-            "Jokaisessa roolissa ratkaisee dokumentoitu pätevyys: voimassa olevat hitsauspätevyydet, turvallisuuskoulutukset sekä korkealla ja ahtaissa tiloissa työskentelyn luvat. HeilAres tarkistaa ne ennen lähetystä, jottei paperityö pysäytä työmaata.",
+            "Telakat voivat tarvita hitsaajia (MIG/MAG, TIG, 111), laivarakenteiden asentajia, putkiasentajia, sähköasentajia ja eristäjiä. Saatavuus vahvistetaan erikseen; teline- ja tulityövartiointitehtävät edellyttävät asianmukaista koulutusta ja pätevyyttä.",
+            "Ennen lähetystä tarkistetaan roolin ja kohdemaan vaatimukset, pätevyysasiakirjat sekä korkealla ja suljetuissa tiloissa työskentelyn koulutukset, pätevyydet ja luvat. Tarkistusten laajuus sovitaan hankekohtaisesti.",
           ],
         },
         {
           heading: "Miten miehitys käytännössä toimii?",
           paragraphs: [
             "Aloitamme tarpeen kartoituksesta: roolit, määrä, vuorojärjestelmä, projektin kesto ja kohteen sijainti. Siitä syntyy miehityssuunnitelma aikatauluineen, joka huomioi matkat, majoituksen ja perehdytyksen.",
-            "Tiimit saapuvat työnjohtajan kanssa, joka vastaa työn organisoinnista ja yhteydenpidosta asiakkaan tuotantopäällikköön. Telakka tilaa lopputuloksen, ei yksittäisiä henkilöitä.",
+            "Työnjohtajan osallistuminen ja tehtävät sovitaan hankekohtaisesti. Vuokratyö, alihankinta ja tulosperusteinen palvelu ovat eri sopimusmalleja; johto ja vastuut määritetään selkeästi.",
           ],
         },
         {
           heading: "Mitä budjetissa kannattaa huomioida?",
           paragraphs: [
             "Tuntihinnan lisäksi kokonaiskustannukseen vaikuttavat matka- ja majoituskulut, ylityöt ja vuorolisät. Läpinäkyvä tarjous erittelee nämä omina riveinään.",
-            "Pidemmissä projekteissa kannattaa sopia rotaatiomalli — tiimit vaihtuvat sykleittäin, mikä pitää tuottavuuden tasaisena.",
+            "Pitkissä hankkeissa voidaan sopia työkiertoaikataulusta, joka huomioi työ- ja lepoajat, matkat, majoituksen ja työmaan järjestelyt. Se voi vähentää väsymystä ja tukea työkykyä.",
           ],
         },
       ],
       faqs: [
         {
           question: "Kuinka nopeasti tiimi saadaan kohteeseen?",
-          lead: "Vakiorooleissa ensimmäinen tiimi on kohteessa yleensä 1–3 viikossa.",
-          answer:
-            "Nopeus riippuu vaadituista sertifikaateista, viisumeista ja majoituksesta; tarjousvastaus 24 tunnissa.",
+          lead: "Tiimin aloitus riippuu rooleista, pätevyyksistä, maan vaatimuksista ja saatavuudesta ja vahvistetaan hankekohtaisesti.",
+          answer: "Asiakirjat, mahdolliset viisumit, majoitus ja matkat sovitaan ennen lähetystä; kiinteää 24 tunnin vastausaikaa ei luvata.",
         },
         {
           question: "Kuka vastaa työturvallisuudesta?",
-          lead: "Työmaan yleinen turvallisuus on kohteen haltijalla, tiimin koulutuksesta ja suojaimista vastaa HeilAres.",
+          lead: "Turvallisuusjärjestelyt, perehdytys, koulutus ja suojainten vastuut määräytyvät sopimuksen ja kohdemaan lain mukaan; lakisääteisiä velvoitteita ei voi poistaa sopimuksella.",
           answer:
             "Jokainen työntekijä käy työmaaperehdytyksen ennen aloitusta ja käyttää vaatimusten mukaisia suojaimia.",
         },
@@ -159,7 +156,7 @@ export const workforceShipbuilding: BlogPost = {
       ],
     },
     de: {
-      title: "Arbeitskräfteverleih im Schiffbau – so besetzen Sie ein Werftprojekt",
+      title: "Personalbereitstellung im Schiffbau – so besetzen Sie ein Werftprojekt",
       summary:
         "Wie Werften Spitzenbedarf an Arbeitskräften mit angemieteten Teams decken: Qualifikationen, Dokumente, Logistik und Preismodell.",
       lead: "Der Schiffbau läuft in Projektzyklen ab – Sektionsbau, Ausrüstung und Endmontage erfordern in kurzer Zeit ein Vielfaches der Hände, die die Stammbelegschaft einer Werft leisten kann. Ein angemietetes Team deckt diese Spitze ab, ohne die Fixkosten zu erhöhen.",
@@ -167,35 +164,34 @@ export const workforceShipbuilding: BlogPost = {
         {
           heading: "Welche Arbeitskräfte benötigen Werften tatsächlich?",
           paragraphs: [
-            "Am häufigsten gefragt sind Schweißer (MIG/MAG, WIG, 111), Schiffbauer, Rohrschlosser, Elektriker und Isolierer sowie Hilfskräfte für Materialtransport, Gerüstbau, Reinigung und Brandwache.",
-            "Bei jeder Rolle zählt die dokumentierte Qualifikation: gültige Schweißerprüfungen, Sicherheitsschulungen sowie Erlaubnisse für Höhenarbeit und Arbeiten in engen Räumen. HeilAres prüft diese vor dem Einsatz, damit Papierkram die Baustelle nie ausbremst.",
+            "Werften können Schweißer (MIG/MAG, TIG, 111), Schiffskonstruktionsmonteure, Rohrschlosser, Elektriker und Isolierer benötigen. Die Verfügbarkeit wird separat bestätigt; Gerüstbau und Brandwache erfordern geeignete Ausbildung und Qualifikation.",
+            "Vor dem Einsatz sind Rollen- und Landesanforderungen, Qualifikationsnachweise sowie Schulungen, Befähigungen und Genehmigungen für Höhen- und Enge-Raum-Arbeiten zu prüfen. Der Prüfumfang wird projektbezogen vereinbart.",
           ],
         },
         {
           heading: "Wie läuft die Personalbesetzung in der Praxis ab?",
           paragraphs: [
             "Wir beginnen mit der Bedarfsermittlung: Rollen, Anzahl, Schichtplan, Projektdauer und Standort. Daraus entsteht ein Einsatzplan mit Zeitplan, der Reise-, Unterkunfts- und Einarbeitungszeit berücksichtigt.",
-            "Die Teams reisen mit einem Vorarbeiter an, der die Arbeitsorganisation übernimmt und mit dem Produktionsleiter des Kunden kommuniziert. So bestellt die Werft ein Ergebnis, statt einzelne Personen zu führen.",
+            "Einsatz und Aufgaben eines Teamleiters werden projektbezogen vereinbart. Temporäre Personalbereitstellung, Unteraufträge und ergebnisbezogene Leistungen sind unterschiedliche Vertragsmodelle; Führung und Verantwortung sind eindeutig festzulegen.",
           ],
         },
         {
           heading: "Was ist bei der Budgetierung zu beachten?",
           paragraphs: [
             "Neben dem Stundensatz beeinflussen Reise- und Unterkunftskosten, Überstunden und Schichtzuschläge die Gesamtkosten. Ein transparentes Angebot weist diese als eigene Posten aus, damit der Vergleich mit anderen Anbietern fair bleibt.",
-            "Bei längeren Projekten empfiehlt sich ein Rotationsmodell – Teams wechseln in Zyklen, was die Produktivität stabil hält und Erschöpfung vorbeugt.",
+            "Bei längeren Projekten kann ein Rotationsplan unter Berücksichtigung von Arbeits- und Ruhezeiten, Reise, Unterkunft und Arbeitsorganisation vereinbart werden. Dies kann Müdigkeit verringern und die Arbeitsfähigkeit unterstützen.",
           ],
         },
       ],
       faqs: [
         {
           question: "Wie schnell kann ein Team vor Ort sein?",
-          lead: "Bei Standardrollen ist das erste Team üblicherweise innerhalb von 1–3 Wochen vor Ort.",
-          answer:
-            "Die Geschwindigkeit hängt von erforderlichen Zertifikaten, Visa und der Unterkunftsorganisation ab – wir beantworten Angebotsanfragen innerhalb von 24 Stunden.",
+          lead: "Der Einsatzbeginn hängt von Rollen, Qualifikationen, Landesanforderungen und Verfügbarkeit ab und wird projektbezogen bestätigt.",
+          answer: "Dokumente, gegebenenfalls Visa, Unterkunft und Reisen sind vor dem Einsatz abzustimmen; eine feste Antwort innerhalb von 24 Stunden wird nicht zugesagt.",
         },
         {
           question: "Wer ist für die Arbeitssicherheit verantwortlich?",
-          lead: "Die allgemeine Arbeitssicherheit auf der Baustelle verbleibt beim Betreiber; für die Schulung der Teams und die persönliche Schutzausrüstung ist HeilAres verantwortlich.",
+          lead: "Sicherheitsorganisation, Einweisung, Schulung und Schutzausrüstung sind nach Vertrag und Recht des Einsatzlandes zuzuordnen; gesetzliche Pflichten lassen sich nicht vertraglich ausschließen.",
           answer:
             "Jeder Mitarbeiter durchläuft vor Arbeitsbeginn eine Sicherheitseinweisung vor Ort und trägt vorschriftsmäßige Schutzausrüstung.",
         },
@@ -221,23 +217,23 @@ export const workforceFactory: BlogPost = {
   cover: factoryCover,
   content: {
     et: {
-      title: "Tööjõu rent tehastes — paindlik mehitus tootmistippudeks",
+      title: "Tööjõu rent tehastes — paindlik lahendus tootmise tipukoormuse ajal",
       summary:
         "Millal tasub tehasel kasutada renditud meeskonda, kuidas hoida kvaliteet ja tootlikkus ning millised on levinumad vead mehitamisel.",
-      lead: "Tootmismahud kõiguvad, aga püsikoosseis mitte. Renditud meeskond annab tehasele võimaluse reageerida tellimuste tipule, seisakule või uue liini käivitamisele ilma pikaajalist tööjõukulu lukustamata.",
+      lead: "Tootmismahud kõiguvad, aga püsikoosseis mitte. Renditud meeskond annab tehasele võimaluse reageerida tellimuste tipule, seisakule või uue liini käivitamisele ilma püsiva tööjõukulu suurendamiseta.",
       sections: [
         {
           heading: "Millal tehas renditud tööjõudu vajab?",
           paragraphs: [
             "Tüüpilised olukorrad on hooajaline tellimustipp, uue tootmisliini käivitamine, plaaniline seisak ja hooldusaken ning suuremahuline metallitöö- või koosteprojekt, mille jaoks püsivat meeskonda ei tasu palgata.",
-            "Sama kehtib ka olukorras, kus tehas kolib või laieneb: masinate demonteerimine, transport, ülespanek ja katsetamine nõuavad lühikeseks ajaks tugevat lisameeskonda.",
+            "Sama kehtib ka olukorras, kus tehas kolib või laieneb: masinate demonteerimine, transport, ülespanek ja katsetamine nõuavad lühikeseks ajaks piisava suurusega lisameeskonda.",
           ],
         },
         {
           heading: "Kuidas hoida kvaliteet renditud meeskonnaga?",
           paragraphs: [
             "Kvaliteet tuleb selgest töökirjeldusest ja mõõdetavatest ootustest — kuupäevad, kogused, tolerantsid ja vastuvõtukriteeriumid. Mida täpsem sisend, seda kiiremini jõuab meeskond täistootlikkusesse.",
-            "Teine oluline tegur on järjepidevus: sama meeskonna hoidmine kogu projekti vältel on odavam kui pidev väljavahetamine ja uuesti väljaõpetamine. Brigadir tagab, et teadmine jääb meeskonda.",
+            "Sama meeskond võib vähendada korduva sisseelamise ja väljaõppe vajadust. Meeskonnajuht aitab säilitada töövõtete ja projektiteadmiste järjepidevust.",
           ],
         },
         {
@@ -270,7 +266,7 @@ export const workforceFactory: BlogPost = {
       ],
     },
     en: {
-      title: "Workforce rental in factories — flexible staffing for production peaks",
+      title: "Workforce solutions for factories — flexible staffing for production peaks",
       summary:
         "When a factory should use a rented crew, how to protect quality and output, and the most common staffing mistakes.",
       lead: "Production volumes fluctuate; permanent headcount does not. A rented crew lets a factory respond to an order peak, a shutdown or a new line start-up without locking in long-term labour cost.",
@@ -286,7 +282,7 @@ export const workforceFactory: BlogPost = {
           heading: "How to protect quality with a rented crew",
           paragraphs: [
             "Quality comes from a clear scope and measurable expectations — dates, quantities, tolerances and acceptance criteria. The sharper the input, the faster the crew reaches full productivity.",
-            "Continuity is the second factor: keeping the same crew for the whole project is cheaper than constant replacement and re-training. A team leader keeps the knowledge inside the crew.",
+            "Keeping the same crew may reduce repeated onboarding and training. A team lead helps maintain continuity of working methods and project knowledge.",
           ],
         },
         {
@@ -335,7 +331,7 @@ export const workforceFactory: BlogPost = {
           heading: "Miten laatu varmistetaan vuokratiimillä?",
           paragraphs: [
             "Laatu syntyy selkeästä työnkuvauksesta ja mitattavista odotuksista — päivämäärät, määrät, toleranssit ja hyväksymiskriteerit. Mitä tarkempi lähtötieto, sitä nopeammin tiimi saavuttaa täyden tuottavuuden.",
-            "Toinen tekijä on jatkuvuus: saman tiimin pitäminen koko projektin ajan on halvempaa kuin jatkuva vaihtuvuus ja uudelleenperehdytys.",
+            "Sama tiimi voi vähentää toistuvan perehdytyksen ja koulutuksen tarvetta. Työnjohtaja tukee työmenetelmien ja hanketiedon jatkuvuutta.",
           ],
         },
         {
@@ -366,7 +362,7 @@ export const workforceFactory: BlogPost = {
       ],
     },
     de: {
-      title: "Arbeitskräfteverleih in Fabriken – flexible Personalbesetzung für Produktionsspitzen",
+      title: "Personalbereitstellung in Fabriken – flexible Personalbesetzung für Produktionsspitzen",
       summary:
         "Wann sich für eine Fabrik ein angemietetes Team lohnt, wie Qualität und Produktivität erhalten bleiben und welche die häufigsten Fehler bei der Personalbesetzung sind.",
       lead: "Produktionsmengen schwanken, die Stammbelegschaft nicht. Ein angemietetes Team ermöglicht es einer Fabrik, auf eine Auftragsspitze, einen Stillstand oder den Anlauf einer neuen Linie zu reagieren, ohne langfristige Personalkosten festzuschreiben.",
@@ -382,7 +378,7 @@ export const workforceFactory: BlogPost = {
           heading: "Wie bleibt die Qualität mit einem angemieteten Team erhalten?",
           paragraphs: [
             "Qualität entsteht durch eine klare Leistungsbeschreibung und messbare Erwartungen – Termine, Mengen, Toleranzen und Abnahmekriterien. Je präziser die Vorgaben, desto schneller erreicht das Team die volle Produktivität.",
-            "Ein zweiter wichtiger Faktor ist Kontinuität: Dasselbe Team über das gesamte Projekt zu halten, ist günstiger als ständiger Austausch und erneute Einarbeitung. Der Vorarbeiter sorgt dafür, dass das Wissen im Team bleibt.",
+            "Dasselbe Team kann den Bedarf an wiederholter Einarbeitung und Schulung verringern. Ein Teamleiter unterstützt die Kontinuität von Arbeitsmethoden und Projektwissen.",
           ],
         },
         {

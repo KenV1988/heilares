@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Button } from '@/components/ui/button';
-import { LocalizedLink } from './LocalizedLink';
+import { ContentLink } from './ContentLink';
 
 export interface ProjectExpansionProps {
   expanded?: boolean;
@@ -8,6 +8,6 @@ export interface ProjectExpansionProps {
 }
 
 export function ProjectCardFrame({ slug, className, children, expanded, onToggle }: ProjectExpansionProps & { slug: string; className: string; children: ReactNode }) {
-  if (!onToggle) return <LocalizedLink to={`/tehtud-tood/${slug}`} className={className}>{children}</LocalizedLink>;
-  return <Button variant="ghost" onClick={onToggle} aria-expanded={expanded} aria-controls={`project-panel-${slug}`} id={`project-trigger-${slug}`} className={`${className} w-full scroll-mt-28 items-stretch justify-start gap-0 whitespace-normal p-0 text-left font-normal hover:bg-bg-elevated ${expanded ? 'border-brand ring-1 ring-brand/40' : ''}`}>{children}</Button>;
+  if (!onToggle) return <ContentLink kind="project" slug={slug} className={className}>{children}</ContentLink>;
+  return <div className={`${className} relative ${expanded ? 'border-brand ring-1 ring-brand/40' : ''}`}><div className="pointer-events-none flex h-full flex-col">{children}</div><Button variant="ghost" onClick={onToggle} aria-expanded={expanded} aria-controls={`project-panel-${slug}`} id={`project-trigger-${slug}`} aria-labelledby={`project-title-${slug}`} className="absolute inset-0 h-full w-full scroll-mt-28 rounded-2xl p-0 hover:bg-transparent" /></div>;
 }

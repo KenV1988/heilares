@@ -2,7 +2,8 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, MapPin, Calendar, Gauge, ListChecks } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
-import { Seo } from "@/components/site/Seo";
+import { RelatedContent } from "@/components/site/RelatedContent";
+import { DetailBreadcrumb } from "@/components/site/DetailBreadcrumb";
 import {
   projects,
   formatCapacity,
@@ -49,10 +50,11 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
 
   return (
     <SiteLayout>
-      <Seo titleKey="seo.projects.title" descriptionKey="seo.projects.description" />
+
 
       <article className="pt-32 md:pt-40">
         <div className="container-x">
+          <DetailBreadcrumb kind="project" title={project.title[lang]} />
           <BackLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
@@ -176,6 +178,7 @@ export function ProjectDetailView({ project }: { project: (typeof projects)[numb
         </section>
       </article>
 
+      <RelatedContent project={project} />
       <CTA />
     </SiteLayout>
   );

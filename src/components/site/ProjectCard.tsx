@@ -2,6 +2,7 @@ import { ArrowUpRight, ChevronDown, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { formatCapacity, formatHeilAresShare, type Project } from "@/data/projects";
 import { getSupportedLang } from "@/i18n";
+import { ContentLink } from "./ContentLink";
 import { ProjectCardFrame, type ProjectExpansionProps } from "./ProjectCardFrame";
 
 export function ProjectCard({ project, expanded, onToggle }: { project: Project } & ProjectExpansionProps) {
@@ -34,8 +35,8 @@ export function ProjectCard({ project, expanded, onToggle }: { project: Project 
           <MapPin className="h-3.5 w-3.5 shrink-0" />
           {project.location[lang]}
         </div>
-        <h3 className="font-display mt-2 text-[20px] font-bold leading-tight text-white">
-          {project.title[lang]}
+        <h3 id={`project-title-${project.slug}`} className="font-display mt-2 text-[20px] font-bold leading-tight text-white">
+          {onToggle ? <ContentLink kind="project" slug={project.slug} className="pointer-events-auto relative z-10 hover:text-brand">{project.title[lang]}</ContentLink> : project.title[lang]}
         </h3>
 
         <div className="mt-auto pt-5">

@@ -93,8 +93,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Võtmed kätte päikeseparkide paigaldus Eestis ja üle Euroopa. Solar Tracker Park, maapark, katusepark.",
       },
-      { property: "og:image", content: "https://heilares.ee/og-image.png" },
-      { name: "twitter:image", content: "https://heilares.ee/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:type", content: "website" },
     ],

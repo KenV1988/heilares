@@ -1,3 +1,4 @@
+import { RelatedContent } from "@/components/site/RelatedContent";
 import { useState, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
@@ -371,6 +372,7 @@ export function BessPage() {
         </div>
       </section>
 
+      <RelatedContent service="/akupangad" />
       <BessFAQ />
 
       <section className="container-x py-20 md:py-28">

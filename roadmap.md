@@ -1,5 +1,13 @@
 # HeilAres contact and German localization
 
+# SEO-detaillehed ja sisemine linkimine
+
+- [x] Auditeeri olemasolevaid projekti- ja artikliaadresse enne muudatusi: kõik 88 detailaadressi töötavad
+- [x] Säilita dropdownid, lisa detaillehtede lõpunupud ja alati leitavad pealkirjalingid
+- [x] Paranda detaillehtede unikaalne SEO, canonical, hreflang ja semantiline navigatsioon
+- [x] Lisa sisuliselt seotud projektide, artiklite ja teenuste vastastikused lingid kõigis keeltes
+- [x] Kontrolli kõiki detaillehti, siselinke, sitemap'i ja keelevahetust ning esita lõpparuanne
+
 # Projektide sulgemine ja lihtsam ülevaade
 
 - [x] Kontrolli järje säilimist kõigi avamis- ja sulgemisviisidega

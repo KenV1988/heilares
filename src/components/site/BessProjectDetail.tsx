@@ -11,6 +11,8 @@ import { SiteLayout } from "./Layout";
 import { SectionBadge } from "./Section";
 import { BackLink } from "./BackLink";
 import { CTA } from "./CTA";
+import { RelatedContent } from "./RelatedContent";
+import { DetailBreadcrumb } from "./DetailBreadcrumb";
 
 export function BessProjectDetail({ project }: { project: BessProject }) {
   const { i18n } = useTranslation();
@@ -21,6 +23,7 @@ export function BessProjectDetail({ project }: { project: BessProject }) {
     <SiteLayout>
       <article className="pt-32 md:pt-40">
         <div className="container-x">
+          <DetailBreadcrumb kind="project" title={project.title[lang]} />
           <BackLink
             to="/tehtud-tood"
             className="inline-flex items-center gap-2 text-sm text-foreground/65 transition hover:text-brand"
@@ -105,6 +108,7 @@ export function BessProjectDetail({ project }: { project: BessProject }) {
           )}
         </section>
       </article>
+      <RelatedContent project={project} />
       <CTA />
     </SiteLayout>
   );

@@ -2,11 +2,14 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, Clock } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
-import { Seo } from "@/components/site/Seo";
 import { CTA } from "@/components/site/CTA";
 import { getBlogPost, type BlogPost } from "@/data/blog";
 import { getSupportedLang } from "@/i18n";
-import { localizedContentHead } from "@/lib/locale-seo";
+import { blogDetailHead } from "@/lib/blog-head";
+import { RelatedContent } from "@/components/site/RelatedContent";
+import { DetailBreadcrumb } from "@/components/site/DetailBreadcrumb";
+import { contextualText } from "@/components/site/ContextualText";
+import { articleServices, type ServicePath } from "@/lib/content-links";
 import { BackLink } from "@/components/site/BackLink";
 import { Fragment } from "react";
 import {
@@ -18,36 +21,14 @@ import {
 
 export const Route = createFileRoute("/blogi/$slug")({
   component: BlogPostPage,
-  loader: ({ params }) => {
-    const post = getBlogPost(params.slug);
-    if (!post) throw notFound();
-    return { post };
-  },
-  head: ({ loaderData }) => {
-    if (!loaderData) {
-      return {
-        meta: [
-          { title: "Blogi | HeilAres" },
-          {
-            name: "description",
-            content: "HeilArese päikeseenergia blogi arendajatele ja tööstustele.",
-          },
-        ],
-      };
-    }
-    const c = loaderData.post.content.et;
-    return localizedContentHead(
-      "et",
-      `/blogi/${loaderData.post.slug}`,
-      c.title,
-      c.summary,
-      "article",
-    );
-  },
+  beforeLoad: ({ params }) => { if (!getBlogPost(params.slug)) throw notFound(); },
+  head: ({ params }) => blogDetailHead("et", params.slug),
 });
 
 function BlogPostPage() {
-  const { post } = Route.useLoaderData() as { post: BlogPost };
+  const { slug } = Route.useParams();
+  const post = getBlogPost(slug);
+  if (!post) throw notFound();
   return <BlogPostView post={post} />;
 }
 
@@ -55,6 +36,7 @@ export function BlogPostView({ post, inline = false }: { post: BlogPost; inline?
   const { t, i18n } = useTranslation();
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const c = post.content[lang];
+  const linkedServices = new Set<ServicePath>();
   const sections =
     post.slug === "maapark-katusepark-tracker-vordlus"
       ? [c.sections[2], c.sections[0], c.sections[1], ...c.sections.slice(3)].filter(
@@ -66,10 +48,11 @@ export function BlogPostView({ post, inline = false }: { post: BlogPost; inline?
   const Heading = inline ? "h2" : "h1";
   return (
     <Wrapper>
-      {!inline && <Seo titleKey="seo.blog.title" descriptionKey="seo.blog.description" />}
+
 
       <article className={inline ? "" : "pt-32 md:pt-40"}>
         <div className="container-x">
+          {!inline && <DetailBreadcrumb kind="article" title={c.title} />}
           {!inline && <BackLink
             to="/blogi"
             className="inline-flex items-center gap-2 text-sm text-white/65 transition hover:text-[var(--brand)]"
@@ -126,7 +109,7 @@ export function BlogPostView({ post, inline = false }: { post: BlogPost; inline?
                       key={pIdx}
                       className="text-base leading-relaxed text-white/75 md:text-[17px]"
                     >
-                      {p}
+                      {contextualText(p, lang, articleServices(post.category), linkedServices)}
                     </p>
                   ))}
                     {section.bullets && section.bullets.length > 0 ? (
@@ -168,6 +151,7 @@ export function BlogPostView({ post, inline = false }: { post: BlogPost; inline?
         </section>
       </article>
 
+      {!inline && <RelatedContent post={post} />}
       <CTA title={c.ctaTitle} subtitle={c.ctaSubtitle ?? { et: "Saada oma projekti põhiandmed ja soovitud ajakava.", en: "Send your project information and preferred schedule.", fi: "Lähetä hankkeen perustiedot ja toivottu aikataulu.", de: "Senden Sie die Projektdaten und Ihren gewünschten Zeitplan." }[lang]} />
     </Wrapper>
   );

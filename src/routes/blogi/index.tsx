@@ -2,7 +2,7 @@ import { Fragment, useMemo, useRef, useState, type CSSProperties } from "react";
 import { useOverviewFilter } from "@/components/site/useOverviewFilter";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { ChevronDown, Clock, X } from "lucide-react";
+import { ArrowRight, ChevronDown, Clock, X } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
@@ -12,6 +12,8 @@ import { getSupportedLang } from "@/i18n";
 import { localizedHead } from "@/lib/locale-seo";
 import heroBg from "@/assets/services/tracker-park-1.jpg";
 import { Button } from "@/components/ui/button";
+import { ContentLink } from "@/components/site/ContentLink";
+import { linkCopy } from "@/lib/content-links";
 import { BlogPostView } from "./$slug";
 import { projectReturnScrollY } from "@/components/site/project-expansion";
 
@@ -137,7 +139,7 @@ export function BlogIndex() {
                   <span className="mt-3 inline-flex w-fit rounded-full border border-[rgba(214,178,106,0.35)] bg-[rgba(214,178,106,0.08)] px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-[var(--gold)]">
                     {t(`blog.filters.${post.category}`)}
                   </span>
-                  <h2 className="mt-3 text-xl font-bold text-white">{c.title}</h2>
+                  <h2 className="mt-3 text-xl font-bold text-foreground"><ContentLink kind="article" slug={post.slug} className="hover:text-brand">{c.title}</ContentLink></h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{c.summary}</p>
                   <Button
                     id={`blog-trigger-${post.slug}`}
@@ -161,7 +163,10 @@ export function BlogIndex() {
               >
                 <div className="flex justify-end px-5"><Button variant="outline" size="icon" aria-label={closeCopy[lang]} onClick={closeArticle}><X /></Button></div>
                 <BlogPostView post={post} inline />
-                <Button variant="ghost" className="mx-5 mt-6" onClick={closeArticle}><X />{closeCopy[lang]}</Button>
+                <div className="mx-5 mt-6 flex flex-wrap items-center gap-3">
+                  <Button asChild variant="outline" className="h-auto min-h-11 whitespace-normal text-left"><ContentLink kind="article" slug={post.slug}>{linkCopy.fullArticle[lang]}<ArrowRight /></ContentLink></Button>
+                  <Button variant="ghost" onClick={closeArticle}><X />{closeCopy[lang]}</Button>
+                </div>
               </div>}
               </Fragment>
             );

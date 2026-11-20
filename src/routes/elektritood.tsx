@@ -1,3 +1,4 @@
+import { RelatedContent } from "@/components/site/RelatedContent";
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
@@ -334,6 +335,7 @@ export function ElectricalPage() {
         </div>
       </section>
 
+      <RelatedContent service="/elektritood" />
       <ElectricalFAQ />
 
       {/* CTA */}

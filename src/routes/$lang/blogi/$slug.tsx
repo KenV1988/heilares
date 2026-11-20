@@ -1,26 +1,14 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { BlogPostView } from "../../blogi/$slug";
 import { getBlogPost } from "@/data/blog";
-import { localizedContentHead } from "@/lib/locale-seo";
-import { getSupportedLang } from "@/i18n";
+import { blogDetailHead } from "@/lib/blog-head";
 export const Route = createFileRoute("/$lang/blogi/$slug")({
-  loader: ({ params }) => {
-    const post = getBlogPost(params.slug);
-    if (!post) throw notFound();
-    return { post };
-  },
-  head: ({ params, loaderData }) =>
-    loaderData
-      ? localizedContentHead(
-          params.lang,
-          `/blogi/${params.slug}`,
-          loaderData.post.content[getSupportedLang(params.lang)].title,
-          loaderData.post.content[getSupportedLang(params.lang)].summary,
-          "article",
-        )
-      : {},
+  beforeLoad: ({ params }) => { if (!getBlogPost(params.slug)) throw notFound(); },
+  head: ({ params }) => blogDetailHead(params.lang, params.slug),
   component: () => {
-    const { post } = Route.useLoaderData();
+    const { slug } = Route.useParams();
+    const post = getBlogPost(slug);
+    if (!post) throw notFound();
     return <BlogPostView post={post} />;
   },
 });

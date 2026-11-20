@@ -1,3 +1,4 @@
+import { RelatedContent } from "@/components/site/RelatedContent";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { SiteLayout } from "@/components/site/Layout";
@@ -32,6 +33,7 @@ export function PanelsPage() {
       <Process />
       <Why />
       <ParksFAQ />
+      <RelatedContent service="/paikesepargid" />
       <CTA />
     </SiteLayout>
   );

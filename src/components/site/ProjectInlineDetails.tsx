@@ -1,4 +1,4 @@
-import { Check, X } from 'lucide-react';
+import { ArrowRight, Check, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { getSupportedLang } from '@/i18n';
@@ -6,6 +6,8 @@ import { formatCapacity, formatHeilAresShare, formatProjectDuration, getAddition
 import { bessProjectLabels as labels, formatStorage, formatStorageMwh, type BessProject } from '@/data/bess-projects';
 import { ProjectGallery } from './ProjectGallery';
 import { expansionCopy } from './project-expansion';
+import { ContentLink } from './ContentLink';
+import { linkCopy } from '@/lib/content-links';
 
 export function ProjectInlineDetails({ project, onClose }: { project: Project | BessProject; onClose: () => void }) {
   const { t, i18n } = useTranslation();
@@ -36,6 +38,9 @@ export function ProjectInlineDetails({ project, onClose }: { project: Project | 
       </div>
       {photos.length > 0 && <div className="min-w-0"><ProjectGallery photos={photos} title={project.title[lang]} /></div>}
     </div>
-    <Button variant="ghost" className="mt-7 h-11 text-foreground/70" onClick={onClose}><X />{expansionCopy.close[lang]}</Button>
+    <div className="mt-7 flex flex-wrap items-center gap-3">
+      <Button asChild variant="outline" className="h-auto min-h-11 whitespace-normal text-left"><ContentLink kind="project" slug={project.slug}>{linkCopy.fullProject[lang]}<ArrowRight /></ContentLink></Button>
+      <Button variant="ghost" className="h-11 text-foreground/70" onClick={onClose}><X />{expansionCopy.close[lang]}</Button>
+    </div>
   </article>;
 }

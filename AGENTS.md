@@ -16,3 +16,7 @@
 - Language navigation disables scroll reset and carries overview filters to preserve the reading position across localized routes.
 - Blog overview expands the existing article renderer inline after each grid row; standalone article routes remain available for SEO and incoming links.
 - Blog close controls return to the article card on all screen sizes, unlike desktop project close controls, because long editorial content needs an explicit reading-position reset.
+- Detail metadata belongs to route head functions, never the generic client Seo updater; this preserves unique titles after hydration.
+- Keep content-link relationships in one explicit topic map, and use typed localized ContentLink anchors for detail navigation; this prevents irrelevant recommendations and locale drift.
+- Project dropdown cards separate their full-card toggle from the higher-layer title anchor; this preserves expansion without nesting interactive elements.
+- Resolve static blog detail data by slug in render and head, validating it in beforeLoad; this avoids serializing bundled content in loaders.

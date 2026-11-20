@@ -1,3 +1,4 @@
+import { RelatedContent } from "@/components/site/RelatedContent";
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
@@ -121,6 +122,7 @@ export function WorkforcePage() {
         </p>
       </section>
 
+      <RelatedContent service="/toojou-rent" />
       {/* CTA */}
       <section className="container-x py-16 md:py-24">
         <div className="relative overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--bg-card)] px-6 py-16 text-center md:py-24">

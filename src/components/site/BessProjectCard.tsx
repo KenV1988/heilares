@@ -7,6 +7,7 @@ import {
   formatStorageMwh,
   type BessProject,
 } from "@/data/bess-projects";
+import { ContentLink } from "./ContentLink";
 import { ProjectCardFrame, type ProjectExpansionProps } from "./ProjectCardFrame";
 
 export function BessProjectCard({ project, expanded, onToggle }: { project: BessProject } & ProjectExpansionProps) {
@@ -44,8 +45,8 @@ export function BessProjectCard({ project, expanded, onToggle }: { project: Bess
           <MapPin className="h-3.5 w-3.5 shrink-0" />
           {project.location[lang]}
         </div>
-        <h3 className="font-display mt-2 text-xl font-bold leading-tight text-foreground">
-          {project.title[lang]}
+        <h3 id={`project-title-${project.slug}`} className="font-display mt-2 text-xl font-bold leading-tight text-foreground">
+          {onToggle ? <ContentLink kind="project" slug={project.slug} className="pointer-events-auto relative z-10 hover:text-brand">{project.title[lang]}</ContentLink> : project.title[lang]}
         </h3>
         <div className="mt-auto pt-5">
           <div className="border-t border-border pt-5">

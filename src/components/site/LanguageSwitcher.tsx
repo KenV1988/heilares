@@ -41,9 +41,11 @@ export function LanguageSwitcher() {
         {LANGS.map((l) => (
           <DropdownMenuItem
             key={l.code}
-            onClick={() => {
+            onClick={async () => {
+              const scrollY = window.scrollY;
               void i18n.changeLanguage(l.code);
-              void navigate({ href: `${localizePath(pathname, l.code)}${searchStr}${hash ? `#${hash}` : ""}`, resetScroll: false, state: { overviewFilter: state.overviewFilter } });
+              await navigate({ href: `${localizePath(pathname, l.code)}${searchStr}${hash ? `#${hash}` : ""}`, resetScroll: false, state: { overviewFilter: state.overviewFilter } });
+              requestAnimationFrame(() => window.scrollTo({ top: scrollY, behavior: "instant" }));
             }}
             className={`cursor-pointer text-sm ${
               l.code === current.code ? "text-[var(--brand)]" : "text-white/85"

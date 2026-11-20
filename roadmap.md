@@ -1,5 +1,11 @@
 # HeilAres contact and German localization
 
+# Projektide sulgemine ja lihtsam ülevaade
+
+- [ ] Kontrolli järje säilimist kõigi avamis- ja sulgemisviisidega
+- [ ] Eemalda tehtud tööde lehe võrdlustabel kõigis keeltes, säilitades avatavad projektikaardid
+- [ ] Ära keri arvutivaates projekti sulgemisel lehte; säilita telefonis avamiseelne koht
+
 # BESS-projektide võrdlustabel
 
 - [x] Muuda telefonivaade selgeks projektipõhiseks loendiks ilma külgsuunas kerimiseta ja kontrolli kõigis keeltes

@@ -12,4 +12,4 @@
 
 - On the projects overview, use one shared expanded slug across solar and BESS grids; reuse source datasets and keep standalone detail routes intact for existing links and SEO.
 - Place expanded project information after its grid row at each breakpoint and use the shared gallery for ordered, deduplicated photos and accessible lightbox controls.
-- Capture the opened card's viewport position and restore it after the inline panel's exit animation completes, so closing either solar or BESS details preserves the reader's place.
+- Capture the opened card's viewport position and restore it after inline panel exit only below the two-column breakpoint; larger layouts must not programmatically scroll when closing details.

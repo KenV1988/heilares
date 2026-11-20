@@ -8,7 +8,6 @@ import { PageHero } from "@/components/site/PageHero";
 import { Button } from "@/components/ui/button";
 import { ExpandableProjectGrid } from "@/components/site/ExpandableProjectGrid";
 import { projectReturnScrollY } from "@/components/site/project-expansion";
-import { BessProjectComparison } from "@/components/site/BessProjectComparison";
 import { bessProjects, bessProjectLabels } from "@/data/bess-projects";
 import { getSupportedLang } from "@/i18n";
 import { SectionBadge } from "@/components/site/Section";
@@ -39,7 +38,7 @@ export function ProjectsPage() {
   };
   const closeProject = () => {
     if (expandedSlug) document.getElementById(`project-trigger-${expandedSlug}`)?.focus({ preventScroll: true });
-    returnAfterClose.current = true;
+    returnAfterClose.current = window.matchMedia("(max-width: 767px)").matches;
     setExpandedSlug(null);
   };
   const restoreOpeningPosition = () => {
@@ -58,11 +57,6 @@ export function ProjectsPage() {
     if (expandedSlug === slug) { closeProject(); return; }
     rememberOpening(slug);
     setExpandedSlug(slug);
-  };
-  const openFromComparison = (slug: string) => {
-    rememberOpening(slug);
-    setExpandedSlug(slug);
-    requestAnimationFrame(() => document.getElementById(`project-trigger-${slug}`)?.scrollIntoView({ block: "start", behavior: "instant" }));
   };
 
   const filteredSolar = useMemo(
@@ -126,7 +120,6 @@ export function ProjectsPage() {
               <SectionBadge>{bessProjectLabels.category[lang]}</SectionBadge>
             </div>
             <ExpandableProjectGrid projects={bessProjects} expandedSlug={expandedSlug} onToggle={toggleProject} onClose={closeProject} onClosed={restoreOpeningPosition} />
-            <BessProjectComparison onOpenProject={openFromComparison} />
           </div>
         )}
 

@@ -7,6 +7,7 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { Button } from "@/components/ui/button";
 import { BessProjectCard } from "@/components/site/BessProjectCard";
+import { BessProjectComparison } from "@/components/site/BessProjectComparison";
 import { bessProjects, bessProjectLabels } from "@/data/bess-projects";
 import { getSupportedLang } from "@/i18n";
 import { ProjectCard } from "@/components/site/ProjectCard";
@@ -98,6 +99,7 @@ export function ProjectsPage() {
                 <BessProjectCard key={project.slug} project={project} />
               ))}
             </div>
+            <BessProjectComparison />
           </div>
         )}
 

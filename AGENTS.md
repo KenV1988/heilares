@@ -8,3 +8,4 @@
 - Detail-page back links use the shared BackLink to restore the previous history entry and its scroll position, with a localized overview fallback for direct visits.
 - Overview filters live on their router history entry through useOverviewFilter so restored scroll positions correspond to the same filtered project or article layout.
 - Seasonal editorial posts are maintained as four-language entries in a separate dataset and merged into the shared date-sorted blog list.
+- BESS comparison tables read capacities, equipment counts and localized work directly from the reference dataset so cards, details and comparisons cannot drift.

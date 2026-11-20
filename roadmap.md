@@ -2,6 +2,8 @@
 
 # BESS-projektide võrdlustabel
 
+- [x] Muuda telefonivaade selgeks projektipõhiseks loendiks ilma külgsuunas kerimiseta ja kontrolli kõigis keeltes
+
 - [x] Lisa viie projekti akumahud, inverterid ja tehtud tööd võrdlustabelisse ET/EN/FI/DE
 - [x] Kontrolli tabelit ning projektide avamist arvutis ja telefonis kõigis keeltes
 

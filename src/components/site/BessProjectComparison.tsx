@@ -19,7 +19,33 @@ export function BessProjectComparison() {
       <h3 id="bess-comparison-title" className="font-display text-2xl font-bold text-foreground md:text-3xl">
         {copy.title[lang]}
       </h3>
-      <div role="region" aria-labelledby="bess-comparison-title" tabIndex={0} className="mt-6 overflow-x-auto border-y border-border focus-visible:outline-2 focus-visible:outline-ring">
+      <div className="mt-6 divide-y divide-border border-y border-border lg:hidden" data-testid="bess-mobile-comparison">
+        {bessProjects.map((project) => (
+          <article key={project.slug} className="py-7">
+            <LocalizedLink to={`/tehtud-tood/${project.slug}`} className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3 text-foreground transition hover:text-brand-glow focus-visible:outline-2 focus-visible:outline-ring">
+              <h4 className="font-display min-w-0 break-words text-lg font-bold leading-snug">{project.title[lang]}</h4>
+              <ArrowUpRight className="mt-1 h-5 w-5 shrink-0" aria-hidden />
+            </LocalizedLink>
+            <dl className="my-5 grid grid-cols-2 gap-4 bg-bg-elevated p-4">
+              <div className="min-w-0">
+                <dt className="min-h-10 text-sm leading-5 text-foreground/65">{bessProjectLabels.capacity[lang]}</dt>
+                <dd className="font-display mt-1 text-xl font-bold text-brand-glow">{formatStorage(project.storageKwh, lang)}</dd>
+                <dd className="mt-2 text-sm text-foreground/65">{project.batteryCount} × {formatStorage(project.batteryUnitKwh, lang)}</dd>
+              </div>
+              <div className="min-w-0 border-l border-border pl-4">
+                <dt className="min-h-10 text-sm leading-5 text-foreground/65">{bessProjectLabels.power[lang]}</dt>
+                <dd className="font-display mt-1 text-xl font-bold text-gold">{project.inverterPowerKw} kW</dd>
+                <dd className="mt-2 text-sm text-foreground/65">{project.inverterCount} × {project.inverterUnitKw} kW</dd>
+              </div>
+            </dl>
+            <h5 className="text-sm font-semibold text-brand">{bessProjectLabels.work[lang]}</h5>
+            <ul className="mt-3 list-disc space-y-3 pl-5 text-sm leading-relaxed text-foreground/75">
+              {project.work.map((work, index) => <li key={index} className="break-words">{work[lang]}</li>)}
+            </ul>
+          </article>
+        ))}
+      </div>
+      <div role="region" aria-labelledby="bess-comparison-title" tabIndex={0} className="mt-6 hidden overflow-x-auto border-y border-border focus-visible:outline-2 focus-visible:outline-ring lg:block">
         <table className="w-full min-w-[1000px] table-fixed text-left text-sm text-foreground">
           <caption className="sr-only">{copy.title[lang]}</caption>
           <thead className="bg-bg-elevated">

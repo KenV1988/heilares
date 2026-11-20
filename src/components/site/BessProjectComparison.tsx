@@ -28,12 +28,12 @@ export function BessProjectComparison() {
             </LocalizedLink>
             <dl className="my-5 grid grid-cols-2 gap-4 bg-bg-elevated p-4">
               <div className="min-w-0">
-                <dt className="min-h-10 text-sm leading-5 text-foreground/65">{bessProjectLabels.capacity[lang]}</dt>
+                <dt className="min-h-10 break-words text-sm leading-5 text-foreground/65">{bessProjectLabels.capacity[lang]}</dt>
                 <dd className="font-display mt-1 text-xl font-bold text-brand-glow">{formatStorage(project.storageKwh, lang)}</dd>
                 <dd className="mt-2 text-sm text-foreground/65">{project.batteryCount} × {formatStorage(project.batteryUnitKwh, lang)}</dd>
               </div>
               <div className="min-w-0 border-l border-border pl-4">
-                <dt className="min-h-10 text-sm leading-5 text-foreground/65">{bessProjectLabels.power[lang]}</dt>
+                <dt className="min-h-10 break-words text-sm leading-5 text-foreground/65">{bessProjectLabels.power[lang]}</dt>
                 <dd className="font-display mt-1 text-xl font-bold text-gold">{project.inverterPowerKw} kW</dd>
                 <dd className="mt-2 text-sm text-foreground/65">{project.inverterCount} × {project.inverterUnitKw} kW</dd>
               </div>

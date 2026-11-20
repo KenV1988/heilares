@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { useOverviewFilter } from "@/components/site/useOverviewFilter";
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
@@ -7,7 +7,7 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { Button } from "@/components/ui/button";
 import { ExpandableProjectGrid } from "@/components/site/ExpandableProjectGrid";
-import { toggleExpandedProject } from "@/components/site/project-expansion";
+import { projectReturnScrollY } from "@/components/site/project-expansion";
 import { BessProjectComparison } from "@/components/site/BessProjectComparison";
 import { bessProjects, bessProjectLabels } from "@/data/bess-projects";
 import { getSupportedLang } from "@/i18n";
@@ -30,12 +30,37 @@ export function ProjectsPage() {
   const lang = getSupportedLang(i18n.resolvedLanguage || i18n.language);
   const [filter, setFilter] = useOverviewFilter(FILTERS, "all");
   const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
+  const openingPosition = useRef<{ slug: string; top: number } | null>(null);
+  const returnAfterClose = useRef(false);
+  const rememberOpening = (slug: string) => {
+    const card = document.querySelector<HTMLElement>(`[data-project-card="${slug}"]`);
+    openingPosition.current = card ? { slug, top: card.getBoundingClientRect().top } : null;
+    returnAfterClose.current = false;
+  };
   const closeProject = () => {
     if (expandedSlug) document.getElementById(`project-trigger-${expandedSlug}`)?.focus({ preventScroll: true });
+    returnAfterClose.current = true;
     setExpandedSlug(null);
   };
-  const toggleProject = (slug: string) => setExpandedSlug(current => toggleExpandedProject(current, slug));
+  const restoreOpeningPosition = () => {
+    if (!returnAfterClose.current) return;
+    returnAfterClose.current = false;
+    const position = openingPosition.current;
+    if (!position) return;
+    const trigger = document.getElementById(`project-trigger-${position.slug}`);
+    const card = document.querySelector<HTMLElement>(`[data-project-card="${position.slug}"]`);
+    if (!trigger || !card) return;
+    trigger.focus({ preventScroll: true });
+    window.scrollTo({ top: projectReturnScrollY(window.scrollY, card.getBoundingClientRect().top, position.top), behavior: "instant" });
+    openingPosition.current = null;
+  };
+  const toggleProject = (slug: string) => {
+    if (expandedSlug === slug) { closeProject(); return; }
+    rememberOpening(slug);
+    setExpandedSlug(slug);
+  };
   const openFromComparison = (slug: string) => {
+    rememberOpening(slug);
     setExpandedSlug(slug);
     requestAnimationFrame(() => document.getElementById(`project-trigger-${slug}`)?.scrollIntoView({ block: "start", behavior: "instant" }));
   };
@@ -68,7 +93,7 @@ export function ProjectsPage() {
           {FILTERS.map((f) => (
             <Button
               key={f}
-              onClick={() => { setFilter(f); setExpandedSlug(null); }}
+              onClick={() => { returnAfterClose.current = false; openingPosition.current = null; setFilter(f); setExpandedSlug(null); }}
               variant="outline"
               aria-pressed={filter === f}
               className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
@@ -91,7 +116,7 @@ export function ProjectsPage() {
             <div className="mb-6">
               <SectionBadge>{t("nav.panels")}</SectionBadge>
             </div>
-            <ExpandableProjectGrid projects={filteredSolar} expandedSlug={expandedSlug} onToggle={toggleProject} onClose={closeProject} />
+            <ExpandableProjectGrid projects={filteredSolar} expandedSlug={expandedSlug} onToggle={toggleProject} onClose={closeProject} onClosed={restoreOpeningPosition} />
           </div>
         )}
 
@@ -100,7 +125,7 @@ export function ProjectsPage() {
             <div className="mb-6">
               <SectionBadge>{bessProjectLabels.category[lang]}</SectionBadge>
             </div>
-            <ExpandableProjectGrid projects={bessProjects} expandedSlug={expandedSlug} onToggle={toggleProject} onClose={closeProject} />
+            <ExpandableProjectGrid projects={bessProjects} expandedSlug={expandedSlug} onToggle={toggleProject} onClose={closeProject} onClosed={restoreOpeningPosition} />
             <BessProjectComparison onOpenProject={openFromComparison} />
           </div>
         )}

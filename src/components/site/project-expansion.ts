@@ -11,3 +11,7 @@ export const expansionCopy: Record<string, LocalizedText> = {
 
 export const toggleExpandedProject = (current: string | null, selected: string): string | null =>
   current === selected ? null : selected;
+
+// Preserve the card's viewport position even when a different panel changed its document position.
+export const projectReturnScrollY = (scrollY: number, cardTop: number, openingTop: number): number =>
+  Math.max(0, scrollY + cardTop - openingTop);

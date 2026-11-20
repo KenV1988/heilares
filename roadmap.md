@@ -1,5 +1,10 @@
 # HeilAres contact and German localization
 
+# Akupankade pealkirjade lihtsustamine
+
+- [x] Eemalda viie BESS-projekti pealkirjadest mahud kõigis keeltes; säilita mahud eraldi infos
+- [x] Kontrolli kaarte ja detailvaateid telefonis ning arvutis kõigis keeltes
+
 # BESS-fotode järjestus
 
 - [x] Kasuta kõigil viiel BESS-kaardil põhipildina fotot number 1 ning detailis järjekorda 1, 2, 3, 4

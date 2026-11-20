@@ -72,10 +72,10 @@ export const bessProjects: BessProject[] = [
   {
     slug: "parnu-bess-1542",
     title: {
-      et: "Pärnu hübriidelektrijaam – 1,542 MWh",
-      en: "Pärnu Hybrid Power Plant – 1.542 MWh",
-      fi: "Pärnun hybridivoimalaitos – 1,542 MWh",
-      de: "Hybridkraftwerk Pärnu – 1,542 MWh",
+      et: "Pärnu hübriidelektrijaam",
+      en: "Pärnu Hybrid Power Plant",
+      fi: "Pärnun hybridivoimalaitos",
+      de: "Hybridkraftwerk Pärnu",
     },
     description: {
       et: "Objektile rajati energiasalvestussüsteemiga hübriidelektrijaam.",
@@ -145,10 +145,10 @@ export const bessProjects: BessProject[] = [
   {
     slug: "parnu-bess-105",
     title: {
-      et: "Pärnu hübriidelektrijaam – 105 kWh",
-      en: "Pärnu Hybrid Power Plant – 105 kWh",
-      fi: "Pärnun hybridivoimalaitos – 105 kWh",
-      de: "Hybridkraftwerk Pärnu – 105 kWh",
+      et: "Pärnu hübriidelektrijaam",
+      en: "Pärnu Hybrid Power Plant",
+      fi: "Pärnun hybridivoimalaitos",
+      de: "Hybridkraftwerk Pärnu",
     },
     description: {
       et: "Objektile rajati energiasalvestussüsteemiga hübriidelektrijaam.",
@@ -233,10 +233,10 @@ export const bessProjects: BessProject[] = [
   {
     slug: "parnu-bess-630",
     title: {
-      et: "Pärnu hübriidelektrijaam ja akupank – 630 kWh",
-      en: "Pärnu Hybrid Power Plant and Energy Storage – 630 kWh",
-      fi: "Pärnun hybridivoimalaitos ja akkuvarasto – 630 kWh",
-      de: "Hybridkraftwerk und Energiespeicher Pärnu – 630 kWh",
+      et: "Pärnu hübriidelektrijaam ja akupank",
+      en: "Pärnu Hybrid Power Plant and Energy Storage",
+      fi: "Pärnun hybridivoimalaitos ja akkuvarasto",
+      de: "Hybridkraftwerk und Energiespeicher Pärnu",
     },
     description: {
       et: "Objektile rajati energiasalvestussüsteemiga hübriidelektrijaam.",
@@ -324,10 +324,10 @@ export const bessProjects: BessProject[] = [
   {
     slug: "valga-bess-409-6",
     title: {
-      et: "Valga tööstuslik akupank KSTAR BluePulse – 409,6 kWh",
-      en: "Valga Industrial Energy Storage KSTAR BluePulse – 409.6 kWh",
-      fi: "Valgan teollinen KSTAR BluePulse -akkuvarasto – 409,6 kWh",
-      de: "Industrieller KSTAR BluePulse Energiespeicher Valga – 409,6 kWh",
+      et: "Valga tööstuslik akupank KSTAR BluePulse",
+      en: "Valga Industrial Energy Storage KSTAR BluePulse",
+      fi: "Valgan teollinen KSTAR BluePulse -akkuvarasto",
+      de: "Industrieller KSTAR BluePulse Energiespeicher Valga",
     },
     description: {
       et: "Valga objektile rajati tööstuslik KSTAR BluePulse energiasalvestussüsteem.",
@@ -409,10 +409,10 @@ export const bessProjects: BessProject[] = [
   {
     slug: "marjamaa-bess-1260",
     title: {
-      et: "Märjamaa hübriidelektrijaam ja akupank – 1,26 MWh",
-      en: "Märjamaa Hybrid Power Plant and Energy Storage – 1.26 MWh",
-      fi: "Märjamaan hybridivoimalaitos ja akkuvarasto – 1,26 MWh",
-      de: "Hybridkraftwerk und Energiespeicher Märjamaa – 1,26 MWh",
+      et: "Märjamaa hübriidelektrijaam ja akupank",
+      en: "Märjamaa Hybrid Power Plant and Energy Storage",
+      fi: "Märjamaan hybridivoimalaitos ja akkuvarasto",
+      de: "Hybridkraftwerk und Energiespeicher Märjamaa",
     },
     description: {
       et: "Objektile rajati energiasalvestussüsteemiga hübriidelektrijaam.",
